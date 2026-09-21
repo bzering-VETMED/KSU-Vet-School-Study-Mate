@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#8855b8"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Study Mate"><link rel="manifest" href="manifest.webmanifest"><title>KSU Vet School Study Mate</title><style>
+:root{--ink:#493451;--deep:#70428f;--pink2:#ffe7f2;--lav:#f0e9ff;--line:#eadff2;--bg:#fff9fd}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);line-height:1.45;background:radial-gradient(circle at 0 0,#ffeaf4 0,transparent 25%),radial-gradient(circle at 100% 0,#eee6ff 0,transparent 28%),var(--bg)}
+.wrap{max-width:1050px;margin:auto;padding:18px 12px 62px}
+.hero{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);border-radius:25px;padding:24px;box-shadow:0 12px 30px rgba(90,48,126,.16)}
+.hero h1{margin:0 0 5px;font-size:clamp(28px,5vw,42px)}.hero p{margin:0;opacity:.96}
+.pills,.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.pill{padding:6px 10px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.17);border-radius:999px;font-size:12px;font-weight:800}
+.nav{margin:14px 0}.nav a,.btn{display:inline-block;text-decoration:none;border:0;border-radius:999px;padding:10px 14px;background:#70428f;color:#fff;font:inherit;font-weight:850;cursor:pointer}.nav a.alt,.btn.alt{background:#fff;color:#70428f;border:1px solid var(--line)}
+.note{background:#fff;border:1px solid var(--line);border-radius:15px;padding:11px 13px;margin:14px 0}
+.decklist,.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.decklink{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 5px 16px rgba(91,44,124,.06)}
+.decklink h3{margin:0 0 5px;color:var(--deep)}.decklink p{margin:0;color:#786c7c;font-size:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:0 5px 16px rgba(91,44,124,.06)}
+.badge{display:inline-block;background:var(--lav);color:#6d5982;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:8px}
+.studyimg{display:block;width:100%;height:285px;object-fit:contain;background:#faf8fc;border-radius:13px;border:1px solid var(--line)}
+.question{font-size:17px;font-weight:800;color:var(--deep);margin:3px 0 8px}.choices{margin:6px 0 0 20px;padding-left:18px}.choices li{margin:5px 0}
+details{margin-top:10px;border:1px solid #ead0df;border-radius:13px;overflow:hidden;background:linear-gradient(135deg,var(--pink2),var(--lav))}
+summary{cursor:pointer;list-style:none;padding:11px 13px;font-weight:900;color:var(--deep)}summary::-webkit-details-marker{display:none}
+.answer{padding:0 13px 13px;text-align:center;font-size:18px;font-weight:850;color:#603783}
+.footer{text-align:center;color:#816d8a;font-size:12px;margin-top:28px}
+@media(max-width:720px){.decklist,.grid{grid-template-columns:1fr}.studyimg{height:auto;max-height:430px}.wrap{padding:10px 8px 48px}}
+</style></head>
+<body><div class="wrap"><section class="hero"><h1>🩺 KSU Vet School Study Mate</h1><p>Tap-reveal study decks</p><div class="pills"><span class="pill">One app</span><span class="pill">Auto-shuffle</span><span class="pill">Offline caching</span></div></section>
+<div class="note"><b>Gross Anatomy I</b></div><div class="decklist">
+<a class="decklink" href="lab11.html"><h3>Lab 11 · Proximal Pelvic Limb</h3><p>23 highlighted-image cards · shuffled every load</p></a>
+<a class="decklink" href="gross_anatomy_quiz3.html"><h3>Lecture Quiz 3</h3><p>5 multiple-choice questions · shuffled every load</p></a>
+</div><div class="footer">KSU Vet School Study Mate</div></div>
+<script>if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));</script></body></html>
