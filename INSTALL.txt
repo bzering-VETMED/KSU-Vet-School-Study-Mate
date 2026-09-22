@@ -1,0 +1,23 @@
+Veterinary Systems I — Exam 2 Update
+
+Copy ALL files in this folder into the ROOT of:
+KSU-Vet-School-Study-Mate
+
+When asked, replace the existing systems-exam2.html.
+
+This update adds:
+- LC19 Microanatomy
+- LC20 Electrocardiophysiology
+- LC21 ECG
+- LC22 Arrhythmias
+- Cardiovascular Control
+- LC23 High-Yield
+- LC31 Blood Smears
+
+Each new deck has:
+- Tap/reveal cards
+- Shuffle
+- Reveal/Hide controls where applicable
+- Back to Exam 2 navigation
+
+LC31 is labeled Lecture 31 throughout.

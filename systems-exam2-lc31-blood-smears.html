@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>LC31 · Blood Smears · Tap to Reveal</title><style>
+:root{--ink:#330B4D;--grape:#7B2FBE;--violet:#6A0DAD;--pink:#E0459A;--pink-soft:#FFD9EC;--blush:#FDF2F9;--lav:#F5ECFD;--line:#E3D0F2}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:Arial,sans-serif;font-size:17px;line-height:1.62;background:radial-gradient(900px 600px at 0 0,#FBE4F4,transparent 60%),radial-gradient(900px 600px at 100% 0,#EFE0FE,transparent 60%),#FFFBFD}.wrap{max-width:820px;margin:auto;padding:22px 16px 40px}
+.hero{border-radius:26px;padding:30px 26px 24px;color:#fff;background:linear-gradient(135deg,#5C1B96,#A22FB5,#E0459A);box-shadow:0 14px 34px rgba(106,13,173,.25);margin-bottom:18px}.eyebrow{font:11px monospace;letter-spacing:.12em;text-transform:uppercase}.hero h1{font-size:2.1rem;margin:8px 0}.chips{display:flex;flex-wrap:wrap;gap:7px}.chip{font:12px monospace;background:#ffffff2e;border:1px solid #ffffff59;padding:5px 11px;border-radius:999px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.bar button{font-weight:700;border:1px solid var(--line);background:#fff;color:var(--violet);border-radius:999px;padding:8px 16px;cursor:pointer}.bar .primary{color:#fff;background:linear-gradient(120deg,var(--violet),var(--pink))}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}.fc{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 6px 18px rgba(123,47,190,.07);overflow:hidden}.fc::before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;background:var(--grape)}.fc:nth-child(even)::before{background:var(--pink)}
+.fc summary{list-style:none;cursor:pointer;padding:14px 14px 14px 22px;min-height:104px}.fc summary::-webkit-details-marker{display:none}.n{font:700 11px monospace;color:var(--pink);letter-spacing:.1em}.qq{font-size:1.12rem;font-weight:800;line-height:1.2;margin-top:2px}.h{font:11px monospace;color:var(--grape);margin-top:8px}.a{padding:10px 12px;margin:0 14px 14px 22px;border-top:1px dashed var(--line);background:var(--blush);border-radius:12px}.fc[open]{background:var(--blush);border-color:var(--pink-soft)}.fc[open] .h{display:none}
+.count{font:12px monospace;color:var(--pink);font-weight:700;margin:6px 0 12px}.foot{text-align:center;font:12px monospace;color:var(--grape);margin-top:26px}.paws{font-size:1.1rem;letter-spacing:.4em;margin-top:6px}
+@media(max-width:560px){.hero h1{font-size:1.8rem}.grid{grid-template-columns:1fr}}
+</style>
+<style id="exam2-back-style">
+.exam2-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 12px;text-decoration:none;
+font-family:Arial,sans-serif;font-weight:700;color:#6A0DAD;background:#fff;border:1px solid #E3D0F2;
+border-radius:999px;padding:8px 13px;box-shadow:0 2px 8px rgba(106,13,173,.08)}
+.exam2-back:focus-visible{outline:3px solid #E0459A;outline-offset:2px}
+</style>
+</head><body><a class="exam2-back" href="systems-exam2.html">← Back to Exam 2</a><div class="wrap">
+<header class="hero"><div class="eyebrow">VAP 807 · Veterinary Systems I · LC31 · Sep 22 2026 · Tap / Reveal</div><h1>Blood Smears — Tap to Reveal 🃏</h1><p><b>24</b> high-yield cards. Tap a card to flip it.</p><div class="chips"><span class="chip">RBC changes</span><span class="chip">WBCs</span><span class="chip">species quirks</span><span class="chip">birds + reptiles</span><span class="chip">IMHA</span></div></header>
+<div class="bar"><button id="all" class="primary">Show all</button><button id="none">Hide all</button><button id="mix">Shuffle</button></div><div class="count" id="count"></div><div class="grid" id="g"><details class="fc"><summary><div class="n">#01</div><div class="qq">Zone of morphology</div><div class="h">tap to reveal</div></summary><div class="a">Monolayer near the feathered edge — judge cell shape here</div></details>
+<details class="fc"><summary><div class="n">#02</div><div class="qq">Feathered edge</div><div class="h">tap to reveal</div></summary><div class="a">Thin tip; WBCs, platelets, parasites pile up</div></details>
+<details class="fc"><summary><div class="n">#03</div><div class="qq">Central pallor</div><div class="h">tap to reveal</div></summary><div class="a">Pale center from the biconcave RBC shape</div></details>
+<details class="fc"><summary><div class="n">#04</div><div class="qq">Anisocytosis</div><div class="h">tap to reveal</div></summary><div class="a">Variation in RBC size</div></details>
+<details class="fc"><summary><div class="n">#05</div><div class="qq">Poikilocytosis</div><div class="h">tap to reveal</div></summary><div class="a">Abnormal RBC shapes</div></details>
+<details class="fc"><summary><div class="n">#06</div><div class="qq">Echinocyte (crenation)</div><div class="h">tap to reveal</div></summary><div class="a">Spiky RBC — usually artifact</div></details>
+<details class="fc"><summary><div class="n">#07</div><div class="qq">Spherocyte</div><div class="h">tap to reveal</div></summary><div class="a">Small, dense, no pallor → immune-mediated hemolysis</div></details>
+<details class="fc"><summary><div class="n">#08</div><div class="qq">Polychromasia</div><div class="h">tap to reveal</div></summary><div class="a">Reticulocytes → regenerative anemia</div></details>
+<details class="fc"><summary><div class="n">#09</div><div class="qq">Howell–Jolly body</div><div class="h">tap to reveal</div></summary><div class="a">Dark dot = leftover nucleus in an RBC</div></details>
+<details class="fc"><summary><div class="n">#10</div><div class="qq">Heinz body</div><div class="h">tap to reveal</div></summary><div class="a">Clump of damaged hemoglobin on RBC edge</div></details>
+<details class="fc"><summary><div class="n">#11</div><div class="qq">Platelets come from…</div><div class="h">tap to reveal</div></summary><div class="a">Megakaryocytes (fragments, 2–3 µm)</div></details>
+<details class="fc"><summary><div class="n">#12</div><div class="qq">WBC order, most → least</div><div class="h">tap to reveal</div></summary><div class="a">Neutrophil, Lymphocyte, Monocyte, Eosinophil, Basophil</div></details>
+<details class="fc"><summary><div class="n">#13</div><div class="qq">Largest WBC</div><div class="h">tap to reveal</div></summary><div class="a">Monocyte (15–20 µm), kidney-shaped nucleus</div></details>
+<details class="fc"><summary><div class="n">#14</div><div class="qq">Rarest WBC</div><div class="h">tap to reveal</div></summary><div class="a">Basophil — histamine + heparin granules</div></details>
+<details class="fc"><summary><div class="n">#15</div><div class="qq">Band neutrophil</div><div class="h">tap to reveal</div></summary><div class="a">Immature, unsegmented nucleus; ↑ = inflammation</div></details>
+<details class="fc"><summary><div class="n">#16</div><div class="qq">Cow WBC twist</div><div class="h">tap to reveal</div></summary><div class="a">Lymphocytes outnumber neutrophils</div></details>
+<details class="fc"><summary><div class="n">#17</div><div class="qq">Rouleaux</div><div class="h">tap to reveal</div></summary><div class="a">RBC coin stacks — normal in horses</div></details>
+<details class="fc"><summary><div class="n">#18</div><div class="qq">Horse eosinophil</div><div class="h">tap to reveal</div></summary><div class="a">Huge, intensely orange granules</div></details>
+<details class="fc"><summary><div class="n">#19</div><div class="qq">Cat platelets</div><div class="h">tap to reveal</div></summary><div class="a">Larger + clump often</div></details>
+<details class="fc"><summary><div class="n">#20</div><div class="qq">Camelid RBCs</div><div class="h">tap to reveal</div></summary><div class="a">Small, oval, no central pallor</div></details>
+<details class="fc"><summary><div class="n">#21</div><div class="qq">Heterophil</div><div class="h">tap to reveal</div></summary><div class="a">Bird/reptile neutrophil; rod orange granules</div></details>
+<details class="fc"><summary><div class="n">#22</div><div class="qq">Thrombocyte (bird/reptile)</div><div class="h">tap to reveal</div></summary><div class="a">Nucleated platelet; mimics a lymphocyte</div></details>
+<details class="fc"><summary><div class="n">#23</div><div class="qq">Azurophil</div><div class="h">tap to reveal</div></summary><div class="a">Reptile-only monocyte variant</div></details>
+<details class="fc"><summary><div class="n">#24</div><div class="qq">Pale dog + spherocytes + polychromasia</div><div class="h">tap to reveal</div></summary><div class="a">Immune-mediated hemolytic anemia (IMHA) → steroids ± transfusion</div></details></div><script>
+(function(){
+ const g=document.getElementById('g'), count=document.getElementById('count');
+ const cards=()=>Array.from(g.querySelectorAll('.fc'));
+ function u(){count.textContent=cards().filter(x=>x.open).length+' / '+cards().length+' revealed';}
+ g.addEventListener('toggle',u,true);
+ document.getElementById('all').addEventListener('click',()=>{cards().forEach(x=>x.open=true);u();});
+ document.getElementById('none').addEventListener('click',()=>{cards().forEach(x=>x.open=false);u();});
+ document.getElementById('mix').addEventListener('click',()=>{let a=cards();for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}a.forEach(x=>{x.open=false;g.appendChild(x)});u();});
+ u();
+})();
+</script>
+<div class="foot">Bethany · K-State CVM Class of 2030 · VAP 807 Veterinary Systems I · Sep 22 2026<div class="paws">🐾🐾🐾</div></div></div></body></html>
