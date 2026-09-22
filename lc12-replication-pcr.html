@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>VAP805 LC12 — Replication & PCR — Merged Study Deck</title>
+<style>
+:root{--deep:#2e1250;--grape:#5b2a86;--violet:#7b3fb3;--pink:#e0529c;--pinkl:#fde7f2;--lav:#f1e9fb;--lav2:#e4d6f6;--mint:#e0f6ec;--mintd:#1f7a52;--ink:#241733;--mute:#6b5a7e;--card:#fff;--bg:#f8f4fd;
+--disp:ui-rounded,"SF Pro Rounded","Arial Rounded MT Bold",system-ui,sans-serif;--body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--body)}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--deep),var(--grape) 55%,var(--pink));color:#fff;padding:34px 20px 30px}
+.hero:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.16) 1.5px,transparent 1.6px);background-size:18px 18px}
+.hero>*{position:relative;max-width:820px;margin-left:auto;margin-right:auto}
+.hero .tag{font:12px var(--mono);opacity:.85}
+.hero h1{font:800 clamp(26px,6vw,40px)/1.1 var(--disp);margin:6px auto 8px}
+.hero p{margin:0 auto;opacity:.92;max-width:820px}
+nav{position:sticky;top:0;z-index:5;background:rgba(46,18,80,.96);padding:8px 10px;overflow-x:auto;white-space:nowrap}
+nav a{display:inline-block;color:#fff;text-decoration:none;font:600 13px var(--body);padding:5px 11px;margin-right:4px;border-radius:999px;background:rgba(255,255,255,.12)}
+main{max-width:820px;margin:0 auto;padding:16px 14px 40px}
+h2.pill{display:inline-block;font:800 19px var(--disp);color:#fff;background:linear-gradient(90deg,var(--grape),var(--pink));padding:7px 18px;border-radius:999px;margin:26px 0 12px;scroll-margin-top:56px}
+.card{background:var(--card);border-radius:16px;padding:16px 16px 14px 20px;margin:12px 0;box-shadow:0 2px 10px rgba(91,42,134,.08);border-left:6px solid var(--grape);position:relative}
+.card:nth-of-type(even){border-left-color:var(--pink)}
+.card h3{font:800 17px/1.25 var(--disp);margin:0 0 6px;display:flex;align-items:center;gap:9px}
+.badge{flex:none;width:28px;height:28px;border-radius:50%;background:var(--grape);color:#fff;font:700 14px var(--disp);display:inline-flex;align-items:center;justify-content:center}
+.eyebrow{font:11px var(--mono);color:var(--violet);margin-bottom:2px}
+.card p{margin:6px 0}.card ul{margin:6px 0;padding-left:20px}.card li{margin:3px 0}
+b,strong{color:var(--deep)}
+.q{font-family:var(--mono);background:var(--pinkl);color:#a8175f;padding:1px 5px;border-radius:5px;font-size:.92em;white-space:nowrap}
+.steps{list-style:none;padding:0;margin:8px 0;counter-reset:s}
+.steps li{counter-increment:s;background:var(--lav);border-radius:999px;padding:7px 14px 7px 44px;margin:6px 0;position:relative}
+.steps li:before{content:counter(s);position:absolute;left:8px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;background:var(--pink);color:#fff;font:700 13px var(--disp);display:flex;align-items:center;justify-content:center}
+.tw{overflow-x:auto;margin:8px 0;border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:440px}
+th{background:linear-gradient(90deg,var(--grape),var(--violet));color:#fff;text-align:left;padding:8px 10px;font-weight:700}
+td{padding:8px 10px;vertical-align:top;border-bottom:1px solid var(--lav2)}
+tr:nth-child(even) td{background:var(--lav)}tr:nth-child(odd) td{background:#fff}
+.panel{border-radius:14px;padding:11px 14px;margin:10px 0}
+.panel .ph{font:800 14px var(--disp);display:block;margin-bottom:3px}
+.key{background:var(--lav2);border:1.5px solid var(--violet)}.key .ph{color:var(--grape)}
+.warn{background:var(--pinkl);border:1.5px solid var(--pink)}.warn .ph{color:#b01a66}
+.mnem{background:var(--mint);border:1.5px solid #6fcf9f}.mnem .ph{color:var(--mintd)}
+.flag{background:#fff6dc;border:1.5px solid #e2b33c}.flag .ph{color:#8a6100}
+.prec{background:#fff;border:2px dashed var(--pink)}.prec .ph{color:#b01a66}
+blockquote{margin:10px 0;padding:10px 14px;border-left:4px solid var(--pink);background:#fff;border-radius:0 12px 12px 0;font-style:italic;color:#4a3560}
+blockquote cite{display:block;font:normal 12px var(--mono);color:var(--mute);margin-top:4px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:10px 0}
+.tile{background:#fff;border-radius:14px;padding:12px;text-align:center;box-shadow:0 2px 8px rgba(91,42,134,.08)}
+.tile .v{font:800 22px var(--disp);color:var(--pink)}.tile .l{font-size:13px;color:var(--mute)}
+.summary{background:linear-gradient(135deg,var(--deep),#4a1d73);color:#f3eaff;border-radius:16px;padding:16px 18px;margin:18px 0}
+.summary h3{font:800 17px var(--disp);margin:0 0 6px;color:#fff}.summary b{color:#ffc3e1}.summary ul{margin:4px 0;padding-left:20px}
+details{background:#fff;border-radius:14px;margin:9px 0;box-shadow:0 2px 8px rgba(91,42,134,.08);border-left:5px solid var(--grape)}
+details:nth-of-type(even){border-left-color:var(--pink)}
+summary{cursor:pointer;padding:12px 14px;font-weight:700;list-style:none;display:flex;gap:9px;align-items:flex-start}
+summary::-webkit-details-marker{display:none}
+summary .badge{width:24px;height:24px;font-size:12px}
+summary:after{content:"tap";margin-left:auto;font:11px var(--mono);color:var(--pink);flex:none;padding-top:3px}
+details[open] summary:after{content:"▲"}
+details .ans{padding:0 14px 12px 47px;color:#3b2a4f}
+.star{background:var(--pink);color:#fff;border-radius:6px;padding:0 6px;font:700 11px var(--mono);vertical-align:2px;white-space:nowrap}
+footer{text-align:center;font:12px var(--mono);color:var(--mute);padding:20px 10px 30px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+@media print{nav{display:none}body{background:#fff}.card,details,.tile{box-shadow:none;break-inside:avoid}details{border:1px solid #ccc}details .ans{display:block}.hero,.summary,th,h2.pill{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+.controls{position:sticky;top:0;z-index:20;background:rgba(248,244,253,.96);backdrop-filter:blur(8px);padding:9px 10px;display:flex;gap:8px;flex-wrap:wrap}
+.controls a,.controls button{border:0;text-decoration:none;background:var(--grape);color:#fff;padding:8px 13px;border-radius:999px;font:700 13px var(--body);cursor:pointer}
+.controls button{background:var(--pink)}
+</style></head><body>
+<header class="hero"><div class="tag">VAP805 · LC12 · MERGED TAP-REVEAL</div>
+<h1>Replication &amp; PCR</h1>
+<p>Full study-guide essentials + quick-recall deck combined without duplicate cards.</p></header>
+<div class="controls">
+<a href="cell-physiology-exam2.html">← Back to Exam 2</a>
+<button id="shuffle" type="button">🔀 Shuffle</button>
+<button id="hide" type="button">Hide all</button>
+</div>
+<main><h2 class="pill">19 high-yield cards</h2>
+<div class="panel key"><span class="ph">How to use</span>Answer out loud first, then tap. Unique details from the longer LC12 guide are folded into the matching cards instead of repeated as a second deck.</div>
+<div id="deck"><details class="study-card"><summary><span class="badge">1</span><span>Purines vs. pyrimidines?</span></summary><div class="ans"><b>Purines</b> (2 rings): A, G. <b>Pyrimidines</b> (1 ring): C, T. <br><b>Also know:</b> nucleotide = phosphate + deoxyribose + base.</div></details><details class="study-card"><summary><span class="badge">2</span><span>Hydrogen bonds in A–T vs. G–C?</span></summary><div class="ans">A–T = <b>2</b>. G–C = <b>3</b> (stronger).</div></details><details class="study-card"><summary><span class="badge">3</span><span>Why is DNA stable if hydrogen bonds are weak?</span></summary><div class="ans"><b>Billions</b> of them add up.</div></details><details class="study-card"><summary><span class="badge">4</span><span>5′ end vs. 3′ end?</span></summary><div class="ans">5′ = free <b>phosphate</b> (carbon 5). 3′ = free <b>OH</b> (carbon 3). <br><b>Also know:</b> DNA strands are antiparallel.</div></details><details class="study-card"><summary><span class="badge">5</span><span>Why doesn't the wrong nucleotide get added?</span></summary><div class="ans">Mismatch = <b>repulsion</b> → bounces off. Right match sticks just long enough to react.</div></details><details class="study-card"><summary><span class="badge">6</span><span>What drives polymerization?</span></summary><div class="ans">Cutting off <b>pyrophosphate</b> from the nucleotide triphosphate (the phosphates repel each other → high energy).</div></details><details class="study-card"><summary><span class="badge">7</span><span>DNA polymerase's 3 limits?</span></summary><div class="ans">Can't use <b>double-stranded</b> DNA · adds only to the <b>3′ end</b> · <b>can't start</b> without a primer. <br><b>Also know:</b> new DNA is always synthesized 5′→3′; the leading-strand template runs 3′→5′.</div></details><details class="study-card"><summary><span class="badge">8</span><span>Why are origins A–T rich?</span></summary><div class="ans">Only 2 hydrogen bonds → <b>easier to pull apart</b>.</div></details><details class="study-card"><summary><span class="badge">9</span><span>Helicase / topoisomerase / SSB proteins?</span></summary><div class="ans"><b>Helicase</b> unzips · <b>topoisomerase</b> cuts, unspins supercoils, reseals · <b>SSB (single-strand binding)</b> keeps strands apart. <br><b>Order:</b> Origin → Helicase/Topo/SSB → Primase → Polymerase → Ligase.</div></details><details class="study-card"><summary><span class="badge">10</span><span>Why an RNA primer?</span></summary><div class="ans"><b>Primase can start from scratch</b>; polymerase can't. RNA is short-lived, so it gets replaced with DNA. <br><b>Also know:</b> RNA's extra OH makes it less stable than DNA.</div></details><details class="study-card"><summary><span class="badge">11</span><span>Leading vs. lagging strand?</span></summary><div class="ans"><b>Leading:</b> continuous. <b>Lagging:</b> short <b>Okazaki fragments</b>. Both built 5′→3′.</div></details><details class="study-card"><summary><span class="badge">12</span><span>Who removes primers and seals gaps?</span></summary><div class="ans">Polymerase <b>exonuclease</b> removes primers; <b>DNA ligase</b> seals. <br><b>Primer cleanup:</b> polymerase exonuclease removes the RNA primer; polymerase replaces it with DNA; ligase seals the remaining nick.</div></details><details class="study-card"><summary><span class="badge">13</span><span>End-replication problem and fix?</span></summary><div class="ans">End primers lost → chromosomes shorten. <b>Telomerase</b> adds junk (non-coding) repeats so genes aren't lost.</div></details><details class="study-card"><summary><span class="badge">14</span><span>Why turn telomerase off in mature cells?</span></summary><div class="ans">Limits division → <b>senescence</b>. Stem cells keep it. <b>Cancer usually turns it back on.</b></div></details><details class="study-card"><summary><span class="badge">15</span><span>Why Taq polymerase?</span></summary><div class="ans"><b>Heat-stable</b> (<i>Thermus aquaticus</i>) — survives 95°C. <br><b>PCR tube:</b> sample DNA + nucleotide triphosphates + target-specific primers + Taq + magnesium buffer.</div></details><details class="study-card"><summary><span class="badge">16</span><span>PCR steps and temps?</span></summary><div class="ans"><b>Denature 95°C → anneal 50–60°C → extend 72°C.</b> Doubles each cycle. <br><b>Also know:</b> typically 30–40 cycles. Heat replaces helicase; primers replace primase; short PCR products do not require ligase.</div></details><details class="study-card"><summary><span class="badge">17</span><span>What makes PCR specific?</span></summary><div class="ans">Designed <b>primers</b> bind only the target sequence. <br><b>Clinical framing:</b> PCR is used to amplify target DNA for diagnosis. The full guide flags a caveat for non-DNA viruses.</div></details><details class="study-card"><summary><span class="badge">18</span><span>Low Ct means?</span></summary><div class="ans"><b>More</b> target DNA. <br><b>Ct = cycle threshold:</b> number of cycles needed to cross the fluorescence threshold.</div></details><details class="study-card"><summary><span class="badge">19</span><span>Why does the curve plateau?</span></summary><div class="ans">Runs out of <b>nucleotides/primers</b>.</div></details></div>
+<div class="summary"><h3>If you remember nothing else</h3><ul>
+<li>A–T = 2 H bonds; G–C = 3; DNA strands are antiparallel.</li>
+<li>DNA polymerase needs single-stranded template + primer and adds only to the 3′ end.</li>
+<li>Telomerase is off in mature cells and commonly reactivated in cancer.</li>
+<li>PCR: 95°C denature → 50–60°C anneal → 72°C extend; low Ct = more starting target DNA.</li>
+</ul></div></main>
+<footer>Bethany · K-State DVM Class of 2030 · VAP805 Cell Physiology I · LC12 🐾</footer>
+<script>
+(function(){
+ const deck=document.getElementById('deck');
+ function cards(){return Array.from(deck.querySelectorAll('.study-card'));}
+ function shuffle(){
+   const a=cards(); a.forEach(x=>x.open=false);
+   for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+   a.forEach(x=>deck.appendChild(x));
+ }
+ document.getElementById('shuffle').addEventListener('click',shuffle);
+ document.getElementById('hide').addEventListener('click',()=>cards().forEach(x=>x.open=false));
+ window.addEventListener('DOMContentLoaded',shuffle);
+})();
+</script></body></html>
