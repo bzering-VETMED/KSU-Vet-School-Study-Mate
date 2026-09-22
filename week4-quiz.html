@@ -1,0 +1,161 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VAP805 Week 4 Interactive Study</title><style>
+:root{
+  --bg:#fff9fd; --card:#ffffff; --ink:#3f2c4d; --muted:#806c8f;
+  --pink:#f5a8cb; --pink2:#ffe2f0; --lilac:#cdb7f6; --lav:#f0e9ff;
+  --purple:#7a57b6; --deep:#5b3a8b; --mint:#dff7ee; --line:#eadff2;
+}
+*{box-sizing:border-box}
+body{margin:0;background:
+radial-gradient(circle at 10% 10%, #ffe7f3 0, transparent 28%),
+radial-gradient(circle at 90% 0%, #eee5ff 0, transparent 30%),
+var(--bg);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);line-height:1.45}
+.wrap{max-width:980px;margin:auto;padding:24px 16px 60px}
+.hero{background:linear-gradient(135deg,var(--deep),var(--purple) 55%,#d66ca7);
+color:white;border-radius:24px;padding:24px 22px;box-shadow:0 12px 30px rgba(91,58,139,.18);margin-bottom:18px}
+.hero h1{margin:0 0 6px;font-size:clamp(28px,5vw,42px)}
+.hero p{margin:0;opacity:.95}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.badge{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.28);padding:6px 10px;border-radius:999px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 5px 18px rgba(91,58,139,.08)}
+.card h3{margin:0 0 10px;color:var(--deep);font-size:18px}
+.qnum{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--lilac));color:#fff;font-weight:800;margin-right:8px}
+.options{margin:10px 0 0;padding-left:20px}
+.options li{margin:5px 0}
+details{margin-top:12px;border-radius:14px;background:linear-gradient(135deg,var(--pink2),var(--lav));border:1px solid #e8d2ec;overflow:hidden}
+summary{cursor:pointer;padding:11px 13px;font-weight:800;color:var(--deep);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:" ✨";float:right}
+details[open] summary::after{content:" 💡"}
+.answer{padding:0 13px 13px}
+.answer b{color:#6c3ca6}
+.why{margin-top:7px;color:#5f5268;font-size:14px}
+.img{width:100%;border-radius:14px;border:1px solid var(--line);margin:8px 0 4px;display:block}
+.section{font-size:20px;color:var(--deep);margin:26px 2px 12px}
+.quick{background:var(--mint);border:1px solid #bfead9;border-radius:16px;padding:14px;margin-top:18px}
+.quick b{color:#3f7868}
+.footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding:14px 10px 40px}.hero{border-radius:18px}}
+@media print{
+  body{background:#fff}
+  details{break-inside:avoid}
+  details .answer{display:block!important}
+  .grid{grid-template-columns:1fr 1fr}
+}
+</style></head><body><div style="max-width:940px;margin:10px auto;padding:0 12px"><a href="cell-physiology-exam2.html" style="display:inline-block;text-decoration:none;background:#6c3b8b;color:white;padding:9px 14px;border-radius:999px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif;font-weight:800">← Back to Exam 2</a></div><div class="wrap">
+<section class="hero"><h1>VAP805 · Week 4 Quiz Review</h1><p>Cell Physiology · LC09–LC11</p>
+<div class="badges"><span class="badge">9 quiz questions</span><span class="badge">Tap-to-reveal answers</span><span class="badge">Compact review</span></div></section>
+<div class="grid">
+        <article class="card">
+          <h3><span class="qnum">1</span>During mitosis, which dynamic behavior must microtubules undergo to successfully form the mitotic spindle and separate chromosomes?</h3>
+          
+          <ol class="options" type="A"><li>They must exclusively undergo rapid polymerization to extend the spindle fibers.</li><li>They must exclusively undergo rapid depolymerization to pull the chromosomes apart.</li><li>They must continuously alternate between polymerization and depolymerization.</li><li>They must remain structurally stable and locked in place throughout cell division.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>They must continuously alternate between polymerization and depolymerization.</b>
+            <div class="why">Mitosis depends on carefully regulated microtubule assembly and disassembly. Either locking them in place or preventing growth disrupts spindle function.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">2</span>Why does actin &quot;waste&quot; cellular energy by hydrolyzing ATP after it is incorporated into a filament?</h3>
+          
+          <ol class="options" type="A"><li>To drive a non-equilibrium state that destabilizes older parts of the filament, allowing the network to be dynamically regulated and recycled.</li><li>To provide the necessary thermodynamic energy required to force new actin monomers to bind to the growing filament tip.</li><li>To generate a mechanical power stroke that allows the microfilament to contract independently of myosin.</li><li>To permanently lock the actin subunits together so that the established cytoskeleton never disassembles.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>To drive a non-equilibrium state that destabilizes older parts of the filament, allowing the network to be dynamically regulated and recycled.</b>
+            <div class="why">ATP-bound actin is incorporated at the growing end; hydrolysis makes older filament regions less stable and supports treadmilling/recycling.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">3</span>A newborn with Epidermolysis Bullosa Simplex has severe skin blistering after mild friction because skin cells tear under low shear stress. Which cytoskeletal system is mutated?</h3>
+          
+          <ol class="options" type="A"><li>Intermediate filaments</li><li>Microtubules</li><li>Motor proteins</li><li>Microfilaments</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>Intermediate filaments</b>
+            <div class="why">Intermediate filaments provide strong resistance to shearing and deformation, especially in epithelia.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">4</span>A Holstein calf with BLAD has severe recurrent infections, poor wound healing, and no pus formation. What is the core cellular deficiency?</h3>
+          
+          <ol class="options" type="A"><li>A mutation in chemical receptors prevents neutrophils from sensing tissue chemokines.</li><li>A structural defect in the neutrophil membrane blocks phagocytosis.</li><li>A mutation in CD18 prevents the expression of functional β2 integrins, making neutrophils unable to establish firm adhesion to the blood vessel wall.</li><li>A defect in selectins prevents the initial carbohydrate-binding step and rolling.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>A mutation in CD18 prevents the expression of functional β2 integrins, making neutrophils unable to establish firm adhesion to the blood vessel wall.</b>
+            <div class="why">CD18 is part of β2 integrin/LFA. In BLAD, leukocytes can roll but fail at firm (arrest) adhesion and therefore cannot extravasate normally.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">5</span>Which class of cell adhesion molecules strictly requires calcium ions to stabilize its extracellular structure and primarily facilitates homophilic interactions?</h3>
+          
+          <ol class="options" type="A"><li>Selectins</li><li>Integrins</li><li>Cadherins</li><li>IgCAMs</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>Cadherins</b>
+            <div class="why">Cadherins are calcium-sensitive and usually bind the same cadherin on a neighboring cell.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">6</span>Which structural feature best differentiates a hemidesmosome from a focal adhesion?</h3>
+          
+          <ol class="options" type="A"><li>Hemidesmosomes are highly dynamic while focal adhesions are highly stable.</li><li>Hemidesmosomes connect to intermediate filaments, whereas focal adhesions connect to microfilaments (actin).</li><li>Hemidesmosomes connect to microtubules, whereas focal adhesions connect to extracellular collagen.</li><li>Hemidesmosomes rely on cadherins, whereas focal adhesions rely on selectins.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>Hemidesmosomes connect to intermediate filaments, whereas focal adhesions connect to microfilaments (actin).</b>
+            <div class="why">Both use integrins for cell–matrix attachment, but the intracellular cytoskeletal partner differs.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">7</span>A proline hydroxylase inhibitor is used experimentally in a fibrotic disease. What is the structural consequence for collagen at normal body temperature?</h3>
+          
+          <ol class="options" type="A"><li>Collagen forms a triple helix but becomes a hollow fluid-filled tube.</li><li>Collagen alpha-chains are chopped into amino acids before translation ends.</li><li>Individual collagen alpha-chains fail to fold and wrap around one another into a stable triple helix conformation.</li><li>Mature triple helices form normally but cannot be secreted.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>Individual collagen alpha-chains fail to fold and wrap around one another into a stable triple helix conformation.</b>
+            <div class="why">Hydroxyproline helps stabilize the tight collagen triple helix. Blocking proline hydroxylation undermines stable helix formation.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">8</span>How does the chemical structure of GAGs produce their primary physical function in weight-bearing tissues such as cartilage?</h3>
+          
+          <ol class="options" type="A"><li>Alternating positive and negative charges create permanent covalent cross-links.</li><li>Their hydrophobic nature excludes water and forms a greasy barrier.</li><li>Their neutral charge allows dry crystalline packing.</li><li>Their high density of negative charges attracts water, creating a hydrated gel that resists compressive forces.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>Their high density of negative charges attracts water, creating a hydrated gel that resists compressive forces.</b>
+            <div class="why">GAGs are highly negatively charged and highly hydrated; they act like sponges and resist compression.</div></div>
+          </details>
+        </article>
+
+        <article class="card">
+          <h3><span class="qnum">9</span>How do adherens junctions and desmosomes differ in their intracellular organization?</h3>
+          
+          <ol class="options" type="A"><li>Adherens connect to microtubules; desmosomes anchor extracellular collagen.</li><li>Adherens join microfilament (actin) networks across cells; desmosomes join intermediate filament networks.</li><li>Adherens form impermeable barriers; desmosomes form cytoplasmic channels.</li><li>Adherens use IgCAMs; desmosomes use selectins.</li></ol>
+          <details>
+            <summary>Tap to reveal answer</summary>
+            <div class="answer"><b>Adherens join microfilament (actin) networks across cells; desmosomes join intermediate filament networks.</b>
+            <div class="why">Adherens couple neighboring actin networks through cadherins/catenins; desmosomes couple intermediate filament networks through desmosomal cadherins and plaque proteins.</div></div>
+          </details>
+        </article></div>
+<div class="quick"><b>Fast memory map:</b> MT = dynamic spindle · Actin = treadmilling · IF = shear strength · CD18 = firm adhesion · Cadherins = Ca²⁺ + homophilic · Focal adhesion = actin · Hemidesmosome = IF · Hydroxyproline = collagen triple helix · GAGs = negative + water + compression · Adherens = actin · Desmosomes = IF.</div>
+<div class="footer">K-State CVM · VAP805 · interactive study sheet</div></div><script>
+(function(){
+function sh(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function run(){
+ const selectors=['.card','.question-card','.quiz-card','.study-card'];
+ let did=false;
+ for(const sel of selectors){const els=[...document.querySelectorAll(sel)];if(els.length>1){const groups=new Map();els.forEach(e=>{let p=e.parentElement;if(!groups.has(p))groups.set(p,[]);groups.get(p).push(e)});groups.forEach((a,p)=>{if(a.length>1){sh(a).forEach(e=>{let d=e.querySelector('details');if(d)d.open=false;p.appendChild(e)});did=true;});}}
+ if(!did){const ds=[...document.querySelectorAll('details')];const groups=new Map();ds.forEach(e=>{let p=e.parentElement;if(!groups.has(p))groups.set(p,[]);groups.get(p).push(e)});groups.forEach((a,p)=>{if(a.length>1)sh(a).forEach(e=>{e.open=false;p.appendChild(e)});});}
+}
+window.addEventListener('DOMContentLoaded',run);
+})();
+</script></body></html>
