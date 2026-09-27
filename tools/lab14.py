@@ -1,5 +1,5 @@
 import sys; sys.path.insert(0,'.')
-import deck; deck.PRACTICAL=3          # Lab 14 belongs to Practical 3
+import deck; deck.PRACTICAL=2          # Lab 14 is on the Practical 2 blueprint
 from deck import *; from oia_thoracic import OIA
 # Source images (re-create in a sandbox): D = native-res crops.
 #  d{pn}.jpg  = Lab 14 Dissection Images PDF page pn, photo only (highlight kept, orientation tags kept, no name labels)
