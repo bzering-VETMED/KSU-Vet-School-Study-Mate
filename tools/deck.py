@@ -1,0 +1,103 @@
+import html,re,os,base64
+from PIL import Image
+CSS='''*{box-sizing:border-box}body{margin:0;background:#fffafd;color:#34213f;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1100px;margin:auto;padding:12px}.hero{padding:18px 20px;border-radius:22px;color:#fff;background:linear-gradient(135deg,#4b1f70,#8d4eb1 55%,#e05fa8)}.hero h1{margin:0;font-size:clamp(24px,3vw,36px)}.hero p{margin:5px 0}
+.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none}
+.bar{position:sticky;top:0;z-index:5;background:#fffafdef;padding:8px 0;display:flex;gap:7px;flex-wrap:wrap;align-items:center}.bar button{border:0;border-radius:999px;padding:10px 15px;font-weight:800;background:#f3eafb;color:#65328c;font-size:15px}.bar .hot{color:#fff;background:linear-gradient(120deg,#6a3392,#e05fa8)}.count{margin-left:auto;font-weight:800;color:#754397}
+.card{display:none;background:#fff;border:1px solid #e6d9f0;border-left:8px solid #7b42a0;border-radius:20px;padding:14px;box-shadow:0 7px 20px #6b328714}.card.on{display:block}
+.q{text-align:center;font-size:clamp(20px,2.6vw,32px);font-weight:850;color:#67338d;margin-bottom:10px}.tagline{display:block;font-size:13px;color:#b0679a;font-weight:700;margin-top:4px}
+.pic{display:flex;align-items:center;justify-content:center;border-radius:14px;background:#f7f0fb}.pic img{display:block;max-width:100%;max-height:62vh;object-fit:contain;border-radius:14px}
+.rev{margin-top:10px;border:2px solid #f1bfd9;background:#fff0f7;border-radius:14px;padding:12px;text-align:center;font-weight:850;color:#d84f99;cursor:pointer}
+.ans{display:none;margin-top:10px;border-radius:14px;padding:14px;background:#f4ebfb;color:#5d2d82}.open .ans{display:block}.open .rev{display:none}
+.ans .name{text-align:center;font-size:clamp(19px,2.2vw,28px);font-weight:850}.ans .clue{text-align:center;font-size:15px;font-weight:700;color:#7a4f96;margin-top:6px}
+.oia{margin-top:10px;display:grid;gap:8px}.m{background:#fff;border-radius:12px;padding:10px 12px;border-left:5px solid #e05fa8}.m b{color:#6a3392}.m div{font-size:15px;margin-top:3px}.m span{display:inline-block;min-width:22px;font-weight:900;color:#e05fa8}
+.ans img{display:block;max-width:100%;max-height:60vh;margin:12px auto 0;border-radius:12px}
+.textq{font-size:clamp(20px,2.6vw,30px)}.list{font-size:17px;line-height:1.5;text-align:left}
+@media(max-width:700px){.wrap{padding:8px}.bar button{padding:9px 12px;font-size:14px}}'''
+JS_OLD='''let cards=[...document.querySelectorAll('.card')],ord=cards.map((_,i)=>i),p=0,C=document.getElementById('count');function cur(){return cards[ord[p]]}function show(){cards.forEach(x=>x.classList.remove('on','open'));cur().classList.add('on');C.textContent=(p+1)+' / '+ord.length;scrollTo(0,0)}function nx(){let c=cur();if(!c.classList.contains('open')){c.classList.add('open');return}if(p<ord.length-1){p++;show()}}function pv(){if(cur().classList.contains('open')){cur().classList.remove('open');return}if(p>0){p--;show()}}next.onclick=nx;prev.onclick=pv;reveal.onclick=()=>cur().classList.toggle('open');shuffle.onclick=()=>{for(let i=ord.length-1;i;i--){let j=Math.floor(Math.random()*(i+1));[ord[i],ord[j]]=[ord[j],ord[i]]}p=0;show()};reset.onclick=()=>{ord=cards.map((_,i)=>i);p=0;show()};document.querySelectorAll('.rev').forEach(r=>r.onclick=()=>cur().classList.add('open'));document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();nx()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();pv()}else if(['Enter',' ','ArrowDown'].includes(e.key)){e.preventDefault();cur().classList.toggle('open')}});show();'''
+E=html.escape
+def oia_block(names,OIA):
+    out=[]
+    for n in names:
+        o,i,a=OIA[n]
+        out.append(f'<div class="m"><b>{E(n)} m.</b><div><span>O</span>{E(o)}</div><div><span>I</span>{E(i)}</div><div><span>A</span>{E(a)}</div></div>')
+    return '<div class="oia">'+''.join(out)+'</div>' if out else ''
+def find_muscles(text,OIA):
+    t=text.lower(); found=[]
+    for k in OIA:
+        if k.lower() in t and k not in found: found.append(k)
+    return found
+def page(title,sub,cards_html,back='gross-anatomy-practical2.html'):
+    import time,re as _re
+    V=str(int(time.time()))
+    cards_html=_re.sub(r'(assets/[A-Za-z0-9_]+\.jpg)',lambda m:m.group(1)+'?v='+V,cards_html)
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(title)}</title><style>{CSS}</style></head><body><div class="wrap"><a class="back" href="{back}">← Back to Practical 2</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="bar"><button id="skipb">⏮ Prev card</button><button id="prev">◀ Prev</button><button class="hot" id="reveal">Reveal</button><button id="next">Next ▶</button><button id="skip">⏭ Next card</button><button id="shuffle">🎲 Shuffle</button><button id="reset">↺ Reset</button><span class="count" id="count"></span></div>{cards_html}</div><script>{JS}</script></body></html>'
+def img_card(q,qimg,name,clue,aimg,muscles,OIA,tag=''):
+    t=f'<span class="tagline">{E(tag)}</span>' if tag else ''
+    ai=f'<img src="{aimg}" loading="lazy">' if aimg else ''
+    return f'<section class="card"><div class="q">{E(q)}{t}</div><div class="pic"><img src="{qimg}" loading="lazy"></div><div class="rev">💗 TAP / CLICKER TO REVEAL</div><div class="ans"><div class="name">{E(name)}</div>{f"<div class=clue>{E(clue)}</div>" if clue else ""}{oia_block(muscles,OIA)}{ai}</div></section>'
+def text_card(q,ans_html,tag=''):
+    t=f'<span class="tagline">{E(tag)}</span>' if tag else ''
+    return f'<section class="card"><div class="q textq">{E(q)}{t}</div><div class="rev">💗 TAP / CLICKER TO REVEAL</div><div class="ans">{ans_html}</div></section>'
+def save_img(src,dst,w):
+    im=Image.open(src).convert('RGB')
+    if im.width>w: im=im.resize((w,int(im.height*w/im.width)))
+    im.save(dst,quality=80)
+def inline(html_text,root):
+    return re.sub(r'src="(assets/[^"]+)"',lambda m:'src="data:image/jpeg;base64,'+base64.b64encode(open(os.path.join(root,m.group(1)),'rb').read()).decode()+'"',html_text)
+
+JS="""let cards=[...document.querySelectorAll('.card')],ord=cards.map((_,i)=>i),p=0,C=document.getElementById('count');
+function cur(){return cards[ord[p]]}function st(c){return [...c.querySelectorAll('.stg')]}function shown(c){return st(c).filter(x=>x.classList.contains('vis')).length}
+function show(){cards.forEach(x=>{x.classList.remove('on');st(x).forEach(s=>s.classList.remove('vis'));upd(x)});cur().classList.add('on');C.textContent=(p+1)+' / '+ord.length;scrollTo(0,0)}
+function upd(c){let s=st(c),n=shown(c);s.forEach((x,i)=>{x.querySelector('.pr')&&(x.style.display=i<=n?'block':'none')});let r=c.querySelector('.rev');if(r)r.textContent=n>=s.length?'✅ Done · Next ▶':(n==0?'💗 TAP TO REVEAL':'💗 TAP TO REVEAL · '+(n)+' / '+s.length)}
+function step(){let c=cur(),s=st(c),n=shown(c);if(n<s.length){s[n].classList.add('vis');upd(c);s[n].scrollIntoView({behavior:'smooth',block:'nearest'});return true}return false}
+function nx(){if(!step()&&p<ord.length-1){p++;show()}}
+function pv(){let c=cur(),s=st(c),n=shown(c);if(n>0){s[n-1].classList.remove('vis');upd(c);return}if(p>0){p--;show()}}
+function all(){let c=cur();st(c).forEach(x=>x.classList.add('vis'));upd(c)}
+next.onclick=nx;prev.onclick=pv;reveal.onclick=all;skip.onclick=()=>{if(p<ord.length-1){p++;show()}};skipb.onclick=()=>{if(p>0){p--;show()}};shuffle.onclick=()=>{for(let i=ord.length-1;i;i--){let j=Math.floor(Math.random()*(i+1));[ord[i],ord[j]]=[ord[j],ord[i]]}p=0;show()};reset.onclick=()=>{ord=cards.map((_,i)=>i);p=0;show()};
+document.querySelectorAll('.rev').forEach(r=>r.onclick=()=>{if(!step())nx()});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown','Enter',' ','ArrowDown'].includes(e.key)){e.preventDefault();nx()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();pv()}});show();"""
+CSS+=""".stg{margin-top:10px}.stg .pr{font-weight:850;color:#67338d;font-size:17px;background:#fff;border:1px dashed #d9bfe9;border-radius:12px;padding:9px 12px}.stg .an{display:none;margin-top:6px;border-radius:12px;padding:10px 12px;background:#f4ebfb;color:#5d2d82;font-weight:750}.stg.vis .an{display:block}.stg .an.big{text-align:center;font-size:clamp(19px,2.2vw,28px);font-weight:850}.stg .an img{display:block;max-width:100%;max-height:60vh;margin:10px auto 0;border-radius:12px}.stg .clue{font-size:15px;color:#7a4f96;margin-top:6px;text-align:center}"""
+def stg(prompt,ans_html,big=False):
+    return f'<div class="stg"><div class="pr">{prompt}</div><div class="an{" big" if big else ""}">{ans_html}</div></div>'
+def img_card2(q,qimg,name,clue,aimg,muscles,OIA,tag=''):
+    t=f'<span class="tagline">{E(tag)}</span>' if tag else ''
+    ai=f'<img src="{aimg}" loading="lazy">' if aimg else ''
+    cl=f'<div class="clue">{E(clue)}</div>' if clue else ''
+    S=[stg('❓ '+E(q),f'{E(name)}{cl}{ai}',True)]
+    for m in muscles:
+        o,i,a=OIA[m]
+        S.append(stg(f'📍 Origin of the {E(m.lower())} m.?',E(o)))
+        S.append(stg(f'🎯 Insertion of the {E(m.lower())} m.?',E(i)))
+        S.append(stg(f'💪 Action of the {E(m.lower())} m.? (complete + specific)',E(a)))
+    return f'<section class="card"><div class="q">{E(q)}{t}</div><div class="pic"><img src="{qimg}" loading="lazy"></div>{"".join(S)}<div class="rev">💗 TAP TO REVEAL</div></section>'
+def text_card2(q,ans,tag=''):
+    t=f'<span class="tagline">{E(tag)}</span>' if tag else ''
+    return f'<section class="card"><div class="q textq">{E(q)}{t}</div>{stg("❓ Your answer?",E(ans),True)}<div class="rev">💗 TAP TO REVEAL</div></section>'
+
+def img_card_facts(q,qimg,name,clue,aimg,facts,tag=''):
+    t=f'<span class="tagline">{E(tag)}</span>' if tag else ''
+    ai=f'<img src="{aimg}" loading="lazy">' if aimg else ''
+    cl=f'<div class="clue">{E(clue)}</div>' if clue else ''
+    S=[stg('❓ '+E(q),f'{E(name)}{cl}{ai}',True)]
+    for pr,an in facts: S.append(stg(E(pr),E(an)))
+    return f'<section class="card"><div class="q">{E(q)}{t}</div><div class="pic"><img src="{qimg}" loading="lazy"></div>{"".join(S)}<div class="rev">💗 TAP TO REVEAL</div></section>'
+
+HUBCSS='''body{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom,0px)}.wrap{max-width:900px;margin:auto;padding:16px}.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none}.hero{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:20px;border-radius:22px}.hero h1{margin:0;font-size:26px}.hero p{margin:6px 0 0}.sec{margin-top:16px;background:#fff;border:1px solid #eadff2;border-radius:18px;padding:14px}.sec h2{margin:0 0 4px;color:#70428f;font-size:19px}.sec p{margin:0 0 8px;color:#8a6b99;font-size:14px}.sec a{display:flex;justify-content:space-between;align-items:center;text-decoration:none;margin:7px 0;padding:12px 14px;border-radius:14px;background:#f7eefb;color:#70428f;font-weight:800}.sec a span{font-size:13px;background:#fff;border-radius:999px;padding:3px 10px;color:#b0679a}.sec.main{border-left:7px solid #7b42a0}.sec.extra{border-left:7px solid #e05fa8}.sec.terms{border-left:7px solid #c9a2f2}'''
+def write_lab(n,title,main,extra,terms_n):
+    import time
+    V=str(int(time.time()))
+    def blk(kind,groups):
+        links=[]
+        for i,(name,cards) in enumerate(groups,1):
+            fn=f'gross-anatomy-lab{n}-{kind}{i}.html'
+            cs=list(cards); cs[0]=cs[0].replace('class="card"','class="card on"',1)
+            lab_label=('⭐ Bold terms' if kind=='main' else '📚 Extra study')
+            open(f'site/{fn}','w').write(page(f'Lab {n} · {name}',f'{lab_label} · {len(cs)} cards',''.join(cs),back=f'gross-anatomy-lab{n}-images.html'))
+            links.append(f'<a href="{fn}?v={V}">{E(name)}<span>{len(cs)} cards</span></a>')
+        return ''.join(links)
+    hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {n}</title><style>{HUBCSS}</style></head><body><div class="wrap"><a class="back" href="gross-anatomy-practical2.html">← Back to Practical 2</a><div class="hero"><h1>{E(title)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>'
+    hub+=f'<div class="sec main"><h2>⭐ Bold terms (start here)</h2><p>Every bold term, in small blocks.</p>{blk("main",main)}</div>'
+    if extra: hub+=f'<div class="sec extra"><h2>📚 Extra study materials</h2><p>Same structures on other dogs. Optional reps.</p>{blk("extra",extra)}</div>'
+    hub+=f'<div class="sec terms"><h2>🧠 No-image terms</h2><a href="gross-anatomy-lab{n}-terms.html?v={V}">Concepts + integration<span>{terms_n} cards</span></a></div></div></body></html>'
+    open(f'site/gross-anatomy-lab{n}-images.html','w').write(hub)
