@@ -27,11 +27,14 @@ def find_muscles(text,OIA):
     for k in OIA:
         if k.lower() in t and k not in found: found.append(k)
     return found
-def page(title,sub,cards_html,back='gross-anatomy-practical2.html'):
+PRACTICAL=2  # set deck.PRACTICAL=3 in a lab script for Practical 3 labs
+def page(title,sub,cards_html,back=None):
+    back=back or f'gross-anatomy-practical{PRACTICAL}.html'
+    backtxt=f'Lab hub' if 'images' in back else f'Practical {PRACTICAL}'
     import time,re as _re
     V=str(int(time.time()))
     cards_html=_re.sub(r'(assets/[A-Za-z0-9_]+\.jpg)',lambda m:m.group(1)+'?v='+V,cards_html)
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(title)}</title><style>{CSS}</style></head><body><div class="wrap"><a class="back" href="{back}">← Back to Practical 2</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="bar"><button id="skipb">⏮ Prev card</button><button id="prev">◀ Prev</button><button class="hot" id="reveal">Reveal</button><button id="next">Next ▶</button><button id="skip">⏭ Next card</button><button id="shuffle">🎲 Shuffle</button><button id="reset">↺ Reset</button><span class="count" id="count"></span></div>{cards_html}</div><script>{JS}</script></body></html>'
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(title)}</title><style>{CSS}</style></head><body><div class="wrap"><a class="back" href="{back}">← Back to {backtxt}</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="bar"><button id="skipb">⏮ Prev card</button><button id="prev">◀ Prev</button><button class="hot" id="reveal">Reveal</button><button id="next">Next ▶</button><button id="skip">⏭ Next card</button><button id="shuffle">🎲 Shuffle</button><button id="reset">↺ Reset</button><span class="count" id="count"></span></div>{cards_html}</div><script>{JS}</script></body></html>'
 def img_card(q,qimg,name,clue,aimg,muscles,OIA,tag=''):
     t=f'<span class="tagline">{E(tag)}</span>' if tag else ''
     ai=f'<img src="{aimg}" loading="lazy">' if aimg else ''
@@ -118,7 +121,7 @@ def write_lab(n,title,main,extra,terms_n):
             open(f'site/{fn}','w').write(page(f'Lab {n} · {name}',f'{lab_label} · {len(cs)} cards',''.join(cs),back=f'gross-anatomy-lab{n}-images.html'))
             links.append(f'<a href="{fn}?v={V}">{E(name)}<span>{len(cs)} cards</span></a>')
         return ''.join(links)
-    hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {n}</title><style>{HUBCSS}</style></head><body><div class="wrap"><a class="back" href="gross-anatomy-practical2.html">← Back to Practical 2</a><div class="hero"><h1>{E(title)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>'
+    hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {n}</title><style>{HUBCSS}</style></head><body><div class="wrap"><a class="back" href="gross-anatomy-practical{PRACTICAL}.html?v={V}">← Back to Practical {PRACTICAL}</a><div class="hero"><h1>{E(title)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>'
     hub+=checklist(n,main,extra)
     hub+=f'<div class="sec main"><h2>⭐ Bold terms (start here)</h2><p>Every bold term, in small blocks.</p>{blk("main",main)}</div>'
     if extra: hub+=f'<div class="sec extra"><h2>📚 Extra study materials</h2><p>Same structures on other dogs. Optional reps.</p>{blk("extra",extra)}</div>'
