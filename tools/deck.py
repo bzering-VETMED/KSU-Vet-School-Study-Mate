@@ -83,7 +83,29 @@ def img_card_facts(q,qimg,name,clue,aimg,facts,tag=''):
     for pr,an in facts: S.append(stg(E(pr),E(an)))
     return f'<section class="card"><div class="q">{E(q)}{t}</div><div class="pic"><img src="{qimg}" loading="lazy"></div>{"".join(S)}<div class="rev">💗 TAP TO REVEAL</div></section>'
 
-HUBCSS='''body{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom,0px)}.wrap{max-width:900px;margin:auto;padding:16px}.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none}.hero{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:20px;border-radius:22px}.hero h1{margin:0;font-size:26px}.hero p{margin:6px 0 0}.sec{margin-top:16px;background:#fff;border:1px solid #eadff2;border-radius:18px;padding:14px}.sec h2{margin:0 0 4px;color:#70428f;font-size:19px}.sec p{margin:0 0 8px;color:#8a6b99;font-size:14px}.sec a{display:flex;justify-content:space-between;align-items:center;text-decoration:none;margin:7px 0;padding:12px 14px;border-radius:14px;background:#f7eefb;color:#70428f;font-weight:800}.sec a span{font-size:13px;background:#fff;border-radius:999px;padding:3px 10px;color:#b0679a}.sec.main{border-left:7px solid #7b42a0}.sec.extra{border-left:7px solid #e05fa8}.sec.terms{border-left:7px solid #c9a2f2}'''
+HUBCSS='''.chk summary{font-weight:900;color:#70428f;cursor:pointer;font-size:17px}.chk .tw{overflow-x:auto}.chk table{width:100%;border-collapse:collapse;font-size:15px;margin-top:6px}.chk td{padding:7px 8px;border-bottom:1px solid #f0e4f7;vertical-align:top}.chk td:first-child{font-weight:800;color:#5d347e}.chk tr:nth-child(even){background:#fbf6fe}body{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom,0px)}.wrap{max-width:900px;margin:auto;padding:16px}.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none}.hero{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:20px;border-radius:22px}.hero h1{margin:0;font-size:26px}.hero p{margin:6px 0 0}.sec{margin-top:16px;background:#fff;border:1px solid #eadff2;border-radius:18px;padding:14px}.sec h2{margin:0 0 4px;color:#70428f;font-size:19px}.sec p{margin:0 0 8px;color:#8a6b99;font-size:14px}.sec a{display:flex;justify-content:space-between;align-items:center;text-decoration:none;margin:7px 0;padding:12px 14px;border-radius:14px;background:#f7eefb;color:#70428f;font-weight:800}.sec a span{font-size:13px;background:#fff;border-radius:999px;padding:3px 10px;color:#b0679a}.sec.main{border-left:7px solid #7b42a0}.sec.extra{border-left:7px solid #e05fa8}.sec.terms{border-left:7px solid #c9a2f2}'''
+def checklist(n,main,extra):
+    import re,html as H
+    from bold import BOLD
+    if n not in BOLD: return ''
+    def txt(cards): return H.unescape(re.sub(r'<[^>]+>',' ',' '.join(cards))).lower()
+    mt=[(name,txt(c)) for name,c in main]; et=[(name,txt(c)) for name,c in extra]
+    try: tt=H.unescape(re.sub(r'<[^>]+>',' ',open(f'site/gross-anatomy-lab{n}-terms.html').read())).lower()
+    except: tt=''
+    rows=[]; got=0
+    for term,al,note in BOLD[n]:
+        where=None
+        for name,t in mt:
+            if any(a in t for a in al): where=('⭐',name); break
+        if not where:
+            for name,t in et:
+                if any(a in t for a in al): where=('📚',name); break
+        if not where and any(a in tt for a in al): where=('🧠','No-image terms')
+        if where: got+=1
+        cell=f'{where[0]} {E(where[1])}' if where else '❗ not in decks yet'
+        if note: cell+=f' · {E(note)}'
+        rows.append(f'<tr><td>{E(term)}</td><td>{cell}</td></tr>')
+    return f'<details class="sec chk"><summary>✅ Bold-term checklist · {got}/{len(BOLD[n])} covered</summary><p>Same order as your bold-term list. ⭐ = bold-term block · 📚 = extra block · 🧠 = no-image terms deck.</p><div class="tw"><table>{"".join(rows)}</table></div></details>'
 def write_lab(n,title,main,extra,terms_n):
     import time
     V=str(int(time.time()))
@@ -97,6 +119,7 @@ def write_lab(n,title,main,extra,terms_n):
             links.append(f'<a href="{fn}?v={V}">{E(name)}<span>{len(cs)} cards</span></a>')
         return ''.join(links)
     hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {n}</title><style>{HUBCSS}</style></head><body><div class="wrap"><a class="back" href="gross-anatomy-practical2.html">← Back to Practical 2</a><div class="hero"><h1>{E(title)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>'
+    hub+=checklist(n,main,extra)
     hub+=f'<div class="sec main"><h2>⭐ Bold terms (start here)</h2><p>Every bold term, in small blocks.</p>{blk("main",main)}</div>'
     if extra: hub+=f'<div class="sec extra"><h2>📚 Extra study materials</h2><p>Same structures on other dogs. Optional reps.</p>{blk("extra",extra)}</div>'
     hub+=f'<div class="sec terms"><h2>🧠 No-image terms</h2><a href="gross-anatomy-lab{n}-terms.html?v={V}">Concepts + integration<span>{terms_n} cards</span></a></div></div></body></html>'
