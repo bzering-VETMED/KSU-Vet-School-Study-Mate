@@ -61,6 +61,17 @@ next.onclick=nx;prev.onclick=pv;reveal.onclick=all;skip.onclick=()=>{if(p<ord.le
 document.querySelectorAll('.rev').forEach(r=>r.onclick=()=>{if(!step())nx()});
 document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown','Enter',' ','ArrowDown'].includes(e.key)){e.preventDefault();nx()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();pv()}});show();"""
 CSS+=""".stg{margin-top:10px}.stg .pr{font-weight:850;color:#67338d;font-size:17px;background:#fff;border:1px dashed #d9bfe9;border-radius:12px;padding:9px 12px}.stg .an{display:none;margin-top:6px;border-radius:12px;padding:10px 12px;background:#f4ebfb;color:#5d2d82;font-weight:750}.stg.vis .an{display:block}.stg .an.big{text-align:center;font-size:clamp(19px,2.2vw,28px);font-weight:850}.stg .an img{display:block;max-width:100%;max-height:60vh;margin:10px auto 0;border-radius:12px}.stg .clue{font-size:15px;color:#7a4f96;margin-top:6px;text-align:center}"""
+CSS+=""".grade{display:flex;gap:8px;margin-top:10px}.grade button{flex:1;border:0;border-radius:12px;padding:12px;font-weight:850;font-size:16px}.grade .ok{background:#e3f6ea;color:#1d6b3c}.grade .no{background:#fde7ee;color:#a2244f}.card.got{border-left-color:#2e9d5b}.card.miss{border-left-color:#d6336c}.zoom{position:fixed;inset:0;z-index:50;background:#000d;display:none;overflow:auto;-webkit-overflow-scrolling:touch}.zoom.on{display:block}.zoom img{display:block;width:200%;max-width:none;margin:0}.zoom b{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));right:12px;background:#fff;color:#65328c;border-radius:999px;padding:8px 14px;font-weight:900}.pic img{cursor:zoom-in}"""
+JS+="""
+(function(){const K='grade:'+location.pathname;let G={};try{G=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+function save(){try{localStorage.setItem(K,JSON.stringify(G))}catch(e){}}
+function paint(){cards.forEach((c,i)=>{c.classList.toggle('got',G[i]==1);c.classList.toggle('miss',G[i]==0)});let g=Object.values(G).filter(v=>v==1).length,m=Object.values(G).filter(v=>v==0).length;sc.textContent='✅ '+g+' · ❌ '+m}
+cards.forEach((c,i)=>{let d=document.createElement('div');d.className='grade';d.innerHTML='<button class="ok">✅ Got it</button><button class="no">❌ Missed it</button>';c.appendChild(d);d.querySelector('.ok').onclick=()=>{G[i]=1;save();paint();skip.click()};d.querySelector('.no').onclick=()=>{G[i]=0;save();paint();skip.click()}});
+let bar=document.querySelector('.bar'),mb=document.createElement('button');mb.textContent='🔁 Misses only';bar.insertBefore(mb,document.getElementById('count'));let sc=document.createElement('span');sc.className='count';sc.style.marginLeft='0';bar.insertBefore(sc,mb.nextSibling);
+mb.onclick=()=>{let m=cards.map((_,i)=>i).filter(i=>G[i]==0);if(!m.length){mb.textContent='🎉 No misses';setTimeout(()=>mb.textContent='🔁 Misses only',1500);return}ord=m;p=0;show()};
+let rz=document.createElement('button');rz.textContent='🧹 Clear scores';rz.onclick=()=>{G={};save();paint()};bar.insertBefore(rz,sc);
+let z=document.createElement('div');z.className='zoom';z.innerHTML='<b>✕ Close</b><img>';document.body.appendChild(z);z.onclick=()=>z.classList.remove('on');
+document.querySelectorAll('.pic img,.an img').forEach(im=>im.onclick=e=>{e.stopPropagation();z.querySelector('img').src=im.src;z.classList.add('on')});paint()})();"""
 def stg(prompt,ans_html,big=False):
     return f'<div class="stg"><div class="pr">{prompt}</div><div class="an{" big" if big else ""}">{ans_html}</div></div>'
 def img_card2(q,qimg,name,clue,aimg,muscles,OIA,tag=''):
@@ -109,6 +120,7 @@ def checklist(n,main,extra):
         if note: cell+=f' · {E(note)}'
         rows.append(f'<tr><td>{E(term)}</td><td>{cell}</td></tr>')
     return f'<details class="sec chk"><summary>✅ Bold-term checklist · {got}/{len(BOLD[n])} covered</summary><p>Same order as your bold-term list. ⭐ = bold-term block · 📚 = extra block · 🧠 = no-image terms deck.</p><div class="tw"><table>{"".join(rows)}</table></div></details>'
+EXTRA_DESC='Same structures on other dogs. Optional reps.'
 def write_lab(n,title,main,extra,terms_n):
     import time
     V=str(int(time.time()))
@@ -124,6 +136,6 @@ def write_lab(n,title,main,extra,terms_n):
     hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {n}</title><style>{HUBCSS}</style></head><body><div class="wrap"><a class="back" href="gross-anatomy-practical{PRACTICAL}.html?v={V}">← Back to Practical {PRACTICAL}</a><div class="hero"><h1>{E(title)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>'
     hub+=checklist(n,main,extra)
     hub+=f'<div class="sec main"><h2>⭐ Bold terms (start here)</h2><p>Every bold term, in small blocks.</p>{blk("main",main)}</div>'
-    if extra: hub+=f'<div class="sec extra"><h2>📚 Extra study materials</h2><p>Same structures on other dogs. Optional reps.</p>{blk("extra",extra)}</div>'
+    if extra: hub+=f'<div class="sec extra"><h2>📚 Extra study materials</h2><p>{E(EXTRA_DESC)}</p>{blk("extra",extra)}</div>'
     hub+=f'<div class="sec terms"><h2>🧠 No-image terms</h2><a href="gross-anatomy-lab{n}-terms.html?v={V}">Concepts + integration<span>{terms_n} cards</span></a></div></div></body></html>'
     open(f'site/gross-anatomy-lab{n}-images.html','w').write(hub)
