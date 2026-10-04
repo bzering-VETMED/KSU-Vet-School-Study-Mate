@@ -49,7 +49,7 @@ VESSEL={'artery','vein','nerve','branch','trunk','ganglion','groove'}
 def match(label,terms):
     L=norm(label); best=None; exacts=set()
     for ti,(term,al,_) in enumerate(terms):
-        for a in ([] if term in ('Nucleus',) else [term])+al:
+        for a in ([] if term in SH.EXACT else [term])+al:
             exact=a.startswith('='); A=norm(a.lstrip('='))
             ok = (L==A) if exact else contains(L,A)
             if not ok: continue

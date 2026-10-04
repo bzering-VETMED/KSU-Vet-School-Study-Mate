@@ -16,9 +16,30 @@ S18=[('Aorta',['=aorta']),('Descending aorta',[]),('Left common carotid artery',
 # --- page 2 screenshot ---
 ('Papillary muscles',['papillary muscle']),('Conus arteriosus',[]),('Nodule',[]),('Valve of the foramen ovale',[]),('Aortic valve',[]),('Left coronary artery',[]),('Paraconal interventricular branch',[]),('Ascending aorta',[]),('Coronary arteries',['left coronary artery','right coronary artery']),('Right common carotid artery',['right common carotid a']),
 ('Vertebral artery',['vertebral a']),('Internal thoracic artery',['internal thoracic a']),('Phrenic nerves',['phrenic nerve']),('Brain',[]),('Spinal nerves',[]),('Somatic efferent neurons',[]),('Autonomic nervous system',[]),('Preganglionic neuron',[]),('Thoracolumbar',[]),('Ventral root',[]),
-('Sympathetic trunk',[]),('Prevertebral (collateral) ganglia',['prevertebral ganglia','collateral ganglia']),('Brachial plexus',[]),('Middle cervical ganglion',[]),('Vagus nerve',['=vagus nerve','left vagus nerve']),('Caudal laryngeal nerve',[]),('Ventral vagal trunk',[]),('Parietal serous pericardium',['inner parietal serous pericardium']),('Phrenicopericardial ligament',[]),('Heart',['=heart'])]
+('Sympathetic trunk',[]),('Prevertebral (collateral) ganglia',['prevertebral ganglia','collateral ganglia']),('Brachial plexus',[]),('Middle cervical ganglion',[]),('Vagus nerve',['=vagus nerve','left vagus nerve']),('Caudal laryngeal nerve',[]),('Ventral vagal trunk',[]),('Parietal serous pericardium',['inner parietal serous pericardium']),('Phrenicopericardial ligament',[]),('Heart',['=heart']),
+# --- page 3 screenshot ---
+('Coronary groove',['coronary sulcus']),('Subsinuosal interventricular groove',[]),('Right auricle',[]),('Cranial vena cava',[]),('Intervenous tubercle',[]),('Endocardium',[]),('Right atrioventricular valve',['right av valve']),('Trabeculae carneae',[]),('Pulmonary valve',['pulmonary valve semilunar cusp']),('Left atrium',[]),
+('Left atrioventricular valve',['left av valve']),('Sinus of the aorta',[]),('Circumflex branch',[]),('Septal branch',[]),('Aortic arch',[]),('Brachiocephalic trunk',[]),('Right subclavian artery',['right subclavian a']),('Costocervical trunk',[]),('Bronchoesophageal artery',['bronchoesophageal a']),('Central nervous system',[]),
+('Spinal cord',[]),('Sensory (afferent) axons',[]),('Visceral efferent neurons',[]),('Ganglion',['=ganglion']),('Postganglionic neuron',[]),('Parasympathetic division',[]),('Dorsal root',[]),('Sympathetic trunk ganglion',['sympathetic trunk ganglia']),('Cranial cervical ganglion',[]),('Vertebral nerve',[]),
+# --- page 4 screenshot ---
+('Cardiac nerves',[]),('Left recurrent laryngeal nerve',[]),('Dorsal branch of the vagus nerve',['dorsal branch of vagus nerve','=dorsal branch']),('Dorsal vagal trunk',[]),('Fibrous pericardium',['middle fibrous pericardium']),('Visceral serous pericardium (epicardium)',['visceral epicardium serous pericardium','epicardium']),('Auricular surface',[]),('Interventricular grooves',['interventricular groove']),('Right atrium',[]),('Caudal vena cava',[]),
+('Right atrioventricular orifice',[]),('Fossa ovalis',[]),('Crista terminalis',[]),('Chordae tendineae',['chordae tendinae']),('Trabecula septomarginalis (moderator band)',['trabecula septomarginalis','moderator band']),('Semilunar cusps',['semilunar cusp','pulmonary valve semilunar cusps']),('Left auricle',[]),('Ligamentum arteriosum',[]),('Right coronary artery',[]),('Subsinuosal interventricular branch',[]),
+('Great cardiac vein',[])]
 NOTE={}
+EXACT={'Nucleus','Ganglion','Heart','Aorta'}  # term name itself must match a label exactly
 CONCEPT={
+'Central nervous system':'Brain + spinal cord',
+'Spinal cord':'CNS within the vertebral canal; gives rise to the spinal nerves (dorsal + ventral roots)',
+'Sensory (afferent) axons':'Carry impulses TO the CNS; cell bodies in the dorsal root (spinal) ganglion',
+'Visceral efferent neurons':'Motor to smooth muscle, cardiac muscle + glands; TWO-neuron chain (= autonomic)',
+'Ganglion':'Cluster of neuron cell bodies OUTSIDE the CNS (inside the CNS = nucleus)',
+'Postganglionic neuron':'Cell body in an autonomic ganglion; axon runs to the target organ',
+'Parasympathetic division':'Craniosacral outflow (CN III, VII, IX, X + sacral segments); long preganglionic, short postganglionic',
+'Dorsal root':'Sensory (afferent) axons entering the spinal cord; carries the spinal (dorsal root) ganglion',
+'Endocardium':'Inner lining of the heart chambers + valves',
+'Interventricular grooves':'Paraconal = LEFT/auricular surface · Subsinuosal = RIGHT/atrial surface',
+'Semilunar cusps':'3 cusps each in the pulmonary + aortic valves; a nodule sits mid free edge',
+'Sinus of the aorta':'Dilations above the aortic valve cusps; coronary aa. arise from the right + left sinuses',
 'Segmental bronchi':'Tertiary (3°) bronchi from each lobar bronchus. Right middle lobe: cranial + caudal segmental bronchi (all others dorsal + ventral)',
 'Left lung':'2 lobes: cranial (cranial + caudal parts) + caudal',
 'Right lung':'4 lobes: cranial, middle, caudal, accessory',

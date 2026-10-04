@@ -31,7 +31,7 @@ def has(h,n): return bool(n) and any(h[i:i+len(n)]==n for i in range(len(h)-len(
 def match(name,terms):
     L=norm(name); hits=[]
     for ti,(t,al) in enumerate(terms):
-        for a in [t]+al:
+        for a in ([] if t in SH.EXACT else [t])+al:
             ex=a.startswith('='); A=norm(a.lstrip('='))
             if (L==A) if ex else has(L,A):
                 # a branch/vein OF a structure is not the structure
@@ -43,7 +43,7 @@ for lst in (PD.L16,PD.L17,PD.L18):
     for t,al,f in lst:
         for k in [t]+al:
             if f and ' '.join(norm(k.lstrip('='))) not in FX: FX[' '.join(norm(k.lstrip('=')))]=f
-FXMAP={'Left cranial lobe: cranial and caudal parts':'left lung cranial lobe cranial part','Right cranial lobe':'right lung cranial lobe','Right accessory lobe':'right lung accessory lobe','Right middle lobe':'right lung middle lobe','Left caudal lobe':'left lung caudal lobe','Brachiocephalic veins':'brachiocephalic vein','External jugular veins':'external jugular vein','Vagosympathetic trunk':'vagosympathetic trunk','Pectinate muscles':'pectinate muscle','Subclavian veins':'subclavian vein','Right caudal lobe':'right lung caudal lobe','Transversus thoracis':'transversus thoracis m','Papillary muscles':'papillary muscles','Phrenic nerves':'phrenic nerves'}
+FXMAP={'Left cranial lobe: cranial and caudal parts':'left lung cranial lobe cranial part','Right cranial lobe':'right lung cranial lobe','Right accessory lobe':'right lung accessory lobe','Right middle lobe':'right lung middle lobe','Left caudal lobe':'left lung caudal lobe','Brachiocephalic veins':'brachiocephalic vein','External jugular veins':'external jugular vein','Vagosympathetic trunk':'vagosympathetic trunk','Pectinate muscles':'pectinate muscle','Subclavian veins':'subclavian vein','Right caudal lobe':'right lung caudal lobe','Transversus thoracis':'transversus thoracis m','Papillary muscles':'papillary muscles','Phrenic nerves':'phrenic nerves','Trabecula septomarginalis (moderator band)':'trabecula septomarginalis','Visceral serous pericardium (epicardium)':'epicardium','Semilunar cusps':'pulmonary valve semilunar cusps','Pulmonary valve':'pulmonary valve semilunar cusps','Circumflex branch':'circumflex branch','Chordae tendineae':'chordae tendineae'}
 def facts(term):
     k=' '.join(norm(FXMAP.get(term,term)))
     return FX.get(k,[])
