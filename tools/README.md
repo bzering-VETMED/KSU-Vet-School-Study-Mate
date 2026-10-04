@@ -5,7 +5,9 @@
 - `deck.PRACTICAL`: set `deck.PRACTICAL=3` (after `import deck`) so hubs/decks link back to the right Practical page.
 - `unlabel(..., keep=KEEP_ORIENT)`: leaves orientation tags (Dorsal/Cranial/…) visible while erasing name labels.
 - `labN.py`: the build script used for each Gross Anatomy lab (Labs 5–13 = Practical 2, Lab 14 = Practical 3) (reference examples; source image paths point to Claude's sandbox and must be re-created).
-- `guidefigs.py`: finds lab-guide figures in the professor's "Notes for Laboratory N" PDFs (labels are vector text), erases ONLY the label text via PDF redaction (anatomy + leader lines untouched), renders at 300 dpi, and draws numbered badges at the leader-line ends.
+- `guidefigs.py` (NOT used for decks — Bethany wants course-slide images):  finds lab-guide figures in the professor's "Notes for Laboratory N" PDFs (labels are vector text), erases ONLY the label text via PDF redaction (anatomy + leader lines untouched), renders at 300 dpi, and draws numbered badges at the leader-line ends.
 - `p3data.py`: Practical 3 bold-term lists (professor's notes order) + staged-reveal facts + no-image concept cards (Labs 16–18).
-- `p3build.py`: builds Labs 16–18 hubs/decks (`cd tools && python3 p3build.py /path/to/Lab_N.pdfs`; needs `ln -s . site` in the repo root). Cross-lab: a figure holding another lab's bold term is added to that lab too.
 - `deck.py` now adds ✅ Got it / ❌ Missed it (saved per page), 🔁 Misses only, 🧹 Clear scores, and tap-to-zoom to every deck page.
+- `pptdeck.py`: course-slide decks straight from .pptx: label text boxes/callouts → their number (box, leader line, highlight, orientation tags untouched); title + notes moved into the reveal; LibreOffice render at the photo's native dpi, cropped.
+- `p3shots.py`: Practical 3 bold terms = Bethany's Canvas screenshots ONLY (same order) + 🧠 answers. `p3data.py` supplies staged-reveal facts.
+- `p3ppt.py`: builds Labs 16–18 (`cd tools && python3 p3ppt.py /path/to/pptx_dir`; needs `ln -s . site` in repo root). Cross-lab: a slide showing another lab's bold term goes in both labs.

@@ -1,0 +1,43 @@
+# Practical 3 bold terms = Bethany's Canvas screenshots ONLY, same order (column 1 top→bottom, then 2, then 3).
+# (term, [aliases], note). Facts come from p3data.FACTS by term.
+S16=[('Atlanto-occipital joint',[]),('Apical ligament',[]),('Intervertebral disc',[]),('Ventral longitudinal ligament',[]),('Interspinous ligaments',['interspinous ligament']),('Cranial costal foveae',[]),('Second cervical spinal nerve',[]),('External jugular vein',['external jugular v','rt external jugular v']),('Mandibular salivary gland',['mandibular gland']),('Accessory nerve (cranial nerve XI)',['accessory nerve','accessory cranial nerve','cnxi','cn xi']),
+('Fifth cervical spinal nerve',[]),('Dorsal intercostal arteries',['intercostal aa','intercostal arteries']),('Intercostal nerves',[]),('Axilla',[]),('Lateral thoracic nerve',[]),('Atlantoaxial joint',['atlanto-axial joint']),('Alar ligaments',['alar ligament']),('Annulus fibrosus',['anulus fibrosus']),('Dorsal longitudinal ligament',[]),('Supraspinous ligament',[]),
+('Caudal costal foveae',[]),('Great auricular nerve',[]),('Linguofacial vein',['linguofacial v']),('Mandibular lymph nodes',[]),('Third cervical spinal nerve',[]),('Vagosympathetic trunk',['vagosympathetic nerve trunk']),('Ventral intercostal branches',['ventral intercostal branches from the internal thoracic artery and vein']),('Cranial thoracic mamma',['cranial thoracic']),('Lateral thoracic artery',[]),('Axillary lymph node',[])]
+S17=[('Cranial epigastric artery',[]),('Pleurae',[]),('Costal pleura',[]),('Mediastinum',[]),('Root of the lung',[]),('Internal thoracic artery',['internal thoracic a']),('Left cranial lobe: cranial and caudal parts',['cranial part cranial lobe','caudal part caudal lobe','cranial part of left cranial lung lobe','caudal part of left cranial lung lobe','cranial lobe cranial part','cranial lobe caudal part']),('Right cranial lobe',['rt cr lung lobe']),('Right accessory lobe',['right accessory lung lobe','=accessory lobe']),('Carina',[]),
+('Tracheobronchial lymph nodes',[]),('Brachiocephalic veins',['brachiocephalic vein','rt brachiocephalic v']),('Right azygos vein',['right azygous vein']),('Left tracheal trunk',['left right tracheal trunk']),('Ascending aorta',[]),('Coronary arteries',['left coronary artery','right coronary artery']),('Right common carotid artery',['right common carotid a']),('Vertebral artery',['vertebral a']),('Cranial superficial epigastric artery',[]),('Pulmonary (visceral) pleura',['pulmonary visceral pleura']),
+('Diaphragmatic pleura',[]),('Pericardial mediastinal pleura',['outer pericardial mediastinal pleura']),('Pulmonary ligament',[]),('Musculophrenic artery',[]),('Left caudal lobe',['left caudal lung lobe']),('Right middle lobe',['rt middle lung lobe']),('Cardiac notch',[]),('Lobar bronchi',[]),('Aortic impression',[]),('External jugular veins',['external jugular vein','external jugular v','rt external jugular v'])]
+S18=[('Aorta',['=aorta']),('Descending aorta',[]),('Left common carotid artery',['left common carotid a']),('Left subclavian artery',[]),('Superficial cervical artery',['superficial cervical a']),('Dorsal intercostal arteries',['intercostal aa','intercostal arteries']),('Peripheral nervous system',[]),('Cranial nerves',[]),('Motor (efferent) axons',[]),('Neuron',[]),
+('Nucleus',[]),('Sympathetic division',[]),('Craniosacral',[]),('Ramus communicans',[]),('Splanchnic nerves',[]),('Cervicothoracic ganglion',[]),('Ansa subclavia',[]),('Vagosympathetic trunk',[]),('Right recurrent laryngeal nerve',[]),('Ventral branch of the vagus nerve',['ventral branch of vagus nerve','=ventral branch']),
+('Pericardium',['=pericardium']),('Pericardial mediastinal pleura',['outer pericardial mediastinal pleura']),('Pericardial cavity',[]),('Atrial surface',[]),('Paraconal interventricular groove',[]),('Sinus venarum',[]),('Coronary sinus',[]),('Interatrial septum',[]),('Pectinate muscles',['pectinate muscle']),('(cut off at the bottom of your screenshot)',['=__none__'])]
+NOTE={'(cut off at the bottom of your screenshot)':'❗ send the rest of the Lab 18 list'}
+CONCEPT={ # 🧠 answers for screenshot terms that can't be photographed
+'Peripheral nervous system':'Cranial nerves + spinal nerves and their ganglia, outside the CNS (CNS = brain + spinal cord)',
+'Cranial nerves':'12 pairs of nerves arising from the brain',
+'Motor (efferent) axons':'Carry impulses FROM the CNS to effectors (muscle, glands). Afferent = sensory, TO the CNS',
+'Neuron':'Cell body + its processes (axon + dendrites)',
+'Nucleus':'Cluster of neuron cell bodies INSIDE the CNS (outside the CNS = ganglion)',
+'Sympathetic division':'Thoracolumbar outflow: preganglionic cell bodies in thoracic + cranial lumbar spinal cord segments',
+'Craniosacral':'= Parasympathetic outflow: brainstem nuclei of CN III, VII, IX, X + sacral spinal cord segments',
+'Ramus communicans':'Connects a spinal nerve with its sympathetic trunk ganglion',
+'Splanchnic nerves':'PREganglionic sympathetic axons that pass through the sympathetic trunk without synapsing → collateral (prevertebral) ganglia, e.g. celiac',
+'Pleurae':'Serous membranes of the thorax: pulmonary (visceral) pleura on the lungs + parietal pleura (costal, diaphragmatic, mediastinal)',
+'Mediastinum':'Space between the two pleural sacs (between the mediastinal pleurae): heart, thymus, trachea, esophagus, great vessels, nerves',
+'Carina':'Partition at the tracheal bifurcation into the principal bronchi ≈ T4–T5; heart base is ventral to it (radiographic landmark)',
+'Diaphragmatic pleura':'Parietal pleura covering the thoracic surface of the diaphragm',
+'Root of the lung':'Principal bronchus + pulmonary a. + pulmonary vv. + bronchial vessels, nerves, lymphatics entering the hilus, sleeved in pleura',
+'Axilla':'Space between the thoracic limb and thoracic wall; ventral = pectorals, dorsal = serratus ventralis attachment to the scapula',
+'Ventral intercostal branches':'From the internal thoracic a. + v.; DOUBLE at the sternal ribs (cranial + caudal to each costal cartilage); anastomose with the dorsal intercostal aa.',
+'Intercostal nerves':'Ventral branches of the thoracic spinal nerves; run on the caudal border of each rib; supply intercostal mm. + thoracic wall skin',
+'Atlanto-occipital joint':'Occipital condyles + atlas · flexion/extension ("yes" joint); continuous with the atlantoaxial joint',
+'Atlantoaxial joint':'Atlas + axis (dens in the fovea dentis) · rotation ("no" joint)',
+'Apical ligament':'Apex of the dens → basioccipital bone between the occipital condyles (single, midline)',
+'Alar ligaments':'Cranial end of the dens → occipital bone (paired, lateral to the apical lig.); limit rotation',
+'Intervertebral disc':'Fibrous joint between vertebral bodies: anulus fibrosus (outer) + nucleus pulposus (inner gel)',
+'Annulus fibrosus':'Outer collagen rings of the disc; thicker VENTRALLY → disc herniates dorsally into the vertebral canal',
+'Ventral longitudinal ligament':'Ventral surface of the vertebral bodies, sacrum → axis; best developed caudal thoracic + lumbar',
+'Dorsal longitudinal ligament':'Floor of the vertebral canal, ventral to the spinal cord, caudal → axis; widens over each anulus',
+'Interspinous ligaments':'Connect adjacent spinous processes',
+'Supraspinous ligament':'Apices of the spinous processes, Cd3 → T1; continues cranially as the nuchal ligament',
+'Cranial costal foveae':'On the craniodorsal body of the SAME-numbered vertebra: articulates with the rib head (ribs 1–10)',
+'Caudal costal foveae':'On the caudodorsal body of the vertebra in FRONT: shares the rib head joint (ribs 1–10)',
+}
