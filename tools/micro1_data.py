@@ -236,3 +236,25 @@ OBJ={
 "lab4":["smooth muscle","cardiac","skeletal","striat","intercalated","branch","peripheral nuclei","endomysium","perimysium","epimysium","muscle spindle","epicardium","myocardium","endocardium","purkinje","elastic artery","muscular artery","arteriole","capillary","vein","tunica intima","endothelium","subendothelial","internal elastic lamina","tunica media","external elastic lamina","tunica adventitia","elastic lamellae"],
 "lab7":["diffuse","nodule","peyer","germinal center","mantle","tonsil","crypt","stratified squamous","lymph node","capsule","trabecula","cortex","paracortex","medulla","hilus","subcapsular sinus","trabecular sinus","medullary cord","medullary sinus","afferent","efferent","high endothelial venule","spleen","red pulp","white pulp","central arteriole","pals","marginal zone","splenic cord","splenic sinus","sheathed","thymus","lobule","epithelial reticular"],
 }
+
+# --- added from lecture PDFs (LC19, Circulatory overview, LC36, LC37, Week 7 orientation); labels erased, numbered
+L4 += [
+("lec/L19_4","Name the 3 heart-wall layers, left (inner surface) → right (outer surface).","Endocardium → myocardium → epicardium","Thin inner lining · thick cardiac muscle · thin outer CT layer","Epicardium = mesothelium + CT + fat; coronary vessels run here",0),
+("lec/L19_13","Identify the wavy pink band. What lines the lumen at 1?","Internal elastic lamina · 1 = endothelium","Wavy sheet right under the endothelium; subendothelial CT sits between","Distinct in arteries, faint or absent in veins",0),
+("lec/L19_18a","What are the dark wavy lines at the arrows (tunica media)?","Elastic lamellae","Many concentric wavy sheets between smooth muscle","Elastic artery (aorta): stretch + recoil (Windkessel effect)",0),
+("lec/L19_18b","Name the 3 bracketed layers, left → right (elastic artery).","Tunica adventitia → tunica media → tunica intima","Outer CT → thick media full of lamellae → thin inner layer","Elastic artery: media is the thickest layer",0),
+("lec/L19_19","Identify the type of vessel.","Muscular artery","Thick smooth-muscle media, round lumen, prominent internal elastic lamina","External elastic lamina separates media from adventitia",0),
+("lec/L19_20","Identify this type of vessel (all 4 panels).","Arteriole","Small round lumen ringed by 1–3 layers of smooth muscle","Main resistance vessels",0),
+("lec/L19_22","Classify the vessels at the teal arrows.","Arterioles (round, thick muscle ring) · venules (larger, thin wall, irregular) · capillary with pericyte (1 cell thick)","Compare wall thickness to lumen size","Venules = main site of leukocyte diapedesis",0),
+("lec/L19_23a","Which vessel is the artery and which is the vein?","1 = artery · 2 = vein","Artery: thick wall, round lumen · vein: thin wall, big flattened lumen","Veins have the thickest adventitia",0),
+("lec/L19_23b","Identify the structure at the teal arrow (vein, trichrome).","Valve","Fold of tunica intima projecting into the lumen","Prevents backflow in medium/large veins",0),
+("lec/CIR_3","Neurovascular bundle: which is the artery, A or B?","A","Thick round muscular wall, round lumen","B = vein (thin wall, collapsed); arteries, veins, nerves travel together",0),
+]
+L7 += [
+("lec/L36_11","Identify the collection of nodules.","Peyer's patch","Group of lymphatic nodules in the small intestine wall (ileum)","M cells in the epithelium sample antigens; B-cell maturation site",0),
+("lec/L36_21","Lymph node paracortex: what are the vessels at the arrows?","High endothelial venules (HEV)","Plump cuboidal endothelium; lymphocytes squeezing through","T cells enter the paracortex here",0),
+("lec/W7_6","Identify the organ, then find the cortex, paracortex, and medulla.","Lymph node · cortex = outer nodules · paracortex = dense zone under the nodules · medulla = paler center of cords + sinuses","Capsule + nodules around the edge","Paracortex = T cells (thymus-dependent zone)",0),
+("lec/W7_8","What space is this, and what cells sit in it (arrows)?","Subcapsular sinus · macrophages","Pale space right under the capsule","First stop for lymph from afferent vessels",0),
+("lec/L37_13","Identify this region of the spleen and name its 5 parts.","White pulp: nodule (B cells), germinal center, central artery, PALS (T cells), marginal zone","Dense purple lymphocytes around a central artery, red pulp around it","Marginal zone = border with red pulp, where blood antigens are sampled",0),
+("lec/L37_18","Red pulp: name structures 1, 2, and 3.","1 = splenic sinusoid · 2 = splenic cord · 3 = macrophage-lined arteriole/capillary","Sinusoids = open channels · cords = cell-filled strips between them","Rod-shaped sinusoid endothelium filters out old RBCs",0),
+]
