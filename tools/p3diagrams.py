@@ -9,6 +9,7 @@ from deck import *
 import p3data as D
 PDF=sys.argv[1] if len(sys.argv)>1 else '/mnt/project'
 SITE=os.path.join(os.path.dirname(__file__),'..'); os.chdir(SITE); os.makedirs('site',exist_ok=True) if not os.path.exists('site') else None
+import p3shots as SH
 LABS={16:D.L16,17:D.L17,18:D.L18}; TERMS={16:D.T16,17:D.T17,18:D.T18}
 TITLES={16:'Lab 16 · Vertebral joints + superficial neck & thoracic wall',17:'Lab 17 · Deep vessels of the thorax + lungs',18:'Lab 18 · ANS structures + heart'}
 E=html.escape
@@ -26,6 +27,21 @@ def norm(t):
         if w=='arterie': w='artery'
         out.append(w)
     return [w for w in out if w not in('the','of')]
+def _shots(lst):
+    fx={}
+    for L in (D.L16,D.L17,D.L18):
+        for t,al,f in L:
+            for k in [t]+al:
+                kk=' '.join(norm(k.lstrip('=')))
+                if f and kk not in fx: fx[kk]=f
+    out=[]
+    for t,al in lst:
+        f=[]
+        for k in [t]+[a for a in al if not a.startswith('=')]:
+            f=fx.get(' '.join(norm(k)),[])
+            if f: break
+        out.append((t,al,f))
+    return out
 def contains(hay,needle):
     n=len(needle)
     return any(hay[i:i+n]==needle for i in range(len(hay)-n+1)) if n else False
@@ -33,7 +49,7 @@ VESSEL={'artery','vein','nerve','branch','trunk','ganglion','groove'}
 def match(label,terms):
     L=norm(label); best=None; exacts=set()
     for ti,(term,al,_) in enumerate(terms):
-        for a in [term]+al:
+        for a in ([] if term in ('Nucleus',) else [term])+al:
             exact=a.startswith('='); A=norm(a.lstrip('='))
             ok = (L==A) if exact else contains(L,A)
             if not ok: continue
@@ -243,7 +259,12 @@ def write(labs):
         hub=f'site/gross-anatomy-lab{lab}-images.html'; h=open(hub).read()
         h=re.sub(r'<!--diag-->.*?<!--/diag-->','',h,flags=re.S)
         k=h.find('<div class="sec terms">'); h=h[:k]+sec+h[k:]
+        for ti,(t,_,_) in enumerate(LABS[lab]):
+            if ti in hits:
+                regs=E(', '.join(dict.fromkeys(hits[ti])))
+                h=h.replace(f'<tr><td>{E(t)}</td><td>🧠 No-image terms · ❗ no photo yet</td></tr>',f'<tr><td>{E(t)}</td><td>📖 Diagram images: {regs} · 🧠 terms (no course-slide photo)</td></tr>')
         open(hub,'w').write(h); out[lab]=sum(len(c) for _,c in blocks(main,'main'))
     return out
+LABS={16:_shots(SH.S16),17:_shots(SH.S17),18:_shots(SH.S18)}
 if __name__=='__main__':
     print(write(build()))
