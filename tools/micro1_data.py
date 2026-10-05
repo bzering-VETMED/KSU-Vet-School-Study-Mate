@@ -278,3 +278,6 @@ L1 += [
 L1 += [
 ("user/lab1_anaphase1","📷 What stage of mitosis is the center cell in?","Anaphase","Two dark groups of chromosomes pulled to OPPOSITE ends of one cell, spindle fibers stretched between them; no nuclear envelope","Next: telophase (two nuclei reform, cell pinches in the middle)",0),
 ]
+L1 += [
+("user/lab1_telophase1","📷 What stage of mitosis is shown?","Telophase","Chromosome groups at opposite ends, cell pinched almost in two by the cleavage furrow, two daughter cells forming","Nuclear envelopes reform; cytokinesis finishes the split",0),
+]
