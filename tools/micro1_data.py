@@ -267,3 +267,8 @@ ATTACH={
 "lab4":[("w4/17","Which muscle cell type is the smallest"),("w4/10","Skeletal vs cardiac vs smooth"),("w4/12","Which muscle has intercalated"),("w4/03","3 CT layers of skeletal muscle"),("lec/L19_4","3 layers of the heart"),("w4/15","Purkinje fibers vs Purkinje cells"),("w4/22","Vessel wall layers"),("w4/19","Elastic vs muscular artery"),("lec/L19_23a","Artery vs vein"),("lec/L19_22","Arteriole vs capillary")],
 "lab7":[("w7/16","What is a primary lymphoid organ"),("w7/23","What does MALT stand for"),("w7/28","Lymph flows from the subcapsular"),("w7/28","Lymph flow through a lymph node"),("lec/L36_21","Blood flow / lymphocyte entry"),("lec/W7_6","Lymph node regions"),("w7/25","Lymphatic nodule parts"),("w7/19","Tonsil distinguishing features"),("w7/17","Spleen vs lymph node"),("w7/43","White pulp parts"),("lec/L37_18","Red pulp parts"),("w7/45","White pulp vs red pulp function"),("w7/36","Thymus organization"),("w7/37","Why is the thymus unique"),("w7/18","Compare 4 lymphatic organs")],
 }
+
+# --- 📷 Bethany's screenshots
+L1 += [
+("user/lab1_prophase1","📷 What stage of mitosis are these cells in?","Prophase","Chromatin condensing into dark threads/clumps INSIDE an intact nuclear envelope; no line, no separation","Next: metaphase (chromosomes line up at the middle)",0),
+]
