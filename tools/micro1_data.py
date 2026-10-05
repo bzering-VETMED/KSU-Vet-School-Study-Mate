@@ -275,3 +275,6 @@ L1 += [
 L1 += [
 ("user/lab1_metaphase1","📷 What stage of mitosis is the center cell in?","Metaphase","Chromosomes lined up in one dark band across the middle (metaphase plate); spindle fibers radiate to each side; no nuclear envelope","Next: anaphase (chromatids pull apart to opposite poles)",0),
 ]
+L1 += [
+("user/lab1_anaphase1","📷 What stage of mitosis is the center cell in?","Anaphase","Two dark groups of chromosomes pulled to OPPOSITE ends of one cell, spindle fibers stretched between them; no nuclear envelope","Next: telophase (two nuclei reform, cell pinches in the middle)",0),
+]
