@@ -289,3 +289,7 @@ L1 += [
 ("user/lab1_plane_tang","📷 What plane of section is this?","Tangential section","Cut just grazes the surface of the structure, so you see a thin slice of its outer edge","Shows the surface, not the center/lumen",1),
 ("user/lab1_plane_xslong","📷 Name the plane of section at 1 and at 2.","1 = cross section · 2 = longitudinal section","1: round profiles · 2: long parallel fibers","Same muscle, two cuts",0),
 ]
+L1 += [
+("user/lab1_plane_plant_xs","📷 (Plant wood) What plane of section is this?","Cross section","Tubes (vessels) cut straight across → round holes","Same rule as animal tissue: round profiles = cross",0),
+("user/lab1_plane_plant_tang","📷 (Plant wood) What plane of section is this?","Tangential section","Cut grazes the side of the log: long streaks, no round openings, a lens-shaped band of cut-across cells in the middle","Tangential = slicing off the outer surface, not through the center",0),
+]
