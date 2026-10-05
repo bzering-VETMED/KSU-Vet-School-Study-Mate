@@ -281,3 +281,11 @@ L1 += [
 L1 += [
 ("user/lab1_telophase1","📷 What stage of mitosis is shown?","Telophase","Chromosome groups at opposite ends, cell pinched almost in two by the cleavage furrow, two daughter cells forming","Nuclear envelopes reform; cytokinesis finishes the split",0),
 ]
+L1 += [
+("user/lab1_plane_xs","📷 What plane of section are these muscle fibers cut in?","Cross (transverse) section","Round/polygonal profiles, each fiber cut straight across","Cut perpendicular to the long axis",0),
+("user/lab1_plane_long","📷 What plane of section is this?","Longitudinal section","Long parallel fibers running the length of the image, striations visible","Cut parallel to the long axis",0),
+("user/lab1_plane_long2","📷 What plane of section is this skeletal muscle cut in?","Longitudinal section","Fibers run as long strips with cross-striations","Compare: cross = round profiles; oblique = ovals",0),
+("user/lab1_plane_obl","📷 What plane of section are these fibers cut in (arrows = long axis of the profile)?","Oblique section","Profiles are OVALS (stretched circles), not round","Cut at an angle between cross and longitudinal",0),
+("user/lab1_plane_tang","📷 What plane of section is this?","Tangential section","Cut just grazes the surface of the structure, so you see a thin slice of its outer edge","Shows the surface, not the center/lumen",1),
+("user/lab1_plane_xslong","📷 Name the plane of section at 1 and at 2.","1 = cross section · 2 = longitudinal section","1: round profiles · 2: long parallel fibers","Same muscle, two cuts",0),
+]
