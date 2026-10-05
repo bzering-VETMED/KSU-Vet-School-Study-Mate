@@ -272,3 +272,6 @@ ATTACH={
 L1 += [
 ("user/lab1_prophase1","📷 What stage of mitosis are these cells in?","Prophase","Chromatin condensing into dark threads/clumps INSIDE an intact nuclear envelope; no line, no separation","Next: metaphase (chromosomes line up at the middle)",0),
 ]
+L1 += [
+("user/lab1_metaphase1","📷 What stage of mitosis is the center cell in?","Metaphase","Chromosomes lined up in one dark band across the middle (metaphase plate); spindle fibers radiate to each side; no nuclear envelope","Next: anaphase (chromatids pull apart to opposite poles)",0),
+]
