@@ -2,7 +2,7 @@
 # Run from repo root: python3 tools/micro1.py  (source crops in SRC; copies to assets/mic1_*.jpg)
 import sys,os,time,html,re
 sys.path.insert(0,'tools'); import deck
-from micro1_data import DECKS,TERMS,OBJ,ATTACH
+from micro1_data import DECKS,TERMS,OBJ,ATTACH,EXTRA,EXAM25
 SRC=os.environ.get('MIC1_SRC','/home/claude/w')
 E=html.escape; V=str(int(time.time()))
 TITLES={'lab1':'Lab 1 · Microscopy & Cytology','lab2':'Lab 2 · Connective Tissue, Epithelium & Skin','lab3':'Lab 3 · Nerve, Cartilage & Bone','lab4':'Lab 4 · Muscle, Heart & Circulation','lab7':'Lab 7 · Lymphatic Tissues & Organs'}
@@ -36,7 +36,7 @@ for slug,title,fav,cards in DECKS:
     for i,blk in enumerate(chunk(img),1):
         fn=f'systems-lp1-{slug}-main{i}.html'; cs=[]
         for c in blk:
-            ex=EX.get(c[0],[]) if c[0] not in seen else []; seen.add(c[0]); cs.append(card(*c,extra=ex))
+            ex=(EX.get(c[0],[])+EXTRA.get(c[0],[])) if c[0] not in seen else []; seen.add(c[0]); cs.append(card(*c,extra=ex))
         alltext+=cs
         cs[0]=cs[0].replace('class="card"','class="card on"',1)
         open(fn,'w').write(deck.page(f'{T.split(" · ")[0]} · Block {i}',f'⭐ Objective images · {len(cs)} cards',''.join(cs),back=hubfn))
@@ -52,6 +52,19 @@ for slug,title,fav,cards in DECKS:
     open(hubfn,'w').write(hub)
     tiles.append(f'<div class="tile"><h2>{fav} {E(T)}</h2><a href="{hubfn}?v={V}">🖼️ Image decks · small blocks ⭐📚</a></div>')
     print(slug,len(img),'img',sum(len(v) for v in EX.values()),'folded',f'{got}/{len(OBJ[slug])}')
+# 📝 2025 practice exam
+ecards=[]
+for i,(a,tell,fn) in enumerate(EXAM25,1):
+    key=f'exam25/q{i:02d}'; dst=f'assets/mic1_exam25_q{i:02d}.jpg'
+    if not os.path.exists(dst): deck.save_img(f'{SRC}/c_{key}.jpg',dst,1400)
+    f=[]
+    if tell: f.append(('🔎 How do you know?',tell))
+    if fn: f.append(('💡 Remember',fn))
+    ecards.append(deck.img_card_facts(f'Q{i} · Answer the question in the image',dst,a,'',None,f))
+ecards[0]=ecards[0].replace('class="card"','class="card on"',1)
+EXF='systems-lp1-exam2025.html'
+open(EXF,'w').write(deck.page('📝 2025 Lab Practical (last year)','51 questions · answers reviewed together 10/6 · not an official key',''.join(ecards),back=PRAC).replace('← Back to Practical 2','← Back to Lab Practical 1'))
+tiles.append(f'<div class="tile"><h2>📝 Practice exam</h2><a href="{EXF}?v={V}">VAP807 Lab 3a Exam 2025 · 51 Q</a></div>')
 prac=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🔬 Systems I · Lab Practical 1</title><style>body{{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}}.wrap{{max-width:1000px;margin:auto;padding:18px}}.hero{{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:24px;border-radius:24px}}.hero h1{{margin:0}}.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}}.tile{{background:#fff;border:1px solid #eadff2;border-radius:18px;padding:18px}}.tile h2{{color:#70428f;margin:0 0 10px;font-size:20px}}.tile a{{display:block;text-decoration:none;margin:7px 0;padding:10px;border-radius:12px;background:#f7eefb;color:#70428f;font-weight:800}}.note{{margin-top:14px;background:#fff;border:1px dashed #eadff2;border-radius:16px;padding:12px 14px;font-size:15px}}@media(max-width:700px){{.grid{{grid-template-columns:1fr}}}}</style></head><body><div class="wrap"><a href="systems-lab.html?v={V}" style="display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none">← Back</a><div class="hero"><h1>🔬 Veterinary Systems I · Lab Practical 1</h1><p>Microanatomy Exam 1 · Tue 10/13 · Labs 1, 2, 3, 4 & 7 · 50 images, fill-in-the-blank</p></div><div class="note">Spell it exactly; there's no word bank. ⚠️ = slide key was ambiguous, confirm in lab. Labs 5–6 (ECG) are NOT on this practical.</div><div class="grid">{"".join(tiles)}</div></div></body></html>'''
 open(PRAC,'w').write(prac)
 s=open('systems-lab.html').read()
