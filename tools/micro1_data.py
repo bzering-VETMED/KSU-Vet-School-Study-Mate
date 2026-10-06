@@ -395,3 +395,40 @@ EXAM25=[
 ("Thymic (Hassall's) corpuscle","Pink onion-like whorl in the medulla","Only in the thymus"),
 ("Nerve (small nerve fascicle)","Small bundle with wavy, elongated nuclei","The big round cells beside it = ganglion"),
 ]
+
+# --- 🧅 All the layers (cross-lab drill, reuses existing images)
+LAYERS=[
+# block A: nerve + skeletal muscle (same pattern: endo → peri → epi)
+(None,"🧅 Say the 3 connective tissue layers of a NERVE, inner → outer.","Endoneurium → perineurium → epineurium","Endo = around each axon · peri = around one fascicle · epi = around the whole nerve","Same pattern as skeletal muscle: endo → peri → epi",0),
+("w3/07","🧅 Nerve: which letter is the endoneurium? Name A and B too.","C = endoneurium · A = epineurium · B = perineurium","Endoneurium is INSIDE the fascicle, around each axon","Outer → inner: A epi → B peri → C endo",0),
+("w3/06","🧅 Identify this thin sheath around one fascicle.","Perineurium","Flattened cells wrapping ONE bundle of axons","Blood–nerve barrier",0),
+("exam25/q23","🧅 (2025 exam) Answer the question in the image.","Perineurium","Sheath around one fascicle","Endoneurium = each axon · epineurium = whole nerve",0),
+(None,"🧅 Say the 3 connective tissue layers of SKELETAL MUSCLE, inner → outer.","Endomysium → perimysium → epimysium","Endo = each fiber · peri = each fascicle · epi = whole muscle","All made by fibroblasts",0),
+("w4/03","🧅 Skeletal muscle: which layer surrounds each fascicle?","Perimysium","Thicker connective tissue between bundles of fibers","Endomysium = each fiber · epimysium = whole muscle",0),
+("w4/05","🧅 What layer is around EACH muscle fiber here, and what cell made it?","Endomysium · fibroblast","Thinnest connective tissue, between individual fibers","",0),
+# block B: heart + vessels
+(None,"🧅 Say the 3 layers of the HEART wall, inner → outer.","Endocardium → myocardium → epicardium","Endo = endothelium + thin CT · myo = cardiac muscle · epi = mesothelium + CT + fat","Purkinje fibers sit in the subendocardium; coronary vessels run in the epicardium",0),
+("lec/L19_4","🧅 Name the 3 heart layers, left → right.","Endocardium → myocardium → epicardium","Thin lining · thick muscle · thin outer CT","",0),
+("w4/14","🧅 Click on the endocardium.","Thin inner lining facing the chamber","Endothelium + subendothelial connective tissue","Innermost heart layer",0),
+("exam25/q35","🧅 (2025 exam) Answer the question in the image.","Epicardium (visceral pericardium)","Outer layer: mesothelium + connective tissue + fat","",0),
+(None,"🧅 Say the 3 layers of a BLOOD VESSEL wall, inner → outer, plus the 2 elastic laminae.","Tunica intima → (internal elastic lamina) → tunica media → (external elastic lamina) → tunica adventitia","Intima = endothelium + subendothelial CT · media = smooth muscle · adventitia = outer CT","Internal elastic lamina = THIN WAVY PINK LINE, not a thick layer",0),
+("w4/22","🧅 Which letter is the tunica intima? Name A and B.","C = tunica intima · A = tunica adventitia · B = tunica media","Intima = innermost, thinnest","",0),
+("w4/21","🧅 Identify the indicated layer of this artery.","Tunica media","Thick circular smooth muscle","Thickest layer in arteries; adventitia is thickest in veins",0),
+("lec/L19_13","🧅 Identify the wavy pink line. What lines the lumen at 1?","Internal elastic lamina · 1 = endothelium","Thin wavy line between intima and media","Clear in arteries, faint or absent in veins",0),
+("w4/20","🧅 Which layer holds these vasa vasorum?","Tunica adventitia","Small vessels in the outer connective tissue","Feed the outer wall of big vessels",0),
+# block C: skin
+(None,"🧅 Say the 3 skin layers, then the 5 epidermis layers deep → superficial.","Epidermis → dermis → hypodermis · basale → spinosum → granulosum → lucidum (thick skin only) → corneum","🌿 'Brittany Spears Gives Little Concerts' = basale, spinosum, granulosum, lucidum, corneum","Dermis = papillary (loose) on top + reticular (dense irregular) below",0),
+("w2b/11","🧅 Identify the bracketed layer containing adipose tissue.","Hypodermis (subcutis)","Deepest layer: loose CT + fat","",0),
+("w2b/12","🧅 Which epidermis layer is the thin dark purple band, and why is it dark?","Stratum granulosum · keratohyalin granules","Just below the stratum corneum","",0),
+("w2b/14","🧅 Which epidermis layer looks 'spiny'?","Stratum spinosum","Desmosomes hold cells together as they shrink → spines","",0),
+("exam25/q30","🧅 (2025 exam) Answer the question in the image.","Papillary layer of the dermis","Loose CT poking up between epidermal ridges","Reticular layer below = dense irregular CT",0),
+# block D: cartilage + bone + lymph organs
+(None,"🧅 Say the 2 layers of the perichondrium AND of the periosteum.","Both = outer fibrous layer + inner cellular layer (chondrogenic for cartilage, osteogenic for bone)","Fibrous = dense CT outside · cellular = makes new cartilage/bone","Endosteum = thin cell layer lining the MARROW side of bone",0),
+("w3/15","🧅 Identify the bracketed connective tissue layer around the cartilage.","Perichondrium","Dense CT wrapping hyaline or elastic cartilage","Fibrocartilage has NO perichondrium",0),
+("w3/37","🧅 Identify the entire bracketed layer around the bone.","Periosteum","Outer fibrous + inner cellular (osteogenic) layer","",0),
+("exam25/q18","🧅 (2025 exam) Answer the question in the image.","Fibrous layer (of the periosteum)","Outer dense CT part","Inner = cellular (osteogenic) layer",0),
+("w3/44","🧅 Identify this membrane that contains osteoblasts.","Endosteum","Thin cell layer lining the marrow side","Periosteum = outer surface",0),
+(None,"🧅 Say the lymph node regions, outer → inner, and the thymus regions.","Lymph node: capsule → cortex (nodules) → paracortex → medulla (cords + sinuses) · Thymus: capsule → cortex (dark) → medulla (pale, Hassall's corpuscles)","Both: outside dark, inside pale","Spleen has NO cortex/medulla: white pulp vs red pulp",0),
+("lec/W7_6","🧅 Find the cortex, paracortex, and medulla.","Cortex = outer nodules · paracortex = dense zone under them · medulla = pale center","","Paracortex = T cells",0),
+("user/lab7_thycortmed","🧅 Thymus: dark outer vs pale inner zone?","Dark outer = cortex · pale inner = medulla","","⚠️ DARK = CORTEX",0),
+]
