@@ -13,3 +13,4 @@
 - `p3ppt.py`: builds Labs 16–18 (`cd tools && python3 p3ppt.py /path/to/pptx_dir`; needs `ln -s . site` in repo root). Cross-lab: a slide showing another lab's bold term goes in both labs.
 - `p3diagrams.py`: adds the 📖 Diagram images section (lab-guide figures from the Notes PDFs) to the Lab 16–18 hubs. Run it AFTER `p3ppt.py` (p3ppt rewrites the hubs). `cd tools && python3 p3diagrams.py /path/to/Lab_N.pdfs`
 - `games/p3.py`: Practical 3 games (simulator auto-reads every Lab 16+ hub incl. 📖 diagrams; order + sort games; separate misses key). Re-run after adding new labs: `python3 tools/games/p3.py` from repo root.
+- `lab16me.py`: Lab 16 📷 my-photo cards from notebook pages (run after p3ppt.py + p3diagrams.py).

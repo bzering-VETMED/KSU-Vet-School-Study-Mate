@@ -10,8 +10,8 @@ for hub in sorted(glob.glob('gross-anatomy-lab*-images.html'),key=lambda f:int(r
     n=int(re.search(r'lab(\d+)',hub).group(1))
     if n<16: continue
     h=open(hub).read()
-    for f,name in re.findall(r'<a href="(gross-anatomy-lab\d+-(?:main|extra|diag)\d+\.html)[^"]*">([^<]+)<span>',h):
-        kind='⭐' if '-main' in f else ('📚' if '-extra' in f else '📖')
+    for f,name in re.findall(r'<a href="(gross-anatomy-lab\d+-(?:main|extra|diag|mine)\d+\.html)[^"]*">([^<]+)<span>',h):
+        kind='⭐' if ('-main' in f or '-mine1' in f) else ('📚' if '-extra' in f else '📖')
         B.append([n,f,f'{kind} {name}'])
 sim=open('tools/games/prac.py').read()
 body=re.search(r"body='''(.*?)'''",sim,re.S).group(1)
