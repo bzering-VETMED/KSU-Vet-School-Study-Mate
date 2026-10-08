@@ -9,7 +9,7 @@ Y='📷 my photo · Lab 16 dissection'
 def crop(page,box,lab_box,k):
     im=Image.open(f'{D}/{page}.jpg').convert('RGB')
     im.crop(box).save(f'assets/lab16_me_{k}q.jpg',quality=90)
-    im.crop(lab_box).save(f'assets/lab16_me_{k}a.jpg',quality=90)
+    im.save(f'assets/lab16_me_{k}a.jpg',quality=90)
     return f'assets/lab16_me_{k}q.jpg?v={V}',f'assets/lab16_me_{k}a.jpg?v={V}'
 def card(k,page,box,lab_box,q,name,facts,clue=''):
     qi,ai=crop(page,box,lab_box,k); return img_card_facts(q,qi,name,clue,ai,facts,Y)
@@ -28,8 +28,6 @@ card('c35a','a-000',(34,586,367,1030),(34,586,650,1030),'Name the segmental cerv
 
 ]
 C=[c for c in C if c]
-C.append(card('c35b','a-000',(661,518,986,951),(420,518,986,1080),'Which muscle was lifted to expose the cervical nerves here, and which nerves are they?',
- 'Omotransversarius lifted · third, fourth + fifth cervical spinal nerves',[O,('📍 Key landmark?','C2–C5 ventral branches all lie under the omotransversarius')]))
 C.append(card('veins','a-001',(35,48,375,500),(35,48,990,500),'Name the 2 veins + the gland they wrap around.',
  'Linguofacial vein · maxillary vein · mandibular salivary gland',
  [O,('🩸 They join to form?','External jugular vein (at the caudal pole of the mandibular salivary gland)'),
