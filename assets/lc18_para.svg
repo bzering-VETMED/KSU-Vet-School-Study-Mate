@@ -17,8 +17,8 @@
 <path d="M166,72 L496,72" class="route pre" marker-end="url(#par)"/>
 <ellipse cx="510" cy="72" rx="13" ry="10" class="gang"/><circle cx="510" cy="72" r="6.5" class="syn"/>
 <path d="M523,72 L584,72" class="route post" marker-end="url(#pab)"/>
-<text x="320" y="62" class="lbl" text-anchor="middle">LONG preganglionic · CN III, VII, IX, X</text>
-<text x="577" y="132" class="lbl" text-anchor="middle">terminal ganglion sits in the organ wall</text><text x="553" y="65" class="sub" text-anchor="middle">short</text>
+<text x="320" y="62" class="lbl" text-anchor="middle">LONG preganglionic · vagus (X)</text>
+<text x="577" y="132" class="lbl" text-anchor="middle">terminal ganglion sits in the organ wall</text><text x="320" y="96" class="sub" text-anchor="middle">(III, VII, IX use named ganglia near the target)</text><text x="553" y="65" class="sub" text-anchor="middle">short</text>
 <rect x="16" y="164" width="150" height="56" rx="10" class="src"/><text x="91" y="188" class="tgtt" text-anchor="middle">Sacral cord S1–S3</text><text x="91" y="204" class="sub" text-anchor="middle">lateral horn</text>
 <rect x="470" y="150" width="214" height="84" rx="12" class="tgt"/><text x="577" y="170" class="tgtt" text-anchor="middle">Pelvic organs</text><text x="577" y="220" class="sub" text-anchor="middle">colon · bladder · repro</text>
 <path d="M166,192 L496,192" class="route pre" marker-end="url(#par)"/>

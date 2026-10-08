@@ -106,8 +106,8 @@ PARA = f'''<div class="figwrap"><svg viewBox="0 0 700 250" role="img" class="map
 <path d="M166,72 L496,72" class="route pre" marker-end="url(#par)"/>
 <ellipse cx="510" cy="72" rx="13" ry="10" class="gang"/>{syn(510,72)}
 <path d="M523,72 L584,72" class="route post" marker-end="url(#pab)"/>
-{tx(320,62,"LONG preganglionic · CN III, VII, IX, X","lbl","middle")}
-{tx(577,132,"terminal ganglion sits in the organ wall","lbl","middle")}{tx(553,65,"short","sub","middle")}
+{tx(320,62,"LONG preganglionic · vagus (X)","lbl","middle")}
+{tx(577,132,"terminal ganglion sits in the organ wall","lbl","middle")}{tx(320,96,"(III, VII, IX use named ganglia near the target)","sub","middle")}{tx(553,65,"short","sub","middle")}
 <rect x="16" y="164" width="150" height="56" rx="10" class="src"/>{tx(91,188,"Sacral cord S1–S3","tgtt","middle")}{tx(91,204,"lateral horn","sub","middle")}
 <rect x="470" y="150" width="214" height="84" rx="12" class="tgt"/>{tx(577,170,"Pelvic organs","tgtt","middle")}{tx(577,220,"colon · bladder · repro","sub","middle")}
 <path d="M166,192 L496,192" class="route pre" marker-end="url(#par)"/>
