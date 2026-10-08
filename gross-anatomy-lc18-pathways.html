@@ -1,0 +1,283 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#512888"><title>ANS Pathway Maps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@400;700&family=Space+Mono&display=swap">
+<style>
+:root{
+ --purple:#512888;--purple-deep:#3B1D66;--purple-soft:#7B54B0;--lav:#EDE4F7;--lav-mid:#C9B6E4;
+ --rose:#D94F7F;--rose-soft:#FBE7EF;--mint:#2F9E76;--mint-soft:#E1F5EC;--flag:#C9631F;--flag-soft:#FFF1E3;
+ --cream:#FDFBF8;--card:#FFFFFF;--ink:#2E2438;--ink-soft:#5C5068;--rowtint:#F7F2FC;
+ --pre:#D2384F;--post:#2F7FD8;--nerve:#B9A8D2;--nerve-faint:#E6DEF1;--gm:#E3D7F2;--syn:#2E2438;
+ --f-display:"Fraunces",Georgia,serif;--f-head:"Baloo 2","Trebuchet MS",sans-serif;
+ --f-body:"Nunito","Segoe UI",system-ui,sans-serif;--f-mono:"Space Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --lav:#2C2140;--lav-mid:#4B3A68;--rose-soft:#3A1E2B;--mint:#5BD3A6;--mint-soft:#163329;--flag:#F0995A;--flag-soft:#33230F;
+ --cream:#17121F;--card:#211A2D;--ink:#EEE7F7;--ink-soft:#B9AECB;--rowtint:#261E34;--purple-soft:#B595E6;--rose:#F07AA2;
+ --pre:#FF6F86;--post:#6FB0FF;--nerve:#6A5A85;--nerve-faint:#30263F;--gm:#3A2E4F;--syn:#EEE7F7;color-scheme:dark}}
+:root[data-theme="dark"]{
+ --lav:#2C2140;--lav-mid:#4B3A68;--rose-soft:#3A1E2B;--mint:#5BD3A6;--mint-soft:#163329;--flag:#F0995A;--flag-soft:#33230F;
+ --cream:#17121F;--card:#211A2D;--ink:#EEE7F7;--ink-soft:#B9AECB;--rowtint:#261E34;--purple-soft:#B595E6;--rose:#F07AA2;
+ --pre:#FF6F86;--post:#6FB0FF;--nerve:#6A5A85;--nerve-faint:#30263F;--gm:#3A2E4F;--syn:#EEE7F7;color-scheme:dark}
+body{background:var(--cream);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:0 48px}
+header.hero{background:linear-gradient(135deg,#3B1D66,#512888 55%,#6B3AA0);color:#fff;border-bottom:6px solid #D94F7F;
+ padding:28px 20px 22px;border-radius:0 0 22px 22px;margin-bottom:28px}
+.badge{display:inline-block;background:#fff;color:#3B1D66;font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;padding:4px 12px;border-radius:99px;text-transform:uppercase}
+.course{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;color:#E5D8F7;margin-top:14px;text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(28px,6vw,40px);line-height:1.1;margin:6px 0 4px;text-wrap:balance}
+.subtitle{font-family:var(--f-head);font-size:17px;color:#F3EAFD}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.pill{font-family:var(--f-mono);font-size:11.5px;padding:4px 11px;border-radius:99px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35)}
+.card{position:relative;background:var(--card);border:1.5px solid var(--lav-mid);border-radius:18px;box-shadow:0 3px 0 var(--lav);
+ padding:30px 20px 20px;margin:34px 0 0}
+.tab{position:absolute;top:-13px;left:16px;background:var(--purple);color:#fff;font-family:var(--f-head);font-weight:600;font-size:13.5px;padding:3px 14px;border-radius:99px}
+:root:not([data-theme="light"]) .tab{background:var(--purple)}
+h2{font-family:var(--f-display);font-weight:600;font-size:24px;margin:0 0 6px;line-height:1.2;text-wrap:balance}
+h3{font-family:var(--f-head);font-weight:600;font-size:18px;margin:18px 0 6px;color:var(--purple-soft)}
+.use{font-size:15px;color:var(--ink-soft);margin:0 0 10px}
+p{margin:8px 0}
+.call{border-radius:14px;padding:12px 16px;margin:14px 0}
+.call .cl{font-family:var(--f-head);font-weight:600;font-size:14px;display:block;margin-bottom:2px}
+.c-lav{background:var(--lav)} .c-mint{background:var(--mint-soft)} .c-mint .cl{color:var(--mint)}
+.c-rose{background:var(--rose-soft)} .c-rose .cl{color:var(--rose)}
+.c-flag{background:var(--flag-soft);border:2px dashed var(--flag)} .c-flag .cl{color:var(--flag)}
+.mic{border:2px dashed var(--purple-soft);border-radius:14px;padding:12px 16px;margin:14px 0}
+.mic .cl{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;color:var(--purple-soft);display:block}
+.figwrap{overflow-x:auto;margin:6px -6px 4px;border-radius:12px;background:var(--rowtint)}
+svg.map{display:block;width:100%;min-width:560px;height:auto}
+.cord{fill:var(--card);stroke:var(--nerve);stroke-width:2}
+.gm{fill:var(--gm)} .lh{fill:var(--gm);stroke:var(--pre);stroke-width:1.5}
+.nv{fill:none;stroke:var(--nerve);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.nv.thick{stroke-width:6}
+.faint .nv{stroke:var(--nerve-faint)} .faint .gang{fill:var(--nerve-faint);stroke:var(--nerve-faint)} .faint .gang-faint{fill:var(--nerve-faint);stroke:var(--nerve-faint)}
+.gang,.gang-faint{fill:var(--lav);stroke:var(--nerve);stroke-width:2}
+.route{fill:none;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round}
+.route.pre{stroke:var(--pre)} .route.post{stroke:var(--post)}
+.route.hormone{stroke:var(--rose);stroke-dasharray:3 4;stroke-width:3}
+.pre-fill{fill:var(--pre)} .post-fill{fill:var(--post)}
+.syn{fill:var(--syn);stroke:var(--card);stroke-width:2.5}
+.ring{fill:none;stroke:var(--ink-soft);stroke-width:2;stroke-dasharray:4 4}
+.tgt{fill:var(--card);stroke:var(--purple-soft);stroke-width:2}
+.tgt.off{stroke:var(--nerve-faint)} .src{fill:var(--lav);stroke:var(--pre);stroke-width:2}
+text{font-family:var(--f-body)}
+.lbl{font-size:12.5px;fill:var(--ink);font-weight:700}
+.sub{font-size:11px;fill:var(--ink-soft)}
+.tiny{font-family:var(--f-mono);font-size:10px;fill:var(--ink-soft);letter-spacing:.1em}
+.tgtt{font-size:12.5px;fill:var(--ink);font-weight:700}
+.nos{font-family:var(--f-mono);font-size:10.5px;fill:var(--ink-soft)}
+.lead{stroke:var(--ink-soft);stroke-width:1;stroke-dasharray:3 3;fill:none}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;margin:8px 0 2px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{width:26px;height:5px;border-radius:3px;display:inline-block}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block;background:var(--syn)}
+.rg{width:14px;height:14px;border-radius:50%;display:inline-block;border:2px dashed var(--ink-soft)}
+ol.steps{margin:10px 0 0;padding-left:0;list-style:none;counter-reset:s;display:grid;gap:6px}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:28px 1fr;gap:8px;align-items:start}
+ol.steps li::before{content:counter(s);font-family:var(--f-head);font-weight:600;background:var(--lav);color:var(--purple-soft);
+ width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:14px}
+.same{color:var(--ink-soft)}
+.tbl{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+th{background:var(--purple);color:#fff;font-family:var(--f-head);font-weight:600;text-align:left;padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px solid var(--lav-mid);vertical-align:top}
+tr:nth-child(even) td{background:var(--rowtint)}
+tr.hot td{background:var(--rose-soft)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-top:10px}
+.tile{background:var(--card);border:1.5px solid var(--lav-mid);border-left:5px solid var(--rose);border-radius:12px;padding:10px 12px;min-width:0}
+.tile b{font-family:var(--f-head);font-size:15.5px;display:block}
+details{border:1.5px solid var(--lav-mid);border-radius:12px;padding:10px 14px;margin:8px 0;background:var(--card)}
+summary{cursor:pointer;font-weight:700;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"◇ ";color:var(--rose)} details[open] summary::before{content:"◆ "}
+details .ans{margin-top:8px;padding-top:8px;border-top:1px dashed var(--lav-mid)}
+.opts{margin:6px 0 0;padding-left:18px}
+footer{text-align:center;margin-top:40px;color:var(--ink-soft);font-family:var(--f-head)}
+.mono{font-family:var(--f-mono);font-size:13px}
+summary:focus-visible,a:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+@media print{details{border:none}}
+</style><style>body{margin:0}header.hero{padding-top:58px}</style></head><body><a href="gross-anatomy-lecture.html?v=1791489200" style="position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);left:10px;z-index:9;background:#fff;color:#512888;border:1.5px solid #C9B6E4;border-radius:999px;padding:8px 14px;font-weight:800;text-decoration:none;font-family:Nunito,system-ui,sans-serif;box-shadow:0 3px 10px rgba(59,29,102,.18)">← Back</a>
+
+<header class="hero"><div class="wrap" style="padding-block:0">
+<span class="badge">PPT Summary</span>
+<div class="course">VAP 806 · Gross Anatomy I · Lecture 18</div>
+<h1>ANS Pathway Maps</h1>
+<div class="subtitle">Nervous System 2 · one simple map per pathway, dog-first</div>
+<div class="pills"><span class="pill">10.07.26 (stand-in date)</span><span class="pill">PPT Summary</span><span class="pill">Slides 21–40 + recording</span><span class="pill">Exam 3</span></div>
+</div></header>
+<main class="wrap">
+
+<section class="card"><span class="tab">How to read these</span>
+<h2>Same map every time. Only the route changes.</h2>
+<p>Every diagram uses the <b>same drawing</b>: spinal cord on the left, targets on the right. Learn the map once, then just follow the colored line.</p>
+<div class="legend">
+<span><i class="sw" style="background:var(--pre)"></i><b>Red</b> = neuron 1 (preganglionic)</span>
+<span><i class="sw" style="background:var(--post)"></i><b>Blue</b> = neuron 2 (postganglionic)</span>
+<span><i class="dot"></i>Synapse</span>
+<span><i class="rg"></i>Passes through, <b>no synapse</b></span>
+</div>
+<p style="font-size:14px;color:var(--ink-soft)">Red = pre and blue = post is his color key from the lecture drawing.</p>
+<div class="call c-lav"><span class="cl">Sources</span>Built from the <b>L18 slides (21–40)</b> with the <b>10/7 recording</b> woven in. The recording <b>cuts off partway through the splanchnic pathway</b>, so pathways 3–4 and the parasympathetic section come from the slides only. Slides and the lab guide win any disagreement.</div>
+<div class="call c-flag"><span class="cl">⚠ Date is a stand-in</span>No date was given for this document. I used <b>10.07.26</b> (the lecture date) in the filename. Tell me the right date and I'll rename it.</div>
+</section>
+
+<section class="card"><span class="tab">The map · learn this first</span>
+<h2>Every part, labeled once</h2>
+<p class="use">The pathway diagrams below hide labels you don't need. This one shows them all.</p>
+<div class="figwrap"><svg viewBox="0 0 700 340" role="img" class="map"><defs><marker id="kr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker><marker id="kb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs><circle cx="120" cy="125" r="62" class="cord"/><path transform="translate(0,8)" class="gm" d="M120,95 C112,80 100,70 96,74 C92,80 104,100 108,112 L100,128 C88,140 86,158 98,160 C110,160 116,140 120,135 C124,140 130,160 142,160 C154,158 152,140 140,128 L132,112 C136,100 148,80 144,74 C140,70 128,80 120,95 Z"/><ellipse cx="143" cy="128" rx="6" ry="5" class="lh"/><g class="on"><path class="nv" d="M128,66 C140,38 185,30 210,48 C228,62 238,98 240,128"/><ellipse cx="188" cy="41" rx="13" ry="8" class="gang-faint"/></g><g class="on"><path class="nv" d="M140,184 C170,200 222,170 240,128"/></g><g class="on"><path class="nv thick" d="M240,128 L330,128"/></g><g class="on"><path class="nv" d="M330,128 L392,70"/></g><g class="on"><path class="nv" d="M330,128 L405,152 L586,152"/></g><g class="on"><path class="nv" d="M270,128 L280,216"/></g><g class="on"><path class="nv" d="M294,216 L304,128"/></g><g class="on"><path class="nv thick" d="M287,176 L287,326"/></g><g class="on"><ellipse cx="287" cy="238" rx="15" ry="22" class="gang"/></g><g class="on"><path class="nv" d="M302,238 C380,238 480,228 586,228"/></g><g class="on"><path class="nv" d="M287,260 C292,292 360,297 435,296"/></g><g class="on"><ellipse cx="452" cy="296" rx="17" ry="12" class="gang"/></g><g class="on"><path class="nv" d="M469,296 L586,296"/></g><rect x="588" y="134" width="104" height="36" rx="9" class="tgt"/><text x="640" y="149" class="tgtt" text-anchor="middle">Body wall</text><text x="640" y="163" class="tgtt" text-anchor="middle">&amp; limbs</text><rect x="588" y="210" width="104" height="36" rx="9" class="tgt"/><text x="640" y="232" class="tgtt" text-anchor="middle">Heart</text><rect x="588" y="278" width="104" height="36" rx="9" class="tgt"/><text x="640" y="300" class="tgtt" text-anchor="middle">Gut / organ</text><circle cx="143" cy="128" r="5" class="pre-fill"/><text x="70" y="234" class="lbl" text-anchor="middle">lateral horn</text><path d="M80,223 L141,135" class="lead"/><text x="18" y="60" class="tiny" text-anchor="start">DORSAL</text><text x="18" y="200" class="tiny" text-anchor="start">VENTRAL</text><text x="188" y="22" class="lbl" text-anchor="middle">dorsal root ganglion</text><text x="188" y="216" class="lbl" text-anchor="middle">ventral root</text><text x="246" y="118" class="lbl" text-anchor="start">spinal nerve</text><text x="398" y="66" class="lbl" text-anchor="start">dorsal branch</text><text x="420" y="144" class="lbl" text-anchor="start">ventral branch</text><text x="266" y="184" class="lbl" text-anchor="end">white ramus</text><text x="310" y="184" class="lbl" text-anchor="start">gray ramus</text><text x="268" y="240" class="lbl" text-anchor="end">chain ganglion</text><text x="268" y="254" class="sub" text-anchor="end">(paravertebral)</text><text x="278" y="320" class="lbl" text-anchor="end">sympathetic trunk</text><text x="278" y="333" class="sub" text-anchor="end">runs cranial ↕ caudal</text><text x="440" y="219" class="lbl" text-anchor="middle">its own nerve (cardiac nerve)</text><text x="362" y="284" class="lbl" text-anchor="middle">splanchnic nerve</text><text x="452" y="326" class="lbl" text-anchor="middle">prevertebral ganglion</text></svg></div>
+<div class="call c-mint"><span class="cl">🧠 The highway</span>His picture: the <b>sympathetic trunk is a highway</b>. The <b>white ramus is the on-ramp</b>, the <b>gray ramus is the off-ramp</b> back to the spinal nerve. Chain ganglia are the stops.</div>
+<div class="call c-lav"><span class="cl">Translating his human slides (22–25)</span>posterior root = <b>dorsal root</b> · anterior root = <b>ventral root</b> · posterior ramus = <b>dorsal branch</b> · anterior ramus = <b>ventral branch</b> · sympathetic trunk ganglion = <b>chain (paravertebral) ganglion</b>. Use the dog terms on the exam.</div>
+</section>
+
+<section class="card"><span class="tab">The one rule</span>
+<h2>Every sympathetic route starts the same way</h2>
+<ol class="steps"><li><span><b>Lateral horn</b> of the <b>thoracolumbar</b> cord</span></li><li><span><b>Ventral root</b> → <b>spinal nerve</b></span></li><li><span><b>White ramus</b> → onto the <b>sympathetic trunk</b></span></li></ol>
+<p style="margin-top:12px"><b>Only the ending changes.</b> Ask one question: <b>where does neuron 1 synapse?</b></p>
+<div class="call c-mint"><span class="cl">🧠 Count the stops before the target</span>
+Spinal nerve: synapse in <b>chain</b>, back out the <b>gray ramus</b> · Postganglionic nerve: synapse in <b>chain</b>, out its <b>own nerve</b> · Splanchnic: synapse in <b>prevertebral</b> · Adrenal medulla: <b>no synapse at all</b></div>
+</section>
+
+<section class="card" id="p1"><span class="tab">Pathway 1 · slide 22</span>
+<h2>Spinal nerve pathway</h2><p class="use">Use it for: blood vessels, sweat glands and hair (arrector pili) muscles of the body wall and limbs.</p><div class="figwrap"><svg viewBox="0 0 700 340" role="img" class="map"><defs><marker id="p1r" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker><marker id="p1b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs><circle cx="120" cy="125" r="62" class="cord"/><path transform="translate(0,8)" class="gm" d="M120,95 C112,80 100,70 96,74 C92,80 104,100 108,112 L100,128 C88,140 86,158 98,160 C110,160 116,140 120,135 C124,140 130,160 142,160 C154,158 152,140 140,128 L132,112 C136,100 148,80 144,74 C140,70 128,80 120,95 Z"/><ellipse cx="143" cy="128" rx="6" ry="5" class="lh"/><g class="on"><path class="nv" d="M128,66 C140,38 185,30 210,48 C228,62 238,98 240,128"/><ellipse cx="188" cy="41" rx="13" ry="8" class="gang-faint"/></g><g class="on"><path class="nv" d="M140,184 C170,200 222,170 240,128"/></g><g class="on"><path class="nv thick" d="M240,128 L330,128"/></g><g class="on"><path class="nv" d="M330,128 L392,70"/></g><g class="on"><path class="nv" d="M330,128 L405,152 L586,152"/></g><g class="on"><path class="nv" d="M270,128 L280,216"/></g><g class="on"><path class="nv" d="M294,216 L304,128"/></g><g class="on"><path class="nv thick" d="M287,176 L287,326"/></g><g class="on"><ellipse cx="287" cy="238" rx="15" ry="22" class="gang"/></g><g class="faint"><path class="nv" d="M302,238 C380,238 480,228 586,228"/></g><g class="faint"><path class="nv" d="M287,260 C292,292 360,297 435,296"/></g><g class="faint"><ellipse cx="452" cy="296" rx="17" ry="12" class="gang"/></g><g class="faint"><path class="nv" d="M469,296 L586,296"/></g><rect x="588" y="134" width="104" height="36" rx="9" class="tgt"/><text x="640" y="149" class="tgtt" text-anchor="middle">Vessels, glands,</text><text x="640" y="163" class="tgtt" text-anchor="middle">hair muscles</text><rect x="588" y="210" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="232" class="tgtt" text-anchor="middle">Heart</text><rect x="588" y="278" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="300" class="tgtt" text-anchor="middle">Gut / organ</text><path d="M143,128 L141,168 L140,184 C170,200 222,170 240,128 L270,128 L280,216 L285,232" class="route pre"/><path d="M290,232 L294,216 L304,128 L330,128 L405,152 L582,152" class="route post" marker-end="url(#p1b)"/><circle cx="287" cy="236" r="6.5" class="syn"/><circle cx="143" cy="128" r="5" class="pre-fill"/><text x="70" y="234" class="lbl" text-anchor="middle">lateral horn</text><path d="M80,223 L141,135" class="lead"/><text x="188" y="216" class="lbl" text-anchor="middle">ventral root</text><text x="246" y="118" class="lbl" text-anchor="start">spinal nerve</text><text x="266" y="184" class="lbl" text-anchor="end">white ramus</text><text x="268" y="240" class="lbl" text-anchor="end">chain ganglion</text><text x="268" y="254" class="sub" text-anchor="end">(paravertebral)</text><text x="310" y="184" class="lbl" text-anchor="start">gray ramus</text><text x="420" y="144" class="lbl" text-anchor="start">ventral branch</text><text x="278" y="320" class="lbl" text-anchor="end">sympathetic trunk</text><text x="278" y="333" class="sub" text-anchor="end">runs cranial ↕ caudal</text><text x="18" y="60" class="tiny" text-anchor="start">DORSAL</text><text x="18" y="200" class="tiny" text-anchor="start">VENTRAL</text></svg></div><ol class="steps"><li><span class="same">Starts in the <b>lateral horn</b> (thoracolumbar cord) → out the <b>ventral root</b> → into the <b>spinal nerve</b>.</span></li><li><span class="same">Takes the <b>white ramus</b> onto the <b>sympathetic trunk</b>.</span></li><li><span>Synapses in a <b>chain ganglion</b>. It may ride the trunk up or down first.</span></li><li><span>Neuron 2 takes the <b>gray ramus</b> <b>back into the spinal nerve</b>.</span></li><li><span>Rides the <b>dorsal or ventral branch</b> to the target.</span></li></ol><div class="call c-rose"><span class="cl">Most likely tested</span>This is the only pathway that goes <b>back into the spinal nerve</b>. That is what the gray ramus is for.</div>
+<div class="call c-lav"><span class="cl">Dog · Scenario 1 (slide 32)</span>Body wall and limbs. Gray rami join <b>every</b> spinal nerve, so limb nerves carry sympathetic fibers too. → Connects to L19: every brachial plexus nerve on slide 21 "contains sympathetic fibers."</div></section>
+
+<section class="card" id="p2"><span class="tab">Pathway 2 · slide 23</span>
+<h2>Postganglionic sympathetic nerve pathway</h2><p class="use">Use it for: the heart (cardiac plexus), plus head, neck and thorax.</p><div class="figwrap"><svg viewBox="0 0 700 340" role="img" class="map"><defs><marker id="p2r" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker><marker id="p2b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs><circle cx="120" cy="125" r="62" class="cord"/><path transform="translate(0,8)" class="gm" d="M120,95 C112,80 100,70 96,74 C92,80 104,100 108,112 L100,128 C88,140 86,158 98,160 C110,160 116,140 120,135 C124,140 130,160 142,160 C154,158 152,140 140,128 L132,112 C136,100 148,80 144,74 C140,70 128,80 120,95 Z"/><ellipse cx="143" cy="128" rx="6" ry="5" class="lh"/><g class="on"><path class="nv" d="M128,66 C140,38 185,30 210,48 C228,62 238,98 240,128"/><ellipse cx="188" cy="41" rx="13" ry="8" class="gang-faint"/></g><g class="on"><path class="nv" d="M140,184 C170,200 222,170 240,128"/></g><g class="on"><path class="nv thick" d="M240,128 L330,128"/></g><g class="faint"><path class="nv" d="M330,128 L392,70"/></g><g class="faint"><path class="nv" d="M330,128 L405,152 L586,152"/></g><g class="on"><path class="nv" d="M270,128 L280,216"/></g><g class="faint"><path class="nv" d="M294,216 L304,128"/></g><g class="on"><path class="nv thick" d="M287,176 L287,326"/></g><g class="on"><ellipse cx="287" cy="238" rx="15" ry="22" class="gang"/></g><g class="on"><path class="nv" d="M302,238 C380,238 480,228 586,228"/></g><g class="faint"><path class="nv" d="M287,260 C292,292 360,297 435,296"/></g><g class="faint"><ellipse cx="452" cy="296" rx="17" ry="12" class="gang"/></g><g class="faint"><path class="nv" d="M469,296 L586,296"/></g><rect x="588" y="134" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="149" class="tgtt" text-anchor="middle">Body wall</text><text x="640" y="163" class="tgtt" text-anchor="middle">&amp; limbs</text><rect x="588" y="210" width="104" height="36" rx="9" class="tgt"/><text x="640" y="232" class="tgtt" text-anchor="middle">Heart</text><rect x="588" y="278" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="300" class="tgtt" text-anchor="middle">Gut / organ</text><path d="M143,128 L141,168 L140,184 C170,200 222,170 240,128 L270,128 L280,216 L285,232" class="route pre"/><path d="M292,238 L302,238 C380,238 480,228 582,228" class="route post" marker-end="url(#p2b)"/><circle cx="287" cy="236" r="6.5" class="syn"/><circle cx="143" cy="128" r="5" class="pre-fill"/><text x="70" y="234" class="lbl" text-anchor="middle">lateral horn</text><path d="M80,223 L141,135" class="lead"/><text x="246" y="118" class="lbl" text-anchor="start">spinal nerve</text><text x="266" y="184" class="lbl" text-anchor="end">white ramus</text><text x="268" y="240" class="lbl" text-anchor="end">chain ganglion</text><text x="268" y="254" class="sub" text-anchor="end">(paravertebral)</text><text x="440" y="219" class="lbl" text-anchor="middle">its own nerve (cardiac nerve)</text><text x="278" y="320" class="lbl" text-anchor="end">sympathetic trunk</text><text x="278" y="333" class="sub" text-anchor="end">runs cranial ↕ caudal</text></svg></div><ol class="steps"><li><span class="same">Starts in the <b>lateral horn</b> (thoracolumbar cord) → out the <b>ventral root</b> → into the <b>spinal nerve</b>.</span></li><li><span class="same">Takes the <b>white ramus</b> onto the <b>sympathetic trunk</b>.</span></li><li><span>Synapses in a <b>chain ganglion</b>.</span></li><li><span>Neuron 2 leaves on <b>its own nerve</b>. It does <b>not</b> take the gray ramus back.</span></li><li><span>Reaches the <b>heart</b> through the cardiac plexus.</span></li></ol><div class="mic"><span class="cl">SPOKEN ONLY</span>"The main difference is it is not going to go back to the spinal nerve… it's going to create its own separate exit from that highway." If the heart needs to beat faster, this is the route.</div>
+<div class="call c-lav"><span class="cl">Dog · Scenario 2 (slide 33): head, neck, thorax</span>Fibers climb the trunk: <b>cervicothoracic ganglion</b> → <b>middle cervical ganglion</b> → up the <b>vagosympathetic trunk</b> → <b>cranial cervical ganglion</b> → head. Also labeled: <b>vertebral nerve</b>, <b>vagus nerve</b>, rami communicantes.</div>
+<div class="call c-flag"><span class="cl">⚠ My mapping, confirm</span>The slides don't say which pathway each scenario uses. Pairing Scenario 2 with this pathway is my read (synapse in a trunk ganglion, then a separate nerve out). Check with him or the lab guide.</div></section>
+
+<section class="card" id="p3"><span class="tab">Pathway 3 · slide 24</span>
+<h2>Splanchnic nerve pathway</h2><p class="use">Use it for: abdominal and pelvic organs, like the intestine. This is his exception (long pre, short post).</p><div class="figwrap"><svg viewBox="0 0 700 340" role="img" class="map"><defs><marker id="p3r" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker><marker id="p3b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs><circle cx="120" cy="125" r="62" class="cord"/><path transform="translate(0,8)" class="gm" d="M120,95 C112,80 100,70 96,74 C92,80 104,100 108,112 L100,128 C88,140 86,158 98,160 C110,160 116,140 120,135 C124,140 130,160 142,160 C154,158 152,140 140,128 L132,112 C136,100 148,80 144,74 C140,70 128,80 120,95 Z"/><ellipse cx="143" cy="128" rx="6" ry="5" class="lh"/><g class="on"><path class="nv" d="M128,66 C140,38 185,30 210,48 C228,62 238,98 240,128"/><ellipse cx="188" cy="41" rx="13" ry="8" class="gang-faint"/></g><g class="on"><path class="nv" d="M140,184 C170,200 222,170 240,128"/></g><g class="on"><path class="nv thick" d="M240,128 L330,128"/></g><g class="faint"><path class="nv" d="M330,128 L392,70"/></g><g class="faint"><path class="nv" d="M330,128 L405,152 L586,152"/></g><g class="on"><path class="nv" d="M270,128 L280,216"/></g><g class="faint"><path class="nv" d="M294,216 L304,128"/></g><g class="on"><path class="nv thick" d="M287,176 L287,326"/></g><g class="on"><ellipse cx="287" cy="238" rx="15" ry="22" class="gang"/></g><g class="faint"><path class="nv" d="M302,238 C380,238 480,228 586,228"/></g><g class="on"><path class="nv" d="M287,260 C292,292 360,297 435,296"/></g><g class="on"><ellipse cx="452" cy="296" rx="17" ry="12" class="gang"/></g><g class="on"><path class="nv" d="M469,296 L586,296"/></g><rect x="588" y="134" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="149" class="tgtt" text-anchor="middle">Body wall</text><text x="640" y="163" class="tgtt" text-anchor="middle">&amp; limbs</text><rect x="588" y="210" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="232" class="tgtt" text-anchor="middle">Heart</text><rect x="588" y="278" width="104" height="36" rx="9" class="tgt"/><text x="640" y="300" class="tgtt" text-anchor="middle">Intestine</text><path d="M143,128 L141,168 L140,184 C170,200 222,170 240,128 L270,128 L280,216 L287,260 C292,292 360,297 436,296" class="route pre"/><path d="M458,296 L582,296" class="route post" marker-end="url(#p3b)"/><circle cx="287" cy="238" r="26" class="ring"/><circle cx="452" cy="296" r="6.5" class="syn"/><text x="320" y="212" class="nos" text-anchor="start">no synapse</text><circle cx="143" cy="128" r="5" class="pre-fill"/><text x="70" y="234" class="lbl" text-anchor="middle">lateral horn</text><path d="M80,223 L141,135" class="lead"/><text x="246" y="118" class="lbl" text-anchor="start">spinal nerve</text><text x="266" y="184" class="lbl" text-anchor="end">white ramus</text><text x="268" y="240" class="lbl" text-anchor="end">chain ganglion</text><text x="268" y="254" class="sub" text-anchor="end">(paravertebral)</text><text x="362" y="284" class="lbl" text-anchor="middle">splanchnic nerve</text><text x="452" y="326" class="lbl" text-anchor="middle">prevertebral ganglion</text><text x="278" y="320" class="lbl" text-anchor="end">sympathetic trunk</text><text x="278" y="333" class="sub" text-anchor="end">runs cranial ↕ caudal</text></svg></div><ol class="steps"><li><span class="same">Starts in the <b>lateral horn</b> (thoracolumbar cord) → out the <b>ventral root</b> → into the <b>spinal nerve</b>.</span></li><li><span class="same">Takes the <b>white ramus</b> onto the <b>sympathetic trunk</b>.</span></li><li><span><b>Passes through</b> the chain ganglion with <b>no synapse</b>.</span></li><li><span>Travels in a <b>splanchnic nerve</b>.</span></li><li><span>Synapses in a <b>prevertebral ganglion</b>, out in front of the vertebrae.</span></li><li><span><b>Short</b> neuron 2 → the organ.</span></li></ol><div class="call c-rose"><span class="cl">The exception</span>General sympathetic rule: <b>short pre, long post</b>. Splanchnic flips it: <b>long pre, short post</b>. Paravertebral = beside the vertebrae (chain). Prevertebral = in front of them.</div>
+<div class="tbl"><table><tr><th>Dog scenario</th><th>Nerves</th><th>Ganglion</th></tr>
+<tr><td><b>3 · Abdomen</b> (slide 34)</td><td><b>major & minor splanchnic nerves</b>, <b>lumbar splanchnic nerves</b></td><td><b>celiacomesenteric ganglion & plexus</b>, <b>caudal mesenteric ganglion</b></td></tr>
+<tr><td><b>4 · Pelvis</b> (slide 35)</td><td><b>lumbar splanchnic nerves</b> → <b>hypogastric nerve</b></td><td><b>caudal mesenteric ganglion</b> → <b>pelvic plexus</b></td></tr></table></div></section>
+
+<section class="card" id="p4"><span class="tab">Pathway 4 · slide 25</span>
+<h2>Adrenal medulla pathway</h2><p class="use">Use it for: the adrenal medulla. The whole-body fight-or-flight hormone surge.</p><div class="figwrap"><svg viewBox="0 0 700 340" role="img" class="map"><defs><marker id="p4r" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker><marker id="p4b" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs><circle cx="120" cy="125" r="62" class="cord"/><path transform="translate(0,8)" class="gm" d="M120,95 C112,80 100,70 96,74 C92,80 104,100 108,112 L100,128 C88,140 86,158 98,160 C110,160 116,140 120,135 C124,140 130,160 142,160 C154,158 152,140 140,128 L132,112 C136,100 148,80 144,74 C140,70 128,80 120,95 Z"/><ellipse cx="143" cy="128" rx="6" ry="5" class="lh"/><g class="on"><path class="nv" d="M128,66 C140,38 185,30 210,48 C228,62 238,98 240,128"/><ellipse cx="188" cy="41" rx="13" ry="8" class="gang-faint"/></g><g class="on"><path class="nv" d="M140,184 C170,200 222,170 240,128"/></g><g class="on"><path class="nv thick" d="M240,128 L330,128"/></g><g class="faint"><path class="nv" d="M330,128 L392,70"/></g><g class="faint"><path class="nv" d="M330,128 L405,152 L586,152"/></g><g class="on"><path class="nv" d="M270,128 L280,216"/></g><g class="faint"><path class="nv" d="M294,216 L304,128"/></g><g class="on"><path class="nv thick" d="M287,176 L287,326"/></g><g class="on"><ellipse cx="287" cy="238" rx="15" ry="22" class="gang"/></g><g class="faint"><path class="nv" d="M302,238 C380,238 480,228 586,228"/></g><g class="on"><path class="nv" d="M287,260 C292,292 360,297 435,296"/></g><g class="on"><ellipse cx="452" cy="296" rx="17" ry="12" class="gang"/></g><g class="on"><path class="nv" d="M469,296 L586,296"/></g><rect x="588" y="134" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="149" class="tgtt" text-anchor="middle">Body wall</text><text x="640" y="163" class="tgtt" text-anchor="middle">&amp; limbs</text><rect x="588" y="210" width="104" height="36" rx="9" class="tgt off"/><text x="640" y="232" class="tgtt" text-anchor="middle">Heart</text><rect x="588" y="278" width="104" height="36" rx="9" class="tgt"/><text x="640" y="293" class="tgtt" text-anchor="middle">Adrenal</text><text x="640" y="307" class="tgtt" text-anchor="middle">medulla</text><path d="M143,128 L141,168 L140,184 C170,200 222,170 240,128 L270,128 L280,216 L287,260 C292,292 360,297 435,296 L582,296" class="route pre" marker-end="url(#p4r)"/><circle cx="287" cy="238" r="26" class="ring"/><circle cx="452" cy="296" r="20" class="ring"/><text x="320" y="212" class="nos" text-anchor="start">no synapse</text><text x="470" y="272" class="nos" text-anchor="start">no synapse</text><text x="640" y="332" class="nos" text-anchor="middle">epinephrine → blood</text><circle cx="143" cy="128" r="5" class="pre-fill"/><text x="70" y="234" class="lbl" text-anchor="middle">lateral horn</text><path d="M80,223 L141,135" class="lead"/><text x="246" y="118" class="lbl" text-anchor="start">spinal nerve</text><text x="266" y="184" class="lbl" text-anchor="end">white ramus</text><text x="268" y="240" class="lbl" text-anchor="end">chain ganglion</text><text x="268" y="254" class="sub" text-anchor="end">(paravertebral)</text><text x="362" y="284" class="lbl" text-anchor="middle">splanchnic nerve</text><text x="452" y="326" class="lbl" text-anchor="middle">prevertebral ganglion</text><text x="278" y="320" class="lbl" text-anchor="end">sympathetic trunk</text><text x="278" y="333" class="sub" text-anchor="end">runs cranial ↕ caudal</text></svg></div><ol class="steps"><li><span class="same">Starts in the <b>lateral horn</b> (thoracolumbar cord) → out the <b>ventral root</b> → into the <b>spinal nerve</b>.</span></li><li><span class="same">Takes the <b>white ramus</b> onto the <b>sympathetic trunk</b>.</span></li><li><span>Passes through the chain ganglion, <b>no synapse</b>.</span></li><li><span>Travels in a <b>splanchnic nerve</b>.</span></li><li><span>Passes through the prevertebral ganglion, <b>no synapse</b> (his slide says so).</span></li><li><span>Ends directly on the <b>adrenal medulla</b>. There is <b>no neuron 2</b>.</span></li></ol><div class="call c-mint"><span class="cl">🧠 Why no neuron 2</span>The adrenal medulla cells act <b>as</b> neuron 2. Instead of a nerve, they release <b>epinephrine</b> (plus some norepinephrine) <b>into the blood</b>.</div>
+<div class="call c-flag"><span class="cl">⚠ Outside knowledge</span>The recording cuts off before this pathway, and the slide shows only the route. "Adrenal cells act as neuron 2 and release epinephrine into the blood" is standard physiology, not from his materials. Confirm before putting it on a card.</div></section>
+
+<section class="card"><span class="tab">Compare all four</span>
+<h2>Side by side</h2>
+<div class="tbl"><table>
+<tr><th>Pathway</th><th>Neuron 1 synapses in</th><th>Neuron 2 leaves by</th><th>Target</th></tr>
+<tr><td><b>1 · Spinal nerve</b></td><td>Chain ganglion</td><td><b>Gray ramus</b> → spinal nerve</td><td>Body wall & limbs</td></tr>
+<tr><td><b>2 · Postganglionic nerve</b></td><td>Chain ganglion</td><td><b>Its own nerve</b></td><td>Heart · head · thorax</td></tr>
+<tr class="hot"><td><b>3 · Splanchnic</b></td><td><b>Prevertebral</b> ganglion</td><td>Short post → organ</td><td>Abdomen · pelvis</td></tr>
+<tr class="hot"><td><b>4 · Adrenal medulla</b></td><td><b>Nowhere</b></td><td>No neuron 2</td><td>Adrenal medulla</td></tr>
+</table></div>
+<p style="font-size:14px;color:var(--ink-soft)">Pink rows = the two that pass through the chain ganglion without synapsing.</p>
+</section>
+
+<section class="card" id="para"><span class="tab">Parasympathetic · slides 27–30, 37–40</span>
+<h2>Parasympathetic: long pre, short post</h2>
+<p class="use">No rami, no trunk, no chain. Neuron 1 runs almost all the way to the organ.</p>
+<div class="figwrap"><svg viewBox="0 0 700 250" role="img" class="map">
+<defs><marker id="par" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker>
+<marker id="pab" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs>
+<rect x="16" y="44" width="150" height="56" rx="10" class="src"/><text x="91" y="68" class="tgtt" text-anchor="middle">Brainstem nuclei</text><text x="91" y="84" class="sub" text-anchor="middle">cranial outflow</text>
+<rect x="470" y="30" width="214" height="84" rx="12" class="tgt"/><text x="577" y="50" class="tgtt" text-anchor="middle">Target organ</text><text x="577" y="100" class="sub" text-anchor="middle">heart · lungs · gut</text>
+<path d="M166,72 L496,72" class="route pre" marker-end="url(#par)"/>
+<ellipse cx="510" cy="72" rx="13" ry="10" class="gang"/><circle cx="510" cy="72" r="6.5" class="syn"/>
+<path d="M523,72 L584,72" class="route post" marker-end="url(#pab)"/>
+<text x="320" y="62" class="lbl" text-anchor="middle">LONG preganglionic · CN III, VII, IX, X</text>
+<text x="577" y="132" class="lbl" text-anchor="middle">terminal ganglion sits in the organ wall</text><text x="553" y="65" class="sub" text-anchor="middle">short</text>
+<rect x="16" y="164" width="150" height="56" rx="10" class="src"/><text x="91" y="188" class="tgtt" text-anchor="middle">Sacral cord S1–S3</text><text x="91" y="204" class="sub" text-anchor="middle">lateral horn</text>
+<rect x="470" y="150" width="214" height="84" rx="12" class="tgt"/><text x="577" y="170" class="tgtt" text-anchor="middle">Pelvic organs</text><text x="577" y="220" class="sub" text-anchor="middle">colon · bladder · repro</text>
+<path d="M166,192 L496,192" class="route pre" marker-end="url(#par)"/>
+<ellipse cx="510" cy="192" rx="13" ry="10" class="gang"/><circle cx="510" cy="192" r="6.5" class="syn"/>
+<path d="M523,192 L584,192" class="route post" marker-end="url(#pab)"/>
+<text x="320" y="182" class="lbl" text-anchor="middle">LONG preganglionic · pelvic nerve</text>
+<text x="320" y="212" class="sub" text-anchor="middle">(joins the pelvic plexus)</text>
+</svg></div>
+<div class="tbl"><table>
+<tr><th>Origin</th><th>Ganglion</th><th>Target</th></tr>
+<tr><td><b>III · oculomotor</b></td><td>ciliary ganglion</td><td>Eyeball muscles</td></tr>
+<tr><td><b>VII · facial</b></td><td>pterygopalatine ganglion<br>submandibular ganglion</td><td>Nasal mucosa, palate, lacrimal gland<br>Submandibular & sublingual glands</td></tr>
+<tr><td><b>IX · glossopharyngeal</b></td><td>otic ganglion</td><td>Parotid gland</td></tr>
+<tr class="hot"><td><b>X · vagus</b> (~80% of all outflow)</td><td>terminal ganglia</td><td>Heart, lungs, liver, gallbladder, stomach, pancreas, small intestine, part of large intestine</td></tr>
+<tr><td><b>Sacral S1–S3</b></td><td>terminal ganglia</td><td>Colon, ureters, bladder, reproductive organs</td></tr>
+</table></div>
+<div class="call c-lav"><span class="cl">Dog · slide 38 (vagus)</span><b>left vagosympathetic nerve trunk</b> → <b>vagus nerve</b> → <b>cardiac nerves</b>, <b>recurrent laryngeal nerve</b> → along the esophagus as the <b>dorsal vagal nerve trunk</b> (→ celiacomesenteric nerve plexus) and <b>ventral vagal nerve trunk</b> (→ liver & stomach).</div>
+<div class="call c-rose"><span class="cl">Precision pair: both reach the pelvic plexus</span><b>Hypogastric nerve = sympathetic</b> (from the caudal mesenteric ganglion). <b>Pelvic nerve = parasympathetic</b> (from S1–S3). Slide 40 shows both meeting at the <b>pelvic plexus</b>.</div>
+<div class="call c-rose"><span class="cl">Lab trap he flagged</span>Sympathetic ganglia are <b>visible</b> in lab. Parasympathetic <b>terminal ganglia are not</b>; they sit in the organ wall.</div>
+<div class="call c-flag"><span class="cl">⚠ Nerve name</span>Recording: "simply called the <b>pelvic nerve</b>." Slide 30: "<b>pelvic splanchnic nerves</b>" (the human term). Use <b>pelvic nerve</b> for now, since it's what he said and what slide 40 labels.</div>
+</section>
+
+<section class="card"><span class="tab">Exam signals · 10/7 recording</span>
+<h2>What he flagged</h2>
+<div class="tbl"><table><tr><th>He said</th><th>About</th></tr>
+<tr class="hot"><td>"I cannot emphasise enough"</td><td>The ANS innervates <b>smooth muscle, cardiac muscle, and glands</b></td></tr>
+<tr class="hot"><td>"Spend a couple of neurons on it. Worth the investment."</td><td>Parasympathetic cranial nerves <b>III, VII, IX, X</b></td></tr>
+<tr class="hot"><td>"Don't put parasympathetic on the exam"</td><td>Rami communicantes are <b>sympathetic only</b>. Answer choices will look like "preganglionic sympathetic / postganglionic sympathetic / preganglionic parasympathetic / postganglionic parasympathetic."</td></tr>
+<tr><td>"If you put communicating branch on an exam, I will be OK with it"</td><td>Accepted synonym for ramus communicans</td></tr>
+<tr><td>"You need to remember that thoracolumbar means sympathetic"</td><td>Sympathetic = thoracolumbar; parasympathetic = craniosacral</td></tr>
+<tr><td>"I would expect you to know those things"</td><td>The fight-or-flight vs. rest-and-digest effects table</td></tr>
+<tr><td>Exception</td><td><b>Sweat glands:</b> sympathetic, but neuron 2 releases <b>acetylcholine</b> (cholinergic), not norepinephrine</td></tr>
+<tr><td>Lab</td><td>Ganglia get dissected and are visible; nuclei (inside the CNS) are not</td></tr>
+<tr><td>Note</td><td>Pathways & scenarios weren't in his listed objectives, but he said the slides are at the end and are covered</td></tr>
+</table></div>
+</section>
+
+<section class="card"><span class="tab">Transcription key</span>
+<h2>Garbled words in the raw transcript</h2>
+<div class="tbl"><table><tr><th>Transcript says</th><th>Means</th></tr>
+<tr><td class="mono">remi communicantis · remai</td><td>rami communicantes · rami</td></tr>
+<tr><td class="mono">Slannik · splakic</td><td>splanchnic</td></tr>
+<tr><td class="mono">chain gang</td><td>chain ganglia (also his joke)</td></tr>
+<tr><td class="mono">stylcholine</td><td>acetylcholine</td></tr>
+<tr><td class="mono">A kilo motor</td><td>oculomotor</td></tr>
+<tr><td class="mono">Vegas · Las Vegas</td><td>vagus</td></tr>
+<tr><td class="mono">moral division</td><td>motor division</td></tr>
+<tr><td class="mono">smooth muzzle</td><td>smooth muscle</td></tr>
+<tr><td class="mono">thoracol lumbar</td><td>thoracolumbar</td></tr>
+</table></div>
+</section>
+
+<section class="card"><span class="tab">Cold retrieval</span>
+<h2>Rebuild these without looking</h2>
+<div class="grid">
+<div class="tile"><b>White ramus</b>Preganglionic sympathetic, myelinated, on-ramp</div>
+<div class="tile"><b>Gray ramus</b>Postganglionic sympathetic, unmyelinated, off-ramp</div>
+<div class="tile"><b>Chain ganglion</b>= paravertebral; beside the vertebrae; linked by the sympathetic trunk</div>
+<div class="tile"><b>Prevertebral ganglion</b>In front of the vertebrae; splanchnic synapse site</div>
+<div class="tile"><b>Celiacomesenteric ganglion</b>Abdomen (major & minor splanchnic nerves)</div>
+<div class="tile"><b>Caudal mesenteric ganglion</b>Lumbar splanchnic nerves → hypogastric nerve</div>
+<div class="tile"><b>Cervicothoracic ganglion</b>→ middle cervical → vagosympathetic trunk → cranial cervical</div>
+<div class="tile"><b>Terminal ganglion</b>Parasympathetic; in the organ wall; not visible in lab</div>
+</div>
+<div class="call c-rose"><span class="cl">Precision check: your flip-risk pairs</span>
+<b>paravertebral</b> vs <b>prevertebral</b> · <b>white</b> vs <b>gray</b> ramus · <b>preganglionic</b> vs <b>postganglionic</b> · <b>splanchnic</b> (one synapse) vs <b>adrenal</b> (none) · <b>hypogastric</b> (sympathetic) vs <b>pelvic</b> nerve (parasympathetic) · <b>cranial cervical</b> vs <b>middle cervical</b> vs <b>cervicothoracic</b> ganglion</div>
+</section>
+
+<section class="card"><span class="tab">Self-check</span>
+<h2>Answer out loud, then open</h2>
+<details><summary>A preganglionic axon passes through a chain ganglion without synapsing and synapses in the celiacomesenteric ganglion. Which pathway?</summary>
+<ol class="opts" type="a"><li>Spinal nerve pathway</li><li>Postganglionic nerve pathway</li><li>Splanchnic nerve pathway</li><li>Adrenal medulla pathway</li></ol><div class="ans"><b>c.</b> Synapse in a prevertebral ganglion = splanchnic.</div></details>
+<details><summary>Which pathway has no synapse in any ganglion?</summary>
+<ol class="opts" type="a"><li>Spinal nerve pathway</li><li>Postganglionic nerve pathway</li><li>Splanchnic nerve pathway</li><li>Adrenal medulla pathway</li></ol><div class="ans"><b>d.</b> It passes through both ganglia and ends on the adrenal medulla.</div></details>
+<details><summary>A gray ramus contains:</summary>
+<ol class="opts" type="a"><li>Preganglionic sympathetic axons</li><li>Postganglionic sympathetic axons</li><li>Preganglionic parasympathetic axons</li><li>Postganglionic parasympathetic axons</li></ol><div class="ans"><b>b.</b> Rami are sympathetic only. Gray = post, the off-ramp.</div></details>
+<details><summary>Sympathetic fibers to blood vessels in the skin of the thoracic limb reach their target by:</summary>
+<ol class="opts" type="a"><li>Gray ramus, then spinal nerve</li><li>Splanchnic nerve, then plexus</li><li>Cardiac nerve, then plexus</li><li>Hypogastric nerve, then plexus</li></ol><div class="ans"><b>a.</b> Spinal nerve pathway: back into the spinal nerve through the gray ramus.</div></details>
+<details><summary>Select all that are true of the splanchnic nerve pathway.</summary>
+<ol class="opts" type="a"><li>The preganglionic axon uses a white ramus</li><li>The preganglionic axon synapses in a chain ganglion</li><li>The preganglionic axon synapses in a prevertebral ganglion</li><li>The postganglionic axon is relatively short</li></ol><div class="ans"><b>a, c, d.</b> Mechanism check: it passes <i>through</i> the chain ganglion; it doesn't synapse there.</div></details>
+<details><summary>The hypogastric nerve carries fibers from the caudal mesenteric ganglion to the:</summary>
+<ol class="opts" type="a"><li>Celiacomesenteric plexus</li><li>Pelvic plexus</li><li>Cardiac plexus</li><li>Cranial cervical ganglion</li></ol><div class="ans"><b>b.</b> Sympathetic route to the pelvis (slide 35).</div></details>
+<details><summary>Sympathetic fibers reach the head by ascending in the:</summary>
+<ol class="opts" type="a"><li>Vagosympathetic trunk</li><li>Vertebral nerve</li><li>Recurrent laryngeal nerve</li><li>Ventral vagal trunk</li></ol><div class="ans"><b>a.</b> Up the vagosympathetic trunk to the cranial cervical ganglion (slide 33).</div></details>
+<details><summary>Sacral parasympathetic preganglionic axons travel in the:</summary>
+<ol class="opts" type="a"><li>Hypogastric nerve</li><li>Pelvic nerve</li><li>Lumbar splanchnic nerves</li><li>Vagus nerve</li></ol><div class="ans"><b>b.</b> Hypogastric is the sympathetic one.</div></details>
+</section>
+
+<section class="card"><span class="tab">Open items</span>
+<h2>Ask or confirm</h2>
+<div class="call c-flag"><span class="cl">1 · White rami levels</span>Slide 21 says white rami are only on <b>T1–L2</b> spinal nerves. That is the human count; dogs usually run further, to about L4–L5 (outside knowledge). Ask which number he wants.</div>
+<div class="call c-flag"><span class="cl">2 · Scenario-to-pathway pairing</span>Scenario 2 as the postganglionic nerve pathway is my mapping. Confirm.</div>
+<div class="call c-flag"><span class="cl">3 · Adrenal medulla details</span>Epinephrine release and "acts as neuron 2" are outside knowledge; the recording cut off before this.</div>
+<div class="call c-flag"><span class="cl">4 · Pelvic nerve vs. pelvic splanchnic nerves</span>Using "pelvic nerve" (his word) for now.</div>
+<div class="call c-flag"><span class="cl">5 · Missing recording</span>Everything after the start of the splanchnic pathway comes from slides only. If a second recording exists, send it and I'll check these against it.</div>
+</section>
+
+<footer>🎀 Bethany · K-State CVM Class of 2030</footer>
+</main>
+<script>window.addEventListener("beforeprint",()=>document.querySelectorAll("details").forEach(d=>d.open=true));</script>
+</body></html>
