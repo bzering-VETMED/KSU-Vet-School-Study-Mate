@@ -1,5 +1,5 @@
 """Lab 16 · Bethany's dissection photos (notebook pages 13-16) → 📷 my-photo cards.
-Run AFTER p3ppt.py + p3diagrams.py (they rewrite the hub). From repo root: python3 tools/lab16me.py <dir with a-000.jpg …>
+Run AFTER p3ppt.py + p3diagrams.py (they rewrite the hub), then p3simplify.py. From repo root: python3 tools/lab16me.py <dir with a-000.jpg …>
 Question = the photo alone (no labels on it). Reveal = name + facts + the notebook strip with her labels."""
 import sys,os,re,time,html
 sys.path.insert(0,'tools'); import deck; from deck import *
