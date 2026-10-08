@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" role="img" class="map"><style>
+.cord{fill:#fff;stroke:#B9A8D2;stroke-width:2}.gm{fill:#E3D7F2}.lh{fill:#E3D7F2;stroke:#D2384F;stroke-width:1.5}
+.nv{fill:none;stroke:#B9A8D2;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.nv.thick{stroke-width:6}
+.faint .nv{stroke:#E6DEF1}.faint .gang,.faint .gang-faint{fill:#E6DEF1;stroke:#E6DEF1}
+.gang,.gang-faint{fill:#EDE4F7;stroke:#B9A8D2;stroke-width:2}
+.route{fill:none;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round}.route.pre{stroke:#D2384F}.route.post{stroke:#2F7FD8}
+.pre-fill{fill:#D2384F}.post-fill{fill:#2F7FD8}.syn{fill:#2E2438;stroke:#fff;stroke-width:2.5}
+.ring{fill:none;stroke:#5C5068;stroke-width:2;stroke-dasharray:4 4}.tgt{fill:#fff;stroke:#7B54B0;stroke-width:2}.tgt.off{stroke:#E6DEF1}
+.src{fill:#EDE4F7;stroke:#D2384F;stroke-width:2}text{font-family:-apple-system,"Segoe UI",Arial,sans-serif}
+.lbl{font-size:12.5px;fill:#2E2438;font-weight:700}.sub{font-size:11px;fill:#5C5068}.tiny{font-size:10px;fill:#5C5068;letter-spacing:.1em}
+.tgtt{font-size:12.5px;fill:#2E2438;font-weight:700}.nos{font-size:10.5px;fill:#5C5068}.lead{stroke:#5C5068;stroke-width:1;stroke-dasharray:3 3;fill:none}
+</style><rect width="700" height="250" fill="#ffffff"/>
+<defs><marker id="par" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="pre-fill"/></marker>
+<marker id="pab" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="post-fill"/></marker></defs>
+<rect x="16" y="44" width="150" height="56" rx="10" class="src"/><text x="91" y="68" class="tgtt" text-anchor="middle">Brainstem nuclei</text><text x="91" y="84" class="sub" text-anchor="middle">cranial outflow</text>
+<rect x="470" y="30" width="214" height="84" rx="12" class="tgt"/><text x="577" y="50" class="tgtt" text-anchor="middle">Target organ</text><text x="577" y="100" class="sub" text-anchor="middle">heart · lungs · gut</text>
+<path d="M166,72 L496,72" class="route pre" marker-end="url(#par)"/>
+<ellipse cx="510" cy="72" rx="13" ry="10" class="gang"/><circle cx="510" cy="72" r="6.5" class="syn"/>
+<path d="M523,72 L584,72" class="route post" marker-end="url(#pab)"/>
+<text x="320" y="62" class="lbl" text-anchor="middle">LONG preganglionic · CN III, VII, IX, X</text>
+<text x="577" y="132" class="lbl" text-anchor="middle">terminal ganglion sits in the organ wall</text><text x="553" y="65" class="sub" text-anchor="middle">short</text>
+<rect x="16" y="164" width="150" height="56" rx="10" class="src"/><text x="91" y="188" class="tgtt" text-anchor="middle">Sacral cord S1–S3</text><text x="91" y="204" class="sub" text-anchor="middle">lateral horn</text>
+<rect x="470" y="150" width="214" height="84" rx="12" class="tgt"/><text x="577" y="170" class="tgtt" text-anchor="middle">Pelvic organs</text><text x="577" y="220" class="sub" text-anchor="middle">colon · bladder · repro</text>
+<path d="M166,192 L496,192" class="route pre" marker-end="url(#par)"/>
+<ellipse cx="510" cy="192" rx="13" ry="10" class="gang"/><circle cx="510" cy="192" r="6.5" class="syn"/>
+<path d="M523,192 L584,192" class="route post" marker-end="url(#pab)"/>
+<text x="320" y="182" class="lbl" text-anchor="middle">LONG preganglionic · pelvic nerve</text>
+<text x="320" y="212" class="sub" text-anchor="middle">(joins the pelvic plexus)</text>
+</svg>
