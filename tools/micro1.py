@@ -63,7 +63,7 @@ for i,(a,tell,fn) in enumerate(EXAM25,1):
     ecards.append(deck.img_card_facts(f'Q{i} · Answer the question in the image',dst,a,'',None,f))
 ecards[0]=ecards[0].replace('class="card"','class="card on"',1)
 EXF='systems-lp1-exam2025.html'
-open(EXF,'w').write(deck.page('📝 2025 Lab Practical (last year)','51 questions · answers reviewed together 10/6 · not an official key',''.join(ecards),back=PRAC).replace('← Back to Practical 2','← Back to Lab Practical 1'))
+open(EXF,'w').write(deck.page('📝 2025 Lab Practical (last year)','51 questions · ✅ answers checked against the teacher-confirmed key',''.join(ecards),back=PRAC).replace('← Back to Practical 2','← Back to Lab Practical 1'))
 tiles.append(f'<div class="tile"><h2>📝 Practice exam</h2><a href="{EXF}?v={V}">VAP807 Lab 3a Exam 2025 · 51 Q</a></div>')
 # 🧅 layers drill (2 blocks)
 lnk=[]
