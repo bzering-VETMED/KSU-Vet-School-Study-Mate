@@ -2,7 +2,7 @@
 # Run from repo root: python3 tools/micro1.py  (source crops in SRC; copies to assets/mic1_*.jpg)
 import sys,os,time,html,re
 sys.path.insert(0,'tools'); import deck
-from micro1_data import DECKS,TERMS,OBJ,ATTACH,EXTRA,EXAM25,LAYERS
+from micro1_data import DECKS,TERMS,OBJ,ATTACH,EXTRA,EXAM25,LAYERS,EXAM2B
 SRC=os.environ.get('MIC1_SRC','/home/claude/w')
 E=html.escape; V=str(int(time.time()))
 TITLES={'lab1':'Lab 1 · Microscopy & Cytology','lab2':'Lab 2 · Connective Tissue, Epithelium & Skin','lab3':'Lab 3 · Nerve, Cartilage & Bone','lab4':'Lab 4 · Muscle, Heart & Circulation','lab7':'Lab 7 · Lymphatic Tissues & Organs'}
@@ -64,7 +64,18 @@ for i,(a,tell,fn) in enumerate(EXAM25,1):
 ecards[0]=ecards[0].replace('class="card"','class="card on"',1)
 EXF='systems-lp1-exam2025.html'
 open(EXF,'w').write(deck.page('📝 2025 Lab Practical (last year)','51 questions · ✅ answers checked against the teacher-confirmed key',''.join(ecards),back=PRAC).replace('← Back to Practical 2','← Back to Lab Practical 1'))
-tiles.append(f'<div class="tile"><h2>📝 Practice exam</h2><a href="{EXF}?v={V}">VAP807 Lab 3a Exam 2025 · 51 Q</a></div>')
+bc=[]
+for q,(a,tell,fn) in sorted(EXAM2B.items()):
+    key=f'exam2b/q{q:02d}'; dst=f'assets/mic1_exam2b_q{q:02d}.jpg'
+    if not os.path.exists(dst): deck.save_img(f'{SRC}/c_{key}.jpg',dst,1320)
+    f=[]
+    if tell: f.append(('🔎 How do you know?',tell))
+    if fn: f.append(('💡 Remember',fn))
+    bc.append(deck.img_card_facts(f'Q{q} · Answer the question in the image',dst,a,'',None,f))
+bc[0]=bc[0].replace('class="card"','class="card on"',1)
+EX2='systems-lp1-exam2b.html'
+open(EX2,'w').write(deck.page('📝 Practice Lab Exam 2','✅ answers confirmed with Dr. Klimek · Q46 missing from the screenshots',''.join(bc),back=PRAC).replace('← Back to Practical 2','← Back to Lab Practical 1'))
+tiles.append(f'<div class="tile"><h2>📝 Practice exams</h2><a href="{EXF}?v={V}">Practice Exam 1 (2025) · 51 Q ✅</a><a href="{EX2}?v={V}">Practice Exam 2 · 50 Q ✅</a></div>')
 # 🧅 layers drill (2 blocks)
 lnk=[]
 for i,(lo,hi,sub) in enumerate([(0,16,'Nerve · skeletal muscle · heart · vessels'),(16,len(LAYERS),'Skin · cartilage & bone · lymph node & thymus')],1):
