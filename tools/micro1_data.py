@@ -27,6 +27,12 @@ L1=[
 ("w1/26","Find a mitotic figure.","Dark bar of condensed chromosomes in a cell in the upper-right acinus","Solid dark linear figure, no nuclear envelope","A line of chromosomes = metaphase",1),
 ]
 L2=[
+("lec/lucidum","Thick skin: name the thin pale layer at the arrow.","Stratum lucidum","Thin, pale, glassy band between the stratum granulosum and the stratum corneum","Only in THICK skin (footpads) · LC5 slide 15",0),
+("lec/strata","Name the 5 layers of the epidermis, top → bottom.","Stratum corneum → stratum lucidum → stratum granulosum → stratum spinosum → stratum basale","Lucidum = thin pale line · granulosum = dark purple keratohyalin granules · basale = one row of dividing cells","Thick skin, stratified squamous keratinized · LC5 slide 17",0),
+("lec/hair","Long hair on the right: name the shaft inside, the tube around it, and the swollen bottom end. Name the gland beside the left follicle.","Hair (hair shaft) · hair follicle · hair bulb · sebaceous gland","Bulb = deep swollen end where cells divide and push the hair up · follicle = epidermal tube around the hair","Sebaceous glands empty into hair follicles (holocrine) · LC5 slide 25",0),
+("lec/loose","Classify this connective tissue (mesentery).","Loose (areolar) connective tissue","Few, loosely arranged fibers · lots of empty ground substance · scattered cells","Diffusion and flexibility · LC2 slide 9",0),
+("lec/elastic","Classify this connective tissue (nuchal ligament).","Dense regular elastic connective tissue","Thick parallel fibers that look like dense regular connective tissue, but they are ELASTIC fibers","Stretch and recoil · nuchal ligament = glass slide 123 · LC2 slide 11",0),
+("lec/cuboidal","Classify the epithelium lining this pancreatic duct.","Simple cuboidal epithelium","ONE row of cells about as tall as wide, round central nuclei","Ducts, kidney tubules · LC4 slide 5",0),
 ("w2a/02","Define mesenchyme in 3 words or less.","Embryonic connective tissue","Fetal tissue: loose cells in lots of ground substance","Gives rise to all adult connective tissues",0),
 ("w2a/03","Which shape best describes the mesenchymal cell at the arrow?","D: stellate (star-shaped)","Cells with multiple thin processes floating in pale ground substance","Few fibers, lots of ground substance",0),
 ("w2a/04","This nucleus belongs to a/an:","B: fibroblast","Thin, dark, flattened nucleus squeezed between collagen bundles","Fibroblasts make collagen + ground substance",0),
@@ -66,6 +72,9 @@ L2=[
 ("w2b/20","“Blebs” at the surface of secretory cells are evidence of what process?","Apocrine secretion","Apical cytoplasm pinches off","Apocrine sweat glands (and glands near the anus)",0),
 ]
 L3=[
+("lec/articular","Identify this type of cartilage (head of femur).","Articular cartilage (specialized hyaline cartilage)","NO perichondrium · FLATTENED chondrocytes at the smooth joint surface · deep side anchored to bone","Nutrients from synovial fluid · limited repair · LC10 slide 11",0),
+("lec/plate","Growth plate: name zones 1 → 5 (top = epiphysis).","1 resting · 2 proliferation · 3 hypertrophy · 4 calcification · 5 ossification","Resting = scattered reserve cells · proliferation = stacked columns · hypertrophy = swollen cells · calcification = matrix mineralizes · ossification = vessels + bone on cartilage remnants","Interstitial growth of cartilage → bone length · LC11 slide 16",0),
+("lec/centers","Developing long bone: name the middle shaft, the two ends, and the small pale oval inside the right end.","Diaphysis (primary ossification center) · epiphyses · secondary ossification center","Shaft already has bone and marrow cavity · ends are still hyaline cartilage · secondary center appears later in the epiphysis","Endochondral ossification · cartilage remains as articular cartilage + growth plate · LC11 slide 18",0),
 ("w3/03","Click on a plasma cell.","Eccentric clock-face nucleus + basophilic cytoplasm + pale halo","Clumped chromatin like spokes","Makes antibodies",1),
 ("w3/04","Click on a fibroblast.","Thin, dark, flattened nucleus lying along collagen","Spindle-shaped, little visible cytoplasm","Makes collagen fibers and ground substance",1),
 ("w3/05","Click on nerve.","The pale, wavy, oval bundles in the fat (upper left)","Wavy pink fibers wrapped in a thin sheath","Nerves run with vessels in mesentery",0),
