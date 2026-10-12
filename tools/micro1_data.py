@@ -144,6 +144,8 @@ L4=[
 ("w4/32","Click on a valve in a lymph vessel.","Thin flap projecting into the pale lymph vessel lumen","Very thin wall, pale lymph, few/no RBCs","Valves keep lymph flowing one way",1),
 ]
 L7=[
+("lec/redpulp","Spleen red pulp: name 1, 2 and 3.","1 = splenic sinusoid · 2 = splenic cord · 3 = sheathed (macrophage-lined) arteriole/capillary","Sinusoid = open channel lined by rod-shaped endothelium · cord = cells between sinusoids · 3 = small vessel wrapped in a cuff of macrophages","Red pulp filters old red blood cells · LC37 slide 18",0),
+("lec/whitepulp","Spleen: name the large dark purple region, the band at its outer edge, and the red tissue around it.","White pulp (lymphatic nodule + periarteriolar lymphoid sheath) · marginal zone · red pulp","White pulp = packed lymphocytes · marginal zone = border between white and red pulp · red pulp = blood-filled cords and sinusoids","Immune reactions to blood-borne antigens start in the marginal zone · LC37 slide 13",0),
 ("w7/16","Identify the organ.","C: thymus","Lobules with dark cortex + pale medulla; thymic (Hassall’s) corpuscle","No nodules, no germinal centers",0),
 ("w7/17","Identify the organ.","B: spleen","White pulp nodules with central arterioles scattered in red pulp","No cortex/medulla",0),
 ("w7/18","Identify the organ.","A: lymph node","Capsule + subcapsular sinus + nodules in the cortex","Lymph node = only one with sinuses under the capsule",1),
