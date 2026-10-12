@@ -3,6 +3,7 @@
 import sys,os,time,html,re
 sys.path.insert(0,'tools'); import deck
 from micro1_data import DECKS,TERMS,OBJ,ATTACH,EXTRA,EXAM25,LAYERS,EXAM2B,FUNCS
+from micro1_atlas import ATLAS
 SRC=os.environ.get('MIC1_SRC','/home/claude/w')
 E=html.escape; V=str(int(time.time()))
 TITLES={'lab1':'Lab 1 · Microscopy & Cytology','lab2':'Lab 2 · Connective Tissue, Epithelium & Skin','lab3':'Lab 3 · Nerve, Cartilage & Bone','lab4':'Lab 4 · Muscle, Heart & Circulation','lab7':'Lab 7 · Lymphatic Tissues & Organs'}
@@ -41,6 +42,13 @@ for slug,title,fav,cards in DECKS:
         cs[0]=cs[0].replace('class="card"','class="card on"',1)
         open(fn,'w').write(deck.page(f'{T.split(" · ")[0]} · Block {i}',f'⭐ Objective images · {len(cs)} cards',''.join(cs),back=hubfn))
         links.append(f'<a href="{fn}?v={V}">Block {i}<span>{len(cs)} cards</span></a>')
+    alinks=[]
+    for i,blk in enumerate(chunk(ATLAS.get(slug,[])),1):
+        afn=f'systems-lp1-{slug}-atlas{i}.html'; cs=[card(*c) for c in blk]
+        cs[0]=cs[0].replace('class="card"','class="card on"',1)
+        open(afn,'w').write(deck.page(f'{T.split(" · ")[0]} · Atlas {i}',f'📗 Slide Atlas images · {len(cs)} cards · name every label before you tap',''.join(cs),back=hubfn))
+        alltext+=cs
+        alinks.append(f'<a href="{afn}?v={V}">📗 Atlas {i}<span>{len(cs)} cards</span></a>')
     # objective checklist
     blob=html.unescape(re.sub(r'<[^>]+>',' ',' '.join(alltext))).lower()
     rows=[];got=0
@@ -48,7 +56,7 @@ for slug,title,fav,cards in DECKS:
         ok=t in blob; got+=ok
         rows.append(f'<tr><td>{E(t)}</td><td>{"✅" if ok else "❗ add from screenshots"}</td></tr>')
     chk=f'<details class="sec chk"><summary>✅ Objective-term checklist · {got}/{len(OBJ[slug])} covered</summary><p>Terms from the Microanatomy Exam 1 objectives list.</p><div class="tw"><table>{"".join(rows)}</table></div></details>'
-    hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(T)}</title><style>{deck.HUBCSS}</style></head><body><div class="wrap"><a class="back" href="{PRAC}?v={V}">← Back to Lab Practical 1</a><div class="hero"><h1>{fav} {E(T)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>{chk}<div class="sec main"><h2>⭐ Objective images (start here)</h2><p>Every question for each image is on that card (🧩 = extra objective question). Say it before you tap.</p>{"".join(links)}</div><div class="sec extra"><h2>📚 Extra images</h2><p>📷 Your lecture screenshots land here next.</p></div></div></body></html>'
+    hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(T)}</title><style>{deck.HUBCSS}</style></head><body><div class="wrap"><a class="back" href="{PRAC}?v={V}">← Back to Lab Practical 1</a><div class="hero"><h1>{fav} {E(T)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>{chk}<div class="sec main"><h2>⭐ Objective images (start here)</h2><p>Every question for each image is on that card (🧩 = extra objective question). Say it before you tap.</p>{"".join(links)}</div><div class="sec extra"><h2>📚 Extra images · 📗 Slide Atlas</h2><p>Figures from Dr. Klimek atlas. Letters and numbers stay on; word labels are erased. Name every label before you tap.</p>{"".join(alinks)}</div></div></body></html>'
     open(hubfn,'w').write(hub)
     tiles.append(f'<div class="tile"><h2>{fav} {E(T)}</h2><a href="{hubfn}?v={V}">🖼️ Image decks · small blocks ⭐📚</a></div>')
     print(slug,len(img),'img',sum(len(v) for v in EX.values()),'folded',f'{got}/{len(OBJ[slug])}')
