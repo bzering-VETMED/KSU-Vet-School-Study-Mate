@@ -24,7 +24,7 @@ labels = [
  ("Transverse colon",[B(720,275,1220,340)]),
  ("Left colic flexure (LCF)",[B(1405,325,1500,380)]),
  ("Descending colon",[B(1465,460,1530,970)]),
- ("DC (likely the duodenocolic fold; check your notes)",[B(1350,1025,1450,1110)]),
+ ("DC: descending colon, continuing to the midline → rectum",[B(1350,1025,1450,1110)]),
  ("Root of mesentery (RM)",[B(835,575,900,620)]),
 ]
 card = T.raster_card(tmp, 'abd1_flow', labels, "Flow of ingesta: ventral view, 4 quadrants",
@@ -40,6 +40,8 @@ texts = [
  ("In the dog, the cecum opens into the…", ["Ascending colon (cecocolic orifice)"]),
  ("Longest and shortest parts of the small intestine?", ["Longest: jejunum","Shortest: ileum"]),
  ("The midline crossing of the quadrant map is at which level?", ["L1–L2"]),
+ ("After the descending colon comes the…", ["Rectum","Then the anus"]),
+ ("Where is the root of the mesentery, and what runs in it?", ["Center of the quadrant map","Cranial mesenteric artery"]),
 ]
 T.write('gross-anatomy-abd1-trace.html', '🌀 Flow of Ingesta · Trace It', 'Abdominal Cavity 1 · names pop up in the order ingesta flows.', [card], texts)
 print('ok')

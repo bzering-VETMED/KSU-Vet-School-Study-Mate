@@ -23,6 +23,7 @@ L17 = [
 ("Pairs of spinal nerves in the dog?","31"),("Spinal nerves per region?","C8, T13, L7, S3"),("Pairs of cranial nerves?","12"),
 ("C1 exits through the…","Lateral vertebral foramen"),("C8 exits…","Cranial to T1"),
 ("Thoracic and lumbar nerves exit…","Caudal to the same-numbered vertebra"),("Sacral nerves exit through the…","Dorsal and ventral sacral foramina"),
+("C4 spinal nerve exits between which vertebrae?","C3 and C4 (cervical = cranial)"),("T4 spinal nerve exits between which vertebrae?","T4 and T5 (thoracic = caudal)"),
 ("Spinal nerve leaves the canal through the…","Intervertebral foramen"),
 ("Dorsal branch supplies…","Epaxial muscles, dorsal third of the skin"),("Ventral branch supplies…","Hypaxial muscles, limbs, ventral two-thirds of the skin"),
 ]
@@ -47,7 +48,7 @@ L18 = [
 ("Sympathetic loop around the axillary artery?","Ansa axillaris"),("Sympathetic synapse for the head?","Cranial cervical ganglion"),
 ("Vertebral nerve comes from the…","Cervicothoracic ganglion"),("Major and minor splanchnic nerves synapse in the…","Celiacomesenteric ganglion"),
 ("Lumbar splanchnic nerves synapse in the…","Caudal mesenteric ganglion"),("Name the 5 sympathetic ganglia.","Cranial cervical, middle cervical, cervicothoracic, celiacomesenteric, caudal mesenteric"),
-("Pelvic plexus: synapse there?","No (\"truck stop\")"),("Vagus share of parasympathetic outflow?","About 80%"),
+("Pelvic plexus: synapse there?","No (\"truck stop\")"),("Dorsal vagal trunk fibers are…","Preganglionic parasympathetic (no synapse until the target organ)"),("Vagus share of parasympathetic outflow?","About 80%"),
 ("Cranial nerve III ganglion?","Ciliary ganglion"),("Cranial nerve VII ganglia?","Pterygopalatine and submandibular"),
 ("Cranial nerve IX ganglion?","Otic ganglion"),("Point and shoot?","Parasympathetic erection, sympathetic ejaculation"),
 ("Pupil dilation: which division?","Sympathetic"),("Increased intestinal motility: which division?","Parasympathetic"),
@@ -64,7 +65,7 @@ L19 = [
 ("Cranial circumflex humeral artery comes off the…","Axillary artery"),("Median artery continues as the…","Superficial palmar arch"),
 ("Superficial paw arteries?","Common digital arteries"),("Deep paw arteries?","Metacarpal arteries"),
 ("Cephalic vein drains which side?","Medial"),("Accessory cephalic vein drains which side?","Dorsal and lateral"),
-("Cephalic vein empties into the…","External jugular vein"),("Superficial–deep link at the elbow?","Median cubital vein"),
+("Cephalic vein empties into the…","External jugular vein"),("Superficial–deep link at the elbow?","Median cubital vein (cephalic ↔ brachial)"),
 ("Deep veins are tributaries of the…","Axillary vein"),("Terminal lymph node of the thoracic limb?","None"),
 ("Terminal lymph node of the head?","Medial retropharyngeal lymph node"),("Clinical name for the superficial cervical lymph node?","Prescapular"),
 ("Is the axillary lymph node always present?","Yes (constant)"),("Accessory axillary lymph node location?","Intercostal spaces 2–3"),
@@ -80,9 +81,58 @@ L19 = [
 ("Radial nerve testing site?","Proximal metacarpals II–III, dorsal"),("Caudal cutaneous antebrachial nerve testing site?","4 cm distal to the olecranon"),
 ("Ulnar palmar branch testing site?","Lateral surface of digit 5"),("Fiber types in every plexus nerve?","Motor, sensory, sympathetic"),
 ]
-for n, title, cards in [(17,"Nervous System 1",L17),(18,"Autonomic Nervous System",L18),(19,"Thoracic Limb",L19)]:
-    html = deck.page(f"⚡ L{n} Quick Cards", f"Lecture {n} · {title} · {len(cards)} cards · answer in 10 seconds",
-                     "".join(deck.text_card2(q, a, f"L{n}") for q, a in cards), back="gross-anatomy-lecture.html")
+
+ABD1 = [
+("Alimentary tract runs from… to…","Mouth to anus"),("Gastrointestinal tract runs from… to…","Stomach to anus"),
+("Largest body cavity?","Abdominal cavity"),("Serous lining of the abdomen?","Peritoneum (parietal and visceral)"),
+("Four regions of the stomach?","Cardia, fundus, body, pylorus"),("Stomach inlet?","Cardia"),("Stomach outlet?","Pylorus"),
+("Cardiac sphincter in the dog: strong or weak?","Weak (dogs vomit)"),("Pyloric sphincter regulates…","Outflow into the duodenum"),
+("Site of gas accumulation in the stomach?","Fundus"),("Lesser curvature attaches the…","Lesser omentum"),
+("Greater curvature attaches the…","Greater omentum"),("Pylorus: wide part, then narrow part?","Pyloric antrum, then pyloric canal"),
+("Gastric folds that aid peristalsis?","Rugae"),("Stomach lies on which side?","Left, caudal to the liver"),
+("Empty stomach: palpable?","No (under the costal arch)"),("Moderately full stomach extends…","T9–T12"),
+("Greatly distended stomach extends…","T9–L3"),("GDV usually twists which direction?","Clockwise"),
+("GDV compresses which vessels?","Caudal vena cava and portal vein"),("Three parts of the small intestine?","Duodenum, jejunum, ileum"),
+("Longest part of the small intestine?","Jejunum"),("Shortest part of the small intestine?","Ileum"),
+("Ileum vs. ilium spelling?","Ileum with an E (intestine); ilium is the bone"),
+("Descending duodenum runs…","Right cranial → right caudal quadrant"),("Caudal duodenal flexure runs…","Right caudal → left caudal, caudal to the root of the mesentery"),
+("Ascending duodenum runs…","Left caudal → left cranial quadrant"),("Fold between ascending duodenum and descending colon?","Duodenocolic fold"),
+("Turn from duodenum into jejunum?","Duodenojejunal flexure"),("Jejunum is suspended by the…","Mesojejunum"),
+("Jejunum is covered by the…","Greater omentum"),("First thing you see when you open the abdomen?","Greater omentum"),
+("Fold that marks the length of the ileum?","Ileocecal fold"),("Ileum opens into the…","Ascending colon (ileocolic orifice)"),
+("Cecum opens into the…","Ascending colon (cecocolic orifice)"),("Do the ileum and cecum communicate in the dog?","No"),
+("Cecum lies on which side?","Right of midline"),("Removing the cecum is called…","Typhlectomy"),
+("Order of the colon?","Ascending → right colic flexure → transverse → left colic flexure → descending"),
+("Following the transverse colon, ingesta enters…","Left colic flexure → descending colon"),
+("Transverse colon relative to the root of the mesentery?","Cranial (in every species)"),
+("Artery in the root of the mesentery?","Cranial mesenteric artery"),
+("Structures cranial to the root of the mesentery in large animals?","Not palpable per rectum"),
+("Cranial rectum: peritoneal or retroperitoneal?","Covered by peritoneum (pararectal fossae)"),
+("Caudal rectum: peritoneal or retroperitoneal?","Retroperitoneal"),("Other retroperitoneal organ he named?","Kidneys"),
+("Internal anal sphincter muscle type?","Smooth muscle (involuntary)"),("External anal sphincter muscle type?","Skeletal muscle (voluntary)"),
+("Three zones of the anal canal?","Columnar, intermediate, cutaneous"),("Line between rectum and anal canal?","Anorectal line"),
+("Line between anal canal and skin?","Anocutaneous line"),("Anal sacs open in which zone?","Cutaneous zone"),
+("Liver produces… stored in…","Bile, stored in the gallbladder"),("Largest organ in the body?","Liver"),
+("Six liver lobes?","Left lateral, left medial, quadrate, right medial, right lateral, caudate"),
+("Two processes of the caudate lobe?","Caudate process and papillary process"),
+("Gallbladder sits between which lobes?","Right medial and quadrate"),("Falciform ligament sits between which lobes?","Left medial and quadrate"),
+("Falciform ligament attaches the liver to…","The ventral body wall"),("Triangular ligaments attach the liver to…","The diaphragm"),
+("Coronary ligament surrounds the…","Caudal vena cava (\"crown\")"),("Hepatorenal ligament connects…","Caudate process of the liver ↔ right kidney"),
+("Hepatogastric and hepatoduodenal ligaments connect…","Liver ↔ stomach; liver ↔ duodenum"),
+("Common bile duct is formed by…","Cystic duct + hepatic duct"),("Spleen lies on which side?","Left of midline"),
+("Spleen attaches to the stomach by the…","Gastrosplenic ligament (greater curvature)"),
+("Splenic tumor he named?","Hemangiosarcoma"),("Pancreas lies in the…","Mesoduodenum"),
+("Pancreas parts?","Head (right lobe), body, tail (left lobe, near the spleen)"),
+("Pancreatic duct opens at the…","Major duodenal papilla (with the common bile duct)"),
+("Accessory pancreatic duct opens at the…","Minor duodenal papilla"),
+("Larger pancreatic duct in the dog?","Accessory pancreatic duct (cats: the pancreatic duct)"),
+("Most common pancreas biopsy site?","Left lobe (tail)"),
+("Dog vs. horse vs. ruminant fermentation?","Dog: limited · horse: hindgut (cecum, colon) · ruminant: foregut (rumen)"),
+]
+for n, title, cards in [(17,"Nervous System 1",L17),(18,"Autonomic Nervous System",L18),(19,"Thoracic Limb",L19),("abd1","Abdominal Cavity 1",ABD1)]:
+    lab = (f"L{n}" if isinstance(n,int) else "Abdominal Cavity 1")
+    html = deck.page(f"⚡ {lab} Quick Cards", f"{title} · {len(cards)} cards · answer in 10 seconds",
+                     "".join(deck.text_card2(q, a, lab) for q, a in cards), back="gross-anatomy-lecture.html")
     html = re.sub(r"← Back to Practical \d", "← Back to Lecture", html)
     open(f"gross-anatomy-lc{n}-cards.html", "w").write(html)
     print(n, len(cards))
