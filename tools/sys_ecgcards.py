@@ -91,7 +91,7 @@ ax_cards = [C('Normal axis, left deviation, or right deviation?', svg(f'axis{i}'
 B['🧭 Leads & axis'] = lead_cards + ax_cards
 # ---------------- Block 4: action potentials, waves, extra drawn strips
 B['⚡ Action potentials, waves & extra strips'] = [
- C('Which cell? What moves at each phase?', jpg('im-005-005.png', 'apnode', w=700, crop=(0, 0, 1, 0.59)), 'Pacemaker (SA node) cell', [('Phase 4?', 'HCN funny current (Na⁺ in) + T-type Ca²⁺'), ('Phase 0?', 'Ca²⁺ in (L-type)'), ('Phase 3?', 'K⁺ out'), ('Missing phases?', '1 and 2')], 'LC20'),
+ C('Which cell? What moves at each phase?', jpg('im-005-005.png', 'apnode', w=700, crop=(0, 0, 1, 0.59)), 'Pacemaker (SA node) cell', [('Phase 4?', 'HCN funny current (Na⁺ in)'), ('Phase 0?', 'Ca²⁺ in (T-type, Cav3.1) · ⚠️ Dr. Musch says L-type'), ('Phase 3?', 'K⁺ out'), ('Missing phases?', '1 and 2')], 'LC20'),
  C('Which cell? What moves at each phase?', jpg('im-005-007.png', 'apvent', w=700, crop=(0, 0, 1, 0.74)), 'Working (ventricular) cardiomyocyte', [('Phase 0?', 'Na⁺ in (Nav1.5)'), ('Phase 1?', 'Brief K⁺ out'), ('Phase 2?', 'Ca²⁺ in (L-type) = K⁺ out'), ('Phase 3?', 'K⁺ out'), ('Why plateau?', 'Full contraction, no tetany')], 'LC20'),
  C('Name each wave and its event', jpg('im-032-039.png', 'pqrst', w=800), 'P · QRS · T', [('P?', 'Atrial depolarization'), ('QRS?', 'Ventricular depolarization'), ('T?', 'Ventricular repolarization'), ('Atrial repolarization?', 'Hidden in QRS'), ('AV node?', 'Too small · in the PR segment')], 'LC21–22', aimg=jpg('im-008-011.png', 'pqrst_ans', w=900)),
  C('Name the rhythm', svg('mob1', ecg('mobitz1', 'M1')), '2nd degree AV block, Mobitz I (Wenckebach)', [('Key feature?', 'PR longer, longer, then drop'), ('Treat?', 'Atropine trial (vagal)')], 'Drawn strip'),

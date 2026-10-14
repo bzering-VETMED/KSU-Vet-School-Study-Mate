@@ -180,10 +180,10 @@ FIG2 = {
 }
 EX2 = [
 S('SECTION 1 – Electrocardiophysiology & Electrocardiogram'),
-Q('In this nodal cardiomyocyte, which channel opens late in section C and adds the final push toward threshold?', CH, 3,
-  'Phase 4: HCN funny current drifts the cell up, then T-type calcium (Cav3.1) opens near threshold.', fig='AP'),
-Q('Section A of this nodal action potential is produced mainly by:', ['Na⁺ in through Nav1.5', 'Ca²⁺ in through L-type channels', 'K⁺ out through Kv channels', 'K⁺ in through inward rectifiers'], 1,
-  'Pacemaker phase 0 = calcium upstroke (slower than the sodium upstroke of working muscle).', fig='AP'),
+Q('In this nodal cardiomyocyte, which channel produces the slow drift in section C?', CH, 1,
+  'LC20 slide 14: phase 4 = funny current through HCN channels drifts the cell up to threshold.', fig='AP'),
+Q('Section A of this nodal action potential is produced mainly by:', ['Na⁺ in through Nav1.5', 'Ca²⁺ in through T-type channels', 'K⁺ out through Kv channels', 'K⁺ in through inward rectifiers'], 1,
+  'LC20 slides 13–14: pacemaker phase 0 = Ca²⁺ in through T-type (Cav3.1) channels, slower than the sodium upstroke of working muscle. (Dr. Musch Part 1 slide 13 calls the upstroke L-type; L-type is not an option here.)', fig='AP'),
 Q('Section B of this nodal action potential is produced by:', ['Ca²⁺ in', 'Cl⁻ in', 'K⁺ out', 'Na⁺ in'], 2, 'Phase 3 repolarization = potassium out.', fig='AP'),
 Q('Ivabradine (class 0) slows heart rate by:', ['Blocking β1 receptors', 'Blocking HCN channels and flattening phase 4', 'Blocking L-type calcium channels', 'Prolonging repolarization'], 1, ''),
 Q('Why is the plateau phase important in cardiomyocytes?', ['It lets the cell fully contract before relaxing', 'It speeds conduction', 'It sets the heart rate', 'It removes calcium from the cell'], 0,
