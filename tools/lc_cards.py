@@ -129,10 +129,37 @@ ABD1 = [
 ("Most common pancreas biopsy site?","Left lobe (tail)"),
 ("Dog vs. horse vs. ruminant fermentation?","Dog: limited · horse: hindgut (cecum, colon) · ruminant: foregut (rumen)"),
 ]
+# One-page tap-to-reveal review (same layout as the systems lab "Functions Review" page).
+SECTIONS = {
+ 17: [("🧠 Nerve vs. tract · gray matter · horns", range(0, 14)), ("🔌 Neuron types", range(14, 25)),
+      ("🏷️ Functional types", range(25, 34)), ("🦴 Spinal nerves", range(34, 46))],
+ 18: [("⚙️ Autonomic basics", range(0, 15)), ("🔗 Ganglia & rami", range(15, 24)),
+      ("🛣️ Sympathetic pathways & nerves", range(24, 41)), ("🌿 Parasympathetic", range(41, 46)),
+      ("⚖️ Which division?", range(46, 52))],
+ 19: [("❤️ Arteries", range(1, 16)), ("🩸 Veins", range(16, 21)), ("🫧 Lymph nodes", range(21, 30)),
+      ("⚡ Nerves", [0] + list(range(30, 40)) + [47]), ("📍 Zones & testing sites", range(40, 47))],
+ "abd1": [("🗺️ Overview", [0, 1, 2, 3, 73]), ("🍽️ Stomach", range(4, 20)), ("🌀 Small intestine & cecum", range(20, 38)),
+          ("💩 Colon, rectum & anal canal", range(38, 52)), ("🟤 Liver & bile", range(52, 64)),
+          ("🫘 Spleen & pancreas", range(64, 73))],
+}
+import html as H
+CSS = open(os.path.join(os.path.dirname(__file__), "review.css")).read()
+JS = """const A=[...document.querySelectorAll('.ans')],N=document.getElementById('n');function u(){N.textContent=A.filter(a=>a.classList.contains('on')).length+' / '+A.length}A.forEach(a=>a.onclick=()=>{a.classList.toggle('on');u()});document.getElementById('all').onclick=()=>{A.forEach(a=>a.classList.add('on'));u()};document.getElementById('hide').onclick=()=>{A.forEach(a=>a.classList.remove('on'));u();scrollTo(0,0)};u();"""
+V = str(int(__import__("time").time()))
+def review(title, sub, cards, secs):
+    used = sorted(i for _, r in secs for i in r); assert used == list(range(len(cards))), (title, set(range(len(cards))) - set(used))
+    body = ""
+    for k, (h, r) in enumerate(secs):
+        rows = "".join(f'<tr><td>{H.escape(cards[i][0])}</td><td><span class="ans">{H.escape(cards[i][1])}</span></td></tr>' for i in r)
+        body += f'<div class="sec{" p" if k % 2 else ""}"><h2>{H.escape(h)}</h2><table>{rows}</table></div>'
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{H.escape(title)}</title><style>{CSS}</style></head><body><div class="wrap">'
+            f'<a class="back" href="gross-anatomy-lecture.html?v={V}">← Back to Lecture</a>'
+            f'<div class="hero"><h1>{H.escape(title)}</h1><p>{H.escape(sub)}</p></div>'
+            f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
+            f'<div class="cols">{body}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{JS}</script></body></html>')
 for n, title, cards in [(17,"Nervous System 1",L17),(18,"Autonomic Nervous System",L18),(19,"Thoracic Limb",L19),("abd1","Abdominal Cavity 1",ABD1)]:
     lab = (f"L{n}" if isinstance(n,int) else "Abdominal Cavity 1")
-    html = deck.page(f"⚡ {lab} Quick Cards", f"{title} · {len(cards)} cards · answer in 10 seconds",
-                     "".join(deck.text_card2(q, a, lab) for q, a in cards), back="gross-anatomy-lecture.html")
-    html = re.sub(r"← Back to Practical \d", "← Back to Lecture", html)
+    html = review(f"⚡ {lab} Quick Review", f"{title} · say the answer, then tap the pink box to check · {len(cards)} items", cards, SECTIONS[n])
     open(f"gross-anatomy-lc{n}-cards.html", "w").write(html)
     print(n, len(cards))
