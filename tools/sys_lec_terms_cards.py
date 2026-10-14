@@ -1,4 +1,4 @@
-import sys,re,os,time,html
+import sys,re,os,time,html,json
 sys.path.insert(0,'/tmp/claude-0/out'); sys.path.insert(0,'/home/claude/ksu-vet-school-study-mate/tools')
 from bs4 import BeautifulSoup
 from acr import BASE, spell_soup
@@ -101,6 +101,22 @@ def clean_label(l):
         rest=m.group(3)[len(m.group(1)):].strip(' ,')
         l=f'{m.group(1)} ({m.group(2)})'+(f' · {rest}' if rest else '')
     return l.strip()
+
+COPYJS=r"""<style>.cp{position:fixed;inset:0;background:#330b4dcc;z-index:60;display:none;align-items:center;justify-content:center;padding:16px}.cp.on{display:flex}.cp>div{background:#fff;border-radius:20px;padding:18px;max-width:480px;width:100%;max-height:80vh;overflow:auto}.cp h3{margin:0 0 8px;color:#6a0dad}.cp pre{white-space:pre-wrap;font:14px/1.4 system-ui;background:#f5ecfd;border-radius:12px;padding:10px}.cp button{border:0;border-radius:12px;padding:12px 14px;font-weight:850;font-size:16px;margin:4px 4px 0 0}.cp .go{background:linear-gradient(135deg,#7b2fbe,#e0459a);color:#fff}.cp .x{background:#f5ecfd;color:#65328c}</style>
+<script>(function(){const K='grade:'+location.pathname,T=document.querySelector('h1').textContent.trim(),cs=[...document.querySelectorAll('section.card')];
+function G(){try{return JSON.parse(localStorage.getItem(K)||'{}')}catch(e){return{}}}
+function list(){let g=G();return cs.map((c,i)=>g[i]==0?'- '+c.querySelector('.q').textContent.trim():null).filter(Boolean)}
+let w=document.createElement('div');w.className='cp';w.innerHTML='<div><h3>📋 Your misses</h3><pre></pre><button class="go">📋 Copy</button><button class="x">Close</button></div>';document.body.appendChild(w);
+const pre=w.querySelector('pre'),go=w.querySelector('.go');
+function open(){let m=list();pre.textContent=m.length?T+' · misses ('+m.length+')\n'+m.join('\n'):'🎉 No misses in this deck!';go.style.display=m.length?'':'none';go.textContent='📋 Copy';w.classList.add('on')}
+go.onclick=()=>{let t=pre.textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).catch(()=>{let a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}).finally(()=>go.textContent='✅ Copied! Paste it to Claude')};
+w.querySelector('.x').onclick=()=>w.classList.remove('on');
+let b=document.createElement('button');b.textContent='📋 Copy misses';b.onclick=open;let bar=document.querySelector('.bar');bar.insertBefore(b,document.getElementById('count'));
+document.addEventListener('click',e=>{if(!e.target.closest('.grade'))return;setTimeout(()=>{let g=G();if(cs.every((_,i)=>i in g))open()},50)});})();</script>"""
+HUBJS=r"""<script>(function(){const D=__D__;let b=document.getElementById('cpall'),o=document.getElementById('cpout');
+b.onclick=()=>{let out=[];for(const [f,t,qs] of D){let g={};try{g=JSON.parse(localStorage.getItem('grade:'+new URL(f,location.href).pathname)||'{}')}catch(e){}let m=qs.filter((_,i)=>g[i]==0);if(m.length)out.push(t+' ('+m.length+')\n'+m.map(q=>'- '+q).join('\n'))}
+let t=out.length?'💪 Strengthen misses\n\n'+out.join('\n\n'):'🎉 No misses yet (grade some cards first)';o.textContent=t;o.style.display='block';
+(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>b.textContent='✅ Copied! Paste it to Claude').catch(()=>b.textContent='Copy failed · long-press the text below')}})();</script>"""
 # ---------------------------------------------------------- 2) FLIP FLASHCARDS from Strengthen v2
 def card(q,stages):
     S=''.join(deck.stg(E(p),a,big=(len(stages)==1)) for p,a in stages)
@@ -137,7 +153,7 @@ for blk in V2.select('div.block'):
             q=f'Receptor {lab}: where is it, and what does it do?' if lab in ('α1','α2','β1','β2','M') and 'Resistance' in title else qf.format(r=lab)
             if st: cards.append(card(q,[('❓ '+p if p!='Answer' else '❓ Your answer?',a) for p,a in st]))
     if cards: decks.append((title,tag,cards))
-links_lec=[];links_mus=[];cnt=0
+links_lec=[];links_mus=[];cnt=0;DATA=[]
 HUB='systems-lec-strength-cards.html'
 for i,(title,tag,cards) in enumerate(decks,1):
     chunks=[cards[j:j+15] for j in range(0,len(cards),15)]
@@ -145,11 +161,13 @@ for i,(title,tag,cards) in enumerate(decks,1):
         fn=f'systems-lec-sc{i}-{k}.html'; cs=list(cs); cs[0]=cs[0].replace('class="card"','class="card on"',1)
         nm=title+(f' · {k}' if len(chunks)>1 else '')
         out=deck.page(f'💪 {nm}',f'{len(cs)} cards · from your Strengthen Sheet · {tag}',''.join(cs),back=HUB).replace('← Back to Practical 2','← Back to Strengthen cards').replace('← Back to Practical 3','← Back to Strengthen cards')
-        open(fn,'w').write(out); cnt+=len(cs)
+        out=out.replace('</body>',COPYJS+'</body>');open(fn,'w').write(out); cnt+=len(cs)
+        DATA.append([fn,nm,[BeautifulSoup(c,'html.parser').select_one('.q').get_text(' ',strip=True) for c in cs]])
         (links_mus if ('Part' in tag or 'Musch' in tag) else links_lec).append(f'<a href="{fn}?v={V}">{E(nm)}<span>{len(cs)} cards</span></a>')
 hub=(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Strengthen flashcards</title><style>{deck.HUBCSS}</style></head><body><div class="wrap">'
      f'<a class="back" href="systems-lecture.html?v={V}">← Back to Lecture</a><div class="hero"><h1>💪 Strengthen flashcards</h1><p>Every row of your Strengthen Sheet as a flip card · {cnt} cards · say it, then tap through · ✅/❌ to track misses 🐾</p></div>'
+     f'<div class="sec main" style="text-align:center"><button id="cpall" style="border:0;border-radius:14px;padding:14px 18px;font-weight:900;font-size:17px;background:linear-gradient(135deg,#7b2fbe,#e0459a);color:#fff">📋 Copy ALL my misses</button><pre id="cpout" style="display:none;white-space:pre-wrap;text-align:left;background:#f5ecfd;border-radius:12px;padding:10px;font:14px/1.4 system-ui"></pre></div>'
      f'<div class="sec main"><h2>⚡ Lectures 20–35</h2><p>Electrophysiology, ECG, smears, marrow, hemostasis, defensive cells.</p>{"".join(links_lec)}</div>'
-     f'<div class="sec extra"><h2>🏃 Dr. Musch</h2><p>Parts 1–6.</p>{"".join(links_mus)}</div></div></body></html>')
+     f'<div class="sec extra"><h2>🏃 Dr. Musch</h2><p>Parts 1–6.</p>{"".join(links_mus)}</div></div>'+HUBJS.replace('__D__',json.dumps(DATA,ensure_ascii=False))+'</body></html>')
 open(HUB,'w').write(hub)
 print('cards',cnt,len(links_lec),len(links_mus))
