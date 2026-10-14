@@ -60,7 +60,7 @@ BY_HDR={
  ('Class','Blocks'):('Antiarrhythmic class {r}: what does it block?',{'Blocks':'What does it block?','Examples':'Example drugs?','Use':'Used for?','On the strip*':'What changes on the ECG strip?'}),
  ('Lead','Ref (−) → Rec (+)'):('ECG lead {r}: where are the electrodes?',{'Ref (−) → Rec (+)':'Reference (−) → recording (+) electrode?','Angle':'Angle?'}),
  ('Rule','Detail'):('ECG rule · {r}: explain it',{'Detail':'Answer'}),
- ('Species','Rate (bpm)'):('Normal heart rate for a {r}?',{'Rate (bpm)':'Beats per minute?'}),
+ ('Species','Rate (bpm)'):('Normal heart rate · {r}?',{'Rate (bpm)':'Beats per minute?'}),
  ('Method','How'):('Mean electrical axis · how do you use the "{r}" method?',{'How':'Answer'}),
  ('Rhythm','Strip tells'):('Arrhythmia · {r}',{'Strip tells':'What does the strip look like?','Causes':'Causes?','Treatment':'Treatment?'}),
  ('','Cardioversion'):('Cardioversion vs defibrillation · {r}?',{'Cardioversion':'CARDIOVERSION?','Defibrillation':'DEFIBRILLATION?'}),
