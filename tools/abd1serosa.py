@@ -2,7 +2,7 @@
 # Run from repo root: python3 tools/abd1serosa.py /path/to/IMG_4543.jpeg /path/to/IMG_4544.jpeg
 import cv2, sys, os, numpy as np
 sys.path.insert(0, os.path.dirname(__file__)); import tracer as T
-a_src, b_src = sys.argv[1:3]
+a_src, b_src, rs_src = sys.argv[1:4]
 
 def text(s):  # grey/black print on white
     return (s.max(2) < 170) & ((s.max(2) - s.min(2)) < 40)
@@ -47,6 +47,30 @@ cards = [
     card(a_src, 'abd1_serosa_after', A, "After rotation · omental bursa forms",
          "Same section after the stomach rotates. Where is the omental bursa, and what ligament ties stomach to spleen?", 1135),
 ]
-T.write('gross-anatomy-abd1-serosa.html', 'Serosa & Omental Bursa',
-        'Abdominal Cavity 1 · cross-sections with names hidden · tap to reveal dorsal → ventral', cards, [])
+
+# Rectus sheath slide (IMG_4545): hide the layer lists, keep "External/Internal lamina" as the prompts
+k = 2306 / 2000
+RS = [(n, [tuple(int(v * k) for v in b)]) for n, b in [
+    ("Cranial · external lamina: external abdominal oblique + superficial leaf of internal abdominal oblique", (1498, 345, 1915, 400)),
+    ("Cranial · internal lamina: deep leaf of internal abdominal oblique + transversus abdominis + transversalis fascia", (1498, 465, 1865, 520)),
+    ("Middle · external lamina: external abdominal oblique + internal abdominal oblique", (1498, 625, 1665, 680)),
+    ("Middle · internal lamina: transversus abdominis + transversalis fascia", (1498, 750, 1615, 800)),
+    ("Caudal · external lamina: external abdominal oblique + internal abdominal oblique + transversus abdominis", (1498, 830, 1730, 880)),
+    ("Caudal · internal lamina: transversalis fascia only", (1498, 950, 1560, 1000)),
+]]
+def rs_card():
+    im = cv2.imread(rs_src)
+    for _, bs in RS:
+        for (x0, y0, x1, y1) in bs:
+            sub = im[y0:y1, x0:x1]
+            im[y0:y1, x0:x1] = np.median(np.concatenate([sub[0], sub[-1], sub[:, 0], sub[:, -1]]), axis=0)
+    X0, Y0 = int(165 * k), int(170 * k); im = im[Y0:int(1140 * k), X0:int(1960 * k)]
+    H, W = im.shape[:2]; cv2.imwrite('assets/abd1_rectus_sheath.jpg', im, [cv2.IMWRITE_JPEG_QUALITY, 88])
+    sh = lambda b: (b[0] - X0, b[1] - Y0, b[2] - X0, b[3] - Y0)
+    return dict(title="Rectus sheath · what forms each lamina?",
+                q="Ventral view, cranial at top. For each level, name every layer in the external and internal lamina — spelled out.",
+                img='assets/abd1_rectus_sheath.jpg', labels=[dict(n=n, s=f'{i + 1} ✓', p=T.pos(sh(T.union(bs)), H, W)) for i, (n, bs) in enumerate(RS)])
+cards.append(rs_card())
+T.write('gross-anatomy-abd1-serosa.html', 'Serosa, Omental Bursa & Rectus Sheath',
+        'Abdominal Cavity 1 · names hidden · tap to reveal one at a time', cards, [])
 print('ok')

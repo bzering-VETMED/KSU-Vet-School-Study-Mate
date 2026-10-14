@@ -60,7 +60,7 @@ ol.trace li.hid{color:#cdb8dc;list-style-type:"🔒  "}
 JS = r'''const cards=[...document.querySelectorAll('.card')];let p=0;const shown=cards.map(()=>0);
 const C=document.getElementById('count');
 function render(){cards.forEach((c,i)=>c.classList.toggle('on',i===p));const c=cards[p],L=JSON.parse(c.dataset.labels),k=shown[p];
- const ov=c.querySelector('.ov');if(ov){ov.innerHTML='';L.forEach((l,i)=>{const t=document.createElement('span');t.className='tag '+(i<k?'name'+(i===k-1?' new':''):'num');t.textContent=i<k?l.n:(i+1);t.style.left=l.p[0]+'%';t.style.top=l.p[1]+'%';ov.appendChild(t)});}
+ const ov=c.querySelector('.ov');if(ov){ov.innerHTML='';L.forEach((l,i)=>{const t=document.createElement('span');t.className='tag '+(i<k?'name'+(i===k-1?' new':''):'num');t.textContent=i<k?(l.s||l.n):(i+1);t.style.left=l.p[0]+'%';t.style.top=l.p[1]+'%';ov.appendChild(t)});}
  const ol=c.querySelector('.trace');ol.innerHTML='';L.forEach((l,i)=>{const li=document.createElement('li');li.textContent=i<k?l.n:'';if(i>=k)li.className='hid';ol.appendChild(li)});
  C.textContent=(p+1)+' / '+cards.length+' · '+k+'/'+L.length;document.getElementById('reveal').textContent=k<L.length?'Reveal next':'Next card ▶';
  document.getElementById('skipb').hidden=p===0;document.getElementById('skip').hidden=p===cards.length-1;}
