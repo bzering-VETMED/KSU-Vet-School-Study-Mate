@@ -74,6 +74,59 @@ SPEC=[
   q='Isolated LEFT lung, medial view. Name 1, 2, 3, 4, and 6.',
   a='1 · cranial part of the left cranial lobe · 2 · caudal part of the left cranial lobe · 3 · left caudal lobe · 4 · pulmonary ligament · 6 · lobar bronchi',
   f=[('🌳 Bronchial tree?','Principal bronchus → lobar bronchi (one per lobe) → segmental bronchi'),('🧭 Left lung lobes?','Cranial (cranial + caudal parts) and caudal; no middle or accessory lobe on the left')]),
+ # ---- UMN Lab 11 (lungs, mediastinum, great vessels) ----
+ dict(id='4521',umn=11,crop=(48,29,1247,978),labs=[17,18],erase=[],
+  q='Right pleural cavity opened (thoracic wall reflected). Name 1–6, the arrows, and the asterisk (1–2: which pleura).',
+  a='1 · costal pleura (on the thoracic wall) · 2 · diaphragmatic pleura (on the diaphragm) · 3 · heart, seen through the cardiac notch · 4 · right caudal lobe · 5 · right middle lobe · 6 · right cranial lobe · arrows · internal thoracic artery (and vein) · asterisk · cranial epigastric artery (and vein)',
+  f=[('🫀 Cardiac notch?','Gap between the right cranial and middle lobes where the heart touches the thoracic wall'),('🩸 Internal thoracic a. ends as?','Cranial epigastric artery (plus the musculophrenic artery)')]),
+ dict(id='4523',umn=11,crop=(35,13,1234,840),labs=[17,18],erase=[],
+  q='Right side, right lung lobes lifted and root cut. Name 1–12.',
+  a='1 · right caudal lobe · 2 · right middle lobe · 3 · right cranial lobe · 4 · root of the lung · 5 · right accessory lobe · 6 · plica venae cavae · 7 · mediastinum · 8 · caudal vena cava · 9 · heart · 10 · cranial vena cava · 11 · thymus · 12 · phrenic nerve',
+  f=[('🧩 Plica venae cavae?','Pleural fold around the caudal vena cava (mediastinum ↔ caudal vena cava); hides the accessory lobe in its pocket'),('📍 Accessory lobe sits?','Medial, in the mediastinal recess, between the caudal vena cava and the mediastinum')]),
+ dict(id='4524',umn=11,crop=(35,62,1234,1219),labs=[17,18],erase=[('b',1088,440,20)],
+  q='Left side, left lung reflected, root cut. Name 1–7 and 9 (5: which pleura).',
+  a='1 · root of the lung · 2 · left cranial lobe (cranial and caudal parts) · 3 · left caudal lobe · 4 · pulmonary ligament · 5 · mediastinal pleura · 6 · phrenic nerve · 7 · heart · 9 · thymus',
+  f=[('🎯 Phrenic n. path?','Crosses the heart surface (under mediastinal pleura) to the diaphragm')]),
+ dict(id='4525',umn=11,crop=(55,31,1254,974),labs=[17],erase=[],
+  q='Both lungs, LATERAL surfaces up, cranial at the top. Name 1–7.',
+  a='Left lung: 1 · cranial part of the left cranial lobe · 2 · caudal part of the left cranial lobe · 3 · left caudal lobe · Right lung: 4 · right cranial lobe · 5 · right middle lobe · 6 · right caudal lobe · 7 · right accessory lobe',
+  f=[('🔢 Count?','Left = 2 lobes (cranial has 2 parts) · Right = 4 lobes (cranial, middle, caudal, accessory)')]),
+ dict(id='4527',umn=11,crop=(47,29,1246,980),labs=[17],erase=[],
+  q='Both lungs, MEDIAL surfaces up, cranial at the BOTTOM. Name 1–7, the left-lung arrows, the right-lung arrow, and the asterisks.',
+  a='Left: 1 · cranial part of the left cranial lobe · 2 · caudal part of the left cranial lobe · 3 · left caudal lobe · arrows · lobar bronchi · Right: 4 · right cranial lobe · 5 · right middle lobe · 6 · right caudal lobe · 7 · right accessory lobe · arrow · principal bronchus · asterisks · pulmonary ligament (caudal to the hilus)',
+  f=[('🌳 Bronchus order?','Trachea → carina → principal bronchi → lobar bronchi → segmental bronchi')]),
+ dict(id='4528',umn=11,crop=(57,22,1256,781),labs=[17],erase=[],
+  q='Both lungs, medial surfaces up, cranial at the bottom; one lobe flipped out. Name 1–7.',
+  a='Left: 1 · cranial part of the left cranial lobe · 2 · caudal part of the left cranial lobe · 3 · left caudal lobe · Right: 4 · right cranial lobe · 5 · right middle lobe · 6 · right caudal lobe · 7 · right accessory lobe (reflected)',
+  f=[]),
+ dict(id='4529',umn=11,crop=(18,22,1217,1021),labs=[16,17,18],erase=[('b',884,383,20),('b',369,248,20)],
+  q='Mediastinum, RIGHT side (lung + pleura removed). Name 1–8, 11, and 12.',
+  a='1 · heart · 2 · caudal vena cava · 3 · right azygos vein · 4 · cranial vena cava · 5 · brachiocephalic vein · 6 · subclavian vein (cut) · 7 · external jugular vein · 8 · right common carotid artery (vagosympathetic trunk runs with it) · 11 · thymus · 12 · phrenic nerve',
+  f=[('🩸 Venous chain?','Subclavian v. + external jugular v. → brachiocephalic v.; both brachiocephalic vv. → cranial vena cava'),('🫀 Into the right atrium?','Cranial vena cava, caudal vena cava, right azygos vein (via the cranial vena cava)')]),
+ dict(id='4530',umn=11,crop=(18,20,1417,1017),labs=[16,17,18],erase=[('b',1120,341,20)],
+  q='Mediastinum, LEFT side (lung + pleura removed). Name 1–7 and the arrows.',
+  a='1 · heart · 2 · aorta (descending aorta) · 3 · brachiocephalic trunk · 4 · right common carotid artery · 5 · left common carotid artery · 6 · left subclavian artery · 7 · phrenic nerve · arrows · dorsal intercostal arteries',
+  f=[('🔀 Aortic arch branches (dog)?','1st brachiocephalic trunk → both common carotids + right subclavian · 2nd left subclavian artery'),('🔁 Probe hooks?','Left recurrent laryngeal nerve (loops around the aortic arch)')],
+  ),
+ dict(id='4531',umn=11,crop=(66,16,1265,885),labs=[17,18],erase=[('b',822,594,20),('l',822,575,822,470)],
+  q='Cat, left ventrolateral thorax + neck. Name 1–6 and 8–11.',
+  a='1 · heart · 2 · left lung · 3 · brachiocephalic trunk · 4 · left subclavian artery · 5 · common carotid arteries (left and right) · 6 · right subclavian artery · 8 · costocervical trunk · 9 · internal thoracic artery · 10 · superficial cervical artery · 11 · cranial vena cava (union of the brachiocephalic veins)',
+  f=[('🌿 Subclavian a. branches (4)?','Vertebral a., costocervical trunk, superficial cervical a., internal thoracic a. → then continues as the axillary a.')],
+  find=('4532',(43,20,1242,889))),
+ dict(id='4534',umn=11,crop=(19,35,1418,1092),labs=[16,17,18],erase=[('b',1082,608,20),('b',968,851,20),('b',279,508,20),('l',296,524,372,604)],
+  q='Cat, VENTRAL view of the cranial thorax + neck. Name 1 and 3–12, 14.',
+  a='1 · heart · 3 · brachiocephalic trunk · 4 · left subclavian artery · 5 · vertebral artery · 6 · costocervical trunk · 7 · superficial cervical artery · 8 · internal thoracic artery · 9 · common carotid arteries (left and right) · 10 · right subclavian artery · 11 · brachiocephalic veins · 12 · cranial vena cava · 14 · external jugular vein',
+  f=[('🧠 Order off the subclavian (VCSI)','Vertebral → Costocervical → Superficial cervical → Internal thoracic')],
+  find=('4533',(25,18,1424,1075))),
+ dict(id='4536',umn=11,crop=(50,22,1449,1065),labs=[16,17,18],erase=[('b',228,716,20)],
+  q='Cat, LEFT dorsolateral thorax. Name 1–7, 9–12, and the unnumbered arrows.',
+  a='1 · heart · 2 · right accessory lobe · 3 · thymus · 4 · ascending aorta · 5 · aortic arch · 6 · descending aorta · 7 · bronchoesophageal arteries · 9 · root of the left lung · 10 · caudal vena cava · 11 · phrenic nerve · 12 · internal thoracic artery · arrows · dorsal intercostal arteries',
+  f=[('🩸 Bronchoesophageal a. supplies?','Esophagus + lung root (bronchi); from the descending aorta / dorsal intercostal')],
+  find=('4535',(29,14,1428,1057))),
+ dict(id='4537',umn=11,crop=(36,21,1435,798),labs=[16,17,18],erase=[],
+  q='Cat, left dorsolateral cranial thorax; probe lifts a duct. Name 1–8 and the arrows.',
+  a='1 · heart · 2 · descending aorta · 3 · thoracic duct · 4 · left brachiocephalic vein · 5 · cranial vena cava · 6 · brachiocephalic trunk · 7 · left subclavian artery · 8 · internal thoracic artery · arrows · dorsal intercostal arteries',
+  f=[('🥛 Thoracic duct?','Starts at the cisterna chyli; empties into the left brachiocephalic vein (venous angle)')]),
 ]
 def erase(im,items,crop):
     """Region = generous zone around each guessed label; inside it, only label-like pixels (near-black
@@ -94,20 +147,39 @@ def erase(im,items,crop):
 os.makedirs('assets',exist_ok=True)
 for f in os.listdir('assets'):
     if f.startswith('umn_'): os.remove('assets/'+f)
-bylab={}
+bylab={}; findlab={}
 for s in SPEC:
     im=cv2.imread(f"{SRC}/{s['id']}.jpg"); x0,y0,x1,y1=s['crop']; im=im[y0:y1+1,x0:x1+1]
     im=erase(im,s['erase'],s['crop']); out=f"assets/umn_{s['id']}.jpg"; cv2.imwrite(out,im,[cv2.IMWRITE_JPEG_QUALITY,93])
     tag=f"{TAG} · UMN Lab {s['umn']}"
     c=img_card_facts(s['q'],f'{out}?v={V}',s['a'],'',f'{out}?v={V}',s['f'],tag)
     for L in s['labs']: bylab.setdefault(L,[]).append(c)
-for L,cs in bylab.items():
-    cs=list(cs); cs[0]=cs[0].replace('class="card"','class="card on"',1)
-    fn=f'gross-anatomy-lab{L}-umn.html'
-    open(fn,'w').write(page(f'Lab {L} · 🌐 UMN dissection photos',f'⭐ Bold terms · {len(cs)} cards',''.join(cs),back=f'gross-anatomy-lab{L}-images.html?v={V}'))
+    if s.get('find'):   # same photo with NO labels → harder "point to it" card
+        fid,(a0,b0,a1,b1)=s['find']; cl=cv2.imread(f"{SRC}/{fid}.jpg")[b0:b1+1,a0:a1+1]
+        fo=f"assets/umn_{fid}_clean.jpg"; cv2.imwrite(fo,cl,[cv2.IMWRITE_JPEG_QUALITY,93])
+        fq='🔍 No labels. Point to and name every bold structure you can find (then check).'
+        fc=img_card_facts(fq,f'{fo}?v={V}',s['a'],'',f'{out}?v={V}',[],tag+' · unlabeled')
+        for L in s['labs']: findlab.setdefault(L,[]).append(fc)
+def write_pages(L,cs,stem,title,sub):
+    out=[]
+    for k in range(0,len(cs),15):
+        ch=list(cs[k:k+15]); ch[0]=ch[0].replace('class="card"','class="card on"',1)
+        n=k//15+1; fn=f'gross-anatomy-lab{L}-{stem}{"" if n==1 else n}.html'
+        open(fn,'w').write(page(f'Lab {L} · {title}' + (f' {n}' if len(cs)>15 else ''),f'{sub} · {len(ch)} cards',''.join(ch),back=f'gross-anatomy-lab{L}-images.html?v={V}'))
+        out.append((fn,len(ch),n))
+    return out
+for f in os.listdir('.'):
+    if re.match(r'gross-anatomy-lab\d+-umn(find)?\d*\.html$',f): os.remove(f)
+for L in sorted(set(bylab)|set(findlab)):
+    links=''
+    for fn,n,i in write_pages(L,bylab.get(L,[]),'umn','🌐 UMN dissection photos','⭐ Bold terms'):
+        links+=f'<a href="{fn}?v={V}">🌐 UMN dissection photos{" "+str(i) if len(bylab[L])>15 else ""}<span>{n} cards</span></a>'
+    if findlab.get(L):
+        for fn,n,i in write_pages(L,findlab[L],'umnfind','🔍 UMN find-it (no labels)','⭐ Harder: unlabeled'):
+            links+=f'<a href="{fn}?v={V}">🔍 UMN find-it (no labels)<span>{n} cards</span></a>'
     hub=f'gross-anatomy-lab{L}-images.html'; h=open(hub).read()
     h=re.sub(r'<!--umn-->.*?<!--/umn-->','',h,flags=re.S)
-    h=h.replace('<p>Every bold term, in small blocks.</p>',f'<p>Every bold term, in small blocks.</p><!--umn--><a href="{fn}?v={V}">🌐 UMN dissection photos<span>{len(cs)} cards</span></a><!--/umn-->',1)
+    h=h.replace('<p>Every bold term, in small blocks.</p>',f'<p>Every bold term, in small blocks.</p><!--umn-->{links}<!--/umn-->',1)
     open(hub,'w').write(h)
 p=open('gross-anatomy-practical3.html').read()
 for L in bylab: p=re.sub(rf'gross-anatomy-lab{L}-images\.html\?v=\d+',f'gross-anatomy-lab{L}-images.html?v={V}',p)
