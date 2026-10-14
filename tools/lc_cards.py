@@ -144,7 +144,14 @@ SECTIONS = {
 }
 import html as H
 CSS = open(os.path.join(os.path.dirname(__file__), "review.css")).read()
-JS = """const A=[...document.querySelectorAll('.ans')],N=document.getElementById('n');function u(){N.textContent=A.filter(a=>a.classList.contains('on')).length+' / '+A.length}A.forEach(a=>a.onclick=()=>{a.classList.toggle('on');u()});document.getElementById('all').onclick=()=>{A.forEach(a=>a.classList.add('on'));u()};document.getElementById('hide').onclick=()=>{A.forEach(a=>a.classList.remove('on'));u();scrollTo(0,0)};u();"""
+JS = """const A=[...document.querySelectorAll('.ans')],N=document.getElementById('n');function u(){N.textContent=A.filter(a=>a.classList.contains('on')).length+' / '+A.length}A.forEach(a=>a.onclick=()=>{a.classList.toggle('on');u()});document.getElementById('all').onclick=()=>{A.forEach(a=>a.classList.add('on'));u()};document.getElementById('hide').onclick=()=>{A.forEach(a=>a.classList.remove('on'));u();scrollTo(0,0)};u();
+const cols=document.querySelector('.cols'),orig=[...cols.children],R=[...document.querySelectorAll('tr')],S=document.getElementById('shuf'),T=document.getElementById('topic');
+const mix=document.createElement('div');mix.className='sec';mix.innerHTML='<h2>🔀 Mixed</h2><table></table>';
+S.onclick=()=>{const r=R.slice();for(let i=r.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]]}
+ const t=mix.querySelector('table');r.forEach(x=>t.appendChild(x));cols.replaceChildren(mix);cols.style.columnCount=1;
+ A.forEach(a=>a.classList.remove('on'));u();T.hidden=false;S.textContent='🔀 Reshuffle';scrollTo(0,0)};
+T.onclick=()=>{orig.forEach(sec=>cols.appendChild(sec));mix.remove();rebuild();cols.style.columnCount='';T.hidden=true;S.textContent='🔀 Shuffle';A.forEach(a=>a.classList.remove('on'));u();scrollTo(0,0)};
+const home=R.map(x=>x.parentNode);function rebuild(){R.forEach((x,i)=>home[i].appendChild(x))}"""
 V = str(int(__import__("time").time()))
 def review(title, sub, cards, secs):
     used = sorted(i for _, r in secs for i in r); assert used == list(range(len(cards))), (title, set(range(len(cards))) - set(used))
@@ -156,7 +163,7 @@ def review(title, sub, cards, secs):
             f'<title>{H.escape(title)}</title><style>{CSS}</style></head><body><div class="wrap">'
             f'<a class="back" href="gross-anatomy-lecture.html?v={V}">← Back to Lecture</a>'
             f'<div class="hero"><h1>{H.escape(title)}</h1><p>{H.escape(sub)}</p></div>'
-            f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
+            f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="shuf">🔀 Shuffle</button><button id="topic" hidden>📚 By topic</button><span class="n" id="n"></span></div>'
             f'<div class="cols">{body}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{JS}</script></body></html>')
 for n, title, cards in [(17,"Nervous System 1",L17),(18,"Autonomic Nervous System",L18),(19,"Thoracic Limb",L19),("abd1","Abdominal Cavity 1",ABD1)]:
     lab = (f"L{n}" if isinstance(n,int) else "Abdominal Cavity 1")
