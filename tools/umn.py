@@ -2,11 +2,11 @@
 Rules: numbered pointers for BOLD terms stay (numbers never give the answer); labels/arrows for NON-bold
 terms are inpainted away on both sides. Caption text is cropped off. One tap = full answer (p3simplify.py).
 A photo with bold terms from several labs is added to EVERY one of those labs.
-Run: python3 tools/umn.py <dir with NNNN.jpg>   then python3 tools/p3simplify.py
+Run: python3 tools/umn.py   (originals live in tools/umn_src/NNNN.jpg)   then python3 tools/p3simplify.py
 Add new screenshots by appending to SPEC (crop box, erase list, labs, question, answer, facts)."""
 import sys,os,re,time,html,cv2,numpy as np
 sys.path.insert(0,'tools'); from deck import *
-SRC=sys.argv[1] if len(sys.argv)>1 else '/home/claude/umn9'
+SRC=sys.argv[1] if len(sys.argv)>1 else 'tools/umn_src'
 V=str(int(time.time())); E=html.escape; TAG='🌐 UMN dissection site (vanat.ahc.umn.edu)'
 # erase items: ('b',x,y,r) badge circle · ('l',x1,y1,x2,y2) arrow (head at x2,y2) · ('r',x1,y1,x2,y2) box
 SPEC=[
@@ -30,6 +30,50 @@ SPEC=[
   q='Neck, LEFT lateral view, deep (head to the right). Name 1, 2, 3, and the asterisks.',
   a='1 · vagosympathetic trunk · 2 · left common carotid artery · 3 · left recurrent laryngeal nerve (on the trachea) · asterisks · brachial plexus',
   f=[('📍 Vagosympathetic trunk?','In the carotid sheath, bound to the common carotid artery'),('🔁 Recurrent laryngeal n.?','Branch of the vagus; runs back up the neck on the trachea to the larynx'),('🧪 Labs','Lab 16: vagosympathetic trunk · Lab 17: left common carotid a. · Lab 18: left recurrent laryngeal n., brachial plexus')]),
+ # ---- UMN Lab 10 (thoracic wall, pleura, lungs) ----
+ dict(id='4510',umn=10,crop=(62,16,1261,765),labs=[16],
+  erase=[('b',533,46,20),('l',515,62,432,128),('b',325,255,20),('l',342,272,398,325),('b',838,367,20),('l',822,352,776,312),('l',822,382,776,418),('b',962,680,20)],
+  q='Left lateral thorax, skin reflected (head to the right). Name 5 (both arrows).',
+  a='5 · lateral thoracic nerve',
+  f=[('🎯 Supplies?','Cutaneous trunci (motor); this is the panniculus reflex nerve'),('🧬 From?','Brachial plexus (C8 + T1); emerges from the axilla')]),
+ dict(id='4516',umn=10,crop=(40,31,1239,870),labs=[16,18],
+  erase=[('b',402,264,20),('b',287,175,20),('b',527,183,20),('b',828,290,20),('l',810,302,712,372),('r',950,795,995,845)],
+  q='Deep (pleural) surface of the thoracic wall; probe lifts one bundle. Name 4 and 5.',
+  a='4 · dorsal intercostal artery · 5 · intercostal nerve',
+  f=[('📍 Where do they run?','Along the CAUDAL border of each rib (vein, artery, nerve)'),('🫁 The shiny lining here?','Costal pleura (parietal pleura on the ribs)')]),
+ dict(id='4511',umn=10,crop=(42,30,1241,691),labs=[17,18],
+  erase=[('b',880,133,20),('b',316,355,20)],
+  q='Cat, ventral view; deep pectoral reflected cranially, rectus abdominis reflected caudally. Name 3 and 4.',
+  a='3 · cranial epigastric artery (deep surface of the rectus abdominis) · 4 · brachial plexus nerves + axillary vessels',
+  f=[('🩸 Cranial epigastric a. from?','Continuation of the internal thoracic artery')]),
+ dict(id='4512',umn=10,crop=(35,29,1234,862),labs=[17,18],erase=[],
+  q='Cat, ventral view; thoracic wall cut. Name 1, 2, 3, and 4.',
+  a='1 · cranial epigastric artery · 2 · internal thoracic artery · 3 · cranial superficial epigastric artery · 4 · brachial plexus nerves + axillary vessels',
+  f=[('🔗 Chain?','Internal thoracic a. → cranial epigastric a. → gives off the cranial superficial epigastric a. (cutaneous)'),('⚠️ Trap','Superficial = cutaneous branch; the plain cranial epigastric stays on the deep rectus surface')]),
+ dict(id='4513',umn=10,crop=(29,25,1228,692),labs=[18],
+  erase=[('b',377,597,20),('b',746,600,20),('b',718,178,20),('l',222,480,330,480),('l',965,474,858,474)],
+  q='Dog, ventrolateral thorax; serratus ventralis detached. Name 3.',
+  a='3 · brachial plexus',
+  f=[('🧬 Roots?','Ventral branches of C6, C7, C8, T1 (T2 small)')]),
+ dict(id='4514',umn=10,crop=(32,35,1231,946),labs=[17,18],
+  erase=[('l',375,390,480,390),('l',357,518,462,518),('l',375,630,480,630),('l',442,768,548,768),('l',656,718,656,612),('l',680,700,680,598),('l',771,658,771,555),('l',796,642,796,537),('l',878,598,878,492),('l',908,585,908,482)],
+  q='Cat, sternum elevated, left thoracic wall reflected. Name 1, 2, 3, and the asterisk.',
+  a='1 · heart · 2 · left lung · 3 · internal thoracic artery · asterisk · ventral mediastinum (sternopericardial ligament)',
+  f=[('🧭 Mediastinum?','Midline partition between the two pleural cavities; ventral part attaches to the sternum')]),
+ dict(id='4515',umn=10,crop=(36,34,1235,1115),labs=[17,18],erase=[],
+  q='Cat, RIGHT pleural cavity, right lung reflected. Name 1–9 and the asterisks (1–3 = which pleura covers it).',
+  a='1 · costal pleura (on thoracic wall) · 2 · diaphragmatic pleura (on diaphragm) · 3 · mediastinal pleura (over the heart) · 4 · right caudal lobe · 5 · right middle lobe · 6 · right cranial lobe · 7 · phrenic nerve · 8 · right azygos vein · 9 · internal thoracic artery · asterisks · thymus',
+  f=[('🫁 Lungs are covered by?','Pulmonary (visceral) pleura'),('🧪 Labs','Lab 17: pleurae, lobes, azygos, internal thoracic, thymus · Lab 18: phrenic nerve, heart')]),
+ dict(id='4517',umn=10,crop=(26,20,1225,1277),labs=[17,18],
+  erase=[('b',457,510,20)],
+  q='Left thorax, left lung reflected. Name 1–7 and 9 (5 + 6: name the pleura covering each).',
+  a='1 · cranial part of the left cranial lobe · 2 · caudal part of the left cranial lobe · 3 · left caudal lobe · 4 · pulmonary ligament · 5 · mediastinal pleura (over the heart) · 6 · diaphragmatic pleura (on the diaphragm) · 7 · root of the lung (cut) · 9 · phrenic nerve',
+  f=[('🔗 Pulmonary ligament?','Fold connecting pulmonary (visceral) pleura to mediastinal (parietal) pleura, caudal to the root'),('🎯 Phrenic n.?','Motor to the diaphragm (C5, C6, C7)')]),
+ dict(id='4518',umn=10,crop=(131,20,1120,637),labs=[17],
+  erase=[('b',355,45,20),('l',372,62,462,150),('b',455,312,20),('b',542,312,20),('l',455,292,455,215),('l',542,292,542,215),('b',710,80,20),('l',692,98,612,158),('l',657,295,568,205)],
+  q='Isolated LEFT lung, medial view. Name 1, 2, 3, 4, and 6.',
+  a='1 · cranial part of the left cranial lobe · 2 · caudal part of the left cranial lobe · 3 · left caudal lobe · 4 · pulmonary ligament · 6 · lobar bronchi',
+  f=[('🌳 Bronchial tree?','Principal bronchus → lobar bronchi (one per lobe) → segmental bronchi'),('🧭 Left lung lobes?','Cranial (cranial + caudal parts) and caudal; no middle or accessory lobe on the left')]),
 ]
 def erase(im,items,crop):
     """Region = generous zone around each guessed label; inside it, only label-like pixels (near-black
