@@ -86,7 +86,7 @@ def rhythm(name, seed=1):
     if name == 'sss':
         ts = [0.3, 0.85, 1.4, 4.1, 4.65, 5.2, 5.75]
         return [('n', t) for t in ts], {}
-    if name == 'avb1':       return [(k, t, {'pr': 0.26}) for k, t, *_ in regular(85, start=0.5)], {}
+    if name == 'avb1':       return [(k, t, {'pr': 0.30}) for k, t, *_ in regular(60, start=0.75)], {}
     if name == 'mobitz1':
         b = []; t = 0.35
         prs = [0.12, 0.18, 0.24, None]
