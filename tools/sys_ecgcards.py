@@ -43,12 +43,12 @@ B['📈 Slide strips 1'] = [
  C('Name the rhythm', jpg('im-020-021.png', 'rsa', inpaint=[(80, 120, 122, 140), (303, 138, 337, 157), (493, 133, 534, 152)]), 'Respiratory sinus arrhythmia',
    [('Cause?', 'Breathing changes vagal tone'), ('Common in?', 'Brachycephalic dogs'), ('Treat?', 'No (normal)')], 'LC21–22 slide 20'),
  C('Rate and rhythm?', jpg('im-014-015.png', 'rate165'), 'Slightly tachycardic (~165), arrhythmic', [('Arrhythmic means?', 'R-R varies >10%'), ('Normal dog rate?', '70–120 (60–180)')], 'LC21–22 slide 14'),
- C('Rate and rhythm?', jpg('im-014-016.png', 'rate144'), 'Slightly tachycardic (~144), rhythmic', [('Recorded at?', '25 mm/s, lead II'), ('Normal cat rate?', '120–140 (120–220)')], 'LC21–22 slide 14'),
+ C('Rate and rhythm?', jpg('im-014-016.png', 'rate144'), 'Slightly tachycardic (~144), rhythmic', [('Recorded at?', 'Lead II (slide: “often” 25 mm/s)'), ('Normal cat rate?', '120–140 (120–220)')], 'LC21–22 slide 14'),
  C('Name the rhythm', jpg('im-021-023.png', 'brady', w=900), 'Sinus bradycardia', [('3 pathologic H’s?', 'Hypothermia, hypothyroidism, hyperkalemia'), ('Drug causes?', 'β-blockers, Ca²⁺ blockers, digoxin, opioids'), ('Treat if unstable?', 'Atropine')], 'LC21–22 slide 21'),
  C('Name the rhythm', jpg('im-022-024.png', 'sss1'), 'Sick sinus syndrome', [('Key feature?', 'Pauses / sinus arrest'), ('Treat if syncope?', 'Pacemaker')], 'LC21–22 slide 22'),
  C('Name the rhythm', jpg('im-022-025.png', 'sss2'), 'Sick sinus syndrome', [('Causes?', 'SA node fibrosis, inherited, idiopathic'), ('May alternate with?', 'Atrial tachyarrhythmias')], 'LC21–22 slide 22'),
  C('Name the rhythm (look at the circles)', jpg('im-023-028.png', 'avb1'), '1st degree AV block', [('Key feature?', 'Long PR, nothing drops'), ('Treat?', 'None')], 'LC21–22 slide 23'),
- C('Name the rhythm', jpg('im-023-026.png', 'mob2'), '2nd degree AV block, Mobitz II', [('Key feature?', 'Same PR, sudden dropped QRS'), ('Treat if symptomatic?', 'Pacemaker')], 'LC21–22 slide 23'),
+ C('Name the rhythm', jpg('im-023-026.png', 'mob2'), '2nd degree AV block, Mobitz II', [('Key feature?', 'Same PR, sudden dropped QRS'), ('Treat?', 'Slide 23: pacemaker if symptomatic advanced 2nd/3rd degree · ⚠️ Basel said out loud: Mobitz II “usually isn’t that important… could be physiologic”')], 'LC21–22 slide 23'),
  C('Name the rhythm', jpg('im-023-027.png', 'avb3'), '3rd degree AV block', [('Key feature?', 'P and QRS unrelated, slow escape'), ('Treat?', 'Pacemaker')], 'LC21–22 slide 23'),
  C('Name the rhythm', jpg('im-024-029.png', 'apc'), 'Atrial premature contraction (APC)', [('Key feature?', 'Early P, short T–P, normal QRS'), ('Treat?', 'Often none')], 'LC21–22 slide 24'),
  C('Name the rhythm', jpg('im-025-030.png', 'afib'), 'Atrial fibrillation', [('Key feature?', 'No P waves, irregularly irregular'), ('Treat?', 'Rate control: β-blocker, Ca²⁺ blocker, digoxin')], 'LC21–22 slide 25'),
@@ -69,7 +69,7 @@ CASES = [('1 · Apparently healthy dog', 'rsa', 'Sinus arrhythmia', [('P/QRS nor
          ('2 · Doberman with dilated cardiomyopathy', 'afib', 'Atrial fibrillation', [('Treat?', 'Yes: β-blocker (rate control)')]),
          ('3 · Boxer with arrhythmogenic right ventricular cardiomyopathy', 'vtach', 'Ventricular tachycardia', [('Treat?', 'Lidocaine')]),
          ('4 · Dog with an auscultated arrhythmia', 'sss', 'Sick sinus syndrome', [('Treat?', 'Pacemaker')]),
-         ('5 · Dog with an auscultated arrhythmia', 'vpc', 'Ventricular premature contractions', [('Treat?', 'Long-term antiarrhythmic therapy (if frequent)')]),
+         ('5 · Dog with an auscultated arrhythmia', 'vpc', 'Ventricular premature contractions', [('Treat?', 'Long-term antiarrhythmic therapy')]),
          ('6 · Dog with a bradyarrhythmia', 'avb3', '3rd degree AV block', [('P for every QRS? QRS for every P?', 'Yes · no'), ('Treat?', 'Pacemaker')])]
 for i, (stem, r, name, f) in enumerate(CASES, 1):
     B['📈 Slide strips 2 + cases'].append(C(f'Arrhythmia Case {stem}. Diagnosis?', svg(f'case{i}', ecg(r, 'C' + str(i))), name, f, 'Arrhythmia Cases sheet (strip redrawn)'))
@@ -91,12 +91,12 @@ ax_cards = [C('Normal axis, left deviation, or right deviation?', svg(f'axis{i}'
 B['🧭 Leads & axis'] = lead_cards + ax_cards
 # ---------------- Block 4: action potentials, waves, extra drawn strips
 B['⚡ Action potentials, waves & extra strips'] = [
- C('Which cell? What moves at each phase?', jpg('im-005-005.png', 'apnode', w=700, crop=(0, 0, 1, 0.59)), 'Pacemaker (SA node) cell', [('Phase 4?', 'HCN funny current (Na⁺ in)'), ('Phase 0?', 'Ca²⁺ in (T-type, Cav3.1) · ⚠️ Dr. Musch says L-type'), ('Phase 3?', 'K⁺ out'), ('Missing phases?', '1 and 2')], 'LC20'),
- C('Which cell? What moves at each phase?', jpg('im-005-007.png', 'apvent', w=700, crop=(0, 0, 1, 0.74)), 'Working (ventricular) cardiomyocyte', [('Phase 0?', 'Na⁺ in (Nav1.5)'), ('Phase 1?', 'Brief K⁺ out'), ('Phase 2?', 'Ca²⁺ in (L-type) = K⁺ out'), ('Phase 3?', 'K⁺ out'), ('Why plateau?', 'Full contraction, no tetany')], 'LC20'),
- C('Name each wave and its event', jpg('im-032-039.png', 'pqrst', w=800), 'P · QRS · T', [('P?', 'Atrial depolarization'), ('QRS?', 'Ventricular depolarization'), ('T?', 'Ventricular repolarization'), ('Atrial repolarization?', 'Hidden in QRS'), ('AV node?', 'Too small · in the PR segment')], 'LC21–22', aimg=jpg('im-008-011.png', 'pqrst_ans', w=900)),
- C('Name the rhythm', svg('mob1', ecg('mobitz1', 'M1')), '2nd degree AV block, Mobitz I (Wenckebach)', [('Key feature?', 'PR longer, longer, then drop'), ('Treat?', 'Atropine trial (vagal)')], 'Drawn strip'),
+ C('Which cell? What moves at each phase?', jpg('im-005-005.png', 'apnode', w=700, crop=(0, 0, 1, 0.59)), 'Pacemaker (SA node) cell', [('Phase 4?', 'HCN funny current (Na⁺ in)'), ('Phase 0?', 'Ca²⁺ in (T-type, Cav3.1) · ⚠️ Dr. Musch says L-type'), ('Phase 3?', 'K⁺ out'), ('Missing phases?', 'No phase 1 or 2 · Basel: “directly from phase zero to phase 3” · ⚠️ this textbook picture labels a “2” anyway')], 'LC20'),
+ C('Which cell? What moves at each phase?', jpg('im-005-007.png', 'apvent', w=700, crop=(0, 0, 1, 0.74)), 'Working (ventricular) cardiomyocyte', [('Phase 0?', 'Na⁺ in (Nav1.5)'), ('Phase 1?', 'Brief K⁺ out (slide 25: K⁺/Cl⁻ out) · ⚠️ Basel said out loud: Na⁺ channels closing'), ('Phase 2?', 'Ca²⁺ in (L-type) = K⁺ out'), ('Phase 3?', 'K⁺ out'), ('Why plateau?', 'Full contraction before relaxing (“we don’t want to twitch”)')], 'LC20'),
+ C('Name each wave and its event', jpg('im-032-039.png', 'pqrst', w=800), 'P · QRS · T', [('P?', 'Atrial depolarization'), ('QRS?', 'Ventricular depolarization'), ('T?', 'Ventricular repolarization'), ('Atrial repolarization?', 'Not visible · happens during the QRS (slide 8: 3a with 3b)'), ('PQ segment?', 'Atrial plateau (slide 8)')], 'LC21–22', aimg=jpg('im-008-011.png', 'pqrst_ans', w=900)),
+ C('Name the rhythm', svg('mob1', ecg('mobitz1', 'M1')), '2nd degree AV block, Mobitz I (Wenckebach)', [('Key feature?', 'PR longer, longer, then drop'), ('Treat?', 'Slide 23: none if mild, atropine trial if vagal · ⚠️ Basel said out loud: Mobitz I is concerning and likely to progress, “definitely want to treat”')], 'Drawn strip'),
  C('Rate? (count beats × 10)', svg('brady', ecg('brady', 'BR')), '~40/min · bradycardic', [('Normal dog?', '70–120')], 'Drawn strip'),
- C('Complexes look normal, but no pulse or Doppler. Diagnosis?', svg('pea', ecg('nsr', 'PEA')), 'Pulseless electrical activity', [('Why?', 'E-C coupling failed'), ('Treat?', 'CPR (not shockable)'), ('Interpretation step?', '#6: pulse/Doppler every beat')], 'Drawn strip'),
+ C('Complexes look normal, but no pulse or Doppler. Diagnosis?', svg('pea', ecg('nsr', 'PEA')), 'Pulseless electrical activity', [('Why?', 'E-C coupling failed'), ('Treat?', 'Not on the slide (slide 17 = definition only) · CPR'), ('Interpretation step?', '#6: pulse/Doppler every beat')], 'Drawn strip'),
  C('Name the rhythm', svg('vf2', ecg('vfib', 'VF')), 'Ventricular fibrillation', [('Shock type?', 'Defibrillation, unsynchronized'), ('Cardioversion is?', 'Synchronized to R, for organized rhythms')], 'Drawn strip'),
  C('Name the early beat', svg('apc2', ecg('apc', 'APC')), 'Atrial premature contraction', [('QRS?', 'Normal, narrow'), ('vs VPC?', 'VPC = wide, no P')], 'Drawn strip'),
 ]

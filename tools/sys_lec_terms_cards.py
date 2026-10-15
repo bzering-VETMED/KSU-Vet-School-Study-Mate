@@ -19,7 +19,7 @@ def table_items(tbl):
         cells=r.find_all('td')
         if not cells: continue
         lab=txt(cells[0])
-        if len(cells)==2: items.append((lab,inner(cells[1])))
+        if len(cells)==2: items.append(((f'{hdr[0]} {lab[0].lower()+lab[1:]}' if hdr[0] in ('Spleen','Thymus') else lab),inner(cells[1])))
         else:
             for h,c in zip(hdr[1:],cells[1:]):
                 if txt(c): items.append((f'{lab} · {h}',inner(c)))
@@ -29,8 +29,24 @@ groups={'💓 Abbreviations · cardio & Musch':['LV dP/dt','LVEDP','LVEDV','LAP'
         '⚡ Abbreviations · ECG & electrophysiology':['HCN','GIRK','E-C','MEA','SVT','APC','VPC','V-fib','V-tach','A-fib','SA','AV','RV','RA','LV'],
         '🩸 Abbreviations · blood, hemostasis & immune':['RBC','WBC','PMN','IMHA','MCV','MCHC','Hb','Hct','EPO','TPO','SCF','GM-CSF','G-CSF','M-CSF','IL-5','IL-3','vWF','vWD','TXA₂','PGI₂','tPA','PAI-1/2','TFPI','PT','PTT','BMBT','COX-1','ADP','MHC','TCR','BCR','TH','Tc','NK','IgE','IgM','CKD','IBD','SCID','PALS','MALT','IEL','CT','CNS']}
 full=dict(BASE); full['APC']='atrial premature contraction (APC) · in immunology: antigen-presenting cell'
+# Dr. Musch's official abbreviation sheet wording (Canvas fill-ins are text-match strict)
+MUSCH={'MAP':'mean arterial pressure','BP':'blood pressure','Q':'cardiac output','SVR':'systemic vascular resistance','VO₂':'oxygen uptake',
+ 'a–vO₂':'arterial:mixed venous O₂ difference','LV':'left ventricle or left ventricular','RV':'right ventricle or right ventricular','SV':'stroke volume',
+ 'CaO₂':'arterial O₂ content','CvO₂':'mixed venous O₂ content','LAP':'left atrial pressure','LVEDV':'left ventricular end diastolic volume',
+ 'SA':'sinoatrial','AV':'atrial ventricular (Basel says atrioventricular)','AP':'action potential','NE':'norepinephrine','ACh':'acetylcholine','β1':'beta 1 receptor',
+ 'M':'muscarinic receptor','LVEDP':'left ventricular end diastolic pressure','LV dP/dt':'left ventricular dP/dt','α':'alpha receptor','β2':'beta 2 receptor',
+ 'RBC':'red blood cell','% saturation':'percent saturation','PaO₂':'partial pressure of O₂ in arterial blood','PvO₂':'partial pressure of O₂ in mixed venous blood',
+ 'Hgb':'hemoglobin','EDRF':'endothelial derived relaxing factor','EDCF':'endothelial derived constricting factor','AT II':'angiotensin 2','AT2':'angiotensin 2 receptor',
+ 'NO':'nitric oxide','PGI₂':'prostacyclin','EDHF':'endothelial derived hyperpolarization factor','cAMP':'cyclic adenosine monophosphate',
+ 'cGMP':'cyclic guanosine monophosphate','BK':'bradykinin'}
+groups['💓 Abbreviations · cardio & Musch']=list(MUSCH)+['VO₂max','PmvO₂','PVR','MPP','SBP','DBP','HR','HFrEF','HFpEF','CHF','HF','EF','MI','NYHA','RAAS','ACE','NOS','PKA','CCK','SERCA','SR','TPR']
+groups['⚡ Abbreviations · ECG & electrophysiology']=['HCN','GIRK','E-C','MEA','SVT','APC','VPC','V-fib','V-tach','A-fib']
+full['MPP']='mean pulmonary artery pressure (MPP)'
 for g,keys in groups.items():
-    secs.append((g,[(k,re.sub(r'\s*\('+re.escape(k)+r'\)$','',full[k])) for k in keys if k in full]))
+    if g.startswith('💓'):
+        secs.append((g,[(k,MUSCH[k]+' ✅ Musch sheet' if k in MUSCH else re.sub(r'\s*\('+re.escape(k)+r'\)$','',full[k])) for k in keys if k in MUSCH or k in full]))
+    else:
+        secs.append((g,[(k,re.sub(r'\s*\('+re.escape(k)+r'\)$','',full[k])) for k in keys if k in full]))
 for bid,name in [('lc19','🫀 Heart wall & vessels (LC19)'),('lymph','🧬 Lymphatic tissues, nodes, spleen & thymus (LC36–37)')]:
     blk=REV.select_one('#'+bid); spell_soup(blk)
     for i,t in enumerate(blk.find_all('table')):
