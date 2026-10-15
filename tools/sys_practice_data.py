@@ -187,7 +187,7 @@ Q('Section A of this nodal action potential is produced mainly by:', ['Na⁺ in 
 Q('Section B of this nodal action potential is produced by:', ['Ca²⁺ in', 'Cl⁻ in', 'K⁺ out', 'Na⁺ in'], 2, 'Phase 3 repolarization = potassium out.', fig='AP'),
 Q('Ivabradine (class 0) slows heart rate by:', ['Blocking β1 receptors', 'Blocking HCN channels and flattening phase 4', 'Blocking L-type calcium channels', 'Prolonging repolarization'], 1, ''),
 Q('Why is the plateau phase important in cardiomyocytes?', ['It lets the cell fully contract before relaxing', 'It speeds conduction', 'It sets the heart rate', 'It removes calcium from the cell'], 0,
-  'LC20: “causes the cell to completely contract before relaxing” (no tetany).'),
+  'LC20: “causes the cell to completely contract before relaxing”.'),
 Q('M2 receptor activation in nodal cells couples to:', ['Gi → ↓cAMP and opening of GIRK channels', 'Gq → ↑IP3', 'Gs → ↑cAMP', 'Gs → opening of L-type calcium channels'], 0,
   'Acetylcholine → M2 → Gi → ↓cAMP (less HCN) + GIRK opens (K⁺ out → hyperpolarized).'),
 Q('Sotalol is unusual because it has activity in which antiarrhythmic classes?', ['Class 0 and 1', 'Class 1 and 4', 'Class 2 and 3', 'Class 4 and 5'], 2, 'LC20 table: “Sotalol (class II/III).”'),
