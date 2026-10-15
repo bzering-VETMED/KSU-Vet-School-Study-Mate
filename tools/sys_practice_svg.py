@@ -89,13 +89,13 @@ def rhythm(name, seed=1):
     if name == 'avb1':       return [(k, t, {'pr': 0.30}) for k, t, *_ in regular(60, start=0.75)], {}
     if name == 'mobitz1':
         b = []; t = 0.35
-        prs = [0.12, 0.18, 0.24, None]
+        prs = [0.12, 0.21, 0.30, None]
         i = 0
         while t < 5.9:
             pr = prs[i % 4]
             if pr is None: b.append(('p', t - 0.12))
             else: b.append(('n', t + pr - 0.12, {'pr': pr}))
-            t += 0.62; i += 1
+            t += 0.75; i += 1
         return b, {}
     if name == 'mobitz2':
         b = []; t = 0.35; i = 0
@@ -106,7 +106,7 @@ def rhythm(name, seed=1):
         return b, {}
     if name == 'avb3':
         b = [('p', t) for t in [x * 0.48 + 0.2 for x in range(13)] if t < 5.95]
-        b += [('v', t, {'dir': 1}) for t in [0.55, 2.35, 4.15]]
+        b += [('v', t, {'dir': 1}) for t in [0.78, 2.5, 4.2]]
         return b, {}
     if name == 'apc':
         ts = [0.3, 0.95, 1.6, 2.02, 3.0, 3.65, 4.3, 4.95, 5.6]
