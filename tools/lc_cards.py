@@ -335,8 +335,5 @@ def review(title, sub, cards, secs):
             f'<div class="hero"><h1>{H.escape(title)}</h1><p>{H.escape(sub)}</p></div>'
             f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="shuf">🔀 Shuffle</button><button id="topic" hidden>📚 By topic</button><span class="n" id="n"></span></div>'
             f'<div class="cols">{body}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{JS}</script></body></html>')
-for n, title, cards in [(17,"Nervous System 1",L17),(18,"Autonomic Nervous System",L18),(19,"Thoracic Limb",L19),(22,"Urinary System",L22),("abd1","Abdominal Cavity 1",ABD1),("abd2","Abdominal Cavity 2",ABD2)]:
-    lab = (f"L{n}" if isinstance(n,int) else {"abd1":"Abdominal Cavity 1","abd2":"Abdominal Cavity 2"}[n])
-    html = review(f"⚡ {lab} Quick Review", f"{title} · say the answer, then tap the pink box to check · {len(cards)} items", cards, SECTIONS[n])
-    open(f"gross-anatomy-lc{n}-cards.html", "w").write(html)
-    print(n, len(cards))
+# DEPRECATED (10/18): these pages are now built by tools/terms_page.py from tools/terms/*.json.
+print("lc_cards.py no longer writes pages; run tools/terms_page.py")

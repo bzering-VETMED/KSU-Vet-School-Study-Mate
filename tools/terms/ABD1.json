@@ -1,0 +1,974 @@
+{
+ "sections": [
+  {
+   "title": "🗺️ Abdominal cavity & tracts",
+   "items": [
+    {
+     "q": "Abdominal cavity extends from… to…",
+     "a": "Diaphragm to the pelvic cavity",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Largest body cavity?",
+     "a": "Abdominal cavity",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Abdominal cavity is continuous caudally with the…",
+     "a": "Pelvic cavity",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Serous membrane lining the abdominal cavity?",
+     "a": "Peritoneum: parietal on the walls, visceral on the organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog and cat gastrointestinal tract: stomach type and fermentation?",
+     "a": "Simple stomach (monogastric); limited fermentation in the large intestine",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog and cat: most enzymatic digestion occurs where?",
+     "a": "Stomach and small intestine",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Horse: where does fermentation occur?",
+     "a": "Hindgut, after the small intestine (large cecum and ascending colon)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ruminant: where does fermentation occur?",
+     "a": "Foregut, before the small intestine (enlarged ruminoreticulum)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Microbial fermentation of plant fiber produces…",
+     "a": "Volatile fatty acids",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Do ruminants have four stomachs?",
+     "a": "No: four compartments; abomasum is the true stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ruminant omasum mainly absorbs…",
+     "a": "Water, electrolytes, and volatile fatty acids",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Alimentary tract runs from… to…",
+     "a": "Mouth to anus; open to the outside at both ends",
+     "star": true,
+     "why": "He corrected a slide error and repeated alimentary versus gastrointestinal twice"
+    },
+    {
+     "q": "Gastrointestinal tract runs from… to…",
+     "a": "Stomach to anus",
+     "star": true,
+     "why": "Repeated distinction; slide mislabel corrected in class"
+    },
+    {
+     "q": "Accessory digestive organs deliver secretions via…",
+     "a": "Exocrine ducts into the alimentary or gastrointestinal tract",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Liver and gallbladder secretion travels via which ducts?",
+     "a": "Hepatic, cystic, and common bile ducts",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pancreas secretes… via…",
+     "a": "Digestive enzymes and bicarbonate, via pancreatic and accessory pancreatic ducts",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Salivary glands secrete saliva via…",
+     "a": "Salivary ducts into the oral cavity",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🍽️ Stomach",
+   "items": [
+    {
+     "q": "Four regions of the stomach?",
+     "a": "Cardia (cardiac portion), fundus, body, pylorus (pyloric portion)",
+     "star": true,
+     "why": "Labeled and repeated twice; blueprint: features of the stomach"
+    },
+    {
+     "q": "Stomach inlet?",
+     "a": "Cardia",
+     "star": true,
+     "why": "Inlet versus outlet stated explicitly"
+    },
+    {
+     "q": "Stomach outlet?",
+     "a": "Pylorus",
+     "star": true,
+     "why": "Inlet versus outlet stated explicitly"
+    },
+    {
+     "q": "Region where the esophagus enters the stomach?",
+     "a": "Cardia (oval and wide in the dog)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cardiac sphincter regulates…",
+     "a": "Influx of food from the esophagus into the stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog cardiac sphincter: strong or weak?",
+     "a": "Weak; limits regurgitation but dogs and cats vomit",
+     "star": true,
+     "why": "Repeated with horse contrast"
+    },
+    {
+     "q": "Horse cardiac sphincter compared with dog?",
+     "a": "Very tight and palpable; horses should not vomit",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pyloric sphincter regulates…",
+     "a": "Outflow from the stomach into the duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Site of gas accumulation in the stomach?",
+     "a": "Fundus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two parts of the pyloric portion, in order?",
+     "a": "Pyloric antrum (wide), then pyloric canal (narrow)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater curvature shape?",
+     "a": "Convex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lesser curvature shape?",
+     "a": "Concave",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater curvature is the attachment site of the…",
+     "a": "Greater omentum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lesser curvature is the attachment site of the…",
+     "a": "Lesser omentum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Internal gastric folds that aid peristalsis?",
+     "a": "Gastric rugae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two Latin names for the stomach?",
+     "a": "Gaster or ventriculus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Largest dilation of the alimentary canal?",
+     "a": "Stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Stomach position in the abdomen?",
+     "a": "Left of the median plane, caudal to the liver",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Empty stomach: palpable?",
+     "a": "No; completely cranial to the costal arch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Moderately full stomach: vertebral extent?",
+     "a": "Ninth thoracic through twelfth thoracic vertebra; touches floor, palpable",
+     "star": true,
+     "why": "He said these vertebral borders are important for imaging"
+    },
+    {
+     "q": "Greatly distended stomach: vertebral extent?",
+     "a": "Ninth thoracic through third lumbar vertebra; easily palpable",
+     "star": true,
+     "why": "Vertebral borders flagged as important"
+    },
+    {
+     "q": "Greatly distended stomach displaces…",
+     "a": "Intestines to the right; spleen into the flank; kidney",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastric dilatation volvulus: typical patient?",
+     "a": "Large, deep-chested breeds",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastric dilatation volvulus usually twists which direction?",
+     "a": "Clockwise",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastric dilatation volvulus compresses which veins?",
+     "a": "Caudal vena cava and portal vein; decreased venous return",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌀 Small intestine",
+   "items": [
+    {
+     "q": "Three parts of the small intestine, in order?",
+     "a": "Duodenum, jejunum, ileum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Four parts of the large intestine?",
+     "a": "Cecum, colon, rectum, anus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial duodenal flexure lies in which quadrant?",
+     "a": "Right cranial quadrant",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Descending duodenum runs from… to…",
+     "a": "Right cranial quadrant to right caudal quadrant",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Descending duodenum is suspended by the… which contains…",
+     "a": "Mesoduodenum; contains the pancreas (right lobe)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal duodenal flexure runs from… to…",
+     "a": "Right caudal quadrant to left caudal quadrant",
+     "star": true,
+     "why": "Repeated in lecture and animation; blueprint topography"
+    },
+    {
+     "q": "Caudal duodenal flexure relative to the root of the mesentery?",
+     "a": "Caudal to the root of the mesentery",
+     "star": true,
+     "why": "Repeated twice; blueprint: segments relative to root of mesentery"
+    },
+    {
+     "q": "Ascending duodenum runs from… to…",
+     "a": "Left caudal quadrant to left cranial quadrant",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fold between ascending duodenum and descending colon?",
+     "a": "Duodenocolic fold",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Flexure between the duodenum and jejunum?",
+     "a": "Duodenojejunal flexure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Longest part of the small intestine?",
+     "a": "Jejunum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Jejunum distribution in the abdomen?",
+     "a": "Nearly equal in all four quadrants",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Jejunum is suspended by the…",
+     "a": "Mesojejunum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Jejunum is covered by the…",
+     "a": "Greater omentum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Jejunum lies against which walls?",
+     "a": "Ventral and lateral abdominal walls",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "First structure seen on opening the abdomen ventrally?",
+     "a": "Greater omentum (fatty, spider-web-like)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Shortest part of the small intestine?",
+     "a": "Ileum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ileum spelling?",
+     "a": "Ileum with an E; ilium with an I is the bone",
+     "star": true,
+     "why": "\"Make sure to spell it with an E\""
+    },
+    {
+     "q": "Ileum relative to the root of the mesentery?",
+     "a": "Caudal to the root of the mesentery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two features that mark the length of the ileum?",
+     "a": "Ileocecal fold and antimesenteric ileal artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ileocecal fold runs between…",
+     "a": "Ileum and cecum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ileum opens into the ascending colon via the…",
+     "a": "Ileocolic orifice",
+     "star": true,
+     "why": "Repeated several times"
+    },
+    {
+     "q": "Do the ileum and cecum directly communicate in the dog?",
+     "a": "No",
+     "star": true,
+     "why": "\"Very importantly\"; repeated about five times; horse differs"
+    }
+   ]
+  },
+  {
+   "title": "🟫 Cecum, colon & root of mesentery",
+   "items": [
+    {
+     "q": "Cecum: description?",
+     "a": "Short blind sac; first segment of the large intestine",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Latin caecus means…",
+     "a": "Blind",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cecum opens into the ascending colon via the…",
+     "a": "Cecocolic orifice",
+     "star": true,
+     "why": "Repeated with the ileocolic orifice contrast"
+    },
+    {
+     "q": "Cecum lies on which side?",
+     "a": "Right of midline",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Surgical removal of the cecum?",
+     "a": "Typhlectomy",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Order of colon segments and flexures?",
+     "a": "Ascending colon, right colic flexure, transverse colon, left colic flexure, descending colon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ascending colon: length and side?",
+     "a": "Very short; right side",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Flexure from ascending to transverse colon?",
+     "a": "Right colic flexure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Flexure from transverse to descending colon?",
+     "a": "Left colic flexure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Transverse colon relative to the root of the mesentery?",
+     "a": "Cranial, in every species this year",
+     "star": true,
+     "why": "Repeated three times; blueprint objective"
+    },
+    {
+     "q": "Root of the mesentery: definition?",
+     "a": "Mesentery suspended from the dorsal body wall, containing the cranial mesenteric artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Artery within the root of the mesentery?",
+     "a": "Cranial mesenteric artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Root of the mesentery vertebral level (slide diagram)?",
+     "a": "First to second lumbar vertebrae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Large animals: structures cranial to the root of the mesentery are…",
+     "a": "Not palpable per rectum; caudal structures are palpable",
+     "star": true,
+     "why": "Stated as why the landmark matters; repeated"
+    },
+    {
+     "q": "Can the transverse colon be palpated per rectum in horses and cattle?",
+     "a": "No; it is cranial to the root of the mesentery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesenteries are named for…",
+     "a": "The organ suspended (mesoduodenum, mesojejunum, mesocolon)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Key takeaway about the dog intestinal layout?",
+     "a": "Simple: ascend, cross, descend",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "💩 Rectum & anal canal",
+   "items": [
+    {
+     "q": "External boundary between descending colon and rectum?",
+     "a": "None; no external demarcation",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial rectum begins at the…",
+     "a": "Pelvic inlet",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial rectum: peritoneal covering?",
+     "a": "Covered by peritoneum; lies in the pararectal fossa; suspended by mesorectum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pararectal fossae: what and where?",
+     "a": "Bilateral peritoneal pouches on either side of the rectum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal rectum: peritoneal covering?",
+     "a": "Retroperitoneal (caudal to the pararectal fossa)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Retroperitoneal means…",
+     "a": "Behind the peritoneum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other retroperitoneal organ named?",
+     "a": "Kidneys",
+     "star": true,
+     "why": "\"Very important concept\""
+    },
+    {
+     "q": "Dilation of the caudal rectum?",
+     "a": "Rectal ampulla (ampulla recti)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Internal anal sphincter: muscle type and control?",
+     "a": "Smooth muscle; involuntary",
+     "star": true,
+     "why": "\"Main thing I want you to take away\""
+    },
+    {
+     "q": "External anal sphincter: muscle type and control?",
+     "a": "Skeletal muscle; voluntary",
+     "star": true,
+     "why": "\"Main thing I want you to take away\""
+    },
+    {
+     "q": "Three zones of the anal canal, cranial to caudal?",
+     "a": "Columnar zone, intermediate zone, cutaneous zone",
+     "star": false,
+     "why": "Blueprint: zones of the anal canal"
+    },
+    {
+     "q": "Line at the cranial edge of the columnar zone?",
+     "a": "Anorectal line (rectum to anal canal)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Longitudinal folds in the columnar zone?",
+     "a": "Anal columns",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Grooves between anal columns?",
+     "a": "Anal sinuses",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Intermediate zone: description?",
+     "a": "Very short thickening containing the anocutaneous line",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Anocutaneous line marks the junction of…",
+     "a": "Anal canal and skin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Anal sacs open into which zone?",
+     "a": "Cutaneous zone",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Anal sac secretions function?",
+     "a": "Territory marking (pheromones)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "➡️ Flow of ingesta & topography",
+   "items": [
+    {
+     "q": "Following the transverse colon, ingesta enters…",
+     "a": "Left colic flexure, then descending colon",
+     "star": true,
+     "why": "\"You can expect a question like this on the exam\""
+    },
+    {
+     "q": "Full flow of ingesta from stomach through duodenum?",
+     "a": "Stomach, cranial duodenal flexure, descending duodenum, caudal duodenal flexure, ascending duodenum",
+     "star": true,
+     "why": "Exam-style flow question; animated in class"
+    },
+    {
+     "q": "Flow of ingesta after the ascending duodenum?",
+     "a": "Duodenojejunal flexure, jejunum, ileum, ascending colon",
+     "star": true,
+     "why": "Exam-style flow question"
+    },
+    {
+     "q": "Flow of ingesta after the ascending colon?",
+     "a": "Right colic flexure, transverse colon, left colic flexure, descending colon, rectum",
+     "star": true,
+     "why": "Exam-style flow question"
+    },
+    {
+     "q": "Quadrant left and right are relative to…",
+     "a": "The dog, not the viewer",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Quadrant system orientation in his diagrams?",
+     "a": "Ventral view, dog in dorsal recumbency",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Organs seen on the left side of the abdomen?",
+     "a": "Stomach and spleen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why learn abdominal topography?",
+     "a": "Surgery; human case: liver removed instead of spleen, patient died",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Usual surgical approach to the canine abdomen?",
+     "a": "Ventral",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🟤 Liver & bile",
+   "items": [
+    {
+     "q": "Liver produces… stored in…",
+     "a": "Bile, stored in the gallbladder",
+     "star": true,
+     "why": "Asked as a class question"
+    },
+    {
+     "q": "Largest organ in the body?",
+     "a": "Liver",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Liver parietal surface?",
+     "a": "Convex, molded to the diaphragm",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Liver visceral surface contacts…",
+     "a": "Stomach, duodenum, pancreas",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Six liver lobes?",
+     "a": "Left lateral, left medial, quadrate, right medial, right lateral, caudate",
+     "star": true,
+     "why": "Listed three times; blueprint objective"
+    },
+    {
+     "q": "Caudate means…",
+     "a": "Toward the tail",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two processes of the caudate lobe?",
+     "a": "Caudate process and papillary process",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the papillary process a separate lobe?",
+     "a": "No; part of the caudate lobe",
+     "star": true,
+     "why": "Stated explicitly"
+    },
+    {
+     "q": "Impression on the caudate process?",
+     "a": "Renal impression (right kidney)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gallbladder sits between which lobes?",
+     "a": "Right medial lobe and quadrate lobe",
+     "star": true,
+     "why": "Repeated twice; blueprint objective"
+    },
+    {
+     "q": "Falciform ligament sits between which lobes?",
+     "a": "Left medial lobe and quadrate lobe",
+     "star": true,
+     "why": "Repeated three times; blueprint objective"
+    },
+    {
+     "q": "Falciform ligament attaches the liver to…",
+     "a": "Ventral body wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Latin corona means…",
+     "a": "Crown",
+     "star": true,
+     "why": "Asked in class"
+    },
+    {
+     "q": "Coronary ligament surrounds the…",
+     "a": "Caudal vena cava",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Coronary ligament connects…",
+     "a": "Triangular ligaments to the falciform ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right triangular ligament runs from… to…",
+     "a": "Right lateral lobe to right crus of the diaphragm",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left triangular ligament runs from… to…",
+     "a": "Left lateral lobe to left crus of the diaphragm",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hepatorenal ligament runs from… to…",
+     "a": "Caudate process of caudate lobe to cranial pole of right kidney",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hepatogastric ligament connects…",
+     "a": "Liver and stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hepatoduodenal ligament connects…",
+     "a": "Liver and duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Common bile duct is formed by…",
+     "a": "Cystic duct (gallbladder) plus hepatic duct (liver)",
+     "star": true,
+     "why": "Repeated both days"
+    }
+   ]
+  },
+  {
+   "title": "🫘 Spleen & pancreas",
+   "items": [
+    {
+     "q": "Spleen location?",
+     "a": "Left of midline",
+     "star": false,
+     "why": "Blueprint: location of the spleen; topography emphasis"
+    },
+    {
+     "q": "Spleen is closely tied to which part of the stomach?",
+     "a": "Greater curvature",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ligament attaching spleen to stomach?",
+     "a": "Gastrosplenic ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spleen parietal surface faces…",
+     "a": "Diaphragm and lateral abdominal wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spleen visceral surface contacts…",
+     "a": "Stomach and intestines",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Splenic tumor he named?",
+     "a": "Hemangiosarcoma (aggressive, malignant)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Splenectomy concern?",
+     "a": "Many blood vessels must be ligated",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pancreas gross appearance in the cadaver?",
+     "a": "Chewed-up bubble gum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three parts of the pancreas?",
+     "a": "Right lobe (head), body, left lobe (tail)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right lobe (head) of the pancreas lies in the…",
+     "a": "Descending mesoduodenum, following the descending duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right lobe of the pancreas extends to the…",
+     "a": "Caudal duodenal flexure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left lobe (tail) of the pancreas lies in the…",
+     "a": "Deep leaf of the greater omentum, near the spleen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pancreatic body?",
+     "a": "Central part uniting the two lobes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most common pancreatic biopsy site?",
+     "a": "Left lobe (tail)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ducts opening at the major duodenal papilla?",
+     "a": "Pancreatic duct and common bile duct",
+     "star": true,
+     "why": "\"You need to know which ducts open\"; re-quizzed 10/14"
+    },
+    {
+     "q": "Duct opening at the minor duodenal papilla?",
+     "a": "Accessory pancreatic duct, alone",
+     "star": true,
+     "why": "\"You need to know which ducts open\"; re-quizzed 10/14"
+    },
+    {
+     "q": "Pancreatic duct drains which lobe?",
+     "a": "Right lobe (head)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accessory pancreatic duct drains which lobe?",
+     "a": "Left lobe (tail)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Larger pancreatic duct in the dog?",
+     "a": "Accessory pancreatic duct",
+     "star": true,
+     "why": "Species contrast stated twice"
+    },
+    {
+     "q": "Larger pancreatic duct in the cat?",
+     "a": "Pancreatic duct (accessory absent in about 20% of cats)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Duodenal papilla appearance?",
+     "a": "Small mound, like a miniature volcano, in proximal duodenal wall",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Ileum (small intestine, with E) vs ilium (hip bone, with I).",
+  "Ileocolic orifice (ileum to colon) vs cecocolic orifice (cecum to colon); ileum and cecum never connect in dog.",
+  "Cardia = inlet; pylorus = outlet. Cardiac sphincter = influx; pyloric sphincter = outflow.",
+  "Greater curvature = convex, greater omentum; lesser curvature = concave, lesser omentum.",
+  "Gallbladder: right medial + quadrate. Falciform ligament: left medial + quadrate.",
+  "Transverse colon is CRANIAL to root of mesentery; caudal duodenal flexure and ileum are CAUDAL.",
+  "Anorectal line (rectum/anal canal, columnar zone) vs anocutaneous line (anal canal/skin, intermediate zone).",
+  "Internal anal sphincter = smooth, involuntary; external = skeletal, voluntary.",
+  "Dog: accessory pancreatic duct is larger (minor papilla). Cat: pancreatic duct is larger (major papilla).",
+  "Major papilla = pancreatic duct + common bile duct; minor papilla = accessory pancreatic duct alone.",
+  "Alimentary tract = mouth to anus; gastrointestinal tract = stomach to anus.",
+  "Papillary process and caudate process belong to the caudate lobe; neither is a separate lobe."
+ ],
+ "flags": [
+  "Slide before the stomach section was titled Alimentary Tract; Dr. Diehl said it should read Gastrointestinal Tract (stomach to anus).",
+  "Transcript 10/12 once says the ileum 'opens into the cecum'; slides and his later repetition say ileum opens into ascending colon (ileocolic orifice). Use the slide.",
+  "Flow-of-ingesta animation narration lists 'ileum, then ascending colon, cecum'; cecum is a blind sac off the ascending colon, not in the ingesta path. Confirm how he wants the cecum placed.",
+  "Pancreas location: transcript says simply 'in the mesoduodenum'; slide says right lobe in descending mesoduodenum, left lobe in deep leaf of greater omentum. Use the slide.",
+  "Jejunum called 'largest part' in transcript vs 'longest part' on slide. Use 'longest'.",
+  "Coronary ligament: transcript says it attaches 'the coronary ligaments to the falciform'; slide says it connects the triangular ligaments to the falciform ligament. Use the slide.",
+  "Hepatorenal ligament: transcript says caudate lobe to right kidney; slide specifies caudate process of caudate lobe to cranial pole of right kidney. Use slide wording.",
+  "Accessory pancreatic duct in cats: transcript 'sometimes absent'; slide 'absent in 20% of cats'. Consistent; slide gives the number."
+ ]
+}

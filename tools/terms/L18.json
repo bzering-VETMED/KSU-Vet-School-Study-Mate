@@ -1,0 +1,829 @@
+{
+ "sections": [
+  {
+   "title": "⚙️ Autonomic basics & the two-neuron chain",
+   "items": [
+    {
+     "q": "Autonomic nervous system: motor or sensory division?",
+     "a": "Motor division of the peripheral nervous system (with somatic)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Course definition of autonomic nervous system?",
+     "a": "General visceral efferent",
+     "star": true,
+     "why": "Kahoot question; 'main definition for this course'"
+    },
+    {
+     "q": "Other literature definitions of autonomic?",
+     "a": "General visceral efferent + afferent; or + hypothalamus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "'Autonomic' literally means?",
+     "a": "Self-rule (of the visceral organs)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is autonomic not truly 'self-rule'?",
+     "a": "Receives instructions from the hypothalamus (diencephalon)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three autonomic targets?",
+     "a": "Smooth muscle, cardiac muscle, glands",
+     "star": true,
+     "why": "'I cannot emphasise enough… you need to remember'"
+    },
+    {
+     "q": "Three components of the autonomic motor division?",
+     "a": "Sympathetic, parasympathetic, enteric",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Somatic motor: how many neurons?",
+     "a": "One neuron",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Somatic motor neuron origin and target?",
+     "a": "Ventral horn; skeletal muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Somatic motor neurotransmitter?",
+     "a": "Acetylcholine (at the neuromuscular junction)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Somatic motor functional classification?",
+     "a": "General somatic efferent",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomic: how many neurons to reach target?",
+     "a": "Two-neuron chain",
+     "star": true,
+     "why": "Blueprint objective; core framework"
+    },
+    {
+     "q": "Autonomic neurons originate in?",
+     "a": "Lateral horn of spinal cord or cranial nuclei (brain stem)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Neuron 1 is also called…",
+     "a": "Preganglionic = presynaptic",
+     "star": true,
+     "why": "Repeated throughout; basis of every pathway question"
+    },
+    {
+     "q": "Neuron 2 is also called…",
+     "a": "Postganglionic = postsynaptic",
+     "star": true,
+     "why": "Repeated throughout; basis of every pathway question"
+    },
+    {
+     "q": "Nucleus vs ganglion?",
+     "a": "Nucleus = cell bodies inside central nervous system; ganglion = cell bodies outside central nervous system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two autonomic neurotransmitters overall?",
+     "a": "Acetylcholine and norepinephrine",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔵 Sympathetic division",
+   "items": [
+    {
+     "q": "Sympathetic origin?",
+     "a": "Lateral horn of thoracolumbar spinal cord segments",
+     "star": true,
+     "why": "'You need to remember that thoracolumbar means sympathetic'"
+    },
+    {
+     "q": "Sympathetic neuron lengths (general rule)?",
+     "a": "Short preganglionic, long postganglionic",
+     "star": true,
+     "why": "Listed as a 'main take-home'"
+    },
+    {
+     "q": "Sympathetic neurotransmitters?",
+     "a": "Preganglionic acetylcholine; postganglionic norepinephrine",
+     "star": true,
+     "why": "Blueprint compares neurotransmitters; contrasted repeatedly"
+    },
+    {
+     "q": "Sympathetic exception releasing acetylcholine from neuron 2?",
+     "a": "Sweat glands (cholinergic)",
+     "star": true,
+     "why": "Called 'another important exception'"
+    },
+    {
+     "q": "Chain ganglia are also called…",
+     "a": "Paravertebral ganglia",
+     "star": true,
+     "why": "Main take-home"
+    },
+    {
+     "q": "Why 'paravertebral'?",
+     "a": "Lie on either side of the vertebral bodies",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What links the chain ganglia?",
+     "a": "Sympathetic trunk",
+     "star": true,
+     "why": "Main take-home"
+    },
+    {
+     "q": "Prevertebral ganglia location?",
+     "a": "Ventral to (in front of) the vertebral column",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prevertebral ganglia neuron lengths (the exception)?",
+     "a": "Long preganglionic, short postganglionic",
+     "star": true,
+     "why": "Main take-home; student question confirmed"
+    },
+    {
+     "q": "Five named sympathetic ganglia?",
+     "a": "Cranial cervical, middle cervical, cervicothoracic, celiacomesenteric, caudal mesenteric",
+     "star": true,
+     "why": "End-of-lecture recap: 'those five are sympathetic'"
+    },
+    {
+     "q": "Sympathetic ganglia visible in lab?",
+     "a": "Yes, visible to the naked eye",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is sympathetic generally excitatory?",
+     "a": "Neuron 2 releases norepinephrine",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔴 Parasympathetic division",
+   "items": [
+    {
+     "q": "Parasympathetic origin?",
+     "a": "Craniosacral: brain stem nuclei and sacral spinal cord",
+     "star": true,
+     "why": "'Craniosacral is what you need to remember'"
+    },
+    {
+     "q": "Parasympathetic neuron lengths?",
+     "a": "Long preganglionic, short postganglionic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Parasympathetic cranial nerves?",
+     "a": "III, VII, IX, X",
+     "star": true,
+     "why": "'Say it out loud… you need to remember those'"
+    },
+    {
+     "q": "Name cranial nerves III, VII, IX, X.",
+     "a": "Oculomotor, facial, glossopharyngeal, vagus",
+     "star": true,
+     "why": "Paired with 3-7-9-10 emphasis"
+    },
+    {
+     "q": "Sacral parasympathetic origin?",
+     "a": "Lateral horn of sacral segments S1–S3",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sacral parasympathetic nerve?",
+     "a": "Pelvic nerve",
+     "star": true,
+     "why": "'The name of the nerve you have to remember'"
+    },
+    {
+     "q": "Parasympathetic neurotransmitters?",
+     "a": "Acetylcholine and acetylcholine",
+     "star": true,
+     "why": "Blueprint compares neurotransmitters; contrasted with sympathetic"
+    },
+    {
+     "q": "Parasympathetic ganglia general name?",
+     "a": "Terminal ganglia",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where are terminal ganglia?",
+     "a": "In the wall of the target organ",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Terminal ganglia visible in lab?",
+     "a": "No, not visible to the naked eye",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus share of parasympathetic outflow?",
+     "a": "About 80%",
+     "star": true,
+     "why": "'This is the most important one'; repeated"
+    }
+   ]
+  },
+  {
+   "title": "⚖️ Effects: which division?",
+   "items": [
+    {
+     "q": "Fight or flight vs rest and digest?",
+     "a": "Fight or flight = sympathetic; rest and digest = parasympathetic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic effects (slide list)?",
+     "a": "Pupil dilation, ↑ heart rate, ↓ intestinal motility, ejaculation, viscous saliva, bronchodilation",
+     "star": true,
+     "why": "'I would expect you to know those things'; Kahoot"
+    },
+    {
+     "q": "More sympathetic effects (slide list)?",
+     "a": "Sweat secretion, renin secretion, muscle vessel dilation, skin vessel constriction, piloerection",
+     "star": true,
+     "why": "'I would expect you to know those things'; Kahoot"
+    },
+    {
+     "q": "Parasympathetic effects (slide list)?",
+     "a": "Pupil constriction, ↓ heart rate, ↑ motility, erection, watery saliva, bronchoconstriction",
+     "star": true,
+     "why": "'I would expect you to know those things'; Kahoot"
+    },
+    {
+     "q": "Effects with no parasympathetic innervation?",
+     "a": "Sweat glands, renin, muscle and skin vessels, piloerector muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Concentrated viscous saliva: which division?",
+     "a": "Sympathetic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Abundant watery saliva: which division?",
+     "a": "Parasympathetic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Point and shoot?",
+     "a": "Point = erection (parasympathetic); shoot = ejaculation (sympathetic)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dual innervation example?",
+     "a": "Heart: sympathetic speeds, parasympathetic slows",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔗 Rami communicantes",
+   "items": [
+    {
+     "q": "Rami communicantes means?",
+     "a": "Communicating branches (ramus = branch)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accepted exam synonym for ramus communicans?",
+     "a": "Communicating branch",
+     "star": true,
+     "why": "'If you put communicating branch on an exam, I will be OK'"
+    },
+    {
+     "q": "Rami communicantes connect…",
+     "a": "Spinal nerve and sympathetic trunk",
+     "star": true,
+     "why": "'Again important to remember'"
+    },
+    {
+     "q": "Rami belong to which division?",
+     "a": "Sympathetic only",
+     "star": true,
+     "why": "'Don't put parasympathetic on the exam'"
+    },
+    {
+     "q": "White ramus carries…",
+     "a": "Preganglionic sympathetic axons (neuron 1)",
+     "star": true,
+     "why": "Blueprint objective; in-class exam-style question"
+    },
+    {
+     "q": "Gray ramus carries…",
+     "a": "Postganglionic sympathetic axons (neuron 2)",
+     "star": true,
+     "why": "Blueprint objective; 'important to know'"
+    },
+    {
+     "q": "Why is the white ramus white?",
+     "a": "Myelinated axons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cells that make peripheral myelin?",
+     "a": "Schwann cells",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is the gray ramus gray?",
+     "a": "Unmyelinated axons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Highway analogy for white vs gray?",
+     "a": "White = entrance ramp; gray = exit ramp onto/off sympathetic trunk",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "White rami found on which spinal nerves?",
+     "a": "Thoracolumbar only (slide: T1–L2)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gray rami found on which spinal nerves?",
+     "a": "All spinal nerves, incl. cervical, sacral, caudal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Function of gray rami at all levels?",
+     "a": "Disperse thoracolumbar sympathetic output to the whole body",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🛣️ Sympathetic pathways",
+   "items": [
+    {
+     "q": "Four sympathetic pathways?",
+     "a": "Spinal nerve, postganglionic sympathetic nerve, splanchnic nerve, adrenal medulla",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Key fact to know for each pathway?",
+     "a": "Where neuron 1 synapses with neuron 2",
+     "star": true,
+     "why": "Student asked; professor: 'that is correct… the main table'"
+    },
+    {
+     "q": "Most common sympathetic pathway?",
+     "a": "Spinal nerve pathway",
+     "star": true,
+     "why": "'That is the main one'"
+    },
+    {
+     "q": "Spinal nerve pathway route?",
+     "a": "White ramus → chain ganglion synapse → gray ramus → spinal nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal nerve pathway: final branch to target?",
+     "a": "Dorsal or ventral branch of spinal nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Postganglionic sympathetic nerve pathway: synapse site?",
+     "a": "Chain ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Postganglionic sympathetic nerve pathway: how it exits?",
+     "a": "Own separate nerve, not gray ramus/spinal nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic route to the heart?",
+     "a": "Postganglionic sympathetic nerve pathway (cardiac nerves)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Splanchnic nerve pathway: synapse in chain ganglion?",
+     "a": "No; passes through without synapsing",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Splanchnic pathway synapse site?",
+     "a": "Prevertebral ganglion",
+     "star": true,
+     "why": "Blueprint trace objective; repeated"
+    },
+    {
+     "q": "Splanchnic pathway targets?",
+     "a": "Abdominal and pelvic visceral organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three types of splanchnic nerves?",
+     "a": "Major, minor, lumbar splanchnic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Adrenal medulla pathway: ganglion synapse?",
+     "a": "None; only pathway with no ganglion synapse",
+     "star": true,
+     "why": "Student question confirmed: 'the only exception'"
+    },
+    {
+     "q": "Adrenal medulla pathway route?",
+     "a": "Through chain and prevertebral ganglia without synapsing → adrenal medulla",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Neuron 1 in adrenal medulla synapses on…",
+     "a": "Chromaffin cells",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Chromaffin cells are…",
+     "a": "Modified postganglionic sympathetic neurons (neuron 2)",
+     "star": true,
+     "why": "Repeated three times"
+    },
+    {
+     "q": "Chromaffin cells secrete…",
+     "a": "Epinephrine and norepinephrine",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why can adrenal medulla dump large amounts?",
+     "a": "Heavily innervated",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Adrenal cortex: salt, sugar, sex hormones?",
+     "a": "Mineralocorticoids, glucocorticoids, androgens",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🗺️ Sympathetic scenarios by region",
+   "items": [
+    {
+     "q": "Four sympathetic scenarios?",
+     "a": "Body wall/limbs; head, neck, thorax; abdominal cavity; pelvic cavity",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Body wall/limb: synapse site?",
+     "a": "Nearest chain ganglion, may travel up/down trunk first",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Body wall/limb: postganglionic route?",
+     "a": "Ramus communicans back into spinal nerve, then dorsal or ventral branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ganglion where head/neck/thorax fibers may synapse first?",
+     "a": "Cervicothoracic ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vertebral nerve comes from the…",
+     "a": "Cervicothoracic ganglion, running cranially",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vertebral nerve fiber type?",
+     "a": "Postganglionic sympathetic",
+     "star": true,
+     "why": "In-class exam-style question; repeated in recap"
+    },
+    {
+     "q": "Sympathetic nerves to heart from cervical ganglia?",
+     "a": "Cardiac nerves (cervicothoracic or middle cervical ganglion)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why 'cardiac plexus'?",
+     "a": "Mix of sympathetic and parasympathetic (vagal) fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Middle cervical ganglion location?",
+     "a": "Ventral to the axillary artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic loop around the axillary artery?",
+     "a": "Ansa axillaris",
+     "star": true,
+     "why": "Repeated twice and quizzed in recap"
+    },
+    {
+     "q": "'Ansa' means?",
+     "a": "Loop",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic synapse for the head (e.g. pupil)?",
+     "a": "Cranial cervical ganglion",
+     "star": true,
+     "why": "Recap question; last available ganglion"
+    },
+    {
+     "q": "Vagosympathetic trunk contains?",
+     "a": "Vagus nerve plus sympathetic trunk together in the neck",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Signal direction in vagosympathetic trunk?",
+     "a": "Sympathetic travels cranially; vagus travels caudally",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Major and minor splanchnic nerves synapse in the…",
+     "a": "Celiacomesenteric ganglion",
+     "star": true,
+     "why": "Blueprint trace objective"
+    },
+    {
+     "q": "Celiacomesenteric ganglion = which two combined?",
+     "a": "Celiac and cranial mesenteric ganglia",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which splanchnic is larger: major or minor?",
+     "a": "Major (minor is smaller)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumbar splanchnic nerves serve…",
+     "a": "Caudal abdominal organs (e.g. descending colon) and pelvic organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumbar splanchnic nerves synapse in the…",
+     "a": "Caudal mesenteric ganglion",
+     "star": true,
+     "why": "Blueprint trace objective"
+    },
+    {
+     "q": "Sympathetic route to bladder?",
+     "a": "Lumbar splanchnic → caudal mesenteric ganglion → hypogastric nerve → pelvic plexus",
+     "star": true,
+     "why": "Blueprint trace objective"
+    },
+    {
+     "q": "Hypogastric nerve fiber type?",
+     "a": "Postganglionic sympathetic",
+     "star": true,
+     "why": "Quizzed in class with vertebral nerve"
+    },
+    {
+     "q": "Splanchnic nerves fiber type?",
+     "a": "Preganglionic sympathetic",
+     "star": true,
+     "why": "Quizzed in class"
+    },
+    {
+     "q": "Pelvic nerve fiber type?",
+     "a": "Preganglionic parasympathetic",
+     "star": true,
+     "why": "Quizzed in class"
+    },
+    {
+     "q": "Pelvic plexus: synapse there?",
+     "a": "Generally no; 'truck stop' (sympathetics already synapsed)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌿 Parasympathetic pathways & scenarios",
+   "items": [
+    {
+     "q": "Cranial nerve III ganglion?",
+     "a": "Ciliary ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ciliary ganglion location and target?",
+     "a": "Near optic nerve; eyeball muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial nerve VII ganglia?",
+     "a": "Pterygopalatine and submandibular",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pterygopalatine ganglion location and targets?",
+     "a": "Near sphenopalatine foramen; nasal mucosa, palate, pharynx, lacrimal glands",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Submandibular ganglion location and targets?",
+     "a": "Near submandibular ducts; submandibular and sublingual glands",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial nerve IX ganglion?",
+     "a": "Otic ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Otic ganglion location and target?",
+     "a": "Below foramen ovale; parotid gland",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial parasympathetic ganglia seen in lab?",
+     "a": "Ciliary and pterygopalatine (not submandibular, otic)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "III/VII/IX ganglia vs vagal ganglia location?",
+     "a": "III/VII/IX near targets; vagal = terminal, in organ walls",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus parasympathetic targets?",
+     "a": "Heart, lungs, liver, gallbladder, stomach, pancreas, small intestine, part of large intestine",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two parasympathetic scenarios?",
+     "a": "Head, neck, thorax, abdomen (vagus) and pelvic viscera (sacral)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus branch looping around aortic arch?",
+     "a": "Recurrent laryngeal nerve (U-turn to larynx)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagal branches to the heart?",
+     "a": "Cardiac nerves, joining the cardiac plexus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal vagal trunk forms from?",
+     "a": "Left and right dorsal vagal branches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral vagal trunk forms from?",
+     "a": "Left and right ventral vagal branches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagal trunks' relation to esophagus?",
+     "a": "Dorsal trunk dorsal, ventral trunk ventral to esophagus in mediastinum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagal trunks enter abdomen through?",
+     "a": "Esophageal hiatus of the diaphragm",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal vagal trunk fibers are…",
+     "a": "Preganglionic parasympathetic; no synapse until target organ",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal vagal trunk at celiacomesenteric ganglion?",
+     "a": "Passes through without synapsing ('truck stop')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sacral parasympathetic: ramus communicans?",
+     "a": "None; pelvic nerve exits spinal nerve directly",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pelvic nerve targets?",
+     "a": "Part of colon, urinary and reproductive organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pelvic nerve synapse site (e.g. bladder)?",
+     "a": "Terminal ganglion in the bladder wall",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Splanchnic nerves = preganglionic sympathetic; vertebral and hypogastric nerves = postganglionic sympathetic.",
+  "Pelvic nerve = preganglionic PARAsympathetic; hypogastric nerve = postganglionic sympathetic. Both reach pelvic plexus.",
+  "White ramus = preganglionic, myelinated, entrance; gray ramus = postganglionic, unmyelinated, exit.",
+  "Rami communicantes are sympathetic only; dorsal/ventral branches of spinal nerve are not rami communicantes.",
+  "Paravertebral (chain) = beside vertebrae, short pre; prevertebral = ventral to vertebrae, long pre.",
+  "Thoracolumbar = sympathetic; craniosacral = parasympathetic. Don't flip.",
+  "Sympathetic neuron 2 releases norepinephrine EXCEPT sweat glands (acetylcholine).",
+  "Adrenal medulla pathway: no ganglion synapse; chromaffin cells ARE modified neuron 2.",
+  "Preganglionic = presynaptic; postganglionic = postsynaptic. Same neuron, two names.",
+  "Major + minor splanchnic → celiacomesenteric; lumbar splanchnic → caudal mesenteric ganglion.",
+  "Cranial cervical ganglion = head; cervicothoracic → vertebral nerve; middle cervical sits near ansa axillaris.",
+  "Celiacomesenteric and pelvic plexus are sympathetic synapse sites only; vagus and pelvic nerve pass through."
+ ],
+ "flags": [
+  "Sacral outflow name: slide says 'pelvic splanchnic nerves'; professor says drop 'splanchnic' and call it 'pelvic nerve'. Use pelvic nerve.",
+  "White rami levels: slide says 'only T1–L2' (human-derived wording); professor said only 'thoracolumbar'. Dog thoracolumbar outflow may extend further (outside knowledge, confirm).",
+  "Heart route: lecture part 1 says postganglionic sympathetic nerve pathway synapses in chain ganglia; scenario 2 says cervicothoracic or middle cervical ganglion. Not contradictory if cervicothoracic is treated as chain; confirm.",
+  "Ansa axillaris / middle cervical ganglion 'ventral to axillary artery': course term. Standard veterinary texts use ansa subclavia around subclavian artery (outside knowledge; use course term).",
+  "Transcript slip: 'Facial is your number 10'; slides and rest of lecture: facial = VII, vagus = X.",
+  "Pelvic plexus synapses: professor says generally none ('truck stop'), but notes some research finds synapses; not tested.",
+  "Transcript part 1 cuts off mid-sentence in the splanchnic pathway; part 2 resumes there. No content gap apparent."
+ ]
+}

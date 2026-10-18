@@ -1,0 +1,927 @@
+{
+ "sections": [
+  {
+   "title": "🫘 Pancreatic duct review",
+   "items": [
+    {
+     "q": "Ducts that open at the major duodenal papilla (dog)?",
+     "a": "Common bile duct and pancreatic duct",
+     "star": true,
+     "why": "\"You need to know which ducts open\" at each papilla; reviewed again at lecture start"
+    },
+    {
+     "q": "Duct that opens alone at the minor duodenal papilla?",
+     "a": "Accessory pancreatic duct",
+     "star": true,
+     "why": "Same emphasis; papillae identified in lab"
+    },
+    {
+     "q": "Accessory pancreatic duct drains which part of the pancreas?",
+     "a": "Left lobe (tail) of the pancreas",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "❤️ Celiac artery and stomach",
+   "items": [
+    {
+     "q": "Abdominal aorta enters the abdomen through the…",
+     "a": "Aortic hiatus of the diaphragm",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three unpaired branches of the abdominal aorta, cranial to caudal?",
+     "a": "Celiac, cranial mesenteric, caudal mesenteric arteries",
+     "star": true,
+     "why": "Blueprint objective; repeated twice"
+    },
+    {
+     "q": "Unpaired artery means…",
+     "a": "Only one, not one on each side",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most cranial unpaired branch?",
+     "a": "Celiac artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Celiac artery lies closely associated with which artery?",
+     "a": "Cranial mesenteric artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three branches of the celiac artery?",
+     "a": "Hepatic, left gastric, splenic arteries",
+     "star": true,
+     "why": "Repeated; main scheme of celiac supply"
+    },
+    {
+     "q": "Celiac branches supply which organs?",
+     "a": "Hepatic → liver; left gastric → stomach; splenic → spleen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Easiest way to identify these arteries in lab?",
+     "a": "Follow each along its entire course to its organ",
+     "star": false,
+     "why": "Hard to identify at the origin"
+    },
+    {
+     "q": "Left gastric artery gives small branches to the…",
+     "a": "Esophagus (esophageal branches, not studied)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right gastric artery is a branch of the…",
+     "a": "Hepatic artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastric arteries supply which curvature?",
+     "a": "Lesser curvature of the stomach",
+     "star": true,
+     "why": "Repeated three times; memory hook given"
+    },
+    {
+     "q": "Left and right gastric arteries…",
+     "a": "Anastomose along the lesser curvature",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastroduodenal artery is a branch of the…",
+     "a": "Hepatic artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastroduodenal artery supplies…",
+     "a": "Pylorus, duodenum, and pancreas",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right gastroepiploic artery is a branch of the…",
+     "a": "Gastroduodenal artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastroepiploic arteries supply which curvature?",
+     "a": "Greater curvature of the stomach",
+     "star": true,
+     "why": "Repeated three times; memory hook given"
+    },
+    {
+     "q": "Memory hook for stomach curvatures?",
+     "a": "Short word gastric → short lesser curvature; long gastroepiploic → long greater curvature",
+     "star": true,
+     "why": "Professor's own mnemonic"
+    },
+    {
+     "q": "Cranial pancreaticoduodenal artery supplies…",
+     "a": "Pancreas and duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial pancreaticoduodenal artery anastomoses with the…",
+     "a": "Caudal pancreaticoduodenal artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Splenic artery runs parallel to the…",
+     "a": "Greater curvature of the stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Small branches of the splenic artery to the stomach?",
+     "a": "Short gastric arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Splenic artery main trunk continues as the…",
+     "a": "Left gastroepiploic artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left gastroepiploic artery anastomoses with the…",
+     "a": "Right gastroepiploic artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left and right in stomach artery names are relative to…",
+     "a": "The patient's left and right, not ours",
+     "star": false,
+     "why": "\"Don't get that confused\""
+    },
+    {
+     "q": "General rule for paired left/right or cranial/caudal arteries?",
+     "a": "They usually anastomose with each other",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "❤️ Cranial and caudal mesenteric arteries",
+   "items": [
+    {
+     "q": "Largest visceral branch of the abdominal aorta studied?",
+     "a": "Cranial mesenteric artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial mesenteric artery supplies…",
+     "a": "Small and large intestines",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Main branches of the cranial mesenteric artery?",
+     "a": "Ileocolic, right colic, middle colic, caudal pancreaticoduodenal, jejunal arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Common trunk of the cranial mesenteric gives off…",
+     "a": "Right colic and middle colic arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "After right and middle colic, the common trunk continues as the…",
+     "a": "Ileocolic artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right colic artery supplies…",
+     "a": "Ascending colon, right colic flexure, small part of transverse colon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Middle colic artery supplies…",
+     "a": "Transverse colon, left colic flexure, proximal descending colon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three branches of the ileocolic artery?",
+     "a": "Colic branch, mesenteric ileal branch, cecal branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Colic branch of the ileocolic supplies…",
+     "a": "Proximal colon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal pancreaticoduodenal artery supplies…",
+     "a": "Pancreas and duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Number of jejunal arteries?",
+     "a": "12 to 15",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Jejunal arteries supply…",
+     "a": "Jejunal coils, the longest small-intestine segment",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two branches of the caudal mesenteric artery?",
+     "a": "Left colic and cranial rectal arteries",
+     "star": false,
+     "why": "\"Pretty simple\""
+    },
+    {
+     "q": "Left colic artery supplies the…",
+     "a": "Descending colon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left colic artery anastomoses with the…",
+     "a": "Middle colic artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Descending colon is supplied by…",
+     "a": "Middle colic and left colic arteries; mainly caudal mesenteric",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial rectal artery anastomoses with…",
+     "a": "Middle and caudal rectal arteries, from the internal pudendal artery",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩸 Caudal vena cava and hepatic portal system",
+   "items": [
+    {
+     "q": "Veins draining into the caudal vena cava?",
+     "a": "Lumbar, deep circumflex iliac, gonadal, renal, phrenicoabdominal veins",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deep circumflex iliac veins drain the…",
+     "a": "Lateral abdominal wall, mainly the flank",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gonadal veins are called… in each sex?",
+     "a": "Ovarian veins in females; testicular veins in males",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right gonadal vein drains into the…",
+     "a": "Caudal vena cava directly",
+     "star": true,
+     "why": "\"Main thing I want you to take away from this slide\""
+    },
+    {
+     "q": "Left gonadal vein drains into the…",
+     "a": "Left renal vein, then caudal vena cava",
+     "star": true,
+     "why": "\"Main thing I want you to take away\"; blueprint left vs right"
+    },
+    {
+     "q": "Caudal vena cava path to the heart?",
+     "a": "Through liver, caval foramen of diaphragm, into right atrium",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hepatic portal vein is formed by…",
+     "a": "Union of many tributaries; terminates in the liver",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hepatic portal vein drains…",
+     "a": "Gastrointestinal tract, pancreas, and spleen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two portal tributaries named?",
+     "a": "Splenic vein and gastroduodenal vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastroduodenal vein drains…",
+     "a": "Stomach and duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Direction of blood flow in the hepatic portal vein?",
+     "a": "Cranially, to the liver before the heart",
+     "star": true,
+     "why": "Stated twice in a row"
+    },
+    {
+     "q": "Why does gut blood go to the liver first?",
+     "a": "Nutrients, toxins, pathogens processed before general circulation",
+     "star": true,
+     "why": "Core reason for the portal system; detoxification"
+    },
+    {
+     "q": "Liver's oxygenated blood comes from the…",
+     "a": "Hepatic artery, a celiac branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Liver histology hierarchy?",
+     "a": "Lobules → hepatic plates → hepatocytes and sinusoids",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most permeable capillary in the body?",
+     "a": "Sinusoid",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Portal and hepatic artery blood mix in the…",
+     "a": "Liver sinusoids",
+     "star": true,
+     "why": "Repeated twice"
+    },
+    {
+     "q": "Blood flow out of the liver, in order?",
+     "a": "Sinusoids → central vein → hepatic veins → caudal vena cava",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🫧 Peritoneum, sacs and pouches",
+   "items": [
+    {
+     "q": "Serous membrane of the abdominal cavity?",
+     "a": "Peritoneum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Does peritoneum extend into the caudal pelvic cavity?",
+     "a": "No; it caps off as pouches instead",
+     "star": false,
+     "why": "Why pouches exist"
+    },
+    {
+     "q": "Space between parietal and visceral peritoneum?",
+     "a": "Peritoneal cavity, also called peritoneal sac (same thing)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Peritoneal cavity is a…",
+     "a": "Potential space",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Peritoneal cavity: open or closed?",
+     "a": "Closed in males; briefly open in females for the oocyte",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Only normal contents of the peritoneal cavity?",
+     "a": "Serous fluid (exception: oocyte briefly in females)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Parietal means…",
+     "a": "Wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Parietal peritoneum lines the…",
+     "a": "Walls of the abdominal cavity",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Abdominal side of the diaphragm is covered by…",
+     "a": "Parietal peritoneum",
+     "star": true,
+     "why": "Past practical exam question"
+    },
+    {
+     "q": "Thoracic side of the diaphragm is covered by…",
+     "a": "Parietal pleura (diaphragmatic pleura)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Visceral peritoneum lies…",
+     "a": "Directly on the organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Shiny layer picked off the liver or rumen surface?",
+     "a": "Visceral peritoneum",
+     "star": true,
+     "why": "Paired with past exam question"
+    },
+    {
+     "q": "Analogy for visceral peritoneum around an organ?",
+     "a": "Hand pushed into a balloon, making a double layer",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Retroperitoneal means…",
+     "a": "Behind the peritoneum; covered on one side only",
+     "star": true,
+     "why": "Blueprint objective; repeated"
+    },
+    {
+     "q": "Retroperitoneal organ example?",
+     "a": "Kidneys",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal portion of the pelvic cavity is…",
+     "a": "Retroperitoneal, not covered by peritoneum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Intraperitoneal organ example shown (fully covered)?",
+     "a": "Jejunum, surrounded by visceral peritoneum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vaginal tunic is…",
+     "a": "Extension of parietal peritoneum around testis and spermatic cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Analogy for the vaginal tunic?",
+     "a": "Sausage casing down the spermatic cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vaginal ring is where…",
+     "a": "Parietal peritoneum sinks into the inguinal canal onto spermatic cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Analogy for the vaginal ring?",
+     "a": "Trash bag in a trash can",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater sac?",
+     "a": "Larger main portion of the peritoneal cavity",
+     "star": true,
+     "why": "\"What I want you to take away\""
+    },
+    {
+     "q": "Lesser sac?",
+     "a": "Smaller recess of the peritoneal cavity, behind the stomach",
+     "star": true,
+     "why": "\"What I want you to take away\""
+    },
+    {
+     "q": "Communication between greater and lesser sacs?",
+     "a": "Epiploic foramen",
+     "star": true,
+     "why": "Repeated three times"
+    },
+    {
+     "q": "Where to find the epiploic foramen in lab?",
+     "a": "Underneath the liver",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pouch on either side of the rectum?",
+     "a": "Pararectal fossa",
+     "star": false,
+     "why": "Para = next to"
+    },
+    {
+     "q": "Pouch between rectum and vagina or genital fold?",
+     "a": "Rectogenital pouch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pouch between bladder and vagina or genital fold?",
+     "a": "Vesicogenital pouch",
+     "star": false,
+     "why": "Vesico = bladder"
+    },
+    {
+     "q": "Pouch between pubis and bladder?",
+     "a": "Pubovesical pouch",
+     "star": false,
+     "why": "Pubo = pubis"
+    },
+    {
+     "q": "Genital fold?",
+     "a": "Peritoneum spanning between the two ductus deferens",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Genital fold forms the border of which pouches (male)?",
+     "a": "Rectogenital and vesicogenital pouches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical importance of the rectogenital pouch?",
+     "a": "Vaginal tear in pregnancy can enter it → contamination",
+     "star": true,
+     "why": "\"That is why this is important\""
+    }
+   ]
+  },
+  {
+   "title": "🧵 Mesentery, omenta, ligaments and epiploic foramen",
+   "items": [
+    {
+     "q": "Connecting peritoneum is…",
+     "a": "Double sheets that suspend organs or connect two organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesentery does what?",
+     "a": "Suspends organs, usually from dorsal body wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesentery also provides routes for…",
+     "a": "Neurovascular bundles and lymphatics",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesentery naming rule?",
+     "a": "Named for the organ suspended: mesoduodenum, mesojejunum, mesocolon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Omenta connect…",
+     "a": "Stomach to adjacent organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ligaments connect…",
+     "a": "Two viscera; named for both",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastrosplenic ligament connects…",
+     "a": "Stomach and spleen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nephrosplenic ligament connects…",
+     "a": "Kidney and spleen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Root of the mesentery: vertebral level and enclosed artery?",
+     "a": "L1–L2; cranial mesenteric artery",
+     "star": false,
+     "why": "Anatomical landmark"
+    },
+    {
+     "q": "Dorsal mesentery?",
+     "a": "Mesentery attaching organs to the dorsal body wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral mesentery?",
+     "a": "Mesentery derived from the ventral body wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral mesentery examples?",
+     "a": "Falciform ligament (liver) and median ligament of the bladder",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater omentum attaches to which curvature?",
+     "a": "Greater curvature of the stomach",
+     "star": true,
+     "why": "\"Important attachment site\""
+    },
+    {
+     "q": "Lesser omentum attaches to which curvature?",
+     "a": "Lesser curvature of the stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater omentum derives from the embryonic…",
+     "a": "Dorsal mesogastrium",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What creates the curvatures and omenta?",
+     "a": "Stomach turning during development",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater omentum connects stomach to…",
+     "a": "Dorsal body wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lesser omentum connects stomach mainly to…",
+     "a": "Liver",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Greater omentum: how many layers?",
+     "a": "Four: superficial and deep leaves, each double layered",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Texture of the greater omentum?",
+     "a": "Fragile, like a spider web",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Space between superficial and deep leaves of greater omentum?",
+     "a": "Omental bursa",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Organs in the dog omental bursa?",
+     "a": "None (goat: one rumen compartment lies in it)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lesser omentum covers which liver part?",
+     "a": "Papillary process of the caudate lobe",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two ligaments within the lesser omentum?",
+     "a": "Hepatogastric and hepatoduodenal ligaments",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Epiploic foramen dorsal border?",
+     "a": "Caudal vena cava",
+     "star": true,
+     "why": "\"What I want you to take away from this slide are these borders\""
+    },
+    {
+     "q": "Epiploic foramen ventral border?",
+     "a": "Portal vein",
+     "star": true,
+     "why": "Same emphasis; blueprint objective"
+    },
+    {
+     "q": "Epiploic foramen lateral border?",
+     "a": "Caudate process of the caudate lobe of the liver",
+     "star": true,
+     "why": "Same emphasis"
+    }
+   ]
+  },
+  {
+   "title": "💪 Linea alba and rectus sheath",
+   "items": [
+    {
+     "q": "Linea alba means…",
+     "a": "White line",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Linea alba location and extent?",
+     "a": "Ventral midline, xiphoid process to pelvic symphysis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Linea alba is formed by…",
+     "a": "Aponeuroses of external abdominal oblique, internal abdominal oblique, transversus abdominis, plus transverse fascia",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Rectus sheath is…",
+     "a": "Connective tissue sleeve from abdominal muscle aponeuroses",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Rectus sheath surrounds the…",
+     "a": "Rectus abdominis muscle",
+     "star": false,
+     "why": "Rectus = straight"
+    },
+    {
+     "q": "Lamina means…",
+     "a": "Layer",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Internal abdominal oblique aponeurosis cranially…",
+     "a": "Splits into superficial and deep leaves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial external lamina of the rectus sheath?",
+     "a": "External abdominal oblique + superficial leaf of internal abdominal oblique",
+     "star": true,
+     "why": "\"What you should take away from this slide\""
+    },
+    {
+     "q": "Cranial internal lamina of the rectus sheath?",
+     "a": "Deep leaf of internal abdominal oblique + transversus abdominis + transverse fascia",
+     "star": true,
+     "why": "Same emphasis"
+    },
+    {
+     "q": "Where do rectus sheath layers change?",
+     "a": "Caudal to the umbilicus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most caudal external lamina?",
+     "a": "External abdominal oblique + internal abdominal oblique + transversus abdominis",
+     "star": true,
+     "why": "Same emphasis"
+    },
+    {
+     "q": "Most caudal internal lamina?",
+     "a": "Transverse fascia only",
+     "star": true,
+     "why": "Same emphasis"
+    }
+   ]
+  },
+  {
+   "title": "🔗 Inguinal rings and canal",
+   "items": [
+    {
+     "q": "Superficial inguinal ring is…",
+     "a": "A slit in the aponeurosis of the external abdominal oblique",
+     "star": true,
+     "why": "\"This is so important for you to understand\""
+    },
+    {
+     "q": "Why does that slit exist?",
+     "a": "External abdominal oblique aponeurosis has two insertions",
+     "star": true,
+     "why": "\"So important\""
+    },
+    {
+     "q": "Deep inguinal ring is formed by…",
+     "a": "Borders of the abdominal muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Inguinal canal lies between…",
+     "a": "Deep and superficial inguinal rings",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does the inguinal canal look like in the cadaver?",
+     "a": "Very flat and small, not a cylinder",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Structure in the female inguinal ring?",
+     "a": "Fatty vaginal process",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Structure emerging from the male superficial ring?",
+     "a": "Spermatic cord, heading to the scrotum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Purpose of the inguinal rings and canal?",
+     "a": "Path for testicular descent to the scrotum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do testes start their descent?",
+     "a": "Caudal to the kidneys",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Order testes pass through the abdominal wall?",
+     "a": "Deep inguinal ring first, then out the superficial ring",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Right gonadal vein → caudal vena cava; left gonadal vein → left renal vein.",
+  "Gastric arteries → lesser curvature; gastroepiploic arteries → greater curvature.",
+  "Right gastric comes from hepatic; right gastroepiploic comes from gastroduodenal (itself from hepatic).",
+  "Left gastroepiploic is the continuation of the splenic artery, not a left gastric branch.",
+  "Left/right on the stomach = patient's left/right, never yours.",
+  "Abdominal diaphragm surface = parietal peritoneum; organ surface (liver, rumen) = visceral peritoneum.",
+  "Peritoneal cavity = peritoneal sac. Greater sac ≠ omental bursa ≠ peritoneal cavity as a whole.",
+  "Epiploic foramen: dorsal = caudal vena cava; ventral = portal vein. Do not flip.",
+  "Lesser omentum covers the PAPILLARY process; epiploic foramen's lateral border is the CAUDATE process.",
+  "Major papilla = common bile + pancreatic duct; minor papilla = accessory pancreatic duct alone.",
+  "Superficial inguinal ring = external abdominal oblique aponeurosis slit; deep ring = abdominal muscle borders.",
+  "Caudal rectus sheath: external lamina = all three muscles; internal lamina = transverse fascia only."
+ ],
+ "flags": [
+  "No slides available: deep inguinal ring borders were 'labeled at the bottom of the screen' but never spoken. Get the specific muscles from the deck.",
+  "Blueprint asks for 'structures passing through' the inguinal canal; transcript names only spermatic cord (male) and vaginal process (female). Check slides/lab guide for others.",
+  "Blueprint lists 'intraperitoneal' organs, but the term is never spoken; jejunum shown as fully covered is the only example. Confirm terminology on slides.",
+  "Cranial pancreaticoduodenal origin not stated explicitly; listed right after gastroduodenal branches (standard anatomy: from gastroduodenal). Confirm on slide diagram.",
+  "Caudal pancreaticoduodenal origin: transcript says 'off that common trunk' after ileocolic; earlier lists it as a cranial mesenteric branch. Confirm exact parent on slide.",
+  "Linea alba said to extend 'ventrally' to pelvic symphysis; almost certainly misspeak for caudally.",
+  "Pancreatic duct region: only the tail of the earlier sentence ('...tail of the pancreas') is in this section; 'pancreatic duct drains right lobe' and cat accessory-duct items from the old list not re-taught here, so dropped.",
+  "Transcription key: 'duojunal'=jejunal; 'gastroepiloic/gastropoloic/gastropopoic'=gastroepiploic; 'epiloic/epipoic'=epiploic; 'fecal branch'=cecal branch; 'freco abdominal'=phrenicoabdominal; 'cable foramen'=caval foramen; 'pubile vesicle'=pubovesical; 'linear alba'=linea alba; 'duoal capillae'=duodenal papilla; 'hepatic globules'=hepatic lobules; 'Doctor Maherty/Marty'=lecturer name uncertain.",
+  "Kidneys called retroperitoneal; transcript also calls caudal pelvic organs retroperitoneal (not covered at all). Professor uses 'retroperitoneal' for both situations."
+ ]
+}

@@ -1,0 +1,861 @@
+{
+ "sections": [
+  {
+   "title": "❤️ Main arterial chain",
+   "items": [
+    {
+     "q": "Main artery chain of the thoracic limb?",
+     "a": "Subclavian → axillary → brachial → median → superficial palmar arch",
+     "star": true,
+     "why": "Blueprint: main branches and name changes; slide 1 of arterial section"
+    },
+    {
+     "q": "Left subclavian artery arises from…",
+     "a": "Aortic arch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right subclavian artery arises from…",
+     "a": "Brachiocephalic trunk",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the pattern from subclavian distally the same left and right?",
+     "a": "Yes, identical from subclavian down",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Subclavian becomes axillary where?",
+     "a": "At the first rib, exiting the thoracic inlet",
+     "star": true,
+     "why": "Name-change point; blueprint objective"
+    },
+    {
+     "q": "Axillary becomes brachial after which branch?",
+     "a": "Cranial circumflex humeral artery",
+     "star": true,
+     "why": "'Name changing ceremony' — blueprint name changes"
+    },
+    {
+     "q": "Brachial becomes median after which branch?",
+     "a": "Common interosseous artery",
+     "star": true,
+     "why": "'Another name-changing ceremony' — blueprint name changes"
+    },
+    {
+     "q": "Region for axillary, brachial, median arteries?",
+     "a": "Shoulder, arm, forearm respectively",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Median artery continues distally as the…",
+     "a": "Superficial palmar arch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial palmar arch gives off…",
+     "a": "Palmar common digital arteries",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌿 Subclavian, axillary & brachial branches",
+   "items": [
+    {
+     "q": "Last two branches of the subclavian artery?",
+     "a": "Internal thoracic and superficial cervical arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Axillary artery branches (in order)?",
+     "a": "External thoracic, lateral thoracic, subscapular, cranial circumflex humeral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "External thoracic artery supplies…",
+     "a": "Superficial pectoral muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lateral thoracic artery supplies…",
+     "a": "Deep pectoral muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Subscapular artery supplies…",
+     "a": "Subscapularis muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two branches of the subscapular artery?",
+     "a": "Thoracodorsal and caudal circumflex humeral arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Thoracodorsal artery supplies…",
+     "a": "Latissimus dorsi",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal circumflex humeral artery is a branch of…",
+     "a": "Subscapular artery (direct branch)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial circumflex humeral artery is a branch of…",
+     "a": "Axillary artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Brachial artery branches on the caudal aspect?",
+     "a": "Deep brachial and collateral ulnar arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Brachial artery branches on the cranial aspect?",
+     "a": "Bicipital and transverse cubital arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Collateral ulnar artery heads toward…",
+     "a": "Olecranon of the ulna",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Transverse cubital artery heads toward…",
+     "a": "Cubital (elbow) joint",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial brachial artery continues as…",
+     "a": "Cranial superficial antebrachial artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial superficial antebrachial artery divides into…",
+     "a": "Medial and lateral branches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What runs alongside the cephalic vein at venipuncture?",
+     "a": "Superficial antebrachial artery branches and radial nerve branches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why a dog yelps with an off-target cephalic stick?",
+     "a": "You hit superficial branches of the radial nerve",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌀 Forearm & paw arteries",
+   "items": [
+    {
+     "q": "Branches of the common interosseous artery?",
+     "a": "Ulnar, cranial interosseous, caudal interosseous arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Branches of the median artery in the forearm (slides)?",
+     "a": "Deep antebrachial artery and radial artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Radial artery in the dog?",
+     "a": "Very small; sometimes not injected",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Branches of the radial artery?",
+     "a": "Dorsal (dorsal carpal) branch and palmar branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three branches of the caudal interosseous artery?",
+     "a": "Interosseous branch, deep branch, superficial branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Interosseous branch passes through what?",
+     "a": "Interosseous space between radius and ulna, medial to lateral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial palmar arch is formed by…",
+     "a": "Median artery + superficial branch of caudal interosseous",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deep palmar arch is formed by…",
+     "a": "Radial artery + caudal interosseous artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deep palmar arch gives off…",
+     "a": "Palmar metacarpal arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal carpal rete is formed by…",
+     "a": "Caudal interosseous + dorsal carpal branch of radial artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal carpal rete gives off…",
+     "a": "Dorsal metacarpal arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Paw rule: superficial arteries are named…",
+     "a": "Common digital arteries (dorsal or palmar)",
+     "star": true,
+     "why": "'This is all I want you to care about' — blueprint paw schematic"
+    },
+    {
+     "q": "Paw rule: deep arteries are named…",
+     "a": "Metacarpal arteries (dorsal or palmar)",
+     "star": true,
+     "why": "'This is all I want you to care about' — blueprint paw schematic"
+    },
+    {
+     "q": "Superficial artery on the dorsal surface?",
+     "a": "Dorsal common digital arteries",
+     "star": true,
+     "why": "Paw naming schematic is a blueprint objective"
+    },
+    {
+     "q": "Deep artery on the dorsal surface?",
+     "a": "Dorsal metacarpal arteries",
+     "star": true,
+     "why": "Paw naming schematic is a blueprint objective"
+    },
+    {
+     "q": "Superficial artery on the palmar surface?",
+     "a": "Palmar common digital arteries",
+     "star": true,
+     "why": "Paw naming schematic is a blueprint objective"
+    },
+    {
+     "q": "Deep artery on the palmar surface?",
+     "a": "Palmar metacarpal arteries",
+     "star": true,
+     "why": "Paw naming schematic is a blueprint objective"
+    },
+    {
+     "q": "Where do palmar common digital arteries run?",
+     "a": "Between superficial and deep digital flexor tendons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do palmar metacarpal arteries run?",
+     "a": "Deep to deep digital flexor tendons, within interosseous muscles",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩸 Veins",
+   "items": [
+    {
+     "q": "Superficial veins of the thoracic limb (slide list)?",
+     "a": "Cephalic, accessory cephalic, median cubital, axillobrachial, omobrachial",
+     "star": true,
+     "why": "Blueprint: identify the four major superficial veins"
+    },
+    {
+     "q": "Main superficial vein?",
+     "a": "Cephalic vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deep veins of the thoracic limb are…",
+     "a": "Tributaries of the axillary vein (many collaterals)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cephalic vein drains which aspect?",
+     "a": "Medial aspect",
+     "star": true,
+     "why": "'You need to remember' — medial = cephalic"
+    },
+    {
+     "q": "Accessory cephalic vein drains which aspect?",
+     "a": "Dorsal and lateral aspect",
+     "star": true,
+     "why": "Paired with cephalic; 'you need to remember'"
+    },
+    {
+     "q": "Accessory cephalic vein joins…",
+     "a": "Cephalic vein, which then continues as cephalic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal common digital veins drain into…",
+     "a": "Accessory cephalic vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cephalic vein empties into…",
+     "a": "External jugular vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Main deep vein of the arm?",
+     "a": "Brachial vein → axillary vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Median cubital vein connects…",
+     "a": "Cephalic to brachial vein, at the cubital joint",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Axillobrachial vein connects…",
+     "a": "Cephalic (superficial) to axillary vein (deep)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Omobrachial vein arises from / drains into?",
+     "a": "From axillobrachial vein; into external jugular vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which veins link superficial and deep systems?",
+     "a": "Median cubital and axillobrachial veins",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🫧 Lymph nodes",
+   "items": [
+    {
+     "q": "Afferent lymph vessels…",
+     "a": "Bring unfiltered lymph into the node",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Efferent lymph vessels…",
+     "a": "Carry filtered lymph to another node, a vein, or a duct",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Terminal lymph node?",
+     "a": "Node through which all or most lymph from a region must drain",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sentinel lymph node?",
+     "a": "First node draining an area; biopsied/removed in neoplasia or infection",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Terminal lymph node of the thoracic limb?",
+     "a": "None — no single terminal lymph node",
+     "star": true,
+     "why": "'Important to remember'; repeated twice"
+    },
+    {
+     "q": "Terminal lymph node of the head?",
+     "a": "Medial retropharyngeal lymph node",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Does the pelvic limb have a single terminal node?",
+     "a": "Yes (covered later)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "All lymph nodes draining the thoracic limb?",
+     "a": "Superficial cervical, axillary, accessory axillary lymph nodes",
+     "star": true,
+     "why": "Blueprint: list all nodes draining the limb"
+    },
+    {
+     "q": "Two constant lymph nodes of the thoracic limb?",
+     "a": "Superficial cervical and axillary lymph nodes",
+     "star": true,
+     "why": "Stated as 'the main thing' in summary"
+    },
+    {
+     "q": "Superficial vs deep lymph system?",
+     "a": "Superficial: superficial cervical; deep: axillary and accessory axillary",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical name for the superficial cervical lymph node?",
+     "a": "Prescapular lymph node",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial cervical lymph node location?",
+     "a": "Cranial to shoulder, under brachiocephalicus and omotransversarius",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial cervical node drains which limb regions?",
+     "a": "Most of limb EXCEPT medial arm, forearm, shoulder",
+     "star": true,
+     "why": "Blueprint: which limb parts drain to which node"
+    },
+    {
+     "q": "Superficial cervical node also drains…",
+     "a": "Caudal head skin, part of ear, lateral neck",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial cervical efferents go to…",
+     "a": "Left: thoracic duct; right: tracheal trunk; either: external jugular",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the axillary lymph node always present?",
+     "a": "Yes — constant",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Axillary lymph node location?",
+     "a": "Caudal to shoulder, ventral to thoracodorsal vessels, at distal teres major",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Axillary lymph node drains…",
+     "a": "Mammae 1–3, shoulder/arm skin, bones except digits, joints, limb muscles",
+     "star": true,
+     "why": "Blueprint: which limb parts drain to which node"
+    },
+    {
+     "q": "Joints drained by the axillary lymph node?",
+     "a": "Humeral (shoulder), cubital, carpal joints",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bones NOT drained by the axillary lymph node?",
+     "a": "Digits",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Axillary lymph node efferents go to…",
+     "a": "External jugular vein (variants: thoracic duct, tracheal trunks)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the accessory axillary lymph node always present?",
+     "a": "No — inconstant",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accessory axillary lymph node location?",
+     "a": "2nd–3rd intercostal space, ventral to latissimus, dorsal to deep pectoral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accessory axillary lymph node drains…",
+     "a": "Mammae 1–3, lateral/ventral thoracic wall skin, shoulder, arm, elbow",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accessory axillary efferents go to…",
+     "a": "Axillary lymph node",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mammary glands draining to axillary nodes?",
+     "a": "First three (1–3)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "⚡ Brachial plexus & nerves",
+   "items": [
+    {
+     "q": "Brachial plexus is formed by…",
+     "a": "Ventral branches of spinal nerves C6–T2",
+     "star": true,
+     "why": "Blueprint objective; 'just remember C6 through T2 as a whole'"
+    },
+    {
+     "q": "Do dorsal branches contribute to the brachial plexus?",
+     "a": "No — ventral branches only",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal nerve dorsal branches supply…",
+     "a": "Epaxial muscles and dorsal one-third of skin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal nerve ventral branches supply…",
+     "a": "Hypaxial muscles, limbs, ventral two-thirds of skin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Brachial plexus nerves, cranial to caudal?",
+     "a": "Suprascapular, subscapular, cranial pectoral, musculocutaneous, axillary, thoracodorsal, radial, median, ulnar, lateral thoracic, caudal pectoral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Suprascapular nerve supplies…",
+     "a": "Supraspinatus and infraspinatus",
+     "star": true,
+     "why": "Professor: must know function of each nerve for lecture exam"
+    },
+    {
+     "q": "Subscapular nerve supplies…",
+     "a": "Subscapularis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial pectoral nerve supplies…",
+     "a": "Superficial pectoral muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal pectoral nerve supplies…",
+     "a": "Deep pectoral muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Musculocutaneous nerve supplies…",
+     "a": "Biceps brachii, brachialis, coracobrachialis",
+     "star": true,
+     "why": "Professor: must know function of each nerve for lecture exam"
+    },
+    {
+     "q": "Axillary nerve supplies…",
+     "a": "Deltoideus, teres major, teres minor (± subscapularis)",
+     "star": true,
+     "why": "Professor: must know function of each nerve for lecture exam"
+    },
+    {
+     "q": "Thoracodorsal nerve supplies…",
+     "a": "Latissimus dorsi",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Radial nerve supplies…",
+     "a": "Triceps, extensor carpi radialis, ulnaris lateralis, common and lateral digital extensors",
+     "star": true,
+     "why": "'Most important, largest' nerve; weight-bearing muscles"
+    },
+    {
+     "q": "Median nerve supplies…",
+     "a": "Flexor carpi radialis, superficial digital flexor, deep digital flexor",
+     "star": true,
+     "why": "'Second important nerve' — the flexors"
+    },
+    {
+     "q": "Ulnar nerve supplies…",
+     "a": "Flexor carpi ulnaris and deep digital flexor",
+     "star": true,
+     "why": "Professor: must know function of each nerve for lecture exam"
+    },
+    {
+     "q": "Lateral thoracic nerve supplies…",
+     "a": "Cutaneus trunci muscle (cutaneus trunci reflex)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Largest brachial plexus nerve?",
+     "a": "Radial nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nerves with cutaneous branches (red stars)?",
+     "a": "Musculocutaneous, axillary, radial, median, ulnar",
+     "star": true,
+     "why": "Feeds the autonomous-zone blueprint objective"
+    },
+    {
+     "q": "Fiber types in every brachial plexus nerve?",
+     "a": "Motor, sensory, sympathetic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How do sympathetic fibers enter spinal nerves?",
+     "a": "Via rami communicantes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Will you be tested on which segments form which nerve?",
+     "a": "No — only C6–T2 as a whole",
+     "star": true,
+     "why": "Direct exam instruction"
+    }
+   ]
+  },
+  {
+   "title": "💥 Nerve injury → functional loss (from muscle lectures; confirm with OIA doc)",
+   "items": [
+    {
+     "q": "Radial nerve injury → loss of?",
+     "a": "Elbow, carpal, digit extension; limb can't bear weight",
+     "star": true,
+     "why": "Blueprint: loss of function after nerve injury"
+    },
+    {
+     "q": "Median nerve injury → loss of?",
+     "a": "Carpal and digital flexion (shared with ulnar)",
+     "star": true,
+     "why": "Blueprint: loss of function after nerve injury"
+    },
+    {
+     "q": "Ulnar nerve injury → loss of?",
+     "a": "Carpal flexion (flexor carpi ulnaris), digital flexion (deep digital flexor)",
+     "star": true,
+     "why": "Blueprint: loss of function after nerve injury"
+    },
+    {
+     "q": "Musculocutaneous nerve injury → loss of?",
+     "a": "Elbow flexion (biceps brachii, brachialis)",
+     "star": true,
+     "why": "Blueprint: loss of function after nerve injury"
+    },
+    {
+     "q": "Axillary nerve injury → loss of?",
+     "a": "Shoulder flexion (deltoideus, teres major, teres minor)",
+     "star": true,
+     "why": "Blueprint: loss of function after nerve injury"
+    },
+    {
+     "q": "Suprascapular nerve injury → loss of?",
+     "a": "Supraspinatus and infraspinatus (lateral shoulder stability)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Thoracodorsal nerve injury → loss of?",
+     "a": "Latissimus dorsi function (shoulder flexion)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lateral thoracic nerve injury → loss of?",
+     "a": "Cutaneus trunci reflex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal pectoral nerve injury → loss of?",
+     "a": "Deep pectoral muscle (limb adduction/propulsion)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "📍 Autonomous zones & testing sites",
+   "items": [
+    {
+     "q": "Cutaneous area?",
+     "a": "Total skin area innervated by one cutaneous nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Overlap zone?",
+     "a": "Periphery of cutaneous area; two or more nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomous zone?",
+     "a": "Center of cutaneous area; only one nerve",
+     "star": true,
+     "why": "Definition underlies blueprint objective"
+    },
+    {
+     "q": "Clinical use of an autonomous zone?",
+     "a": "Pinch response proves that nerve (and its segments) works",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nerves with an autonomous zone?",
+     "a": "Musculocutaneous, axillary, radial, ulnar",
+     "star": true,
+     "why": "Blueprint: nerves that have an autonomous zone"
+    },
+    {
+     "q": "Nerve with a cutaneous branch but NO autonomous zone?",
+     "a": "Median nerve",
+     "star": true,
+     "why": "Repeated three times; blueprint objective"
+    },
+    {
+     "q": "Axillary nerve autonomous zone?",
+     "a": "Lateral shoulder/brachium",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Musculocutaneous nerve autonomous zone?",
+     "a": "Medial forearm",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Radial nerve autonomous zone?",
+     "a": "Dorsal forearm and paw, except lateral half of digit 5",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ulnar nerve autonomous zone (paw)?",
+     "a": "Lateral half of digit 5",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Musculocutaneous nerve testing site?",
+     "a": "2 cm distal to medial epicondyle of humerus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Axillary nerve testing site?",
+     "a": "2 cm caudal to shoulder (humeral) joint",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Radial nerve testing site?",
+     "a": "Dorsal proximal ends of metacarpals 2 and 3",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ulnar nerve: how many testing sites?",
+     "a": "Two — caudal cutaneous antebrachial nerve and palmar branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal cutaneous antebrachial nerve testing site?",
+     "a": "4 cm distal to the olecranon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal cutaneous antebrachial nerve is a branch of…",
+     "a": "Ulnar nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palmar branch of ulnar nerve testing site?",
+     "a": "Lateral surface of digit 5",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Median nerve: cutaneous branch but NO autonomous zone.",
+  "Cranial circumflex humeral = axillary branch; caudal circumflex humeral = subscapular branch.",
+  "Axillary → brachial after cranial circumflex humeral; brachial → median after common interosseous.",
+  "Superficial paw = COMMON DIGITAL; deep paw = METACARPAL. Prefix dorsal/palmar by surface.",
+  "Cephalic drains MEDIAL; accessory cephalic drains DORSAL and LATERAL.",
+  "External thoracic → superficial pectorals; lateral thoracic → deep pectoral.",
+  "Cranial pectoral nerve → superficial pectorals; caudal pectoral nerve → deep pectoral.",
+  "No terminal lymph node for thoracic limb; head = medial retropharyngeal; pelvic limb has one.",
+  "Axillary lymph node = constant; accessory axillary = inconstant, drains INTO axillary.",
+  "Superficial cervical node drains limb EXCEPT medial arm, forearm, shoulder.",
+  "Brachial plexus = VENTRAL branches C6–T2; dorsal branches go epaxial.",
+  "Deep digital flexor is dual: median AND ulnar nerves.",
+  "Radial nerve autonomous zone stops at lateral half of digit 5 — that's ulnar."
+ ],
+ "flags": [
+  "Functional-loss answers derive muscle actions from prior muscle lectures/standard anatomy, not L19 sources. Confirm against the OIA document.",
+  "Blueprint says 'four major superficial veins' but the slide lists five (cephalic, accessory cephalic, median cubital, axillobrachial, omobrachial). Ask which four.",
+  "Deep antebrachial and radial arteries: slides place them off the median artery; transcript 'it' is ambiguous. Using slides.",
+  "Median vs ulnar to deep digital flexor: transcript says 'median nerve, sometimes it does, sometimes it does not' — unclear what varies. Ask.",
+  "Superficial cervical node location: slide says covered by brachiocephalicus AND omotransversarius; transcript says deep to omotransversarius only. Not contradictory; use slide.",
+  "Ulnar 'two testing sites': transcript garbles it as two branches of caudal cutaneous antebrachial nerve; slide shows caudal cutaneous antebrachial + palmar branch. Using slide.",
+  "Autonomous zone map is an image not captured in slide text; zone locations are from transcript wording only.",
+  "Radial artery branches: transcript says dorsal and palmar branch; slides label dorsal carpal branch and palmar branch."
+ ]
+}

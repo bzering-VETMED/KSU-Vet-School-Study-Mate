@@ -1,0 +1,688 @@
+{
+ "sections": [
+  {
+   "title": "💧 Overview & function",
+   "items": [
+    {
+     "q": "Four parts of the urinary system?",
+     "a": "Paired kidneys, paired ureters, urinary bladder, urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Path of urine?",
+     "a": "Kidney → ureter → bladder (enters dorsal aspect) → urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cavities the urinary system lies in?",
+     "a": "Abdominal and pelvic cavities",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is it called the urogenital system?",
+     "a": "Shares the urethra: runs through the penis in males, joins the vagina in females",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Main function of the kidneys?",
+     "a": "Form urine from the blood",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Large dog: daily renal blood flow and urine output?",
+     "a": "1000 to 2000 liters of blood → 1 to 2 liters of urine",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renin: what does it do?",
+     "a": "Regulates blood pressure (renin-angiotensin system); spelled with a single n",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Erythropoietin: what does it do?",
+     "a": "Increases red blood cell production in bone marrow",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "📍 Location & position",
+   "items": [
+    {
+     "q": "Where are the kidneys found?",
+     "a": "Pressed against the abdominal roof, lumbar region, right and left of median plane",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Kidneys: intraperitoneal or retroperitoneal?",
+     "a": "Retroperitoneal (behind the peritoneum)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which kidney surface has peritoneum, and which layer?",
+     "a": "Ventral surface only, parietal peritoneum (no visceral peritoneum)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which kidney is fixed, which is pendulous?",
+     "a": "Right is fixed (less variable); left is pendulous (more variable)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which kidney is more cranial, and by how much?",
+     "a": "Right, by about half a kidney length",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right kidney vertebral level?",
+     "a": "Thirteenth thoracic or first lumbar vertebra to third lumbar vertebra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left kidney vertebral level?",
+     "a": "Second lumbar to fourth lumbar vertebra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Phrase for remembering kidney position?",
+     "a": "“Left behind”: the left kidney is more caudal",
+     "star": true,
+     "why": "Professor's own mnemonic for cranial-versus-caudal kidney questions"
+    },
+    {
+     "q": "How to palpate the right kidney on physical exam?",
+     "a": "Find the last (floating) rib, then go dorsally",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog and cat kidney type?",
+     "a": "Unilobar (smooth, papillae fused into a crest)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Kidney type with lobes visible on the surface?",
+     "a": "Multilobar (cow)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Embryologically, all kidneys start as…",
+     "a": "Multilobar; fused lobes become unilobar",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🫘 Borders, surfaces & relations",
+   "items": [
+    {
+     "q": "Lateral border: shape and relations?",
+     "a": "Convex; abdominal wall, and spleen on the left",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Medial border: shape?",
+     "a": "Concave (indented, forms the hilus)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right kidney medial border faces the…",
+     "a": "Caudal vena cava",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left kidney medial border faces the…",
+     "a": "Abdominal aorta",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal surface: contacts and peritoneum?",
+     "a": "Contacts lumbar hypaxial muscles; free of peritoneum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral surface: faces and covering?",
+     "a": "Faces the abdominal cavity; covered by parietal peritoneum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gland at the cranial pole of both kidneys?",
+     "a": "Adrenal (suprarenal) gland",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right kidney cranial pole contacts the…",
+     "a": "Caudate process of the liver (renal impression) and right adrenal gland",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left kidney cranial pole contacts the…",
+     "a": "Left lobe of the pancreas and left adrenal gland",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Right kidney caudal pole contacts the…",
+     "a": "Ascending colon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left kidney caudal pole contacts the…",
+     "a": "Descending colon, and mesovarium in females",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesovarium?",
+     "a": "Part of the broad ligament suspending the ovary",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔍 Internal structure",
+   "items": [
+    {
+     "q": "Renal hilus?",
+     "a": "Indented medial border of the kidney",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Structures entering or leaving at the hilus?",
+     "a": "Renal artery, renal vein, lymphatics, nerves, ureter",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal sinus?",
+     "a": "Recess (space) the hilus leads into",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Contents of the renal sinus?",
+     "a": "Renal pelvis, fat, proximal branches of renal vessels and nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Garage analogy?",
+     "a": "Driveway = vessels · garage door = hilus · garage = sinus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal pelvis?",
+     "a": "Funnel-shaped dilatation of the ureter inside the renal sinus (the “sea”)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal pelvis receives urine from… and passes it to…",
+     "a": "From papillary ducts; into the ureter",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pelvic recesses?",
+     "a": "Curved diverticula of the renal pelvis (the “rivers” feeding the sea)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do pelvic recesses project?",
+     "a": "Into the parenchyma between renal pyramids",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How many pelvic recesses?",
+     "a": "5 to 6 from each border of the pelvis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fibrous capsule covers…",
+     "a": "Entire kidney surface (not peritoneum)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fibrous capsule composition?",
+     "a": "Mostly collagen, few elastic fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Consequence of capsule composition?",
+     "a": "Kidney cannot swell well when internal pressure rises",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why does the capsule strip easily from a healthy kidney?",
+     "a": "Attached by loose connective tissue",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Capsule that won't peel off at necropsy means…",
+     "a": "Adhesions or pathology (fibrosis)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal cortex?",
+     "a": "Outer parenchyma, just inside the fibrous capsule",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why does the cortex look granular?",
+     "a": "Renal corpuscles (glomeruli), found only in the cortex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal medulla?",
+     "a": "Inner, darker parenchyma",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why does the medulla look striated?",
+     "a": "Medullary rays",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Median section?",
+     "a": "Cut through the midline dividing the kidney into equal halves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal crest?",
+     "a": "Free (shelf-like) edge of the medulla facing the pelvis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal crest is formed by…",
+     "a": "Fusion of the renal papillae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do papillary ducts open?",
+     "a": "On the border of the renal crest facing the pelvis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Openings of the papillary ducts?",
+     "a": "Papillary foramina (not visible grossly)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal papilla?",
+     "a": "Apex of the renal pyramid",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Renal pyramid?",
+     "a": "Pyramid-shaped medullary substance; represents a kidney lobe",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Seen ONLY in a paramedian section?",
+     "a": "Renal pyramids and renal papillae",
+     "star": true,
+     "why": "Professor put a star on these two: paramedian sections only"
+    },
+    {
+     "q": "Paramedian section?",
+     "a": "Cut parallel to and slightly off the midline",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "❤️ Blood supply",
+   "items": [
+    {
+     "q": "Full arterial sequence?",
+     "a": "Aorta → renal → interlobar → arcuate → interlobular → afferent arteriole → efferent arteriole",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two capillary plexuses?",
+     "a": "Cortical capillary plexus and medullary capillary plexus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vessels supplying the medullary capillary plexus?",
+     "a": "Straight arteries; drained by straight veins",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Venous drainage sequence?",
+     "a": "Interlobular → arcuate → interlobar → renal vein → caudal vena cava",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Blood supply chain the professor cares about?",
+     "a": "Abdominal aorta → renal artery → arcuate arteries … renal vein → caudal vena cava",
+     "star": true,
+     "why": "“These you must know” / “that's all I care about” (outlined vessels)"
+    },
+    {
+     "q": "Arcuate arteries are located at the…",
+     "a": "Corticomedullary junction",
+     "star": true,
+     "why": "The Kahoot question"
+    },
+    {
+     "q": "Why “arcuate”?",
+     "a": "They form an arc",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🚰 Ureters & bladder",
+   "items": [
+    {
+     "q": "Ureter?",
+     "a": "Narrow muscular tube carrying urine from kidney to bladder",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How does the ureter move urine?",
+     "a": "Smooth muscle peristalsis (little help from gravity in quadrupeds)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ureter length depends on…",
+     "a": "Size of the animal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two parts of the ureter?",
+     "a": "Abdominal part and pelvic part",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Abdominal part of the ureter: start and course?",
+     "a": "Begins at renal pelvis, runs caudally on a sagittal course",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pelvic part: direction on entering the pelvic cavity?",
+     "a": "Bends medially",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ureter enters what in the male? In the female?",
+     "a": "Genital fold (male); broad ligament, specifically mesometrium (female)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do ureters open into the bladder?",
+     "a": "Dorsal surface of the neck of the bladder",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why do ureters penetrate the bladder wall obliquely?",
+     "a": "Prevents urine reflux into the ureter when intravesical pressure rises",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why doesn't oblique entry block bladder filling?",
+     "a": "Ureteric peristalsis overcomes the resistance",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Intravesical pressure?",
+     "a": "Pressure within the bladder (vesica = bladder)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bladder function?",
+     "a": "Distensible urine storage organ",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Smooth muscle of the bladder wall?",
+     "a": "Detrusor muscle (not identified in lab)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bladder epithelium?",
+     "a": "Transitional epithelium (allows distension)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three parts of the bladder (cranial → caudal)?",
+     "a": "Apex, body, neck",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bladder apex?",
+     "a": "Cranial blind end; has scar tissue",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Scar on the bladder apex is a remnant of the…",
+     "a": "Urachus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Urachus in the fetus?",
+     "a": "Connects the primitive bladder to the allantoic sac",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bladder neck?",
+     "a": "Narrow caudal part leading into the urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is the bladder easy to reach from the ventral abdominal wall?",
+     "a": "Not covered by greater omentum; directly contacts abdominal wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Openings of the ureters into the bladder?",
+     "a": "Ureteric orifices",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three orifices not to confuse?",
+     "a": "Ureteric (ureter), uterine (uterus), urethral (urethra)",
+     "star": true,
+     "why": "“This is where the spelling matters”"
+    },
+    {
+     "q": "Trigone of the bladder is formed by…",
+     "a": "Two ureteric orifices plus the urethral crest",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Urethral crest?",
+     "a": "Median ridge; male ductus deferens and prostate empty secretions there",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bladder structures in order (slide 22)?",
+     "a": "Apex scar, lumen, ureteric orifices, trigone, urethral crest, urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Number of bladder ligaments?",
+     "a": "Three: two lateral and one median",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lateral ligament connects…",
+     "a": "Lateral surface of the bladder to the pelvic wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Round ligament of the bladder?",
+     "a": "Free edge of the lateral ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Round ligament contains the remnant of the…",
+     "a": "Umbilical artery (may stay patent and supply the bladder)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Median ligament connects…",
+     "a": "Ventral surface of the bladder to the pelvic symphysis and linea alba",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Median ligament in the fetus contains…",
+     "a": "Urachus and umbilical arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Umbilical cord vessels and their ligament homes?",
+     "a": "Umbilical arteries (bladder ligaments) + umbilical vein (falciform ligament free edge)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🚪 Urethra",
+   "items": [
+    {
+     "q": "Female urethra carries…",
+     "a": "Urine only",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Male urethra carries…",
+     "a": "Urine, semen, and seminal (accessory gland) secretions",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Male urethra extent?",
+     "a": "Internal opening at bladder neck → external opening at end of penis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two parts of the male urethra?",
+     "a": "Pelvic part (internal) and penile part (external)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Female external urethral orifice opens into the…",
+     "a": "Vagina",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Male external urethral orifice?",
+     "a": "Opening of the penile urethra at the end of the penis",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Ureteric (ureter) vs uterine (uterus) vs urethral (urethra) orifice: spelling matters.",
+  "Hilus = the indented border (door); sinus = the space behind it (garage).",
+  "Renal sinus is a 'recess', but pelvic recesses are diverticula of the renal pelvis.",
+  "Renal pelvis is a dilated ureter, not bone.",
+  "Renal papilla = apex of pyramid; renal crest = fused papillae.",
+  "Median section shows the crest; paramedian shows pyramids and papillae.",
+  "Right kidney is cranial and fixed; left is caudal ('left behind') and pendulous.",
+  "Right kidney medial border faces caudal vena cava; left faces aorta.",
+  "Lateral ligament → pelvic wall (round ligament = free edge); median ligament → pelvic symphysis and linea alba.",
+  "Ureters enter the bladder dorsally; the urethra leaves from the neck."
+ ],
+ "flags": [
+  "Median ligament attachment: transcript says 'abdominal floor'; slide 24 says pelvic symphysis and linea alba. Use the slide.",
+  "Hilus contents: transcript lists renal artery, renal vein, ureter only; slide 10 adds lymphatics and nerves. Use the slide.",
+  "Fibrous capsule: transcript says 'primarily loose connective tissue'; slide 12 says mostly collagen with few elastic fibers, attached by loose connective tissue. Use the slide.",
+  "Urachus: transcript says it attaches the bladder to the placenta; slide 21 says primitive bladder to allantoic sac. Use the slide.",
+  "Female ureter entry: slide 19 says broad ligament; transcript specifies mesometrium. Compatible, not contradictory."
+ ]
+}

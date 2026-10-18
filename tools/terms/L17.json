@@ -1,0 +1,768 @@
+{
+ "sections": [
+  {
+   "title": "🧭 Nervous system divisions",
+   "items": [
+    {
+     "q": "Two anatomical divisions of the nervous system?",
+     "a": "Central nervous system (central nervous system) and peripheral nervous system (peripheral nervous system)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Central nervous system consists of…",
+     "a": "Brain (cranial cavity) and spinal cord (vertebral canal)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two functional divisions of the peripheral nervous system?",
+     "a": "Sensory division and motor division",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Afferent means…",
+     "a": "Toward the central nervous system (sensory)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Efferent means…",
+     "a": "Away from the central nervous system (motor)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two subdivisions of the motor division?",
+     "a": "Somatic nervous system and autonomic nervous system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three components of the autonomic nervous system?",
+     "a": "Sympathetic, parasympathetic, enteric",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomic nervous system falls under which division?",
+     "a": "Motor (efferent) division",
+     "star": true,
+     "why": "'The main take-home': autonomic comes under the motor division"
+    },
+    {
+     "q": "Enteric nervous system supplies…",
+     "a": "Gastrointestinal tract",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "'Somatic' refers to structures derived from…",
+     "a": "Somites (body, excluding head, neck, pharynx)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Head 'block' embryologic origin?",
+     "a": "Pharyngeal (branchial) arches",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔬 Neuron structure · nerve vs tract · gray matter",
+   "items": [
+    {
+     "q": "Multipolar neuron structure?",
+     "a": "One axon, multiple dendrites",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Multipolar neuron examples?",
+     "a": "Motor neurons and interneurons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bipolar neuron structure?",
+     "a": "Two poles: one axon, one dendrite",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bipolar neuron examples?",
+     "a": "Auditory, visual, vestibular (sensory) neurons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pseudounipolar neuron structure?",
+     "a": "One short process splitting into peripheral and central processes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pseudounipolar neuron examples (slide)?",
+     "a": "Muscle spindle and cutaneous afferents",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hear 'pseudounipolar,' think…",
+     "a": "Sensory, by default",
+     "star": true,
+     "why": "'Whenever you hear pseudounipolar, you should say sensory by default'"
+    },
+    {
+     "q": "Functionally, bipolar and pseudounipolar neurons are…; multipolar are…",
+     "a": "Sensory; motor (and interneurons)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nerve =",
+     "a": "Collection of axons outside the central nervous system",
+     "star": true,
+     "why": "'You will be tested on these definitions'"
+    },
+    {
+     "q": "Tract =",
+     "a": "Collection of axons within the central nervous system",
+     "star": true,
+     "why": "'You will be tested on these definitions'"
+    },
+    {
+     "q": "Ganglion =",
+     "a": "Collection of neuron cell bodies outside the central nervous system",
+     "star": true,
+     "why": "'You will be tested on these definitions'"
+    },
+    {
+     "q": "Nucleus =",
+     "a": "Collection of neuron cell bodies within the central nervous system",
+     "star": true,
+     "why": "'You will be tested on these definitions'"
+    },
+    {
+     "q": "Plural of nucleus?",
+     "a": "Nuclei",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Besides axons, a nerve contains…",
+     "a": "Supporting (glial) cells like Schwann cells, plus fibroblasts",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial nerves and spinal nerves: nerves or tracts?",
+     "a": "Both are nerves (peripheral structures)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Correct name for the 'basal ganglia'?",
+     "a": "Basal nucleus (misnomer; it is inside the brain)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagosympathetic trunk: nerve or tract?",
+     "a": "Nerve (despite the name 'trunk')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal cord: gray matter location?",
+     "a": "Center; white matter in periphery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Brain: gray matter location?",
+     "a": "Periphery; white matter in center",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three horns of spinal cord gray matter?",
+     "a": "Dorsal, lateral, ventral (all bilateral)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal horn function?",
+     "a": "Sensory, always (general somatic and visceral afferent endings)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral horn function?",
+     "a": "Motor: lower motor neuron cell bodies (general somatic efferent)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lateral horn function?",
+     "a": "Autonomic: general visceral efferent cell bodies",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lateral horn is distinct in which cord region?",
+     "a": "Thoracolumbar (faintly in sacral segments)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔁 Four groups of neurons · reflex arcs",
+   "items": [
+    {
+     "q": "Four general (pathway) groups of neurons?",
+     "a": "Primary afferent, final efferent, interneurons, projection neurons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Primary afferent neuron direction?",
+     "a": "Periphery to central nervous system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Primary afferent neuron structural type?",
+     "a": "Pseudounipolar (sensory)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Primary afferent cell body location?",
+     "a": "Dorsal root ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Primary afferent central process enters…",
+     "a": "Dorsal horn of the spinal cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Final efferent neuron direction?",
+     "a": "Central nervous system to periphery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other name for final efferent neurons?",
+     "a": "Lower motor neurons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lower motor neuron cell body location (spinal)?",
+     "a": "Ventral horn",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Four kinds of lower motor neurons?",
+     "a": "Alpha, beta, gamma, and autonomic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most common lower motor neuron?",
+     "a": "Alpha motor neuron",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Alpha motor neurons innervate…",
+     "a": "Extrafusal fibers (regular skeletal muscle)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Muscle fibers inside a muscle spindle?",
+     "a": "Intrafusal fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Muscle fibers outside a muscle spindle?",
+     "a": "Extrafusal fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Reflex arc is formed by…",
+     "a": "Primary afferent neuron plus final efferent neuron",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Classic monosynaptic reflex?",
+     "a": "Patellar reflex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is the patellar reflex 'monosynaptic'?",
+     "a": "Single synapse: primary afferent directly onto lower motor neuron",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Patellar reflex: stretch is detected by…",
+     "a": "Muscle spindle in the quadriceps",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Reflexes occur at what level?",
+     "a": "Spinal cord only; no brain involvement",
+     "star": true,
+     "why": "'Another important thing… reflexes are local, confined to spinal cord'"
+    },
+    {
+     "q": "Interneurons are…",
+     "a": "Short neurons between afferent and efferent neurons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Interneuron location?",
+     "a": "Entirely within the central nervous system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two types of interneurons?",
+     "a": "Excitatory and inhibitory",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Classic reflex using interneurons?",
+     "a": "Withdrawal reflex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Withdrawal reflex: excitatory interneuron drives…",
+     "a": "Flexor (agonist), e.g., biceps, to contract",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Withdrawal reflex: inhibitory interneuron acts on…",
+     "a": "Extensor (antagonist), e.g., triceps, to relax",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Does withdrawal reflex require pain perception?",
+     "a": "No; pain brings in the brain (conscious response)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Projection neurons are…",
+     "a": "Central nervous system neurons sending long axons to other central nervous system regions",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Projection neuron, cell body in spinal cord, projects cranially →",
+     "a": "Ascending tract",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Projection neuron from brain, projecting caudally →",
+     "a": "Descending tract",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Descending projection neurons are called…",
+     "a": "Upper motor neurons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Upper motor neuron location?",
+     "a": "Entirely within the central nervous system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which controls which?",
+     "a": "Upper motor neuron controls lower motor neuron",
+     "star": true,
+     "why": "Repeated twice: 'upper motor neuron controls the lower motor neuron'"
+    },
+    {
+     "q": "Dog decides to bite after painful pinch: carried by…",
+     "a": "Upper motor neuron",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Neuron that emerges from the central nervous system: projection or final efferent?",
+     "a": "Final efferent (lower motor neuron)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🏷️ Seven functional types",
+   "items": [
+    {
+     "q": "Two axes of functional classification?",
+     "a": "Region supplied (somatic/visceral) and direction (afferent/efferent)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How many functional types to know?",
+     "a": "Seven",
+     "star": true,
+     "why": "'Seven types you need to know… expect quite a few questions on that'"
+    },
+    {
+     "q": "General somatic afferent (GSA): carries…",
+     "a": "Sensation from body (skin, musculoskeletal system)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General somatic afferent (GSA) structure and cell body?",
+     "a": "Pseudounipolar; sensory ganglion (dorsal root ganglion)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General somatic afferent (GSA) example?",
+     "a": "Pinching the skin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General somatic efferent (GSE): supplies…",
+     "a": "Most skeletal muscles of the body",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General somatic efferent (GSE) structure?",
+     "a": "Multipolar motor neuron",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Neurons from central nervous system to target in general somatic efferent (GSE)?",
+     "a": "One",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General visceral afferent (GVA): carries…",
+     "a": "Sensation from viscera",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General visceral afferent (GVA) example?",
+     "a": "Stomach fullness",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General visceral afferent (GVA) structure and cell body?",
+     "a": "Pseudounipolar; sensory ganglion (dorsal root ganglion)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General visceral efferent (GVE): supplies…",
+     "a": "Smooth muscle, cardiac muscle, glands",
+     "star": true,
+     "why": "'Anytime you talk about autonomic nervous system you need to remember these three things'"
+    },
+    {
+     "q": "General visceral efferent (GVE) forms the…",
+     "a": "Autonomic nervous system (sympathetic and parasympathetic)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Neurons from central nervous system to target in general visceral efferent (GVE)?",
+     "a": "Two (two-neuron chain)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Special visceral efferent (SVE): supplies…",
+     "a": "Skeletal muscles derived from pharyngeal (branchial) arches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Special visceral efferent (SVE) muscle examples?",
+     "a": "Facial expression, mastication, pharynx, larynx, some neck/shoulder muscles (trapezius)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Neurons from central nervous system to target in special visceral efferent (SVE)?",
+     "a": "One (like general somatic efferent)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Special somatic afferent (SSA): carries…",
+     "a": "Vision and hearing (bipolar neurons)",
+     "star": true,
+     "why": "'This is important to remember: visual and auditory'"
+    },
+    {
+     "q": "Special visceral afferent (SVA): carries…",
+     "a": "Taste and smell",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Special visceral afferent (SVA) structure (slide)?",
+     "a": "Bipolar and pseudounipolar",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most primary afferent neurons are which functional type?",
+     "a": "General somatic afferent (GSA)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal cord to skeletal muscle, not head: functional type?",
+     "a": "General somatic efferent (GSE)",
+     "star": true,
+     "why": "Kahoot question worked in class"
+    },
+    {
+     "q": "Cross-section figure: dorsal horn receives…",
+     "a": "General somatic afferent and general visceral afferent",
+     "star": true,
+     "why": "'Emphasize this figure… worth six to eight points'"
+    },
+    {
+     "q": "Cross-section figure: lateral horn gives rise to…",
+     "a": "General visceral efferent",
+     "star": true,
+     "why": "'Emphasize this figure… worth six to eight points'"
+    },
+    {
+     "q": "Cross-section figure: ventral horn gives rise to…",
+     "a": "General somatic efferent",
+     "star": true,
+     "why": "'Emphasize this figure… worth six to eight points'"
+    },
+    {
+     "q": "General visceral efferent (GVE) corresponds to…",
+     "a": "Sympathetic and parasympathetic systems",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌿 Spinal nerve anatomy",
+   "items": [
+    {
+     "q": "Dorsal rootlets combine to form…",
+     "a": "Dorsal root",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral rootlets combine to form…",
+     "a": "Ventral root",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal root plus ventral root form…",
+     "a": "Spinal nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal nerve exits the vertebral canal through…",
+     "a": "Intervertebral foramen (except first cervical)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bump on the dorsal root?",
+     "a": "Dorsal root ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is there a ventral root ganglion?",
+     "a": "No; only the dorsal root ganglion exists",
+     "star": true,
+     "why": "'On an exam that structure is tagged… do not disappoint me'"
+    },
+    {
+     "q": "Dorsal root ganglion functional type?",
+     "a": "Sensory ganglion: pseudounipolar cell bodies only",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why can the dorsal root ganglion look ventral?",
+     "a": "Elongated, sits ventrally in canal, but originates dorsally",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two branches of a spinal nerve after exiting?",
+     "a": "Dorsal branch (smaller) and ventral branch (larger)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Extra branch only in thoracolumbar region?",
+     "a": "Communicating branch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Can a spinal nerve be purely sensory or purely motor?",
+     "a": "No; mixed functional fiber types",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Epaxial region =",
+     "a": "Area above the transverse processes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal branch supplies…",
+     "a": "Epaxial muscles and dorsal one-third of skin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral branch supplies…",
+     "a": "Hypaxial muscles, limbs, ventral two-thirds of skin",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🦴 Spinal nerve numbers · exit levels",
+   "items": [
+    {
+     "q": "Pairs of spinal nerves in the dog?",
+     "a": "31",
+     "star": true,
+     "why": "'This one is important'"
+    },
+    {
+     "q": "Spinal nerve pairs per region?",
+     "a": "8 cervical, 13 thoracic, 7 lumbar, 3 sacral",
+     "star": true,
+     "why": "'This one is important'"
+    },
+    {
+     "q": "Pairs of cranial nerves?",
+     "a": "12",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "First cervical spinal nerve exits through…",
+     "a": "Lateral vertebral foramen of atlas (not transverse foramen)",
+     "star": true,
+     "why": "Repeated: 'Lateral. Not the transverse. Lateral vertebral'"
+    },
+    {
+     "q": "Do all cervical vertebrae have a lateral vertebral foramen?",
+     "a": "No; only the atlas",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Second through seventh cervical spinal nerves exit…",
+     "a": "Cranial to same-numbered vertebra",
+     "star": true,
+     "why": "'Main thing I want you to take home'"
+    },
+    {
+     "q": "Eighth cervical spinal nerve exits…",
+     "a": "Cranial to first thoracic vertebra (no eighth cervical vertebra)",
+     "star": true,
+     "why": "'Main thing I want you to take home'"
+    },
+    {
+     "q": "Thoracic and lumbar spinal nerves exit…",
+     "a": "Caudal to same-numbered vertebra",
+     "star": true,
+     "why": "'Main thing I want you to take home… write it down'"
+    },
+    {
+     "q": "Fourth cervical spinal nerve exits between…",
+     "a": "Third and fourth cervical vertebrae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fourth thoracic spinal nerve exits between…",
+     "a": "Fourth and fifth thoracic vertebrae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sacral spinal nerves exit through…",
+     "a": "Dorsal and ventral sacral foramina",
+     "star": true,
+     "why": "'This was an exam question'"
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Nerve (axons, outside central nervous system) vs tract (axons, inside central nervous system).",
+  "Ganglion (cell bodies outside) vs nucleus (cell bodies inside); 'basal ganglia' is really a nucleus.",
+  "Spinal cord gray matter central vs brain gray matter peripheral: inverted organization.",
+  "Dorsal root ganglion only: there is NO ventral root ganglion.",
+  "Cervical nerves exit CRANIAL to their vertebra; thoracic/lumbar exit CAUDAL.",
+  "First cervical nerve: LATERAL vertebral foramen, not transverse foramen, not intervertebral foramen.",
+  "Upper motor neuron (stays in central nervous system) controls lower motor neuron (leaves it).",
+  "General visceral efferent = two-neuron chain; general somatic efferent and special visceral efferent = one neuron.",
+  "Special visceral EFFERENT = pharyngeal arch skeletal muscle; special visceral AFFERENT = taste and smell.",
+  "Dorsal BRANCH (spinal nerve, epaxial) vs dorsal ROOT (sensory, enters cord) vs dorsal HORN."
+ ],
+ "flags": [
+  "Muscle spindle innervation: transcript says intrafusal fibers = beta motor neurons, gamma = 'both' (garbled). Standard anatomy (outside source): gamma = intrafusal, beta = both. Confirm before carding; only 'alpha = extrafusal, most common' is safe.",
+  "Pseudounipolar/special visceral afferent: slide says special visceral afferent = bipolar AND pseudounipolar; transcript lumps special somatic and special visceral afferent as 'essentially bipolar'. Use slide.",
+  "Nerve supporting cells: slide lists Schwann cells and fibroblasts; transcript adds satellite cells. Not contradictory, but satellite cells are spoken only (and are standardly ganglion cells, not nerve).",
+  "Lateral horn: slide shows lateral horn generically; transcript says distinct in thoracolumbar, faint in sacral segments.",
+  "Blueprint objective 'relate spinal cord segments to vertebral levels': lecture only covered spinal nerve exit relative to vertebrae, not cord segment/vertebra mismatch.",
+  "Patellar reflex: transcript garbles the effector ('border-cips') and movement; quadriceps/stifle extension inferred from slide figure and standard anatomy."
+ ]
+}
