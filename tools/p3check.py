@@ -16,9 +16,9 @@ def txt(f):
 for n in map(int,sys.argv[1:]):
     hub=f'gross-anatomy-lab{n}-images.html'; h=open(hub).read()
     links=[]
-    for sec in re.findall(r'<div class="sec (main|more|extra|terms|diag)"[^>]*>(.*?)</div>',h,re.S):
+    for sec in re.findall(r'<div class="sec (main|nophoto|more|extra|terms|diag)"[^>]*>(.*?)</div>',h,re.S):
         for href,name in re.findall(r'<a href="([^"?]+)[^"]*">([^<]*)<',sec[1]):
-            icon={'main':'⭐','more':'🔁','extra':'📚','terms':'🧠','diag':'📖'}[sec[0]]
+            icon={'main':'⭐','more':'🔁','extra':'📚','terms':'🧠','diag':'📖','nophoto':'🧠'}[sec[0]]
             tt=txt(href); links.append((icon,name.strip(),tt,norm(tt)))
     links.sort(key=lambda x:'⭐🔁📖📚🧠'.index(x[0]))
     rows=[];got=0
