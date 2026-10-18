@@ -26,6 +26,28 @@ open('cellphys-terms.html', 'w').write(
     f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">{"".join(body)}</div>{flags}<div class="foot">{FOOT}</div></div><script>{TJS}</script></body></html>')
 print('terms', n)
 
+# ---------------------------------------------------------- 1b) ONE TERMS PAGE PER LECTURE (★ emphasized rows + ⚠️ traps)
+from cellphys_lectures import EXTRA, STARS, TRAPS
+LCSS = TCSS + ('tr.star td{background:#ffe7f2!important}tr.star td:first-child::before{content:"★ ";color:#d94f7f}'
+               '.trap{background:#fbe7ef;border:2px solid #d94f7f;border-radius:16px;padding:12px 14px;margin:14px 0}.trap h2{color:#b8336a;margin:0 0 6px;font-size:18px}.trap li{margin:5px 0;font-size:15px}'
+               '.legend{font-size:13.5px;color:#8a6b99;margin:6px 2px}')
+LEC = []
+for k, (name, items) in enumerate(TERMS):
+    lc = 14 + k; allit = list(items) + EXTRA.get(lc, []); st = STARS.get(lc, set())
+    miss = st - {a for a, _ in allit}
+    if miss: print('⚠️ star not found', lc, miss)
+    rows = ''.join(f'<tr{" class=star" if a in st else ""}><td>{E(a)}</td><td><span class="ans">{E(b)}</span></td></tr>' for a, b in allit)
+    trap = '<div class="trap"><h2>⚠️ Precision traps</h2><ul>' + ''.join(f'<li>{t}</li>' for t in TRAPS.get(lc, [])) + '</ul></div>'
+    fn = f'cellphys-lc{lc}-terms.html'; title = name.split(' ', 1)[1]
+    open(fn, 'w').write(
+        f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🧠 {E(title)}</title><style>{LCSS}</style></head><body><div class="wrap">'
+        f'<a class="back" href="{HUB}?v={V}">← Back to Cell Physiology</a><div class="hero"><h1>{E(name)}</h1><p>Say it, then tap the pink box to check · {len(allit)} terms · ★ {len(st)} the professor stressed</p></div>'
+        f'{trap}<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
+        f'<div class="legend">★ pink rows = emphasized in lecture or on Canvas quizzes</div><div class="cols"><div class="sec"><h2>{E(name)}</h2><table>{rows}</table></div></div>'
+        f'<div class="foot">{FOOT}</div></div><script>{TJS}</script></body></html>')
+    LEC.append((fn, name, len(allit), len(st)))
+print('lecture pages', [(f, c) for f, _, c, _ in LEC])
+
 # ---------------------------------------------------------- 2) PRACTICE EXAMS
 src = open(os.path.join(os.path.dirname(__file__), 'sys_lecture.py')).read()
 CSS = re.search(r"CSS='''(.*?)'''", src, re.S).group(1)
@@ -67,7 +89,8 @@ print('exams', counts)
 # ---------------------------------------------------------- 3) COURSE HUB + HOME TILE + SW
 VS = open('veterinary-systems.html').read()
 style = VS[VS.index('<style>'):VS.index('</style>') + 8]
-tiles = f'<a class="tile" href="cellphys-terms.html?v={V}"><div class="emoji">🧠</div><h2>Terms sheet</h2><p>{n} tap-to-reveal terms · LC14–LC21 on one page</p></a>'
+tiles = ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · ★ {s} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
+tiles += f'<a class="tile" href="cellphys-terms.html?v={V}"><div class="emoji">🧠</div><h2>All terms, one page</h2><p>{n} tap-to-reveal terms · LC14–LC21 combined + source flags</p></a>'
 for (fn, t, it), c in zip(EXAMS, counts):
     tiles += f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🧪</div><h2>{E(t[2:])}</h2><p>{c} questions · quiz style · all lectures</p></a>'
 open(HUB, 'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>🧫 Cell Physiology</title>{style}</head><body><div class="wrap">'
