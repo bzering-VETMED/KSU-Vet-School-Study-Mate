@@ -21,6 +21,18 @@ def kind(card):
     if '📷' in t: return 'mine',55
     if 'course slide' in t: return 'slide',(50 if 'highlighted' in q else 44)-(8 if find else 0)
     return 'other',40
+from PIL import Image
+import numpy as np
+_FP={}
+def fp(card):
+    im=card.select_one('.pic img')
+    if not im: return None
+    p=im['src'].split('?')[0]
+    if p not in _FP:
+        try: a=np.array(Image.open(p).convert('L').resize((24,24))).astype(int); _FP[p]=(a>a.mean()).flatten()
+        except Exception: _FP[p]=None
+    return _FP[p]
+def same(a,b): return a['fp'] is not None and b['fp'] is not None and a['nm']==b['nm'] and a['nm'].strip()!='' and (a['fp']!=b['fp']).sum()<=6
 def write(fn,title,sub,cards_html,css,hubf):
     hh=''.join(cards_html).replace('class="card on"','class="card"').replace('class="card"','class="card on"',1)
     pg=page(title,sub,hh,back=f'{hubf}?v={V}')
@@ -29,12 +41,16 @@ for n in map(int,sys.argv[1:]):
     T=terms(n); hubf=f'gross-anatomy-lab{n}-images.html'; hub=open(hubf).read()
     names=[x[0] for x in p3bold.P3BOLD[n]] if n in p3bold.P3BOLD else [x[0] for x in {16:SH.S16,17:SH.S17,18:SH.S18}[n]]
     sec=lambda cls: re.search(r'<div class="sec '+cls+r'"[^>]*>(.*?)</div>',hub,re.S)
-    pages=[]
-    for cls in ('main','more','extra'):
+    pages=[]; mk=re.search(r'<!--p3src:(.*?)-->',hub)
+    if mk:
+        for part in mk.group(1).split('|'):
+            cls,href,name=part.split('::')
+            if os.path.exists(href): pages.append((cls,href,name))
+    for cls in ([] if mk else ['main','more']) + ['extra']:
         m=sec(cls)
         if not m: continue
         for href,name in re.findall(r'<a href="([^"?]+)[^"]*">([^<]*)<span>',m.group(1)):
-            if '-best' in href or not os.path.exists(href) or href in [p[1] for p in pages]: continue
+            if '-best' in href or re.search(r'-more\d+\.html$',href) or not os.path.exists(href) or href in [p[1] for p in pages]: continue
             pages.append((cls,href,name.strip()))
     cards=[]; css=''
     for cls,href,name in pages:
@@ -43,7 +59,11 @@ for n in map(int,sys.argv[1:]):
         for c in s.select('section.card'):
             k,sc=kind(c)
             if k is None: continue
-            cards.append(dict(html=str(c),items=items(answer_text(c)),nm=answer_text(c).lower(),full=c.get_text(' ').lower(),kind=k,score=sc-(15 if cls=='extra' else 0),ex=cls=='extra'))
+            cards.append(dict(src=href,name=name,cls=cls,fp=fp(c),html=str(c),items=items(answer_text(c)),nm=answer_text(c).lower(),full=c.get_text(' ').lower(),kind=k,score=sc-(15 if cls=='extra' else 0),ex=cls=='extra'))
+    keep=[]
+    for c in sorted(cards,key=lambda c:-c['score']):
+        if not any(same(c,k) for k in keep): keep.append(c)
+    order={id(c):i for i,c in enumerate(cards)}; cards=sorted(keep,key=lambda c:order[id(c)])
     def names_term(c,als,full=False):
         al=[x.lstrip('=').lower() for x in als]
         if any(item_bold(x,[als]) for x in c['items']) or any(x in c['nm'] for x in al): return True
@@ -97,9 +117,21 @@ for n in map(int,sys.argv[1:]):
         k+=1; fn=f'gross-anatomy-lab{n}-best{k}.html'
         write(fn,f'Lab {n} · Bold terms with no photo yet',f'Concepts, drawings-only terms + photos still coming · {len(nophoto)} cards',nophoto,css,hubf)
         nplink=f'<div class="sec nophoto" style="border-left:7px solid #e0a03c"><h2>🧠 Bold terms with no photo yet</h2><p>Concepts + terms with no real photo yet. Photos get added as they come in.</p><a href="{fn}?v={V}">Bold terms with no photo yet<span>{len(nophoto)} cards</span></a></div>'
-    morelinks=''.join(f'<a href="{h}?v={V}">{E(nm)}<span>{open(h).read().count("<section class=")} cards</span></a>' for cls,h,nm in pages if cls in('main','more'))
+    for f in os.listdir('.'):
+        if re.match(rf'gross-anatomy-lab{n}-more\d+\.html$',f): os.remove(f)
+    inbest=set(core+gaps); morelinks=''; mi=0; groups={}
+    for ci,c in enumerate(cards):
+        if ci in inbest or c['cls'] not in ('main','more'): continue
+        groups.setdefault(c['name'],[]).append(c['html'])
+    for nm,hs in groups.items():
+        for i in range(0,len(hs),15):
+            mi+=1; fn=f'gross-anatomy-lab{n}-more{mi}.html'; part=hs[i:i+15]
+            label=nm+(f' ({i//15+1})' if len(hs)>15 else '')
+            write(fn,f'Lab {n} · {label}',f'📚 More practice · not repeated in ⭐ · {len(part)} cards',part,css,hubf)
+            morelinks+=f'<a href="{fn}?v={V}">{E(label)}<span>{len(part)} cards</span></a>'
+    srcmark='<!--p3src:'+'|'.join(f'{cls}::{h}::{nm}' for cls,h,nm in pages if cls in ('main','more'))+'-->'
     main=f'<div class="sec main"><h2>⭐ Bold-term labeled photos · start here</h2><p>UMN labeled photos that show your bold terms, then your photos + course slides for anything UMN doesn&#39;t show.</p>{links}</div>'+nplink
-    more=f'<div class="sec more" style="border-left:7px solid #b48ad6"><h2>📚 More practice · same bold terms</h2><p>Every bold term, in small blocks.</p>{morelinks}</div>'
+    more=f'<div class="sec more" style="border-left:7px solid #b48ad6"><h2>📚 More practice · same bold terms</h2><p>Every bold term, in small blocks. Nothing here repeats ⭐.</p>{morelinks}{srcmark}</div>'
     hub=re.sub(r'<div class="sec nophoto".*?</div>','',hub,flags=re.S)
     mo=sec('more'); hub=hub.replace(sec('main').group(0),main,1)
     hub=hub.replace(mo.group(0),more,1) if mo else hub.replace(main,main+more,1)
