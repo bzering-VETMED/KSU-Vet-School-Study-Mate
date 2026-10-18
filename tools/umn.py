@@ -128,6 +128,12 @@ SPEC=[
   a='1 · heart · 2 · descending aorta · 3 · thoracic duct · 4 · left brachiocephalic vein · 5 · cranial vena cava · 6 · brachiocephalic trunk · 7 · left subclavian artery · 8 · internal thoracic artery · arrows · dorsal intercostal arteries',
   f=[('🥛 Thoracic duct?','Starts at the cisterna chyli; empties into the left brachiocephalic vein (venous angle)')]),
 ]
+import glob as _g   # extra SPEC batches (Practical 3 Labs 16-24 screenshots 4546-4654)
+for _f in sorted(_g.glob('tools/umn_spec/spec*.py')):
+    _d={}; exec(open(_f).read(),_d)
+    for _s in _d['SPEC']:
+        if int(_s['id'])>=4597: _s['labs']=[L for L in _s['labs'] if L>=19] or _s['labs']
+        SPEC.append(_s)
 def erase(im,items,crop):
     """Region = generous zone around each guessed label; inside it, only label-like pixels (near-black
     arrow/number strokes, near-white badge fill) are masked, dilated, then inpainted. Anatomy stays."""
@@ -151,7 +157,7 @@ bylab={}; findlab={}
 for s in SPEC:
     im=cv2.imread(f"{SRC}/{s['id']}.jpg"); x0,y0,x1,y1=s['crop']; im=im[y0:y1+1,x0:x1+1]
     im=erase(im,s['erase'],s['crop']); out=f"assets/umn_{s['id']}.jpg"; cv2.imwrite(out,im,[cv2.IMWRITE_JPEG_QUALITY,93])
-    tag=f"{TAG} · UMN Lab {s['umn']}"
+    tag=f"{TAG} · UMN Lab {s['umn']}" if s['umn'] else TAG
     c=img_card_facts(s['q'],f'{out}?v={V}',s['a'],'',f'{out}?v={V}',s['f'],tag)
     for L in s['labs']: bylab.setdefault(L,[]).append(c)
     if s.get('find'):   # same photo with NO labels → harder "point to it" card
