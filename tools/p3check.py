@@ -1,9 +1,12 @@
 """Re-count each Practical 3 hub's bold-term checklist over EVERY deck the hub links (slides, UMN, my photos, terms).
-Run after umn.py / lab*me.py:  python3 tools/p3check.py 19 21 22 23 24"""
+Run LAST (after umn.py, p3simplify.py, p3split.py):  python3 tools/p3check.py 16 17 18 19 21 22 23 24"""
 import sys,re,html,os
 sys.path.insert(0,'tools'); import bold,p3bold
 from deck import E
 for n,l in p3bold.P3BOLD.items(): bold.BOLD[n]=l
+import p3shots as SH
+for n,S in ((16,SH.S16),(17,SH.S17),(18,SH.S18)):
+    bold.BOLD[n]=[(t,[x.lower().lstrip('=') for x in [t]+al],'') for t,al in S]
 def txt(f):
     try: return html.unescape(re.sub(r'<[^>]+>',' ',open(f).read())).lower()
     except: return ''

@@ -150,19 +150,28 @@ def erase(im,items,crop):
     m=(((g<95)|(mn>205))&(R>0)).astype(np.uint8)*255
     m=cv2.dilate(m,np.ones((7,7),np.uint8))&R
     return cv2.inpaint(im,m,9,cv2.INPAINT_TELEA)
+_SR=None
+def enhance(im):
+    """UMN screenshots are low-res: 2x super-resolution (FSRCNN) → gentle local contrast (CLAHE) → unsharp mask."""
+    global _SR
+    if _SR is None:
+        _SR=cv2.dnn_superres.DnnSuperResImpl_create(); _SR.readModel('tools/models/FSRCNN_x2.pb'); _SR.setModel('fsrcnn',2)
+    if im.shape[1]<1700: im=_SR.upsample(im)
+    lab=cv2.cvtColor(im,cv2.COLOR_BGR2LAB); lab[...,0]=cv2.createCLAHE(1.6,(8,8)).apply(lab[...,0]); im=cv2.cvtColor(lab,cv2.COLOR_LAB2BGR)
+    b=cv2.GaussianBlur(im,(0,0),1.6); return cv2.addWeighted(im,1.8,b,-0.8,0)
 os.makedirs('assets',exist_ok=True)
 for f in os.listdir('assets'):
     if f.startswith('umn_'): os.remove('assets/'+f)
 bylab={}; findlab={}
 for s in SPEC:
     im=cv2.imread(f"{SRC}/{s['id']}.jpg"); x0,y0,x1,y1=s['crop']; im=im[y0:y1+1,x0:x1+1]
-    im=erase(im,s['erase'],s['crop']); out=f"assets/umn_{s['id']}.jpg"; cv2.imwrite(out,im,[cv2.IMWRITE_JPEG_QUALITY,93])
+    im=enhance(erase(im,s['erase'],s['crop'])); out=f"assets/umn_{s['id']}.jpg"; cv2.imwrite(out,im,[cv2.IMWRITE_JPEG_QUALITY,88])
     tag=f"{TAG} · UMN Lab {s['umn']}" if s['umn'] else TAG
     c=img_card_facts(s['q'],f'{out}?v={V}',s['a'],'',f'{out}?v={V}',s['f'],tag)
     for L in s['labs']: bylab.setdefault(L,[]).append(c)
     if s.get('find'):   # same photo with NO labels → harder "point to it" card
         fid,(a0,b0,a1,b1)=s['find']; cl=cv2.imread(f"{SRC}/{fid}.jpg")[b0:b1+1,a0:a1+1]
-        fo=f"assets/umn_{fid}_clean.jpg"; cv2.imwrite(fo,cl,[cv2.IMWRITE_JPEG_QUALITY,93])
+        fo=f"assets/umn_{fid}_clean.jpg"; cv2.imwrite(fo,enhance(cl),[cv2.IMWRITE_JPEG_QUALITY,88])
         fq='🔍 No labels. Point to and name every bold structure you can find (then check).'
         fc=img_card_facts(fq,f'{fo}?v={V}',s['a'],'',f'{out}?v={V}',[],tag+' · unlabeled')
         for L in s['labs']: findlab.setdefault(L,[]).append(fc)
