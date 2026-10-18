@@ -8,7 +8,7 @@ FS='systems-lec3-terms.html'; HUB='systems-lecture.html'
 
 # (section, [(term, short answer)])  — '★ ' prefix = professor emphasized → pink row
 SECS=[
-('LC37 · Respiratory System 1 (Basel) · upper airways & pleura',[
+('lc37','LC37 · Respiratory System 1','Basel · upper airways & pleura',[
  ('Upper airways','Nares, nasal cavity, pharynx'),
  ('Lower airways','Larynx → trachea → bronchial tree → alveolar sacs'),
  ('Mammal lung vs bird lung','Mammal = blind-ended, mixes air (alveolar PO₂ ~100 vs air ~150) · Bird = one-way flow through lung via air sacs → more efficient'),
@@ -36,7 +36,7 @@ SECS=[
  ('★ Pneumothorax','Air in pleural space → negative pressure lost → lung collapses'),
  ('Spontaneous pneumothorax','Ruptured blebs/bullae on lung surface (case: Siberian husky)'),
 ]),
-('LC38 · Respiratory System 2 (Basel) · lower airways & alveoli',[
+('lc38','LC38 · Respiratory System 2','Basel · lower airways & alveoli',[
  ('Conducting airways','Bronchi + bronchioles · thick walls · NO gas exchange = dead space'),
  ('Exchange airways','Start at respiratory bronchioles → alveolar ducts → alveolar sacs'),
  ('Total cross-sectional area going deeper','Increases → resistance drops + air slows'),
@@ -63,7 +63,7 @@ SECS=[
  ('Albuterol','Beta-2 agonist (mimics sympathetic) → bronchodilation; rescue inhaler'),
  ('Long-term asthma treatment','Corticosteroids (reduce inflammation)'),
 ]),
-('Pulmonary Physiology 1 (Poole) · structure',[
+('pp1','LC39 · Pulmonary Physiology 1','Poole · structure',[
  ('★ What does breathing regulate?','Arterial PCO₂ (~40 mmHg) and pH'),
  ('Oxygen uptake equation','(Inspired ventilation × inspired O₂ fraction) − (expired ventilation × expired O₂ fraction)'),
  ('% of inspired O₂ the lung extracts','~25%, even during exercise (defends alveolar PO₂; horse = exception)'),
@@ -93,7 +93,7 @@ SECS=[
  ('★ Obstruction in large airway vs parenchyma','Large airway = noticed early (small total area) · deep lung = silent for long'),
  ('% of airway resistance in large airways','~70%'),
 ]),
-('Pulmonary Physiology 2 (Poole) · volumes & ventilation',[
+('pp2','LC40 · Pulmonary Physiology 2','Poole · volumes & ventilation',[
  ('3 steps to get O₂ into blood','Ventilation → diffusion → blood flow'),
  ('Tidal volume','Air per breath (~500 mL human; horse ~7.5 L)'),
  ('★ Red blood cell transit time','Pulmonary capillary blood volume ÷ cardiac output (~0.84 s rest → ~0.28 s exercise)'),
@@ -124,31 +124,46 @@ SECS=[
  ('Diseased lungs + exercise','Respiratory muscles steal cardiac output from limbs → exercise intolerance'),
 ]),
 ]
-TRAPS=[
- 'Adventitia ≠ serosa · trachea switches to serosa once inside the thorax',
- 'False vocal fold = respiratory epithelium · TRUE vocal fold = stratified squamous',
- 'Bronchus = cartilage PLATES · trachea = C-shaped RINGS · bronchiole = NONE',
- 'Alveolar duct septa = KNOBS · alveolar sac septa = POINTS',
- 'Type II pneumocyte is NOT part of the blood-air barrier',
- 'Residual volume vs functional residual capacity (no muscles acting = functional residual capacity)',
- 'Total cross-sectional area is SMALLEST in large airways (individual airways are biggest)',
- 'Basel: premature surfactant deficit before ~36 weeks · Poole: ~34 weeks → use Poole for his questions',
- 'Basel said bird lung "CO₂ ~150" → he meant O₂',
-]
+TRAPS={
+ 'lc37':['Adventitia ≠ serosa · trachea switches to serosa once inside the thorax',
+         'False vocal fold = respiratory epithelium · TRUE vocal fold = stratified squamous',
+         'Trachea = C-shaped RINGS (bronchus = plates)',
+         'Basel said bird lung "CO₂ ~150" → he meant O₂'],
+ 'lc38':['Bronchus = cartilage PLATES · trachea = C-shaped RINGS · bronchiole = NONE',
+         'Alveolar duct septa = KNOBS · alveolar sac septa = POINTS',
+         'Type II pneumocyte is NOT part of the blood-air barrier',
+         'Basel: premature surfactant deficit before ~36 weeks · Poole: ~34 weeks → use Poole for his questions'],
+ 'pp1':['Total cross-sectional area is SMALLEST in large airways (individual airways are biggest)',
+        'Gases follow PRESSURE gradients, not concentration',
+        'Lung O₂ extraction stays ~25% in exercise · TISSUE extraction rises to 80–90%',
+        'Poole: premature surfactant deficit before ~34 weeks · Basel said ~36 → use Poole'],
+ 'pp2':['Functional residual capacity (no muscles acting) ≠ residual volume (after max exhale)',
+        'Vital capacity = total lung capacity − residual volume',
+        'Panting ≠ hyperventilation (shallow breaths, mostly dead space)',
+        'Most ventilation goes to the BASE (compliant alveoli), not the apex'],
+}
 
 rows=lambda items:''.join(
   f'<tr class="{"hy" if t.startswith("★") else ""}"><td>{E(t)}</td><td><span class="ans">{E(a)}</span></td></tr>' for t,a in items)
-secs=''.join(f'<div class="sec{" p" if i%2 else ""}"><h2>{E(s)}</h2><table>{rows(it)}</table></div>' for i,(s,it) in enumerate(SECS))
-traps='<div class="sec trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(t)}</li>' for t in TRAPS)+'</ul></div>'
-total=sum(len(i) for _,i in SECS)
-
 css=""":root{--ink:#330B4D;--v:#6A0DAD;--g:#7B2FBE;--p:#E0459A;--line:#E3D0F2;--lav:#F5ECFD}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:radial-gradient(circle at 0 0,#FBE4F4 0,transparent 30%),radial-gradient(circle at 100% 0,#EFE0FE 0,transparent 32%),#FFFBFD}.wrap{max-width:900px;margin:auto;padding:14px 12px 50px}.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none}.hero{color:#fff;border-radius:20px;padding:16px 18px;background:linear-gradient(135deg,#5C1B96,#A22FB5 55%,#E0459A)}.hero h1{margin:0;font-size:24px}.hero p{margin:4px 0 0;font-size:14px}.bar{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:10px 0;background:#FFFBFD}.bar button{border:0;border-radius:999px;padding:9px 14px;background:#f3eafb;color:#65328c;font-weight:800;font-size:15px}.bar .n{margin-left:auto;align-self:center;font-weight:800;color:var(--g)}.cols{column-count:2;column-gap:12px}@media(max-width:700px){.cols{column-count:1}}.sec{break-inside:avoid;background:#fff;border:1px solid var(--line);border-left:6px solid var(--g);border-radius:14px;padding:8px 10px;margin:0 0 12px}.sec.p{border-left-color:var(--p)}.sec.trap{border-left-color:#E8A317;background:#FFF8EC}.sec.trap ul{margin:4px 0;padding-left:20px;font-size:15px}.sec.trap li{margin:3px 0}.sec h2{margin:0 0 4px;font-size:18px;color:var(--v)}table{width:100%;border-collapse:collapse;font-size:15px}td{padding:6px;border-bottom:1px solid #F0E4F7;vertical-align:top}tr:nth-child(even) td{background:var(--lav)}tr.hy td{background:#FDE3F1}td:first-child{font-weight:700;color:var(--v);width:47%}.ans{display:inline-block;min-width:90%;border-radius:8px;padding:2px 6px;cursor:pointer;background:linear-gradient(135deg,#C9B6E4,#F2B6D6);color:transparent;user-select:none;transition:background .15s}.ans.on{background:transparent;color:var(--ink);padding:2px 0}.ans:not(.on):after{content:"tap";color:#fff;font-size:12px;font-weight:800}.ans:not(.on){font-size:0;min-height:22px}.key{font-size:13px;margin:8px 0 0;color:#6b4c7d}.foot{text-align:center;font-size:12px;color:#8a6b99;margin-top:20px}"""
 js="""const A=[...document.querySelectorAll('.ans')],N=document.getElementById('n');function u(){N.textContent=A.filter(a=>a.classList.contains('on')).length+' / '+A.length}A.forEach(a=>a.onclick=()=>{a.classList.toggle('on');u()});document.getElementById('all').onclick=()=>{A.forEach(a=>a.classList.add('on'));u()};document.getElementById('hide').onclick=()=>{A.forEach(a=>a.classList.remove('on'));u();scrollTo(0,0)};u();"""
-open(FS,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🫁 Exam 3 Terms Review</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{HUB}?v={V}">← Back to Systems Lecture</a><div class="hero"><h1>🫁 Exam 3 · Respiratory Terms Review</h1><p>Say the answer, then tap the pink box · {total} terms · one section per lecture</p></div><div class="key">★ pink row = professor emphasized · lectures covered so far: LC37–LC40</div><div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">{secs}{traps}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{js}</script></body></html>')
+def pg(fn,title,sub,body,back,backlbl):
+    open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{back}?v={V}">← {backlbl}</a><div class="hero"><h1>{E(title)}</h1><p>{sub}</p></div>{body}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{js}</script></body></html>')
+links=''
+for slug,title,who,items in SECS:
+    fn=f'systems-lec3-{slug}-terms.html'
+    traps='<div class="sec trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(t)}</li>' for t in TRAPS[slug])+'</ul></div>'
+    body=(f'<div class="key">★ pink row = professor emphasized</div><div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
+          f'<div class="sec"><table>{rows(items)}</table></div>{traps}')
+    pg(fn,'🫁 '+title,f'{E(who)} · {len(items)} terms · say it, then tap the pink box',body,FS,'Back to Exam 3 Terms')
+    links+=f'<a class="lt" href="{fn}?v={V}"><b>{E(title)}</b><span>{E(who)} · {len(items)} terms</span></a>'
+total=sum(len(x[3]) for x in SECS)
+idx_css='.lt{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-left:6px solid var(--p);border-radius:14px;padding:12px 14px;margin:12px 0;color:var(--v)}.lt b{display:block;font-size:18px}.lt span{font-size:14px;color:#6b4c7d}'
+open(FS,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🫁 Exam 3 Terms Review</title><style>{css}{idx_css}</style></head><body><div class="wrap"><a class="back" href="{HUB}?v={V}">← Back to Systems Lecture</a><div class="hero"><h1>🫁 Exam 3 · Terms Review</h1><p>One page per lecture · tap to reveal · {total} terms so far</p></div>{links}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div></body></html>')
 
 # Lecture hub: add an Exam 3 (Respiratory) tile at the top (idempotent), keep all old tiles
 s=open(HUB).read()
-tile=f'<a class="tile" href="{FS}?v={V}"><div class="emoji">🫁</div><h2>Exam 3 · Terms Review</h2><p>{total} tap-to-reveal · Respiratory (LC37–40 so far) · Fri 11/6</p></a>'
+tile=f'<a class="tile" href="{FS}?v={V}"><div class="emoji">🫁</div><h2>Exam 3 · Terms Review</h2><p>One page per lecture · {total} tap-to-reveal terms · LC37–40 so far · Fri 11/6</p></a>'
 if FS in s: s=re.sub(r'<a class="tile" href="'+re.escape(FS)+r'\?v=\d+">.*?</a>',tile,s,flags=re.S)
 else: s=s.replace('<div class="grid">','<div class="grid">'+tile,1)
 s=re.sub(r'(<section class="hero"><h1>[^<]*</h1><p>)[^<]*(</p>)',r'\1Next up: Exam 3 · Respiratory · Fri 11/6, 8 AM · LC37–50 (🫁 tiles) · other tiles = previous exam (10/16)\2',s)
@@ -159,4 +174,4 @@ for f in ['veterinary-systems.html','fall2026.html','index.html']:
     if os.path.exists(f):
         t=open(f).read(); open(f,'w').write(re.sub(r'(href="(?:veterinary-systems|systems-lecture|fall2026)\.html)\?v=\d+"',lambda m:f'{m.group(1)}?v={V}"',t))
 sw=open('sw.js').read(); open('sw.js','w').write(re.sub(r"ksu-study-mate-v(\d+)-\d+",lambda m:f"ksu-study-mate-v{int(m.group(1))+1}-{V}",sw))
-print(FS,total,'terms')
+print(FS,total,'terms',[len(x[3]) for x in SECS])
