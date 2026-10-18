@@ -188,7 +188,7 @@ LABS={
       A('Caudal interosseous artery','Interosseous space → palmar paw'),
       A('Cranial interosseous artery','Craniolateral extensors')),
      A('Median artery','Main artery of the forearm',
-      A('Deep antebrachial artery','Caudal flexors · ⚠️ brachial slide lists it under brachial; median + deep antebrachial slides say median'),
+      A('Deep antebrachial artery','FIRST (caudal) branch of the median · ✅ confirmed by the Lab 20 pre-lab'),
       A('Radial artery','Medial forearm → carpus'),
       A('Superficial palmar arch','',
        A('Palmar common digital arteries','→ digits'))))))),
