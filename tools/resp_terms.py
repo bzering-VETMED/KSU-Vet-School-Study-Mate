@@ -147,6 +147,7 @@ rows=lambda items:''.join(
   f'<tr class="{"hy" if t.startswith("★") else ""}"><td>{E(t)}</td><td><span class="ans">{E(a)}</span></td></tr>' for t,a in items)
 css=""":root{--ink:#330B4D;--v:#6A0DAD;--g:#7B2FBE;--p:#E0459A;--line:#E3D0F2;--lav:#F5ECFD}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:radial-gradient(circle at 0 0,#FBE4F4 0,transparent 30%),radial-gradient(circle at 100% 0,#EFE0FE 0,transparent 32%),#FFFBFD}.wrap{max-width:900px;margin:auto;padding:14px 12px 50px}.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none}.hero{color:#fff;border-radius:20px;padding:16px 18px;background:linear-gradient(135deg,#5C1B96,#A22FB5 55%,#E0459A)}.hero h1{margin:0;font-size:24px}.hero p{margin:4px 0 0;font-size:14px}.bar{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:10px 0;background:#FFFBFD}.bar button{border:0;border-radius:999px;padding:9px 14px;background:#f3eafb;color:#65328c;font-weight:800;font-size:15px}.bar .n{margin-left:auto;align-self:center;font-weight:800;color:var(--g)}.cols{column-count:2;column-gap:12px}@media(max-width:700px){.cols{column-count:1}}.sec{break-inside:avoid;background:#fff;border:1px solid var(--line);border-left:6px solid var(--g);border-radius:14px;padding:8px 10px;margin:0 0 12px}.sec.p{border-left-color:var(--p)}.sec.trap{border-left-color:#E8A317;background:#FFF8EC}.sec.trap ul{margin:4px 0;padding-left:20px;font-size:15px}.sec.trap li{margin:3px 0}.sec h2{margin:0 0 4px;font-size:18px;color:var(--v)}table{width:100%;border-collapse:collapse;font-size:15px}td{padding:6px;border-bottom:1px solid #F0E4F7;vertical-align:top}tr:nth-child(even) td{background:var(--lav)}tr.hy td{background:#FDE3F1}td:first-child{font-weight:700;color:var(--v);width:47%}.ans{display:inline-block;min-width:90%;border-radius:8px;padding:2px 6px;cursor:pointer;background:linear-gradient(135deg,#C9B6E4,#F2B6D6);color:transparent;user-select:none;transition:background .15s}.ans.on{background:transparent;color:var(--ink);padding:2px 0}.ans:not(.on):after{content:"tap";color:#fff;font-size:12px;font-weight:800}.ans:not(.on){font-size:0;min-height:22px}.key{font-size:13px;margin:8px 0 0;color:#6b4c7d}.foot{text-align:center;font-size:12px;color:#8a6b99;margin-top:20px}"""
 js="""const A=[...document.querySelectorAll('.ans')],N=document.getElementById('n');function u(){N.textContent=A.filter(a=>a.classList.contains('on')).length+' / '+A.length}A.forEach(a=>a.onclick=()=>{a.classList.toggle('on');u()});document.getElementById('all').onclick=()=>{A.forEach(a=>a.classList.add('on'));u()};document.getElementById('hide').onclick=()=>{A.forEach(a=>a.classList.remove('on'));u();scrollTo(0,0)};u();"""
+E3='systems-lec-exam3.html'; E2='systems-lec-exam2.html'
 def pg(fn,title,sub,body,back,backlbl):
     open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{back}?v={V}">← {backlbl}</a><div class="hero"><h1>{E(title)}</h1><p>{sub}</p></div>{body}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{js}</script></body></html>')
 links=''
@@ -155,20 +156,22 @@ for slug,title,who,items in SECS:
     traps='<div class="sec trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(t)}</li>' for t in TRAPS[slug])+'</ul></div>'
     body=(f'<div class="key">★ pink row = professor emphasized</div><div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
           f'<div class="sec"><table>{rows(items)}</table></div>{traps}')
-    pg(fn,'🫁 '+title,f'{E(who)} · {len(items)} terms · say it, then tap the pink box',body,FS,'Back to Exam 3 Terms')
-    links+=f'<a class="lt" href="{fn}?v={V}"><b>{E(title)}</b><span>{E(who)} · {len(items)} terms</span></a>'
+    pg(fn,'🫁 '+title,f'{E(who)} · {len(items)} terms · say it, then tap the pink box',body,E3,'Back to Exam 3')
+    links+=f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🧠</div><h2>{E(title)}</h2><p>{E(who)} · {len(items)} terms · tap to reveal</p></a>'
 total=sum(len(x[3]) for x in SECS)
-idx_css='.lt{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-left:6px solid var(--p);border-radius:14px;padding:12px 14px;margin:12px 0;color:var(--v)}.lt b{display:block;font-size:18px}.lt span{font-size:14px;color:#6b4c7d}'
-open(FS,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🫁 Exam 3 Terms Review</title><style>{css}{idx_css}</style></head><body><div class="wrap"><a class="back" href="{HUB}?v={V}">← Back to Systems Lecture</a><div class="hero"><h1>🫁 Exam 3 · Terms Review</h1><p>One page per lecture · tap to reveal · {total} terms so far</p></div>{links}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div></body></html>')
-
-# Lecture hub: add an Exam 3 (Respiratory) tile at the top (idempotent), keep all old tiles
-s=open(HUB).read()
-tile=f'<a class="tile" href="{FS}?v={V}"><div class="emoji">🫁</div><h2>Exam 3 · Terms Review</h2><p>One page per lecture · {total} tap-to-reveal terms · LC37–40 so far · Fri 11/6</p></a>'
-if FS in s: s=re.sub(r'<a class="tile" href="'+re.escape(FS)+r'\?v=\d+">.*?</a>',tile,s,flags=re.S)
-else: s=s.replace('<div class="grid">','<div class="grid">'+tile,1)
-s=re.sub(r'(<section class="hero"><h1>[^<]*</h1><p>)[^<]*(</p>)',r'\1Next up: Exam 3 · Respiratory · Fri 11/6, 8 AM · LC37–50 (🫁 tiles) · other tiles = previous exam (10/16)\2',s)
-s=re.sub(r'(href="[^"?]+\.html)\?v=\d+"',lambda m:f'{m.group(1)}?v={V}"',s)
-open(HUB,'w').write(s)
+# Hub CSS = same as the Systems Lecture hub
+HCSS=re.search(r'<style>.*?</style>',open(E2).read(),re.S).group(0)
+def hub(fn,title,h1,sub,back,backlbl,tiles):
+    open(fn,'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>{title}</title>{HCSS}</head><body><div class="wrap"><section class="hero"><h1>{h1}</h1><p>{sub}</p></section><div class="nav"><a href="{back}?v={V}">← {backlbl}</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
+# Exam 3 hub: one tile per lecture terms page
+hub(E3,'🫁 Systems I · Lecture Exam 3','🫁 Lecture Exam 3','Respiratory · Fri 11/6, 8 AM · LC37–50 · Basel 14 pts / Poole 84 pts',HUB,'Back to Lecture',links)
+# old combined index → just forwards to the Exam 3 hub (keeps old bookmarks working)
+open(FS,'w').write(f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url={E3}?v={V}"><a href="{E3}?v={V}">Exam 3</a>')
+# Systems Lecture hub: just the exam folders
+hub(HUB,'📖 Veterinary Systems I · Lecture','📖 Veterinary Systems I · Lecture','Pick an exam',
+    'veterinary-systems.html','Back',
+    f'<a class="tile" href="{E3}?v={V}"><div class="emoji">🫁</div><h2>Exam 3 · Respiratory</h2><p>Fri 11/6 · LC37–50 · {total} terms so far · ⭐ current</p></a>'
+    f'<a class="tile" href="{E2}?v={V}"><div class="emoji">✅</div><h2>Exam 2</h2><p>Fri 10/16 · Lectures 19–37 + Musch · old exams, practice exams, ECG cards</p></a>')
 # cache-bust links into the hub + service worker
 for f in ['veterinary-systems.html','fall2026.html','index.html']:
     if os.path.exists(f):

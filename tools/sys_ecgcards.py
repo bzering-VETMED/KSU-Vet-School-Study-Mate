@@ -111,7 +111,7 @@ for i, (name, cards) in enumerate(B.items(), 1):
     open(fn, 'w').write(out)
     links.append(f'<a href="{fn}?v={V}">{E(name)}<span>{len(cs)} cards</span></a>')
 hub = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>ECG flashcards</title><style>{deck.HUBCSS}</style></head><body><div class="wrap">'
-       f'<a class="back" href="systems-lecture.html?v={V}">← Back to Lecture</a><div class="hero"><h1>🫀 ECG flashcards</h1><p>Real strips from Lecture 21–22 slides + the Arrhythmia Cases sheet (redrawn) + extra drawn strips. Small decks. Name it before you tap. 🐾</p></div>'
+       f'<a class="back" href="systems-lec-exam2.html?v={V}">← Back to Exam 2</a><div class="hero"><h1>🫀 ECG flashcards</h1><p>Real strips from Lecture 21–22 slides + the Arrhythmia Cases sheet (redrawn) + extra drawn strips. Small decks. Name it before you tap. 🐾</p></div>'
        f'<div class="sec main"><h2>⭐ Decks</h2><p>Each card: name the rhythm, then tap through the short follow-ups. ✅/❌ to track misses.</p>{"".join(links)}</div></div></body></html>')
 open(HUB, 'w').write(hub)
 print({k: len(v) for k, v in B.items()})

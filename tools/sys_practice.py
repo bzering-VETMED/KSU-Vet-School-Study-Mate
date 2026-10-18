@@ -39,7 +39,7 @@ def build(fn, title, items, figs):
     tpl = ''.join(f'<template id="fig-{k}">{v}</template>' for k, v in figs.items())
     sub = f'{n} questions · ECG & electrophysiology · blood, marrow & hemostasis · defensive cells & lymphatics · Musch cardiovascular physiology'
     open(fn, 'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-                        f'<title>{E(title)}</title><style>{CSS}</style></head><body><div class="wrap"><a class="back" href="systems-lecture.html?v={V}">← Back to Lecture</a>'
+                        f'<title>{E(title)}</title><style>{CSS}</style></head><body><div class="wrap"><a class="back" href="systems-lec-exam2.html?v={V}">← Back to Exam 2</a>'
                         f'<div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="note">{NOTE}</div>'
                         f'<div class="bar"><button id="shuf">🎲 Shuffle</button><button id="miss">🔁 Misses only</button><button id="all">↺ Show all</button><span class="score" id="sc"></span></div>'
                         f'<div id="qs">{"".join(out)}</div>{tpl}</div><script>{JS}</script></body></html>')
