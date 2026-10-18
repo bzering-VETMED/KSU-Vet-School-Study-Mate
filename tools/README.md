@@ -15,3 +15,5 @@
 - `games/p3.py`: Practical 3 games (simulator auto-reads every Lab 16+ hub incl. 📖 diagrams; order + sort games; separate misses key). Re-run after adding new labs: `python3 tools/games/p3.py` from repo root.
 - `lab16me.py`: Lab 16 📷 my-photo cards from notebook pages (run after p3ppt.py + p3diagrams.py).
 - `p3simplify.py`: run LAST after any Practical 3 rebuild. Drops 'Orient first' and merges each card into ONE reveal (Bethany's preference).
+- `p3rad.py`: 🩻 Abdominal radiology hub (`gross-anatomy-rad-abd-images.html`) from Dr. McHaney's lecture PDF + the radiology-lab question PDF. Crops each slide to its radiographs, erases PDF text labels (arrows/circles/overlays kept). Lab PDF has no key → answers tagged ✅/⚠️/❓ confidence. `python3 tools/p3rad.py <lecture.pdf> <lab.pdf>`
+- `p3repro.py`: Lab 25 hub (male + female reproductive, Lectures 23/24). Drawn figures have labels baked in → OCR (tesseract) finds them, inpaint erases only letter strokes, pink numbered badges mark the spots. Adds a 📖 section to Lab 21 (male) + Lab 22 (female) hubs too. Run `p3check.py` after. `python3 tools/p3repro.py <male.pdf> <female.pdf>`
