@@ -3,7 +3,7 @@
   2 · GAPS = for bold terms UMN doesn't show: best of my photos (📷) > course-slide photos (📚); never drawings
   3 · 🧠 "Bold terms with no photo yet" = its OWN section (concepts, drawings-only terms, photo-coming placeholders)
 All other bold-term decks → 📚 More practice.
-Pipeline: p3labs → umn → lab16me → lab16draw → p3simplify → p3split → p3best → p3check
+Pipeline: p3labs → umn → lab16me → lab16draw → p3simplify → p3split → p3best → p3dedupe → p3check
   python3 tools/p3best.py 16 17 18 19 21 22 23 24"""
 import sys,os,re,time,html
 sys.path.insert(0,'tools')
