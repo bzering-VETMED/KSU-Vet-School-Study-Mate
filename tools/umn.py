@@ -189,12 +189,17 @@ for L in sorted(set(bylab)|set(findlab)):
     links=''
     for fn,n,i in write_pages(L,bylab.get(L,[]),'umn','🌐 UMN dissection photos','⭐ Bold terms'):
         links+=f'<a href="{fn}?v={V}">🌐 UMN dissection photos{" "+str(i) if len(bylab[L])>15 else ""}<span>{n} cards</span></a>'
+    flinks=''
     if findlab.get(L):
-        for fn,n,i in write_pages(L,findlab[L],'umnfind','🔍 UMN find-it (no labels)','⭐ Harder: unlabeled'):
-            links+=f'<a href="{fn}?v={V}">🔍 UMN find-it (no labels)<span>{n} cards</span></a>'
+        for fn,n,i in write_pages(L,findlab[L],'umnfind','🔍 UMN find-it (no labels)','📚 Supplemental: unlabeled'):
+            flinks+=f'<a href="{fn}?v={V}">🔍 UMN find-it (no labels)<span>{n} cards</span></a>'
     hub=f'gross-anatomy-lab{L}-images.html'; h=open(hub).read()
-    h=re.sub(r'<!--umn-->.*?<!--/umn-->','',h,flags=re.S)
+    h=re.sub(r'<!--umn-->.*?<!--/umn-->','',h,flags=re.S); h=re.sub(r'<!--umnfind-->.*?<!--/umnfind-->','',h,flags=re.S)
     h=h.replace('<p>Every bold term, in small blocks.</p>',f'<p>Every bold term, in small blocks.</p><!--umn-->{links}<!--/umn-->',1)
+    if flinks:   # find-it decks are extra study → 📚 Supplemental, never in ⭐
+        if '<div class="sec extra">' not in h:
+            h=h.replace('<div class="sec terms">','<div class="sec extra"><h2>📚 Supplemental · extra study</h2><p>No bold terms here. Optional extra views + other structures.</p></div><div class="sec terms">',1)
+        h=re.sub(r'(<div class="sec extra"><h2>[^<]*</h2><p>[^<]*</p>)',lambda m:m.group(1)+f'<!--umnfind-->{flinks}<!--/umnfind-->',h,count=1)
     open(hub,'w').write(h)
 p=open('gross-anatomy-practical3.html').read()
 for L in bylab: p=re.sub(rf'gross-anatomy-lab{L}-images\.html\?v=\d+',f'gross-anatomy-lab{L}-images.html?v={V}',p)

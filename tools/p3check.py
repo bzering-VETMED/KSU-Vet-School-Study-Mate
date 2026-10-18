@@ -13,11 +13,11 @@ def txt(f):
 for n in map(int,sys.argv[1:]):
     hub=f'gross-anatomy-lab{n}-images.html'; h=open(hub).read()
     links=[]
-    for sec in re.findall(r'<div class="sec (main|extra|terms)">(.*?)</div>',h,re.S):
+    for sec in re.findall(r'<div class="sec (main|more|extra|terms|diag)"[^>]*>(.*?)</div>',h,re.S):
         for href,name in re.findall(r'<a href="([^"?]+)[^"]*">([^<]*)<',sec[1]):
-            icon={'main':'⭐','extra':'📚','terms':'🧠'}[sec[0]]
+            icon={'main':'⭐','more':'🔁','extra':'📚','terms':'🧠','diag':'📖'}[sec[0]]
             links.append((icon,name.strip(),txt(href)))
-    links.sort(key=lambda x:'⭐📚🧠'.index(x[0]))
+    links.sort(key=lambda x:'⭐🔁📖📚🧠'.index(x[0]))
     rows=[];got=0
     for term,al,note in bold.BOLD[n]:
         w=next(((i,nm) for i,nm,t in links if any(a in t for a in al)),None)
@@ -25,7 +25,7 @@ for n in map(int,sys.argv[1:]):
         cell=f'{w[0]} {E(w[1])}' if w else '❗ no photo yet'
         if note: cell+=f' · {E(note)}'
         rows.append(f'<tr><td>{E(term)}</td><td>{cell}</td></tr>')
-    blk=f'<details class="sec chk"><summary>✅ Bold-term checklist · {got}/{len(bold.BOLD[n])} covered</summary><p>Same order as your bold-term list. ⭐ = bold-term block · 📚 = extra block · 🧠 = no-image terms deck. ❗ = waiting on a photo.</p><div class="tw"><table>{"".join(rows)}</table></div></details>'
+    blk=f'<details class="sec chk"><summary>✅ Bold-term checklist · {got}/{len(bold.BOLD[n])} covered</summary><p>Same order as your bold-term list. ⭐ = best pictures · 🔁 = more practice · 📖 = lab-guide diagram · 📚 = extra block · 🧠 = no-image terms deck. ❗ = waiting on a photo.</p><div class="tw"><table>{"".join(rows)}</table></div></details>'
     h=re.sub(r'<details class="sec chk">.*?</details>',blk,h,flags=re.S)
     open(hub,'w').write(h)
     print(n,f'{got}/{len(bold.BOLD[n])}','MISSING:',html.unescape('; '.join(t for t,a,_ in bold.BOLD[n] if not any(any(x in tt for x in a) for i,nm,tt in links))))

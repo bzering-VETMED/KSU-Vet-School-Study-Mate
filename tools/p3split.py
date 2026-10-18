@@ -60,7 +60,7 @@ def answer_text(card):
     return an[0].get_text(' ',strip=True) if an else card.get_text(' ',strip=True)
 for n in map(int,sys.argv[1:]):
     T=terms(n); hubf=f'gross-anatomy-lab{n}-images.html'; hub=open(hubf).read()
-    m=re.search(r'<div class="sec main">(.*?)</div>',hub,re.S)
+    m=re.search(r'<div class="sec more"[^>]*>(.*?)</div>',hub,re.S) or re.search(r'<div class="sec main">(.*?)</div>',hub,re.S)   # after p3best the decks live in 📚 More practice
     links=re.findall(r'<a href="([^"?]+)[^"]*">([^<]*)<span>[^<]*</span></a>',m.group(1))
     supp=[]; newmain=m.group(1); moved=kept=0
     for href,name in links:
