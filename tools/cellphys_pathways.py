@@ -8,7 +8,7 @@ K, U = True, False  # must-know / understanding-only
 
 # (title, cite, start, [(cue, step, must_know)])
 P = {
-1: ('Glucagon → glucose out of the liver', 'LC18 slides 12–15', 'Low blood sugar', [
+1: ('Glucagon → glucose out of the liver', 'LC18 slides 12–15', 'Low blood sugar (glucagon) or stress/exercise (epinephrine)', [
   ('What is released, and by whom?', 'Pancreas alpha cells release glucagon', K),
   ('Where does glucagon bind?', 'Its G-protein-coupled receptor on the liver cell (sits in the membrane)', U),
   ('What does the receptor switch on?', 'The Gs protein (relay inside the membrane)', K),
@@ -31,7 +31,7 @@ P = {
   ('How is glucose activated?', 'Glucose → glucose-6-phosphate → glucose-1-phosphate → UDP-glucose (activated glucose)', U),
   ('What adds it to the chain?', 'Glycogen synthase adds glucose → glycogen stored', K),
   ('What makes the branches?', 'Glycogen branching enzyme adds the branch points', K)]),
-3: ('Glucagon → gluconeogenesis switch', 'LC18 slides 25–26', 'Low blood sugar → glucagon released', [
+3: ('Glucagon → gluconeogenesis switch', 'LC18 slides 25–26', 'Low blood sugar → glucagon (or epinephrine) released', [
   ('Signal inside the liver cell?', 'Gs protein → cyclic AMP ↑ → protein kinase A ON (adds phosphates)', K),
   ('What does protein kinase A phosphorylate?', 'The two-job enzyme: phosphofructokinase-2 / fructose-2,6-bisphosphatase (one enzyme, two halves)', K),
   ('Which half turns off, which turns on?', 'Phosphofructokinase-2 half OFF (stops MAKING the signal) · fructose-2,6-bisphosphatase half ON (DESTROYS the signal)', K),
@@ -174,6 +174,9 @@ P = {
   ('Rule?', 'Weak acid ionized ABOVE pKa · weak base ionized BELOW pKa', K),
   ('Ratio (worked out)?', '10^(pH − pKa): stomach ≈ 0.03 · extracellular ≈ 3,160 (calculated, not on slide)', U)]),
 }
+# Final '🖼️ Show the slide' reveal (reuses the know-this slide assets)
+SLIDE = {i: ('assets/cellphys_lc23_regtable.jpg', 'LC23 "Important Regulatory Pathways for Metabolism"') for i in (1, 2, 3, 4, 5, 6)}
+
 DECKS = [('cellphys-path1.html', '🔀 Hormone switches', 'Glucagon vs insulin · glycogen · PFK-2 · fat · ketones', [1, 2, 3, 4, 5, 6, 7]),
          ('cellphys-path2.html', '⚡ Energy & oxygen', 'Lactate · ischemia/reperfusion · electron transport', [13, 8, 9]),
          ('cellphys-path3.html', '🧬 Nitrogen, signaling & pH', 'Urea · liver shunt · receptors · buffers · ion trapping', [10, 11, 12, 14, 15, 16, 17])]
@@ -186,6 +189,9 @@ def card(i):
     title, cite, start, steps = P[i]
     S = ''.join(deck.stg('⬇️ ' + E(cue), ('★ ' if mk else '💭 ') + E(step)) for cue, step, mk in steps)
     S += deck.stg('📖 Source', E(cite))
+    if i in SLIDE:
+        src, lab = SLIDE[i]
+        S += deck.stg('🖼️ Show the slide', f'<div class="clue">{E(lab)}</div><img src="{src}" loading="lazy" style="width:100%;border-radius:12px">')
     return (f'<section class="card"><div class="q textq">{E(title)}<span class="tagline">Start: {E(start)}</span></div>{S}'
             f'<div class="rev">💗 TAP TO REVEAL</div></section>')
 
