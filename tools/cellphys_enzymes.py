@@ -49,7 +49,7 @@ Z = {
   (U, 'Thiolase', 'beta-oxidation step 4; cuts off acetyl-CoA')]),
 6: ('Fat storage (lipogenesis)', 'LC20 slides 5–6, 11', [
   (K, 'Protein phosphatase (2A on slide 11)', 'turned on by insulin; dephosphorylates'),
-  (K, 'Acetyl-CoA carboxylase', 'acetyl-CoA → malonyl-CoA; committed, rate-limiting; citrate activates'),
+  (K, 'Acetyl-CoA carboxylase', 'adds a carbon (CO₂) to acetyl-CoA → malonyl-CoA; committed + rate-limiting; activated by dephosphorylation (insulin) and citrate (allosteric)'),
   (U, 'Glycerol-3-phosphate dehydrogenase', 'dihydroxyacetone phosphate → glycerol-3-phosphate (triglyceride backbone)')]),
 7: ('Ketogenesis', 'LC20 slides 15–16', [
   (U, 'Thiolase', 'joins 2 acetyl-CoA → acetoacetyl-CoA'),
