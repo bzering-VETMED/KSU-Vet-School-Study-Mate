@@ -93,7 +93,8 @@ print('exams', counts)
 VS = open('veterinary-systems.html').read()
 style = VS[VS.index('<style>'):VS.index('</style>') + 8]
 from cellphys_pathways import build_pathways
-tiles = build_pathways(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧠 Terms by lecture · tap to reveal</div>' + ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · {("★ "+str(s)) if s else "★ after transcript"} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
+from cellphys_enzymes import build_enzymes
+tiles = build_pathways(HUB, V) + build_enzymes(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧠 Terms by lecture · tap to reveal</div>' + ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · {("★ "+str(s)) if s else "★ after transcript"} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
 tiles += '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧪 Combined sheet + practice exams</div>'
 tiles += f'<a class="tile" href="cellphys-terms.html?v={V}"><div class="emoji">🧠</div><h2>All terms, one page</h2><p>{n} tap-to-reveal terms · all exam lectures + source flags</p></a>'
 for (fn, t, it), c in zip(EXAMS, counts):
