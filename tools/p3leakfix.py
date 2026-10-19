@@ -7,7 +7,8 @@ import sys,glob,re,os,json
 from multiprocessing import Pool
 import cv2,numpy as np,pytesseract
 from PIL import Image
-KEEP={'rostral','cranial','caudal','dorsal','ventral','medial','lateral','left','right','proximal','distal','crania','dorsa','nial','ventra','cranial','caud','lateral','medial','anterior','posterior'}
+KEEP={'ranial','entral','audal','orsal','ostral','rostral','cranial','caudal','dorsal','ventral','medial','lateral','left','right','proximal','distal','crania','dorsa','nial','ventra','cranial','caud','lateral','medial','anterior','posterior'}
+ONLY=next((a.split('=',1)[1].lower().split(',') for a in sys.argv if a.startswith('--only=')),None)   # e.g. --only=right : erase just these words (label boxes starting with Right/Left)
 def words(gray):
     H,W=gray.shape; out=[]
     for ang in (0,45,-45,60,-60,90):
@@ -18,7 +19,7 @@ def words(gray):
             d=pytesseract.image_to_data(img,config='--psm 11',output_type=pytesseract.Output.DICT)
             for i,t in enumerate(d['text']):
                 t=t.strip()
-                if not re.fullmatch(r'[A-Za-z]{4,}',t) or float(d['conf'][i])<80 or t.lower() in KEEP: continue
+                if not re.fullmatch(r'[A-Za-z]{4,}',t) or float(d['conf'][i])<80 or (ONLY is None and t.lower() in KEEP) or (ONLY is not None and t.lower() not in ONLY): continue
                 x,y,w,h=d['left'][i],d['top'][i],d['width'][i],d['height'][i]
                 pts=np.array([[x-4,y-4],[x+w+4,y-4],[x+w+4,y+h+4],[x-4,y+h+4]],float)
                 pts=(Mi[:,:2]@pts.T).T+Mi[:,2]
@@ -39,7 +40,8 @@ def fix(path,dry=False):
         vals=G[sel]; med=np.median(vals)
         # letters = the minority tone in the box (white text on tissue or dark text on light)
         lo,hi=np.percentile(vals,15),np.percentile(vals,85)
-        txt=(G>=hi-5) if (hi-med)>(med-lo) else (G<=lo+5)
+        if med>190: txt=G<med-25                                            # drawing: dark/grey letters on white
+        else: txt=(G>=hi-5) if (hi-med)>(med-lo) else (G<=lo+5)
         mask[sel&txt]=255
     mask=cv2.dilate(mask,np.ones((3,3),np.uint8),iterations=2)
     cv2.imwrite(path,cv2.inpaint(im,mask,5,cv2.INPAINT_TELEA),[cv2.IMWRITE_JPEG_QUALITY,90])
