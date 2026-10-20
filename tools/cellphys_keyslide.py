@@ -126,6 +126,59 @@ def build_table(HUB, V):
     print('keytable ok')
     return f'<a class="tile" href="{TAB_FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">📋</div><h2>Regulatory table · table view</h2><p>The slide as a table · tap any cell · reveal by column · original slides included</p></a>'
 
+MAPV_FN = 'cellphys-keymap-photo.html'
+W, H = 1600, 906
+# (label, cx, cy, w, h) in image pixels — boxes cover the printed labels
+LABELS = [
+ ('Proteins',205,142,95,30),('Urea',316,220,60,30),('Urea Cycle',497,252,110,70),('Ornithine',507,331,100,30),
+ ('NH₄⁺',452,409,60,32),('Proteins',94,471,95,30),('Amino Acids',345,473,85,60),('Translation',222,563,135,32),
+ ('RNA',227,658,60,30),('Transcription',130,758,155,32),('DNA',227,809,60,30),('Replication',300,880,135,32),
+ ('ATP',606,349,50,28),('Glucose',838,216,95,30),('Glycogen',1078,216,100,30),('Glycolysis',728,345,38,120),
+ ('Gluconeogenesis',935,345,36,200),('Pyruvate',838,471,100,30),('ATP',1060,368,50,28),('Glycerol',1212,268,90,30),
+ ('Triglycerides',1316,180,130,30),('Fatty Acids',1317,331,115,30),('β-oxidation',1190,455,40,135),
+ ('Lipid Synthesis',1432,455,40,175),('ATP',1556,456,50,28),('NADH / FADH₂',1063,514,70,55),('Acetyl CoA',837,587,115,30),
+ ('Acetyl CoA',1316,585,115,30),('Ketone Bodies',1409,689,140,30),('TCA Cycle',830,670,75,65),('CO₂',643,684,50,30),
+ ('NADH / FADH₂',1036,690,70,55),('O₂',1113,634,40,28),('ETS',1135,698,60,30),('ATP',1222,721,50,28),('H₂O',1150,768,50,28)]
+# (n, cx, cy, text) — numbered arrow hotspots: what regulates this arrow
+DOTS = [
+ (1,958,190,'Glucose ⇄ glycogen: glycogen synthase (ON dephosphorylated · insulin) ⇄ glycogen phosphorylase (ON phosphorylated · glucagon / epinephrine)'),
+ (2,688,420,'Glycolysis: phosphofructokinase-1 — activated by fructose-2,6-bisphosphate · insulin'),
+ (3,1000,430,'Gluconeogenesis: fructose-1,6-bisphosphatase — on when fructose-2,6-bisphosphate inhibition is released · glucagon / epinephrine'),
+ (4,1365,250,'Triglycerides → glycerol + fatty acids: hormone-sensitive lipase (ON phosphorylated · glucagon / epinephrine)'),
+ (5,1500,560,'Acetyl-CoA → fatty acids: acetyl-CoA carboxylase (ON dephosphorylated · insulin; citrate activates)'),
+ (6,560,430,'Ammonium → urea cycle: carbamoyl phosphate synthetase I — activated by N-acetylglutamate'),
+ (7,1340,640,'Acetyl-CoA → ketone bodies: when oxaloacetate is used up for gluconeogenesis (late fasting / starvation)'),
+ (8,700,620,'Amino acids → pyruvate / acetyl-CoA / TCA cycle: glucogenic vs ketogenic-only (leucine + lysine)'),
+]
+MCSS = TCSS + """.mapw{position:relative;width:100%;margin-top:6px}.mapw img{display:block;margin:0;width:100%}
+.m{position:absolute;transform:translate(-50%,-50%);background:#d9c8ee;border:1.5px solid #7b54b0;border-radius:6px;cursor:pointer}
+.m.on{background:transparent;border-color:rgba(217,79,127,.55)}
+.d{position:absolute;transform:translate(-50%,-50%);width:22px;height:22px;border-radius:50%;background:#d94f7f;color:#fff;font:800 12px/22px system-ui;text-align:center;cursor:pointer;box-shadow:0 0 0 3px #fff}
+.d.done{background:#4fbf95}#tip{min-height:58px;background:#fff;border:1px solid #c9b6e4;border-radius:14px;padding:10px 12px;margin:10px 0;font-weight:700}
+.zoom{overflow-x:auto}.zoom.big .mapw{width:200%}"""
+MJS = """document.querySelectorAll('.m').forEach(c=>c.onclick=()=>c.classList.toggle('on'));
+const all=(on)=>document.querySelectorAll('.m').forEach(c=>c.classList.toggle('on',on));
+document.getElementById('ra').onclick=()=>all(true);document.getElementById('ha').onclick=()=>{all(false);document.querySelectorAll('.d').forEach(d=>d.classList.remove('done'));tip.textContent='Tap a pink number to reveal what regulates that arrow.'};
+const tip=document.getElementById('tip');document.querySelectorAll('.d').forEach(d=>d.onclick=()=>{d.classList.add('done');tip.textContent=d.dataset.n+'. '+d.dataset.t});
+document.getElementById('zm').onclick=()=>document.querySelector('.zoom').classList.toggle('big');"""
+
+def build_map_photo(HUB, V):
+    pct = lambda x, t: f'{100*x/t:.2f}%'
+    ms = ''.join(f'<span class="m" title="tap" style="left:{pct(x,W)};top:{pct(y,H)};width:{pct(w,W)};height:{pct(h,H)}"></span>' for _, x, y, w, h in LABELS)
+    ds = ''.join(f'<span class="d" data-n="{n}" data-t="{E(t)}" style="left:{pct(x,W)};top:{pct(y,H)}">{n}</span>' for n, x, y, t in DOTS)
+    out = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
+           f'<title>Overview map · LC23</title><style>{MCSS}</style></head><body><div class="wrap">'
+           f'<a class="back" href="{HUB}?v={V}">← Back to Cell Physiology</a>'
+           '<div class="hero"><h1>🗺️ Overview map · photo view</h1><p>LC23 · his actual slide · say each label, then tap the purple box · pink numbers = what regulates that arrow</p></div>'
+           '<div class="bar"><button class="hot" id="ra">Reveal all labels</button><button id="ha">Hide all</button><button id="zm">🔍 Zoom</button></div>'
+           '<div id="tip">Tap a pink number to reveal what regulates that arrow.</div>'
+           f'<div class="zoom"><div class="mapw"><img src="{MAP_IMG}" alt="LC23 overview of metabolism">{ms}{ds}</div></div>'
+           '<div class="rule">Say all 8 numbered arrows: pathway → enzyme → on/off state → hormone.</div>'
+           f'</div><script>{MJS}</script></body></html>')
+    open(MAPV_FN, 'w').write(out)
+    print('keymap-photo ok', len(LABELS), 'labels', len(DOTS), 'arrows')
+    return f'<a class="tile" href="{MAPV_FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">🖼️</div><h2>Overview map · photo view</h2><p>His actual slide · tap to reveal {len(LABELS)} labels · {len(DOTS)} numbered arrows → enzyme + hormone</p></a>'
+
 def build_keyslide(HUB, V):
     cs = [plain_card('The big rule for the whole table', 'say it before you tap', [
             ('⬇️ Insulin turns on…?', '<b>Protein phosphatases</b> → DEphosphorylation → <b>storage</b> pathways ON'),
@@ -158,5 +211,5 @@ def build_keyslide(HUB, V):
     out = re.sub(r'← Back to [^<]+', '← Back to Cell Physiology', out, count=1).replace('</body>', _copyjs() + '</body>')
     open(FN, 'w').write(out)
     print('keyslide', len(cs), 'cards')
-    return ('<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">⭐ The 2 slides he said to know for Friday</div>' + build_table(HUB, V) + build_map(HUB, V) +
+    return ('<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">⭐ The 2 slides he said to know for Friday</div>' + build_table(HUB, V) + build_map_photo(HUB, V) + build_map(HUB, V) +
             f'<a class="tile" href="{FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">⭐</div><h2>Regulatory table · LC23</h2><p>6 processes × enzyme / activator / regulation / hormone · group drills · traps · {len(cs)} cards</p></a>')
