@@ -79,6 +79,53 @@ def build_map(HUB, V):
     print('keymap', len(cs), 'cards')
     return (f'<a class="tile" href="{MAP_FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">🗺️</div><h2>Overview map · LC23</h2><p>Every arrow → process + enzyme + hormone · {len(cs)} cards</p></a>')
 
+TAB_FN = 'cellphys-keytable.html'
+TCSS = """*{box-sizing:border-box}body{margin:0;background:#fdfbf8;color:#2e2438;font-family:system-ui,-apple-system,'Nunito',sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}a.back{display:inline-block;background:#ede4f7;color:#512888;font-weight:800;padding:8px 14px;border-radius:999px;text-decoration:none}
+.hero{background:linear-gradient(135deg,#3b1d66,#512888,#6b3aa0);color:#fff;border-radius:18px;padding:16px 18px;margin:12px 0;border-bottom:6px solid #d94f7f}
+.hero h1{margin:0 0 4px;font-size:1.35rem}.hero p{margin:0;opacity:.9;font-size:.9rem}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bar button{border:0;background:#ede4f7;color:#512888;font-weight:800;padding:9px 14px;border-radius:999px;font-size:.9rem}.bar button.hot{background:#d94f7f;color:#fff}
+.tw{overflow-x:auto;border-radius:14px;border:1px solid #c9b6e4}table{border-collapse:collapse;width:100%;min-width:760px;background:#fff}
+th{background:#512888;color:#fff;text-align:left;padding:10px;font-size:.9rem}td{padding:10px;border-top:1px solid #ede4f7;vertical-align:top;font-size:.92rem}
+tr.use td:first-child{border-left:5px solid #d94f7f}tr.store td:first-child{border-left:5px solid #4fbf95}td.p{font-weight:900}
+td.c{cursor:pointer}td.c .a{display:none}td.c .h{display:inline-block;background:#fbe7ef;color:#d94f7f;font-weight:800;border-radius:999px;padding:4px 10px;font-size:.8rem}
+td.c.on .a{display:inline}td.c.on .h{display:none}td.blank{color:#9a8fa6;font-style:italic}
+.key{font-size:.85rem;margin:10px 2px;color:#5c5068}.rule{background:#fbe7ef;border-radius:14px;padding:12px 14px;margin:12px 0;font-weight:700}
+img{width:100%;border-radius:14px;margin-top:8px;border:1px solid #c9b6e4}details{margin:14px 0}summary{font-weight:900;color:#512888;cursor:pointer}"""
+TJS = """document.querySelectorAll('td.c').forEach(c=>c.onclick=()=>c.classList.toggle('on'));
+const all=(on)=>document.querySelectorAll('td.c').forEach(c=>c.classList.toggle('on',on));
+document.getElementById('ra').onclick=()=>all(true);document.getElementById('ha').onclick=()=>all(false);
+document.querySelectorAll('[data-col]').forEach(b=>b.onclick=()=>document.querySelectorAll('td.c[data-k="'+b.dataset.col+'"]').forEach(c=>c.classList.add('on')));"""
+
+def build_table(HUB, V):
+    cols = [('enz','Main enzyme'),('act','Activated by'),('reg','Regulated by'),('hor','Hormone pathway')]
+    rows = ''
+    for p, enz, act, reg, hor, why in ROWS:
+        cls = 'store' if hor == INS else 'use'
+        cells = ''
+        for k, val in zip([c for c,_ in cols], [enz, act, reg, hor]):
+            if val == 'Blank on the slide':
+                cells += '<td class="blank">— blank on slide</td>'
+            else:
+                cells += f'<td class="c" data-k="{k}"><span class="h">tap</span><span class="a">{E(val)}</span></td>'
+        rows += f'<tr class="{cls}"><td class="p">{E(p)}</td>{cells}</tr>'
+    head = '<tr><th>Process</th>' + ''.join(f'<th>{E(n)}</th>' for _, n in cols) + '</tr>'
+    colbtn = ''.join(f'<button data-col="{k}">Show {E(n)}</button>' for k, n in cols)
+    out = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
+           f'<title>Regulatory table · LC23</title><style>{TCSS}</style></head><body><div class="wrap">'
+           f'<a class="back" href="{HUB}?v={V}">← Back to Cell Physiology</a>'
+           '<div class="hero"><h1>⭐ Regulatory table · table view</h1><p>LC23 · Dr. Basil\'s slide, same layout · say each cell out loud, then tap it</p></div>'
+           '<div class="bar"><button class="hot" id="ra">Reveal all</button><button id="ha">Hide all</button>' + colbtn + '</div>'
+           f'<div class="tw"><table>{head}{rows}</table></div>'
+           '<div class="key">🟢 green edge = insulin → protein phosphatases (store) · 🩷 pink edge = glucagon / epinephrine → protein kinase A (release)</div>'
+           '<div class="rule">Insulin stores (dephosphorylate). Glucagon releases (phosphorylate). Only glycolysis + gluconeogenesis have the "Activated by" middle step (fructose-2,6-bisphosphate).</div>'
+           f'<details><summary>🖼️ The original slide</summary><img src="{IMG}" alt="LC23 regulatory table slide"></details>'
+           f'<details><summary>🗺️ The overview map slide</summary><img src="{MAP_IMG}" alt="LC23 overview of metabolism slide"></details>'
+           f'</div><script>{TJS}</script></body></html>')
+    open(TAB_FN, 'w').write(out)
+    print('keytable ok')
+    return f'<a class="tile" href="{TAB_FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">📋</div><h2>Regulatory table · table view</h2><p>The slide as a table · tap any cell · reveal by column · original slides included</p></a>'
+
 def build_keyslide(HUB, V):
     cs = [plain_card('The big rule for the whole table', 'say it before you tap', [
             ('⬇️ Insulin turns on…?', '<b>Protein phosphatases</b> → DEphosphorylation → <b>storage</b> pathways ON'),
@@ -111,5 +158,5 @@ def build_keyslide(HUB, V):
     out = re.sub(r'← Back to [^<]+', '← Back to Cell Physiology', out, count=1).replace('</body>', _copyjs() + '</body>')
     open(FN, 'w').write(out)
     print('keyslide', len(cs), 'cards')
-    return ('<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">⭐ The 2 slides he said to know for Friday</div>' + build_map(HUB, V) +
+    return ('<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">⭐ The 2 slides he said to know for Friday</div>' + build_table(HUB, V) + build_map(HUB, V) +
             f'<a class="tile" href="{FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">⭐</div><h2>Regulatory table · LC23</h2><p>6 processes × enzyme / activator / regulation / hormone · group drills · traps · {len(cs)} cards</p></a>')
