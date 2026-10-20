@@ -7,7 +7,7 @@ t=open('systems-lp1-functions.html').read()
 head=t[:t.index('<body>')].replace('<title>🧠 Functions Review</title>','<title>Practical 3 Functions</title>')
 js=t[t.index('<script>'):]
 n=sum(len(r) for _,_,r in S)
-body=f'<body><div class="wrap"><a class="back" href="gross-anatomy-practical3.html?v={V}">← Back to Practical 3</a><div class="hero"><h1>🧠 Practical 3 · Functions</h1><p>Say the answer, then tap the pink box to check · {n} items · Labs 16–24 · from your slides + lab guide, plus standard anatomy</p></div><div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">'
+body=f'<body><div class="wrap"><a class="back" href="gross-anatomy-practical3.html?v={V}">← Back to Practical 3</a><div class="hero"><h1>🧠 Practical 3 · Functions</h1><p>Say the answer, then tap the pink box to check · {n} items · Labs 16–24 · from your slides + lab guide, plus standard anatomy</p></div><div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">'
 for title,pink,rows in S:
     body+=f'<div class="sec{" p" if pink else ""}"><h2>{E(title)}</h2><table>'+''.join(f'<tr><td>{E(q)}</td><td><span class="ans">{E(a)}</span></td></tr>' for q,a in rows)+'</table></div>'
 body+='</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div>'

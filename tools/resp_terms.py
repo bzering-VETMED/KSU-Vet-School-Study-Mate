@@ -201,7 +201,7 @@ links=''
 for slug,title,who,items in SECS:
     fn=f'systems-lec3-{slug}-terms.html'
     traps='<div class="sec trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(t)}</li>' for t in TRAPS[slug])+'</ul></div>'
-    body=(f'<div class="key">★ pink row = professor emphasized</div><div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
+    body=(f'<div class="key">★ pink row = professor emphasized</div><div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
           f'<div class="sec"><table>{rows(items)}</table></div>{traps}')
     pg(fn,'🫁 '+title,f'{E(who)} · {len(items)} terms · say it, then tap the pink box',body,E3,'Back to Exam 3')
     links+=f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🧠</div><h2>{E(title)}</h2><p>{E(who)} · {len(items)} terms · tap to reveal</p></a>'

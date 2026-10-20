@@ -26,7 +26,7 @@ flags = '<div class="flag"><h2>⚠️ Source flags (ask before trusting)</h2><ul
 open('cellphys-terms.html', 'w').write(
     f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🧠 Cell Phys Terms</title><style>{TCSS}</style></head><body><div class="wrap">'
     f'<a class="back" href="{HUB}?v={V}">← Back to Cell Physiology</a><div class="hero"><h1>🧠 Cell Physiology Exam 3 · Terms</h1><p>Say it, then tap the pink box to check · {n} terms · LC14–LC21, LC23, LC08 · from your slides + transcripts</p></div>'
-    f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">{"".join(body)}</div>{flags}<div class="foot">{FOOT}</div></div><script>{TJS}</script></body></html>')
+    f'<div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">{"".join(body)}</div>{flags}<div class="foot">{FOOT}</div></div><script>{TJS}</script></body></html>')
 print('terms', n)
 
 # ---------------------------------------------------------- 1b) ONE TERMS PAGE PER LECTURE (★ emphasized rows + ⚠️ traps)
@@ -45,7 +45,7 @@ for k, (name, items) in enumerate(TERMS):
     open(fn, 'w').write(
         f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🧠 {E(title)}</title><style>{LCSS}</style></head><body><div class="wrap">'
         f'<a class="back" href="{HUB}?v={V}">← Back to Cell Physiology</a><div class="hero"><h1>{E(name)}</h1><p>Say it, then tap the pink box to check · {len(allit)} terms · {("★ "+str(len(st))+" the professor stressed") if st else "★ rows added after the transcript"}</p></div>'
-        f'{trap}<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
+        f'{trap}<div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div>'
         f'<div class="legend">★ pink rows = emphasized in lecture or on Canvas quizzes</div><div class="cols"><div class="sec"><h2>{E(name)}</h2><table>{rows}</table></div></div>'
         f'<div class="foot">{FOOT}</div></div><script>{TJS}</script></body></html>')
     LEC.append((fn, name, len(allit), len(st)))

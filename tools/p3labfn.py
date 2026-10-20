@@ -22,7 +22,7 @@ for n,L in sorted(ALL.items()):
     rows=sum(len(r) for _,r in L['secs']); stars=sum(1 for _,r in L['secs'] for x in r if x[2])
     body=f'<body><div class="wrap"><a class="back" href="gross-anatomy-practical3.html?v={V}">← Back to Practical 3</a> <a class="back" href="gross-anatomy-lab{n}-images.html?v={V}">🖼️ Lab {n} hub</a>'
     body+=f'<div class="hero"><h1>🧠 {E(L["title"])} · Functions</h1><p>Say it, then tap the pink box · {rows} items · ★ {stars} professor-emphasized · {E(L["src"])}</p></div>'
-    body+='<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="star">★ Starred only</button><span class="n" id="n"></span></div>'
+    body+='<div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="star">★ Starred only</button><span class="n" id="n"></span></div>'
     body+='<p class="legend"><span>★ pink row</span> = he stressed it in the pre-lab video or lecture.</p>'
     if L['traps']: body+='<div class="trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(x)}</li>' for x in L['traps'])+'</ul></div>'
     for ft,fx in L['flags']: body+=f'<div class="flag"><b>{E(ft)}</b> · {E(fx)}</div>'
