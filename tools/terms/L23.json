@@ -1,0 +1,860 @@
+{
+ "sections": [
+  {
+   "title": "🔁 Carryover: round ligaments (end of Lecture 22)",
+   "items": [
+    {
+     "q": "Which bladder ligament contains the umbilical artery remnant?",
+     "a": "Lateral ligament of the bladder — not the median ligament",
+     "star": true,
+     "why": "Corrected the class aloud: lateral, not median"
+    },
+    {
+     "q": "Round ligament of the bladder is the remnant of?",
+     "a": "Umbilical arteries — thickened free edge of the lateral ligament",
+     "star": true,
+     "why": "'You have to remember' umbilical arteries vs veins"
+    },
+    {
+     "q": "Round ligament of the liver is the remnant of?",
+     "a": "Umbilical vein",
+     "star": true,
+     "why": "'You have to remember' paired with bladder round ligament"
+    },
+    {
+     "q": "Third round ligament in the body?",
+     "a": "Round ligament of the uterus — a different structure",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "⬇️ Testicular descent & cryptorchidism",
+   "items": [
+    {
+     "q": "Fetal location of the testes before descent?",
+     "a": "Intra-abdominal, caudal to the kidneys",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Main structure driving testicular descent?",
+     "a": "Gubernaculum (gubernaculum testis)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How does the gubernaculum pull the testis down?",
+     "a": "Gubernacular bulb in the scrotum shrinks, pulling the attached testis toward it",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Descent pathway from abdomen to scrotum?",
+     "a": "Abdominal cavity → deep inguinal ring → inguinal canal → superficial inguinal ring → scrotum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Inguinal canal: what is it?",
+     "a": "Flattened potential space between the deep and superficial inguinal rings",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cryptorchid: meaning of the word?",
+     "a": "Crypto = hidden; orchid = testis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prefix orchi- refers to?",
+     "a": "Testis (orchitis = inflammation of the testis)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most puppies have testes in the scrotum by?",
+     "a": "About 6 weeks of age",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Diagnose cryptorchidism if descent not complete by?",
+     "a": "7 months",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two locations a retained testis can be?",
+     "a": "Abdominal or inguinal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Testis exited the superficial inguinal ring but not in scrotum?",
+     "a": "Inguinal testicle (inguinal cryptorchid)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Unilateral vs bilateral cryptorchid?",
+     "a": "Unilateral = one testis retained; bilateral = both",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👝 Scrotum",
+   "items": [
+    {
+     "q": "Location of the dog scrotum?",
+     "a": "Inguinal region, between the thighs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What divides the scrotum into two compartments?",
+     "a": "Median septum (scrotal septum)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Contents of each scrotal compartment?",
+     "a": "One testis, its epididymis, distal part of the spermatic cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Scrotal raphe?",
+     "a": "External midline mark of the internal scrotal septum (like linea alba)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which testis is usually farther caudal?",
+     "a": "Left testis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two main scrotal layers?",
+     "a": "Scrotal skin and tunica dartos",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Scrotal skin features?",
+     "a": "Thin, pigmented, few hairs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tunica dartos: tissue type?",
+     "a": "Smooth muscle layer immediately deep to scrotal skin",
+     "star": true,
+     "why": "Told class to find it in lab; explained at length"
+    },
+    {
+     "q": "Why is tunica dartos whitish?",
+     "a": "Smooth muscle with little myoglobin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Function of tunica dartos contraction?",
+     "a": "Retracts scrotal skin, draws testes close to the body (e.g., cold)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Voluntary control of tunica dartos?",
+     "a": "No — smooth muscle, involuntary",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🐈 Cat vs dog",
+   "items": [
+    {
+     "q": "Cat scrotum location?",
+     "a": "Just ventral to the anus (dorsal to the penis)",
+     "star": true,
+     "why": "'Do you see that difference?' — repeated orientation contrast"
+    },
+    {
+     "q": "Dog scrotum vs penis orientation?",
+     "a": "Penis body ventral/cranial; scrotum caudal to it",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cat penis: direction?",
+     "a": "Short, caudally directed (dog: cranially directed)",
+     "star": true,
+     "why": "Repeated: opposite of the dog"
+    },
+    {
+     "q": "Cat glans surface feature?",
+     "a": "Pointy spines — make coitus painful in cats",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🥚 Testes & vaginal tunic",
+   "items": [
+    {
+     "q": "Testis shape and position in scrotum?",
+     "a": "Nearly spherical; oblique, long axis running dorsocaudally",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Coverings enclosing the testis?",
+     "a": "Vaginal tunic, spermatic and cremasteric fasciae, connected to tunica dartos",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other name for tunica vaginalis?",
+     "a": "Vaginal tunic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two layers of the vaginal tunic?",
+     "a": "Parietal layer and visceral layer",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vaginal tunic is derived from?",
+     "a": "Peritoneum (serous membrane) evaginated through the inguinal canal",
+     "star": true,
+     "why": "Quizzed the class aloud on it"
+    },
+    {
+     "q": "Female equivalent: blind peritoneal pouch called?",
+     "a": "Vaginal process",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the epididymis attach on the testis?",
+     "a": "Dorsolateral surface; head cranial, tail caudal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Epididymis visible from which view of the testis?",
+     "a": "Lateral view only",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How do you know a testis image is the medial view?",
+     "a": "You see the ductus deferens, not the epididymis",
+     "star": true,
+     "why": "Quizzed aloud: 'Why is this the medial view?'"
+    }
+   ]
+  },
+  {
+   "title": "🧅 Layers of the testis (outer → inner)",
+   "items": [
+    {
+     "q": "Layers of the testis, outer to inner?",
+     "a": "Scrotal skin, tunica dartos, scrotal septum, external spermatic fascia, parietal vaginal tunic, visceral vaginal tunic, tunica albuginea",
+     "star": true,
+     "why": "'Important ones' you identified in lab"
+    },
+    {
+     "q": "External spermatic fascia: tissue type?",
+     "a": "Connective tissue fascia, deep to dartos",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Layer deep to external spermatic fascia?",
+     "a": "Parietal layer of the vaginal tunic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Layer directly on the testis surface before albuginea?",
+     "a": "Visceral layer of the vaginal tunic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Innermost layer of the testis?",
+     "a": "Tunica albuginea",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tunica albuginea: tissue and meaning?",
+     "a": "White connective tissue capsule of testis proper (albus = white)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔗 Testis attachments",
+   "items": [
+    {
+     "q": "Proper ligament of the testis attaches?",
+     "a": "Testis to the tail of the epididymis",
+     "star": true,
+     "why": "'You need to have the entire full name on an exam'"
+    },
+    {
+     "q": "Ligament of the tail of the epididymis attaches?",
+     "a": "Tail of epididymis to the (parietal) vaginal tunic and spermatic fascia",
+     "star": true,
+     "why": "'You have to say that full name'"
+    },
+    {
+     "q": "Scrotal ligament attaches?",
+     "a": "Ligament of the tail of the epididymis to tunica dartos (scrotum)",
+     "star": true,
+     "why": "'You have to identify these' — attachments set"
+    },
+    {
+     "q": "These ligaments are remnants of?",
+     "a": "Embryonic gubernaculum testis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Same concept as pulmonary and falciform ligaments?",
+     "a": "Yes — serous membrane folds named by what they attach",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌀 Epididymis, mesorchium & sperm flow",
+   "items": [
+    {
+     "q": "Main function of the epididymis?",
+     "a": "Storage of spermatozoa before ejaculation",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three parts of the epididymis?",
+     "a": "Head (caput), body (corpus), tail (cauda)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Head of epididymis location?",
+     "a": "Cranial; begins craniomedially, twists toward lateral side",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Body of epididymis location?",
+     "a": "Dorsolateral surface of the testis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tail of epididymis attached by?",
+     "a": "Proper ligament of the testis, to caudal extremity of testis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tail of the epididymis continues as?",
+     "a": "Ductus deferens (craniodorsally)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesorchium?",
+     "a": "Visceral vaginal tunic suspending testis and testicular vessels and nerves",
+     "star": true,
+     "why": "Quizzed: 'What layer specifically? Visceral'"
+    },
+    {
+     "q": "Mesoductus deferens?",
+     "a": "Visceral vaginal tunic fold off the mesorchium, suspending ductus deferens",
+     "star": true,
+     "why": "'That would be the full name'"
+    },
+    {
+     "q": "Testicular bursa?",
+     "a": "Potential space between epididymis body and testis",
+     "star": true,
+     "why": "Told to identify it in lab"
+    },
+    {
+     "q": "Testicular bursa limits?",
+     "a": "Cranially epididymal head, caudally epididymal tail",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Testis is composed of?",
+     "a": "Seminiferous tubules",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spermatozoa path up to the ductus deferens?",
+     "a": "Seminiferous tubules → straight tubules → rete testis → efferent ductules → epididymis head → body → tail → ductus deferens",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🚰 Ductus deferens",
+   "items": [
+    {
+     "q": "Ductus deferens runs along which testis border?",
+     "a": "Dorsomedial border, passing cranially",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Initial shape of the ductus deferens?",
+     "a": "Coiled at first, then straightens",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the ductus deferens enter the abdominal cavity?",
+     "a": "Vaginal ring",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vaginal ring?",
+     "a": "Reflection of parietal peritoneum at deep inguinal ring into parietal vaginal tunic",
+     "star": true,
+     "why": "Student asked; re-explained with trash can analogy"
+    },
+    {
+     "q": "Course of ductus deferens after entering abdomen?",
+     "a": "To dorsal bladder, crosses over the ureters, joins the urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Serous fold the right and left ducts enter?",
+     "a": "Genital fold",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Female counterpart of the genital fold region?",
+     "a": "Mesometrium (uterine tubes and horns instead of ductus)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🪢 Spermatic cord & castration",
+   "items": [
+    {
+     "q": "Where does the spermatic cord begin?",
+     "a": "Vaginal ring (intra-abdominal)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spermatic cord course?",
+     "a": "Vaginal ring → inguinal canal → superficial inguinal ring → testis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial inguinal ring is?",
+     "a": "Slit in the aponeurosis of the external abdominal oblique",
+     "star": true,
+     "why": "Quizzed aloud on cadaver image"
+    },
+    {
+     "q": "Anatomical spermatic cord: 7 components?",
+     "a": "Ductus deferens and vessels, mesoductus deferens, testicular artery, testicular veins (pampiniform plexus), lymphatics, testicular nerve plexus, mesorchium",
+     "star": true,
+     "why": "Anatomical vs clinical difference 'is important'"
+    },
+    {
+     "q": "Clinical (surgical) cord adds which two?",
+     "a": "Cremaster muscle and parietal vaginal tunic",
+     "star": true,
+     "why": "Anatomical vs clinical difference 'is important'"
+    },
+    {
+     "q": "Which cord matters in castration?",
+     "a": "Clinical (surgical) spermatic cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cremaster muscle attaches to?",
+     "a": "Parietal vaginal tunic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Open castration incises which layer?",
+     "a": "Parietal vaginal tunic only",
+     "star": true,
+     "why": "Quizzed class on figure A vs B"
+    },
+    {
+     "q": "Closed castration?",
+     "a": "Parietal vaginal tunic left intact — nothing opened",
+     "star": true,
+     "why": "Quizzed class on figure A vs B"
+    },
+    {
+     "q": "Layer exposed (shiny) in open castration?",
+     "a": "Visceral vaginal tunic — never incised intentionally",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Space between parietal and visceral vaginal tunic?",
+     "a": "Vaginal cavity",
+     "star": true,
+     "why": "Quizzed aloud (compared to pleural cavity)"
+    },
+    {
+     "q": "Vaginal cavity is continuous with?",
+     "a": "Peritoneal cavity — open castration creates a conduit to it",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Trash can analogy: the can and the bag?",
+     "a": "Can = inguinal canal; bag lining = parietal peritoneum becoming parietal vaginal tunic",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🍆 Penis: divisions & erectile tissue (slides · lecture continues Wednesday)",
+   "items": [
+    {
+     "q": "Three divisions of the penis?",
+     "a": "Root, body, glans",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Parts of the root?",
+     "a": "Left and right crura, bulb of the penis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Crus of the penis?",
+     "a": "Proximal end of corpus cavernosum, from ischiatic tuberosity",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Muscle surrounding each crus?",
+     "a": "Ischiocavernosus muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bulb of the penis location and shape?",
+     "a": "Between the crura; partially bilobed",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bulb of the penis is continuous with?",
+     "a": "Corpus spongiosum around caudal urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Muscle covering the bulb?",
+     "a": "Bulbospongiosus muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the body of the penis begin?",
+     "a": "Where the two crura join, distal to the bulb",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Body contents?",
+     "a": "Two corpora cavernosa, corpus spongiosum, urethra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Capsule enveloping the body?",
+     "a": "Tunica albuginea",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two parts of the glans?",
+     "a": "Bulbus glandis and pars longa glandis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Glans in the non-erect state?",
+     "a": "Entirely withdrawn into the prepuce",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bulbus glandis?",
+     "a": "Barrel-shaped cavernous expansion of corpus spongiosum, around proximal third of os penis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Function of bulbus glandis?",
+     "a": "Provides the 'tie' or 'lock' during copulation",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bulbus glandis separated from pars longa glandis by?",
+     "a": "Connective tissue septum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pars longa glandis connection to corpus spongiosum?",
+     "a": "None",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pars longa glandis drainage?",
+     "a": "Short large vein each side into bulbus glandis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Os penis?",
+     "a": "Ossification of the corpora cavernosa, surrounded by glans",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧥 Prepuce & penis muscles (slides · lecture continues Wednesday)",
+   "items": [
+    {
+     "q": "Prepuce?",
+     "a": "Skin fold covering the glans in the retracted state",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "External lamina of prepuce?",
+     "a": "Haired outer skin, continuous with abdominal wall skin",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Internal lamina of prepuce?",
+     "a": "Contacts the penis; terminates at the fornix",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Preputial orifice?",
+     "a": "Where external and internal laminae meet",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Preputial fornix?",
+     "a": "Where internal lamina reflects onto the glans",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ischiocavernosus muscle?",
+     "a": "From ischiatic tuberosity; encloses the crura",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bulbospongiosus muscle?",
+     "a": "Surrounds bulb; arises from external anal sphincter",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Retractor penis muscle?",
+     "a": "Mainly smooth muscle; from first two caudal vertebrae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ischiourethralis muscle?",
+     "a": "From ischiatic tuberosity to fibrous ring around dorsal vein of penis",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌰 Accessory sex glands (slides · lecture continues Wednesday)",
+   "items": [
+    {
+     "q": "Accessory sex glands of the dog (slides)?",
+     "a": "Ampullary gland and prostate",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prostate location?",
+     "a": "Completely surrounds urethra at neck of bladder",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prostate peritoneal relations?",
+     "a": "Dorsal surface covered by peritoneum; ventral surface retroperitoneal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prostate dorsal and ventral boundaries?",
+     "a": "Dorsal: rectum; ventral: pubic symphysis and ventral abdominal wall",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What divides prostate into lobes?",
+     "a": "Median septum → right and left lobes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do ductus deferens enter the prostate?",
+     "a": "Craniodorsal surface",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ductus deferens opening into pelvic urethra?",
+     "a": "Two slits, one each side of colliculus seminalis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Colliculus seminalis?",
+     "a": "Hillock in the prostatic urethra",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩸 Blood supply & lymph (slides · lecture continues Wednesday)",
+   "items": [
+    {
+     "q": "Arteries to testis and epididymis?",
+     "a": "Testicular artery and artery of the ductus deferens",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Testicular vein forms?",
+     "a": "Pampiniform plexus — follows arterial pattern",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Function of pampiniform plexus?",
+     "a": "Thermoregulator (cools arterial blood to testis)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Scrotum drains to?",
+     "a": "Superficial inguinal lymph nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Testis and epididymis drain to?",
+     "a": "Medial iliac and lumbar aortic lymph nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prostate drains to?",
+     "a": "Medial iliac and internal iliac lymph nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prepuce and penis drain to?",
+     "a": "Superficial inguinal lymph nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Testis lymph vessels can be traced to?",
+     "a": "Renal capsule (figure caption)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Parietal vaginal tunic is in the CLINICAL cord only; visceral vaginal tunic (mesorchium, mesoductus deferens) is in the ANATOMICAL cord.",
+  "Clinical cord = anatomical 7 + cremaster muscle + parietal vaginal tunic (9 total).",
+  "Proper ligament of the testis = testis ↔ tail of epididymis; ligament of the tail of the epididymis = tail ↔ vaginal tunic; scrotal ligament = that ligament ↔ tunica dartos. Full names on the exam.",
+  "Open castration incises the PARIETAL vaginal tunic only (opens vaginal cavity → peritoneal cavity); closed opens nothing. Visceral layer is never cut on purpose.",
+  "Dog: scrotum between thighs, penis cranially directed. Cat: scrotum just ventral to anus (dorsal), penis short, ventral and caudally directed.",
+  "Epididymis is dorsoLATERAL (seen only in lateral view); ductus deferens is dorsoMEDIAL — seeing only the ductus = medial view.",
+  "Tunica dartos (smooth muscle, just under skin) vs tunica albuginea (connective tissue, innermost) — both whitish.",
+  "Vaginal ring (parietal peritoneum reflection, intra-abdominal) ≠ deep inguinal ring ≠ superficial inguinal ring (slit in external abdominal oblique aponeurosis).",
+  "Mesorchium (testis + testicular vessels) vs mesoductus deferens (ductus deferens) — both visceral vaginal tunic.",
+  "Round ligament of bladder = umbilical ARTERIES (in LATERAL ligament, not median); round ligament of liver = umbilical VEIN.",
+  "Testes in scrotum by 6 weeks; diagnose cryptorchid only after 7 months. Abdominal vs inguinal retained.",
+  "Bulb of the penis (root, between crura, bulbospongiosus) ≠ bulbus glandis (glans, corpus spongiosum expansion, the 'tie'). Crus ↔ ischiocavernosus."
+ ],
+ "flags": [
+  "Transcript sperm pathway garbles: 'semifires tribules' = seminiferous tubules; 'straight tribules' = straight tubules; 'pre-testees' = rete testis (outside-knowledge correction — confirm); 'efferent tubules' = efferent ductules. Slides don't list this pathway.",
+  "Gubernaculum remnants: slide says proper ligament of the testis + ligament of the tail of the epididymis are remnants of its two divisions. Transcript says 'those are your remnants... especially that's code element' — possibly 'scrotal ligament'. Use the slide; confirm whether scrotal ligament counts.",
+  "Ligament of the tail of the epididymis: transcript says it attaches to the PARIETAL vaginal tunic; slide says 'vaginal tunic and spermatic fascia'. Compatible, but confirm the expected wording.",
+  "Testicular bursa: slide says the mesorchium extends over the epididymis to form it; transcript ties it to the mesoductus deferens fold. Use the slide wording.",
+  "Testis position: slide says long axis runs dorsocaudally; transcript says 'located ventrally here... oblique'. Use slide.",
+  "Epididymal head: slide says it begins on the craniomedial surface, then twists laterally; transcript just says 'cranial aspect'.",
+  "Trash can analogy garbled: he called both the mouth and the bottom the 'superficial inguinal ring'. Logically the mouth (abdominal side) should be the deep inguinal ring/vaginal ring — confirm.",
+  "Ductus deferens direction: transcript says it 'enters the superficial ring... exits the deep ring' toward the abdomen; slide just says enters abdominal cavity at vaginal ring. Consistent; noted for wording.",
+  "Cat penile 'burps' = penile spines (outside knowledge for the term); 'directed chorally' = caudally (matches slide).",
+  "Female comparison garble: 'spelling boots connected to... neutron... horn' = uterine (fallopian) tubes connected to the uterine horn; mesometrium in place of genital fold.",
+  "Other garbles: 'orca' = orchi-; 'orchitis is information' = inflammation; 'target' = cryptorchid; 'pre-master patterns' = cremaster; 'four neurosis/gonulosis' = aponeurosis; 'ladder' = bladder; 'bilateral is low' unclear.",
+  "Blueprint asks for 3 main blood sources to male genitalia, but slide text names only testicular artery and artery of the ductus deferens (rest is in figures). Find the third (likely internal pudendal — outside knowledge) after Wednesday.",
+  "Blueprint asks for openings of sex glands into the pelvic urethra; slide text covers only ductus deferens slits at the colliculus seminalis — prostatic duct openings not in text. Wait for Wednesday.",
+  "Prostate lymph: slide says 'medial and internal iliac'; figure labels 'hypogastric lymph node'. Hypogastric = internal iliac (outside knowledge)."
+ ]
+}
