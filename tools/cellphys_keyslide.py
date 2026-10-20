@@ -83,7 +83,7 @@ def build_keyslide(HUB, V):
     cs = [plain_card('The big rule for the whole table', 'say it before you tap', [
             ('⬇️ Insulin turns on…?', '<b>Protein phosphatases</b> → DEphosphorylation → <b>storage</b> pathways ON'),
             ('⬇️ Glucagon / epinephrine turn on…?', '<b>Protein kinase A</b> → PHOSPHORYLATION → <b>use / release</b> pathways ON'),
-            ('⬇️ Which column is filled only for the 2 glucose rows?', '<b>Activated by</b> — fructose-2,6-bisphosphate (the 4 glycogen + fat rows are blank)')])]
+            ('⬇️ On the slide, the "Activated by" column is blank for 4 rows. Which 2 rows have it filled in, and with what?', '<b>Glycolysis + gluconeogenesis</b> — fructose-2,6-bisphosphate (the "weird middle step"). The 4 glycogen + fat enzymes are switched directly by phosphorylation, so their cells are blank.')])]
     cs += [row_card(*r) for r in ROWS]
     cs += [plain_card('Group drill: name ALL members at once', 'name the whole group, then tap', [
             ('⬇️ The 3 insulin → protein phosphatase processes + enzymes?', '<b>Glycolysis</b> (phosphofructokinase-1) · <b>Glycogenesis</b> (glycogen synthase) · <b>Lipogenesis</b> (acetyl-CoA carboxylase)'),
