@@ -12,7 +12,7 @@ FUNCS2=[
 ("Cartilage (trachea: C-rings · bronchi: plates)","Rigidity · keeps the airway open against negative pressure on inhalation",H),
 ("Trachealis muscle","Smooth muscle closing the open ends of the C-rings · lets the esophagus expand with a bolus",False),
 ("Smooth muscle (bronchi → bronchioles)","Controls airway diameter · RELATIVE amount increases as airways get smaller",False),
-("Adventitia","Outer connective tissue that blends into surrounding tissue · lecture: holds the cartilage rings/plates · serosa if covered by a serous membrane",False),
+("Adventitia","LAB: outermost loose connective tissue only (cartilage + smooth muscle get their own labels) · blends into surrounding tissue",H),
 ("Respiratory epithelium","Pseudostratified ciliated columnar epithelium with goblet cells · mucociliary clearance",H),
 ("Cilia","Sweep mucus and trapped debris up and out of the airway",False),
 ("Goblet cell","Secretes mucus that traps debris · pale wine-glass-shaped cell",False),
@@ -216,7 +216,7 @@ TRAPS=[
 ]
 DISAGREE=[
 "Tracheal glands: lecture (LC38 slide 18) = submucosa · atlas p.99 = \"lamina propria-submucosa\" · use SUBMUCOSA unless the question says otherwise",
-"Cartilage: lecture (LC38 slide 18, LC39 slide 6) puts rings/plates IN the adventitia · atlas p.100 labels cartilage and adventitia separately · name the one the arrow points to",
+"Adventitia: lecture (LC38 slide 18, LC39 slide 6) puts cartilage rings/plates + trachealis IN the adventitia · lab (Active Learning slide 7, atlas p.100, objectives) = cartilage + smooth muscle are their own layer (like tunica muscularis) · PRACTICAL: label cartilage / smooth muscle / adventitia separately",
 "Anterior pituitary: atlas p.113 = pars distalis · objectives = adenohypophysis (all 3 partes) · both names fit an arrow on pars distalis",
 "Ventral median fissure (atlas p.107) vs ventral median sulcus (objectives)",
 "Dentate gyrus cell layer: atlas p.110 = \"pyramidal layer\" · textbooks = granule cell layer",
