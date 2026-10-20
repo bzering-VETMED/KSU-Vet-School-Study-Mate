@@ -162,8 +162,6 @@ SECS=[
  ('Racehorse during a run','Cardiac output ↑ ~10× → transit too fast → hypoxemic + slightly hypercapnic (blue-black arterial blood)'),
  ('Horse spleen','~14 kg, contracts in exercise → "turbocharger" ↑ O₂ content'),
  ('★ At altitude, O₂ becomes…','Diffusion-limited → arterial saturation falls as exercise ↑ cardiac output'),
- ('Nitrous oxide (not on exam)','Perfusion-limited → measures pulmonary blood flow'),
- ('Carbon monoxide (not on exam)','Diffusion-limited → measures lung diffusing capacity'),
 ]),
 ]
 TRAPS={
