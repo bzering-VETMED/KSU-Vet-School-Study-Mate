@@ -50,6 +50,16 @@ Q = [
   'Slide: HSO₄⁻ is a weak acid, Ka = 12.6 mM, pKa = 1.9. Trap C reuses the 12.6 number.', 'LC08 slide "pH" (note)', False, ''),
  ('A weak base drug (pKa 9.8) is in a patient whose urine is acidified (pH ≈ 5.8). What happens to the drug in the urine? (select ALL that are correct)', ['It is mostly protonated', 'It is mostly charged', 'It is trapped in the urine, increasing excretion', 'It is reabsorbed more readily across the tubule', 'It is mostly uncharged because the urine is acidic'], 'abc',
   'pH << pKa → protonated; for a base, protonated = charged → can\'t cross back → trapped and excreted. Outside the slides: this is why urine pH is manipulated in some toxicities.', 'LC08 slides "Ion Trapping" + "Body Compartments & Drugs"', True, ''),
+ ('What is the pH of a 10 nM solution of HCl (a strong acid) in pure water? (select one)', ['8.0', '7.0 exactly', 'Slightly below 7', '10.0', '6.0'], 'c',
+  'Spoken trap: 10 nM = 10⁻⁸ M, but water already has 10⁻⁷ M H⁺, so the added acid barely lowers it — just under 7. "Don\'t be misled by very low concentrations."', 'LC08 lecture 10/21 (spoken)', False, ''),
+ ('Which statements about protonation and charge are correct? (select ALL that are correct)', ['A protonated weak acid is neutral', 'A protonated weak base is charged', 'The acid form of a pair is always the protonated form', 'The protonated form always crosses membranes', 'A deprotonated weak base is neutral'], 'abce',
+  '"The acid form is always protonated, but that doesn\'t mean it\'s always charged." Weak acid: HA neutral. Weak base: BH⁺ charged, B neutral. Only the UNCHARGED form crosses.', 'LC08 lecture 10/21 + slide "Acids and Bases"', True, ''),
+ ('A weak acid drug is placed on both sides of a lipid membrane, and both sides are at the same pH. At equilibrium: (select one)', ['The drug accumulates on the side with more water', 'Total drug concentration is equal on both sides', 'All of the drug becomes uncharged', 'The drug is trapped on the side it was added to', 'Only the charged form is equal on both sides'], 'b',
+  'Same pH → same charged:uncharged split on both sides → equal totals. Trapping needs a pH DIFFERENCE.', 'LC08 slide "pH & Permeability" + lecture', False, ''),
+ ('Acetazolamide blocks carbonic anhydrase. What happens to urine pH? (select one)', ['Decreases', 'Increases', 'No change', 'Falls to the pKa of bicarbonate', 'Becomes equal to plasma pH'], 'b',
+  'Spoken: blocking carbonic anhydrase raises urine pH — and urine pH can be manipulated to trap a drug in the urine.', 'LC08 lecture 10/21 (spoken)', False, ''),
+ ('Why is histidine a particularly good physiological buffer residue? (select one)', ['It is the most abundant amino acid in plasma', 'Its side-chain pKa (~6–6.5) is close to physiological pH', 'It is always positively charged', 'It is a strong base', 'It binds bicarbonate directly'], 'b',
+  'Good buffers have a pKa near the target pH. Deoxyhemoglobin has ~38 exposed histidines → big buffering capacity.', 'LC08 lecture 10/21 + slide "Physiological Buffers"', False, ''),
 ]
 
 FL23 = 'Body fluids and pH: Plasma 7.4 · Bile 6.5 · Pancreatic secretions 7.8 · Milk 6.6 · Stomach 1.5 · Cytosolic fluid 7.2 · Urine 4.5 · Semen 7.9 · Small intestine 7.0'
@@ -88,12 +98,12 @@ REAL = [
  ('Schultz 2025 Exam 2', 15, 'Aspirin (3.5) and pentobarbital (8.1) are weak acids with pKa\'s of 3.5 and 8.1, respectively. Amiodarone (6.6) and atropine (9.7) are weak bases with pKa\'s of 6.6 and 9.7, respectively. Which response correctly indicates the compounds that will be more than 50% ionized in typical plasma? (select one correct response)', ['Amiodarone and aspirin, but not atropine or pentobarbital', 'Amiodarone and atropine, but not aspirin or pentobarbital', 'Amiodarone, atropine and pentobarbital, but not aspirin', 'Aspirin and atropine, but not amiodarone or pentobarbital', 'Aspirin, but not amiodarone, atropine or pentobarbital'], 'd',
   'Plasma 7.4. Acids ionized if pKa < 7.4 → aspirin yes, pentobarbital (8.1) no. Bases ionized if pKa > 7.4 → atropine (9.7) yes, amiodarone (6.6) no.', False, '', []),
 ]
-FLAGS = {('Schultz 2025 Exam 2', 5): 'The exam stem does not state the lower chamber pH; 7.2 is the only second answer that is not the pH = pKa trap. Confirm with Dr. Schultz.'}
+FLAGS = {('Schultz 2025 Exam 2', 5): 'Lecture 10/21 confirms the logic: same pH on both sides → same concentration at equilibrium. The stem still never states the lower chamber pH (7.2 assumed).'}
 
 def build_lc08exam(HUB, V):
     qs = []
     for sec, n, stem, opts, ans, why, multi, ctx, img in REAL:
-        a = {'ans': list(ans), 'why': why, 'cite': 'LC08 slides "Ion Trapping", "pH & Permeability", "Body Compartments & Drugs"', 'conf': 'likely' if (sec, n) in FLAGS else 'sure', 'scope': 'in'}
+        a = {'ans': list(ans), 'why': why, 'cite': 'LC08 slides "Ion Trapping", "pH & Permeability", "Body Compartments & Drugs"', 'conf': 'sure', 'scope': 'in'}
         if (sec, n) in FLAGS: a['flag'] = FLAGS[(sec, n)]
         qs.append({'sec': sec + ' (real exam)', 'n': n, 'stem': stem, 'opts': [[l, t] for l, t in zip('abcde', opts)], 'multi': multi, 'ctx': ctx, 'img': img, 'a': a})
     for i, (stem, opts, ans, why, cite, multi, ctx) in enumerate(Q, 1):
