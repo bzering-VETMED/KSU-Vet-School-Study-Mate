@@ -32,10 +32,78 @@ key='<div class="key">★ pink row = high yield · 📘 = standard histology, no
 open(FS,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🧠 Functions Review · Practical 2</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{PRAC}?v={V}">← Back to Lab Practical 2</a><div class="hero"><h1>🧠 Functions Review · Practical 2</h1><p>Say the answer, then tap the pink box · {n} items · Labs 9, 11, 12, 14 + review</p></div>{key}<div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><span class="n" id="n"></span></div><div class="cols">{secs}</div><div class="div">🔁 Review labs 1, 2, 3, 4 & 7 (also on this exam)</div><div class="cols">{rev}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{js}</script></body></html>')
 
 # exam hub
+import deck
+from micro2_lab9 import MAIN as L9MAIN,PHOTOS as L9PH,ATLAS as L9AT,EXAM as L9EX,OBJ as L9OBJ
+SRC=os.environ.get('MIC2_SRC','/tmp/mic2')
+def asset(key,w=1300):
+    dst=f'assets/mic2_{key.replace("/","_")}.jpg'
+    if not os.path.exists(dst):
+        src=next(x for x in (f'{SRC}/{key}.jpg',f'{SRC}/{key}.png') if os.path.exists(x))
+        deck.save_img(src,dst,w)
+    return dst
+def card(img,q,a,tell,fn,src,ver):
+    facts=[]
+    if tell: facts.append(('🔎 How do you know?',tell))
+    if fn: facts.append(('💡 Function / remember',fn))
+    if src: facts.append(('📄 Source',src))
+    return deck.img_card_facts(q,asset(img),a,'⚠️ verify in lab' if ver else '',None,facts)
+def chunk(xs,n=15):
+    k=max(1,-(-len(xs)//n)); s_=-(-len(xs)//k); return [xs[i:i+s_] for i in range(0,len(xs),s_)]
+def deckpage(fn,title,sub,cards,back,backlbl):
+    cards=list(cards); cards[0]=cards[0].replace('class="card"','class="card on"',1)
+    h=deck.page(title,sub,''.join(cards),back=back)
+    h=re.sub(r'← Back to [^<]+</a>',f'← Back to {backlbl}</a>',h,count=1)
+    open(fn,'w').write(h)
+def termcards(secs):
+    out=[]
+    for sec,src,ok,items in secs:
+        for t,a,hy in items:
+            ans=E(a)+f'<div class="clue">📄 {E(src)}</div>'
+            out.append(f'<section class="card"><div class="q textq">{"★ " if hy else ""}{E(t)}: function / how do you recognize it?</div>{deck.stg("❓ Your answer?",ans,True)}<div class="rev">💗 TAP TO REVEAL</div></section>')
+    return out
+LABS=[('lab9','🫁','Lab 9 · Respiratory System',L9MAIN,L9PH,L9AT,L9OBJ,[x for x in FUNCS2 if x[0].startswith('🫁')])]
+labtiles=[]
+for slug,fav,T,MAIN,PH,AT,OBJ,TS in LABS:
+    hubfn=f'systems-lp2-{slug}-images.html'; links=[];alltext=[]
+    for i,blk in enumerate(chunk(MAIN),1):
+        fn=f'systems-lp2-{slug}-main{i}.html'; cs=[card(*c) for c in blk]; alltext+=cs
+        deckpage(fn,f'{T.split(" · ")[0]} · Block {i}',f'⭐ Instructor images (Active Learning + lecture) · {len(cs)} cards',cs,hubfn,f'{T.split(" · ")[0]} hub')
+        links.append(f'<a href="{fn}?v={V}">⭐ Block {i}<span>{len(cs)} cards</span></a>')
+    if PH:
+        fn=f'systems-lp2-{slug}-photos.html'; cs=[card(*c) for c in PH]; alltext+=cs
+        deckpage(fn,f'{T.split(" · ")[0]} · Your photos',f'📸 Your lab photos · only labels confirmed by the transcript · {len(cs)} cards',cs,hubfn,f'{T.split(" · ")[0]} hub')
+        links.append(f'<a href="{fn}?v={V}">📸 Your photos<span>{len(cs)} cards</span></a>')
+    alinks=[]
+    for i,blk in enumerate(chunk(AT),1):
+        fn=f'systems-lp2-{slug}-atlas{i}.html'; cs=[card(*c) for c in blk]; alltext+=cs
+        deckpage(fn,f'{T.split(" · ")[0]} · Atlas {i}',f'📗 Slide Atlas · letters/numbers stay on, word labels replaced with pink numbers · {len(cs)} cards',cs,hubfn,f'{T.split(" · ")[0]} hub')
+        alinks.append(f'<a href="{fn}?v={V}">📗 Atlas {i}<span>{len(cs)} cards</span></a>')
+    tc=termcards(TS); fn=f'systems-lp2-{slug}-terms.html'
+    deckpage(fn,f'{T.split(" · ")[0]} · Terms',f'🧠 Say the function + one ID clue · {len(tc)} cards',tc,hubfn,f'{T.split(" · ")[0]} hub')
+    tlink=f'<a href="{fn}?v={V}">🧠 Terms deck<span>{len(tc)} cards</span></a>'
+    blob=html.unescape(re.sub(r'<[^>]+>',' ',' '.join(alltext))).lower(); rows=[];got=0
+    for t in OBJ:
+        ok=t in blob; got+=ok; rows.append(f'<tr><td>{E(t)}</td><td>{"✅" if ok else "❗ missing"}</td></tr>')
+    chk=f'<details class="sec chk"><summary>✅ Objective-term checklist · {got}/{len(OBJ)} covered</summary><p>Terms from the Microanatomy Exam 2 objectives list.</p><div class="tw"><table>{"".join(rows)}</table></div></details>'
+    hub=f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{E(T)}</title><style>{deck.HUBCSS}</style></head><body><div class="wrap"><a class="back" href="{PRAC}?v={V}">← Back to Lab Practical 2</a><div class="hero"><h1>{fav} {E(T)}</h1><p>Small decks. Do one, take a breath, do the next. 🐾</p></div>{chk}<div class="sec main"><h2>⭐ Start here</h2><p>Active Learning + lecture images: the ones your practical is built from. Say it before you tap.</p>{"".join(links)}</div><div class="sec extra"><h2>📚 Extra · 📗 Slide Atlas</h2><p>Dr. Klimek’s atlas figures for more examples.</p>{"".join(alinks)}</div><div class="sec terms"><h2>🧠 No-image terms</h2><p>Function + one ID clue for every term.</p>{tlink}</div></div></body></html>'
+    open(hubfn,'w').write(hub)
+    labtiles.append(f'<div class="tile"><h2>{fav} {E(T)}</h2><a href="{hubfn}?v={V}">🖼️ Image decks · terms · checklist</a></div>')
+    print(slug,'main',len(MAIN),'photos',len(PH),'atlas',len(AT),'terms',len(tc),'obj',f'{got}/{len(OBJ)}',[t for t in OBJ if t not in blob])
+# 📝 practice exam: Lab 9 Active Learning
+ec=[]
+for num,q,a,tell,fn_,ans in L9EX:
+    facts=[]
+    if tell: facts.append(('🔎 How do you know?',tell))
+    if fn_: facts.append(('💡 Remember',fn_))
+    facts.append(('📄 Source',f'Week 9 Active Learning slide {num} · confirmed in transcript'))
+    ec.append(deck.img_card_facts(f'Slide {num} · {q}',asset(f'c9/ex/q{num:02d}'),a,'',asset(ans[0]) if ans else None,facts))
+EXF='systems-lp2-exam-al9.html'
+deckpage(EXF,'📝 Lab 9 Active Learning Quiz',f'{len(ec)} questions · ✅ answers confirmed with the transcript · free response: say it first',ec,PRAC,'Lab Practical 2')
 tiles=[f'<div class="tile"><h2>🧠 Functions review</h2><a href="{FS}?v={V}">One page · tap to reveal · {n} items</a></div>',
-'<div class="tile"><h2>🔁 Review labs 1, 2, 3, 4 & 7</h2><a href="systems-lab-practical1.html?v='+V+'">Practical 1 image cards + layers</a></div>',
-'<div class="tile"><h2>🖼️ Lab image cards</h2><p class="soon">Lab 9 Respiratory · Lab 11 Central nervous system · Lab 12 Urinary · Lab 14 Endocrine · coming next</p></div>']
-prac=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🔬 Systems I · Lab Practical 2</title><style>body{{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}}.wrap{{max-width:1000px;margin:auto;padding:18px}}.hero{{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:24px;border-radius:24px}}.hero h1{{margin:0}}.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}}.tile{{background:#fff;border:1px solid #eadff2;border-radius:18px;padding:18px}}.tile h2{{color:#70428f;margin:0 0 10px;font-size:20px}}.tile a{{display:block;text-decoration:none;margin:7px 0;padding:10px;border-radius:12px;background:#f7eefb;color:#70428f;font-weight:800}}.soon{{margin:0;color:#786c7c;font-size:15px}}.note{{margin-top:14px;background:#fff;border:1px dashed #eadff2;border-radius:16px;padding:12px 14px;font-size:15px}}@media(max-width:700px){{.grid{{grid-template-columns:1fr}}}}</style></head><body><div class="wrap"><a href="systems-lab.html?v={V}" style="display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none">← Back to Systems Lab</a><div class="hero"><h1>🔬 Veterinary Systems I · Lab Practical 2</h1><p>Microanatomy Exam 2 · Labs 9, 11, 12 & 14 + review of 1, 2, 3, 4 & 7 · 50 images, fill-in-the-blank</p></div><div class="note">Spell it exactly; there's no word bank. Lab 13 (Urinalysis) is NOT on this exam.</div><div class="grid">{"".join(tiles)}</div></div></body></html>'''
+f'<div class="tile"><h2>📝 Practice exams</h2><a href="{EXF}?v={V}">Lab 9 Active Learning · {len(ec)} Q ✅</a></div>']+labtiles+[
+'<div class="tile"><h2>🔁 Review labs 1, 2, 3, 4 & 7 (~10 Q)</h2><a href="systems-lab-practical1.html?v='+V+'">Practical 1 image cards + layers</a></div>',
+'<div class="tile"><h2>⏳ Coming next</h2><p class="soon">Lab 11 Central nervous system · Lab 12 Urinary · Lab 14 Endocrine (built when their Active Learning + transcripts arrive)</p></div>']
+prac=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🔬 Systems I · Lab Practical 2</title><style>body{{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}}.wrap{{max-width:1000px;margin:auto;padding:18px}}.hero{{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:24px;border-radius:24px}}.hero h1{{margin:0}}.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}}.tile{{background:#fff;border:1px solid #eadff2;border-radius:18px;padding:18px}}.tile h2{{color:#70428f;margin:0 0 10px;font-size:20px}}.tile a{{display:block;text-decoration:none;margin:7px 0;padding:10px;border-radius:12px;background:#f7eefb;color:#70428f;font-weight:800}}.soon{{margin:0;color:#786c7c;font-size:15px}}.note{{margin-top:14px;background:#fff;border:1px dashed #eadff2;border-radius:16px;padding:12px 14px;font-size:15px}}@media(max-width:700px){{.grid{{grid-template-columns:1fr}}}}</style></head><body><div class="wrap"><a href="systems-lab.html?v={V}" style="display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none">← Back to Systems Lab</a><div class="hero"><h1>🔬 Veterinary Systems I · Lab Practical 2</h1><p>Microanatomy Exam 2 · Labs 9, 11, 12 & 14 + review of 1, 2, 3, 4 & 7 · 50 images, fill-in-the-blank</p></div><div class="note">~40 questions from Labs 9, 11, 12, 14 · ~10 cumulative review (Dr. Basel, Lab 9). Spell it exactly; there's no word bank. Lab 13 (Urinalysis) is NOT on this exam.</div><div class="grid">{"".join(tiles)}</div></div></body></html>'''
 open(PRAC,'w').write(prac)
 
 s=open('systems-lab.html').read()

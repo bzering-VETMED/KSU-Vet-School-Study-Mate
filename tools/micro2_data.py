@@ -220,6 +220,7 @@ TRAPS=[
 "Lymph vessel = thin endothelium + pale lymph, no red blood cells · vein next to it has red blood cells",
 "Epiglottis = ELASTIC cartilage · trachea + bronchi = HYALINE",
 "Read the question: slide 21 asked what's INSIDE cilia (microtubules), not what they are",
+"Your slides say \"muscularis mucosa\"; textbooks say \"muscularis mucosae\" · same layer · write the slide spelling",
 ]
 DISAGREE=[
 "Tracheal glands: Klimek + LC38 = SUBMUCOSA (Klimek: \"better to call it submucosa\"; no muscularis mucosa in trachea) · atlas p.99 lumps \"lamina propria-submucosa\" · use SUBMUCOSA",
