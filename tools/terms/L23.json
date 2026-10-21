@@ -549,280 +549,316 @@
    ]
   },
   {
-   "title": "🍆 Penis: divisions & erectile tissue (slides · lecture continues Wednesday)",
+   "title": "🍆 Penis: divisions & erectile tissue",
    "items": [
     {
      "q": "Three divisions of the penis?",
-     "a": "Root, body, glans",
-     "star": false,
-     "why": ""
+     "a": "Root, body, glans"
     },
     {
      "q": "Parts of the root?",
-     "a": "Left and right crura, bulb of the penis",
-     "star": false,
-     "why": ""
+     "a": "Left and right crura + bulb of the penis",
+     "star": true,
+     "why": "Root = 2 crura + bulb — he drew it twice"
     },
     {
-     "q": "Crus of the penis?",
-     "a": "Proximal end of corpus cavernosum, from ischiatic tuberosity",
-     "star": false,
-     "why": ""
+     "q": "Crus of the penis arises from?",
+     "a": "Ischiatic tuberosity (left crus from left, right from right)"
+    },
+    {
+     "q": "Erectile tissue of the crus?",
+     "a": "Corpus cavernosum",
+     "star": true,
+     "why": "\"That one you need to remember\" — crus = corpus cavernosum"
     },
     {
      "q": "Muscle surrounding each crus?",
      "a": "Ischiocavernosus muscle",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Name logic: ischium + corpus cavernosum"
     },
     {
      "q": "Bulb of the penis location and shape?",
-     "a": "Between the crura; partially bilobed",
-     "star": false,
-     "why": ""
+     "a": "Between the crura, lining the ischial arch; partially bilobed (split by the retractor penis)"
     },
     {
-     "q": "Bulb of the penis is continuous with?",
-     "a": "Corpus spongiosum around caudal urethra",
-     "star": false,
-     "why": ""
+     "q": "Erectile tissue of the bulb?",
+     "a": "Corpus spongiosum",
+     "star": true,
+     "why": "Two erectile tissues: cavernosum (crura) vs spongiosum (bulb)"
+    },
+    {
+     "q": "Corpus cavernosum vs corpus spongiosum?",
+     "a": "Cavernosum = more blood-filled spaces; spongiosum = more connective tissue"
     },
     {
      "q": "Muscle covering the bulb?",
      "a": "Bulbospongiosus muscle",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Name logic: bulb + corpus spongiosum"
+    },
+    {
+     "q": "What runs through the bulb?",
+     "a": "Urethra: pelvic urethra continues as the penile urethra"
+    },
+    {
+     "q": "The urethra is ALWAYS surrounded by?",
+     "a": "Corpus spongiosum",
+     "star": true,
+     "why": "\"Always, always\" — urethra sits in corpus spongiosum"
     },
     {
      "q": "Where does the body of the penis begin?",
-     "a": "Where the two crura join, distal to the bulb",
-     "star": false,
-     "why": ""
+     "a": "Where the two crura and the bulb come together, distal to the root"
     },
     {
      "q": "Body contents?",
-     "a": "Two corpora cavernosa, corpus spongiosum, urethra",
-     "star": false,
-     "why": ""
+     "a": "Two corpora cavernosa, corpus spongiosum, penile urethra"
     },
     {
      "q": "Capsule enveloping the body?",
-     "a": "Tunica albuginea",
-     "star": false,
-     "why": ""
+     "a": "Tunica albuginea (same name as the testis capsule)"
+    },
+    {
+     "q": "Free part of the penis, covered by prepuce?",
+     "a": "Glans of the penis"
     },
     {
      "q": "Two parts of the glans?",
      "a": "Bulbus glandis and pars longa glandis",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Glans = bulbus (round) + pars longa (elongated)"
     },
     {
-     "q": "Glans in the non-erect state?",
-     "a": "Entirely withdrawn into the prepuce",
-     "star": false,
-     "why": ""
+     "q": "Is the glans a gland?",
+     "a": "No — 'glans' is a structure, not glandular tissue"
     },
     {
      "q": "Bulbus glandis?",
-     "a": "Barrel-shaped cavernous expansion of corpus spongiosum, around proximal third of os penis",
-     "star": false,
-     "why": ""
+     "a": "Barrel-shaped expansion around the proximal os penis"
     },
     {
      "q": "Function of bulbus glandis?",
-     "a": "Provides the 'tie' or 'lock' during copulation",
-     "star": false,
-     "why": ""
+     "a": "Responsible for the 'tie' or 'lock' during copulation",
+     "star": true,
+     "why": "Bulbus glandis = the tie"
     },
     {
      "q": "Bulbus glandis separated from pars longa glandis by?",
-     "a": "Connective tissue septum",
-     "star": false,
-     "why": ""
+     "a": "Connective tissue septum (no connection between them)"
     },
     {
-     "q": "Pars longa glandis connection to corpus spongiosum?",
-     "a": "None",
-     "star": false,
-     "why": ""
+     "q": "Erectile tissue of BOTH parts of the glans?",
+     "a": "Corpus spongiosum",
+     "star": true,
+     "why": "Glans = spongiosum, even though it's distal"
     },
     {
-     "q": "Pars longa glandis drainage?",
-     "a": "Short large vein each side into bulbus glandis",
-     "star": false,
-     "why": ""
+     "q": "Os penis is?",
+     "a": "Ossified corpus cavernosum in the glans",
+     "star": true,
+     "why": "Corpus cavernosum → bone = os penis"
     },
     {
-     "q": "Os penis?",
-     "a": "Ossification of the corpora cavernosa, surrounded by glans",
-     "star": false,
-     "why": ""
+     "q": "Parts of the os penis?",
+     "a": "Apex (cranial), body, base"
+    },
+    {
+     "q": "Urethral groove?",
+     "a": "Ventral groove of the os penis where the penile urethra runs",
+     "star": true,
+     "why": "Cross-section D: bone + urethral groove + urethra in spongiosum"
+    },
+    {
+     "q": "Pars longa glandis drainage (slide)?",
+     "a": "Short large vein each side into bulbus glandis"
     }
    ]
   },
   {
-   "title": "🧥 Prepuce & penis muscles (slides · lecture continues Wednesday)",
+   "title": "🧥 Prepuce & penis muscles",
    "items": [
     {
      "q": "Prepuce?",
-     "a": "Skin fold covering the glans in the retracted state",
-     "star": false,
-     "why": ""
+     "a": "Skin fold covering the glans (free part of the penis)"
     },
     {
      "q": "External lamina of prepuce?",
-     "a": "Haired outer skin, continuous with abdominal wall skin",
-     "star": false,
-     "why": ""
+     "a": "Outer haired skin, continuous with the ventral abdominal wall skin"
     },
     {
      "q": "Internal lamina of prepuce?",
-     "a": "Contacts the penis; terminates at the fornix",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Preputial orifice?",
-     "a": "Where external and internal laminae meet",
-     "star": false,
-     "why": ""
+     "a": "Contacts the glans; ends at the preputial fornix"
     },
     {
      "q": "Preputial fornix?",
-     "a": "Where internal lamina reflects onto the glans",
-     "star": false,
-     "why": ""
+     "a": "Where the internal lamina reflects onto the glans — the deepest a probe can go",
+     "star": true,
+     "why": "Compared again in L24 to the vaginal fornix"
+    },
+    {
+     "q": "Preputial orifice?",
+     "a": "Where the external and internal laminae meet"
+    },
+    {
+     "q": "Preputial orifice vs external urethral orifice?",
+     "a": "Preputial = skin opening of prepuce; external urethral = urethra opening at the tip of the glans",
+     "star": true,
+     "why": "He quizzed the class on this opening"
+    },
+    {
+     "q": "3 penis muscles you must find in lab?",
+     "a": "Ischiocavernosus, bulbospongiosus, retractor penis",
+     "star": true,
+     "why": "Lab IDs — these 3 only"
     },
     {
      "q": "Ischiocavernosus muscle?",
-     "a": "From ischiatic tuberosity; encloses the crura",
-     "star": false,
-     "why": ""
+     "a": "From ischiatic tuberosity; encloses the crura"
     },
     {
      "q": "Bulbospongiosus muscle?",
-     "a": "Surrounds bulb; arises from external anal sphincter",
-     "star": false,
-     "why": ""
+     "a": "Surrounds the bulb of the penis"
     },
     {
      "q": "Retractor penis muscle?",
-     "a": "Mainly smooth muscle; from first two caudal vertebrae",
-     "star": false,
-     "why": ""
+     "a": "Midline, superficial on the bulb, runs to the body; more important in large animals"
     },
     {
      "q": "Ischiourethralis muscle?",
-     "a": "From ischiatic tuberosity to fibrous ring around dorsal vein of penis",
-     "star": false,
-     "why": ""
+     "a": "Small; protects the dorsal vein of the penis — NOT found in lab"
     }
    ]
   },
   {
-   "title": "🌰 Accessory sex glands (slides · lecture continues Wednesday)",
+   "title": "🌰 Accessory sex glands",
    "items": [
     {
-     "q": "Accessory sex glands of the dog (slides)?",
-     "a": "Ampullary gland and prostate",
-     "star": false,
-     "why": ""
+     "q": "Accessory sex glands of the dog?",
+     "a": "Ampullary gland and prostate (only two)",
+     "star": true,
+     "why": "Dog = only 2 accessory sex glands"
+    },
+    {
+     "q": "Ampullary gland?",
+     "a": "Glandular thickening (dilation) of the ductus deferens wall as it reaches the dorsal bladder/urethra"
     },
     {
      "q": "Prostate location?",
-     "a": "Completely surrounds urethra at neck of bladder",
-     "star": false,
-     "why": ""
+     "a": "Completely surrounds the urethra at the neck of the bladder",
+     "star": true,
+     "why": "Spelling: prostate (no R)"
     },
     {
      "q": "Prostate peritoneal relations?",
      "a": "Dorsal surface covered by peritoneum; ventral surface retroperitoneal",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Opposite of the kidney (kidney: ventral covered, dorsal free)"
     },
     {
      "q": "Prostate dorsal and ventral boundaries?",
-     "a": "Dorsal: rectum; ventral: pubic symphysis and ventral abdominal wall",
-     "star": false,
-     "why": ""
+     "a": "Dorsal: rectum; ventral: pubic symphysis"
     },
     {
      "q": "What divides prostate into lobes?",
-     "a": "Median septum → right and left lobes",
-     "star": false,
-     "why": ""
+     "a": "Median septum → right and left lobes"
     },
     {
      "q": "Where do ductus deferens enter the prostate?",
-     "a": "Craniodorsal surface",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Ductus deferens opening into pelvic urethra?",
-     "a": "Two slits, one each side of colliculus seminalis",
-     "star": false,
-     "why": ""
+     "a": "Craniodorsal surface"
     },
     {
      "q": "Colliculus seminalis?",
-     "a": "Hillock in the prostatic urethra",
-     "star": false,
-     "why": ""
+     "a": "Ridge/hillock in the prostatic urethra; continuation of the urethral crest",
+     "star": true,
+     "why": "Where ductus deferens AND prostate empty"
+    },
+    {
+     "q": "What opens at the colliculus seminalis?",
+     "a": "Ductus deferens (one slit each side) and the prostatic ducts"
+    },
+    {
+     "q": "Urethral crest continues as?",
+     "a": "Colliculus seminalis (crest + ureteric orifices form the trigone)"
+    },
+    {
+     "q": "Bladder opened to see the trigone: which surface was cut?",
+     "a": "Ventral — you're looking at the dorsal roof (ureters enter dorsally)"
     }
    ]
   },
   {
-   "title": "🩸 Blood supply & lymph (slides · lecture continues Wednesday)",
+   "title": "🩸 Blood supply & lymph",
    "items": [
     {
-     "q": "Arteries to testis and epididymis?",
-     "a": "Testicular artery and artery of the ductus deferens",
-     "star": false,
-     "why": ""
+     "q": "Testicular artery is a branch of?",
+     "a": "Abdominal aorta (direct branch, left and right)",
+     "star": true,
+     "why": "Testes = testicular artery off the aorta"
     },
     {
-     "q": "Testicular vein forms?",
-     "a": "Pampiniform plexus — follows arterial pattern",
-     "star": false,
-     "why": ""
+     "q": "Second artery to the testis/ductus?",
+     "a": "Artery of the ductus deferens (from the internal iliac level)"
+    },
+    {
+     "q": "Third blood source (penis)?",
+     "a": "Internal pudendal artery",
+     "star": true,
+     "why": "3 sources: testicular a., artery of ductus deferens, internal pudendal a."
+    },
+    {
+     "q": "Pampiniform plexus is formed by?",
+     "a": "Testicular VEIN (around the artery)",
+     "star": true,
+     "why": "\"It is the vein that forms the plexus\""
     },
     {
      "q": "Function of pampiniform plexus?",
-     "a": "Thermoregulator (cools arterial blood to testis)",
-     "star": false,
-     "why": ""
+     "a": "Thermoregulation — cool venous blood cools warm arterial blood going to the testis (radiator coil)"
     },
     {
-     "q": "Scrotum drains to?",
-     "a": "Superficial inguinal lymph nodes",
-     "star": false,
-     "why": ""
+     "q": "Last branch of internal pudendal before it becomes artery of the penis?",
+     "a": "Ventral perineal artery"
     },
     {
-     "q": "Testis and epididymis drain to?",
-     "a": "Medial iliac and lumbar aortic lymph nodes",
-     "star": false,
-     "why": ""
+     "q": "Artery of the penis splits into?",
+     "a": "Dorsal artery of the penis, deep artery of the penis, artery of the bulb of the penis",
+     "star": true,
+     "why": "3 branches — know their locations"
     },
     {
-     "q": "Prostate drains to?",
-     "a": "Medial iliac and internal iliac lymph nodes",
-     "star": false,
-     "why": ""
+     "q": "Deep artery of the penis supplies?",
+     "a": "Corpus cavernosum"
     },
     {
-     "q": "Prepuce and penis drain to?",
-     "a": "Superficial inguinal lymph nodes",
-     "star": false,
-     "why": ""
+     "q": "Artery of the bulb of the penis supplies?",
+     "a": "Corpus spongiosum (begins at the bulb)"
     },
     {
-     "q": "Testis lymph vessels can be traced to?",
-     "a": "Renal capsule (figure caption)",
-     "star": false,
-     "why": ""
+     "q": "Dorsal artery of the penis location?",
+     "a": "Dorsal surface, outside the erectile tissue"
+    },
+    {
+     "q": "Left testicular vein drains into?",
+     "a": "Left renal vein",
+     "star": true,
+     "why": "Left ≠ right — left kidney is more caudal"
+    },
+    {
+     "q": "Right testicular vein drains into?",
+     "a": "Caudal vena cava directly"
+    },
+    {
+     "q": "Internal male structures drain to which lymph node?",
+     "a": "Medial iliac lymph nodes (testis, epididymis, prostate)",
+     "star": true,
+     "why": "Internal → medial iliac; ignore lumbar aortic/internal iliac"
+    },
+    {
+     "q": "External male structures drain to which lymph node?",
+     "a": "Superficial inguinal lymph nodes (scrotum, prepuce, penis)",
+     "star": true,
+     "why": "External → superficial inguinal"
     }
    ]
   }
@@ -839,7 +875,14 @@
   "Mesorchium (testis + testicular vessels) vs mesoductus deferens (ductus deferens) — both visceral vaginal tunic.",
   "Round ligament of bladder = umbilical ARTERIES (in LATERAL ligament, not median); round ligament of liver = umbilical VEIN.",
   "Testes in scrotum by 6 weeks; diagnose cryptorchid only after 7 months. Abdominal vs inguinal retained.",
-  "Bulb of the penis (root, between crura, bulbospongiosus) ≠ bulbus glandis (glans, corpus spongiosum expansion, the 'tie'). Crus ↔ ischiocavernosus."
+  "Bulb of the penis (root, corpus spongiosum, bulbospongiosus) ≠ bulbus glandis (glans, the 'tie'). Crus = corpus cavernosum + ischiocavernosus.",
+  "Os penis = ossified corpus CAVERNOSUM, but both parts of the glans are corpus SPONGIOSUM.",
+  "Prostate: DORSAL surface has peritoneum. Kidney: VENTRAL surface has peritoneum. Flipped pair.",
+  "Pampiniform plexus = testicular VEIN, not artery.",
+  "Left testicular vein → left renal vein; right testicular vein → caudal vena cava.",
+  "Internal pudendal → (ventral perineal) → artery of the penis → dorsal, deep (cavernosum), bulb (spongiosum).",
+  "Preputial orifice ≠ external urethral orifice. Preputial fornix ≈ vaginal fornix (same reflection concept).",
+  "Prostate — no R."
  ],
  "flags": [
   "Transcript sperm pathway garbles: 'semifires tribules' = seminiferous tubules; 'straight tribules' = straight tubules; 'pre-testees' = rete testis (outside-knowledge correction — confirm); 'efferent tubules' = efferent ductules. Slides don't list this pathway.",
@@ -853,8 +896,10 @@
   "Cat penile 'burps' = penile spines (outside knowledge for the term); 'directed chorally' = caudally (matches slide).",
   "Female comparison garble: 'spelling boots connected to... neutron... horn' = uterine (fallopian) tubes connected to the uterine horn; mesometrium in place of genital fold.",
   "Other garbles: 'orca' = orchi-; 'orchitis is information' = inflammation; 'target' = cryptorchid; 'pre-master patterns' = cremaster; 'four neurosis/gonulosis' = aponeurosis; 'ladder' = bladder; 'bilateral is low' unclear.",
-  "Blueprint asks for 3 main blood sources to male genitalia, but slide text names only testicular artery and artery of the ductus deferens (rest is in figures). Find the third (likely internal pudendal — outside knowledge) after Wednesday.",
-  "Blueprint asks for openings of sex glands into the pelvic urethra; slide text covers only ductus deferens slits at the colliculus seminalis — prostatic duct openings not in text. Wait for Wednesday.",
-  "Prostate lymph: slide says 'medial and internal iliac'; figure labels 'hypogastric lymph node'. Hypogastric = internal iliac (outside knowledge)."
+  "Prostate lymph: slide says 'medial and internal iliac'; figure labels 'hypogastric lymph node'. Hypogastric = internal iliac (outside knowledge).",
+  "CLOSED: 3rd blood source = internal pudendal artery (said in lecture 10/21).",
+  "CLOSED: prostate empties at the colliculus seminalis alongside the ductus deferens (lecture 10/21).",
+  "Cross-section slide: he said 'whatever runs in the corpus cavernosum is your artery of the penis' — earlier he said the DEEP artery of the penis enters the corpus cavernosum. Use deep artery.",
+  "Lymph: slides list lumbar aortic + internal iliac too; lecture says only medial iliac (internal) and superficial inguinal (external) matter."
  ]
 }

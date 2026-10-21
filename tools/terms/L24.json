@@ -1,0 +1,403 @@
+{
+ "sections": [
+  {
+   "title": "🎗️ Broad ligament (slides 3–7)",
+   "items": [
+    {
+     "q": "Broad ligament?",
+     "a": "Paired double folds of peritoneum attaching ovary, uterine tube, uterus to the abdominal/pelvic walls"
+    },
+    {
+     "q": "Broad ligament also contains?",
+     "a": "Vessels and nerves to the genitalia, and fat"
+    },
+    {
+     "q": "3 regions of the broad ligament?",
+     "a": "Mesovarium, mesosalpinx, mesometrium",
+     "star": true,
+     "why": "All three = broad ligament"
+    },
+    {
+     "q": "Mesovarium suspends?",
+     "a": "Ovary — from the dorsolateral abdominal wall"
+    },
+    {
+     "q": "Mesosalpinx suspends?",
+     "a": "Uterine tube (salpinx) — extends laterally from the mesovarium"
+    },
+    {
+     "q": "Mesometrium suspends?",
+     "a": "Uterine horns and body — continuous with the mesovarium"
+    },
+    {
+     "q": "'Meso-' refers to?",
+     "a": "Mesentery: double fold of peritoneum"
+    },
+    {
+     "q": "Ovarian bursa?",
+     "a": "Pouch formed by mesovarium + mesosalpinx enclosing the ovary",
+     "star": true,
+     "why": "Has an opening you can see in lab"
+    },
+    {
+     "q": "Round ligament of the uterus?",
+     "a": "Fibrous cord in the free border of the lateral mesometrium, ovary → inguinal canal",
+     "star": true,
+     "why": "Remnant of the gubernaculum (male: scrotal ligament)"
+    },
+    {
+     "q": "Round ligament of the uterus runs perpendicular to?",
+     "a": "Mesometrium"
+    },
+    {
+     "q": "Suspensory ligament of the ovary?",
+     "a": "Middle/ventral thirds of the last 2 ribs (12th/13th) → ventral ovary",
+     "star": true,
+     "why": "Broken in a spay (ovariohysterectomy)"
+    },
+    {
+     "q": "How is the suspensory ligament broken in a spay?",
+     "a": "Strumming technique — tear it, don't pull (could rupture vessels)"
+    },
+    {
+     "q": "Proper ligament of the ovary?",
+     "a": "Caudal continuation of the suspensory ligament: ovary → uterine horn",
+     "star": true,
+     "why": "Sturdy — safe to clamp in surgery"
+    }
+   ]
+  },
+  {
+   "title": "🥚 Ovary (slide 8)",
+   "items": [
+    {
+     "q": "Ovary functions?",
+     "a": "Produces oocytes; endocrine — estrogen and progesterone"
+    },
+    {
+     "q": "Ovary location?",
+     "a": "Caudal to the kidney — stays there (testes descend)"
+    },
+    {
+     "q": "Two extremities of the ovary?",
+     "a": "Tubal extremity and uterine extremity"
+    },
+    {
+     "q": "Two borders of the ovary?",
+     "a": "Free border and mesovarian border"
+    },
+    {
+     "q": "Ovary surface before vs after estrus?",
+     "a": "Smooth before estrus; rough and nodular in multiparous bitches"
+    }
+   ]
+  },
+  {
+   "title": "🌸 Uterine tube (slide 9)",
+   "items": [
+    {
+     "q": "Other names for the uterine tube?",
+     "a": "Fallopian tube (human), salpinx, oviduct (birds/reptiles)"
+    },
+    {
+     "q": "Uterine tube function?",
+     "a": "Transports oocytes to the uterus"
+    },
+    {
+     "q": "Fimbriae?",
+     "a": "Finger-like projections from the infundibulum that capture the ovulated oocyte"
+    },
+    {
+     "q": "Infundibulum?",
+     "a": "Thin-walled funnel; site of fertilization",
+     "star": true,
+     "why": "Infundibulum = fertilization site"
+    },
+    {
+     "q": "Abdominal ostium?",
+     "a": "Entrance of the uterine tube (opening in the infundibulum)",
+     "star": true,
+     "why": "Two openings: abdominal ostium (in) vs uterine ostium (out)"
+    },
+    {
+     "q": "Uterine ostium?",
+     "a": "Exit: opening of the uterine tube into the uterine horn"
+    },
+    {
+     "q": "External junction of tube and horn?",
+     "a": "Tubouterine junction"
+    },
+    {
+     "q": "Why can ectopic pregnancy happen (human)?",
+     "a": "Ovarian bursa opening gives brief access to the peritoneal cavity"
+    }
+   ]
+  },
+  {
+   "title": "🍐 Uterus & cervix (slides 10–13)",
+   "items": [
+    {
+     "q": "Uterus functions?",
+     "a": "Transports sperm; implantation and nourishment of the young"
+    },
+    {
+     "q": "Uterus shape?",
+     "a": "Y-shaped: tubes cranially, vagina caudally"
+    },
+    {
+     "q": "3 parts of the uterus?",
+     "a": "Horns (2), body, cervix",
+     "star": true,
+     "why": "Cervix is PART of the uterus"
+    },
+    {
+     "q": "Uterine horns size?",
+     "a": "Left and right are the same size"
+    },
+    {
+     "q": "Horn connected to the ovary by?",
+     "a": "Proper ligament of the ovary"
+    },
+    {
+     "q": "Uterine velum?",
+     "a": "Internal partition where peritoneum unites the two horns before the body"
+    },
+    {
+     "q": "How do the horns open into the body?",
+     "a": "Separately"
+    },
+    {
+     "q": "Uterine body?",
+     "a": "Very short simple muscular tube; abdominal and pelvic cavity"
+    },
+    {
+     "q": "Cervix meaning?",
+     "a": "Neck"
+    },
+    {
+     "q": "Cervix position?",
+     "a": "Most caudal part of the uterus; lies obliquely across the uterovaginal junction",
+     "star": true,
+     "why": "Oblique — key for catheterizing"
+    },
+    {
+     "q": "Cervical canal?",
+     "a": "Lumen of the cervix, internal → external uterine orifice"
+    },
+    {
+     "q": "Internal uterine orifice?",
+     "a": "Cervical opening toward the uterine body",
+     "star": true,
+     "why": "Uterine vs urethral vs ureteric orifice — spelling matters"
+    },
+    {
+     "q": "External uterine orifice?",
+     "a": "Cervical opening toward the vagina"
+    }
+   ]
+  },
+  {
+   "title": "🌷 Vagina & vestibule (slides 14–15)",
+   "items": [
+    {
+     "q": "Vagina?",
+     "a": "Dilatable canal from uterus (cervix) to vestibule; very long in dogs"
+    },
+    {
+     "q": "Vagina peritoneal relation?",
+     "a": "Mostly retroperitoneal; only cranial part covered by peritoneum"
+    },
+    {
+     "q": "Longitudinal folds of the vagina allow?",
+     "a": "Increase in DIAMETER",
+     "star": true,
+     "why": "Longitudinal folds → diameter"
+    },
+    {
+     "q": "Transverse folds of the vagina allow?",
+     "a": "Increase in LENGTH",
+     "star": true,
+     "why": "Transverse folds → length"
+    },
+    {
+     "q": "Identifying feature of the vagina?",
+     "a": "Longitudinal folds with transverse folds"
+    },
+    {
+     "q": "Vaginal fornix?",
+     "a": "Cranial vagina extending cranial to the cervix (reflection onto the cervix)",
+     "star": true,
+     "why": "Same concept as the preputial fornix"
+    },
+    {
+     "q": "Is the vaginal fornix part of the cervix?",
+     "a": "No — it's in the vaginal lumen"
+    },
+    {
+     "q": "Clinical problem with the fornix?",
+     "a": "A probe follows the fornix (dead end); cervix is oblique, so redirect"
+    },
+    {
+     "q": "Vestibule connects?",
+     "a": "Vagina to the vulva"
+    },
+    {
+     "q": "Identifying feature of the vestibule?",
+     "a": "NO mucosal folds — smooth",
+     "star": true,
+     "why": "Vagina = folds; vestibule = smooth"
+    },
+    {
+     "q": "Urethral tubercle?",
+     "a": "Ridge on the cranioventral vestibule wall; contains the external urethral orifice"
+    },
+    {
+     "q": "Female external urethral orifice location?",
+     "a": "In the vestibule, ventral to (on) the urethral tubercle",
+     "star": true,
+     "why": "Male: tip of the glans"
+    },
+    {
+     "q": "Catheter hits the urethral tubercle — what next?",
+     "a": "Withdraw and direct DORSALLY to reach the vagina/uterus",
+     "star": true,
+     "why": "Withdraw → dorsal"
+    },
+    {
+     "q": "Vestibular bulb?",
+     "a": "Erectile tissue on each lateral vestibule wall (like the bulb of the penis)"
+    },
+    {
+     "q": "Muscles around the vestibule?",
+     "a": "Constrictor vestibuli muscles (not found in lab)"
+    }
+   ]
+  },
+  {
+   "title": "🌺 External genitalia (slides 16–17)",
+   "items": [
+    {
+     "q": "Female external genitalia?",
+     "a": "Vulva, clitoris, urethra"
+    },
+    {
+     "q": "Vulva location?",
+     "a": "Caudal to the vestibule — most caudal"
+    },
+    {
+     "q": "Vulva consists of?",
+     "a": "Two lips (labia) joined by dorsal and ventral commissures"
+    },
+    {
+     "q": "Dorsal vs ventral commissure shape?",
+     "a": "Dorsal = rounded; ventral = pointed"
+    },
+    {
+     "q": "Rima pudendi?",
+     "a": "Narrow cleft between the vulvar lips",
+     "star": true,
+     "why": "Pudendum = Latin for vulva"
+    },
+    {
+     "q": "Clitoris is homologue of?",
+     "a": "Male penis"
+    },
+    {
+     "q": "Clitoris location?",
+     "a": "Floor of the vestibule near the vulva"
+    },
+    {
+     "q": "Parts of the clitoris?",
+     "a": "Pair of crura, body, glans"
+    },
+    {
+     "q": "Glans of the clitoris projects into?",
+     "a": "Fossa clitoridis",
+     "star": true,
+     "why": "The glans is what you see in lab"
+    },
+    {
+     "q": "Os clitoridis?",
+     "a": "Bone in the clitoris — sometimes present (os penis always in male)"
+    }
+   ]
+  },
+  {
+   "title": "🩸 Blood supply & lymph (slides 18–20)",
+   "items": [
+    {
+     "q": "Ovarian artery is a branch of?",
+     "a": "Abdominal aorta (direct, left and right)",
+     "star": true,
+     "why": "Same as the testicular artery; ligated in spays"
+    },
+    {
+     "q": "Branches of the ovarian artery?",
+     "a": "Uterine branch (cranial horn) and tubal branch (uterine tube)"
+    },
+    {
+     "q": "Second main source?",
+     "a": "Internal pudendal artery"
+    },
+    {
+     "q": "Internal pudendal branches (female)?",
+     "a": "Vaginal artery → uterine artery; artery of the clitoris; artery of the vestibular bulb"
+    },
+    {
+     "q": "Uterine artery comes from?",
+     "a": "Vaginal artery",
+     "star": true,
+     "why": "Anastomoses with the uterine branch of the ovarian a."
+    },
+    {
+     "q": "Left ovarian vein drains into?",
+     "a": "Left renal vein",
+     "star": true,
+     "why": "Same as male"
+    },
+    {
+     "q": "Right ovarian vein drains into?",
+     "a": "Caudal vena cava"
+    },
+    {
+     "q": "Ovary & uterus lymph?",
+     "a": "Lumbar aortic and medial iliac lymph nodes"
+    },
+    {
+     "q": "Vagina & vestibule lymph?",
+     "a": "Hypogastric (and lateral sacral) lymph nodes"
+    },
+    {
+     "q": "Vulva & clitoris lymph?",
+     "a": "Superficial inguinal lymph nodes",
+     "star": true,
+     "why": "External → superficial inguinal"
+    },
+    {
+     "q": "Lymph nodes you must identify in lab?",
+     "a": "Medial iliac and superficial inguinal",
+     "star": true,
+     "why": "Only these two in lab"
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Longitudinal folds → DIAMETER; transverse folds → LENGTH.",
+  "Vagina = folds; vestibule = NO folds (smooth).",
+  "Internal UTERINE orifice (cervix) vs internal URETHRAL orifice vs URETERIC orifice — spelling matters.",
+  "Abdominal ostium = entrance (infundibulum); uterine ostium = exit (into the horn).",
+  "Suspensory ligament (ribs → ovary, broken in spay) vs proper ligament of the ovary (ovary → horn, clamp it).",
+  "Round ligament of UTERUS (gubernaculum remnant) ≠ round ligament of bladder (umbilical arteries) ≠ round ligament of liver (umbilical vein).",
+  "Mesovarium (ovary), mesosalpinx (tube), mesometrium (uterus) — together = broad ligament.",
+  "Cervix is part of the UTERUS, lies obliquely. Vaginal fornix is part of the VAGINA.",
+  "Uterine artery comes from the VAGINAL artery (internal pudendal), not the ovarian artery — the ovarian gives the uterine BRANCH.",
+  "Female external urethral orifice → vestibule, at the urethral tubercle. Catheter: withdraw, go dorsal.",
+  "Left ovarian/testicular vein → left renal vein; right → caudal vena cava."
+ ],
+ "flags": [
+  "Ovarian bursa layers: slide says mesovarium + mesosalpinx form it; lecture agrees.",
+  "Lymph: slide lists lumbar aortic for ovary only; lecture lumps ovary + uterus → lumbar aortic + medial iliac. Use the slide for detail; lab = medial iliac + superficial inguinal.",
+  "Suspensory ligament ribs: slide says 12th and/or 13th rib; lecture says 'last two ribs'. Same thing."
+ ]
+}

@@ -40,6 +40,7 @@ PAGES = [("L17", "gross-anatomy-lc17-cards.html", "L17 Terms · Nervous System 1
          ("ABD2", "gross-anatomy-lcabd2-cards.html", "Abdominal Cavity 2 Terms"),
          ("L22", "gross-anatomy-lc22-cards.html", "L22 Terms · Urinary System"),
          ("L23", "gross-anatomy-lc23-cards.html", "L23 Terms · Male Reproductive"),
+         ("L24", "gross-anatomy-lc24-cards.html", "L24 Terms · Female Reproductive"),
          ("PATTERNS", "gross-anatomy-patterns.html", "Memory Patterns · Exam 3")]
 
 def build(key, out, title, V):
