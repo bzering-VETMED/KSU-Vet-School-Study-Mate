@@ -1,0 +1,258 @@
+{
+ "sections": [
+  {
+   "title": "1️⃣ Names tell you the target",
+   "items": [
+    {
+     "q": "Gastric / splenic / hepatic arteries supply…",
+     "a": "Stomach / spleen / liver",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pancreaticoduodenal arteries supply…",
+     "a": "Pancreas + duodenum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left–right and cranial–caudal artery pairs…",
+     "a": "Anastomose (join up)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gastric arteries → which curvature? Gastroepiploic?",
+     "a": "Gastric → lesser · gastroepiploic → greater (short word, short curvature)",
+     "star": true,
+     "why": "Professor's own memory trick"
+    }
+   ]
+  },
+  {
+   "title": "2️⃣ Chains that change names at landmarks",
+   "items": [
+    {
+     "q": "Thoracic limb artery chain?",
+     "a": "Subclavian → axillary → brachial → median → superficial palmar arch",
+     "star": true,
+     "why": "Blueprint: branches and name changes"
+    },
+    {
+     "q": "Subclavian becomes axillary at…",
+     "a": "First rib",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Axillary becomes brachial after…",
+     "a": "Cranial circumflex humeral artery",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Brachial becomes median after…",
+     "a": "Common interosseous artery",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Paw naming rule?",
+     "a": "Superficial = common digital · deep = metacarpal",
+     "star": true,
+     "why": "Blueprint: forepaw naming"
+    },
+    {
+     "q": "Kidney chain he cares about?",
+     "a": "Aorta → renal artery → arcuate arteries → renal vein → caudal vena cava",
+     "star": true,
+     "why": "'All I care about'"
+    },
+    {
+     "q": "Ductus deferens path?",
+     "a": "Tail of epididymis → inguinal canal → vaginal ring → over ureter → genital fold → urethra",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "3️⃣ Abdominal aorta: 3 unpaired, cranial → caudal",
+   "items": [
+    {
+     "q": "Three unpaired branches in order?",
+     "a": "Celiac → cranial mesenteric → caudal mesenteric",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Celiac supplies + branches?",
+     "a": "Liver, stomach, spleen · hepatic, left gastric, splenic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial mesenteric supplies + branches?",
+     "a": "Intestines · ileocolic, right colic, middle colic, caudal pancreaticoduodenal, jejunal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal mesenteric branches?",
+     "a": "Left colic, cranial rectal",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "4️⃣ Veins: two destinations, one asymmetry",
+   "items": [
+    {
+     "q": "Veins that go to the liver first (portal)?",
+     "a": "Gut, spleen, pancreas (splenic, gastroduodenal)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Veins straight to the caudal vena cava?",
+     "a": "Kidney, body wall, gonads, lumbar",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left gonadal vein (testicular OR ovarian) drains into…",
+     "a": "Left renal vein (right → caudal vena cava)",
+     "star": true,
+     "why": "Blueprint L21 + L24; 'main thing to take away'"
+    }
+   ]
+  },
+  {
+   "title": "5️⃣ Repro: outside vs inside",
+   "items": [
+    {
+     "q": "Skin-level structures drain to which lymph node?",
+     "a": "Superficial inguinal (scrotum, prepuce/penis, vulva/clitoris)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gonads (ovary, testis) drain to…",
+     "a": "Lumbar aortic (testis also medial iliac) · hook: started by the kidneys",
+     "star": false,
+     "why": "Hook is mine, not from lecture"
+    },
+    {
+     "q": "Prostate drains to…",
+     "a": "Medial and internal iliac lymph nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Uterus drains to…",
+     "a": "Lumbar aortic, medial iliac, hypogastric, lateral sacral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagina + vestibule drain to…",
+     "a": "Hypogastric, lateral sacral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Female blood supply (2)?",
+     "a": "Ovarian artery (uterine + tubal branches) + internal pudendal artery",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Male blood supply on slides?",
+     "a": "Testicular artery + artery of the ductus deferens (3rd source: confirm after Wednesday)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "6️⃣ Autonomic: sort by where it synapses",
+   "items": [
+    {
+     "q": "Synapse in chain → spinal nerve?",
+     "a": "Spinal nerve pathway → body wall, limbs",
+     "star": true,
+     "why": "Blueprint: trace pathways (3 Qs)"
+    },
+    {
+     "q": "Synapse in chain → leaves as its own nerve?",
+     "a": "Postganglionic sympathetic nerve pathway → heart, head, thorax",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Passes THROUGH chain → prevertebral ganglion?",
+     "a": "Splanchnic pathway: major/minor → celiacomesenteric · lumbar → caudal mesenteric",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "No ganglion synapse?",
+     "a": "Adrenal medulla pathway",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Two parasympathetic routes?",
+     "a": "Vagus (head → transverse colon) + pelvic nerve (S1–S3)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "7️⃣ Brachial plexus (C6–T2) by job",
+   "items": [
+    {
+     "q": "Extends elbow, carpus, digits?",
+     "a": "Radial nerve",
+     "star": true,
+     "why": "Blueprint: loss of function"
+    },
+    {
+     "q": "Flexes carpus + digits?",
+     "a": "Median + ulnar nerves",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Flexes the elbow?",
+     "a": "Musculocutaneous nerve",
+     "star": true,
+     "why": "Blueprint"
+    },
+    {
+     "q": "Shoulder nerves?",
+     "a": "Axillary (flexes) · suprascapular (supraspinatus, infraspinatus)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nerves WITH an autonomous zone?",
+     "a": "Musculocutaneous, axillary, radial, ulnar (NOT median)",
+     "star": true,
+     "why": "Blueprint"
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Left gonadal vein → left renal vein; right → caudal vena cava (same rule for testis and ovary)",
+  "Gastric = lesser curvature; gastroepiploic = greater",
+  "Splanchnic nerves are PREganglionic; vertebral and hypogastric nerves are POSTganglionic",
+  "Major/minor splanchnic → celiacomesenteric; lumbar splanchnic → caudal mesenteric",
+  "Radial = extensors; median + ulnar = flexors; musculocutaneous = elbow flexion",
+  "Median nerve has a cutaneous branch but NO autonomous zone",
+  "Axillary → brachial at the CRANIAL circumflex humeral (subscapular gives the caudal one)"
+ ]
+}
