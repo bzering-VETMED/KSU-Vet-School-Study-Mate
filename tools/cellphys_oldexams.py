@@ -33,7 +33,7 @@ XCSS = """.q.exq{text-align:left;font-size:clamp(16px,1.9vw,21px);font-weight:75
 def load():
     return json.load(open(os.path.join(HERE, 'cellphys_oldexams_data.json')))
 
-def card(q):
+def card(q, extra=''):
     opts = ''.join(f'<li><b>{E(l.upper())}.</b>{E(t)}</li>' for l, t in q['opts'])
     imgs = ''.join(f'<img src="assets/cellphys_old_{E(i)}.jpg" loading="lazy" alt="exam figure">' for i in q.get('img', []))
     ctx = f'<div class="ctx">{E(q["ctx"])}</div>' if q.get('ctx') else ''
@@ -41,7 +41,7 @@ def card(q):
     scope = a.get('scope', '')
     pills = (f'<span class="pill {"in" if scope=="in" else "out"}">{"in Exam 3 scope" if scope=="in" else "not on this exam"}</span>' if scope else '') + \
             ('<span class="pill multi">select all</span>' if q.get('multi') else '')
-    meta = f'<span class="meta">{E(q["sec"])} · Q{E(str(q["n"]))}{pills}</span>'
+    meta = f'<span class="meta">{E(q["sec"])} · Q{E(str(q["n"]))}{pills}{extra}</span>'
     letters = a.get('ans') or []
     if letters:
         txt = {l: t for l, t in q['opts']}
@@ -74,4 +74,41 @@ def build_oldexams(HUB, V):
         tiles.append(f'<a class="tile" href="{fn}?v={V}"{st}><div class="emoji">{emoji}</div><h2>{E(title)}</h2><p>{len(sel)} questions · {nin} in scope · tap to reveal</p></a>')
     print('oldexams', len(qs), 'questions,', len(tiles), 'pages')
     head = '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">📝 Old exams · answered from your lectures + transcripts</div>'
-    return head + ''.join(tiles)
+    return head + build_repeats(HUB, V) + ''.join(tiles)
+
+
+REP_FN = 'cellphys-old-repeats.html'
+_STOP = {'the','of','a','which','following','is','to','in','and','for','what','select','all','that','apply','be','would','by','an','are','with','correct','one','response','responses','answer','answers','this','will','can','does','its','on','from','at','or'}
+def _tok(s): return set(re.findall(r'[a-z0-9]+', s.lower())) - _STOP
+def _sim(a, b):
+    A, B = _tok(a), _tok(b); return len(A & B) / max(1, len(A | B))
+def _yr(sec): return re.sub(r'Basil metabolism · |Schultz | \(.*', '', sec)
+
+def build_repeats(HUB, V):
+    qs = [q for q in load() if (q.get('a') or {}).get('scope') == 'in' and q['opts']]
+    groups = []
+    for q in qs:
+        for g in groups:
+            if _sim(q['stem'], g[0]['stem']) > 0.5: g.append(q); break
+        else: groups.append([q])
+    rep = [g for g in groups if len({x['sec'] for x in g}) > 1]
+    items = [(sorted({_yr(x['sec']) for x in g}), g[-1]) for g in rep]
+    # LC08 acid/base repeats (Schultz Exam 2s) — grouped by hand
+    from cellphys_lc08exam import REAL
+    R = {(sec, n): (sec, n, stem, opts, ans, why, multi, ctx, img) for sec, n, stem, opts, ans, why, multi, ctx, img in REAL}
+    def mk(key, years):
+        sec, n, stem, opts, ans, why, multi, ctx, img = R[key]
+        return (years, {'sec': sec, 'n': n, 'stem': stem, 'opts': [[l, t] for l, t in zip('abcde', opts)], 'multi': multi, 'ctx': ctx, 'img': img,
+                        'a': {'ans': list(ans), 'why': why, 'cite': 'LC08 slides "Ion Trapping", "Body Compartments & Drugs"', 'conf': 'sure', 'scope': 'in'}})
+    items += [mk(('Schultz 2025 Exam 2', 15), ['2024 Exam 2', '2025 Exam 2']),
+              mk(('Schultz 2024 Exam 2', 13), ['2023 Exam 2', '2024 Exam 2']),
+              mk(('Schultz 2024 Exam 2', 14), ['2023 Exam 2', '2024 Exam 2']),
+              mk(('Schultz 2024 Exam 2', 9), ['2023 Exam 2 (H₂SO₄ version)', '2024 Exam 2'])]
+    items.sort(key=lambda t: -len(t[0]))
+    cs = [card(q, f'<span class="pill multi">🔁 asked {len(y)}× · {E(", ".join(y))}</span>') for y, q in items]
+    cs[0] = cs[0].replace('class="card"', 'class="card on"', 1)
+    out = deck.page('🔁 Repeated questions · asked on 2+ exams', f'{len(cs)} questions Basil and Schultz reused across years · most-repeated first · expect these Friday', ''.join(cs), back=HUB)
+    out = re.sub(r'← Back to [^<]+', '← Back to Cell Physiology', out, count=1).replace('</style>', XCSS + '</style>', 1).replace('</body>', _copyjs() + '</body>')
+    open(REP_FN, 'w').write(out)
+    print('repeats', len(cs))
+    return f'<a class="tile" href="{REP_FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">🔁</div><h2>Repeated questions</h2><p>{len(cs)} questions asked on 2+ old exams · most-repeated first</p></a>'
