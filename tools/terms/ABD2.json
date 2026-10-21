@@ -895,6 +895,18 @@
      "a": "Deep inguinal ring first, then out the superficial ring",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Deep inguinal ring borders (slide)?",
+     "a": "Cranial: internal abdominal oblique · caudal: external abdominal oblique · medial: rectus abdominis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deep inguinal ring is the…",
+     "a": "Internal opening of the inguinal canal",
+     "star": false,
+     "why": ""
     }
    ]
   }
