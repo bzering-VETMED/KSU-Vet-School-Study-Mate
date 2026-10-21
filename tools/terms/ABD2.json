@@ -907,6 +907,24 @@
      "a": "Internal opening of the inguinal canal",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Structures that pass through the inguinal canal (slide 40)?",
+     "a": "Spermatic cord (male) or vaginal process (female), external pudendal artery and vein, genitofemoral nerve, efferent duct of the superficial inguinal lymph node, cremaster muscle",
+     "star": true,
+     "why": "Blueprint: structures passing through the inguinal canal"
+    },
+    {
+     "q": "Which inguinal canal structures do NOT pass through the vaginal ring?",
+     "a": "External pudendal vessels, genitofemoral nerve, efferent lymph duct, cremaster muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal border of the deep inguinal ring (slide 39 caption)?",
+     "a": "Inguinal ligament (caudal edge of the external abdominal oblique aponeurosis)",
+     "star": false,
+     "why": ""
     }
    ]
   }
