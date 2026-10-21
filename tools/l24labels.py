@@ -1,11 +1,12 @@
-# L24 Female Reproductive labeling deck (made by Claude). Built from the slides before the lecture: check names after lecture.
+# L24 Female Reproductive labeling deck (made by Claude). Names checked against the lecture transcript (10/21/26).
+# Text after ' — ' in a name is a lecture note: shown in the reveal list, kept off the badge on the image.
 # Run from repo root: python3 tools/l24labels.py /path/to/Lecture_24_Female_Reproductive_-_Tagged.pdf
 # Boxes and badge points are in 200-dpi page pixels. Box modes: 'w' = repaint with the surrounding colour (labels on plain
 # background), ('c', dx, dy) = clone nearby texture, 'i' = inpaint + grain (small marks on drawings), 'f' = fill white.
 import cv2, sys, os, subprocess, numpy as np
 sys.path.insert(0, os.path.dirname(__file__)); import tracer as T
 pdf = sys.argv[1]; TMP = '/tmp/claude-0/l24b'; os.makedirs(TMP, exist_ok=True)
-CHECK = ' (slides; check after lecture)'
+SEP = ' — '
 
 def page_png(n):
     out = f'{TMP}/p{n}'
@@ -62,15 +63,18 @@ def card(n, out, crop, labels, title, hint, extra=(), grain=6):
     if ib: im = inpaint(im, ib, grain)
     X0, Y0, X1, Y1 = crop; im = im[Y0:Y1, X0:X1]
     H, W = im.shape[:2]; cv2.imwrite(f'assets/{out}.jpg', im, [cv2.IMWRITE_JPEG_QUALITY, 90])
-    return dict(title=title + CHECK, q=hint, img=f'assets/{out}.jpg',
-                labels=[dict(n=nm, p=[round((x - X0) / W * 100, 2), round((y - Y0) / H * 100, 2)]) for nm, (x, y), _ in labels])
+    def lab(nm, x, y):
+        d = dict(n=nm, p=[round((x - X0) / W * 100, 2), round((y - Y0) / H * 100, 2)])
+        if SEP in nm: d['s'] = nm.split(SEP)[0]
+        return d
+    return dict(title=title, q=hint, img=f'assets/{out}.jpg', labels=[lab(nm, x, y) for nm, (x, y), _ in labels])
 
 cards = []
 # Slide 4: ovarian bursa schematic (numbers 1 and 2 are named on the slide; 3, 4, 6 have no legend so they are only erased)
 cards.append(card(4, 'l24lab_bursa_schematic', (1505, 55, 1995, 1105), [
     ("Ovary", (1848, 855), [(1828, 828, 1868, 884, 'i')]),
-    ("Mesovarium", (1808, 300), [(1825, 160, 1852, 205), (1851, 552, 1873, 596, 'n')]),
-    ("Mesosalpinx", (1745, 600), [(1710, 557, 1742, 600)]),
+    ("Mesovarium — number 1; attaches the ovary to the dorsolateral abdominal wall", (1808, 300), [(1825, 160, 1852, 205), (1851, 552, 1873, 596, 'n')]),
+    ("Mesosalpinx — number 2; arises from the lateral side of the mesovarium", (1745, 600), [(1710, 557, 1742, 600)]),
     ("Ovarian bursa (pouch the mesovarium + mesosalpinx form around the ovary)", (1835, 700), []),
 ], "Ovarian bursa · cross-section", "Ovary in the middle, peritoneal leaves around it. Name the folds and the pouch.",
    extra=[(1505, 55, 1562, 200, 'f'), (1545, 890, 1578, 935), (1560, 945, 1592, 990), (1785, 1028, 1820, 1075), (1512, 1035, 1552, 1085)]))
@@ -78,7 +82,7 @@ cards.append(card(4, 'l24lab_bursa_schematic', (1505, 55, 1995, 1105), [
 # Slide 5 figure B (also slides 8, 9): opened ovarian bursa
 cards.append(card(5, 'l24lab_bursa_opened', (900, 182, 1612, 1095), [
     ("Ovary", (1335, 522), []),
-    ("Opening of ovarian bursa", (1265, 447), [(1316, 184, 1480, 238)]),
+    ("Opening of ovarian bursa — can be seen in the lab dogs", (1265, 447), [(1316, 184, 1480, 238)]),
     ("Cut edge of bursa", (1390, 397), [(1402, 293, 1512, 352)]),
     ("Mesosalpinx", (1460, 452), []),
     ("Infundibulum with abdominal ostium of uterine tube", (1233, 556), [(903, 598, 1112, 706)]),
@@ -95,26 +99,26 @@ cards.append(card(5, 'l24lab_bursa_opened', (900, 182, 1612, 1095), [
 # Slide 6 (= slide 7): broad ligament parts and ovarian ligaments
 cards.append(card(6, 'l24lab_broad_ligament', (1200, 182, 1990, 1108), [
     ("Ovary", (1570, 500), [(1313, 473, 1429, 532)]),
-    ("Suspensory ligament of the ovary", (1540, 287), [(1618, 188, 1937, 287)]),
-    ("Proper ligament of the ovary", (1530, 607), [(1248, 543, 1408, 692)]),
+    ("Suspensory ligament of the ovary — broken by strumming during an ovariohysterectomy", (1540, 287), [(1618, 188, 1937, 287)]),
+    ("Proper ligament of the ovary — ovary to uterine horn; sturdy, the one you clamp", (1530, 607), [(1248, 543, 1408, 692)]),
     ("Mesovarium", (1688, 507), [(1743, 493, 1967, 542)]),
     ("Mesosalpinx", (1625, 462), [(1743, 383, 1972, 442)]),
     ("Descending uterine tube", (1595, 432), [(1208, 353, 1429, 442)]),
     ("Left uterine horn", (1520, 730), [(1661, 703, 1962, 752)]),
     ("Mesometrium", (1595, 820), [(1660, 798, 1912, 847)]),
-    ("Round ligament of the uterus", (1382, 893), [(1368, 973, 1537, 1107)]),
+    ("Round ligament of the uterus — gubernaculum remnant; runs into the inguinal canal", (1382, 893), [(1368, 973, 1537, 1107)]),
 ], "Broad ligament · left side", "Ventral view of the left ovary and horn. Name each fold and each ligament.",
    extra=[(1208, 1058, 1252, 1102)]))
 
 # Slide 13: sagittal section through the cervix (slide text left of the drawing is cropped/whited out)
 cards.append(card(13, 'l24lab_cervix', (1165, 285, 1995, 880), [
     ("Body of the uterus", (1465, 345), [(1622, 264, 1997, 328)]),
-    ("Internal uterine orifice", (1520, 495), [(1622, 371, 1984, 498)]),
+    ("Internal uterine orifice — opens toward the uterine body", (1520, 495), [(1622, 371, 1984, 498)]),
     ("Cervical canal", (1485, 525), [(1622, 551, 1996, 605)]),
-    ("Cervix", (1500, 580), [(1622, 651, 1808, 705)]),
-    ("External uterine orifice", (1435, 565), []),
-    ("Vaginal fornix", (1410, 455), []),
-    ("Vagina", (1455, 720), []),
+    ("Cervix — most caudal part of the uterus; lies obliquely", (1500, 580), [(1622, 651, 1808, 705)]),
+    ("External uterine orifice — opens toward the vagina", (1435, 565), []),
+    ("Vaginal fornix — in the vaginal lumen, not part of the cervix; misleads a catheter", (1410, 455), []),
+    ("Vagina — longitudinal and transverse folds", (1455, 720), []),
 ], "Cervix · sagittal section (cranial = top)", "Uterus on top, vagina below. Start in the uterine body and work caudally.",
    extra=[(1165, 285, 1327, 880, 'f')]))
 
@@ -128,14 +132,14 @@ cards.append(card(14, 'l24lab_tract', (1068, 185, 1715, 1105), [
     ("Body of the uterus", (1383, 610), [(1110, 598, 1264, 629)]),
     ("Cervical canal", (1378, 652), [(1130, 644, 1280, 675)]),
     ("Cervix", (1363, 673), [(1218, 688, 1292, 718)]),
-    ("Vagina", (1373, 822), [(1228, 806, 1307, 839)]),
-    ("Vestibule", (1418, 960), [(1513, 918, 1615, 952)]),
-    ("Urethral tubercle", (1362, 942), [(1068, 944, 1238, 974)]),
+    ("Vagina — longitudinal and transverse folds", (1373, 822), [(1228, 806, 1307, 839)]),
+    ("Vestibule — no mucosal folds", (1418, 960), [(1513, 918, 1615, 952)]),
+    ("Urethral tubercle — ridge; the external urethral orifice is ventral to it", (1362, 942), [(1068, 944, 1238, 974)]),
     ("External urethral orifice", (1398, 905), [(1463, 870, 1704, 900)]),
     ("Vestibular bulb", (1326, 922), [(1110, 898, 1268, 929)]),
-    ("Constrictor vestibuli", (1308, 1005), [(1128, 988, 1248, 1044)]),
+    ("Constrictor vestibuli — not identified in lab", (1308, 1005), [(1128, 988, 1248, 1044)]),
     ("Clitoris", (1402, 1033), [(1444, 1031, 1522, 1062)]),
-    ("Fossa clitoridis", (1398, 1068), [(1442, 1065, 1602, 1096)]),
+    ("Fossa clitoridis — holds the glans of the clitoris", (1398, 1068), [(1442, 1065, 1602, 1096)]),
     ("Labium (lip of the vulva)", (1336, 1068), [(1234, 1066, 1318, 1096)]),
     ("Ureter", (1290, 455), [(1310, 438, 1382, 468)]),
     ("Urinary bladder", (1298, 570), [(1166, 553, 1252, 584)]),
@@ -194,9 +198,9 @@ cards.append(c19([
 ], 'l24lab_ventral', "Urogenital system · ventral view: tract & ligaments", "Dog on its back, cranial = top. Tract and ligaments first, then landmarks."))
 cards.append(c19([
     ("Aorta", 'aorta'), ("Caudal vena cava", 'cvc'), ("Phrenicoabdominal artery and vein", 'phren'),
-    ("Renal artery and vein", 'renal'), ("Cranial ureteral artery", 'curet'), ("Ovarian artery and vein", 'ova'),
+    ("Renal artery and vein", 'renal'), ("Cranial ureteral artery", 'curet'), ("Ovarian artery and vein — artery is a direct branch of the aorta; left vein drains to the left renal vein, right to the caudal vena cava", 'ova'),
     ("Uterine branch of the ovarian artery and vein", 'utbr'), ("Deep circumflex iliac artery and vein", 'dci'),
-    ("External iliac artery", 'ext'), ("Uterine artery and vein", 'uta'),
+    ("External iliac artery", 'ext'), ("Uterine artery and vein — artery comes off the vaginal artery and anastomoses with the uterine branch of the ovarian artery", 'uta'),
 ], 'l24lab_ventral', "Urogenital system · ventral view: vessels", "Same view. Aorta and caudal vena cava first, then cranial to caudal."))
 
 # Slide 20: lymphatics (numbers from the slide legend; letters have no legend, so they are only erased)
@@ -205,16 +209,16 @@ LETTERS = [(1005, 368, 1042, 400), (1196, 305, 1222, 336), (1143, 375, 1170, 406
            (1724, 510, 1753, 536), (1827, 485, 1864, 513), (1894, 483, 1922, 516), (1963, 489, 1997, 523), (1417, 600, 1447, 633),
            (1539, 651, 1567, 679), (1555, 620, 1585, 652)]
 cards.append(card(20, 'l24lab_lymph', (965, 265, 2000, 840), [
-    ("Lumbar aortic lymph node (2)", (1190, 470), []),
-    ("Lumbar aortic lymph node (3)", (1084, 479), [(1058, 483, 1084, 508, 'i'), (1168, 441, 1185, 462, 'i')]),
-    ("Medial iliac lymph node", (1295, 447), [(1254, 408, 1280, 442, 'i')]),
-    ("Hypogastric lymph node", (1515, 470), [(1497, 436, 1527, 471, 'i')]),
+    ("Lumbar aortic lymph node (2) — ovary and uterus; not identified in lab", (1190, 470), []),
+    ("Lumbar aortic lymph node (3) — not identified in lab", (1084, 479), [(1058, 483, 1084, 508, 'i'), (1168, 441, 1185, 462, 'i')]),
+    ("Medial iliac lymph node — internal structures; identified in lab", (1295, 447), [(1254, 408, 1280, 442, 'i')]),
+    ("Hypogastric lymph node — vagina and vestibule", (1515, 470), [(1497, 436, 1527, 471, 'i')]),
     ("Lateral sacral lymph node", (1648, 420), [(1617, 421, 1646, 453, 'i')]),
-    ("Superficial inguinal lymph nodes", (1700, 578), [(1657, 552, 1684, 585, 'i')]),
-    ("Lymph vessel bending over to the other surface of the uterine horn", (1415, 545), [(1395, 511, 1421, 539, 'i')]),
+    ("Superficial inguinal lymph nodes — vulva and clitoris; identified in lab", (1700, 578), [(1657, 552, 1684, 585, 'i')]),
+    ("Lymph vessel bending over to the other surface of the uterine horn", (1436, 528), [(1395, 511, 1421, 539, 'i')]),
 ], "Lymphatics · lateral view (cranial = left)", "Blue = lymph vessels and nodes. Name each node, then say what drains to it.",
    extra=[b + ('i',) for b in LETTERS] + [(940, 560, 1092, 840, 'f')], grain=10))
 
 T.write('gross-anatomy-l24-labels.html', 'Label It · Female Reproductive',
-        'Lecture 24 · dog slides with labels hidden · built from the slides before lecture, check names after', cards, texts=[])
+        'Lecture 24 · dog slides with labels hidden · tap to reveal in order', cards, texts=[])
 print('ok', len(cards), sum(len(c['labels']) for c in cards))

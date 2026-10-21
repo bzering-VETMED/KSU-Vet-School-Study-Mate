@@ -4,7 +4,8 @@
 import cv2, sys, os, subprocess, numpy as np
 sys.path.insert(0, os.path.dirname(__file__)); import tracer as T
 pdf = sys.argv[1]; TMP = '/tmp/claude-0/l23lab'; os.makedirs(TMP, exist_ok=True)
-NOT_YET = ' (slides; lecture finishes today)'
+SEP = ' — '  # text after SEP is a lecture note: shown in the reveal list, kept off the badge on the image
+lab = lambda n, p: dict(n=n, p=p, s=n.split(SEP)[0]) if SEP in n else dict(n=n, p=p)
 
 def page_png(n):
     out = f'{TMP}/p{n}'
@@ -91,7 +92,7 @@ def card(n, out, crop, labels, title, hint, extra=(), white=(), mode='w', thr=16
         if a == 'C' or b[2] - b[0] < 60: return b
         a = a if a != 'auto' else ('L' if (b[0] + b[2]) / 2 > (X0 + X1) / 2 else 'R')
         return (b[0], b[1], b[0] + 36, b[3]) if a == 'L' else (b[2] - 36, b[1], b[2], b[3])
-    return dict(title=title, q=hint, img=f'assets/{out}.jpg', labels=[dict(n=lab[0], p=T.pos(sh(spot(lab[1])), H, W)) for lab in labels])
+    return dict(title=title, q=hint, img=f'assets/{out}.jpg', labels=[lab(l[0], T.pos(sh(spot(l[1])), H, W)) for l in labels])
 
 L = lambda name, box, mode=None, anchor=None: (name, box, mode, anchor)
 cards = []
@@ -144,17 +145,17 @@ cards.append(card(19, 'l23lab_penis', (905, 175, 1995, 1000), [
     L("Ductus deferens", (911, 647, 1115, 678)),
     L("Prostate", (1358, 259, 1466, 290), None, 'C'),
     L("Pelvic urethra", (1478, 302, 1650, 333), None, 'C'),
-    L("Ischiocavernosus muscle", (1694, 314, 1910, 375)),
-    L("Retractor penis muscle", (1751, 392, 1942, 454)),
-    L("Bulbospongiosus muscle", (1745, 472, 1959, 534)),
-    L("Bulb of the penis", (1726, 551, 1890, 587)),
-    L("Corpus cavernosum", (1338, 565, 1495, 627), 'i'),
-    L("Corpus spongiosum", (1650, 636, 1897, 673)),
-    L("Urethra", (1579, 712, 1677, 743)),
-    L("Os penis", (1325, 653, 1441, 690), 'i'),
-    L("Bulbus glandis", (1466, 839, 1650, 876)),
-    L("Pars longa glandis", (936, 855, 1168, 892)),
-], "Penis · root, body, glans" + NOT_YET, "Lateral view, cranial = left, penis curves cranially under the pelvis. Bladder → root → body → glans."))
+    L("Ischiocavernosus muscle — surrounds the crus; arises from the ischiatic tuberosity", (1694, 314, 1910, 375)),
+    L("Retractor penis muscle — runs over the bulb and makes it look partially bilobed", (1751, 392, 1942, 454)),
+    L("Bulbospongiosus muscle — covers the bulb of the penis", (1745, 472, 1959, 534)),
+    L("Bulb of the penis — lies between the crura; made of corpus spongiosum", (1726, 551, 1890, 587)),
+    L("Corpus cavernosum — erectile tissue of the crura (erectile tissue number one)", (1338, 565, 1495, 627), 'i'),
+    L("Corpus spongiosum — erectile tissue of the bulb; always surrounds the urethra", (1650, 636, 1897, 673)),
+    L("Urethra — penile urethra: the pelvic urethra continues into the bulb", (1579, 712, 1677, 743)),
+    L("Os penis — ossified corpus cavernosum in the glans", (1325, 653, 1441, 690), 'i'),
+    L("Bulbus glandis — barrel-shaped; responsible for the tie or lock", (1466, 839, 1650, 876)),
+    L("Pars longa glandis — the elongated part of the glans", (936, 855, 1168, 892)),
+], "Penis · root, body, glans", "Lateral view, cranial = left, penis curves cranially under the pelvis. Bladder → root → body → glans."))
 
 # Slide 21 · perineal muscles (A superficial caudal view, B deeper, pelvis cut)
 cards.append(card(21, 'l23lab_perineum', (650, 445, 1985, 1090), [
@@ -163,7 +164,7 @@ cards.append(card(21, 'l23lab_perineum', (650, 445, 1985, 1090), [
     L("Levator ani", (1111, 635, 1255, 666)),
     L("External anal sphincter", (1003, 704, 1289, 740)),
     L("Internal obturator", (1125, 759, 1341, 791)),
-    L("Ischiourethralis", (1143, 847, 1334, 879)),
+    L("Ischiourethralis — small; not identified in lab", (1143, 847, 1334, 879)),
     L("Ischiocavernosus", (1130, 900, 1348, 931)),
     L("Bulbospongiosus", (1129, 948, 1344, 985)),
     L("Retractor penis", (1143, 992, 1335, 1028)),
@@ -172,7 +173,7 @@ cards.append(card(21, 'l23lab_perineum', (650, 445, 1985, 1090), [
     L("Ischiatic tuber", (1797, 948, 1974, 980)),
     L("Urethra (in the bulb, B)", (1742, 991, 1842, 1022)),
     L("Bulb of the penis", (1710, 1038, 1876, 1074)),
-], "Perineum · root of the penis" + NOT_YET, "Caudal views. A = superficial (tail up, anus hooked); B = deeper, with the root cut across. Leader lines from the middle labels hit both A and B.",
+], "Perineum · root of the penis", "Caudal views. A = superficial (tail up, anus hooked); B = deeper, with the root cut across. Leader lines from the middle labels hit both A and B.",
    white=[(650, 440, 848, 462)], anchor='L'))
 
 # Slide 24 · longitudinal section
@@ -183,12 +184,12 @@ cards.append(card(24, 'l23lab_longsec', (860, 0, 1995, 490), [
     L("Retractor penis", (1152, 117, 1343, 153)),
     L("Corpus spongiosum penis", (1177, 154, 1498, 192)),
     L("Corpus cavernosum penis", (1254, 193, 1578, 229)),
-    L("Bulbus glandis", (1337, 231, 1521, 268)),
+    L("Bulbus glandis — responsible for the tie or lock; covers the proximal os penis", (1337, 231, 1521, 268)),
     L("Prepuce", (1481, 270, 1590, 307)),
     L("Pars longa glandis", (1596, 325, 1827, 362)),
     L("Os penis", (1661, 364, 1776, 401)),
     L("Fibrocartilaginous end of the os penis", (1687, 408, 1910, 475)),
-], "Penis · longitudinal section" + NOT_YET, "Bulb (top left) to tip (right). Letters A–E mark where the cross-sections on the next cards are cut.",
+], "Penis · longitudinal section", "Bulb (top left) to tip (right). Letters A–E mark where the cross-sections on the next cards are cut.",
    white=[(855, 66, 896, 160)], anchor='L'))
 
 # Slide 24 · cross-sections A + B (root)
@@ -204,7 +205,7 @@ cards.append(card(24, 'l23lab_xsecAB', (760, 500, 1380, 1126), [
     L("Corpus spongiosum", (1115, 987, 1364, 1024)),
     L("Bulbospongiosus", (1092, 1031, 1307, 1068)),
     L("Retractor penis", (1067, 1077, 1259, 1113)),
-], "Penis cross-sections A & B · root" + NOT_YET, "A = through the bulb; B = a bit further, where the crura appear. Dorsal = top.",
+], "Penis cross-sections A & B · root", "A = through the bulb; B = a bit further, where the crura appear. Dorsal = top.",
    white=[(755, 845, 802, 902)]))
 
 # Slide 24 · cross-sections C–E (body → glans)
@@ -221,7 +222,7 @@ cards.append(card(24, 'l23lab_xsecCE', (1405, 500, 2000, 1126), [
     L("Pars longa glandis", (1632, 1016, 1862, 1053)),
     L("Os penis", (1631, 1055, 1747, 1092)),
     L("Corpus spongiosum", (1631, 1096, 1880, 1126)),
-], "Penis cross-sections C–E · body → glans" + NOT_YET, "C = body; D = bulbus glandis; E = pars longa glandis. Dorsal = top."))
+], "Penis cross-sections C–E · body → glans", "C = body; D = bulbus glandis; E = pars longa glandis. Dorsal = top."))
 
 # Slide 26 · os penis
 cards.append(card(26, 'l23lab_ospenis', (240, 280, 1990, 1090), [
@@ -229,17 +230,17 @@ cards.append(card(26, 'l23lab_ospenis', (240, 280, 1990, 1090), [
     L("Body", (743, 841, 881, 906)),
     L("Apex", (385, 851, 523, 915)),
     L("Fibrocartilage (fibrocartilaginous tip)", (244, 595, 598, 662)),
-    L("Urethral groove", (1376, 929, 1587, 1061)),
-], "Os penis" + NOT_YET, "Lateral view, tip (distal) = left. Two cross-sections on the right show which surface the groove is on.",
+    L("Urethral groove — on the ventral surface; the penile urethra runs in it", (1376, 929, 1587, 1061)),
+], "Os penis", "Lateral view, tip (distal) = left. Two cross-sections on the right show which surface the groove is on.",
    white=[(240, 280, 1012, 500)], anchor='C'))
 
 # Slide 28 · penis muscles a–d (legend a–d on slide; every other letter/number erased)
 cards.append(card(28, 'l23lab_muscles', (1290, 70, 1995, 955), [
-    L("Bulbospongiosus", (1543, 523, 1566, 547)),
-    L("Ischiocavernosus", (1658, 536, 1683, 563)),
-    L("Retractor penis", (1576, 562, 1601, 589)),
-    L("Ischiourethralis", (1659, 489, 1686, 515)),
-], "Penis muscles (a–d)" + NOT_YET, "Caudal view of the perineum, tail up, anus in the middle. Only the 4 penis muscles get badges.",
+    L("Bulbospongiosus — letter a; surrounds the bulb, arises from the external anal sphincter", (1543, 523, 1566, 547)),
+    L("Ischiocavernosus — letter b; encloses the crura (lecture audio said letter d; the slide legend says b)", (1658, 536, 1683, 563)),
+    L("Retractor penis — letter c; midline, mainly smooth muscle", (1576, 562, 1601, 589)),
+    L("Ischiourethralis — letter d; ring around the dorsal vein of the penis; not identified in lab", (1659, 489, 1686, 515)),
+], "Penis muscles (a–d)", "Caudal view of the perineum, tail up, anus in the middle. Only the 4 penis muscles get badges. Lab: find ischiocavernosus, bulbospongiosus, retractor penis.",
    extra=[(1506, 490, 1533, 516), (1609, 525, 1633, 551), (1493, 536, 1519, 563), (1500, 677, 1530, 702), (1530, 683, 1566, 702),
           (1500, 752, 1527, 775), (1527, 757, 1566, 772), (1476, 717, 1501, 748), (1543, 724, 1562, 748),
           (1588, 268, 1612, 298), (1518, 312, 1544, 340), (1529, 340, 1554, 365), (1559, 364, 1588, 386), (1472, 338, 1497, 366),
@@ -254,40 +255,40 @@ cards.append(card(31, 'l23lab_prost_dorsal', (1185, 150, 1985, 1100), [
     L("Ductus deferens", (1801, 315, 1956, 402)),
     L("Bladder", (1750, 468, 1893, 507)),
     L("Genital fold", (1683, 577, 1885, 617)),
-    L("Prostate", (1597, 839, 1749, 878)),
+    L("Prostate — completely surrounds the urethra at the bladder neck; dorsal surface covered by peritoneum", (1597, 839, 1749, 878)),
     L("Urethral muscle", (1518, 961, 1793, 1003)),
     L("Urethra", (1516, 1048, 1652, 1088)),
-], "Prostate · dorsal view" + NOT_YET, "Dorsal view, cranial = top. Follow the two ductus deferens down to the prostate.", mode='i', thr=150,
+], "Prostate · dorsal view", "Dorsal view, cranial = top. Follow the two ductus deferens down to the prostate.", mode='i', thr=150,
    white=[(1185, 140, 1335, 172)], anchor='L'))
 
 # Slide 32 · prostate opened, ventral view
 cards.append(card(32, 'l23lab_prost_ventral', (1150, 195, 1990, 1100), [
     L("Ureteral orifice", (1558, 637, 1806, 675)),
-    L("Orifices of the deferent ducts", (1555, 717, 1801, 799)),
+    L("Orifices of the deferent ducts — open on either side of the colliculus seminalis", (1555, 717, 1801, 799)),
     L("Trigone", (1846, 701, 1979, 745)),
-    L("Colliculus seminalis", (1552, 837, 1722, 919)),
+    L("Colliculus seminalis — hillock continuing the urethral crest; ductus deferens and prostate empty here", (1552, 837, 1722, 919)),
     L("Urethral muscle", (1492, 961, 1758, 1001)),
     L("Urethra", (1474, 1045, 1603, 1084)),
-], "Prostate · opened, ventral view" + NOT_YET, "Bladder and urethra slit open from the ventral side, cranial = top. What sits on the hillock?", mode='i', thr=150,
+], "Prostate · opened, ventral view", "Bladder and urethra slit open from the ventral side, cranial = top. What sits on the hillock?", mode='i', thr=150,
    white=[(1148, 680, 1188, 752)], anchor='L'))
 
 # Slide 34 · blood supply of the penis
 cards.append(card(34, 'l23lab_penis_vessels', (325, 190, 1680, 1100), [
     L("Internal pudendal artery and vein", (659, 209, 945, 293)),
-    L("Ventral perineal artery and vein", (480, 341, 742, 427)),
-    L("Artery of the penis", (1260, 300, 1503, 344)),
+    L("Ventral perineal artery and vein — last branch before the internal pudendal becomes the artery of the penis", (480, 341, 742, 427)),
+    L("Artery of the penis — splits into three: dorsal, deep, and bulb arteries", (1260, 300, 1503, 344)),
     L("Artery and vein of the bulbus penis", (1265, 435, 1518, 520)),
     L("Deep artery and vein of the penis", (408, 521, 676, 607)),
-    L("Dorsal artery and vein of the penis", (1225, 618, 1508, 703)),
+    L("Dorsal artery and vein of the penis — on the dorsal surface, outside the erectile tissue", (1225, 618, 1508, 703)),
     L("Anastomosis of the deep artery of the penis and the artery of the bulb", (330, 862, 780, 948)),
-    L("Artery of the bulb", (1390, 1034, 1613, 1076)),
-    L("Deep artery of the penis", (1390, 872, 1589, 958)),
+    L("Artery of the bulb — runs in the corpus spongiosum", (1390, 1034, 1613, 1076)),
+    L("Deep artery of the penis — runs in the corpus cavernosum", (1390, 872, 1589, 958)),
     L("Urethra", (1256, 372, 1386, 410)),
     L("Urethra", (1390, 975, 1520, 1013)),
     L("Bulbus penis", (481, 751, 697, 796)),
     L("Corpus cavernosum penis", (1248, 742, 1678, 787)),
     L("Corpus spongiosum penis", (434, 989, 862, 1035)),
-], "Blood supply · penis" + NOT_YET, "Root of the penis from the side, cut across at the bottom right. Internal pudendal → artery of the penis → its 3 branches."))
+], "Blood supply · penis", "Root of the penis from the side, cut across at the bottom right. Internal pudendal → artery of the penis → its 3 branches."))
 
 # Slide 35 · testicular veins (kidneys & adrenals, ventral view)
 cards.append(card(35, 'l23lab_testic_veins', (405, 250, 1660, 990), [
@@ -295,16 +296,16 @@ cards.append(card(35, 'l23lab_testic_veins', (405, 250, 1660, 990), [
     L("Caudal vena cava", (536, 257, 765, 288)),
     L("Renal artery", (1403, 675, 1559, 710)),
     L("Renal vein", (409, 700, 546, 731)),
-    L("Left kidney", (1403, 764, 1548, 799)),
+    L("Left kidney — more caudal than the right", (1403, 764, 1548, 799)),
     L("Ureter", (613, 792, 699, 822)),
     L("Adrenal gland (right)", (516, 304, 697, 340)),
     L("Adrenal gland (left)", (1176, 423, 1355, 459)),
-    L("Common trunk: caudal phrenic artery, cranial abdominal artery", (1350, 471, 1641, 571)),
+    L("Common trunk — caudal phrenic artery and cranial abdominal artery", (1350, 471, 1641, 571)),
     L("1st lumbar transverse process", (1179, 274, 1420, 341)),
     L("4th lumbar vertebra", (540, 857, 793, 887)),
     L("Right testicular vein → caudal vena cava", (626, 921, 810, 952)),
     L("Left testicular vein → left renal vein", (1049, 941, 1232, 971)),
-], "Blood supply · testicular veins" + NOT_YET, "Ventral view: the dog's right is on YOUR left. Where does each testicular vein drain?"))
+], "Blood supply · testicular veins", "Ventral view: the dog's right is on YOUR left. Where does each testicular vein drain?"))
 
 T.write('gross-anatomy-l23-labels.html', 'Label It · Male Reproductive',
         'Lecture 23 · slide figures with every label hidden · tap to reveal in order', cards, [])
