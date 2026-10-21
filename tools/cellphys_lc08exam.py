@@ -52,15 +52,57 @@ Q = [
   'pH << pKa → protonated; for a base, protonated = charged → can\'t cross back → trapped and excreted. Outside the slides: this is why urine pH is manipulated in some toxicities.', 'LC08 slides "Ion Trapping" + "Body Compartments & Drugs"', True, ''),
 ]
 
+FL23 = 'Body fluids and pH: Plasma 7.4 · Bile 6.5 · Pancreatic secretions 7.8 · Milk 6.6 · Stomach 1.5 · Cytosolic fluid 7.2 · Urine 4.5 · Semen 7.9 · Small intestine 7.0'
+FL24 = 'Body fluids and pH: Plasma 7.4 · Bile 6.5 · Pancreatic secretions 7.8 · Milk 6.8 · Stomach 1.5 · Cytosolic fluid 7.2 · Urine 4.5 · Semen 7.9 · Small intestine 7.0'
+HEM = 'g-Coniceine is one of the primary toxic alkaloids in poisonous hemlock. Assume its pKa is 9.4 and that the PROTONATED form is uncharged (neutral). Serum concentration in a rabbit: 24 nM. Serum pH = 7.4; urine pH = 12.4.'
+# (sec, n, stem, opts, ans, why, multi, ctx, img)
+REAL = [
+ ('Schultz 2023 Exam 2', 3, 'In the carbonic acid reaction: H⁺ + HCO₃⁻ ⇌ H₂CO₃ ⇌ H₂O + CO₂, which component is an acid? (select one correct response)', ['H⁺', 'HCO₃⁻', 'H₂CO₃', 'H₂O', 'CO₂'], 'c',
+  'An acid DONATES a proton. Carbonic acid (H₂CO₃) gives up H⁺ to become bicarbonate. H⁺ is the proton itself; bicarbonate is the conjugate base.', False, '', []),
+ ('Schultz 2023 Exam 2', 5, 'You administer a drug that is a weak acid with a pKa of 6.5. The drug distributes to fluids throughout the body and reaches equilibrium distribution. Select two fluids (or body compartments) from the list that would have the highest concentrations of this drug. (select two correct responses)', ['Pancreatic secretions', 'Semen', 'Small intestine', 'Stomach', 'Urine'], 'ab',
+  'Weak acids are trapped (ionized) on the ALKALINE side. The two most alkaline fluids are semen (7.9) and pancreatic secretions (7.8). Stomach and urine are the trap: that is where weak BASES collect.', True, FL23, []),
+ ('Schultz 2023 Exam 2', 6, 'In which fluid or body compartment would there be equal concentrations of the charged and uncharged (ionized and neutral) forms of the drug? (select one correct response)', ['Bile', 'Cytosolic fluid', 'Plasma', 'Small intestine', 'Stomach'], 'a',
+  'Charged = uncharged when pH = pKa. pKa 6.5 → bile (pH 6.5).', False, FL23, []),
+ ('Schultz 2023 Exam 2', 52, 'Calculate the pH of a solution containing the equivalent of 0.2 millimoles per liter of H₂SO₄. Assume complete dissociation: H₂SO₄ + 2 H₂O ⇒ SO₄²⁻ + 2 H₃O⁺', [], '',
+  'Each H₂SO₄ gives TWO H⁺ → [H⁺] = 0.4 mM = 4 × 10⁻⁴ M. pH = −log(4 × 10⁻⁴) ≈ 3.4. Trap: forgetting the ×2 gives 3.7.', False, '', []),
+ ('Schultz 2023 Exam 2', 55, 'In the extracellular fluid of the body (e.g., serum), is a greater proportion of the g-coniceine in the uncharged acid form or in the ionized base form?', ['Acid', 'Base'], 'a',
+  'Serum pH 7.4 is BELOW pKa 9.4 → mostly protonated = the uncharged acid form.', False, HEM, []),
+ ('Schultz 2023 Exam 2', 56, 'What is the ratio of base to acid in the serum?', [], '',
+  '10^(pH − pKa) = 10^(7.4 − 9.4) = 10⁻² = 0.01 (1 base : 100 acid).', False, HEM, []),
+ ('Schultz 2023 Exam 2', 57, 'In the rabbit\'s urine, is a greater proportion of the g-coniceine in the uncharged acid form or in the ionized base form?', ['Acid', 'Base'], 'b',
+  'Urine pH 12.4 is ABOVE pKa 9.4 → mostly deprotonated = the ionized base form (trapped in urine).', False, HEM, []),
+ ('Schultz 2023 Exam 2', 58, 'What is the ratio of base to acid in urine?', [], '',
+  '10^(12.4 − 9.4) = 10³ = 1,000 (1,000 base : 1 acid).', False, HEM, []),
+ ('Schultz 2024 Exam 2', 9, 'What is the pH of a 1 mM (10⁻³ M) solution of HBr, a strong acid? (select one correct response)', ['1.0', '2.0', '3.0', '4.0', '5.0'], 'c',
+  'Strong acid fully dissociates → [H⁺] = 10⁻³ M → pH 3.', False, '', []),
+ ('Schultz 2024 Exam 2', 12, 'Aspirin (3.5) and phenytoin (8.4) are weak acids with pKa\'s of 3.5 and 8.4, respectively. Lignocaine (7.9) and methyldopa (10.6) are weak bases with pKa\'s of 7.9 and 10.6, respectively. Which response correctly indicates the compounds that will be more than 50% ionized in typical plasma? (select one correct response)', ['Aspirin, lignocaine and methyldopa, but not phenytoin', 'Aspirin and phenytoin, but not lignocaine or methyldopa', 'Aspirin, but not phenytoin, lignocaine or methyldopa', 'Lignocaine and methyldopa, but not aspirin or phenytoin', 'Phenytoin, lignocaine and methyldopa, but not aspirin'], 'a',
+  'Plasma pH 7.4. Weak ACID ionized when pH > pKa → aspirin yes, phenytoin no. Weak BASE ionized when pH < pKa → lignocaine (7.9) yes, methyldopa (10.6) yes.', False, '', []),
+ ('Schultz 2024 Exam 2', 13, 'You administer a drug orally that is a weak base with a pKa of 6.8. The base form of the drug has a logP of 2.5 (P = 300). The drug distributes to fluids throughout the body and reaches equilibrium distribution. Which fluids from the list would have the highest concentrations of this drug at equilibrium? (select one correct response)', ['Milk', 'Plasma', 'Semen and pancreatic secretions', 'Small intestine', 'Stomach and urine'], 'e',
+  'Weak BASES are trapped (protonated = charged) on the ACIDIC side → stomach (1.5) and urine (4.5). Semen/pancreatic is the weak-acid answer.', False, FL24, []),
+ ('Schultz 2024 Exam 2', 14, 'In which body compartment would there be equal concentrations of the charged and uncharged (ionized and neutral) forms of the drug? (select one correct response)', ['Cytosolic fluid', 'Milk', 'Plasma', 'Small intestine', 'Stomach'], 'b',
+  'pH = pKa (6.8) → milk (6.8 on this year\'s list). Note milk was 6.6 on the 2023 list — read the table each time.', False, FL24, []),
+ ('Schultz 2025 Exam 2', 4, 'A system shown in class has two aqueous volumes separated by a thin organic layer. A weak acid, WA (pKa = 5.3), is added to the upper chamber and the protonated form has a logP = 1.2. What pH of the upper chamber will maximize the rate at which WA appears in the lower chamber? (select one correct response)', ['10^(1.2)', '3.0', '5.3', '7.4', '9.0'], 'b',
+  'Only the uncharged form crosses. For a weak ACID, that is the protonated form, maximized at LOW pH (below pKa) → 3.0. 5.3 gives only 50% uncharged.', False, '', ['e2_25_image1']),
+ ('Schultz 2025 Exam 2', 5, 'Same system. A weak base, WB (pKa = 8.3), is added to the upper chamber and the neutral (deprotonated) form has a logP = 0.6. What pH of the upper chamber will maximize the rate at which WB appears in the lower chamber (first answer), and to what pH should the upper chamber be adjusted to end (at equilibrium) with the same concentration of WB in both aqueous compartments (second answer)? (select one correct response)', ['10^(0.6) · 8.3', '6.0 · 7.2', '6.0 · 8.3', '9.0 · 7.2', '9.0 · 8.3'], 'd',
+  'Rate: a weak BASE is uncharged when deprotonated → HIGH pH (9.0). Equal totals at equilibrium: no ion trapping only when BOTH chambers have the SAME pH — not pH = pKa (that trap only makes charged = uncharged within one chamber). 7.2 assumes the lower chamber is at 7.2.', False, '', ['e2_25_image1']),
+ ('Schultz 2025 Exam 2', 15, 'Aspirin (3.5) and pentobarbital (8.1) are weak acids with pKa\'s of 3.5 and 8.1, respectively. Amiodarone (6.6) and atropine (9.7) are weak bases with pKa\'s of 6.6 and 9.7, respectively. Which response correctly indicates the compounds that will be more than 50% ionized in typical plasma? (select one correct response)', ['Amiodarone and aspirin, but not atropine or pentobarbital', 'Amiodarone and atropine, but not aspirin or pentobarbital', 'Amiodarone, atropine and pentobarbital, but not aspirin', 'Aspirin and atropine, but not amiodarone or pentobarbital', 'Aspirin, but not amiodarone, atropine or pentobarbital'], 'd',
+  'Plasma 7.4. Acids ionized if pKa < 7.4 → aspirin yes, pentobarbital (8.1) no. Bases ionized if pKa > 7.4 → atropine (9.7) yes, amiodarone (6.6) no.', False, '', []),
+]
+FLAGS = {('Schultz 2025 Exam 2', 5): 'The exam stem does not state the lower chamber pH; 7.2 is the only second answer that is not the pH = pKa trap. Confirm with Dr. Schultz.'}
+
 def build_lc08exam(HUB, V):
     qs = []
+    for sec, n, stem, opts, ans, why, multi, ctx, img in REAL:
+        a = {'ans': list(ans), 'why': why, 'cite': 'LC08 slides "Ion Trapping", "pH & Permeability", "Body Compartments & Drugs"', 'conf': 'likely' if (sec, n) in FLAGS else 'sure', 'scope': 'in'}
+        if (sec, n) in FLAGS: a['flag'] = FLAGS[(sec, n)]
+        qs.append({'sec': sec + ' (real exam)', 'n': n, 'stem': stem, 'opts': [[l, t] for l, t in zip('abcde', opts)], 'multi': multi, 'ctx': ctx, 'img': img, 'a': a})
     for i, (stem, opts, ans, why, cite, multi, ctx) in enumerate(Q, 1):
         L = 'abcde'[:len(opts)]
         qs.append({'sec': SEC, 'n': i, 'stem': stem, 'opts': [[l, t] for l, t in zip(L, opts)], 'multi': multi, 'ctx': ctx, 'img': [],
                    'a': {'ans': list(ans), 'why': why, 'cite': cite, 'conf': 'sure', 'scope': 'in'}})
     cs = [card(q) for q in qs]; cs[0] = cs[0].replace('class="card"', 'class="card on"', 1)
-    out = deck.page('LC08 practice exam · Acids, bases & ion trapping', f'{len(cs)} Schultz-style questions written from the LC08 slides · read every option · show your math', ''.join(cs), back=HUB)
+    out = deck.page('LC08 practice exam · Acids, bases & ion trapping', f'{len(REAL)} real questions from Schultz\'s 2023–2025 Exam 2s first, then {len(Q)} written from the LC08 slides · show your math', ''.join(cs), back=HUB)
     out = re.sub(r'← Back to [^<]+', '← Back to Cell Physiology', out, count=1).replace('</style>', XCSS + '</style>', 1).replace('</body>', _copyjs() + '</body>')
     open(FN, 'w').write(out)
     print('lc08 practice', len(cs))
-    return f'<a class="tile" href="{FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">🧪</div><h2>LC08 practice exam</h2><p>Acids, bases &amp; ion trapping · {len(cs)} Schultz-style questions · calculations + select-all</p></a>'
+    return f'<a class="tile" href="{FN}?v={V}" style="border:3px solid #d94f7f"><div class="emoji">🧪</div><h2>LC08 practice exam</h2><p>Acids, bases &amp; ion trapping · {len(REAL)} real old-exam Qs + {len(Q)} practice · calculations + select-all</p></a>'
