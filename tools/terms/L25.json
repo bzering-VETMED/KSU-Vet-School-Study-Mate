@@ -1,0 +1,572 @@
+{
+ "sections": [
+  {
+   "title": "⚪ Opacities & taking the radiograph",
+   "items": [
+    {
+     "q": "Opacities, least → most opaque?",
+     "a": "Gas, fat, soft tissue (= fluid), mineral, metal",
+     "star": true,
+     "why": "Opening review question"
+    },
+    {
+     "q": "Gas appears?",
+     "a": "Black"
+    },
+    {
+     "q": "Fat appears?",
+     "a": "Darker gray"
+    },
+    {
+     "q": "Soft tissue vs fluid opacity?",
+     "a": "Same opacity — medium gray",
+     "star": true,
+     "why": "Fluid = soft tissue → border effacement"
+    },
+    {
+     "q": "Iodine and barium contrast are which opacity?",
+     "a": "Metal (very white)"
+    },
+    {
+     "q": "Abdominal radiographs are taken at?",
+     "a": "End of expiration — minimizes motion blur",
+     "star": true,
+     "why": "Abdomen = breathe OUT; thorax = peak inspiration"
+    },
+    {
+     "q": "Thoracic radiographs are taken at?",
+     "a": "Peak inspiration (fill lungs with gas)"
+    },
+    {
+     "q": "Pelvic limbs positioned?",
+     "a": "Extended caudally, out of the abdomen"
+    },
+    {
+     "q": "Boundaries of an abdominal radiograph?",
+     "a": "Diaphragm to the coxofemoral joints"
+    },
+    {
+     "q": "Why two views (orthogonal)?",
+     "a": "3-D object squished to 2-D; need both to localize"
+    },
+    {
+     "q": "Standard views at K-State?",
+     "a": "Left lateral, right lateral, ventrodorsal",
+     "star": true,
+     "why": "3 standard views"
+    },
+    {
+     "q": "Why take both laterals?",
+     "a": "Different structures fill with gas on each side (e.g., pylorus/duodenum on left lateral)"
+    }
+   ]
+  },
+  {
+   "title": "📸 Optional views & indications",
+   "items": [
+    {
+     "q": "Compression view?",
+     "a": "Wooden spoon presses the abdomen — reduces superimposition over an area of interest",
+     "star": true,
+     "why": "Review Q: small kidney hidden by gut → compression view"
+    },
+    {
+     "q": "Pneumogastrogram?",
+     "a": "Air into the stomach via orogastric tube — distends it to find foreign material/mass"
+    },
+    {
+     "q": "Pneumocolonogram?",
+     "a": "Air into the colon via red rubber catheter — tells colon from small intestine"
+    },
+    {
+     "q": "Lateral with pelvic limbs pulled forward (perineal view)?",
+     "a": "Visualizes the region of the urethra — urinary stones",
+     "star": true,
+     "why": "Removes femur/fabella superimposition"
+    },
+    {
+     "q": "Horizontal beam radiography?",
+     "a": "Beam shot across the patient — highlights free gas",
+     "star": true,
+     "why": "Free abdominal gas = possible surgical emergency"
+    }
+   ]
+  },
+  {
+   "title": "🧭 Systematic approach",
+   "items": [
+    {
+     "q": "Her evaluation order?",
+     "a": "Extra-abdominal structures → serosal detail & contour → liver & spleen → urogenital → gastrointestinal tract",
+     "star": true,
+     "why": "Same way every time = 'physical exam of radiology'"
+    },
+    {
+     "q": "Why GI tract last?",
+     "a": "Most superimposition; and you'll stop looking once you find the foreign body"
+    },
+    {
+     "q": "Extra-abdominal structures include?",
+     "a": "Non-abdominal soft tissues, body wall, diaphragm, skeleton, thorax"
+    },
+    {
+     "q": "External structures mistaken for masses?",
+     "a": "Nipples, skin tags, masses, prepuce",
+     "star": true,
+     "why": "Prepuce is often mistaken for a mass"
+    },
+    {
+     "q": "Epaxial muscles location?",
+     "a": "Dorsal to the transverse processes",
+     "star": true,
+     "why": "Epaxial = dorsal; hypaxial = ventral"
+    },
+    {
+     "q": "Hypaxial muscles location?",
+     "a": "Ventral to the transverse processes"
+    },
+    {
+     "q": "Why identify lumbar muscles?",
+     "a": "They create confusing lines on radiographs"
+    },
+    {
+     "q": "Thoracic structures seen on an abdominal radiograph?",
+     "a": "Lungs, caudal vena cava, aorta, cardiac silhouette"
+    },
+    {
+     "q": "Review: lung lobe near the cardiac silhouette on right side?",
+     "a": "Right middle lung lobe (cardiac apex points left)"
+    },
+    {
+     "q": "Why trust but verify markers?",
+     "a": "Mislabeled sides can create false pathology / wrong-side surgery"
+    },
+    {
+     "q": "Why look at the body wall?",
+     "a": "Find herniation, especially after trauma or bite wounds"
+    }
+   ]
+  },
+  {
+   "title": "🫁 Diaphragm",
+   "items": [
+    {
+     "q": "Which side of the diaphragm is normally visible?",
+     "a": "Thoracic surface only (gas in lungs)",
+     "star": true,
+     "why": "Abdominal side border-effaces with the liver"
+    },
+    {
+     "q": "Border effacement?",
+     "a": "Two touching soft tissue structures can't be told apart"
+    },
+    {
+     "q": "Parts of the diaphragm seen?",
+     "a": "Cupola (dome), right crus, left crus"
+    },
+    {
+     "q": "When is the abdominal side of the diaphragm seen?",
+     "a": "Excessive falciform fat (normal variant) or peritoneal free gas (pathologic)",
+     "star": true,
+     "why": "Free gas = worry (e.g., ruptured bowel) unless post-surgery"
+    }
+   ]
+  },
+  {
+   "title": "🌫️ Serosal detail & contour",
+   "items": [
+    {
+     "q": "Abdominal contour?",
+     "a": "Shape of the abdomen — breed-related"
+    },
+    {
+     "q": "Greyhound contour?",
+     "a": "Tucked up"
+    },
+    {
+     "q": "English bulldog contour?",
+     "a": "Pendulous / potbelly — normal for them"
+    },
+    {
+     "q": "Serosal detail?",
+     "a": "Ability to see the serosal margins of abdominal organs"
+    },
+    {
+     "q": "Main natural contrast in the abdomen?",
+     "a": "Intra-abdominal (visceral) fat",
+     "star": true,
+     "why": "Thorax = gas; abdomen = fat"
+    },
+    {
+     "q": "Fatter animal → serosal detail?",
+     "a": "Better (usually)"
+    },
+    {
+     "q": "Causes of poor serosal detail?",
+     "a": "Emaciation, young age, peritoneal effusion, serosal disease, mass effect/organomegaly, technique/patient factors",
+     "star": true,
+     "why": "List of 6"
+    },
+    {
+     "q": "Why do puppies have poor detail?",
+     "a": "Brown fat — higher water content"
+    },
+    {
+     "q": "Serosal diseases that reduce detail?",
+     "a": "Peritonitis and carcinomatosis"
+    },
+    {
+     "q": "Carcinomatosis?",
+     "a": "Neoplasia spread throughout the peritoneal cavity"
+    },
+    {
+     "q": "Why do large dogs/horses have poor detail?",
+     "a": "More scatter of the x-ray beam"
+    }
+   ]
+  },
+  {
+   "title": "🟤 Liver & spleen",
+   "items": [
+    {
+     "q": "Liver borders?",
+     "a": "Cranial diaphragm; caudal stomach, right kidney, small intestine; lateral body wall; ventral falciform fat"
+    },
+    {
+     "q": "Easiest liver margin to see?",
+     "a": "Caudoventral margin",
+     "star": true,
+     "why": "Dog = LEFT lateral lobe; cat = RIGHT lateral lobe"
+    },
+    {
+     "q": "3 indicators of liver size?",
+     "a": "Gastric axis, shape of margins, caudal extent"
+    },
+    {
+     "q": "Gastric axis line?",
+     "a": "Fundus to pylorus"
+    },
+    {
+     "q": "Normal gastric axis?",
+     "a": "Between perpendicular to the spine and parallel to the ribs"
+    },
+    {
+     "q": "Normal caudal extent of the liver?",
+     "a": "Within or slightly past the costal arch"
+    },
+    {
+     "q": "Hepatomegaly signs?",
+     "a": "Extends well past the costal arch, rounded/lumpy margins, gastric axis displaced caudally"
+    },
+    {
+     "q": "Microhepatica sign?",
+     "a": "Gastric axis displaced cranially"
+    },
+    {
+     "q": "Splenic head location?",
+     "a": "Left cranial abdomen; immobile"
+    },
+    {
+     "q": "Splenic tail?",
+     "a": "Mobile"
+    },
+    {
+     "q": "Splenic tail on lateral: dog vs cat?",
+     "a": "Dog: usually visible ventrally; cat: usually not (smaller spleen)"
+    },
+    {
+     "q": "Why is spleen size variable?",
+     "a": "Hemodynamics, hydration, sedation"
+    },
+    {
+     "q": "Review: what connects the splenic head to the stomach?",
+     "a": "Gastrosplenic ligament (short gastric arteries run in it)",
+     "star": true,
+     "why": "Not the greater omentum — class missed it"
+    }
+   ]
+  },
+  {
+   "title": "🫘 Kidneys, retroperitoneum & bladder",
+   "items": [
+    {
+     "q": "Kidney location?",
+     "a": "Cranial and dorsal abdomen, retroperitoneal space"
+    },
+    {
+     "q": "Which kidney is more caudal?",
+     "a": "Left — 'left is left behind'; may be pendulous"
+    },
+    {
+     "q": "Dog vs cat kidney shape?",
+     "a": "Dog more elongate; cat more rounded"
+    },
+    {
+     "q": "Kidneys on the lateral view?",
+     "a": "Superimposed on each other; cranial pole of right kidney obscured"
+    },
+    {
+     "q": "Kidney harder to see?",
+     "a": "Right — superimposed; sits in the renal fossa of the caudate lobe of the liver"
+    },
+    {
+     "q": "Kidney size assessed on which view?",
+     "a": "Ventrodorsal"
+    },
+    {
+     "q": "Normal dog kidney length?",
+     "a": "2.5–3.5 × length of L2",
+     "star": true,
+     "why": "Memorization number"
+    },
+    {
+     "q": "Normal cat kidney length?",
+     "a": "2–3 × length of L2",
+     "star": true,
+     "why": "Memorization number"
+    },
+    {
+     "q": "Retroperitoneal structures normally seen?",
+     "a": "Lumbar muscles and kidneys"
+    },
+    {
+     "q": "Retroperitoneal structures occasionally seen?",
+     "a": "Blood vessels (aorta, deep circumflex iliac arteries)"
+    },
+    {
+     "q": "Retroperitoneal structures not normally seen?",
+     "a": "Ureters, adrenal glands, lymphatic vessels, lymph nodes"
+    },
+    {
+     "q": "Deep circumflex iliac arteries mistaken for?",
+     "a": "Lymph nodes — round dots because seen end-on"
+    },
+    {
+     "q": "Urinary bladder 3 regions?",
+     "a": "Apex, body, neck/trigone"
+    },
+    {
+     "q": "Bladder best evaluated on?",
+     "a": "Lateral — on ventrodorsal it's covered by pelvis, spine, colon"
+    }
+   ]
+  },
+  {
+   "title": "🍽️ Gastrointestinal tract",
+   "items": [
+    {
+     "q": "Positive contrast?",
+     "a": "Barium or iodine (white)"
+    },
+    {
+     "q": "Negative contrast?",
+     "a": "Gas (air)"
+    },
+    {
+     "q": "Dog stomach shape?",
+     "a": "Left body wall to right body wall"
+    },
+    {
+     "q": "Cat stomach shape?",
+     "a": "J-shaped, left cranial quadrant, pylorus on midline"
+    },
+    {
+     "q": "Stomach position?",
+     "a": "Caudal to liver; cranial to colon and small intestine"
+    },
+    {
+     "q": "4 regions of the stomach?",
+     "a": "Cardia, fundus, body, pylorus"
+    },
+    {
+     "q": "Right lateral: what fills with gas?",
+     "a": "Fundus (left-sided structure is up)",
+     "star": true,
+     "why": "Gas rises; fluid/barium sinks"
+    },
+    {
+     "q": "Left lateral: what fills with gas?",
+     "a": "Pylorus and duodenum (right-sided structures are up)",
+     "star": true,
+     "why": "Left lateral = pylorus gas"
+    },
+    {
+     "q": "Right lateral with barium: highlighted?",
+     "a": "Pylorus and duodenum (dependent side)"
+    },
+    {
+     "q": "Left lateral with barium: highlighted?",
+     "a": "Fundus"
+    },
+    {
+     "q": "Ventrodorsal: gas vs fluid?",
+     "a": "Fundus (dorsal) fills with fluid/barium; body & pylorus (ventral) fill with gas"
+    },
+    {
+     "q": "Dorsoventral: gas vs fluid?",
+     "a": "Fundus fills with gas; body & pylorus fill with fluid/barium"
+    },
+    {
+     "q": "Small intestine appearance?",
+     "a": "Tubular, uniform diameter, gas/fluid/mixed, smooth serosal margins, throughout the abdomen"
+    },
+    {
+     "q": "Fat cats: small intestine?",
+     "a": "May cluster in the right abdomen"
+    },
+    {
+     "q": "Can you measure intestinal wall thickness on radiographs?",
+     "a": "NO — luminal fluid is same opacity as the wall",
+     "star": true,
+     "why": "Caps-lock on the slide"
+    },
+    {
+     "q": "Key size rule for bowel?",
+     "a": "Compare loops — one segment much bigger than others is the problem (don't memorize numbers)"
+    },
+    {
+     "q": "Colon segments?",
+     "a": "Ascending, transverse, descending; heterogeneous content; mobile"
+    },
+    {
+     "q": "Dog cecum?",
+     "a": "Right mid abdomen; C-shaped, compartmentalized, usually gas-filled",
+     "star": true,
+     "why": "Mistaken for abnormal small intestine"
+    },
+    {
+     "q": "Cat cecum?",
+     "a": "Rarely seen; cone-shaped; may need barium"
+    },
+    {
+     "q": "Rectum?",
+     "a": "Continuation of the colon within the pelvic canal"
+    }
+   ]
+  },
+  {
+   "title": "👻 Structures not usually seen",
+   "items": [
+    {
+     "q": "Gallbladder on radiographs?",
+     "a": "Border-effaced with liver; seen if mineralized; ventral and right aspect of liver"
+    },
+    {
+     "q": "Pancreas — when seen?",
+     "a": "Left limb sometimes in obese cats"
+    },
+    {
+     "q": "Pancreas body location?",
+     "a": "Pyloroduodenal angle"
+    },
+    {
+     "q": "Right lobe of the pancreas?",
+     "a": "Along descending duodenum — larger in dogs"
+    },
+    {
+     "q": "Left lobe of the pancreas?",
+     "a": "Along greater curvature of stomach — larger in cats"
+    },
+    {
+     "q": "Ureters seen when?",
+     "a": "Only with contrast, massive distension, or ureteral stones"
+    },
+    {
+     "q": "Urethra seen when?",
+     "a": "Only with contrast"
+    },
+    {
+     "q": "3 parts of the male urethra?",
+     "a": "Prostatic, membranous/pelvic, penile"
+    },
+    {
+     "q": "Right adrenal gland location?",
+     "a": "Medial and slightly cranial to right kidney"
+    },
+    {
+     "q": "Left adrenal gland location?",
+     "a": "Relatively more cranial to its kidney than the right"
+    },
+    {
+     "q": "Adrenal enlargement does what?",
+     "a": "Displaces the adjacent kidney caudally and laterally"
+    },
+    {
+     "q": "Uterus location?",
+     "a": "Dorsal to bladder, ventral to colon",
+     "star": true,
+     "why": "Normally NOT seen"
+    },
+    {
+     "q": "Uterus appearance when seen?",
+     "a": "Tubular, homogeneous soft tissue: pregnant or diseased"
+    },
+    {
+     "q": "Gravid uterus enlargement visible?",
+     "a": "25–30 days"
+    },
+    {
+     "q": "Fetal mineralization: cats vs dogs?",
+     "a": "Cats 35–39 days; dogs 42–45 days"
+    },
+    {
+     "q": "Prostate not seen in?",
+     "a": "Neutered males and cats"
+    },
+    {
+     "q": "Prostate seen in?",
+     "a": "Intact male dogs (benign prostatic hyperplasia)"
+    },
+    {
+     "q": "Prostate location?",
+     "a": "Ventral to rectum, dorsal to pubis"
+    },
+    {
+     "q": "Prostate size limit?",
+     "a": "<70% height of the pelvic inlet"
+    },
+    {
+     "q": "Landmark separating prostate from bladder?",
+     "a": "Triangle of fat",
+     "star": true,
+     "why": "\"Important landmark\""
+    },
+    {
+     "q": "Medial iliac (sublumbar) lymph nodes location?",
+     "a": "Ventral to L6–L7, dorsal to the descending colon"
+    },
+    {
+     "q": "Enlarged medial iliac nodes do what?",
+     "a": "Displace the descending colon ventrally"
+    },
+    {
+     "q": "Medial iliac nodes drain?",
+     "a": "Pelvic limbs and perineal region"
+    },
+    {
+     "q": "Mesenteric lymph nodes?",
+     "a": "Central; drain abdominal viscera; enlarged → push small intestine peripherally"
+    }
+   ]
+  }
+ ],
+ "traps": [
+  "Abdomen at END OF EXPIRATION; thorax at peak INSPIRATION.",
+  "Soft tissue = fluid opacity → effusion REDUCES serosal detail.",
+  "Right lateral → gas in FUNDUS. Left lateral → gas in PYLORUS/DUODENUM. Barium does the opposite.",
+  "Ventrodorsal: fundus = fluid/barium; dorsoventral: fundus = gas.",
+  "Easiest liver margin: dog LEFT lateral lobe, cat RIGHT lateral lobe.",
+  "Kidney size: dog 2.5–3.5 × L2; cat 2–3 × L2 — on VENTRODORSAL.",
+  "Splenic head → stomach = GASTROSPLENIC LIGAMENT, not greater omentum.",
+  "Epaxial = DORSAL to transverse processes; hypaxial = VENTRAL.",
+  "Compression = reduce superimposition; horizontal beam = free gas; perineal view = urethral stones.",
+  "Pancreas: right lobe bigger in DOGS; left lobe bigger in CATS.",
+  "Deep circumflex iliac arteries (end-on dots) ≠ lymph nodes.",
+  "Fetal mineralization: cats 35–39 d, dogs 42–45 d (cats first)."
+ ],
+ "flags": [
+  "Gallbladder review question: 'between which two liver lobes?' — answer not given in lecture. From Abdominal Cavity 1: quadrate lobe and right medial lobe — confirm.",
+  "Bowel/colon size numbers on slides (cat small intestine <12 mm or <2× L4; dog <1.6× L5; large intestine < L7 dog, <1.3× L5 cat) — she said don't memorize these now.",
+  "Transcript says 'Ten convenience of haze' after 'left is left behind' — unintelligible; ignored."
+ ]
+}
