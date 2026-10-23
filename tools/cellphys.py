@@ -1,4 +1,4 @@
-# Build: Cell Physiology (VAP805) · Exam 3 hub + one-page tap-to-reveal terms sheet + 4 practice exams
+# Build: Cell Physiology (VAP805) · Exam 4 index (cellphys_exam4.py) + Exam 3 archive hub + one-page tap-to-reveal terms sheet + 4 practice exams
 # Run from repo root: python3 tools/cellphys.py
 # Reuses: terms-page CSS/JS from systems-lp1-functions.html (same as sys_lec_terms_cards.py),
 #         practice-exam CSS/JS from sys_lecture.py (same as sys_practice.py), hub style from veterinary-systems.html.
@@ -98,17 +98,18 @@ from cellphys_keyslide import build_keyslide
 from cellphys_final import build_final
 from cellphys_oldexams import build_oldexams
 from cellphys_lc08exam import build_lc08exam
-tiles = '<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">🏁 Night-before review</div>' + build_final(HUB, V) + build_keyslide(HUB, V) + build_oldexams(HUB, V) + build_lc08exam(HUB, V) + build_pathways(HUB, V) + build_enzymes(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧠 Terms by lecture · tap to reveal</div>' + ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · {("★ "+str(s)) if s else "★ after transcript"} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
+from cellphys_exam4 import build_exam4
+tiles = build_exam4(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#8a6b99;margin-top:22px;border-top:2px dashed #e6d9f0;padding-top:12px">📦 Exam 3 archive (LC14–LC24) · keep for the final</div>' + '<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">🏁 Night-before review</div>' + build_final(HUB, V) + build_keyslide(HUB, V) + build_oldexams(HUB, V) + build_lc08exam(HUB, V) + build_pathways(HUB, V) + build_enzymes(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧠 Terms by lecture · tap to reveal</div>' + ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · {("★ "+str(s)) if s else "★ after transcript"} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
 tiles += '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧪 Combined sheet + practice exams</div>'
 tiles += f'<a class="tile" href="cellphys-terms.html?v={V}"><div class="emoji">🧠</div><h2>All terms, one page</h2><p>{n} tap-to-reveal terms · all exam lectures + source flags</p></a>'
 for (fn, t, it), c in zip(EXAMS, counts):
     tiles += f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🧪</div><h2>{E(t[2:])}</h2><p>{c} questions · quiz style · all lectures</p></a>'
 open(HUB, 'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>🧫 Cell Physiology</title>{style}</head><body><div class="wrap">'
-    f'<section class="hero"><h1>🧫 Cell Physiology · Exam 3</h1><p>Fri 10/23 · LC14–LC21 + LC23 (Mon 10/19) + LC08 pH (Wed 10/21)</p></section>'
+    f'<section class="hero"><h1>🧫 Cell Physiology · Exam 4</h1><p>Fri 11/13 · 8:00 AM · LC25–LC33 · Quiz07 Sun 11/1 (LC25–28) · Quiz08 Sun 11/8 (LC29–31)</p></section>'
     f'<div class="nav"><a href="fall2026.html?v={V}">← Back</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
 home = open('fall2026.html').read()
 if HUB not in home:
-    home = home.replace('</div><div class="footer">', f'<a class="tile" href="{HUB}?v={V}"><div class="emoji">🧫</div><h2>Cell Physiology</h2><p>Exam 3 · terms + practice exams</p></a>\n</div><div class="footer">', 1)
+    home = home.replace('</div><div class="footer">', f'<a class="tile" href="{HUB}?v={V}"><div class="emoji">🧫</div><h2>Cell Physiology</h2><p>Exam 4 · terms + practice quizzes</p></a>\n</div><div class="footer">', 1)
 home = re.sub(r'cell-physiology\.html\?v=\d+', f'{HUB}?v={V}', home)
 open('fall2026.html', 'w').write(home)
 sw = open('sw.js').read(); open('sw.js', 'w').write(re.sub(r"ksu-study-mate-v(\d+)-\d+", lambda m: f"ksu-study-mate-v{int(m.group(1)) + 1}-{V}", sw))
