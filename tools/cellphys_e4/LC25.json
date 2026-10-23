@@ -13,8 +13,8 @@
   ],
   [
    "Cholesterol",
-   "Starting molecule for the true steroid hormones; not every steroid-receptor ligand comes from it.",
-   "S2",
+   "C27 starting molecule (S2 figure: polar OH head, rigid planar steroid ring, nonpolar tail); not every steroid-receptor ligand comes from it.",
+   "S2, transcript",
    false
   ],
   [
@@ -24,6 +24,48 @@
    false
   ],
   [
+   "Progesterone",
+   "C21; first major stopping point, made \"on the way to anywhere\"; precursor for testosterone and the corticoids (transcript).",
+   "S3, transcript",
+   false
+  ],
+  [
+   "Carbon counts",
+   "Cholesterol C27; progesterone and corticoids C21; testosterone C19; estradiol C18. Carbons are cleaved along the pathway (transcript).",
+   "S3, transcript",
+   false
+  ],
+  [
+   "Corticosterone",
+   "NOT on slides: primary glucocorticoid in birds and rodents; intermediate toward aldosterone; differs from cortisol by one hydroxyl (transcript).",
+   "transcript",
+   false
+  ],
+  [
+   "Cortisol",
+   "Adrenal-cortex glucocorticoid; binds BOTH glucocorticoid and mineralocorticoid receptors (\"key for multiple locks\"); about 100x aldosterone concentration (transcript).",
+   "S3, S5, transcript",
+   true
+  ],
+  [
+   "Dihydrotestosterone (DHT)",
+   "\"Supercharged\" androgen: binds the androgen receptor more readily, at lower concentration, with a bigger effect than testosterone (transcript).",
+   "S5, S14, transcript",
+   true
+  ],
+  [
+   "Aromatase",
+   "Enzyme converting testosterone to estradiol; testosterone must be present to make estradiol (transcript; not on slides).",
+   "transcript",
+   true
+  ],
+  [
+   "Letrozole",
+   "Aromatase inhibitor: blocks estradiol formation in endocrine-sensitive cancer (transcript).",
+   "transcript",
+   true
+  ],
+  [
    "Non-cholesterol agonists",
    "Thyroxine (T4), triiodothyronine (T3), reverse T3, retinoic acid (vitamin D3 also pictured) act at this receptor family without being cholesterol-derived.",
    "S4",
@@ -31,8 +73,8 @@
   ],
   [
    "Thyroxine (T4)",
-   "Prohormone made and stored by the thyroid; non-cholesterol ligand; also the slide's feedback signal to the pituitary.",
-   "S4, S20, S22",
+   "Prohormone with four iodines; predominant form released by the thyroid; the slide's feedback signal to the pituitary.",
+   "S4, S20, S22, transcript",
    false
   ],
   [
@@ -43,8 +85,8 @@
   ],
   [
    "Reverse T3",
-   "Reverse triiodothyronine; listed with the non-cholesterol steroid-receptor ligands.",
-   "S4",
+   "Reverse triiodothyronine; inactive form (transcript); listed with the non-cholesterol ligands.",
+   "S4, transcript",
    false
   ],
   [
@@ -55,8 +97,20 @@
   ],
   [
    "Vitamin D3 (cholecalciferol)",
-   "Pictured on the non-cholesterol-derivative slide; agonist of the vitamin D3 receptor (nuclear).",
-   "S4, S5",
+   "Animal form (D3). Transcript: a cholesterol derivative but not a steroid. Agonist of the nuclear vitamin D3 receptor.",
+   "S4, S5, transcript",
+   false
+  ],
+  [
+   "Ergocalciferol (vitamin D2)",
+   "Plant form; the S4 structure actually depicts ergocalciferol. D2 vs D3 potency is species dependent (maybe ~1000-fold dosing) - specify which (transcript).",
+   "S4, transcript",
+   false
+  ],
+  [
+   "1,25-dihydroxycholecalciferol",
+   "Active vitamin D3: 25-hydroxyl added in the liver, 1-hydroxyl added in the kidney (transcript).",
+   "transcript",
    false
   ],
   [
@@ -72,9 +126,33 @@
    false
   ],
   [
+   "Physiological agonists (bolded on S5)",
+   "What Schultz wants known: testosterone, DHT, estradiol, progesterone, cortisol, aldosterone, vitamin D3, retinoic acid, T3. The drugs are context.",
+   "S5, transcript",
+   true
+  ],
+  [
    "Androgen receptor",
    "Agonists testosterone, dihydrotestosterone (DHT), nandrolone; antagonists flutamide, enzalutamide.",
    "S5",
+   false
+  ],
+  [
+   "Finasteride",
+   "5-alpha reductase (ENZYME) inhibitor: prostatic hyperplasia, prostate cancer, post-castration; hair growth. Not a receptor blocker (transcript).",
+   "S14, transcript",
+   true
+  ],
+  [
+   "Flutamide / enzalutamide",
+   "Androgen RECEPTOR antagonists; enzalutamide used more in veterinary medicine (transcript). Trap: finasteride hits the enzyme instead.",
+   "S5, transcript",
+   true
+  ],
+  [
+   "Nandrolone",
+   "Anabolic androgen receptor agonist; abuse example: greyhounds dosed with anabolic steroids (transcript).",
+   "S5, transcript",
    false
   ],
   [
@@ -99,7 +177,7 @@
    "Mineralocorticoid receptor (MR)",
    "Agonist aldosterone; antagonist spironolactone. Cytosolic receptor; drives sodium and water retention.",
    "S5, S13, S16",
-   false
+   true
   ],
   [
    "Vitamin D3 receptor",
@@ -109,8 +187,8 @@
   ],
   [
    "Retinoic acid receptor",
-   "Agonists retinoic acid, tazarotene; antagonist YCT-529 (possible male contraceptive). Nuclear receptor.",
-   "S5, S13",
+   "Agonists retinoic acid, tazarotene; antagonist YCT-529. Nuclear. \"Promiscuous\": dimerizes with other receptor classes (know that, not the partners).",
+   "S5, S13, transcript",
    false
   ],
   [
@@ -121,20 +199,20 @@
   ],
   [
    "Mifepristone (RU-486)",
-   "Antagonist at BOTH the progesterone receptor and the glucocorticoid receptor.",
-   "S5",
+   "Antagonist at BOTH progesterone and glucocorticoid receptors; developed by Roussel, became an abortifacient; shows how hard receptor selectivity is (transcript).",
+   "S5, transcript",
    false
   ],
   [
    "Spironolactone",
-   "Mineralocorticoid receptor antagonist (blocks aldosterone).",
-   "S5, S18",
-   false
+   "Mineralocorticoid receptor antagonist; also blocks androgen receptors (transcript: used for acne in women, not men).",
+   "S5, S18, transcript",
+   true
   ],
   [
    "Carrier proteins",
-   "Plasma proteins that bind hydrophobic ligands; create a vascular reservoir and reduce renal excretion.",
-   "S6, S11",
+   "Bind hydrophobic ligands: protect, add solubility, create a reservoir, greatly extend half-life, smooth swings, reduce renal excretion.",
+   "S6, S11, transcript",
    false
   ],
   [
@@ -169,14 +247,14 @@
   ],
   [
    "Transcortin",
-   "Carrier for cortisol; lower affinity for progesterone and aldosterone (carries under 25% of aldosterone).",
-   "S6, S16",
+   "Carries ~75% of cortisol (transcript); lower affinity for progesterone and aldosterone (S16: under 25%; transcript: under 20% of aldosterone).",
+   "S6, S16, transcript",
    false
   ],
   [
    "Albumin",
-   "Listed first as aldosterone's carrier on the mineralocorticoid receptor slide (transcortin carries less than 25%).",
-   "S16",
+   "Low-affinity, high-capacity carrier of hydrophobic molecules: ~50% of aldosterone, ~80% of progesterone (transcript). Listed first for aldosterone (S16).",
+   "S16, transcript",
    false
   ],
   [
@@ -187,33 +265,69 @@
   ],
   [
    "DNA binding domain",
-   "Receptor region that binds the specific DNA sequence once the hormone-receptor complex is activated.",
-   "S7, S11",
-   false
+   "Binds the specific DNA sequence; Schultz: gives SPECIFICITY to the DNA interaction. Old-exam answer for \"which portion is exposed.\"",
+   "S7, S8, S11, transcript",
+   true
   ],
   [
    "Transcription-activating domain",
-   "Region that recruits co-factors to start transcription.",
-   "S7",
+   "Binds co-activator proteins (S8 figure) to start transcription of target genes.",
+   "S7, S8",
    false
   ],
   [
    "Inhibitory protein",
-   "Holds the unliganded receptor inactive; released when ligand binds (step 4).",
-   "S10",
-   false
+   "Bound to the ligand-binding domain of the inactive receptor (S8); released when ligand binds (step 4).",
+   "S8, S10",
+   true
   ],
   [
    "Dimerization",
-   "Activated receptors pair up, then enter the nucleus via the nuclear pore (step 5).",
-   "S10, S11",
+   "Ligand-receptor complex dimerizes, THEN enters the nucleus via the nuclear pore (S10; confirmed in transcript); the dimer binds DNA.",
+   "S10, S11, transcript",
+   true
+  ],
+  [
+   "Common signaling mechanism",
+   "Ligand binds, inhibitory protein released, dimerize, nuclear pore, DNA, co-activators, transcription, RNA out (S9 steps 1-8). Emphasized in class.",
+   "S8-S11",
+   true
+  ],
+  [
+   "Hormone response element (HRE)",
+   "DNA site bound by the activated receptor (S19 figure); S8 calls it the receptor-binding element.",
+   "S8, S19",
    false
   ],
   [
+   "Primary response genes",
+   "Genes activated directly by steroid hormone receptor complexes (S12 figure).",
+   "S12",
+   true
+  ],
+  [
+   "Primary response proteins",
+   "A few early proteins that shut off primary response genes AND turn on secondary response genes.",
+   "S12",
+   true
+  ],
+  [
+   "Secondary response genes / proteins",
+   "Later wave: genes switched on by primary response proteins, producing many secondary response proteins.",
+   "S12",
+   true
+  ],
+  [
+   "jun, fos, myc",
+   "Examples of primary response proteins (jun, fos on S12; myc added verbally); drive further rounds of RNA synthesis.",
+   "S12, transcript",
+   true
+  ],
+  [
    "Free vs bound ligand",
-   "Most ligand is carrier-bound, some free; only free ligand diffuses into cells.",
-   "S10, S11",
-   false
+   "Mass-action equilibrium: most bound, some free; only FREE ligand crosses membranes into cells.",
+   "S9-S11, transcript",
+   true
   ],
   [
    "Vascular reservoir",
@@ -229,8 +343,8 @@
   ],
   [
    "Co-activators",
-   "Transcription co-factors required for gene expression: GRIP1, SRC1-3, TRAP, SMRT.",
-   "S13, S25",
+   "Slide lists GRIP1, SRC1-3, TRAP, SMRT. Transcript: co-activators AND co-repressors recruited; give cell-type specificity. Names NOT expected.",
+   "S13, S25, transcript",
    false
   ],
   [
@@ -259,21 +373,27 @@
   ],
   [
    "Specificity of signaling",
-   "Requires the receptor, any ancillary enzymes, and cell-specific gene regulatory proteins.",
-   "S14",
-   false
+   "Hormone is a broadcast signal; a cell responds only with the receptor, needed enzymes (11-beta HSD2, 5-alpha reductase), and co-activators/co-repressors.",
+   "S14, transcript",
+   true
   ],
   [
    "11-beta hydroxysteroid dehydrogenase (11b-HSD)",
-   "Ancillary enzyme that converts cortisol to cortisone.",
-   "S14",
-   false
+   "Cortisol to cortisone. HSD2: one direction, inactivates cortisol so nephron cells respond to aldosterone. HSD1: both directions (transcript).",
+   "S14, transcript",
+   true
+  ],
+  [
+   "Licorice",
+   "Blocks 11-beta HSD, so cortisol occupies the mineralocorticoid receptor: looks like aldosterone excess (transcript).",
+   "transcript",
+   true
   ],
   [
    "5-alpha reductase",
-   "Ancillary enzyme that converts testosterone to dihydrotestosterone (DHT).",
-   "S14",
-   false
+   "Converts testosterone to dihydrotestosterone (DHT); blocked by finasteride (transcript).",
+   "S14, transcript",
+   true
   ],
   [
    "Time course",
@@ -291,49 +411,133 @@
    "Aldosterone",
    "Mineralocorticoid from the adrenal cortex; released when blood pressure drops; sodium and water retention, potassium excretion.",
    "S16-S19",
-   false
+   true
   ],
   [
    "Renin-angiotensin-aldosterone system (RAAS)",
-   "Blood pressure drop leads to renin, angiotensin II, then aldosterone.",
-   "S16, S18",
-   false
+   "Renin, then angiotensin, then aldosterone (\"goes in that order\"). Schultz: \"a pathway you better know.\" Every step has a drug.",
+   "S16-S18, transcript",
+   true
+  ],
+  [
+   "Angiotensinogen",
+   "Precursor secreted by the LIVER; renin cleaves it to angiotensin I.",
+   "S17, S18, transcript",
+   true
+  ],
+  [
+   "Juxtaglomerular apparatus",
+   "Senses decreased renal perfusion and releases renin; increased perfusion INHIBITS renin release (negative feedback, S17).",
+   "S17, transcript",
+   true
   ],
   [
    "Renin",
-   "Kidney enzyme (slide: macula densa) converting angiotensinogen to angiotensin I; blocked by aliskiren.",
-   "S18",
-   false
+   "Enzyme released by the kidney juxtaglomerular apparatus (S17; S18 says macula densa) when renal perfusion falls; angiotensinogen to angiotensin I.",
+   "S17, S18, transcript",
+   true
   ],
   [
    "Angiotensin converting enzyme (ACE)",
-   "Converts angiotensin I to angiotensin II; blocked by captopril.",
-   "S18",
-   false
+   "Angiotensin I to angiotensin II; on pulmonary and renal endothelium (S17), mostly in the lungs (transcript); blocked by captopril.",
+   "S17, S18, transcript",
+   true
   ],
   [
    "Angiotensin II",
-   "Stimulates aldosterone release, vasoconstriction, and vasopressin (antidiuretic hormone, ADH) secretion.",
-   "S18",
-   false
+   "Five effects (S17): sympathetic activity, tubular Na+Cl- reabsorption/K+ excretion, aldosterone secretion, arteriolar vasoconstriction, posterior pituitary ADH secretion.",
+   "S17, S18",
+   true
   ],
   [
    "Angiotensin II type 1 receptor (AT1R)",
-   "Receptor for angiotensin II on the adrenal cortex; blocked by losartan; valsartan listed as \"biased\".",
-   "S18",
-   false
+   "Angiotensin II receptor (adrenal cortex, vessels, pituitary); cell-surface G protein-coupled receptor via phospholipase C/DAG, plus arrestin (transcript).",
+   "S18, transcript",
+   true
+  ],
+  [
+   "Aliskiren",
+   "Renin inhibitor (blocks angiotensinogen to angiotensin I); spelled A-L-I-S-K-I-R-E-N in class.",
+   "S18, transcript",
+   true
+  ],
+  [
+   "Captopril / enalapril",
+   "ACE inhibitors (block angiotensin I to II); captopril on S18; enalapril likely named verbally (\"Anapapril\").",
+   "S18, transcript",
+   true
+  ],
+  [
+   "Losartan / valsartan / telmisartan",
+   "AT1R blockers; losartan and valsartan (\"biased\") on S18; telmisartan likely named verbally (\"Telmotran\").",
+   "S18, transcript",
+   true
   ],
   [
    "Amiloride",
-   "Drug listed next to Na+ (sodium) retention on the RAAS slide; mechanism not stated on the slide (see flag).",
-   "S18",
-   false
+   "Listed beside Na+ retention (S18); Bethany's notes: blocks the Na+ channel. OUTSIDE detail: the epithelial sodium channel (ENaC), shown on S19.",
+   "S18, S19",
+   true
   ],
   [
    "Aldosterone target genes",
-   "Apical sodium channel, apical potassium channel, basolateral sodium/potassium ATPase (Na+/K+ ATPase).",
+   "Apical Na+ channel (ENaC), apical K+ channel (ROMK), basolateral Na+/K+ ATPase (S19 text; channel names on the figure).",
+   "S19",
+   true
+  ],
+  [
+   "Serum- and glucocorticoid-regulated kinase 1 (SGK1)",
+   "Early aldosterone/MR product (~20 minutes, transcript) that raises apical ENaC and ROMK. Expansion is OUTSIDE.",
+   "S19, transcript",
+   true
+  ],
+  [
+   "Epithelial sodium channel (ENaC)",
+   "Apical Na+ channel; more in membrane = Na+ reabsorption; detectable ~2 hours (transcript). Expansion OUTSIDE.",
+   "S19, transcript",
+   true
+  ],
+  [
+   "Renal outer medullary potassium channel (ROMK)",
+   "Apical K+ channel for K+ secretion; detectable ~2 hours (transcript). Expansion OUTSIDE.",
+   "S19, transcript",
+   true
+  ],
+  [
+   "Nedd4-2",
+   "Removes ENaC from the membrane; SGK1 phosphorylates it, 14-3-3 then holds it, so it cannot remove ENaC.",
    "S19",
    false
+  ],
+  [
+   "14-3-3",
+   "Binds phosphorylated Nedd4-2 and holds it away from ENaC.",
+   "S19",
+   false
+  ],
+  [
+   "WNK4",
+   "Removes ENaC and ROMK from the membrane; SGK1 inhibits it.",
+   "S19",
+   false
+  ],
+  [
+   "NHERF2",
+   "Partners with SGK1 to send ROMK to the membrane.",
+   "S19",
+   false
+  ],
+  [
+   "Dot1 / AF9",
+   "Repress ENaC transcription; SGK1 relieves the repression.",
+   "S19",
+   false
+  ],
+  [
+   "Blood volume \"managed\"",
+   "Trap: RAAS conserves volume (prevents loss, S18) rather than necessarily raising it; thirst adds water (transcript).",
+   "S18, transcript",
+   true
   ],
   [
    "Thyrotropin releasing hormone (TRH)",
@@ -412,13 +616,19 @@
   "<b>Cholesterol derivative vs non-cholesterol ligand</b>: estradiol, testosterone, aldosterone, cortisol, progesterone = cholesterol (S3). <b>T4, T3, reverse T3, retinoic acid</b> (and vitamin D3 pictured) = NOT (S4). Same receptor family, different origin.",
   "<b>Mifepristone blocks TWO receptors</b>: progesterone receptor AND glucocorticoid receptor (S5). Do not pair it with the mineralocorticoid receptor (that is <b>spironolactone</b>).",
   "<b>Cytosolic vs nuclear</b>: glucocorticoid and mineralocorticoid receptors = <b>cytosolic</b>; thyroid, vitamin D3, retinoid receptors = <b>nuclear</b>, sitting inactive on DNA (S13).",
-  "<b>Cortisol to cortisone</b> = <b>11-beta hydroxysteroid dehydrogenase</b> (dehydrogen<b>-ase</b>); <b>testosterone to DHT</b> = <b>5-alpha reductase</b> (S14). Do not swap enzyme and substrate.",
-  "<b>Renin vs ACE drugs</b>: aliskiren blocks <b>renin</b> (angiotensinogen to angiotensin I); captopril blocks <b>ACE</b> (angiotensin I to II); losartan blocks <b>AT1R</b>; spironolactone blocks the <b>MR</b> (S18).",
+  "<b>Cortisol to cortisone</b> = <b>11-beta hydroxysteroid dehydrogenase</b> (dehydrogen<b>-ase</b>); <b>testosterone to DHT</b> = <b>5-alpha reductase</b>; <b>testosterone to estradiol</b> = <b>aromatase</b> (S14, transcript). Do not swap enzyme and substrate.",
+  "<b>Renin vs ACE drugs</b>: aliskiren blocks <b>renin</b> (angiotensinogen to angiotensin I); captopril blocks <b>ACE</b> (angiotensin I to II); losartan blocks <b>AT1R</b>; spironolactone blocks the <b>MR</b>; amiloride = <b>Na+ channel</b> (S18).",
   "<b>T4 vs T3</b>: T4 = <b>prohormone</b>, mostly what the thyroid releases, and the slide's <b>feedback</b> signal on TSH; T3 = <b>active</b> hormone made by de-iodinases in <b>kidney and liver</b> (S20, S22).",
   "<b>Iodine isotopes, unit trap</b>: 131I = beta, ~1 <b>mm</b>, half-life 8 <b>days</b> (therapy); 123I = gamma, half-life 13 <b>hours</b> (imaging); 127I = <b>stable</b> (S24).",
   "<b>Aldosterone retains Na+ and water, EXCRETES K+</b> (S16, S19). Direction flip is the classic trap.",
   "<b>Carriers reduce renal excretion</b> and create a reservoir (S11); <b>termination</b> needs liver conjugation THEN renal excretion (S15). Bound ligand is NOT the active form; <b>free</b> ligand enters cells.",
-  "<b>Adenoma vs adenocarcinoma</b>: feline hyperthyroidism is usually a benign <b>adenoma</b>; only <b>2%</b> are adenocarcinoma (S24)."
+  "<b>Adenoma vs adenocarcinoma</b>: feline hyperthyroidism is usually a benign <b>adenoma</b>; only <b>2%</b> are adenocarcinoma (S24).",
+  "<b>Cortisol binds the MR too</b> (~100x aldosterone). <b>11-beta HSD2</b> = ONE direction, cortisol to inactive cortisone; HSD1 = both directions. <b>Licorice</b> blocks it = fake aldosterone excess (transcript).",
+  "<b>Enzyme vs receptor</b>: <b>finasteride</b> blocks the 5-alpha reductase ENZYME; <b>flutamide/enzalutamide</b> block the androgen RECEPTOR (transcript). Letrozole blocks aromatase.",
+  "<b>Angiotensinogen comes from the LIVER</b>, not the kidney; the kidney (juxtaglomerular apparatus) releases <b>renin</b>; ACE is mostly in the <b>lungs</b> (S17, transcript).",
+  "<b>Blood volume trap</b>: RAAS <b>conserves/manages</b> volume (prevents loss, S18) — Schultz: not necessarily an increase (where would the water come from?).",
+  "<b>Timing</b>: SGK1 ~<b>20 minutes</b> (primary); ENaC and ROMK ~<b>2 hours</b> (later) (transcript). Minutes vs hours unit trap.",
+  "<b>Spironolactone</b> blocks MR AND androgen receptors; <b>mifepristone</b> blocks progesterone AND glucocorticoid receptors (transcript)."
  ],
  "know": [
   {
@@ -542,6 +752,44 @@
    ]
   },
   {
+   "title": "Multiple transcription cycles",
+   "slide": "S12",
+   "note": "Figure, rebuilt as a table. Primary proteins do TWO things: shut off primary genes AND turn on secondary genes.",
+   "headers": [
+    "Stage",
+    "What happens"
+   ],
+   "rows": [
+    [
+     "Steroid hormone receptor complexes",
+     "Activate primary response genes"
+    ],
+    [
+     "Primary response genes",
+     "Induced synthesis of a few primary response proteins (e.g., jun, fos; myc added verbally)"
+    ],
+    [
+     "Primary response proteins, action 1",
+     "Shut off primary response genes"
+    ],
+    [
+     "Primary response proteins, action 2",
+     "Turn on secondary response genes"
+    ],
+    [
+     "Secondary response genes",
+     "Secondary response proteins (many kinds)"
+    ],
+    [
+     "Aldosterone example (transcript)",
+     "SGK1 early (~20 minutes); ENaC and ROMK later (~2 hours)"
+    ]
+   ],
+   "hide": [
+    1
+   ]
+  },
+  {
    "title": "Hormone profiles: aldosterone vs thyroid hormone",
    "slide": "S16, S20",
    "note": "Same row layout Schultz uses on both slides.",
@@ -584,6 +832,134 @@
    ],
    "hide": [
     1,
+    2
+   ]
+  },
+  {
+   "title": "Aldosterone pathway and its drugs",
+   "slide": "S17, S18",
+   "note": "Schultz: 'a pathway you better know.' One drug per step is safe.",
+   "headers": [
+    "Step",
+    "Where / what",
+    "Drug"
+   ],
+   "rows": [
+    [
+     "Angiotensinogen",
+     "Secreted by the liver",
+     "None listed"
+    ],
+    [
+     "Renin",
+     "Kidney juxtaglomerular apparatus, when renal perfusion falls; angiotensinogen to angiotensin I",
+     "Aliskiren"
+    ],
+    [
+     "Angiotensin converting enzyme (ACE)",
+     "Pulmonary and renal endothelium; angiotensin I to angiotensin II",
+     "Captopril (enalapril verbally)"
+    ],
+    [
+     "Angiotensin II type 1 receptor (AT1R)",
+     "Adrenal cortex, vessels, pituitary; G protein-coupled (transcript)",
+     "Losartan; valsartan (\"biased\")"
+    ],
+    [
+     "Mineralocorticoid receptor",
+     "Aldosterone receptor in nephron cells",
+     "Spironolactone"
+    ],
+    [
+     "Apical Na+ channel (ENaC)",
+     "Na+ reabsorption",
+     "Amiloride"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Angiotensin II effects",
+   "slide": "S17",
+   "note": "Five arrows out of angiotensin II on the diagram, then the result box and the feedback arrow.",
+   "headers": [
+    "Angiotensin II acts on",
+    "Effect"
+   ],
+   "rows": [
+    [
+     "Sympathetic nervous system",
+     "Increased sympathetic activity"
+    ],
+    [
+     "Kidney tubule",
+     "Na+Cl- reabsorption and K+ excretion; H2O retention"
+    ],
+    [
+     "Adrenal cortex",
+     "Aldosterone secretion"
+    ],
+    [
+     "Arterioles",
+     "Vasoconstriction; increased blood pressure"
+    ],
+    [
+     "Posterior pituitary",
+     "ADH secretion, then collecting duct H2O absorption"
+    ],
+    [
+     "Result",
+     "Water and salt retention; effective circulating volume increases; juxtaglomerular perfusion increases"
+    ],
+    [
+     "Feedback",
+     "Increased juxtaglomerular perfusion INHIBITS renin release"
+    ]
+   ],
+   "hide": [
+    1
+   ]
+  },
+  {
+   "title": "SGK1 targets in the aldosterone-sensitive cell",
+   "slide": "S19",
+   "note": "Figure: aldosterone, MR, Aldo/MR into nucleus, HRE, SGK1 mRNA, SGK1.",
+   "headers": [
+    "Target",
+    "Normal job",
+    "SGK1 effect"
+   ],
+   "rows": [
+    [
+     "Nedd4-2",
+     "Removes ENaC from membrane",
+     "Phosphorylated, held by 14-3-3: cannot remove ENaC"
+    ],
+    [
+     "WNK4",
+     "Removes ENaC and ROMK",
+     "Inhibited: cannot remove ENaC or ROMK"
+    ],
+    [
+     "ENaC trafficking",
+     "Delivers ENaC",
+     "SGK1 sends ENaC to the membrane"
+    ],
+    [
+     "Dot1 / AF9",
+     "Repress ENaC transcription",
+     "Repression relieved"
+    ],
+    [
+     "ROMK trafficking (with NHERF2)",
+     "Delivers ROMK",
+     "SGK1 + NHERF2 send ROMK to the membrane"
+    ]
+   ],
+   "hide": [
     2
    ]
   }
@@ -678,7 +1054,7 @@
     "Cortisol rebinds its carrier protein",
     "Co-factors immediately initiate transcription"
    ],
-   "why": "Step 4 (inhibitory protein released) is followed by step 5: dimerize and access the nucleus via the nuclear pore. DNA binding is step 6.",
+   "why": "Step 4 (inhibitory protein released) is followed by step 5: dimerize and access the nucleus via the nuclear pore. DNA binding is step 6. Transcript confirms: dimerize, then enter via the nuclear pore.",
    "cite": "S10",
    "sure": true
   },
@@ -719,9 +1095,9 @@
     "Angiotensin II",
     "Spironolactone"
    ],
-   "why": "Aldosterone drives transcription of these three transport proteins (S19); spironolactone is a drug, not naturally occurring. OUTSIDE: ruling out cortisol relies on 11-beta HSD inactivating it, which the slides do not state.",
-   "cite": "S14, S19",
-   "sure": false
+   "why": "Aldosterone drives transcription of these three transport proteins (S19). Cortisol is ruled out because 11-beta HSD2 converts it to cortisone, which cannot bind the MR (transcript). Spironolactone is a drug.",
+   "cite": "S14, S19, transcript",
+   "sure": true
   },
   {
    "stem": "In reference to the previous question (high 11-beta hydroxysteroid dehydrogenase epithelial cell; Na+ channel, K+ channel and Na+/K+ ATPase upregulated), which receptor mediates this effect? (select one correct response)",
@@ -732,7 +1108,7 @@
     "Androgen receptor",
     "Progesterone receptor"
    ],
-   "why": "Aldosterone acts at the cytosolic mineralocorticoid receptor. Why the enzyme matters (protecting the receptor from cortisol) is OUTSIDE detail; confirm.",
+   "why": "Aldosterone acts at the cytosolic mineralocorticoid receptor; 11-beta HSD2 keeps cortisol off it (transcript).",
    "cite": "S13, S16, S19",
    "sure": true
   },
@@ -828,6 +1204,112 @@
    "why": "The ligand table lists mifepristone under both the progesterone and glucocorticoid receptors.",
    "cite": "S5",
    "sure": true
+  },
+  {
+   "stem": "A hypertensive dog receives a drug that blocks conversion of angiotensinogen to angiotensin I. Which drug was given? (select one correct response)",
+   "ok": "Aliskiren",
+   "bad": [
+    "Captopril",
+    "Losartan",
+    "Spironolactone",
+    "Amiloride"
+   ],
+   "why": "Aliskiren = renin; captopril = ACE; losartan = AT1R; spironolactone = MR; amiloride = Na+ channel.",
+   "cite": "S18, transcript",
+   "sure": true
+  },
+  {
+   "stem": "In the S19 aldosterone-sensitive cell, how does SGK1 increase apical ENaC? (select one correct response)",
+   "ok": "Phosphorylates Nedd4-2 so it cannot remove ENaC",
+   "bad": [
+    "Dephosphorylates Nedd4-2 so it removes ENaC faster",
+    "Activates WNK4 so it inserts more ENaC channels",
+    "Binds the hormone response element to repress ENaC",
+    "Phosphorylates NHERF2 so it removes ROMK channels"
+   ],
+   "why": "SGK1 phosphorylates Nedd4-2 (held by 14-3-3), inhibits WNK4, sends ENaC to the membrane, and relieves Dot1/AF9 repression.",
+   "cite": "S19",
+   "sure": true
+  },
+  {
+   "stem": "Which are effects of angiotensin II on the renin-angiotensin-aldosterone diagram? (select all that apply)",
+   "ok": [
+    "Aldosterone secretion from the adrenal cortex",
+    "Antidiuretic hormone secretion from the posterior pituitary",
+    "Arteriolar vasoconstriction raising blood pressure"
+   ],
+   "bad": [
+    "Renin release from the juxtaglomerular apparatus",
+    "Angiotensinogen secretion from the liver"
+   ],
+   "why": "Angiotensin II's five arrows: sympathetic activity, tubular Na+Cl- reabsorption/K+ excretion, aldosterone, vasoconstriction, ADH. Renin is upstream and is inhibited by increased perfusion; angiotensinogen comes from the liver.",
+   "cite": "S17",
+   "sure": true
+  },
+  {
+   "stem": "A dog eats a large amount of black licorice, which blocks 11-beta hydroxysteroid dehydrogenase in nephron cells. Which outcome is expected? (select one correct response)",
+   "ok": "Cortisol occupies the MR, mimicking aldosterone excess",
+   "bad": [
+    "Cortisone accumulates and activates the MR directly",
+    "Aldosterone synthesis by the adrenal cortex stops entirely",
+    "Cortisol is converted to cortisone faster than normal",
+    "Mineralocorticoid receptor expression is lost in the nephron"
+   ],
+   "why": "11-beta HSD2 normally inactivates cortisol (~100x aldosterone) so the MR responds only to aldosterone; blocking it lets cortisol activate the MR.",
+   "cite": "S14, transcript",
+   "sure": true
+  },
+  {
+   "stem": "A dog with prostatic hyperplasia needs the androgen receptor itself blocked, not DHT synthesis. Which drug fits? (select one correct response)",
+   "ok": "Enzalutamide",
+   "bad": [
+    "Finasteride",
+    "Letrozole",
+    "Mifepristone",
+    "Tamoxifen"
+   ],
+   "why": "Finasteride blocks the 5-alpha reductase enzyme; enzalutamide (and flutamide) block the androgen receptor; letrozole blocks aromatase; mifepristone and tamoxifen act at other receptors.",
+   "cite": "S5, transcript",
+   "sure": true
+  },
+  {
+   "stem": "Letrozole is used for an endocrine-sensitive cancer. Which conversion does it block? (select one correct response)",
+   "ok": "Testosterone to estradiol",
+   "bad": [
+    "Testosterone to dihydrotestosterone",
+    "Cortisol to cortisone",
+    "Progesterone to testosterone",
+    "Estradiol to testosterone"
+   ],
+   "why": "Letrozole blocks aromatase (testosterone to estradiol). 5-alpha reductase makes DHT; 11-beta HSD makes cortisone.",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "Aldosterone reaches a collecting duct cell at time zero. Per lecture, when do newly made SGK1 and ENaC/ROMK become detectable? (select one correct response)",
+   "ok": "SGK1 ~20 minutes; ENaC and ROMK ~2 hours",
+   "bad": [
+    "ENaC and ROMK ~20 minutes; SGK1 ~2 hours",
+    "SGK1 ~20 hours; ENaC and ROMK ~2 days",
+    "SGK1, ENaC and ROMK all at ~20 minutes",
+    "SGK1 ~2 minutes; ENaC and ROMK ~20 minutes"
+   ],
+   "why": "SGK1 is an early (primary) product, ~20 minutes; ENaC and ROMK come later, ~2 hours (transcript).",
+   "cite": "S12, S19, transcript",
+   "sure": true
+  },
+  {
+   "stem": "After moderate fluid loss, the renin-angiotensin-aldosterone system drives renal salt retention and ADH-mediated water retention. Per Dr. Schultz, what best describes the effect on blood volume? (select one correct response)",
+   "ok": "Volume is conserved by preventing further loss",
+   "bad": [
+    "Volume rises well above the starting baseline",
+    "Volume falls because arterioles are constricted",
+    "Volume is unchanged because sodium is excreted",
+    "Volume rises because water leaves the cells"
+   ],
+   "why": "S18: conserves blood volume. Schultz: not necessarily increased (where would the water come from?), it is managed; drinking adds water. S17's 'effective circulating volume increases' — see flag.",
+   "cite": "S17, S18, transcript",
+   "sure": true
   }
  ],
  "flags": [
@@ -856,36 +1338,36 @@
    "S5 lists clomiphene in parentheses under estrogen receptor agonists · OUTSIDE: it is a selective estrogen receptor modulator (mixed agonist/antagonist) — confirm. For now: estrogen receptor ligand, agonist column."
   ],
   [
-   "11-beta HSD now ON the slide (closes old open item)",
-   "Old-exam answers called the 11-beta hydroxysteroid dehydrogenase role outside material; S14 now lists it (converts cortisol to cortisone) · CLOSED. Slide does not name the isoform (HSD2) or say it protects the mineralocorticoid receptor from cortisol — that part is still OUTSIDE, confirm."
+   "11-beta HSD role (CLOSED)",
+   "S14 lists cortisol to cortisone; transcript adds 11-beta HSD2 (one direction) keeps cortisol off the MR so nephron cells respond to aldosterone; HSD1 is bidirectional; licorice blocks it · CLOSED."
   ],
   [
-   "Vitamin D3 origin",
-   "S4 pictures vitamin D3 among non-cholesterol derivatives · OUTSIDE: textbooks derive vitamin D3 from 7-dehydrocholesterol. Use the slide (non-cholesterol group); 2023 exam used vitamin D3 as a distractor to 'cholesterol derivative'."
+   "Vitamin D3 origin: S4 vs transcript",
+   "S4 places vitamin D3 under \"Not cholesterol derivatives\" (image: drawn beside cholesterol, opened ring). Transcript: vitamin D3 IS a cholesterol derivative but NOT a steroid; S4 structure is actually ergocalciferol (D2). 2023 exam used vitamin D3 as a distractor for \"cholesterol derivative\" · use: cholesterol derivative, not a steroid; if a classic steroid is offered, pick it."
   ],
   [
    "Sex-steroid receptor location not stated",
    "S13 places only GR/MR (cytosolic) and thyroid/vitamin D3/retinoid (nuclear); androgen, estrogen, progesterone receptors are not placed. The 2025 past-question answer (17-beta estradiol for 'cytosolic receptor') was written from earlier lectures, not an official key · OUTSIDE: textbooks call the estrogen receptor mostly nuclear. Use only the S13 lists for now; confirm with transcript."
   ],
   [
-   "Co-activator acronym expansions",
-   "S13: SRC = \"sex hormone receptor complex\", GRIP1 = \"glucocorticoid receptor co-activator 1\", SMRT = \"signaling mediator...\" listed as a co-activator · OUTSIDE: textbooks use steroid receptor coactivator, glucocorticoid receptor-interacting protein 1, and silencing mediator (a co-REPRESSOR). Use slide expansions for the exam."
+   "Co-activator names not tested",
+   "S13 expansions (SRC, GRIP1, SMRT) differ from textbooks (OUTSIDE: SMRT is a co-repressor). Transcript: \"I don't expect you to know these co-factors,\" only that co-activators AND co-repressors exist and give cell-type specificity · do not memorize names."
   ],
   [
-   "Step count: S9 vs S10",
-   "S9 figure numbers steps 1-8; S10 text lists 10 steps · use the 10-step S10 list."
+   "Step count: S9 vs S10 (RESOLVED)",
+   "Checked against slide image: S9 figure numbers 1-8 match S10 steps 1-8 (1 hormone in blood, 2 bound to carriers, 3 free hormone into cytosol, 4 receptor binds, 5 complex enters nucleus through nuclear pore, 6 binds DNA with co-factor, 7 RNA transcribed, 8 RNA exits nuclear pore). S10 steps 9-10 (protein synthesis, change in function) are not drawn. No conflict; learn the 10-step S10 list."
   ],
   [
-   "Dimerization order: S10 vs S11",
-   "S10 step 5: dimerize, THEN access the nucleus via the nuclear pore; S11: complex is in or enters the nucleus, THEN dimerizes · use S10 order for cytosolic receptors (glucocorticoid, mineralocorticoid); nuclear receptors are already on DNA (S13). Confirm with transcript."
+   "Dimerization order: S10 vs S11 (RESOLVED)",
+   "Transcript: the ligand-receptor complex dimerizes, THEN enters the nucleus via the nuclear pore; he notes S9 does not draw the dimerization · use S10 order. Nuclear receptors already sit on DNA (S13)."
   ],
   [
    "Aldosterone carriers",
    "S6 lists transcortin (lower affinity for aldosterone) but not albumin; S16 lists albumin plus transcortin (less than 25%) · use S16 for aldosterone."
   ],
   [
-   "Renin source",
-   "S18 says renin is released by the kidney \"(macula densa)\" · OUTSIDE: textbooks say juxtaglomerular (granular) cells secrete renin; macula densa senses NaCl. Use the slide wording for now; confirm."
+   "Renin source: S17 vs S18",
+   "S17 figure: renin released by the kidney on decreased renal perfusion (juxtaglomerular apparatus). S18 text: \"(macula densa)\" — part of the juxtaglomerular apparatus. Transcript: juxtaglomerular apparatus senses pressure and releases renin · answer \"juxtaglomerular apparatus.\" OUTSIDE: juxtaglomerular (granular) cells secrete; macula densa senses NaCl."
   ],
   [
    "Feedback signal: T4 vs T3",
@@ -896,20 +1378,36 @@
    "S19 says aldosterone causes \"translation and transcription\" · real order is transcription then translation (S10, S11)."
   ],
   [
-   "Channel names from the figure",
-   "S19 text says apical Na+ channel, apical K+ channel; figure source title names SGK1. Old exam uses ENaC and ROMK · OUTSIDE: ENaC = epithelial sodium channel, ROMK = renal outer medullary potassium channel. Confirm."
+   "Channel names (ENaC, ROMK, SGK1) — on the S19 figure",
+   "Checked against slide image: ENaC, ROMK, SGK1, Nedd4-2, 14-3-3, WNK4, NHERF2, Dot1/AF9 and HRE are labeled on the S19 figure, and the transcript uses ENaC and ROMK · know the names. Only the expansions (epithelial sodium channel, renal outer medullary potassium channel, serum- and glucocorticoid-regulated kinase 1) are OUTSIDE."
   ],
   [
    "Brand name typo",
    "S24 says \"Tapazol\" · US brand is Tapazole (OUTSIDE, confirm)."
   ],
   [
-   "Old-exam items not on these slides",
-   "Finasteride (5-alpha reductase inhibitor) and 'TSH receptor = 7 transmembrane, Gs' come from past exams, not LC25 slides · S14 has 5-alpha reductase; GPCR details are LC27. OUTSIDE for this deck."
+   "Old-exam items vs this deck",
+   "Finasteride is now covered verbally (blocks 5-alpha reductase). \"TSH receptor = 7 transmembrane, Gs\" is still LC27 content, not this deck · OUTSIDE for LC25."
   ],
   [
-   "Drug annotations without explanation",
-   "S18 lists amiloride, valsartan \"biased\" with no mechanism · OUTSIDE: amiloride blocks the epithelial sodium channel; 'biased' = biased agonism at AT1R. Transcript pending."
+   "Drug annotations (amiloride, \"biased\" valsartan)",
+   "S18 lists amiloride beside Na+ retention and valsartan as \"biased\" without mechanism; transcript does not explain either · Bethany's notes: amiloride = Na+ channel. OUTSIDE: amiloride blocks ENaC; \"biased\" = biased agonism at AT1R."
+  ],
+  [
+   "Carrier percentage: S16 vs transcript",
+   "S16: transcortin carries \"less than 25%\" of aldosterone. Transcript: \"a little less than 20%\"; ~50% on albumin · use the slide number (less than 25%) if asked; know albumin carries more."
+  ],
+  [
+   "Blood volume wording: S17 vs S18 vs transcript",
+   "S17 figure: \"effective circulating volume increases.\" S18: RAAS \"conserves blood volume.\" Transcript: not necessarily increasing volume, preventing loss; \"manages blood volume\" · use conserve/maintain; avoid \"volume increases\" unless the stem quotes S17."
+  ],
+  [
+   "Drug scope: memorize or not?",
+   "Bethany heard \"memorize the pathway and the drugs.\" Auto-transcript: \"Do I want you to know all those drugs...? No, but...\" then a student asks what blocks renin (aliskiren, spelled out) · unclear. Safe plan: know ONE drug per step (aliskiren, captopril/enalapril, losartan/telmisartan, spironolactone, amiloride)."
+  ],
+  [
+   "Lecture coverage",
+   "Transcript covers S1-S19 only; thyroid (S20-S24) and summary (S25) not yet lectured · thyroid content is slides-only until that transcript arrives."
   ]
  ]
 }
