@@ -181,6 +181,59 @@ DECKS = [('cellphys-path1.html', '🔀 Hormone switches', 'Glucagon vs insulin �
          ('cellphys-path2.html', '⚡ Energy & oxygen', 'Lactate · ischemia/reperfusion · electron transport', [13, 8, 9]),
          ('cellphys-path3.html', '🧬 Nitrogen, signaling & pH', 'Urea · liver shunt · receptors · buffers · ion trapping', [10, 11, 12, 14, 15, 16, 17])]
 
+# ---- Exam 4 (LC25 steroid hormone receptors) · added 10/23 after lecture (Schultz stressed the common mechanism)
+P.update({
+18: ('★ Common signaling mechanism (steroid hormone receptors)', 'LC25 slides 7–11, 13, 15 (figure S8–S9)', 'Hormone made in a gland (e.g., aldosterone in the adrenal cortex)', [
+  ('1 · Where does it start?', 'Ligand is synthesized, secreted and enters circulation', K),
+  ('2 · What happens to it in the blood?', 'Binds CARRIER proteins at equilibrium: most bound, some free → stable free concentration', K),
+  ('Why does it need a carrier?', 'Ligand is HYDROPHOBIC (lipid soluble) → can\'t dissolve in plasma alone', K),
+  ('What does the carrier buy you?', 'A vascular RESERVOIR + less renal excretion → stays in blood up to hours', K),
+  ('3 · How does free ligand get into the cell?', 'DIFFUSION across vessel cell layers, interstitial fluid and the cell membrane (lipid soluble, no transporter)', K),
+  ('Where is the receptor waiting?', 'CYTOSOL (glucocorticoid, mineralocorticoid receptors) OR NUCLEUS, already on DNA (thyroid, vitamin D3, retinoid receptors)', K),
+  ('4 · What happens when ligand binds?', 'Receptor is activated and the INHIBITORY protein is released', K),
+  ('5 · What does the receptor do next?', 'DIMERIZES (pairs up) and enters the nucleus through the nuclear pore', K),
+  ('6 · Where does it bind DNA, and with what?', 'A SPECIFIC DNA sequence, using its DNA binding domain', K),
+  ('What 3 domains does every receptor have?', 'Hormone (ligand) binding · DNA binding · transcription activating', K),
+  ('7 · What else must be present to start transcription?', 'CO-FACTORS / co-activators (e.g., GRIP1, SRC1–3, TRAP, SMRT) → transcription begins', K),
+  ('8 · What leaves the nucleus?', 'mRNA, through the nuclear pore', K),
+  ('9 · What happens in the cytoplasm?', 'Protein synthesis (translation) + modifications + trafficking', K),
+  ('10 · End result?', 'CHANGE IN FUNCTION (aldosterone example: more apical Na⁺ channels, apical K⁺ channels, basolateral Na⁺/K⁺ ATPase)', K),
+  ('How fast, and why?', 'SLOW: minutes → hours → days, because it needs transcription AND translation (plus carrier reservoir, long diffusion)', K),
+  ('How does the signal END?', 'Hormone must be EXCRETED: conjugated in the liver → excreted by the kidney', K)]),
+19: ('Aldosterone: drop in blood pressure → Na⁺ and water kept', 'LC25 slides 16, 18–19', 'Blood pressure falls', [
+  ('What does the kidney release?', 'RENIN (an enzyme) into the blood (slide says macula densa)', K),
+  ('Renin\'s reaction? Drug that blocks it?', 'Angiotensinogen → angiotensin I · blocked by aliskiren', K),
+  ('Next reaction? Enzyme + drug?', 'Angiotensin I → angiotensin II by angiotensin converting enzyme (ACE) · blocked by captopril', K),
+  ('Angiotensin II acts on which receptor? Blocker?', 'AT1 receptor (angiotensin II type 1) · losartan (valsartan = biased)', U),
+  ('3 things angiotensin II does?', 'Aldosterone release from the adrenal cortex · vasoconstriction · more vasopressin (ADH)', K),
+  ('Aldosterone travels on?', 'Albumin; transcortin (less than 25%)', U),
+  ('Which receptor? Where? Blocker?', 'MINERALOCORTICOID receptor · cytosol · blocked by spironolactone', K),
+  ('Which proteins are transcribed?', 'Apical Na⁺ channel · apical K⁺ channel · basolateral Na⁺/K⁺ ATPase', K),
+  ('Net effect in the kidney?', 'Na⁺ and water RETAINED, K⁺ EXCRETED (amiloride blocks the Na⁺ channel)', K),
+  ('Final outcome?', 'Blood volume kept + vasoconstriction → blood pressure ↑', K)]),
+20: ('Thyroid axis: cold/stress → metabolism ↑', 'LC25 slides 20, 22', 'Cold and/or stress', [
+  ('Hypothalamus releases?', 'TRH (thyrotropin releasing hormone) → portal circulation to the anterior pituitary', K),
+  ('Pituitary releases?', 'TSH (thyroid stimulating hormone = thyrotropin) from thyrotrophs', K),
+  ('Thyroid releases?', 'Mostly T4 (thyroxine, the PROHORMONE), some T3', K),
+  ('Carriers in blood?', 'Transthyretin + thyroxine-binding globulin', K),
+  ('How does T4 become active? Where?', 'De-iodinases remove one iodine → T3 (ACTIVE) · mainly kidney and liver', K),
+  ('Receptor and location?', 'Thyroid hormone receptor · NUCLEAR (already on DNA)', K),
+  ('Effects?', 'General ↑ metabolism: ↑ O₂ consumption and ventilation · thermogenesis · fat and protein mobilization', K),
+  ('Negative feedback?', 'T4 inhibits TSH release from the pituitary (slide wording)', K)]),
+})
+E4DECKS = [('cellphys-path4.html', '🧬 LC25 steroid receptor pathways', 'Common mechanism ★ · aldosterone · thyroid', [18, 19, 20])]
+
+def build_pathways_e4(HUB, V):
+    cj = _copyjs(); tiles = ''
+    for fn, name, sub, ids in E4DECKS:
+        cs = [card(i) for i in ids]; cs[0] = cs[0].replace('class="card"', 'class="card on"', 1)
+        out = deck.page(f'🧭 {name}', f'{len(cs)} pathways · tap one arrow at a time · ★ must know · 💭 understanding only', ''.join(cs), back=HUB)
+        out = re.sub(r'← Back to [^<]+', '← Back to Cell Physiology', out, count=1).replace('</body>', cj + '</body>')
+        open(fn, 'w').write(out)
+        tiles += f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🧭</div><h2>{E(name.split(" ", 1)[1])}</h2><p>{E(sub)} · {len(cs)} pathways · tap arrow by arrow</p></a>'
+    print('pathways e4', [(f, len(i)) for f, _, _, i in E4DECKS])
+    return tiles
+
 def _copyjs():
     src = open(os.path.join(os.path.dirname(__file__), 'sys_lec_terms_cards.py')).read()
     return re.search(r'COPYJS=r"""(.*?)"""', src, re.S).group(1)
