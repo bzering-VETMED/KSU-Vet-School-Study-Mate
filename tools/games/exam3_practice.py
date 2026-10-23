@@ -1,7 +1,7 @@
 # Blueprint-weighted practice exam for Gross Anatomy Lecture Exam 3 (made by Claude).
 # Run from repo root: python3 tools/games/exam3_practice.py  -> gross-anatomy-exam3-practice.html
-# Content comes only from tools/terms/*.json (L17, L18, L19, ABD1=L20, ABD2=L21, L22, L23).
-# Blueprint: L17=5, L18=7, L19=7, L20=7, L21=7, L22=3, L23=7 (first half only) -> 43 questions.
+# Content comes only from tools/terms/*.json (L17, L18, L19, ABD1=L20, ABD2=L21, L22, L23, L24, L25).
+# Blueprint: L17=5, L18=7, L19=7, L20=7, L21=7, L22=3, L23=7, L24=7, L25=3 -> 53 questions.
 import os, sys, json, time, random
 sys.path.insert(0, os.path.dirname(__file__)); import common
 V = str(int(time.time()))
@@ -14,8 +14,10 @@ LECS = {
  "L21": "L21 Abdominal Cavity 2",
  "L22": "L22 Urinary System",
  "L23": "L23 Male Reproductive",
+ "L24": "L24 Female Reproductive",
+ "L25": "L25 Abdominal Radiology",
 }
-BLUEPRINT = {"L17": 5, "L18": 7, "L19": 7, "L20": 7, "L21": 7, "L22": 3, "L23": 7}
+BLUEPRINT = {"L17": 5, "L18": 7, "L19": 7, "L20": 7, "L21": 7, "L22": 3, "L23": 7, "L24": 7, "L25": 3}
 
 # (lecture, objective, stem, correct, [3 distractors], one-line explanation)
 Q = [
@@ -80,10 +82,10 @@ Q = [
   "The accessory cephalic vein drains which aspect of the limb?",
   "Dorsal and lateral aspect", ["Medial aspect only", "Palmar and medial aspect", "Caudal and palmar aspect"],
   "Cephalic drains the medial aspect; accessory cephalic drains dorsal and lateral, then joins the cephalic."),
- ("L19", "Lymph drainage",
-  "Efferent vessels of the accessory axillary lymph node drain into the…",
-  "Axillary lymph node", ["Superficial cervical lymph node", "External jugular vein", "Medial retropharyngeal lymph node"],
-  "The inconstant accessory axillary node drains into the constant axillary node."),
+ ("L19", "Paw artery naming",
+  "The deep arteries on the palmar surface of the paw are the…",
+  "Palmar metacarpal arteries", ["Palmar common digital arteries", "Dorsal metacarpal arteries", "Dorsal common digital arteries"],
+  "Paw rule: superficial = common digital, deep = metacarpal; prefix dorsal or palmar by surface. Palmar metacarpals run deep to the deep digital flexor tendons."),
  ("L19", "Lymph nodes of the thoracic limb",
   "Which two lymph nodes of the thoracic limb are constant?",
   "Superficial cervical and axillary", ["Axillary and accessory axillary", "Superficial cervical and accessory axillary", "Axillary and medial retropharyngeal"],
@@ -144,10 +146,10 @@ Q = [
   "Hepatic portal blood and hepatic arterial blood mix in the…",
   "Liver sinusoids", ["Central vein", "Hepatic veins", "Caudal vena cava"],
   "They mix in the sinusoids, then drain sinusoids → central vein → hepatic veins → caudal vena cava."),
- ("L21", "Parietal, visceral and retroperitoneal",
-  "The abdominal surface of the diaphragm is covered by…",
-  "Parietal peritoneum", ["Visceral peritoneum", "Parietal pleura", "Visceral pleura"],
-  "Abdominal side = parietal peritoneum; thoracic side = parietal (diaphragmatic) pleura."),
+ ("L21", "Structures passing through the inguinal canal",
+  "Which nerve passes through the inguinal canal?",
+  "Genitofemoral nerve", ["Femoral nerve", "Obturator nerve", "Pudendal nerve"],
+  "Inguinal canal (slide 40): spermatic cord or vaginal process, external pudendal artery and vein, genitofemoral nerve, efferent lymph duct of the superficial inguinal node, cremaster muscle."),
  ("L21", "Mesentery, omenta and epiploic foramen",
   "The ventral border of the epiploic foramen is the…",
   "Portal vein", ["Caudal vena cava", "Abdominal aorta", "Splenic vein"],
@@ -176,14 +178,14 @@ Q = [
   "Round ligament of the bladder = free edge of the lateral ligament, remnant of the umbilical artery."),
 
  # ---------- L23 Male reproductive, first half (7) ----------
- ("L23", "Testicular descent",
-  "Which structure drives descent of the testis into the scrotum?",
-  "Gubernaculum testis", ["Cremaster muscle", "Tunica dartos", "Scrotal ligament"],
-  "The gubernacular bulb in the scrotum shrinks and pulls the attached testis toward it."),
- ("L23", "Scrotum",
-  "The tunica dartos is a layer of…",
-  "Smooth muscle under scrotal skin", ["Skeletal muscle under scrotal skin", "Connective tissue around the testis", "Serous membrane around the testis"],
-  "Tunica dartos = smooth muscle just deep to scrotal skin; involuntary; draws testes toward the body in cold."),
+ ("L23", "Penis: erectile tissue and muscles",
+  "The bulb of the penis has which erectile tissue and covering muscle?",
+  "Corpus spongiosum and bulbospongiosus", ["Corpus cavernosum and ischiocavernosus", "Corpus spongiosum and ischiocavernosus", "Corpus cavernosum and bulbospongiosus"],
+  "Name logic: bulb = corpus spongiosum + bulbospongiosus; crus = corpus cavernosum + ischiocavernosus. The urethra always sits in corpus spongiosum."),
+ ("L23", "Accessory sex glands",
+  "Which surface of the prostate is covered by peritoneum?",
+  "Dorsal surface only", ["Ventral surface only", "Both dorsal and ventral", "Neither surface"],
+  "Prostate: dorsal surface has peritoneum, ventral is retroperitoneal. Flipped from the kidney (ventral covered, dorsal free)."),
  ("L23", "Cat versus dog",
   "In the cat, the scrotum is located…",
   "Just ventral to the anus", ["Between the thighs", "Ventral to the penis", "Cranial to the prepuce"],
@@ -204,19 +206,63 @@ Q = [
   "Open castration incises which layer?",
   "Parietal vaginal tunic", ["Visceral vaginal tunic", "Tunica albuginea", "Mesoductus deferens"],
   "Open: parietal vaginal tunic incised, opening the vaginal cavity (continuous with the peritoneal cavity). Closed: nothing opened."),
+
+ # ---------- L24 Female reproductive (7) ----------
+ ("L24", "Ovarian ligaments",
+  "During a spay, which ligament is broken by strumming?",
+  "Suspensory ligament of the ovary", ["Proper ligament of the ovary", "Round ligament of the uterus", "Broad ligament of the uterus"],
+  "Suspensory ligament (last two ribs → ovary) is torn by strumming. The proper ligament of the ovary (ovary → horn) is sturdy and gets clamped."),
+ ("L24", "Broad ligament and ovarian bursa",
+  "The ovarian bursa is formed by the…",
+  "Mesovarium and mesosalpinx", ["Mesosalpinx and mesometrium", "Mesovarium and mesometrium", "Mesometrium and uterine velum"],
+  "Mesovarium + mesosalpinx enclose the ovary as the ovarian bursa. Mesovarium + mesosalpinx + mesometrium = broad ligament."),
+ ("L24", "Uterine tube",
+  "Which opening lies within the infundibulum of the uterine tube?",
+  "Abdominal ostium", ["Uterine ostium", "Internal uterine orifice", "External uterine orifice"],
+  "Abdominal ostium = entrance in the infundibulum; uterine ostium = exit into the horn. Uterine orifices belong to the cervix."),
+ ("L24", "Vagina",
+  "Transverse folds of the vaginal mucosa allow an increase in…",
+  "Length", ["Diameter", "Wall thickness", "Mucus secretion"],
+  "Transverse folds → length; longitudinal folds → diameter."),
+ ("L24", "Vestibule",
+  "Which mucosal feature identifies the vestibule?",
+  "No mucosal folds", ["Only longitudinal folds", "Only transverse folds", "Both fold types"],
+  "Vagina = longitudinal plus transverse folds; vestibule = smooth, no mucosal folds."),
+ ("L24", "Female blood supply",
+  "The uterine artery is a branch of the…",
+  "Vaginal artery", ["Ovarian artery", "Abdominal aorta", "Caudal mesenteric artery"],
+  "Internal pudendal → vaginal artery → uterine artery, which anastomoses with the uterine BRANCH of the ovarian artery."),
+ ("L24", "Vestibule and catheterization",
+  "In the bitch, the external urethral orifice sits on the…",
+  "Urethral tubercle", ["Vaginal fornix", "Fossa clitoridis", "Cervical canal"],
+  "External urethral orifice = cranioventral vestibule, on the urethral tubercle. A catheter that hits it: withdraw and direct dorsally."),
+
+ # ---------- L25 Abdominal radiology (3) ----------
+ ("L25", "Optional views",
+  "A small kidney is hidden by superimposed bowel. Which view helps most?",
+  "Compression view", ["Horizontal beam view", "Pneumocolonogram", "Perineal lateral view"],
+  "Compression (wooden spoon) reduces superimposition. Horizontal beam = free gas; perineal view = urethral stones; pneumocolonogram = colon versus small intestine."),
+ ("L25", "Stomach gas by recumbency",
+  "On a right lateral abdominal radiograph, gas collects in the…",
+  "Fundus", ["Pylorus", "Duodenum", "Cardia"],
+  "Gas rises: right lateral → the left-sided fundus is up. Left lateral → pylorus and duodenum fill with gas."),
+ ("L25", "Kidney size",
+  "Normal canine kidney length equals how many second lumbar vertebrae?",
+  "2.5 to 3.5", ["2 to 3", "1.5 to 2.5", "3.5 to 4.5"],
+  "Dog: 2.5–3.5 × the second lumbar vertebra; cat: 2–3 ×. Measured on the ventrodorsal view."),
 ]
 
 # ---- checks ----
 from collections import Counter
 cnt = Counter(q[0] for q in Q)
 assert dict(cnt) == BLUEPRINT, cnt
-assert len(Q) == 43
+assert len(Q) == 53
 for q in Q:
     opts = [q[3]] + q[4]
     assert len(q[4]) == 3 and len(set(opts)) == 4, q[2]
 
 # ---- balanced answer letters (fixed seed so the default order is stable) ----
-letters = (list("ABCD") * 11)[:len(Q)]          # A11 B11 C11 D10
+letters = (list("ABCD") * 14)[:len(Q)]          # A14 B13 C13 D13
 random.Random(806).shuffle(letters)
 DATA = []
 for (lec, obj, stem, ok, bad, why), L in zip(Q, letters):
@@ -240,8 +286,8 @@ table{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px}th{backgr
 
 body = STYLE + '''
 <div class="panel on" id="setup" style="margin-top:12px"><h2>📝 Practice exam setup</h2>
-<p class="hint">43 questions weighted by the blueprint: L17 = 5 · L18 = 7 · L19 = 7 · L20 = 7 · L21 = 7 · L22 = 3 · L23 = 7 (first half only). Pick an option → instant feedback. Lecture 24/25 not included yet.</p>
-<div class="row"><select id="lec"><option value="all">All lectures (43)</option></select>
+<p class="hint">53 questions weighted by the blueprint: L17 = 5 · L18 = 7 · L19 = 7 · L20 = 7 · L21 = 7 · L22 = 3 · L23 = 7 · L24 = 7 · L25 = 3. Pick an option → instant feedback.</p>
+<div class="row"><select id="lec"><option value="all">All lectures (53)</option></select>
 <button class="btn" id="shuf" aria-pressed="false">🔀 Shuffle: off</button>
 <button class="btn hot" id="start">Start ▶</button></div></div>
 <div class="panel" id="quiz" style="margin-top:12px">
@@ -291,7 +337,7 @@ $('#copy').onclick=()=>{const txt=misses().map((a,n)=>(n+1)+'. ['+LECS[a.c.d.l]+
  if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(txt).then(()=>toast('📋 Misses copied'),fallback);else fallback();window.__lastCopy=txt};
 document.addEventListener('keydown',e=>{if(!$('#quiz').classList.contains('on'))return;if(/^[1-4a-dA-D]$/.test(e.key)){const k=/\d/.test(e.key)?+e.key-1:'abcd'.indexOf(e.key.toLowerCase());pick(k)}else if(e.key==='Enter')$('#next').click()});'''
 
-out = common.page('📝 Exam 3 Practice Exam', 'Gross Anatomy Lecture Exam 3 · 43 blueprint-weighted multiple-choice questions · tap an option for instant feedback',
+out = common.page('📝 Exam 3 Practice Exam', 'Gross Anatomy Lecture Exam 3 · 53 blueprint-weighted multiple-choice questions · tap an option for instant feedback',
                   body, js, back=f'gross-anatomy-lecture.html?v={V}')
 open('gross-anatomy-exam3-practice.html', 'w').write(out)
 print('ok', len(DATA), dict(cnt), 'letters', dict(sorted(DIST.items())))
