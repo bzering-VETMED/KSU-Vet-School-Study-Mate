@@ -1,0 +1,908 @@
+{
+ "lc": 33,
+ "prof": "Basel",
+ "title": "Reactive Oxygen & O2 Sensing",
+ "emoji": "🫧",
+ "date": "Wed 11/11",
+ "terms": [
+  [
+   "Oxygen paradox",
+   "Oxygen (O2) is essential for almost all life, but organic compounds are flammable, so O2 is also deadly and must be regulated.",
+   "S5",
+   false
+  ],
+  [
+   "Reactive oxygen species (ROS)",
+   "Highly reactive, oxygen-containing compounds; their reactivity makes them very toxic.",
+   "S6",
+   false
+  ],
+  [
+   "Free radical",
+   "Molecule with an unpaired electron; the most dangerous ROS are often free radicals.",
+   "S6",
+   false
+  ],
+  [
+   "Superoxide anion (O2−·)",
+   "The most basic ROS: single-electron reduction of molecular oxygen (O2 + 1 e− → O2−·). Other ROS form from it.",
+   "S6",
+   false
+  ],
+  [
+   "Hydrogen peroxide (H2O2)",
+   "ROS formed spontaneously from superoxide; substrate for catalase, glutathione peroxidase, thioredoxin, and myeloperoxidase.",
+   "S6",
+   false
+  ],
+  [
+   "Hydroxyl radical (HO·)",
+   "Highly reactive free-radical ROS; made by the Fenton reaction, ionizing radiation, and peroxynitrite breakdown.",
+   "S6",
+   false
+  ],
+  [
+   "Hydroperoxyl radical (HOO·)",
+   "Hydroperoxyl radical; listed among ROS (S6) and drawn as a Fenton reaction product (S10).",
+   "S6",
+   false
+  ],
+  [
+   "Nitric oxide radical (·NO)",
+   "Nitrogen-containing reactive species made by nitric oxide synthase; nitrogen species can also be strong ROS.",
+   "S6",
+   false
+  ],
+  [
+   "Nitrogen dioxide radical (·NO2)",
+   "Nitrogen radical; objectives call it the 'nitrite radical'. Forms when peroxynitrite breaks down.",
+   "S6",
+   false
+  ],
+  [
+   "Peroxynitrite (ONOO−)",
+   "Formed when nitric oxide radical reacts with superoxide; breaks down into ·NO2 and HO·.",
+   "S10",
+   false
+  ],
+  [
+   "Oxidation",
+   "To take electrons away. ROS are strong oxidizers that remove electrons from other atoms.",
+   "S7",
+   false
+  ],
+  [
+   "Metal center oxidation",
+   "ROS change metal oxidation states: Fe2+ → Fe3+ and Cu+ → Cu2+.",
+   "S7",
+   false
+  ],
+  [
+   "Sulfur (cysteine) oxidation",
+   "Cysteine thiol (–S–H) oxidized to –SO2− then –SO3−, or two thiols joined into a disulfide (–S–S–).",
+   "S7",
+   false
+  ],
+  [
+   "Nitrogen oxidation",
+   "Amine oxidized stepwise: –NH2 → –NHOH → –NHO → –NO2−.",
+   "S7",
+   false
+  ],
+  [
+   "Carbon oxidation",
+   "Methyl oxidized stepwise: –CH3 → –CH2OH → aldehyde → –COOH (carboxylic acid).",
+   "S7",
+   false
+  ],
+  [
+   "Selenocysteine",
+   "Selenium-containing amino acid; 'also important!' (S7). Slides place 'selenocysteines!' at thioredoxin reductase (S15) and glutathione reductase (S16).",
+   "S7",
+   true
+  ],
+  [
+   "Radical chain reaction",
+   "A free-radical ROS takes one electron from a molecule, creating a new radical, which repeats; multiplies damage far beyond the initial molecule.",
+   "S8",
+   false
+  ],
+  [
+   "Initiation",
+   "First step: radical ROS takes an electron from R–H, making a new radical R·.",
+   "S8",
+   false
+  ],
+  [
+   "Propagation",
+   "Each new radical steals an electron from another molecule, making another radical; repeats x times.",
+   "S8",
+   false
+  ],
+  [
+   "Termination",
+   "Two radicals combine (W· + N· → W–N), ending the chain.",
+   "S8",
+   false
+  ],
+  [
+   "Electron transport chain as ROS source",
+   "Normal metabolism: Complexes I and III leak electrons to O2, forming superoxide (slide flags 'LC20!').",
+   "S9",
+   true
+  ],
+  [
+   "Ischemia/reperfusion",
+   "Ischemia: succinate builds up; at reperfusion electrons run backward from Complex II into Complex I, leaking superoxide.",
+   "S9",
+   false
+  ],
+  [
+   "Succinate build-up",
+   "Accumulates at Complex II during ischemia (red arrow fumarate → succinate); drives backward electron flow to Complex I and superoxide on reperfusion.",
+   "S9",
+   false
+  ],
+  [
+   "Phagocytic respiratory burst",
+   "Phagocytes deliberately make ROS in the phagosome: NADPH oxidase → superoxide → H2O2 → hypochlorous acid.",
+   "S10",
+   false
+  ],
+  [
+   "NADPH oxidase",
+   "Enzyme: NADPH + 2 O2 → NADP+ + H+ + 2 O2−·. Starts the respiratory burst; also an O2 sensor in glomus cells.",
+   "S10",
+   false
+  ],
+  [
+   "Superoxide dismutase (SOD)",
+   "Enzyme: 2 O2−· + 2 H+ → H2O2 + O2. Found in virtually every cell; also part of the respiratory burst.",
+   "S14",
+   false
+  ],
+  [
+   "Myeloperoxidase",
+   "Phagocyte enzyme: H2O2 + HCl → HOCl (bleach) + H2O.",
+   "S10",
+   false
+  ],
+  [
+   "Hypochlorous acid (HOCl)",
+   "'Bleach'; the killing product of myeloperoxidase in the phagosome.",
+   "S10",
+   false
+  ],
+  [
+   "Fenton reaction",
+   "Iron-catalyzed (slide header Fe2+; figure Fe^x+): 2 H2O2 → H2O + HOO· + HO·. Iron intensifies ROS.",
+   "S10",
+   false
+  ],
+  [
+   "Nitric oxide synthase (NOS)",
+   "Enzyme: arginine + NADPH + H+ + O2 → citrulline + H2O + NADP+ + nitric oxide radical (·NO).",
+   "S10",
+   false
+  ],
+  [
+   "Ionizing radiation",
+   "Alpha, beta, gamma radiation splits water (H–O–H → HO· + e− + H+); the electron reduces O2 to superoxide.",
+   "S10",
+   false
+  ],
+  [
+   "ROS damage to DNA",
+   "Oxidized DNA, cross-linked DNA, DNA adducts.",
+   "S11",
+   false
+  ],
+  [
+   "ROS damage to lipids",
+   "Lipid peroxides and lipid adducts; multiplied by radical chain reactions.",
+   "S11",
+   false
+  ],
+  [
+   "ROS damage to proteins",
+   "Oxidized amino acids, protein dimers, protein adducts.",
+   "S11",
+   false
+  ],
+  [
+   "ROS outcomes",
+   "Cell damage → cell death, neoplasm, other diseases, and aging (slide puts '?' after aging).",
+   "S11",
+   false
+  ],
+  [
+   "Acetaminophen (Tylenol) toxicity",
+   "Cat case diagnosis (S3 signs: rapid breathing, nausea, drooling, lethargy, cyanosis, edema).",
+   "S12",
+   false
+  ],
+  [
+   "Glucuronidation",
+   "Primary non-toxic acetaminophen pathway. Cats lack the gene for it.",
+   "S12",
+   false
+  ],
+  [
+   "Hydroxylation (acetaminophen)",
+   "Minor side pathway that produces NAPQI, a strong oxidizer.",
+   "S12",
+   false
+  ],
+  [
+   "NAPQI",
+   "N-acetyl-p-benzoquinone imine (expansion OUTSIDE). Strong oxidizer from acetaminophen; causes massive oxidative liver damage and cell death.",
+   "S12",
+   false
+  ],
+  [
+   "N-acetylcysteine",
+   "Treatment for acetaminophen toxicity: precursor for glutathione production, restoring reduced glutathione stores.",
+   "S19",
+   false
+  ],
+  [
+   "Enzymatic antioxidants",
+   "Superoxide dismutase and catalase.",
+   "S13",
+   false
+  ],
+  [
+   "Catalase",
+   "Enzyme: 2 H2O2 → 2 H2O + O2. With superoxide dismutase prevents superoxide/H2O2 build-up.",
+   "S14",
+   false
+  ],
+  [
+   "Protein antioxidants",
+   "Thioredoxin.",
+   "S13",
+   false
+  ],
+  [
+   "Thioredoxin",
+   "Protein with two cysteine thiols; reduced form (S–H H–S) reduces H2O2 to water and becomes oxidized (S–S).",
+   "S15",
+   false
+  ],
+  [
+   "Thioredoxin reductase (TrxR)",
+   "Regenerates reduced thioredoxin using NADPH; contains selenocysteines. TrxR inhibitors are possible anti-cancer drugs.",
+   "S15",
+   true
+  ],
+  [
+   "NADPH",
+   "Nicotinamide adenine dinucleotide phosphate (reduced): electron donor that powers thioredoxin and glutathione regeneration cycles.",
+   "S15",
+   false
+  ],
+  [
+   "Peptide antioxidants",
+   "Glutathione.",
+   "S13",
+   false
+  ],
+  [
+   "Glutathione (GSH)",
+   "Tripeptide glutamate–cysteine–glycine; reduced form neutralizes H2O2 and detoxifies NAPQI.",
+   "S16",
+   false
+  ],
+  [
+   "Glutathione disulfide (GS–SG)",
+   "Oxidized glutathione: two GSH joined by a disulfide after reducing H2O2.",
+   "S16",
+   false
+  ],
+  [
+   "Glutathione peroxidase",
+   "Enzyme: H2O2 + 2 GSH → GS–SG + 2 H2O.",
+   "S16",
+   false
+  ],
+  [
+   "Glutathione reductase",
+   "Enzyme: regenerates 2 GSH from GS–SG using NADPH; slide labels it 'selenocysteines!' (see flag).",
+   "S16",
+   true
+  ],
+  [
+   "Small molecule antioxidants",
+   "Vitamin C and vitamin E.",
+   "S13",
+   false
+  ],
+  [
+   "Vitamin C (ascorbate)",
+   "Donates an H+ and e− to a radical (R· → R–H), becoming a relatively stable radical, then dehydroascorbate.",
+   "S17",
+   false
+  ],
+  [
+   "Dehydroascorbate (DHAsc)",
+   "Fully oxidized vitamin C: 2 R· + 2 Asc → 2 R–H + Asc + DHAsc.",
+   "S17",
+   false
+  ],
+  [
+   "Vitamin E",
+   "Donates H+ and e− to a radical, becoming a very stable radical; regenerated by vitamin C.",
+   "S18",
+   false
+  ],
+  [
+   "Transferrin",
+   "OUTSIDE — confirm: plasma protein that carries Fe3+, keeping free iron (Fenton catalyst) low. Listed in terms, not shown.",
+   "S13",
+   false
+  ],
+  [
+   "Transferrin receptor",
+   "OUTSIDE — confirm: cell-surface receptor that takes up iron-loaded transferrin by endocytosis. Listed in terms, not shown.",
+   "S13",
+   false
+  ],
+  [
+   "Ferritin",
+   "OUTSIDE — confirm: intracellular iron-storage protein that sequesters iron safely. Listed in terms, not shown.",
+   "S13",
+   false
+  ],
+  [
+   "Normoxia / hypoxia / hyperoxia",
+   "Normal / low / high oxygen levels; each triggers different signaling responses.",
+   "S20",
+   false
+  ],
+  [
+   "Central receptors",
+   "Ventrolateral surface of the medulla; stimulate breathing but sense primarily CO2 (as pH), not O2.",
+   "S22",
+   false
+  ],
+  [
+   "Peripheral receptors",
+   "Carotid and aortic bodies; respond to pO2 as well as pCO2 and pH; sense O2 through glomus cells.",
+   "S22",
+   false
+  ],
+  [
+   "Carotid bodies",
+   "Peripheral O2 receptor site (carotid artery).",
+   "S21",
+   false
+  ],
+  [
+   "Aortic bodies",
+   "Peripheral O2 receptor site (aortic arch).",
+   "S21",
+   false
+  ],
+  [
+   "Glomus cell",
+   "Peripheral O2-sensing cell: hypoxia closes K+ channels → depolarizes → Ca2+ channels open → neurotransmitter release.",
+   "S23",
+   false
+  ],
+  [
+   "Heme oxygenase",
+   "Glomus O2 sensor: uses O2 + NADPH to make carbon monoxide (CO) during normoxia; CO's link to the channel is not drawn.",
+   "S23",
+   false
+  ],
+  [
+   "AMP kinase (AMPK)",
+   "Adenosine monophosphate–activated kinase; glomus sensor: hypoxia drops ATP, raises AMP → AMP kinase inhibits the K+ channel.",
+   "S23",
+   false
+  ],
+  [
+   "NADPH oxidase (O2 sensor)",
+   "In glomus cells, makes superoxide from O2 during normoxia; superoxide signals to the K+ channel (keeps it open).",
+   "S23",
+   false
+  ],
+  [
+   "Hypoxia-inducible factors (HIF)",
+   "Transcription factors that sense low O2 in individual cells and turn on hypoxia response genes.",
+   "S24",
+   false
+  ],
+  [
+   "HIF prolyl hydroxylase",
+   "Uses O2 to add –OH to HIF in normoxia, targeting HIF for proteasomal degradation.",
+   "S24",
+   false
+  ],
+  [
+   "Proteasomal degradation",
+   "Fate of hydroxylated HIF when O2 is high.",
+   "S24",
+   false
+  ],
+  [
+   "Hypoxia response genes",
+   "Genes HIF turns on when O2 is low and HIF escapes degradation.",
+   "S24",
+   false
+  ],
+  [
+   "ASK1",
+   "Apoptosis signal-regulating kinase 1: a MAPKKK held by reduced thioredoxin; released in hyperoxia/oxidative stress.",
+   "S25",
+   false
+  ],
+  [
+   "MAPKKK → MAPKK → MAPK",
+   "Mitogen-activated protein kinase cascade: ASK1 (MAPKKK) activates MAPKK, then MAPK → pro-apoptotic gene expression.",
+   "S25",
+   false
+  ],
+  [
+   "Pro-apoptotic gene expression",
+   "Hyperoxia response output of the ASK1–MAPK pathway.",
+   "S25",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>Reduction makes the oxidizer:</b> superoxide is the single-electron <b>reduction</b> of O2 (O2 gains an e−), yet ROS act as <b>oxidizers</b> (take electrons away). Don't flip which word goes where (S6, S7).",
+  "<b>Superoxide dismutase vs catalase:</b> superoxide dismutase makes <b>H2O2 + O2</b> (still bad stuff); catalase makes <b>H2O + O2</b> (not bad stuff). Order: dismutase first, catalase second (S14).",
+  "<b>Peroxidase vs reductase:</b> glutathione <b>peroxidase</b> uses GSH to destroy H2O2 (GSH → GS–SG); glutathione <b>reductase</b> uses NADPH to regenerate GSH. Same logic for thioredoxin vs thioredoxin reductase (S15, S16).",
+  "<b>Reduced vs oxidized thioredoxin:</b> reduced (S–H H–S) = active antioxidant AND holds ASK1 off; oxidized (S–S) = <b>releases</b> ASK1 → apoptosis (S15, S25).",
+  "<b>HIF flips with O2:</b> <b>high</b> O2 → prolyl hydroxylase adds OH → <b>degraded</b>; <b>low</b> O2 → HIF survives → hypoxia response genes. Hydroxylation needs O2 (S24).",
+  "<b>O2 sensing flips:</b> glomus hypoxia <b>closes K+</b>, <b>opens Ca2+</b>, cell <b>depolarizes</b> (normoxia = polarized). Central receptors sense <b>CO2 (as pH)</b>, NOT primarily O2; peripheral sense pO2 + pCO2 + pH (S22, S23).",
+  "<b>Cat acetaminophen:</b> cats lack <b>glucuronidation</b> (the major non-toxic route), NOT hydroxylation. Hydroxylation (minor) makes NAPQI. N-acetylcysteine is a <b>GSH precursor</b>, not an enzyme (S12, S19).",
+  "<b>Respiratory burst order:</b> NADPH oxidase → superoxide → superoxide dismutase → H2O2 → <b>myeloperoxidase</b> + HCl → HOCl. Myeloperoxidase acts on H2O2, not superoxide (S10).",
+  "<b>Vitamin C regenerates vitamin E</b> (not the reverse). Vitamin E radical = 'very stable'; vitamin C radical = 'relatively stable' (S17, S18).",
+  "<b>Fenton = iron</b> (header 'Fe2+'), inputs <b>2 H2O2</b>, outputs HOO· + HO· (not superoxide in). NOS: arginine → <b>citrulline</b> + ·NO. Ischemia builds up <b>succinate</b> (not fumarate). Glutathione = glu<b>tamate</b> (not glutamine)–cysteine–glycine (S9, S10, S16).",
+  "<b>Selenocysteine placement (slide):</b> thioredoxin <b>reductase</b> (S15) and glutathione <b>reductase</b> (S16) — not the peroxidase on these slides. Textbooks differ (see flag)."
+ ],
+ "know": [
+  {
+   "title": "ROS sources",
+   "slide": "S9–S10",
+   "note": "Normal metabolism, enzyme catalysis, metal catalysis, ionizing radiation (objectives S4). S9 flagged 'LC20!'.",
+   "headers": [
+    "Source",
+    "Enzyme / catalyst",
+    "Input",
+    "ROS produced"
+   ],
+   "rows": [
+    [
+     "Electron transport (normal metabolism; ischemia/reperfusion)",
+     "Complexes I and III",
+     "O2 + leaked electrons; ischemia: succinate builds up, electrons flow backward into Complex I",
+     "Superoxide (O2−·)"
+    ],
+    [
+     "Phagocytic respiratory burst",
+     "NADPH oxidase → superoxide dismutase → myeloperoxidase",
+     "NADPH + O2; then H2O2 + HCl",
+     "Superoxide → H2O2 → HOCl (bleach)"
+    ],
+    [
+     "Fenton reaction",
+     "Iron (header Fe2+; figure Fe^x+)",
+     "2 H2O2",
+     "H2O + HOO· + HO·"
+    ],
+    [
+     "Nitric oxide synthase",
+     "Nitric oxide synthase",
+     "Arginine + NADPH + H+ + O2",
+     "·NO (+ superoxide → ONOO− → ·NO2 + HO·)"
+    ],
+    [
+     "Ionizing radiation",
+     "α, β, γ radiation",
+     "Water (H–O–H) and O2",
+     "HO· + e− + H+; O2 → superoxide"
+    ]
+   ],
+   "hide": [
+    1,
+    3
+   ]
+  },
+  {
+   "title": "Antioxidant classes",
+   "slide": "S13–S18",
+   "note": "Objectives table S13: enzymatic / protein / peptide / small molecule.",
+   "headers": [
+    "Class",
+    "Example",
+    "What it does",
+    "Regenerated by"
+   ],
+   "rows": [
+    [
+     "Enzymatic",
+     "Superoxide dismutase + catalase",
+     "2 O2−· → H2O2 + O2; 2 H2O2 → 2 H2O + O2",
+     "Not consumed (enzymes)"
+    ],
+    [
+     "Protein",
+     "Thioredoxin",
+     "Reduced thioredoxin reduces H2O2 → 2 H2O; becomes S–S",
+     "Thioredoxin reductase + NADPH (selenocysteines)"
+    ],
+    [
+     "Peptide",
+     "Glutathione (glutamate–cysteine–glycine)",
+     "Glutathione peroxidase: H2O2 + 2 GSH → GS–SG + 2 H2O",
+     "Glutathione reductase + NADPH (selenocysteines!)"
+    ],
+    [
+     "Small molecule",
+     "Vitamin C and vitamin E",
+     "Donate H+ + e− to a radical (R· → R–H)",
+     "Vitamin C regenerates vitamin E"
+    ]
+   ],
+   "hide": [
+    1,
+    3
+   ]
+  },
+  {
+   "title": "Central vs peripheral receptors",
+   "slide": "S21–S22",
+   "note": "'You will discuss these more with Dr. Poole in Physiology II.'",
+   "headers": [
+    "Feature",
+    "Central receptors",
+    "Peripheral receptors"
+   ],
+   "rows": [
+    [
+     "Location",
+     "Ventrolateral surface of the medulla",
+     "Carotid and aortic bodies"
+    ],
+    [
+     "What they sense",
+     "Primarily CO2 (as pH) — NOT primarily O2",
+     "pO2 as well as pCO2 and pH"
+    ],
+    [
+     "Response",
+     "Stimulate respiration",
+     "Stimulate respiration"
+    ],
+    [
+     "O2-sensing cell",
+     "—",
+     "Glomus cell"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Normoxia vs hypoxia vs hyperoxia",
+   "slide": "S23–S25",
+   "note": "Systemic (glomus) and cellular (HIF, ASK1) responses.",
+   "headers": [
+    "Condition",
+    "Glomus cell",
+    "HIF",
+    "Thioredoxin / ASK1"
+   ],
+   "rows": [
+    [
+     "Normoxia",
+     "K+ channels open; cell polarized; no neurotransmitter",
+     "Prolyl hydroxylase adds OH → proteasomal degradation",
+     "Reduced thioredoxin (kept by TrxR + NADPH) holds ASK1 inactive"
+    ],
+    [
+     "Hypoxia",
+     "K+ channels close → depolarize → Ca2+ channels open → neurotransmitter",
+     "HIF survives → hypoxia response genes",
+     "—"
+    ],
+    [
+     "Hyperoxia",
+     "—",
+     "—",
+     "H2O2 oxidizes thioredoxin → ASK1 released → MAPKK → MAPK → pro-apoptotic genes"
+    ]
+   ],
+   "hide": [
+    1,
+    2,
+    3
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "Superoxide anion, the most basic reactive oxygen species, is formed by which process?",
+   "ok": "One-electron reduction of molecular oxygen",
+   "bad": [
+    "Single-electron oxidation of molecular oxygen",
+    "Two-electron reduction of molecular oxygen",
+    "Hydroxylation of molecular oxygen by iron"
+   ],
+   "why": "O2 + 1 e− → O2−·: gaining one electron is a single-electron reduction.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "Which of the following is NOT a stage of a free radical chain reaction?",
+   "ok": "Radical dismutation",
+   "bad": [
+    "Radical initiation",
+    "Radical propagation",
+    "Radical termination"
+   ],
+   "why": "S8 lists initiation, propagation, termination. Dismutation is what superoxide dismutase does.",
+   "cite": "S8",
+   "sure": true
+  },
+  {
+   "stem": "During the propagation stage of a radical chain reaction, what happens?",
+   "ok": "A radical takes one electron, creating a new radical",
+   "bad": [
+    "Two radicals combine, forming one stable covalent bond",
+    "An enzyme converts superoxide into hydrogen peroxide",
+    "A radical donates two electrons to molecular oxygen"
+   ],
+   "why": "Each radical steals one electron from another molecule, making a new radical; termination is radical + radical.",
+   "cite": "S8",
+   "sure": true
+  },
+  {
+   "stem": "In a neutrophil phagosome, NADPH oxidase has just produced superoxide. Which enzyme acts next in the respiratory burst?",
+   "ok": "Superoxide dismutase, producing hydrogen peroxide",
+   "bad": [
+    "Myeloperoxidase, producing hypochlorous acid (bleach)",
+    "Catalase, producing water and oxygen",
+    "Nitric oxide synthase, producing peroxynitrite anion"
+   ],
+   "why": "Burst order: NADPH oxidase → superoxide dismutase (H2O2) → myeloperoxidase (HOCl).",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "Myeloperoxidase produces bleach in the phagosome by combining hydrogen peroxide with which substrate?",
+   "ok": "Hydrochloric acid, forming hypochlorous acid",
+   "bad": [
+    "Ferrous iron, forming hydroxyl radical",
+    "Nitric oxide, forming peroxynitrite anion",
+    "Arginine, forming citrulline and nitric oxide"
+   ],
+   "why": "H2O2 + HCl → HOCl + H2O (S10).",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "In the Fenton reaction, which metal ion does the slide name as catalyzing hydroxyl radical formation from hydrogen peroxide?",
+   "ok": "Ferrous iron (Fe2+)",
+   "bad": [
+    "Cupric copper (Cu2+)",
+    "Calcium cation (Ca2+)",
+    "Potassium ion (K+)"
+   ],
+   "why": "S10 panel header: 'Fe2+ and the Fenton Reaction' (2 H2O2 → H2O + HOO· + HO·).",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "Nitric oxide synthase uses NADPH and O2 to convert arginine into which products?",
+   "ok": "Citrulline and nitric oxide radical",
+   "bad": [
+    "Ornithine and nitric oxide radical",
+    "Citrulline and superoxide anion radical",
+    "Arginine and peroxynitrite anion"
+   ],
+   "why": "Arginine → citrulline + ·NO (S10).",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "A dog has a femoral artery clot removed after hours of limb ischemia. Which metabolite built up during ischemia and drives a superoxide burst at reperfusion?",
+   "ok": "Succinate",
+   "bad": [
+    "Fumarate",
+    "Citrulline",
+    "Ascorbate"
+   ],
+   "why": "S9: succinate builds up at Complex II during ischemia; reperfusion → superoxide.",
+   "cite": "S9",
+   "sure": true
+  },
+  {
+   "stem": "A cat given Tylenol after a fall presents cyanotic, drooling, and lethargic. Why is acetaminophen so toxic in cats?",
+   "ok": "Cats lack glucuronidation, so the dose goes to NAPQI",
+   "bad": [
+    "Cats lack hydroxylation, so the dose goes to NAPQI",
+    "Cats lack catalase, so hydrogen peroxide accumulates",
+    "Cats lack glutathione, so NAPQI cannot be formed"
+   ],
+   "why": "Glucuronidation is the main non-toxic route; without it, all of the dose goes to NAPQI.",
+   "cite": "S12",
+   "sure": true
+  },
+  {
+   "stem": "The same acetaminophen-toxic cat needs treatment. Which choice matches the slide's treatment and its rationale?",
+   "ok": "N-acetylcysteine, to restore reduced glutathione stores",
+   "bad": [
+    "Vitamin E, to regenerate oxidized vitamin C stores",
+    "Superoxide dismutase, to neutralize NAPQI directly",
+    "N-acetylcysteine, to block hydroxylation of acetaminophen"
+   ],
+   "why": "NAPQI is detoxified by GSH; N-acetylcysteine is a GSH precursor.",
+   "cite": "S19",
+   "sure": true
+  },
+  {
+   "stem": "Which enzyme uses NADPH to convert glutathione disulfide (GS–SG) back into two reduced glutathione molecules?",
+   "ok": "Glutathione reductase",
+   "bad": [
+    "Glutathione peroxidase",
+    "Thioredoxin reductase",
+    "Superoxide dismutase"
+   ],
+   "why": "Peroxidase consumes GSH on H2O2; reductase regenerates GSH with NADPH.",
+   "cite": "S16",
+   "sure": true
+  },
+  {
+   "stem": "Glutathione is a tripeptide composed of which three amino acids?",
+   "ok": "Glutamate, cysteine, and glycine",
+   "bad": [
+    "Glutamine, cysteine, and glycine",
+    "Glutamate, selenocysteine, and glycine",
+    "Glutamate, cysteine, and arginine"
+   ],
+   "why": "S16: glutamate–cysteine–glycine.",
+   "cite": "S16",
+   "sure": true
+  },
+  {
+   "stem": "After vitamin E quenches a lipid radical, it becomes a stable radical itself. Which antioxidant regenerates it?",
+   "ok": "Vitamin C",
+   "bad": [
+    "Glutathione",
+    "Thioredoxin",
+    "Catalase"
+   ],
+   "why": "S18 shows vitamin C donating H+ + e− to the vitamin E radical.",
+   "cite": "S18",
+   "sure": true
+  },
+  {
+   "stem": "Which statement about the central respiratory receptors is correct?",
+   "ok": "They sense mainly CO2 as pH, not oxygen",
+   "bad": [
+    "They sense mainly oxygen through glomus cells",
+    "They sit in the carotid and aortic bodies",
+    "They sense pO2, pCO2, and pH equally"
+   ],
+   "why": "Central (ventrolateral medulla) receptors do not primarily sense O2.",
+   "cite": "S22",
+   "sure": true
+  },
+  {
+   "stem": "A carotid body glomus cell becomes hypoxic and its K+ channels close. What happens next?",
+   "ok": "Cell depolarizes, opening calcium channels",
+   "bad": [
+    "Cell hyperpolarizes, opening calcium channels",
+    "Cell depolarizes, closing calcium channels",
+    "Cell hyperpolarizes, opening potassium channels"
+   ],
+   "why": "K+ closed → depolarize → Ca2+ channels open → neurotransmitter release.",
+   "cite": "S23",
+   "sure": true
+  },
+  {
+   "stem": "In a well-oxygenated cell, what happens to hypoxia-inducible factor (HIF)?",
+   "ok": "Prolyl hydroxylase adds OH, targeting HIF for degradation",
+   "bad": [
+    "Prolyl hydroxylase adds OH, activating hypoxia response genes",
+    "AMP kinase phosphorylates HIF, targeting it for degradation",
+    "Thioredoxin reduces HIF, releasing it into the nucleus"
+   ],
+   "why": "High O2 → hydroxylated HIF → proteasome; low O2 → HIF survives.",
+   "cite": "S24",
+   "sure": true
+  },
+  {
+   "stem": "During hyperoxia, how does the ASK1 pathway become activated?",
+   "ok": "Oxidized thioredoxin releases ASK1, activating MAPKK then MAPK",
+   "bad": [
+    "Reduced thioredoxin releases ASK1, activating MAPKK then MAPK",
+    "Oxidized thioredoxin binds ASK1, blocking MAPKK and MAPK",
+    "Thioredoxin reductase phosphorylates ASK1, activating MAPK directly"
+   ],
+   "why": "Reduced Trx holds ASK1; H2O2 oxidizes Trx → ASK1 free → MAPK cascade → pro-apoptotic genes.",
+   "cite": "S25",
+   "sure": true
+  },
+  {
+   "stem": "Which of the following is NOT listed as a product of ROS damage to macromolecules?",
+   "ok": "Glucuronide adducts",
+   "bad": [
+    "Cross-linked DNA",
+    "Lipid peroxides",
+    "Oxidized amino acids"
+   ],
+   "why": "S11: oxidized/cross-linked DNA, DNA adducts; lipid peroxides/adducts; oxidized amino acids, protein dimers/adducts. Glucuronide is from the acetaminophen case, not ROS damage.",
+   "cite": "S11",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "'LC20!' cross-reference (S7, S9)",
+   "Slides point to 'LC20' for electron transport / oxidation-state content. In Bethany's Exam 3 notes the electron transport/ischemia lecture was LC17 (OUTSIDE — confirm 2026 numbering) · review that Exam 3 lecture for Complex I–IV details."
+  ],
+  [
+   "'Nitrite radical' (S4) vs ·NO2 (S6)",
+   "S4 objectives say 'nitrite radical'; S6 figure shows ·NO2 (nitrogen dioxide radical; nitrite is NO2−) · treat as the same item; use 'nitrogen dioxide radical (·NO2)' and recognize 'nitrite radical' on the exam."
+  ],
+  [
+   "Slide typos",
+   "'glucurorinidation' and 'Acetominophen' (S12), 'fumurate' (S9), 'Citruline' (S10), 'antixodiants' (S13), 'Stuart, Ira, and Fox' (S21; one author, Stuart Ira Fox) · correct spellings: glucuronidation, acetaminophen, fumarate, citrulline, antioxidants."
+  ],
+  [
+   "Feline acetaminophen: liver vs blood (S12, S19)",
+   "Slide frames toxicity as NAPQI oxidative liver damage/cell death. OUTSIDE — confirm: textbooks emphasize feline methemoglobinemia/Heinz bodies (fits the cyanosis and edema on S3) and also cite low sulfation capacity · use the slide's liver/GSH framing for the exam."
+  ],
+  [
+   "'Hydroxylation' naming (S12)",
+   "Slide calls the NAPQI route 'hydroxylation'. OUTSIDE — confirm: textbooks describe cytochrome P450 oxidation · use the slide's word."
+  ],
+  [
+   "Ischemia/reperfusion mechanism (S9) — checked",
+   "Checked against slide image: red arrows show succinate build-up at Complex II (fumarate → succinate) and electrons driven backward from Complex II quinol into Complex I, leaking superoxide; red X's on proton pumping and Complex IV O2. Superoxide also drawn at Complex III. This matches the textbook reverse-electron-transport model · know it from the figure; confirm wording with transcript."
+  ],
+  [
+   "Central receptors 'increased pH' (S22)",
+   "Checked against slide image: S22 really reads 'in response to increased pH (and increased pCO2)'. Rising pCO2 lowers pH (raises H+) · genuine slide error; use 'increased pCO2 / increased H+ (decreased pH)' and confirm with transcript."
+  ],
+  [
+   "NADPH stoichiometry (S15, S16)",
+   "Net equations show H2O2 + 2 NADPH + H+ → 2 H2O + 2 NADP+. OUTSIDE — confirm: one H2O2 needs 2 electrons = 1 NADPH · don't memorize coefficients; know NADPH powers regeneration."
+  ],
+  [
+   "Selenocysteine location (S15, S16)",
+   "Checked against slide image: S15 puts 'selenocysteines!' under thioredoxin reductase; S16 puts it directly under glutathione REDUCTASE. OUTSIDE — confirm: textbooks say glutathione PEROXIDASE is the selenoenzyme and glutathione reductase is not · slides win for the exam (reductase on both slides); confirm with transcript."
+  ],
+  [
+   "Transferrin, transferrin receptor, ferritin (S13)",
+   "Listed in S13 terms but on no slide · definitions are OUTSIDE — confirm with transcript (likely iron sequestration to limit Fenton chemistry)."
+  ],
+  [
+   "Glomus sensor details (S23)",
+   "Checked against slide image: NADPH oxidase superoxide (normoxia) has an arrow to the K+ channel (keeps it open); AMP kinase (hypoxia) has an inhibition bar on the K+ channel; heme oxygenase makes CO in normoxia but no CO-to-channel link is drawn; polarized cell inhibits the Ca2+ channel · how CO acts is OUTSIDE — confirm with transcript."
+  ],
+  [
+   "HIF details (S24)",
+   "Slide gives only prolyl hydroxylase → proteasome vs hypoxia response genes. OUTSIDE — confirm: HIF-1α, von Hippel–Lindau protein, erythropoietin/vascular endothelial growth factor targets · not responsible unless transcript adds them."
+  ],
+  [
+   "TrxR inhibitors 'WHY?' (S25)",
+   "Stop-and-think with no answer on slide. Inferred answer (OUTSIDE — confirm): blocking thioredoxin reductase leaves thioredoxin oxidized → ASK1 released → MAPK → pro-apoptotic genes in cancer cells · confirm with transcript."
+  ],
+  [
+   "'aging (?)' (S11)",
+   "Slide itself questions ROS → aging · treat as possible, not established."
+  ],
+  [
+   "S10 equations — checked",
+   "Checked against slide image: Fenton = iron (header 'Fe2+', ball labeled Fe^x+) + 2 H2O2 → H2O + HOO· + HO· (no superoxide input). NOS = 2 arginine + 3 NADPH + 3 H+ + 4 O2 → 2 citrulline + 4 H2O + 3 NADP+ + 3 ·NO. The NOS figure doesn't balance (2 arginine → 3 ·NO) · don't memorize coefficients; know arginine → citrulline + ·NO."
+  ]
+ ]
+}

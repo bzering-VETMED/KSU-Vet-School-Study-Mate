@@ -1,0 +1,915 @@
+{
+ "lc": 25,
+ "prof": "Schultz",
+ "title": "Steroid Hormone Receptors",
+ "emoji": "🧬",
+ "date": "Fri 10/23",
+ "terms": [
+  [
+   "Steroid hormone receptor",
+   "Intracellular (cytosolic or nuclear) receptor family; ligand binding turns it into a transcription factor.",
+   "S1",
+   false
+  ],
+  [
+   "Cholesterol",
+   "Starting molecule for the true steroid hormones; not every steroid-receptor ligand comes from it.",
+   "S2",
+   false
+  ],
+  [
+   "Cholesterol derivatives (steroid hormones)",
+   "Estradiol, testosterone, aldosterone, cortisol, progesterone.",
+   "S3",
+   false
+  ],
+  [
+   "Non-cholesterol agonists",
+   "Thyroxine (T4), triiodothyronine (T3), reverse T3, retinoic acid (vitamin D3 also pictured) act at this receptor family without being cholesterol-derived.",
+   "S4",
+   false
+  ],
+  [
+   "Thyroxine (T4)",
+   "Prohormone made and stored by the thyroid; non-cholesterol ligand; also the slide's feedback signal to the pituitary.",
+   "S4, S20, S22",
+   false
+  ],
+  [
+   "Triiodothyronine (T3)",
+   "Biologically active thyroid hormone; formed by removing one iodine from T4.",
+   "S4, S20, S22",
+   false
+  ],
+  [
+   "Reverse T3",
+   "Reverse triiodothyronine; listed with the non-cholesterol steroid-receptor ligands.",
+   "S4",
+   false
+  ],
+  [
+   "Retinoic acid",
+   "Non-cholesterol agonist of the retinoic acid receptor (nuclear receptor).",
+   "S4, S5",
+   false
+  ],
+  [
+   "Vitamin D3 (cholecalciferol)",
+   "Pictured on the non-cholesterol-derivative slide; agonist of the vitamin D3 receptor (nuclear).",
+   "S4, S5",
+   false
+  ],
+  [
+   "Agonist",
+   "Ligand that binds and activates the receptor.",
+   "S5",
+   false
+  ],
+  [
+   "Antagonist",
+   "Ligand that binds the receptor and blocks activation.",
+   "S5",
+   false
+  ],
+  [
+   "Androgen receptor",
+   "Agonists testosterone, dihydrotestosterone (DHT), nandrolone; antagonists flutamide, enzalutamide.",
+   "S5",
+   false
+  ],
+  [
+   "Estrogen receptor",
+   "Agonist estradiol (clomiphene in parentheses); antagonists fulvestrant, tamoxifen.",
+   "S5",
+   false
+  ],
+  [
+   "Progesterone receptor",
+   "Agonist progesterone; antagonist mifepristone (RU-486).",
+   "S5",
+   false
+  ],
+  [
+   "Glucocorticoid receptor (GR)",
+   "Agonists cortisol, dexamethasone, prednisolone; antagonist mifepristone. Cytosolic receptor.",
+   "S5, S13",
+   false
+  ],
+  [
+   "Mineralocorticoid receptor (MR)",
+   "Agonist aldosterone; antagonist spironolactone. Cytosolic receptor; drives sodium and water retention.",
+   "S5, S13, S16",
+   false
+  ],
+  [
+   "Vitamin D3 receptor",
+   "Agonists vitamin D, maxacalcitol; antagonist ZK159222 (non-clinical). Nuclear receptor.",
+   "S5, S13",
+   false
+  ],
+  [
+   "Retinoic acid receptor",
+   "Agonists retinoic acid, tazarotene; antagonist YCT-529 (possible male contraceptive). Nuclear receptor.",
+   "S5, S13",
+   false
+  ],
+  [
+   "Thyroid hormone receptor",
+   "Agonist T3 (triiodothyronine); no antagonist listed. Nuclear receptor.",
+   "S5, S13, S20",
+   false
+  ],
+  [
+   "Mifepristone (RU-486)",
+   "Antagonist at BOTH the progesterone receptor and the glucocorticoid receptor.",
+   "S5",
+   false
+  ],
+  [
+   "Spironolactone",
+   "Mineralocorticoid receptor antagonist (blocks aldosterone).",
+   "S5, S18",
+   false
+  ],
+  [
+   "Carrier proteins",
+   "Plasma proteins that bind hydrophobic ligands; create a vascular reservoir and reduce renal excretion.",
+   "S6, S11",
+   false
+  ],
+  [
+   "Vitamin D binding protein (VDP)",
+   "Carrier for vitamin D.",
+   "S6",
+   false
+  ],
+  [
+   "Retinol binding protein (RBP4)",
+   "Carrier protein for retinol.",
+   "S6",
+   false
+  ],
+  [
+   "Thyroxine binding globulin (TBG)",
+   "Carrier for thyroid hormones (with transthyretin).",
+   "S6, S20",
+   false
+  ],
+  [
+   "Transthyretin (TTR)",
+   "Second carrier for thyroid hormones (with thyroxine binding globulin).",
+   "S6, S20",
+   false
+  ],
+  [
+   "Sex hormone binding globulin (SHBG)",
+   "Carrier for steroid androgens and estrogens.",
+   "S6",
+   false
+  ],
+  [
+   "Transcortin",
+   "Carrier for cortisol; lower affinity for progesterone and aldosterone (carries under 25% of aldosterone).",
+   "S6, S16",
+   false
+  ],
+  [
+   "Albumin",
+   "Listed first as aldosterone's carrier on the mineralocorticoid receptor slide (transcortin carries less than 25%).",
+   "S16",
+   false
+  ],
+  [
+   "Three receptor domains",
+   "Ligand (hormone)-binding domain, DNA binding domain, transcription-activating domain; listed as \"critical\" in the summary.",
+   "S7, S25",
+   true
+  ],
+  [
+   "DNA binding domain",
+   "Receptor region that binds the specific DNA sequence once the hormone-receptor complex is activated.",
+   "S7, S11",
+   false
+  ],
+  [
+   "Transcription-activating domain",
+   "Region that recruits co-factors to start transcription.",
+   "S7",
+   false
+  ],
+  [
+   "Inhibitory protein",
+   "Holds the unliganded receptor inactive; released when ligand binds (step 4).",
+   "S10",
+   false
+  ],
+  [
+   "Dimerization",
+   "Activated receptors pair up, then enter the nucleus via the nuclear pore (step 5).",
+   "S10, S11",
+   false
+  ],
+  [
+   "Free vs bound ligand",
+   "Most ligand is carrier-bound, some free; only free ligand diffuses into cells.",
+   "S10, S11",
+   false
+  ],
+  [
+   "Vascular reservoir",
+   "Carrier-bound ligand stays in circulation for up to hours, buffering free concentration.",
+   "S11, S15",
+   false
+  ],
+  [
+   "Hydrophobic / lipid-soluble ligand",
+   "Needs carriers in blood; free form crosses lipid membranes by diffusion.",
+   "S11",
+   false
+  ],
+  [
+   "Co-activators",
+   "Transcription co-factors required for gene expression: GRIP1, SRC1-3, TRAP, SMRT.",
+   "S13, S25",
+   false
+  ],
+  [
+   "GRIP1",
+   "Glucocorticoid receptor co-activator 1 (slide expansion).",
+   "S13",
+   false
+  ],
+  [
+   "SRC1, 2, 3",
+   "Sex hormone receptor complex 1, 2, 3 (slide expansion).",
+   "S13",
+   false
+  ],
+  [
+   "TRAP",
+   "Thyroid hormone receptor associated proteins.",
+   "S13",
+   false
+  ],
+  [
+   "SMRT",
+   "Signaling mediator for retinoic acid and thyroid hormone receptor (slide expansion).",
+   "S13",
+   false
+  ],
+  [
+   "Specificity of signaling",
+   "Requires the receptor, any ancillary enzymes, and cell-specific gene regulatory proteins.",
+   "S14",
+   false
+  ],
+  [
+   "11-beta hydroxysteroid dehydrogenase (11b-HSD)",
+   "Ancillary enzyme that converts cortisol to cortisone.",
+   "S14",
+   false
+  ],
+  [
+   "5-alpha reductase",
+   "Ancillary enzyme that converts testosterone to dihydrotestosterone (DHT).",
+   "S14",
+   false
+  ],
+  [
+   "Time course",
+   "Slow: minutes to hours or days; needs transcription and translation.",
+   "S15",
+   false
+  ],
+  [
+   "Termination",
+   "Requires hormone excretion: conjugation in the liver, then renal excretion.",
+   "S15",
+   false
+  ],
+  [
+   "Aldosterone",
+   "Mineralocorticoid from the adrenal cortex; released when blood pressure drops; sodium and water retention, potassium excretion.",
+   "S16-S19",
+   false
+  ],
+  [
+   "Renin-angiotensin-aldosterone system (RAAS)",
+   "Blood pressure drop leads to renin, angiotensin II, then aldosterone.",
+   "S16, S18",
+   false
+  ],
+  [
+   "Renin",
+   "Kidney enzyme (slide: macula densa) converting angiotensinogen to angiotensin I; blocked by aliskiren.",
+   "S18",
+   false
+  ],
+  [
+   "Angiotensin converting enzyme (ACE)",
+   "Converts angiotensin I to angiotensin II; blocked by captopril.",
+   "S18",
+   false
+  ],
+  [
+   "Angiotensin II",
+   "Stimulates aldosterone release, vasoconstriction, and vasopressin (antidiuretic hormone, ADH) secretion.",
+   "S18",
+   false
+  ],
+  [
+   "Angiotensin II type 1 receptor (AT1R)",
+   "Receptor for angiotensin II on the adrenal cortex; blocked by losartan; valsartan listed as \"biased\".",
+   "S18",
+   false
+  ],
+  [
+   "Amiloride",
+   "Drug listed next to Na+ (sodium) retention on the RAAS slide; mechanism not stated on the slide (see flag).",
+   "S18",
+   false
+  ],
+  [
+   "Aldosterone target genes",
+   "Apical sodium channel, apical potassium channel, basolateral sodium/potassium ATPase (Na+/K+ ATPase).",
+   "S19",
+   false
+  ],
+  [
+   "Thyrotropin releasing hormone (TRH)",
+   "Hypothalamic hormone released by cold and stress; reaches anterior pituitary via portal circulation.",
+   "S22",
+   false
+  ],
+  [
+   "Thyroid stimulating hormone (TSH, thyrotropin)",
+   "Released by pituitary thyrotrophs; stimulates the thyroid to release mostly T4.",
+   "S22",
+   false
+  ],
+  [
+   "De-iodinases",
+   "Enzymes converting T4 to T3; mainly in kidney and liver.",
+   "S22",
+   false
+  ],
+  [
+   "Thyroid hormone effects",
+   "General increase in metabolism: oxygen consumption, ventilation, thermogenesis, fat and protein mobilization.",
+   "S20, S22",
+   false
+  ],
+  [
+   "Feline hyperthyroidism",
+   "Most common endocrine disorder of older cats: weight loss with good appetite, tachycardia, hyperexcitability.",
+   "S23",
+   false
+  ],
+  [
+   "Polybrominated diphenyl ethers (PBDEs)",
+   "Flame-retardant chemicals suspected as a cause of feline hyperthyroidism.",
+   "S23",
+   false
+  ],
+  [
+   "Thyroid adenoma",
+   "Most common cause of feline hyperthyroidism; only 2% are adenocarcinoma.",
+   "S24",
+   false
+  ],
+  [
+   "Methimazole (Tapazole)",
+   "Drug that inhibits T3/T4 production; listed first of three feline treatments (slide spells it Tapazol).",
+   "S24",
+   false
+  ],
+  [
+   "Iodine-131 (131I)",
+   "Radio-iodine therapy: beta particles destroy tissue within ~1 mm; half-life 8 days.",
+   "S24",
+   false
+  ],
+  [
+   "Iodine-127 (127I)",
+   "Stable (non-radioactive) iodine isotope.",
+   "S24",
+   false
+  ],
+  [
+   "Iodine-123 (123I) scintigraphy",
+   "Gamma emitter, half-life 13 hours; imaging uptake in thyroid and salivary glands.",
+   "S24",
+   false
+  ],
+  [
+   "Negative feedback",
+   "Pathway activity is limited by feedback loops (e.g., T4 inhibits TSH release).",
+   "S22, S25",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>Cholesterol derivative vs non-cholesterol ligand</b>: estradiol, testosterone, aldosterone, cortisol, progesterone = cholesterol (S3). <b>T4, T3, reverse T3, retinoic acid</b> (and vitamin D3 pictured) = NOT (S4). Same receptor family, different origin.",
+  "<b>Mifepristone blocks TWO receptors</b>: progesterone receptor AND glucocorticoid receptor (S5). Do not pair it with the mineralocorticoid receptor (that is <b>spironolactone</b>).",
+  "<b>Cytosolic vs nuclear</b>: glucocorticoid and mineralocorticoid receptors = <b>cytosolic</b>; thyroid, vitamin D3, retinoid receptors = <b>nuclear</b>, sitting inactive on DNA (S13).",
+  "<b>Cortisol to cortisone</b> = <b>11-beta hydroxysteroid dehydrogenase</b> (dehydrogen<b>-ase</b>); <b>testosterone to DHT</b> = <b>5-alpha reductase</b> (S14). Do not swap enzyme and substrate.",
+  "<b>Renin vs ACE drugs</b>: aliskiren blocks <b>renin</b> (angiotensinogen to angiotensin I); captopril blocks <b>ACE</b> (angiotensin I to II); losartan blocks <b>AT1R</b>; spironolactone blocks the <b>MR</b> (S18).",
+  "<b>T4 vs T3</b>: T4 = <b>prohormone</b>, mostly what the thyroid releases, and the slide's <b>feedback</b> signal on TSH; T3 = <b>active</b> hormone made by de-iodinases in <b>kidney and liver</b> (S20, S22).",
+  "<b>Iodine isotopes, unit trap</b>: 131I = beta, ~1 <b>mm</b>, half-life 8 <b>days</b> (therapy); 123I = gamma, half-life 13 <b>hours</b> (imaging); 127I = <b>stable</b> (S24).",
+  "<b>Aldosterone retains Na+ and water, EXCRETES K+</b> (S16, S19). Direction flip is the classic trap.",
+  "<b>Carriers reduce renal excretion</b> and create a reservoir (S11); <b>termination</b> needs liver conjugation THEN renal excretion (S15). Bound ligand is NOT the active form; <b>free</b> ligand enters cells.",
+  "<b>Adenoma vs adenocarcinoma</b>: feline hyperthyroidism is usually a benign <b>adenoma</b>; only <b>2%</b> are adenocarcinoma (S24)."
+ ],
+ "know": [
+  {
+   "title": "Steroid hormone receptor ligands",
+   "slide": "S5",
+   "note": "Agonist/antagonist table straight from the slide. Schultz pulls 'which drug, which receptor' items from here.",
+   "headers": [
+    "Intracellular receptor",
+    "Agonist",
+    "Antagonist"
+   ],
+   "rows": [
+    [
+     "Androgen receptor",
+     "Testosterone, dihydrotestosterone (DHT), nandrolone",
+     "Flutamide, enzalutamide"
+    ],
+    [
+     "Estrogen receptor",
+     "Estradiol (clomiphene)",
+     "Fulvestrant, tamoxifen"
+    ],
+    [
+     "Progesterone receptor",
+     "Progesterone",
+     "Mifepristone (RU-486)"
+    ],
+    [
+     "Glucocorticoid receptor",
+     "Cortisol, dexamethasone, prednisolone",
+     "Mifepristone"
+    ],
+    [
+     "Mineralocorticoid receptor",
+     "Aldosterone",
+     "Spironolactone"
+    ],
+    [
+     "Vitamin D3 receptor",
+     "Vitamin D, maxacalcitol",
+     "ZK159222 (non-clinical)"
+    ],
+    [
+     "Retinoic acid receptor",
+     "Retinoic acid, tazarotene",
+     "YCT-529 (male contraceptive?)"
+    ],
+    [
+     "Thyroid hormone receptor",
+     "T3 (triiodothyronine)",
+     "None listed"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Carrier proteins",
+   "slide": "S6, S16, S20",
+   "note": "Carriers = vascular reservoir; reduce renal excretion (S11).",
+   "headers": [
+    "Carrier protein",
+    "Ligand(s) carried"
+   ],
+   "rows": [
+    [
+     "Vitamin D binding protein (VDP)",
+     "Vitamin D"
+    ],
+    [
+     "Retinol binding protein (RBP4)",
+     "Retinol"
+    ],
+    [
+     "Thyroxine binding globulin and transthyretin (TTR)",
+     "Thyroid hormones (T4, T3)"
+    ],
+    [
+     "Sex hormone binding globulin (SHBG)",
+     "Steroid androgens and estrogens"
+    ],
+    [
+     "Transcortin",
+     "Cortisol; lower affinity for progesterone and aldosterone (under 25% of aldosterone, S16)"
+    ],
+    [
+     "Albumin",
+     "Aldosterone (S16)"
+    ]
+   ],
+   "hide": [
+    1
+   ]
+  },
+  {
+   "title": "Receptor locations and co-activators",
+   "slide": "S13",
+   "note": "Both locations: ligand activates, receptor dimerizes, transcription starts if co-factors are present.",
+   "headers": [
+    "Group",
+    "Members"
+   ],
+   "rows": [
+    [
+     "Cytosolic receptors",
+     "Glucocorticoid receptor (GR); mineralocorticoid (aldosterone) receptor (MR)"
+    ],
+    [
+     "Nuclear receptors (inactive on DNA)",
+     "Thyroid hormone receptor; vitamin D3 receptor; retinoid receptor"
+    ],
+    [
+     "Co-activators",
+     "GRIP1 (glucocorticoid receptor co-activator 1); SRC1, 2, 3 (sex hormone receptor complex 1, 2, 3); TRAP (thyroid hormone receptor associated proteins); SMRT (signaling mediator for retinoic acid and thyroid hormone receptor)"
+    ]
+   ],
+   "hide": [
+    1
+   ]
+  },
+  {
+   "title": "Hormone profiles: aldosterone vs thyroid hormone",
+   "slide": "S16, S20",
+   "note": "Same row layout Schultz uses on both slides.",
+   "headers": [
+    "Feature",
+    "Mineralocorticoid receptor (S16)",
+    "Thyroid hormone receptor (S20)"
+   ],
+   "rows": [
+    [
+     "Hormone",
+     "Aldosterone",
+     "Thyroxine (T4); triiodothyronine (T3)"
+    ],
+    [
+     "Condition",
+     "Decrease in blood pressure (renin-angiotensin-aldosterone system, RAAS)",
+     "Cold and/or stress"
+    ],
+    [
+     "Origin",
+     "Adrenal cortex",
+     "Thyroid gland makes and stores T4; one iodine removed gives active T3"
+    ],
+    [
+     "Carrier protein",
+     "Albumin; transcortin (less than 25%)",
+     "Transthyretin and thyroxine-binding globulin"
+    ],
+    [
+     "Receptor",
+     "Mineralocorticoid receptor",
+     "Thyroid hormone receptor"
+    ],
+    [
+     "Effects",
+     "Na+ and water retention, K+ excretion; maintains fluid volume or raises blood pressure",
+     "General increase in metabolism: O2 consumption, ventilation, thermogenesis, fat and protein mobilization"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "Which of the following is a cholesterol derivative that acts at an intracellular steroid hormone receptor? (select one correct response)",
+   "ok": "Aldosterone",
+   "bad": [
+    "Retinoic acid",
+    "Thyroxine (T4)",
+    "Triiodothyronine (T3)",
+    "Reverse triiodothyronine"
+   ],
+   "why": "Aldosterone is on the cholesterol-derivative slide; the other four are the non-cholesterol agonists.",
+   "cite": "S3, S4",
+   "sure": true
+  },
+  {
+   "stem": "Which physiological agonist of a 'steroid hormone receptor' is NOT a steroid or cholesterol derivative? (select one correct response)",
+   "ok": "Retinoic acid",
+   "bad": [
+    "Estradiol",
+    "Progesterone",
+    "Cortisol",
+    "Testosterone"
+   ],
+   "why": "Retinoic acid is listed with T4, T3 and reverse T3 as a non-cholesterol agonist; the rest are cholesterol derivatives.",
+   "cite": "S3, S4",
+   "sure": true
+  },
+  {
+   "stem": "Which molecules are lipid soluble and act through cytosolic or nuclear receptors? (select all that apply)",
+   "ok": [
+    "Testosterone",
+    "Retinoic acid",
+    "Vitamin D3"
+   ],
+   "bad": [
+    "Antidiuretic hormone (ADH)",
+    "Thyroid stimulating hormone (TSH)"
+   ],
+   "why": "Testosterone, retinoic acid and vitamin D3 are steroid-receptor ligands (S3-S5, S13). OUTSIDE: ADH and TSH are water-soluble peptides acting at membrane receptors; the slides do not say so.",
+   "cite": "S3-S5, S13",
+   "sure": false
+  },
+  {
+   "stem": "Which circulating ligand associates with both transthyretin and thyroxine binding globulin? (select one correct response)",
+   "ok": "Thyroxine (T4)",
+   "bad": [
+    "Cortisol",
+    "Testosterone",
+    "Aldosterone",
+    "Estradiol"
+   ],
+   "why": "Transthyretin and thyroxine binding globulin carry thyroid hormones.",
+   "cite": "S6, S20",
+   "sure": true
+  },
+  {
+   "stem": "Cortisol in plasma is carried mainly by which carrier protein? (select one correct response)",
+   "ok": "Transcortin",
+   "bad": [
+    "Albumin",
+    "Transthyretin",
+    "Thyroxine binding globulin",
+    "Sex hormone binding globulin"
+   ],
+   "why": "Transcortin carries cortisol, with lower affinity for progesterone and aldosterone.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "After hormone binding, which receptor region must be exposed for the complex to recognize its specific DNA sequence? (select one correct response)",
+   "ok": "DNA binding domain",
+   "bad": [
+    "Ligand binding domain",
+    "Transcription-activating domain",
+    "Inhibitory protein complex",
+    "Co-activator interaction site"
+   ],
+   "why": "The DNA binding domain binds the specific DNA site; the transcription-activating domain acts after binding.",
+   "cite": "S7, S10",
+   "sure": true
+  },
+  {
+   "stem": "Cortisol has bound a cytosolic glucocorticoid receptor and the inhibitory protein has been released. What happens next? (select one correct response)",
+   "ok": "Receptors dimerize and enter the nucleus",
+   "bad": [
+    "Receptors bind DNA at specific sites",
+    "RNAs exit the nucleus via pores",
+    "Cortisol rebinds its carrier protein",
+    "Co-factors immediately initiate transcription"
+   ],
+   "why": "Step 4 (inhibitory protein released) is followed by step 5: dimerize and access the nucleus via the nuclear pore. DNA binding is step 6.",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "Which is NOT required for a cell to respond to a steroid hormone? (select one correct response)",
+   "ok": "A G protein-coupled membrane receptor",
+   "bad": [
+    "The intracellular receptor for that hormone",
+    "Ancillary enzymes such as 5-alpha reductase",
+    "Cell-specific gene regulatory proteins",
+    "Appropriate transcription co-activators present"
+   ],
+   "why": "Specificity requires the receptor, any ancillary enzymes, and the right gene regulatory proteins; no membrane G protein step.",
+   "cite": "S14",
+   "sure": true
+  },
+  {
+   "stem": "Which receptors reside inactive on DNA in the nucleus before ligand binding? (select all that apply)",
+   "ok": [
+    "Thyroid hormone receptor",
+    "Vitamin D3 receptor",
+    "Retinoid receptor"
+   ],
+   "bad": [
+    "Glucocorticoid receptor",
+    "Mineralocorticoid receptor"
+   ],
+   "why": "The slide lists thyroid, vitamin D3 and retinoid receptors as nuclear; glucocorticoid and mineralocorticoid receptors as cytosolic.",
+   "cite": "S13",
+   "sure": true
+  },
+  {
+   "stem": "An epithelial cell has high 11-beta hydroxysteroid dehydrogenase activity, converting cortisol to cortisone. Which naturally occurring molecule increases its expression of an apical Na+ channel, an apical K+ channel and basolateral Na+/K+ ATPase? (select one correct response)",
+   "ok": "Aldosterone",
+   "bad": [
+    "Cortisol",
+    "Cortisone",
+    "Angiotensin II",
+    "Spironolactone"
+   ],
+   "why": "Aldosterone drives transcription of these three transport proteins (S19); spironolactone is a drug, not naturally occurring. OUTSIDE: ruling out cortisol relies on 11-beta HSD inactivating it, which the slides do not state.",
+   "cite": "S14, S19",
+   "sure": false
+  },
+  {
+   "stem": "In reference to the previous question (high 11-beta hydroxysteroid dehydrogenase epithelial cell; Na+ channel, K+ channel and Na+/K+ ATPase upregulated), which receptor mediates this effect? (select one correct response)",
+   "ok": "Mineralocorticoid receptor",
+   "bad": [
+    "Glucocorticoid receptor",
+    "Angiotensin II type 1 receptor",
+    "Androgen receptor",
+    "Progesterone receptor"
+   ],
+   "why": "Aldosterone acts at the cytosolic mineralocorticoid receptor. Why the enzyme matters (protecting the receptor from cortisol) is OUTSIDE detail; confirm.",
+   "cite": "S13, S16, S19",
+   "sure": true
+  },
+  {
+   "stem": "A newly discovered molecule, Kansatrol, has a large positive logP (octanol/water partition coefficient), circulates bound to a carrier protein, and activates a cytosolic receptor. Which real molecule does it most resemble? (select one correct response)",
+   "ok": "Cortisol",
+   "bad": [
+    "Triiodothyronine (T3)",
+    "Retinoic acid",
+    "Vitamin D3",
+    "Angiotensin II"
+   ],
+   "why": "OUTSIDE: high logP = lipid soluble. Lipid soluble ligands need carriers (S11); cortisol's glucocorticoid receptor is cytosolic, while T3, retinoic acid and vitamin D3 receptors are nuclear (S13).",
+   "cite": "S6, S11, S13",
+   "sure": false
+  },
+  {
+   "stem": "New hormone alpha is water soluble; new hormone beta is lipid soluble and carrier-bound. Which statement is correct? (select one correct response)",
+   "ok": "Beta has the larger reservoir and slower termination",
+   "bad": [
+    "Alpha has the larger reservoir and slower termination",
+    "Beta circulates mostly free and is cleared rapidly",
+    "Alpha needs a carrier protein to stay in plasma",
+    "Beta acts faster because it crosses membranes"
+   ],
+   "why": "Carrier binding creates a vascular reservoir, reduces renal excretion and slows the time course.",
+   "cite": "S11, S15",
+   "sure": true
+  },
+  {
+   "stem": "Which drug-target pairing matches the renin-angiotensin-aldosterone slide? (select one correct response)",
+   "ok": "Captopril blocks angiotensin converting enzyme",
+   "bad": [
+    "Aliskiren blocks angiotensin converting enzyme",
+    "Losartan blocks the mineralocorticoid receptor",
+    "Spironolactone blocks renin enzyme activity",
+    "Captopril blocks the angiotensin II receptor"
+   ],
+   "why": "Aliskiren = renin; captopril = ACE; losartan = AT1R; spironolactone = mineralocorticoid receptor.",
+   "cite": "S18",
+   "sure": true
+  },
+  {
+   "stem": "Per the slides, which extracellular signal inhibits thyroid stimulating hormone (TSH) release from the anterior pituitary? (select one correct response)",
+   "ok": "Thyroxine (T4)",
+   "bad": [
+    "Thyrotropin releasing hormone (TRH)",
+    "Reverse triiodothyronine",
+    "Thyroid stimulating hormone (TSH)",
+    "Cortisol"
+   ],
+   "why": "S22 states T4 exerts negative feedback on TSH release. Textbooks emphasize T3 (see flag); use the slide.",
+   "cite": "S22",
+   "sure": true
+  },
+  {
+   "stem": "An older cat has weight loss despite a good appetite, tachycardia, hyperexcitability and a poor hair coat; plasma thyroxine (T4) is high. What is the most likely cause? (select one correct response)",
+   "ok": "Thyroid adenoma",
+   "bad": [
+    "Thyroid adenocarcinoma",
+    "Pituitary thyrotroph tumor",
+    "Excess de-iodinase activity",
+    "Excess thyrotropin releasing hormone"
+   ],
+   "why": "Feline hyperthyroidism is most often a thyroid adenoma; only 2% are adenocarcinoma.",
+   "cite": "S23, S24",
+   "sure": true
+  },
+  {
+   "stem": "Which statements about iodine isotopes in feline thyroid disease are correct? (select all that apply)",
+   "ok": [
+    "Iodine-131 emits beta particles destroying tissue within ~1 mm",
+    "Iodine-123 emits gamma rays and is used for scintigraphy"
+   ],
+   "bad": [
+    "Iodine-127 is the radioactive isotope used for treatment",
+    "Iodine-131 has a half-life of about 13 hours",
+    "Iodine-123 has a half-life of about 8 days"
+   ],
+   "why": "131I: beta, ~1 mm, 8 days (therapy). 123I: gamma, 13 hours (imaging). 127I is stable.",
+   "cite": "S24",
+   "sure": true
+  },
+  {
+   "stem": "Mifepristone (RU-486) is listed as an antagonist at which pair of receptors? (select one correct response)",
+   "ok": "Progesterone and glucocorticoid receptors",
+   "bad": [
+    "Progesterone and estrogen receptors",
+    "Androgen and glucocorticoid receptors",
+    "Estrogen and mineralocorticoid receptors",
+    "Glucocorticoid and mineralocorticoid receptors"
+   ],
+   "why": "The ligand table lists mifepristone under both the progesterone and glucocorticoid receptors.",
+   "cite": "S5",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "Lecture number: LC23 vs LC25",
+   "Title slide (S1) and Canvas file say \"LC23\"; 2026 schedule numbers it LC25 (Cell Signaling 3, Fri 10/23/2026) · use LC25."
+  ],
+  [
+   "Slide typo: Dexamathasone",
+   "S5 spells \"Dexamathasone\" · correct spelling is dexamethasone; use that."
+  ],
+  [
+   "Slide typo: Enzolutamide",
+   "S5 spells \"Enzolutamide\" · correct spelling is enzalutamide; use that."
+  ],
+  [
+   "Slide typo: Reinoic acid",
+   "S5 spells \"Reinoic Acid\" · means retinoic acid."
+  ],
+  [
+   "T4 as an 'agonist': S4 vs S5",
+   "S4 lists T4, T3 and reverse T3 as steroid-receptor agonists; S5 lists only T3 as the thyroid hormone receptor agonist, and S22 calls T3 the biologically active form · use T3 as the receptor agonist; T4 counts as a non-cholesterol ligand for S4-type questions."
+  ],
+  [
+   "Clomiphene in parentheses",
+   "S5 lists clomiphene in parentheses under estrogen receptor agonists · OUTSIDE: it is a selective estrogen receptor modulator (mixed agonist/antagonist) — confirm. For now: estrogen receptor ligand, agonist column."
+  ],
+  [
+   "11-beta HSD now ON the slide (closes old open item)",
+   "Old-exam answers called the 11-beta hydroxysteroid dehydrogenase role outside material; S14 now lists it (converts cortisol to cortisone) · CLOSED. Slide does not name the isoform (HSD2) or say it protects the mineralocorticoid receptor from cortisol — that part is still OUTSIDE, confirm."
+  ],
+  [
+   "Vitamin D3 origin",
+   "S4 pictures vitamin D3 among non-cholesterol derivatives · OUTSIDE: textbooks derive vitamin D3 from 7-dehydrocholesterol. Use the slide (non-cholesterol group); 2023 exam used vitamin D3 as a distractor to 'cholesterol derivative'."
+  ],
+  [
+   "Sex-steroid receptor location not stated",
+   "S13 places only GR/MR (cytosolic) and thyroid/vitamin D3/retinoid (nuclear); androgen, estrogen, progesterone receptors are not placed. The 2025 past-question answer (17-beta estradiol for 'cytosolic receptor') was written from earlier lectures, not an official key · OUTSIDE: textbooks call the estrogen receptor mostly nuclear. Use only the S13 lists for now; confirm with transcript."
+  ],
+  [
+   "Co-activator acronym expansions",
+   "S13: SRC = \"sex hormone receptor complex\", GRIP1 = \"glucocorticoid receptor co-activator 1\", SMRT = \"signaling mediator...\" listed as a co-activator · OUTSIDE: textbooks use steroid receptor coactivator, glucocorticoid receptor-interacting protein 1, and silencing mediator (a co-REPRESSOR). Use slide expansions for the exam."
+  ],
+  [
+   "Step count: S9 vs S10",
+   "S9 figure numbers steps 1-8; S10 text lists 10 steps · use the 10-step S10 list."
+  ],
+  [
+   "Dimerization order: S10 vs S11",
+   "S10 step 5: dimerize, THEN access the nucleus via the nuclear pore; S11: complex is in or enters the nucleus, THEN dimerizes · use S10 order for cytosolic receptors (glucocorticoid, mineralocorticoid); nuclear receptors are already on DNA (S13). Confirm with transcript."
+  ],
+  [
+   "Aldosterone carriers",
+   "S6 lists transcortin (lower affinity for aldosterone) but not albumin; S16 lists albumin plus transcortin (less than 25%) · use S16 for aldosterone."
+  ],
+  [
+   "Renin source",
+   "S18 says renin is released by the kidney \"(macula densa)\" · OUTSIDE: textbooks say juxtaglomerular (granular) cells secrete renin; macula densa senses NaCl. Use the slide wording for now; confirm."
+  ],
+  [
+   "Feedback signal: T4 vs T3",
+   "S22: T4 inhibits TSH release from the pituitary · OUTSIDE: textbooks emphasize T3 (local T4-to-T3 conversion). Past questions (answers not official keys): 2023 asked for one signal, 2024 offered 'T4 and/or T3'. Use the slide: T4; pick 'T4 and/or T3' if that is the option."
+  ],
+  [
+   "S19 word order",
+   "S19 says aldosterone causes \"translation and transcription\" · real order is transcription then translation (S10, S11)."
+  ],
+  [
+   "Channel names from the figure",
+   "S19 text says apical Na+ channel, apical K+ channel; figure source title names SGK1. Old exam uses ENaC and ROMK · OUTSIDE: ENaC = epithelial sodium channel, ROMK = renal outer medullary potassium channel. Confirm."
+  ],
+  [
+   "Brand name typo",
+   "S24 says \"Tapazol\" · US brand is Tapazole (OUTSIDE, confirm)."
+  ],
+  [
+   "Old-exam items not on these slides",
+   "Finasteride (5-alpha reductase inhibitor) and 'TSH receptor = 7 transmembrane, Gs' come from past exams, not LC25 slides · S14 has 5-alpha reductase; GPCR details are LC27. OUTSIDE for this deck."
+  ],
+  [
+   "Drug annotations without explanation",
+   "S18 lists amiloride, valsartan \"biased\" with no mechanism · OUTSIDE: amiloride blocks the epithelial sodium channel; 'biased' = biased agonism at AT1R. Transcript pending."
+  ]
+ ]
+}

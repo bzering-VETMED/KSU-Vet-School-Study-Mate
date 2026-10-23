@@ -1,0 +1,826 @@
+{
+ "lc": 31,
+ "prof": "Basel",
+ "title": "Signaling and Cell Cycle",
+ "emoji": "🔄",
+ "date": "Fri 11/6",
+ "terms": [
+  [
+   "Cell cycle",
+   "Ordered sequence Gap 1 (G1) → Synthesis (S) → Gap 2 (G2) → Mitosis (M) that makes two daughter cells; cells can exit to G0.",
+   "S4",
+   false
+  ],
+  [
+   "G0 (Gap 0)",
+   "Quiescence: non-dividing cells that have left the cycle.",
+   "S5",
+   false
+  ],
+  [
+   "G1 (Gap 1)",
+   "Growing stage; cell has 1 set of chromosomes.",
+   "S5",
+   false
+  ],
+  [
+   "S phase (Synthesis)",
+   "DNA replication.",
+   "S5",
+   false
+  ],
+  [
+   "G2 (Gap 2)",
+   "Growing stage; cell has 2 sets of chromosomes (after replication).",
+   "S5",
+   false
+  ],
+  [
+   "M phase (Mitosis)",
+   "Nuclear and cell division.",
+   "S5",
+   false
+  ],
+  [
+   "Interphase",
+   "G1 + S + G2 (everything that is not M).",
+   "S6",
+   false
+  ],
+  [
+   "Prophase",
+   "Chromosomes condense; centrosomes duplicate (slide's wording).",
+   "S6",
+   false
+  ],
+  [
+   "Prometaphase",
+   "Nuclear envelope disassembles; centrosomes on opposite sides of the cell.",
+   "S6",
+   false
+  ],
+  [
+   "Metaphase",
+   "Chromosomes line up on the metaphase plate.",
+   "S6",
+   false
+  ],
+  [
+   "Metaphase plate",
+   "Midline of the cell where chromosomes align during metaphase.",
+   "S6",
+   false
+  ],
+  [
+   "Anaphase",
+   "Daughter chromosomes are pulled/pushed apart.",
+   "S6",
+   false
+  ],
+  [
+   "Telophase",
+   "Chromatids on opposite sides; nuclear envelope reforms.",
+   "S6",
+   false
+  ],
+  [
+   "Cytokinesis",
+   "Contractile ring splits the cell; microtubules (MT) form the interphase array.",
+   "S6",
+   false
+  ],
+  [
+   "Contractile ring",
+   "Ring that pinches the cell in two during cytokinesis.",
+   "S6",
+   false
+  ],
+  [
+   "Centrosome",
+   "Structure that duplicates and moves to opposite sides of the cell to organize mitosis.",
+   "S6",
+   false
+  ],
+  [
+   "Checkpoint",
+   "Point where the cell cycle is regulated; there are three: G1/S, G2/M, M.",
+   "S7",
+   false
+  ],
+  [
+   "G1/S checkpoint",
+   "Checks growth signals, cell size, DNA damage; proteins involved: pRb, p53, E2F, AKT.",
+   "S8",
+   false
+  ],
+  [
+   "G2/M checkpoint",
+   "Checks DNA replication, DNA damage, cell size.",
+   "S8",
+   false
+  ],
+  [
+   "M checkpoint",
+   "Checks spindle attachment and chromosome distribution.",
+   "S8",
+   false
+  ],
+  [
+   "Cyclin-dependent kinase (CDK)",
+   "Kinase that integrates multiple signals to decide whether the cell proceeds through a checkpoint.",
+   "S7",
+   false
+  ],
+  [
+   "CDK activation requirements",
+   "Three signals: Signal 1 = phosphatase removes a phosphate, Signal 2 = kinase adds a phosphate, Signal 3 = cyclin binds. Inactive → active → move through checkpoint.",
+   "S9",
+   false
+  ],
+  [
+   "Phosphatase",
+   "Enzyme that removes a phosphate; required step to activate CDK.",
+   "S9",
+   false
+  ],
+  [
+   "Cyclin",
+   "'Time-keeper' protein that activates CDK and ensures each step happens in the correct sequence.",
+   "S7",
+   false
+  ],
+  [
+   "Growth signals",
+   "Required inputs (usually more than one) for passing the G1/S checkpoint and starting the cycle.",
+   "S10",
+   false
+  ],
+  [
+   "Growth factors",
+   "Protein growth signals: EGF, IGF-1, PDGF, EPO.",
+   "S10",
+   false
+  ],
+  [
+   "EGF (epithelial growth factor)",
+   "Growth factor named 'epithelial' on the slide; binds EGFR to drive Ras/MAPK and PI3-K/Akt.",
+   "S10",
+   false
+  ],
+  [
+   "IGF-1 (insulin-like growth factor 1)",
+   "Growth factor listed as a CDK input.",
+   "S10",
+   false
+  ],
+  [
+   "PDGF (platelet derived growth factor)",
+   "Growth factor listed as a CDK input.",
+   "S10",
+   false
+  ],
+  [
+   "EPO (erythropoietin)",
+   "Growth factor listed as a CDK input.",
+   "S10",
+   false
+  ],
+  [
+   "Estrogen",
+   "Steroid hormone; signal for female reproductive cell growth.",
+   "S10",
+   false
+  ],
+  [
+   "Testosterone",
+   "Steroid hormone; signal for male reproductive cell growth.",
+   "S10",
+   false
+  ],
+  [
+   "EGFR (epidermal growth factor receptor)",
+   "Receptor for EGF; becomes phosphorylated (P P) and starts Ras/MAPK and PI3-K/Akt.",
+   "S11",
+   false
+  ],
+  [
+   "SOS",
+   "Exchange factor that switches Ras from GDP-bound to GTP-bound (active).",
+   "S11",
+   false
+  ],
+  [
+   "Ras",
+   "Small G protein; inactive with GDP, active with GTP; leads to MAPK.",
+   "S11",
+   false
+  ],
+  [
+   "MAPK (mitogen-activated protein kinase)",
+   "Kinase downstream of Ras; enters nucleus → Jun/Fos/Myc → transcription of G1 cyclin, G1-CDK, E2F → G1/S progression.",
+   "S11",
+   false
+  ],
+  [
+   "Myc / Jun / Fos",
+   "Transcription factors activated by MAPK; drive transcription of G1 cyclin, G1-CDK, and E2F.",
+   "S11",
+   false
+  ],
+  [
+   "G1-CDK–cyclin",
+   "Complex activated by growth/environment signals; phosphorylates pRb.",
+   "S15",
+   false
+  ],
+  [
+   "PI3-K (phosphoinositide 3-kinase)",
+   "Recruited to phosphorylated EGFR; converts PIP2 → PIP3, which activates PDPK1 and Akt.",
+   "S12",
+   false
+  ],
+  [
+   "PIP2 → PIP3",
+   "Phosphatidylinositol bisphosphate converted to trisphosphate by PI3-K; PIP3 recruits PDPK1 and Akt.",
+   "S12",
+   false
+  ],
+  [
+   "PDPK1",
+   "Phosphoinositide-dependent kinase 1; activates Akt.",
+   "S12",
+   false
+  ],
+  [
+   "Akt (PKB, protein kinase B)",
+   "Kinase downstream of PI3-K/PDPK1; INHIBITS apoptosis and cell cycle arrest (T-bars on S12); a G1/S checkpoint protein.",
+   "S12",
+   false
+  ],
+  [
+   "Wnt",
+   "Growth signal that binds Frizzled + LRP and leads to cyclin D transcription.",
+   "S13",
+   false
+  ],
+  [
+   "Frizzled / LRP",
+   "Wnt receptor (Frizzled) and co-receptor (LRP).",
+   "S13",
+   false
+  ],
+  [
+   "Disheveled (DVL)",
+   "Phosphorylated after Wnt binding; blocks Axin/GSK3/APC phosphorylation of beta-catenin.",
+   "S13",
+   false
+  ],
+  [
+   "Axin / GSK3 / APC",
+   "Complex that phosphorylates beta-catenin and sends it to the proteasome when Wnt is absent.",
+   "S13",
+   false
+  ],
+  [
+   "Proteasome",
+   "Degrades phosphorylated beta-catenin.",
+   "S13",
+   false
+  ],
+  [
+   "Beta-catenin (β-catenin)",
+   "Spared from degradation with Wnt; pairs with LEF/TCF to transcribe cell cycling proteins including cyclin D.",
+   "S13",
+   false
+  ],
+  [
+   "LEF/TCF",
+   "Transcription factors that beta-catenin partners with to transcribe cyclin D.",
+   "S13",
+   false
+  ],
+  [
+   "Cyclin D",
+   "Broad curve: rises in G1 and stays up across the cycle; output of Wnt/beta-catenin signaling.",
+   "S14",
+   false
+  ],
+  [
+   "Cyclin E",
+   "Sharp peak at the G1/S boundary.",
+   "S14",
+   false
+  ],
+  [
+   "Cyclin A",
+   "Rises during S, peaks around the S/G2 boundary.",
+   "S14",
+   false
+  ],
+  [
+   "Cyclin B",
+   "Peaks at the G2/M boundary, drops in M; with CDK forms mitosis promoting factor.",
+   "S14",
+   false
+  ],
+  [
+   "Mitosis promoting factor (MPF)",
+   "CDK–cyclin B complex; activity spikes at M each cycle, then falls as cyclin B is degraded.",
+   "S14",
+   false
+  ],
+  [
+   "Cyclin 'clock'",
+   "Active cyclin-CDK triggers the next step AND degradation of the current cyclin, preventing reversal.",
+   "S14",
+   false
+  ],
+  [
+   "pRb (retinoblastoma protein)",
+   "Critical control component: binds and inactivates E2F; phosphorylation by G1-CDK–cyclin releases E2F.",
+   "S15",
+   true
+  ],
+  [
+   "E2F",
+   "Transcription factor for DNA replication genes; released from pRb, travels to nucleus.",
+   "S15",
+   false
+  ],
+  [
+   "p53",
+   "Critical control component: phosphorylated by ATM after DNA damage; transcribes p21, which inhibits CDK.",
+   "S15",
+   true
+  ],
+  [
+   "ATM",
+   "Kinase activated by DNA damage (S15 figure); phosphorylates p53 at the G1/S checkpoint.",
+   "S15",
+   false
+  ],
+  [
+   "p21",
+   "CDK inhibitor transcribed by phosphorylated p53; blocks G1-CDK–cyclin.",
+   "S15",
+   false
+  ],
+  [
+   "Retinoblastoma",
+   "Early childhood eye tumor where pRb was discovered (source of its name).",
+   "S18",
+   false
+  ],
+  [
+   "Mutated Rb",
+   "Cannot bind E2F → E2F constitutively active → runaway cell division independent of growth signals.",
+   "S18",
+   false
+  ],
+  [
+   "Constitutively active",
+   "Always on, regardless of upstream signals (here: E2F).",
+   "S18",
+   false
+  ],
+  [
+   "Canine osteosarcoma",
+   "Bone tumor; some carry pRb mutations.",
+   "S18",
+   false
+  ],
+  [
+   "Greyhound clinical case",
+   "7 yr old greyhound, left front lameness, distal radius swelling, malignant mesenchymal cells with osteoid matrix.",
+   "S3",
+   false
+  ],
+  [
+   "Periosteal proliferation",
+   "New bone reaction from the periosteum seen on the case radiograph, with palisading cortical bone.",
+   "S3",
+   false
+  ],
+  [
+   "Osteoid matrix",
+   "Unmineralized bone matrix made by the malignant cells in the case histology.",
+   "S3",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>pRb binds E2F</b>; <b>p53 does not</b>. p53 acts through <b>p21</b>, which inhibits CDK. Don't swap which molecule binds which (S15).",
+  "<b>Phosphorylating pRb RELEASES E2F</b> (turns the brake off). Unphosphorylated pRb = brake on (S15).",
+  "CDK activation needs <b>ALL three</b>: bind cyclin + <b>ADD</b> a phosphate + <b>REMOVE</b> a phosphate (phosphatase). Not add OR remove (S9).",
+  "Objective: pRb mutations turn the G1/S checkpoint <b>'permanently on'</b> = the <b>go signal (E2F) is always on</b> / checkpoint bypassed, NOT permanent arrest (S16 vs S18).",
+  "<b>G1 = 1 set</b> of chromosomes, <b>G2 = 2 sets</b>. <b>G0 = quiescence</b> (outside the cycle), not a growth phase (S5).",
+  "<b>Interphase = G1 + S + G2</b>; it is NOT part of M phase even though S4 lists it with the mitosis terms (S4, S6).",
+  "Nuclear envelope <b>disassembles in prometaphase</b>, <b>reforms in telophase</b>. Prophase = condense (S6).",
+  "<b>Cyclin B</b> + CDK = <b>mitosis promoting factor</b>. <b>Cyclin D</b> = G1 and the Wnt/beta-catenin output. Don't flip D and B (S13, S14).",
+  "<b>G1/S checks growth signals</b>; <b>G2/M checks DNA replication</b>; <b>M checks spindle attachment + chromosome distribution</b>. DNA damage and cell size are checked at BOTH G1/S and G2/M (S8).",
+  "Wnt <b>inhibits</b> the Axin/GSK3/APC complex → beta-catenin is <b>spared</b>. Without Wnt, beta-catenin goes to the proteasome (S13). PI3-K makes <b>PIP2 → PIP3</b>, not the reverse (S12)."
+ ],
+ "know": [
+  {
+   "title": "Cell cycle phases",
+   "slide": "S5",
+   "note": "Slide's one-line descriptions; interphase = G1 + S + G2 (S6)",
+   "headers": [
+    "Phase",
+    "Full name",
+    "What happens"
+   ],
+   "rows": [
+    [
+     "G0",
+     "Gap 0",
+     "Quiescence; non-dividing cells"
+    ],
+    [
+     "G1",
+     "Gap 1",
+     "Growing stage; 1 set of chromosomes"
+    ],
+    [
+     "S",
+     "Synthesis",
+     "DNA replication"
+    ],
+    [
+     "G2",
+     "Gap 2",
+     "Growing stage; 2 sets of chromosomes"
+    ],
+    [
+     "M",
+     "Mitosis",
+     "Nuclear/cell division"
+    ]
+   ],
+   "hide": [
+    2
+   ]
+  },
+  {
+   "title": "Mitosis stages",
+   "slide": "S6",
+   "note": "Checked against slide image (S6): stage-to-description pairing confirmed.",
+   "headers": [
+    "Stage",
+    "Slide description"
+   ],
+   "rows": [
+    [
+     "Interphase",
+     "= G1, S, + G2"
+    ],
+    [
+     "Prophase",
+     "Chromosomes condense; centrosomes duplicate"
+    ],
+    [
+     "Prometaphase",
+     "Nuclear envelope disassembles; centrosomes on opposite sides of cell"
+    ],
+    [
+     "Metaphase",
+     "Chromosomes on metaphase plate"
+    ],
+    [
+     "Anaphase",
+     "Daughter chromosomes are pulled/pushed apart"
+    ],
+    [
+     "Telophase",
+     "Chromatids on opposite sides; nuclear envelope reforms"
+    ],
+    [
+     "Cytokinesis",
+     "Contractile ring splits cell; MT (microtubules) form interphase array"
+    ]
+   ],
+   "hide": [
+    1
+   ]
+  },
+  {
+   "title": "The three checkpoints",
+   "slide": "S8",
+   "note": "G1/S is the only checkpoint with a 'Proteins involved' list (also on S9)",
+   "headers": [
+    "Checkpoint",
+    "Checks for",
+    "Proteins involved"
+   ],
+   "rows": [
+    [
+     "G1/S",
+     "Growth signals; cell size; DNA damage",
+     "pRb, p53, E2F, AKT"
+    ],
+    [
+     "G2/M",
+     "DNA replication; DNA damage; cell size",
+     "—"
+    ],
+    [
+     "M",
+     "Spindle attachment; chromosome distribution",
+     "—"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Cyclins by phase",
+   "slide": "S14",
+   "note": "Read from the S14 cyclin-curve figure (adapted from Becker). Each step regulated by a specific cyclin.",
+   "headers": [
+    "Cyclin",
+    "When it peaks (S14 curve)",
+    "Note"
+   ],
+   "rows": [
+    [
+     "Cyclin D",
+     "Rises in G1; broad, stays up all cycle",
+     "Made via Wnt/beta-catenin (S13)"
+    ],
+    [
+     "Cyclin E",
+     "Sharp peak at G1/S boundary",
+     "Activates CDK for the next step"
+    ],
+    [
+     "Cyclin A",
+     "Rises in S; peaks at S/G2",
+     "Activates CDK for the next step"
+    ],
+    [
+     "Cyclin B",
+     "Peaks at G2/M; drops in M",
+     "CDK–cyclin B = mitosis promoting factor"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "A cell has just finished DNA replication and now holds two sets of chromosomes, but mitosis has not begun. Which phase is it in?",
+   "ok": "Gap 2 (G2)",
+   "bad": [
+    "Gap 1 (G1)",
+    "Gap 0 (G0)",
+    "Synthesis (S)"
+   ],
+   "why": "G2 is the growing stage with 2 sets of chromosomes; G1 has 1 set, S is replication itself, G0 is quiescence.",
+   "cite": "S5",
+   "sure": true
+  },
+  {
+   "stem": "Which phases together make up interphase?",
+   "ok": "G1, S, and G2",
+   "bad": [
+    "G0, G1, S, and G2",
+    "S, G2, and M",
+    "G1, G2, and M"
+   ],
+   "why": "The slide defines interphase as G1, S, + G2; M is mitosis and G0 is outside the cycle.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "During which mitotic stage does the nuclear envelope disassemble while the centrosomes sit on opposite sides of the cell?",
+   "ok": "Prometaphase",
+   "bad": [
+    "Prophase",
+    "Metaphase",
+    "Telophase"
+   ],
+   "why": "Prometaphase = nuclear envelope disassembles, centrosomes on opposite sides (S6 image). Telophase is when the envelope reforms.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "A contractile ring splits the cell and microtubules form the interphase array. Which stage is this?",
+   "ok": "Cytokinesis",
+   "bad": [
+    "Telophase",
+    "Anaphase",
+    "Prometaphase"
+   ],
+   "why": "The slide pairs the contractile ring and the interphase microtubule array with cytokinesis.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "What does the M checkpoint check for?",
+   "ok": "Spindle attachment and chromosome distribution",
+   "bad": [
+    "Growth signals, cell size, and DNA damage",
+    "DNA replication, DNA damage, and cell size",
+    "Chromosome distribution and completed DNA replication"
+   ],
+   "why": "M checkpoint = spindle attachment + chromosome distribution. DNA replication is G2/M; growth signals are G1/S.",
+   "cite": "S8",
+   "sure": true
+  },
+  {
+   "stem": "Which of the following is NOT checked at the G1/S checkpoint?",
+   "ok": "Spindle attachment",
+   "bad": [
+    "Growth factor signals",
+    "Adequate cell size",
+    "Unrepaired DNA damage"
+   ],
+   "why": "G1/S checks growth signals, cell size, and DNA damage. Spindle attachment is the M checkpoint.",
+   "cite": "S8",
+   "sure": true
+  },
+  {
+   "stem": "Which of the following is NOT required to activate a cyclin-dependent kinase (CDK)?",
+   "ok": "Degrading the cyclin",
+   "bad": [
+    "Binding a cyclin partner",
+    "Adding a phosphate group",
+    "Removing a phosphate group"
+   ],
+   "why": "CDK needs cyclin binding, an added phosphate, and a removed phosphate (phosphatase). Cyclin degradation happens after the step, not to activate it.",
+   "cite": "S9",
+   "sure": true
+  },
+  {
+   "stem": "Epithelial growth factor (EGF) binds its receptor, which is phosphorylated and recruits SOS. What happens next?",
+   "ok": "Ras exchanges GDP for GTP",
+   "bad": [
+    "PI3-K converts PIP3 to PIP2",
+    "Beta-catenin enters the nucleus",
+    "p21 inhibits the G1-CDK"
+   ],
+   "why": "SOS switches Ras-GDP to Ras-GTP, which leads to mitogen-activated protein kinase (MAPK) → Jun/Fos/Myc → transcription of G1 cyclin, G1-CDK, and E2F.",
+   "cite": "S11",
+   "sure": true
+  },
+  {
+   "stem": "Wnt binds Frizzled and LRP, and Disheveled (DVL) is phosphorylated. Which event leads to cyclin D transcription?",
+   "ok": "Beta-catenin escapes proteasome degradation",
+   "bad": [
+    "GSK3 phosphorylates beta-catenin more rapidly",
+    "APC sends beta-catenin to the proteasome",
+    "Disheveled releases E2F from pRb"
+   ],
+   "why": "Disheveled shuts down Axin/GSK3/APC, so beta-catenin survives, partners with LEF/TCF, and transcribes cyclin D.",
+   "cite": "S13",
+   "sure": true
+  },
+  {
+   "stem": "Which cyclin forms mitosis promoting factor (MPF) with a cyclin-dependent kinase (CDK)?",
+   "ok": "Cyclin B",
+   "bad": [
+    "Cyclin A",
+    "Cyclin D",
+    "Cyclin E"
+   ],
+   "why": "The slide labels MPF as the CDK–cyclin B complex.",
+   "cite": "S14",
+   "sure": true
+  },
+  {
+   "stem": "What prevents the cell cycle from reversing once a step has been triggered?",
+   "ok": "Cyclin-CDK triggers degradation of the current cyclin",
+   "bad": [
+    "p53 triggers degradation of the previous step's cyclin",
+    "E2F represses transcription of earlier cyclin genes",
+    "pRb binds and sequesters the earlier cyclins"
+   ],
+   "why": "Activated cyclin–cyclin-dependent kinase (CDK) complexes trigger the next step and degradation of the current cyclin, so cyclins act as a one-way clock.",
+   "cite": "S14",
+   "sure": true
+  },
+  {
+   "stem": "Growth signals activate G1-CDK–cyclin, which phosphorylates the retinoblastoma protein (pRb). What happens next?",
+   "ok": "pRb releases E2F, which enters the nucleus",
+   "bad": [
+    "pRb binds E2F more tightly in the cytoplasm",
+    "p53 is released and activates p21",
+    "p21 is released and inhibits CDK"
+   ],
+   "why": "Phosphorylated pRb lets go of E2F; E2F travels to the nucleus and transcribes DNA replication genes.",
+   "cite": "S15",
+   "sure": true
+  },
+  {
+   "stem": "A cell at the G1/S checkpoint has DNA damage. Which sequence stops the cyclin-dependent kinase (CDK)?",
+   "ok": "ATM → p53 → p21 → CDK inhibited",
+   "bad": [
+    "ATM → p21 → p53 → CDK inhibited",
+    "ATM → p53 → pRb → E2F → CDK inhibited",
+    "ATM → pRb → p21 → CDK inhibited"
+   ],
+   "why": "S15 figure: DNA damage → ATM phosphorylates p53 → p53 transcribes p21 → p21 inhibits G1-CDK–cyclin.",
+   "cite": "S15",
+   "sure": true
+  },
+  {
+   "stem": "Which protein binds and inactivates E2F at the G1/S checkpoint?",
+   "ok": "pRb",
+   "bad": [
+    "p53",
+    "p21",
+    "Akt (PKB)"
+   ],
+   "why": "pRb binds and inactivates E2F, a transcription factor for DNA replication genes.",
+   "cite": "S15",
+   "sure": true
+  },
+  {
+   "stem": "A 7-year-old greyhound has a distal radius tumor of malignant mesenchymal cells with osteoid matrix. Its pRb is mutated and cannot bind E2F. What is the effect?",
+   "ok": "E2F stays active without growth signals",
+   "bad": [
+    "E2F stays bound and blocks replication",
+    "p53 stays active and arrests the cycle",
+    "CDK fails to phosphorylate pRb, causing arrest"
+   ],
+   "why": "Mutated Rb cannot bind E2F, so E2F is constitutively active and drives runaway division independent of growth signals.",
+   "cite": "S18",
+   "sure": true
+  },
+  {
+   "stem": "An objective states that pRb mutations 'turn the G1/S checkpoint permanently on.' What does this mean mechanistically?",
+   "ok": "The E2F go signal is always on",
+   "bad": [
+    "The checkpoint permanently arrests the cell",
+    "Growth signals are permanently blocked at G1/S",
+    "p53 is permanently activated at G1/S"
+   ],
+   "why": "'On' means the go signal: E2F is constitutively active, the brake is gone, and the checkpoint is bypassed.",
+   "cite": "S16",
+   "sure": true
+  },
+  {
+   "stem": "Which pair are both listed as steroid hormone growth signals?",
+   "ok": "Estrogen and testosterone",
+   "bad": [
+    "Estrogen and erythropoietin",
+    "Erythropoietin and testosterone",
+    "Testosterone and platelet derived growth factor"
+   ],
+   "why": "Steroid hormones on the slide: estrogen (female reproductive cell growth) and testosterone (male). Erythropoietin and platelet derived growth factor are growth factors.",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "Epithelial growth factor (EGF) activates PI3-K, then PDPK1, then Akt (protein kinase B). What does Akt do to the cell?",
+   "ok": "Blocks apoptosis and cell cycle arrest",
+   "bad": [
+    "Promotes apoptosis and cell cycle arrest",
+    "Converts PIP3 back into PIP2",
+    "Phosphorylates pRb to release E2F"
+   ],
+   "why": "S12 shows inhibitory T-bars from Akt to apoptosis and to cell cycle arrest: Akt is a pro-growth survival signal.",
+   "cite": "S12",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "Old lecture numbering",
+   "S11 and S12 cross-reference 'LC35 – Enzyme Linked Receptors – Slides 8,10,12-13 / 8-9, 11'. In 2026 enzyme-linked receptors is LC26 (Dr. Schultz), so slide numbers may differ · use LC26 and find the matching EGFR/Ras and PI3-K/Akt slides yourself."
+  ],
+  [
+   "EGF name",
+   "S10 says 'EGF = epithelial growth factor'; standard name is epidermal growth factor (OUTSIDE — confirm) · for the exam accept the slide wording, but know both."
+  ],
+  [
+   "'Permanently on' wording",
+   "S16 objective: pRb mutations 'turn the G1/S checkpoint permanently on'. S18: mutated Rb cannot bind E2F, so E2F is constitutively active · read 'on' as the GO signal always on / checkpoint bypassed, not permanent arrest. Qualifier trap."
+  ],
+  [
+   "Mitosis stages: centrosome duplication",
+   "Checked against slide image (S6): all stage-description pairings confirmed. Slide places 'centrosomes duplicate' under prophase; textbooks place centrosome duplication in S phase/interphase (OUTSIDE — confirm) · use the slide wording for the exam."
+  ],
+  [
+   "Cyclin curves (S14)",
+   "Checked against slide image (S14): D = broad curve rising in G1, E = sharp peak at G1/S, A = peaks at S/G2, B = peaks at G2/M; CDK–cyclin B (MPF) activity spikes at M. Figure is 'adapted from Becker, The World of the Cell' · use this reading; confirm emphasis in transcript."
+  ],
+  [
+   "Case diagnosis not stated",
+   "S3/S17 leave 'Diagnosis: ??' and 'Etiology?'. S18 links pRb mutation to some canine osteosarcomas; osteosarcoma diagnosis inferred from histology (osteoid matrix) · confirm in transcript."
+  ],
+  [
+   "Interphase grouping",
+   "S4 lists interphase among the mitosis terms; S6 defines interphase = G1 + S + G2 · treat interphase as NOT part of M phase."
+  ],
+  [
+   "Abbreviation spell-outs",
+   "SOS, LRP, GSK3, APC, LEF/TCF, PDPK1, ATM, MAPK, PI3-K are not spelled out on slides; expansions used here are OUTSIDE — confirm."
+  ]
+ ]
+}

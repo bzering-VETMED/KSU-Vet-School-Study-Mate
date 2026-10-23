@@ -1,0 +1,873 @@
+{
+ "lc": 28,
+ "prof": "Basel",
+ "title": "Eicosanoids",
+ "emoji": "🔥",
+ "date": "Fri 10/30",
+ "terms": [
+  [
+   "Eicosanoid",
+   "Signaling molecule made by enzymatic oxidation of arachidonic acid (or similar fatty acids); includes prostaglandins, thromboxanes, leukotrienes.",
+   "S4, S5",
+   false
+  ],
+  [
+   "Arachidonic acid (AA)",
+   "Fatty acid released from membrane phospholipid/diacylglycerol; the common precursor of all eicosanoids.",
+   "S5, S6",
+   false
+  ],
+  [
+   "Diacylglycerol/phospholipid (membrane source)",
+   "Starting substrate at the top of the synthesis pathway; phospholipase A2 releases arachidonic acid from it.",
+   "S6",
+   false
+  ],
+  [
+   "Hydrophobic → autocrine/paracrine",
+   "Eicosanoids are very hydrophobic, so they usually act on the same or nearby cells; a few can be endocrine.",
+   "S5",
+   false
+  ],
+  [
+   "Phospholipase A2 (PLA2)",
+   "First, shared enzyme: releases arachidonic acid. Blocking it (glucocorticoids via annexin A1) cuts off ALL eicosanoid branches.",
+   "S6, S15",
+   false
+  ],
+  [
+   "Prostaglandin-G/H synthase 1 (PTGS1) = cyclooxygenase-1 (COX-1)",
+   "Converts arachidonic acid to PGH2; drives gastric mucosa cytoprotection and platelet thromboxane A2.",
+   "S4, S6, S7, S26",
+   false
+  ],
+  [
+   "Prostaglandin-G/H synthase 2 (PTGS2) = cyclooxygenase-2 (COX-2)",
+   "Converts arachidonic acid to PGH2; drives joint inflammation/pain, colon cancer PGE2, endothelial PGI2 (S7 also color-codes kidney and uterus as COX-2).",
+   "S4, S6, S7, S26",
+   false
+  ],
+  [
+   "5-lipoxygenase (5-LOX)",
+   "Converts arachidonic acid to 5-hydroperoxyeicosatetraenoic acid (5-HPETE) → leukotrienes; slide spells it Lipooxygenase-5.",
+   "S4, S6, S21",
+   false
+  ],
+  [
+   "Prostaglandin H2 (PGH2)",
+   "COX-1/COX-2 product; the branch point that becomes prostaglandins, prostacyclins, and thromboxanes.",
+   "S6",
+   false
+  ],
+  [
+   "5-hydroperoxyeicosatetraenoic acid (5-HPETE)",
+   "5-LOX product; precursor of the leukotrienes (slide typo: eicostetraeoic acid).",
+   "S6, S21",
+   false
+  ],
+  [
+   "Prostaglandin / prostanoid",
+   "COX-derived eicosanoid family (prostanoids); e.g. PGE2, PGD2, PGF2α.",
+   "S4, S5",
+   false
+  ],
+  [
+   "Prostaglandin E2 (PGE2)",
+   "Most versatile prostaglandin: gastric cytoprotection, inflammation/pain, colon cancer survival, afferent arteriole dilation in kidney.",
+   "S5, S7, S21, S28",
+   false
+  ],
+  [
+   "Prostaglandin D2 (PGD2)",
+   "COX-2 prostaglandin in joints/soft tissue (inflammation, pain); receptors DP (Gs) and CRTH2 (Gi).",
+   "S7, S9",
+   false
+  ],
+  [
+   "Prostaglandin F2α (PGF2α)",
+   "Prostaglandin in joints/soft tissue and in the uterus, where it causes luteolysis.",
+   "S7, S9",
+   false
+  ],
+  [
+   "Prostacyclin = prostaglandin I2 (PGI2)",
+   "Endothelial (COX-2) product: keeps platelets resting and dilates vessels via IP receptor/Gs/cAMP.",
+   "S7, S9, S26",
+   false
+  ],
+  [
+   "Thromboxane A2 (TxA2)",
+   "Platelet (COX-1) product: platelet aggregation and vasoconstriction via TP receptor/Gq/IP3/Ca2+.",
+   "S5, S7, S11, S26",
+   false
+  ],
+  [
+   "Leukotriene",
+   "5-LOX-derived eicosanoid; LTB4, LTC4, LTD4, LTE4 act in airways and inflammation.",
+   "S4, S5, S7",
+   false
+  ],
+  [
+   "Leukotriene B4 (LTB4)",
+   "Leukotriene acting on receptors on polymorphonuclear leukocytes (oxidative damage), chief cells (digestive enzymes), and parietal cells (HCl) in the gastric diagram.",
+   "S5, S7, S21",
+   false
+  ],
+  [
+   "LTC4, LTD4, LTE4",
+   "Airway leukotrienes (with LTB4): bronchoconstriction and mucus secretion.",
+   "S7",
+   false
+  ],
+  [
+   "Cytoprotection",
+   "Protective, anti-apoptotic eicosanoid effect: COX-1 PGE2/PGI2 in gastric mucosa; COX-2 PGE2 in colon cancer.",
+   "S4, S7",
+   false
+  ],
+  [
+   "Luteolysis",
+   "Breakdown of the corpus luteum; the uterine PGF2α effect in the functions table.",
+   "S7",
+   false
+  ],
+  [
+   "Eicosanoid receptor",
+   "G protein-coupled receptor; can couple Gs, Gi, Gq, or minor G proteins (G12, G13, Gh).",
+   "S8, S9",
+   false
+  ],
+  [
+   "G protein-coupled receptor (GPCR)",
+   "Seven-transmembrane receptor that activates a heterotrimeric G protein; the receptor type for all eicosanoids.",
+   "S8",
+   false
+  ],
+  [
+   "Main Point: different G protein couplings",
+   "Same prostaglandin, different receptor/G protein in different tissues = different effects (e.g. vasoconstriction vs vasodilation).",
+   "S9",
+   true
+  ],
+  [
+   "Gs (stimulatory G protein)",
+   "Gαs activates adenylyl cyclase → ↑ cAMP. Used by EP2, EP4, DP, IP.",
+   "S9, S10",
+   false
+  ],
+  [
+   "Gi (inhibitory G protein)",
+   "Gαi inhibits adenylyl cyclase → ↓ cAMP. Used by EP3, CRTH2.",
+   "S9, S10",
+   false
+  ],
+  [
+   "Gq",
+   "Gαq activates phospholipase C → DAG + IP3 (↑ Ca2+). Used by EP1, TPβ, FP.",
+   "S9, S11",
+   false
+  ],
+  [
+   "Adenylyl cyclase (AC)",
+   "Enzyme that converts ATP to cAMP; activated by Gαs, inhibited by Gαi.",
+   "S8, S10",
+   false
+  ],
+  [
+   "Cyclic adenosine monophosphate (cAMP)",
+   "Second messenger made by adenylyl cyclase; activates protein kinase A.",
+   "S8, S10, S26",
+   false
+  ],
+  [
+   "Protein kinase A (PKA)",
+   "cAMP-activated kinase; mediates platelet resting and smooth muscle relaxation.",
+   "S26, S28",
+   false
+  ],
+  [
+   "Phospholipase C (PLC)",
+   "Gαq-activated enzyme that produces DAG and IP3.",
+   "S8, S11",
+   false
+  ],
+  [
+   "Diacylglycerol (DAG)",
+   "PLC product and second messenger (slide typo: diacylglyerol).",
+   "S8, S11",
+   false
+  ],
+  [
+   "Inositol trisphosphate (IP3)",
+   "PLC product that raises cytosolic Ca2+ (slide writes triphosphate).",
+   "S8, S11, S26",
+   false
+  ],
+  [
+   "EP1",
+   "PGE2 receptor coupled to Gq (↑ IP3, DAG, Ca2+); shown in gastric mucosa cytoprotection.",
+   "S9, S21",
+   false
+  ],
+  [
+   "EP2",
+   "PGE2 receptor coupled to Gs (↑ cAMP).",
+   "S9, S10",
+   false
+  ],
+  [
+   "EP3",
+   "PGE2 receptor coupled to Gi/G12 (↓ cAMP).",
+   "S9, S10",
+   false
+  ],
+  [
+   "EP4",
+   "PGE2 receptor coupled to Gs (↑ cAMP).",
+   "S9",
+   false
+  ],
+  [
+   "IP receptor (PGI2R)",
+   "Prostacyclin receptor coupled to Gs (↑ cAMP) on platelets and smooth muscle.",
+   "S9, S26",
+   false
+  ],
+  [
+   "TPα / TPβ",
+   "Thromboxane A2 receptors; both Gq (+G13, Gh). TPα also Gs (↑ cAMP); TPβ also Gi (↓ cAMP).",
+   "S9, S11",
+   false
+  ],
+  [
+   "DP / CRTH2",
+   "PGD2 receptors: DP = Gs (↑ cAMP); CRTH2 = Gi (↓ cAMP).",
+   "S9",
+   false
+  ],
+  [
+   "FPA / FPB",
+   "PGF2α receptors; both Gq (↑ IP3, DAG, Ca2+).",
+   "S9",
+   false
+  ],
+  [
+   "Cardinal signs of inflammation",
+   "Rubor (vasodilation), tumor (vascular permeability), calor (leukocyte activation/cytokines), dolor (nociception); eicosanoids mediate all four.",
+   "S13",
+   false
+  ],
+  [
+   "Hyperalgesia",
+   "Increased pain sensitivity; one of the eicosanoid-mediated inflammatory effects.",
+   "S13",
+   false
+  ],
+  [
+   "Osteoarthritis (racehorse case)",
+   "Slowly developing lameness, stiffness, pain on flexion, knee swelling, reduced joint space on X-ray.",
+   "S2, S16",
+   false
+  ],
+  [
+   "Glucocorticoid",
+   "Stress hormone; synthetic versions are steroidal anti-inflammatory drugs that block PLA2 via annexin A1.",
+   "S12, S15, S17",
+   false
+  ],
+  [
+   "Steroidal anti-inflammatory drug (SAID)",
+   "Synthetic glucocorticoid; treats inflammation and autoimmune disease but is immune suppressive and catabolic.",
+   "S12, S17",
+   false
+  ],
+  [
+   "Annexin A1",
+   "Glucocorticoids → annexin A1, which inhibits phospholipase A2 (T-bar on slide), cutting off every eicosanoid branch.",
+   "S15",
+   false
+  ],
+  [
+   "Catabolic side effect",
+   "Glucocorticoids break down peripheral tissue (muscle, connective, skin, bone) to release amino acids for liver gluconeogenesis.",
+   "S17",
+   false
+  ],
+  [
+   "Non-steroidal anti-inflammatory drug (NSAID), 1st generation",
+   "Blocks both COX-1 and COX-2; treats pain/inflammation but can cause gastric ulcers.",
+   "S12, S18, S22",
+   false
+  ],
+  [
+   "Coxib (2nd-generation NSAID)",
+   "COX-2 selective inhibitor; treats pain/inflammation without gastric ulcers but can cause adverse cardiovascular events.",
+   "S12, S23, S27",
+   false
+  ],
+  [
+   "Aspirin",
+   "Shown inhibiting PTGS1 (COX-1) in platelets, blocking TxA2 production (T-bar on slide).",
+   "S26",
+   false
+  ],
+  [
+   "Chief cell / parietal cell",
+   "Gastric diagram: LTB4 receptor on chief cell → ↑ digestive enzymes; on parietal cell → ↑ HCl.",
+   "S21",
+   false
+  ],
+  [
+   "Polymorphonuclear leukocyte (PMN)",
+   "Neutrophil-type cell; LTB4 via leukotriene receptor (LTR) activates it → oxidative damage to gastric mucosa.",
+   "S21",
+   false
+  ],
+  [
+   "Afferent arteriole",
+   "Arteriole into the glomerulus; PGE2 dilates it to maintain glomerular perfusion.",
+   "S7, S28, S30",
+   false
+  ],
+  [
+   "Efferent arteriole",
+   "Arteriole leaving the glomerulus; angiotensin II raises its resistance to support glomerular pressure.",
+   "S30",
+   false
+  ],
+  [
+   "Macula densa",
+   "Tubule cells that sense low NaCl and make PGE2 (PTGS1/2), which stimulates renin exocytosis and dilates the afferent arteriole.",
+   "S28, S30",
+   false
+  ],
+  [
+   "Juxtaglomerular granular cells",
+   "Renin-containing cells; PGE2 stimulates renin exocytosis.",
+   "S28",
+   false
+  ],
+  [
+   "Renin → angiotensin II → aldosterone",
+   "Cascade triggered by macula densa PGE2; raises efferent resistance and Na+/H2O retention.",
+   "S30",
+   false
+  ],
+  [
+   "Glomerular filtration rate (GFR)",
+   "Filtration rate set by glomerular hydrostatic pressure; NSAIDs can lower it.",
+   "S30",
+   false
+  ],
+  [
+   "Acute kidney injury (AKI)",
+   "Ischemic kidney damage NSAIDs/coxibs may cause in fragile patients.",
+   "S12, S29, S30",
+   false
+  ],
+  [
+   "At-risk patients for NSAID AKI",
+   "Hypovolemic, hypotensive, or on RAAS inhibitors (angiotensin-converting enzyme inhibitors or angiotensin receptor blockers).",
+   "S29, S30",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>COX-1 vs COX-2 home tissues (S7 box colors):</b> gastric mucosa and platelets (TxA2) = <b>COX-1</b>; joints/soft tissue, colon cancer, endothelium (PGI2), kidney, uterus = <b>COX-2</b>; airways = <b>5-LOX</b>. S28 draws kidney as <b>PTGS1/2</b>. Do not flip platelets and endothelium.",
+  "<b>TxA2 vs PGI2:</b> TxA2 (platelets) = aggregation + <b>vasoconstriction</b> via Gq; PGI2 (endothelium) = platelet resting + <b>vasodilation</b> via Gs/cAMP. Opposites.",
+  "<b>Where each drug hits:</b> glucocorticoid → <b>phospholipase A2</b> (via annexin A1, blocks ALL branches incl. leukotrienes); NSAID → COX-1 + COX-2; coxib → COX-2 only. None of the three block 5-LOX directly.",
+  "<b>Gs vs Gi on adenylyl cyclase:</b> EP2 → Gs → <b>activates</b> AC → ↑ cAMP; EP3 → Gi → <b>inhibits</b> AC → ↓ cAMP. Same ligand (PGE2), opposite second messenger.",
+  "<b>Gq goes to phospholipase C, not adenylyl cyclase:</b> TPβ/EP1/FP → Gq → PLC → DAG + IP3 → Ca2+. Phospholipase <b>C</b> (signaling) vs phospholipase <b>A2</b> (synthesis) — do not swap.",
+  "<b>Adverse effect pairing:</b> 1st-gen NSAID → <b>gastric ulcers</b>; coxib → <b>cardiovascular events</b>; BOTH → <b>AKI</b> risk in fragile patients; glucocorticoid → <b>immune suppression + catabolism</b>.",
+  "<b>Kidney arterioles:</b> PGE2 <b>dilates the afferent</b>; angiotensin II <b>constricts the efferent</b>. NSAIDs prevent afferent dilation AND (via ↓ renin) efferent contraction.",
+  "<b>Cardinal sign causes:</b> rubor = vasodilation; tumor = vascular <b>permeability</b>; calor = leukocyte activation (cytokines); dolor = nociception. Rubor and tumor are easy to swap.",
+  "<b>Same word, different enzyme:</b> \"cytoprotection, anti-apoptotic\" appears for gastric mucosa (<b>COX-1</b>, PGE2 + PGI2) AND colon cancer (<b>COX-2</b>, PGE2).",
+  "<b>Do not memorize the receptor table — but know its Main Point:</b> different G protein couplings explain why one prostaglandin causes different effects in different tissues."
+ ],
+ "know": [
+  {
+   "title": "Eicosanoid functions by tissue",
+   "slide": "S7",
+   "note": "Shown 7 times (S7, S14, S20, S22, S25, S27, S29) — the lecture's backbone. Enzyme for each box is set by box color on the slide (brown = PTGS1, green = PTGS2, purple = 5-LOX).",
+   "headers": [
+    "Tissue",
+    "Enzyme",
+    "Eicosanoids",
+    "Effect"
+   ],
+   "rows": [
+    [
+     "Gastric mucosa",
+     "PTGS1 (COX-1)",
+     "PGE2, PGI2",
+     "Cytoprotection; anti-apoptotic"
+    ],
+    [
+     "Joints / soft tissue",
+     "PTGS2 (COX-2)",
+     "PGE2, PGI2, PGD2, PGF2α",
+     "Inflammation; pain"
+    ],
+    [
+     "Colon cancer",
+     "PTGS2 (COX-2)",
+     "PGE2",
+     "Cytoprotection; anti-apoptotic"
+    ],
+    [
+     "Airways",
+     "5-LOX",
+     "LTB4, LTC4, LTD4, LTE4",
+     "Bronchoconstriction; mucus secretion"
+    ],
+    [
+     "Platelets",
+     "PTGS1 (COX-1)",
+     "TxA2",
+     "Platelet aggregation; vasoconstriction"
+    ],
+    [
+     "Endothelium",
+     "PTGS2 (COX-2)",
+     "PGI2",
+     "Platelet resting; vasodilation"
+    ],
+    [
+     "Kidney",
+     "PTGS2 (COX-2); S28 says PTGS1/2",
+     "PGE2",
+     "Dilation of afferent arteriole"
+    ],
+    [
+     "Uterus",
+     "PTGS2 (COX-2)",
+     "PGF2α",
+     "Luteolysis"
+    ]
+   ],
+   "hide": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "title": "Synthesis pathway and drug targets",
+   "slide": "S6",
+   "note": "Same pathway re-shown with each drug: glucocorticoids S15, NSAIDs S18, coxibs S23.",
+   "headers": [
+    "Step",
+    "Enzyme",
+    "Product",
+    "Drug that blocks it"
+   ],
+   "rows": [
+    [
+     "1",
+     "Phospholipase A2",
+     "Arachidonic acid (from diacylglycerol/phospholipid)",
+     "Glucocorticoids via annexin A1 (S15)"
+    ],
+    [
+     "2a",
+     "PTGS1 (COX-1)",
+     "PGH2 → prostaglandins, prostacyclins, thromboxanes",
+     "1st-gen NSAIDs (S18)"
+    ],
+    [
+     "2b",
+     "PTGS2 (COX-2)",
+     "PGH2 → prostaglandins, prostacyclins, thromboxanes",
+     "1st-gen NSAIDs (S18) and coxibs (S23)"
+    ],
+    [
+     "2c",
+     "5-LOX",
+     "5-HPETE → leukotrienes",
+     "Marked as a drug target (S6); no named drug"
+    ]
+   ],
+   "hide": [
+    2,
+    3
+   ]
+  },
+  {
+   "title": "Eicosanoid receptors – GPCR (DO NOT MEMORIZE; Main Point is testable)",
+   "slide": "S9",
+   "note": "Slide: \"Do not need to memorize this table!\" Main Point: different G protein couplings explain why the same prostaglandin causes different effects in different tissues (vasoconstriction vs vasodilation).",
+   "headers": [
+    "Class",
+    "Subtype",
+    "G protein coupled",
+    "Second messenger"
+   ],
+   "rows": [
+    [
+     "TxA2",
+     "TPα",
+     "Gq, G13, Gh, Gs",
+     "↑ IP3, DAG, Ca2+, cAMP"
+    ],
+    [
+     "TxA2",
+     "TPβ",
+     "Gq, G13, Gh, Gi",
+     "↑ IP3, DAG, Ca2+; ↓ cAMP"
+    ],
+    [
+     "PGD2",
+     "DP",
+     "Gs",
+     "↑ cAMP"
+    ],
+    [
+     "PGD2",
+     "CRTH2",
+     "Gi",
+     "↓ cAMP"
+    ],
+    [
+     "PGE2",
+     "EP1",
+     "Gq",
+     "↑ IP3, DAG, Ca2+"
+    ],
+    [
+     "PGE2",
+     "EP2",
+     "Gs",
+     "↑ cAMP"
+    ],
+    [
+     "PGE2",
+     "EP3",
+     "Gi, G12",
+     "↓ cAMP"
+    ],
+    [
+     "PGE2",
+     "EP4",
+     "Gs",
+     "↑ cAMP"
+    ],
+    [
+     "PGI2",
+     "IP",
+     "Gs",
+     "↑ cAMP"
+    ],
+    [
+     "PGF2α",
+     "FPA",
+     "Gq",
+     "↑ IP3, DAG, Ca2+"
+    ],
+    [
+     "PGF2α",
+     "FPB",
+     "Gq",
+     "↑ IP3, DAG, Ca2+"
+    ]
+   ],
+   "hide": [
+    2,
+    3
+   ]
+  },
+  {
+   "title": "Anti-inflammatory drugs: target, benefit, adverse effect",
+   "slide": "S12",
+   "note": "Clinical-correlation objective summary; AKI callout from S29–S30.",
+   "headers": [
+    "Drug class",
+    "Target",
+    "Benefit",
+    "Adverse effect"
+   ],
+   "rows": [
+    [
+     "Synthetic glucocorticoid (SAID)",
+     "Phospholipase A2 via annexin A1",
+     "Treats inflammation (and autoimmune disease)",
+     "Immune suppressive; catabolic"
+    ],
+    [
+     "1st-gen NSAID",
+     "COX-1 + COX-2",
+     "Treats inflammation/pain",
+     "Gastric ulcers; AKI in fragile patients"
+    ],
+    [
+     "Coxib (2nd-gen NSAID)",
+     "COX-2 only",
+     "Treats inflammation/pain without gastric ulcers",
+     "Adverse cardiovascular events; AKI in fragile patients"
+    ]
+   ],
+   "hide": [
+    1,
+    3
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "A horse receives a synthetic glucocorticoid, which reduces eicosanoid production by acting through annexin A1. Which enzyme does this inhibit?",
+   "ok": "Phospholipase A2 (PLA2)",
+   "bad": [
+    "Cyclooxygenase-1 (COX-1)",
+    "Cyclooxygenase-2 (COX-2)",
+    "5-Lipoxygenase (5-LOX)"
+   ],
+   "why": "Glucocorticoids act via annexin A1 on phospholipase A2, the first shared step, so arachidonic acid release is blocked.",
+   "cite": "S15",
+   "sure": true
+  },
+  {
+   "stem": "Which eicosanoid class is reduced by a synthetic glucocorticoid but NOT by a first-generation non-steroidal anti-inflammatory drug (NSAID)?",
+   "ok": "Leukotrienes",
+   "bad": [
+    "Prostacyclins",
+    "Thromboxanes",
+    "Prostaglandins"
+   ],
+   "why": "Glucocorticoids block phospholipase A2 upstream of every branch; NSAIDs block only COX-1/COX-2, leaving the 5-LOX leukotriene branch intact.",
+   "cite": "S15, S18",
+   "sure": true
+  },
+  {
+   "stem": "Prostaglandin E2 (PGE2) binds the EP3 receptor. Which event follows? (cAMP = cyclic adenosine monophosphate; IP3 = inositol trisphosphate)",
+   "ok": "Gαi inhibits adenylyl cyclase, lowering cAMP",
+   "bad": [
+    "Gαs activates adenylyl cyclase, raising cAMP",
+    "Gαq activates phospholipase C, raising IP3",
+    "Gαi activates phospholipase C, lowering IP3"
+   ],
+   "why": "EP3 recruits Gi; Gαi inhibits adenylyl cyclase, so cAMP-dependent pathways decrease.",
+   "cite": "S10",
+   "sure": true
+  },
+  {
+   "stem": "Prostaglandin E2 (PGE2) causes different, even opposite, effects in different tissues. Which explanation does the lecture give?",
+   "ok": "Its receptors couple to different G proteins",
+   "bad": [
+    "It is converted to different eicosanoids locally",
+    "It binds intracellular receptors in some tissues",
+    "It is synthesized by different COX isoforms"
+   ],
+   "why": "Main Point of the receptor table: different G protein couplings (e.g. EP2/Gs vs EP3/Gi) explain tissue-specific effects.",
+   "cite": "S9",
+   "sure": true
+  },
+  {
+   "stem": "Which tissue – eicosanoid – effect pairing matches the eicosanoid functions table?",
+   "ok": "Uterus – PGF2α – luteolysis",
+   "bad": [
+    "Kidney – TxA2 – afferent arteriole dilation",
+    "Endothelium – TxA2 – vasodilation",
+    "Platelets – PGI2 – platelet aggregation"
+   ],
+   "why": "Uterus PGF2α causes luteolysis; kidney uses PGE2, endothelium PGI2, platelets TxA2.",
+   "cite": "S7",
+   "sure": true
+  },
+  {
+   "stem": "A dog on a first-generation non-steroidal anti-inflammatory drug (NSAID) develops a gastric ulcer. Loss of which effect best explains it?",
+   "ok": "COX-1 PGE2 and PGI2 cytoprotection in mucosa",
+   "bad": [
+    "COX-1 TxA2 vasoconstriction in the gastric mucosa",
+    "5-LOX leukotriene mucus secretion in the mucosa",
+    "COX-2 PGD2 and PGF2α inflammation in mucosa"
+   ],
+   "why": "Gastric mucosa relies on COX-1-derived PGE2 and PGI2 for cytoprotection; blocking COX-1 removes it.",
+   "cite": "S7, S21, S22",
+   "sure": true
+  },
+  {
+   "stem": "A patient taking a COX-2 selective inhibitor (coxib) has a thrombotic cardiovascular event. Which imbalance best explains it?",
+   "ok": "Endothelial PGI2 falls while platelet TxA2 continues",
+   "bad": [
+    "Platelet TxA2 falls while endothelial PGI2 continues",
+    "Endothelial PGE2 falls while renal PGI2 continues",
+    "Platelet leukotrienes rise while endothelial PGI2 continues"
+   ],
+   "why": "Endothelial PGI2 is COX-2 derived and keeps platelets resting; platelet TxA2 is COX-1 derived and unaffected, so aggregation/vasoconstriction dominate.",
+   "cite": "S26, S27",
+   "sure": true
+  },
+  {
+   "stem": "Which pairing of a cardinal sign of inflammation and its cause is NOT as stated in lecture?",
+   "ok": "Rubor – redness from vascular permeability",
+   "bad": [
+    "Tumor – swelling from vascular permeability",
+    "Calor – heat from leukocyte activation (cytokines)",
+    "Dolor – pain from increased nociception"
+   ],
+   "why": "Rubor is redness due to vasodilation; vascular permeability causes tumor (swelling).",
+   "cite": "S13",
+   "sure": true
+  },
+  {
+   "stem": "A hypovolemic dog is given a non-steroidal anti-inflammatory drug (NSAID) and glomerular filtration rate drops. Which change contributes?",
+   "ok": "Loss of PGE2-driven afferent arteriole dilation",
+   "bad": [
+    "Loss of PGE2-driven efferent arteriole dilation",
+    "Excess TxA2-driven afferent arteriole constriction",
+    "Excess angiotensin II-driven afferent arteriole dilation"
+   ],
+   "why": "NSAIDs reduce macula densa and endothelial PGE2, preventing afferent dilation (and, via less renin, efferent contraction).",
+   "cite": "S12, S30",
+   "sure": true
+  },
+  {
+   "stem": "Macula densa cells sense low NaCl and produce prostaglandin E2 (PGE2) via PTGS1/2. What does this PGE2 stimulate?",
+   "ok": "Renin exocytosis from juxtaglomerular granular cells",
+   "bad": [
+    "Aldosterone release from juxtaglomerular granular cells",
+    "Angiotensin II release from macula densa cells",
+    "Renin exocytosis from afferent arteriole endothelial cells"
+   ],
+   "why": "Macula densa PGE2 stimulates renin exocytosis from the granular cells of the juxtaglomerular apparatus.",
+   "cite": "S28",
+   "sure": true
+  },
+  {
+   "stem": "Which patients does the lecture identify as at increased risk of acute kidney injury (AKI) after non-steroidal anti-inflammatory drug (NSAID) treatment? (select all that apply)",
+   "ok": [
+    "A hypovolemic patient",
+    "A hypotensive patient",
+    "A patient on an angiotensin-converting enzyme inhibitor"
+   ],
+   "bad": [
+    "A patient with osteoarthritis only",
+    "A healthy, well-hydrated patient"
+   ],
+   "why": "Most healthy patients are fine; hypovolemic, hypotensive, or angiotensin-converting enzyme (ACE) inhibitor/angiotensin receptor blocker (ARB) patients are at risk.",
+   "cite": "S29, S30",
+   "sure": true
+  },
+  {
+   "stem": "Thromboxane A2 (TxA2) binds the TPβ receptor in the pathway shown in lecture. What happens next? (DAG = diacylglycerol; IP3 = inositol trisphosphate)",
+   "ok": "Gαq activates phospholipase C, producing DAG and IP3",
+   "bad": [
+    "Gαs activates adenylyl cyclase, producing cyclic AMP",
+    "Gαq inhibits phospholipase C, reducing DAG and IP3",
+    "Gαs inhibits phospholipase A2, reducing arachidonic acid"
+   ],
+   "why": "TPβ recruits Gq; Gαq activates phospholipase C to make DAG and IP3, which activate downstream pathways.",
+   "cite": "S11",
+   "sure": true
+  },
+  {
+   "stem": "Which statement about how eicosanoids usually signal is correct?",
+   "ok": "Hydrophobic, so usually autocrine or paracrine",
+   "bad": [
+    "Hydrophilic, so usually autocrine or paracrine",
+    "Hydrophobic, so usually endocrine via plasma",
+    "Hydrophilic, so usually endocrine via plasma"
+   ],
+   "why": "Eicosanoids are very hydrophobic, so they are usually autocrine/paracrine; a few can be endocrine.",
+   "cite": "S5",
+   "sure": true
+  },
+  {
+   "stem": "A trainer wants a racehorse's osteoarthritis pain treated while avoiding gastric ulcers. Which drug class fits, and which risk remains? (NSAID = non-steroidal anti-inflammatory drug)",
+   "ok": "Coxib; adverse cardiovascular events remain a risk",
+   "bad": [
+    "First-generation NSAID; cardiovascular events remain a risk",
+    "Coxib; gastric ulcers remain the main risk",
+    "Glucocorticoid; gastric ulcers remain the main risk"
+   ],
+   "why": "Coxibs target COX-2 only, sparing COX-1 gastric cytoprotection, but can cause adverse cardiovascular events.",
+   "cite": "S12, S23, S27",
+   "sure": true
+  },
+  {
+   "stem": "A horse receives long-term synthetic glucocorticoids. Which metabolic side effect is described in lecture?",
+   "ok": "Peripheral catabolism releasing amino acids for liver gluconeogenesis",
+   "bad": [
+    "Peripheral anabolism storing amino acids from liver glycogenolysis",
+    "Liver catabolism releasing glucose for muscle gluconeogenesis",
+    "Bone anabolism consuming amino acids from liver gluconeogenesis"
+   ],
+   "why": "Glucocorticoids are catabolic in muscle, connective tissue, skin, and bone, releasing amino acids that the liver uses for gluconeogenesis.",
+   "cite": "S17",
+   "sure": true
+  },
+  {
+   "stem": "A dehydrated dog with arthritis needs pain control. Compare first-generation NSAIDs (non-steroidal anti-inflammatory drugs) and coxibs for kidney risk.",
+   "ok": "Both carry risk, because renal prostaglandins use COX-1 and COX-2",
+   "bad": [
+    "Only first-generation NSAIDs carry risk, because coxibs spare COX-1",
+    "Only coxibs carry risk, because renal prostaglandins use COX-2 only",
+    "Neither carries risk, because kidney perfusion depends on angiotensin only"
+   ],
+   "why": "Kidney PGE2 is made by PTGS1/2, and the slide states NSAIDs and coxibs may both cause AKI in fragile patients.",
+   "cite": "S28, S29",
+   "sure": true
+  },
+  {
+   "stem": "In the eicosanoid functions table, which pairing of tissue and synthesizing enzyme is correct?",
+   "ok": "Colon cancer – PTGS2 (COX-2)",
+   "bad": [
+    "Gastric mucosa – PTGS2 (COX-2)",
+    "Airways – PTGS1 (COX-1)",
+    "Joints / soft tissue – 5-LOX"
+   ],
+   "why": "Colon cancer PGE2 is COX-2; gastric mucosa is COX-1, airways 5-LOX, joints COX-2.",
+   "cite": "S7",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "Checked against slide image: functions table enzymes",
+   "S7 color-codes every box: brown = PTGS1 (gastric mucosa, platelets), green = PTGS2 (joints, colon cancer, endothelium, kidney, uterus), purple = 5-LOX (airways). Enzyme column now follows the colors · reading enzyme from box color is inference from layout; confirm uterus/kidney with transcript."
+  ],
+  [
+   "Kidney enzyme: COX-2 (S7) vs PTGS1/2 (S28)",
+   "S7 colors the kidney box green (PTGS2); S28 labels both endothelial and macula densa synthesis PTGS1/2 · use PTGS1/2 for kidney mechanism (why both NSAIDs and coxibs risk AKI, S29)."
+  ],
+  [
+   "Kidney endothelium: PGI2 vs PGE2",
+   "Checked against slide image: S28 endothelium makes PGI2 (low O2 → PTGS1/2 → PGI2), but its red arrow lands on a receptor labeled PGE2R; macula densa PGE2 also arrows to that PGE2R. S12, S30, and S7 say PGE2 · use PGE2 for kidney; know endothelium is drawn as PGI2."
+  ],
+  [
+   "Uterus panel dropped on S22, S27, S29",
+   "Replaced by drug callouts (ulcers / cardiovascular events / AKI); no content change · use S7 full table."
+  ],
+  [
+   "TPβ coupling",
+   "S8/S11 show TPβ as Gq; S9 lists TPβ as Gq, G13, Gh, Gi (and TPα also Gs) · use Gq for TPβ (S11 pathway); S9 table is not to be memorized."
+  ],
+  [
+   "Slide typos",
+   "eicostetraeoic acid (S6, S15, S18, S23) = 5-hydroperoxyeicosatetraenoic acid, 5-HPETE (S21); Prostacylcins (S15, S18, S23); diacylglyerol (S8); Lipooxygenase-5 (S4) = 5-lipoxygenase; inositol triphosphate (S8) = standard trisphosphate · use the corrected spellings."
+  ],
+  [
+   "Four vs five cardinal signs",
+   "S13 says eicosanoids mediate all four cardinal signs (rubor, tumor, calor, dolor); textbooks add a fifth, functio laesa (loss of function) — OUTSIDE · use four for this exam."
+  ],
+  [
+   "Annexin A1 mechanism",
+   "Checked against slide image: S15 draws glucocorticoids → annexin A1 ⊣ phospholipase A2, and crosses out arachidonic acid, PGH2, 5-HPETE, and all products. How glucocorticoids raise annexin A1 (gene induction) is OUTSIDE · confirm with transcript."
+  ],
+  [
+   "Aspirin on S26",
+   "Checked against slide image: aspirin T-bars PTGS1 in the platelet, blocking TxA2. Irreversible inhibition / clinical antiplatelet use is OUTSIDE · confirm with transcript."
+  ],
+  [
+   "S21 gastric diagram: leukotriene arm",
+   "Checked against slide image: NSAID ⊣ PTGS1 (COX-1) blocks PGE2 → EP1 → Gq → PLC → anti-apoptotic + ↑ mucus. LTB4 acts via receptors on PMN (activation → oxidative damage), chief cell (↑ digestive enzymes), and parietal cell (↑ HCl). Red arrows double the 5-LOX → LTB4 path, implying more leukotriene when COX-1 is blocked; the slide never says 'shunt' · treat shunting as interpretation until transcript."
+  ],
+  [
+   "Racehorse treatment never answered",
+   "S2, S16, S19, S24 repeat Treatment? without a stated answer; slides only give each drug's trade-off · transcript pending."
+  ],
+  [
+   "S30 flowchart",
+   "Checked against slide image: ↓ arterial pressure → ↓ glomerular hydrostatic pressure → ↓ GFR (plus ↑ NaCl reabsorption) → ↓ macula densa NaCl → PGE2 → ↑ renin → ↑ angiotensin II → ↑ efferent resistance (and ↑ aldosterone → ↑ Na+/H2O retention → ↑ arterial pressure); PGE2 also → ↓ afferent resistance. NSAID blocks both PGE2 arrows. Nothing left in doubt."
+  ]
+ ]
+}

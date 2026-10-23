@@ -1,0 +1,839 @@
+{
+ "lc": 29,
+ "prof": "Basel",
+ "title": "Signaling Dynamics",
+ "emoji": "📈",
+ "date": "Mon 11/2",
+ "terms": [
+  [
+   "Signaling dynamics",
+   "How a cell gets the right amount of signal: amplify it, measure it, and modify it with agonists or antagonists.",
+   "S1",
+   false
+  ],
+  [
+   "Pheochromocytoma",
+   "Adrenal tumor that secretes catecholamines (norepinephrine/epinephrine); surgery risks hemodynamic instability from massive release.",
+   "S2",
+   false
+  ],
+  [
+   "Hemodynamic instability",
+   "Dangerous blood pressure/heart swings during pheochromocytoma surgery caused by surges of norepinephrine and epinephrine from the tumor.",
+   "S2",
+   false
+  ],
+  [
+   "Amplification",
+   "A signal going from a few molecules to a huge response; enabled by second messengers.",
+   "S3",
+   false
+  ],
+  [
+   "Second messenger",
+   "Intracellular signal made after the primary signal; allows multiplication (amplification), integration, and modulation of the signal.",
+   "S4",
+   false
+  ],
+  [
+   "Direct effect (no second messenger)",
+   "Primary signal acts directly: 1:1 signal-to-effect ratio, limited by signal concentration, cannot integrate other signals.",
+   "S5",
+   false
+  ],
+  [
+   "1 : >>1 signal-to-effect ratio",
+   "With second messengers, one primary signal produces far more than one unit of effect.",
+   "S5",
+   false
+  ],
+  [
+   "Integration",
+   "Second-messenger pathways accept 'other signals' at multiple steps (PKA, phosphorylase kinase, glycogen phosphorylase), combining inputs into one output.",
+   "S5–S6",
+   false
+  ],
+  [
+   "Stimulatory G protein (Gs)",
+   "G protein activated by the epinephrine/glucagon receptor; swaps guanosine diphosphate (GDP) for guanosine triphosphate (GTP), then activates adenylyl cyclase.",
+   "S6",
+   false
+  ],
+  [
+   "Adenylyl cyclase",
+   "Enzyme activated by Gs; converts adenosine triphosphate (ATP) into cyclic adenosine monophosphate (cAMP).",
+   "S6",
+   false
+  ],
+  [
+   "Cyclic adenosine monophosphate (cAMP)",
+   "Second messenger made by adenylyl cyclase; activates protein kinase A.",
+   "S6",
+   false
+  ],
+  [
+   "Protein kinase A (PKA)",
+   "cAMP-activated kinase; phosphorylates and activates phosphorylase kinase in the liver cell cascade.",
+   "S6",
+   false
+  ],
+  [
+   "Phosphorylase kinase",
+   "Kinase phosphorylated by PKA; phosphorylates and activates glycogen phosphorylase.",
+   "S6",
+   false
+  ],
+  [
+   "Glycogen phosphorylase",
+   "Enzyme activated by phosphorylase kinase; breaks glycogen into glucose-1-phosphate.",
+   "S6",
+   false
+  ],
+  [
+   "Glucose-1-phosphate",
+   "End product of the liver Gs cascade; released from glycogen by glycogen phosphorylase.",
+   "S6",
+   false
+  ],
+  [
+   "~100,000,000-fold amplification",
+   "Total amplification from very-low-concentration epinephrine/glucagon to glucose-1-phosphate in a liver cell.",
+   "S6",
+   false
+  ],
+  [
+   "Receptor desensitization",
+   "Receptors respond to changes in signal concentration, not absolute level; sustained agonist gives a decreasing response over time.",
+   "S7",
+   true
+  ],
+  [
+   "Mu-opioid receptor (MOR) tolerance",
+   "Chronic opioid users need higher and higher doses for the same effect.",
+   "S7",
+   false
+  ],
+  [
+   "Long-acting beta-2 (β2) adrenergic agonist",
+   "Asthma drug that relaxes airway smooth muscle; chronic use can cause receptor desensitization.",
+   "S7",
+   false
+  ],
+  [
+   "Desensitization (short term)",
+   "Short-term loss of response: milliseconds to minutes.",
+   "S7",
+   false
+  ],
+  [
+   "Tolerance (long term)",
+   "Long-term loss of response: days to years.",
+   "S7",
+   false
+  ],
+  [
+   "Disabled signaling",
+   "Desensitization method: a kinase phosphorylates the receptor and arrestin binds, blocking signaling.",
+   "S8",
+   false
+  ],
+  [
+   "Arrestin",
+   "Protein that binds the phosphorylated receptor; blocks signaling and accompanies the receptor during internalization.",
+   "S8–S9",
+   false
+  ],
+  [
+   "Membrane cycling",
+   "Desensitization method: phosphorylated, arrestin-bound receptor is internalized in a vesicle, then degraded or recycled to the surface.",
+   "S8",
+   false
+  ],
+  [
+   "Reduced expression",
+   "Desensitization method: the cell expresses fewer receptors (less gene expression), so fewer reach the surface.",
+   "S8",
+   false
+  ],
+  [
+   "Desensitization kinetics timeline",
+   "S9 figure: G-protein signal (<~1 s) → phosphorylation → arrestin binding → endocytosis (~10 min–1 hr); resensitization or recycling afterward.",
+   "S9",
+   false
+  ],
+  [
+   "G protein-coupled receptor kinase (GRK)",
+   "Kinase on the S9 timeline that phosphorylates the agonist-bound receptor within seconds (expansion of GRK is OUTSIDE — confirm).",
+   "S9",
+   false
+  ],
+  [
+   "Beta-arrestin-2 (βarr-2)",
+   "Arrestin shown on S9 binding the phosphorylated receptor (~seconds to minutes) before endocytosis.",
+   "S9",
+   false
+  ],
+  [
+   "Rapid (surface) resensitization vs recycling",
+   "S9 recovery routes: phosphorylated surface receptor resensitizes quickly; endocytosed receptor returns by recycling.",
+   "S9",
+   false
+  ],
+  [
+   "Michaelis-Menten equation",
+   "Effect = Emax × [ligand] / (EC50 + [ligand]); describes magnitude of a ligand/receptor effect.",
+   "S10–S11",
+   false
+  ],
+  [
+   "Maximal effect (Emax)",
+   "The maximal effect a ligand produces; plateau of the dose-response curve.",
+   "S11",
+   false
+  ],
+  [
+   "Half-maximal effective concentration (EC50)",
+   "Ligand concentration (dose) that produces ½ Emax.",
+   "S11",
+   false
+  ],
+  [
+   "Efficacy",
+   "Activation of a receptor by a ligand; measured as Emax. Higher Emax = more efficacious.",
+   "S10, S12",
+   false
+  ],
+  [
+   "Potency",
+   "Interaction/binding strength of ligand to receptor; measured as EC50. Lower EC50 = more potent.",
+   "S10, S13",
+   false
+  ],
+  [
+   "Semi-logarithmic (semi-log) plot",
+   "Effect vs log [ligand]; turns the hyperbola into an S-curve. Most common display of ligand-receptor interactions.",
+   "S10, S14",
+   false
+  ],
+  [
+   "Agonist",
+   "Ligand that binds a receptor and initiates a physiological response; has measurable potency and efficacy.",
+   "S16, S18",
+   false
+  ],
+  [
+   "Full agonist",
+   "Activates maximal response equal to the endogenous ligand.",
+   "S18",
+   true
+  ],
+  [
+   "Partial agonist",
+   "Activates LESS than maximal response (less efficacious); can act as an antagonist against more efficacious agonists.",
+   "S18–S19",
+   true
+  ],
+  [
+   "Super agonist",
+   "Causes a response GREATER than the endogenous full agonist.",
+   "S18",
+   true
+  ],
+  [
+   "Inverse agonist",
+   "Causes the opposite effect of an agonist; requires receptors with basal signaling activity without agonist.",
+   "S18",
+   true
+  ],
+  [
+   "Morphine",
+   "Agonist at the mu-opioid receptor; residence time in the low-minute range (koff ~0.01/s).",
+   "S19, S22",
+   false
+  ],
+  [
+   "Buprenorphine",
+   "Partial agonist at the mu-opioid receptor.",
+   "S19",
+   false
+  ],
+  [
+   "Goserelin",
+   "Super agonist at the luteinizing hormone-releasing hormone receptor (LHRHR); downregulates LHRHR and sex hormones in prostate/breast cancer.",
+   "S19",
+   true
+  ],
+  [
+   "Ro15-4513",
+   "Inverse agonist at the gamma-aminobutyric acid (GABA) receptor; developed to counteract alcohol poisoning.",
+   "S19",
+   false
+  ],
+  [
+   "GABA inverse agonist effect",
+   "Gamma-aminobutyric acid (GABA) inverse agonists can cause anxiety.",
+   "S18",
+   false
+  ],
+  [
+   "Antagonist",
+   "Ligand that both binds the receptor and prevents its activation by an agonist.",
+   "S16",
+   false
+  ],
+  [
+   "Competitive antagonist",
+   "Binds the agonist binding site, prevents agonist binding; raises EC50; overcome by more agonist.",
+   "S17, S20–S21",
+   true
+  ],
+  [
+   "Non-competitive antagonist",
+   "Binds an allosteric site away from the agonist site; inhibits response; lowers Emax.",
+   "S17, S20–S21",
+   false
+  ],
+  [
+   "Allosteric site",
+   "Receptor site other than the agonist binding site; where non-competitive antagonists bind.",
+   "S17, S20",
+   false
+  ],
+  [
+   "Lock-and-key model",
+   "Agonist = key that starts car; competitive antagonist = key blank; non-competitive antagonist = car boot.",
+   "S17",
+   false
+  ],
+  [
+   "Naloxone",
+   "Competitive antagonist at opioid receptors (raises EC50).",
+   "S21",
+   false
+  ],
+  [
+   "Ketamine",
+   "Non-competitive antagonist at the N-methyl-D-aspartate (NMDA) receptor (lowers Emax).",
+   "S21",
+   false
+  ],
+  [
+   "k-1 (off rate) of antagonist",
+   "Ability to overcome a competitive antagonist partially depends on its off rate.",
+   "S21",
+   true
+  ],
+  [
+   "Off rate (koff)",
+   "Dissociation rate of a ligand from the receptor, per second; sets residence time.",
+   "S22",
+   false
+  ],
+  [
+   "Residence time",
+   "How long a ligand stays bound to the receptor; inverse of how fast it comes off.",
+   "S22",
+   false
+  ],
+  [
+   "Reversible",
+   "Measurable koff: the ligand comes back off.",
+   "S22",
+   false
+  ],
+  [
+   "Irreversible",
+   "No measurable koff: does not come off; often covalently bound to the receptor.",
+   "S22",
+   false
+  ],
+  [
+   "Practically irreversible",
+   "Off rate so low that physiological functions cannot occur.",
+   "S22",
+   false
+  ],
+  [
+   "Irreversible antagonist looks non-competitive",
+   "Actual or practical irreversible antagonist lowers Emax regardless of binding site; agonist cannot compete for sites.",
+   "S22",
+   true
+  ],
+  [
+   "Phenoxybenzamine",
+   "Irreversible, non-competitive alpha-adrenergic inhibitor used preoperatively for pheochromocytoma resection.",
+   "S24",
+   false
+  ],
+  [
+   "Low-dose phenoxybenzamine paradox",
+   "Tolerable doses shift the curve right instead of depressing max; spare alpha-adrenoceptors are not depleted (answered LC30).",
+   "S24; LC30",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>Efficacy = Emax</b> (how big the maximum is); <b>potency = EC50</b> (how much drug is needed). Do not swap them.",
+  "<b>More potent = LOWER EC50</b>; less potent = HIGHER EC50. Lower number wins.",
+  "<b>Competitive antagonist raises EC50</b> (curve shifts right, Emax kept); <b>non-competitive antagonist lowers Emax</b>.",
+  "Competitive antagonism is overcome by more agonist because agonist <b>competes for binding sites</b>; it does <b>not kick the antagonist out</b>.",
+  "<b>Desensitization = short term</b> (milliseconds–minutes); <b>tolerance = long term</b> (days–years).",
+  "<b>Partial agonist</b> = less than maximal response (can antagonize stronger agonists); <b>super agonist</b> = greater than endogenous full agonist; <b>inverse agonist</b> = opposite effect, needs basal activity.",
+  "<b>Inverse agonist ≠ antagonist</b>: an antagonist blocks an agonist; an inverse agonist produces the opposite effect on its own (needs basal signaling).",
+  "<b>Reversible = measurable koff</b>; irreversible = no measurable koff. An irreversible antagonist <b>looks non-competitive regardless of where it binds</b>.",
+  "<b>Naloxone</b> (competitive, opioid receptor) vs <b>ketamine</b> (non-competitive, NMDA receptor). <b>Buprenorphine</b> = partial agonist, not antagonist.",
+  "<b>Adenylyl cyclase</b> (enzyme, -ase) makes <b>cAMP</b> from ATP; <b>phosphorylase kinase</b> activates <b>glycogen phosphorylase</b> (kinase comes first)."
+ ],
+ "know": [
+  {
+   "title": "Efficacy vs potency: Emax and EC50 tables",
+   "slide": "S12–S14",
+   "note": "S12–S13 linear-axis examples; S14 semi-log example table (from slide image). Reading only; no calculations.",
+   "headers": [
+    "Curve",
+    "Emax",
+    "EC50",
+    "Interpretation"
+   ],
+   "rows": [
+    [
+     "Reference",
+     "100",
+     "100",
+     "Baseline curve"
+    ],
+    [
+     "Efficacy example",
+     "150",
+     "100",
+     "More efficacious = higher Emax"
+    ],
+    [
+     "Efficacy example",
+     "50",
+     "100",
+     "Less efficacious = lower Emax"
+    ],
+    [
+     "Potency example",
+     "100",
+     "25",
+     "More potent = lower EC50"
+    ],
+    [
+     "Potency example",
+     "100",
+     "400",
+     "Less potent = higher EC50"
+    ],
+    [
+     "S14 semi-log: reference (red)",
+     "100",
+     "10",
+     "Baseline curve"
+    ],
+    [
+     "S14 semi-log: blue",
+     "150",
+     "10",
+     "More efficacious = higher Emax"
+    ],
+    [
+     "S14 semi-log: orange",
+     "150",
+     "2.5",
+     "More potent (lower EC50) and more efficacious"
+    ],
+    [
+     "S14 semi-log: green",
+     "50",
+     "10",
+     "Less efficacious = lower Emax"
+    ],
+    [
+     "S14 semi-log: purple",
+     "50",
+     "40",
+     "Less potent = higher EC50 (vs green)"
+    ]
+   ],
+   "hide": [
+    3
+   ]
+  },
+  {
+   "title": "Agonist types",
+   "slide": "S18–S19",
+   "note": "Definitions from S18; drug examples from S19.",
+   "headers": [
+    "Type",
+    "Definition",
+    "Example (S19)"
+   ],
+   "rows": [
+    [
+     "Full agonist",
+     "Activates maximal response equal to endogenous ligand",
+     "Morphine (slide lists it as 'Agonist'; mu-opioid receptor)"
+    ],
+    [
+     "Partial agonist",
+     "Activates LESS than maximal response; can antagonize more efficacious agonists",
+     "Buprenorphine (mu-opioid receptor)"
+    ],
+    [
+     "Super agonist",
+     "Response GREATER than endogenous full agonist",
+     "Goserelin (LHRH receptor; downregulates it)"
+    ],
+    [
+     "Inverse agonist",
+     "Opposite effect of an agonist; needs receptor basal activity",
+     "Ro15-4513 (GABA receptor; counteracts alcohol poisoning)"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Antagonist types",
+   "slide": "S17, S20–S21",
+   "note": "Lock-and-key analogy from S17.",
+   "headers": [
+    "Type",
+    "Binding site",
+    "Lock-and-key",
+    "Curve effect",
+    "Example"
+   ],
+   "rows": [
+    [
+     "Competitive",
+     "Agonist binding site",
+     "Key blank: fits, does not turn, blocks real key",
+     "Raises EC50; overcome by more agonist",
+     "Naloxone (opioid receptor)"
+    ],
+    [
+     "Non-competitive",
+     "Allosteric site, away from agonist site",
+     "Car boot: car cannot go, key or not",
+     "Lowers Emax",
+     "Ketamine (NMDA receptor)"
+    ]
+   ],
+   "hide": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "title": "Off rates (koff) and residence times",
+   "slide": "S22",
+   "note": "Numbers are on the slide; reading only.",
+   "headers": [
+    "Ligand",
+    "Residence time",
+    "koff"
+   ],
+   "rows": [
+    [
+     "Acetylcholine",
+     "Low / sub-millisecond",
+     "~1000/s"
+    ],
+    [
+     "Morphine (mu-opioid receptor)",
+     "Low-minute range",
+     "~0.01/s"
+    ],
+    [
+     "Antibodies",
+     "Minutes to months",
+     "~0.001/s – 0.000000001/s"
+    ],
+    [
+     "Practically irreversible acetylcholine receptor inhibitor",
+     "Seconds to minutes",
+     "~1/s – 0.01/s"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "In a liver cell, very-low-concentration epinephrine signals through the stimulatory G protein (Gs) cascade to release glucose-1-phosphate. Per the slide, the total amplification is about:",
+   "ok": "~100,000,000-fold",
+   "bad": [
+    "~1,000,000-fold",
+    "~10,000-fold",
+    "~1,000,000,000-fold"
+   ],
+   "why": "S6 labels the whole cascade ~100,000,000-fold amplification.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "Compared with a direct-effect signal (1:1 ratio), second messengers allow which three things?",
+   "ok": "Amplification, integration, and modulation",
+   "bad": [
+    "Amplification, desensitization, and tolerance",
+    "Integration, internalization, and inhibition",
+    "Modulation, phosphorylation, and degradation"
+   ],
+   "why": "S4–S5: second messengers allow multiplication (amplification), integration and modulation of the signal.",
+   "cite": "S4–S5",
+   "sure": true
+  },
+  {
+   "stem": "In the liver stimulatory G protein (Gs) cascade, which enzyme directly activates glycogen phosphorylase?",
+   "ok": "Phosphorylase kinase",
+   "bad": [
+    "Protein kinase A (PKA)",
+    "Adenylyl cyclase",
+    "Stimulatory G protein (Gs)"
+   ],
+   "why": "S6: protein kinase A (PKA) → phosphorylase kinase → glycogen phosphorylase → glucose-1-phosphate.",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "A receptor stays on the cell surface but is phosphorylated by a kinase and bound by arrestin, giving much less effect for the same signal. Which desensitization method is this?",
+   "ok": "Disabled signaling",
+   "bad": [
+    "Membrane cycling",
+    "Reduced expression",
+    "Competitive antagonism"
+   ],
+   "why": "S8: disabled signaling = kinase phosphorylation + arrestin binding at the surface; membrane cycling internalizes the receptor.",
+   "cite": "S8",
+   "sure": true
+  },
+  {
+   "stem": "An asthmatic cat on a long-acting beta-2 adrenergic agonist shows a falling bronchodilator response over several months. Per the slide's terms, this long-term loss is called:",
+   "ok": "Tolerance",
+   "bad": [
+    "Desensitization",
+    "Partial agonism",
+    "Inverse agonism"
+   ],
+   "why": "S7: short term (milliseconds–minutes) = desensitization; long term (days–years) = tolerance.",
+   "cite": "S7",
+   "sure": true
+  },
+  {
+   "stem": "On a Michaelis-Menten dose-response curve, efficacy and potency are described by which parameters?",
+   "ok": "Efficacy by Emax; potency by EC50",
+   "bad": [
+    "Efficacy by EC50; potency by Emax",
+    "Efficacy by koff; potency by Emax",
+    "Efficacy by Emax; potency by koff"
+   ],
+   "why": "S10, S12–S13: efficacy = maximal effect (Emax); potency = EC50.",
+   "cite": "S12–S13",
+   "sure": true
+  },
+  {
+   "stem": "Drug A has Emax 100 and EC50 100. Drug B has Emax 100 and EC50 25. Which statement is correct?",
+   "ok": "Drug B is more potent and equally efficacious",
+   "bad": [
+    "Drug B is more efficacious and equally potent",
+    "Drug B is less potent and equally efficacious",
+    "Drug B is less efficacious and more potent"
+   ],
+   "why": "S13: same Emax, lower EC50 = more potent.",
+   "cite": "S13",
+   "sure": true
+  },
+  {
+   "stem": "Drug A has Emax 100 and EC50 100. Drug C has Emax 150 and EC50 100. Which statement is correct?",
+   "ok": "Drug C is more efficacious and equally potent",
+   "bad": [
+    "Drug C is more potent and equally efficacious",
+    "Drug C is less efficacious and equally potent",
+    "Drug C is more potent and less efficacious"
+   ],
+   "why": "S12: same EC50, higher Emax = more efficacious.",
+   "cite": "S12",
+   "sure": true
+  },
+  {
+   "stem": "A dog receiving high-dose morphine is given buprenorphine. Based on the slide, what happens to the mu-opioid receptor response?",
+   "ok": "It falls; buprenorphine acts as an antagonist",
+   "bad": [
+    "It rises; buprenorphine acts as a super agonist",
+    "It reverses; buprenorphine acts as an inverse agonist",
+    "It is unchanged; they bind different sites"
+   ],
+   "why": "S19: buprenorphine is a partial agonist; partial agonists can act as antagonists against more efficacious agonists.",
+   "cite": "S19",
+   "sure": true
+  },
+  {
+   "stem": "Goserelin is used in prostate and breast cancer. At the luteinizing hormone-releasing hormone receptor (LHRHR) it acts as a:",
+   "ok": "Super agonist that downregulates the receptor",
+   "bad": [
+    "Partial agonist that blocks the receptor",
+    "Competitive antagonist that blocks the receptor",
+    "Inverse agonist that silences basal activity"
+   ],
+   "why": "S19: goserelin is an LHRHR super agonist used to downregulate LHRHR and sex hormone production.",
+   "cite": "S19",
+   "sure": true
+  },
+  {
+   "stem": "For an inverse agonist to produce a measurable effect, the receptor must have:",
+   "ok": "Basal signaling activity with no agonist bound",
+   "bad": [
+    "An allosteric site occupied by an antagonist",
+    "Phosphorylation by a kinase and arrestin bound",
+    "A covalent bond to an irreversible ligand"
+   ],
+   "why": "S18: inverse agonism is often caused by receptors that have basal signaling activity with no agonist.",
+   "cite": "S18",
+   "sure": true
+  },
+  {
+   "stem": "With an antagonist present, the agonist curve shifts right, but enough agonist still reaches the full Emax. Which drug best fits this pattern?",
+   "ok": "Naloxone at the opioid receptor",
+   "bad": [
+    "Ketamine at the NMDA receptor",
+    "Buprenorphine at the opioid receptor",
+    "Ro15-4513 at the GABA receptor"
+   ],
+   "why": "S21: competitive antagonist (naloxone) raises EC50 and is overcome by more agonist. Ketamine lowers Emax; buprenorphine (partial agonist) caps the max; Ro15-4513 is an inverse agonist. NMDA = N-methyl-D-aspartate; GABA = gamma-aminobutyric acid.",
+   "cite": "S21",
+   "sure": true
+  },
+  {
+   "stem": "In the slide's lock-and-key model, a car boot that stops the car whether or not a key is in the ignition represents a:",
+   "ok": "Non-competitive antagonist",
+   "bad": [
+    "Competitive antagonist",
+    "Partial agonist",
+    "Inverse agonist"
+   ],
+   "why": "S17: car boot = non-competitive antagonist binding an allosteric site; key blank = competitive antagonist.",
+   "cite": "S17",
+   "sure": true
+  },
+  {
+   "stem": "Per the slide, raising agonist concentration overcomes a competitive antagonist by:",
+   "ok": "Competing with it for binding sites",
+   "bad": [
+    "Kicking it off its binding site",
+    "Binding the allosteric site instead",
+    "Lowering the antagonist's off rate"
+   ],
+   "why": "S21: more agonist does not kick out the antagonist but competes for binding sites; ability depends partly on antagonist k-1.",
+   "cite": "S21",
+   "sure": true
+  },
+  {
+   "stem": "An antagonist binds the agonist binding site but has essentially no measurable off rate (koff). Its dose-response effect will look like:",
+   "ok": "A non-competitive antagonist, lowering Emax",
+   "bad": [
+    "A competitive antagonist, raising EC50",
+    "A partial agonist, lowering EC50",
+    "An inverse agonist, reversing the effect"
+   ],
+   "why": "S22: an irreversible antagonist (actual or practical) looks non-competitive regardless of where it binds.",
+   "cite": "S22",
+   "sure": true
+  },
+  {
+   "stem": "Using the slide's off rates (koff), which ligand has the shortest receptor residence time?",
+   "ok": "Acetylcholine, koff ~1000/s",
+   "bad": [
+    "Morphine, koff ~0.01/s",
+    "Antibodies, koff ~0.001/s",
+    "Irreversible inhibitor, koff ~1/s"
+   ],
+   "why": "S22: acetylcholine has low/sub-millisecond residence times (koff ~1000/s), the fastest off rate listed.",
+   "cite": "S22",
+   "sure": true
+  },
+  {
+   "stem": "A dog with a pheochromocytoma is prepped for surgery. Why is phenoxybenzamine chosen to prevent norepinephrine-driven hemodynamic instability?",
+   "ok": "Irreversible non-competitive alpha blockade lowers Emax",
+   "bad": [
+    "Competitive alpha blockade raises the EC50",
+    "Partial alpha agonism lowers the EC50",
+    "Inverse alpha agonism silences basal activity"
+   ],
+   "why": "S24: a non-competitive inhibitor should reduce maximum epinephrine response no matter the dose; phenoxybenzamine is an irreversible, non-competitive alpha-adrenergic inhibitor.",
+   "cite": "S23–S24",
+   "sure": true
+  },
+  {
+   "stem": "Which of the following is NOT a method of receptor desensitization shown on the slide?",
+   "ok": "Inverse agonism",
+   "bad": [
+    "Disabled signaling",
+    "Membrane cycling",
+    "Reduced expression"
+   ],
+   "why": "S8 lists three methods: disabled signaling (kinase + arrestin), membrane cycling, reduced expression. Inverse agonism is a ligand type (S18).",
+   "cite": "S8",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "\"Michaelis-Menton\" spelling",
+   "S10 says Michaelis-Menten; S11–S14 equation boxes say \"Michaelis-Menton\" · Use the correct spelling Michaelis-Menten."
+  ],
+  [
+   "Michaelis-Menten applied to dose-response (OUTSIDE — confirm)",
+   "Slides use Effect = Emax[ligand]/(EC50+[ligand]) · Classically Michaelis-Menten is enzyme kinetics (velocity, Vmax, Michaelis constant Km); the slide adapts the same hyperbola to dose-response. Use the slide's Emax/EC50 version for the exam."
+  ],
+  [
+   "Checked against slide image: S6 step multipliers",
+   "Image confirms: activated receptor → Gs ×100; adenylyl cyclase ATP → cAMP ×100; PKA → phosphorylase kinase ×10; phosphorylase kinase → glycogen phosphorylase ×10; glycogen → glucose-1-phosphate ×100 (no multiplier on cAMP → PKA); total ~100,000,000-fold. 'Other signals' enter at PKA, phosphorylase kinase, glycogen phosphorylase."
+  ],
+  [
+   "S13 EC50 wording",
+   "S13 asks \"How much drug is needed to get to maximal effect?\" · S11 defines EC50 at ½ Emax. Use: EC50 = dose giving half-maximal effect."
+  ],
+  [
+   "S19 heading vs drug list",
+   "S19 heading says \"μ-opiod receptor acting drugs\" (typo: opioid) but goserelin acts at the LHRH receptor and Ro15-4513 at the GABA receptor · Only morphine and buprenorphine are mu-opioid drugs."
+  ],
+  [
+   "Ro15-4513: inverse agonist vs \"GABA antagonist\"",
+   "S19 lists Ro15-4513 under Inverse Agonist; its parenthetical calls it a \"GABA antagonist\" (\"antagonist\" in red on the image) · Use inverse agonist (the slide's category). OUTSIDE — confirm: it acts at the benzodiazepine site of the GABA-A receptor."
+  ],
+  [
+   "k-1 vs koff notation",
+   "S21 says \"k-1 of antagonist\"; S22 uses koff · Same quantity (dissociation/off rate). Treat as identical."
+  ],
+  [
+   "S22 practically irreversible koff overlaps morphine",
+   "Practically irreversible acetylcholine receptor inhibitor koff ~1/s–0.01/s overlaps morphine's ~0.01/s, which is reversible · \"Practically irreversible\" is relative to the endogenous ligand's speed (acetylcholine ~1000/s). Confirm with transcript."
+  ],
+  [
+   "Phenoxybenzamine binding site (OUTSIDE — confirm)",
+   "S24 calls it irreversible, non-competitive · Standard pharmacology: it alkylates (covalently binds) the alpha receptor; per S22 any irreversible antagonist behaves non-competitively regardless of site. Use slide wording."
+  ],
+  [
+   "Answered in LC30 (Wed 11/4): spare receptors",
+   "S24 asks why low-dose phenoxybenzamine shifts the curve right instead of depressing max · LC30 S26: there are spare alpha-adrenoceptors in many smooth muscles; low (tolerated) doses of the irreversible antagonist do not completely deplete the receptor reserve, so massive epinephrine can still cause hypertensive crisis. LC30 S27: the dose cannot just be raised because the therapeutic index is too small (full blockade is itself toxic)."
+  ],
+  [
+   "Checked against slide image: S9 timeline vs S7 terms",
+   "S9 figure (Pharmacol Rev 2013): G-protein signal (<~1 s) → phosphorylation by GRK → beta-arrestin-2 binding → endocytosis (~10 min–1 hr); bands read rapid desensitization (to ~10 min), short-term tolerance (~10 min–1 day), long-term tolerance (>1 day). S7 uses only two terms: desensitization (ms–min) vs tolerance (days–years) · Use S7's two-term framing; times on S9 are read approximately from the figure. Confirm with transcript."
+  ],
+  [
+   "S24 citation typo",
+   "\"Goodman & Gliman's\" should be Goodman & Gilman's · Cosmetic only."
+  ]
+ ]
+}
