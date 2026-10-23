@@ -18,6 +18,7 @@ EQ=[ # (name, equation, lecture)
  ('Red blood cell transit time','Pulmonary capillary blood volume ÷ cardiac output (in mL/s)','LC40/41'),
  ('Fick principle','O₂ uptake = cardiac output × (arterial O₂ content − venous O₂ content)','LC42'),
  ('Pulmonary vascular resistance','(Mean pulmonary artery pressure − left atrial pressure) ÷ cardiac output','LC42'),
+ ('Arterial O₂ content','(Hemoglobin × 1.34 × saturation) + (PO₂ × 0.003)','LC45'),
  ('Henry\'s law','Dissolved O₂ = PO₂ × 0.003 mL/100 mL/mmHg','LC41'),
  ('Boyle\'s law','P₁V₁ = P₂V₂','LC41'),
  ('Nitrogen washout','Lung volume = exhaled N₂ volume ÷ 0.79','LC40'),
@@ -63,6 +64,14 @@ PROBS=[ # (section, [(question, worked answer)])
  ('★ Horse: cardiac output 250 L/min, arterial 25, venous 4 mL/100 mL. O₂ uptake?','250,000 × 21/100 = 52,500 mL/min ≈ 52.5 L/min'),
  ('Rest: mean pulmonary artery 15, left atrial 5, cardiac output 5 L/min. Resistance?','(15 − 5) ÷ 5 = 2 mmHg·min/L'),
  ('Exercise: mean pulmonary artery 25, left atrial 8, cardiac output 25 L/min. Resistance?','(25 − 8) ÷ 25 ≈ 0.7 → resistance FALLS (recruitment + distension)'),
+]),
+('O₂ content · extraction (LC45)',[
+ ('★ Hemoglobin 15 g/100 mL, 97% saturated, PaO₂ 100. Arterial O₂ content?','15 × 1.34 × 0.97 = 19.5 + 0.3 = 19.8 ≈ 20 mL/100 mL'),
+ ('★ Hemoglobin 10, PaO₂ 100, 97% saturated?','10 × 1.34 × 0.97 = 13.0 + 0.3 ≈ 13.3 mL/100 mL (anemia)'),
+ ('★ Hemoglobin 18, PaO₂ 80, 93% saturated?','18 × 1.34 × 0.93 = 22.4 + 0.24 ≈ 22.7 mL/100 mL (horse in exercise: spleen ↑ hemoglobin, mild hypoxemia)'),
+ ('No hemoglobin: O₂ uptake 250 mL/min, dissolved O₂ 0.3 mL/100 mL all extracted. Cardiac output needed?','250 ÷ (0.3 × 10 per L) = 250 ÷ 3 ≈ 83 L/min'),
+ ('★ St. Bernard in heart failure: cardiac output 4 → 2 L/min, same O₂ uptake. Extraction?','Arteriovenous O₂ difference DOUBLES (e.g., 5 → 10 mL/100 mL)'),
+ ('Same dog: arterial 20 → venous 10 mL/100 mL, P50 32. Venous PO₂ and saturation?','10/20 = 50% saturated → PO₂ = P50 = 32 mmHg'),
 ]),
 ]
 eq='<div class="sec trap"><h2>📇 Equations for your note card</h2><table>'+''.join(f'<tr><td>{E(n)}</td><td>{E(e)} <span style="color:#8a6b99;font-size:13px">({l})</span></td></tr>' for n,e,l in EQ)+'</table></div>'
