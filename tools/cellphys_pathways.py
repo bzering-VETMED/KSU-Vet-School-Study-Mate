@@ -222,6 +222,15 @@ P.update({
   ('Negative feedback?', 'T4 inhibits TSH release from the pituitary (slide wording)', K)]),
 })
 E4DECKS = [('cellphys-path4.html', '🧬 LC25 steroid receptor pathways', 'Common mechanism ★ · aldosterone · thyroid', [18, 19, 20])]
+P[21] = ('★ Specificity: why only SOME cells respond', 'LC25 slide 14 (Schultz repeated "specificity" in lecture)', 'Hormone is in the blood and reaches EVERY cell', [
+  ('Requirement 1?', 'The cell must CONTAIN the receptor (no receptor = no response)', K),
+  ('Requirement 2?', 'Some cells need an ANCILLARY ENZYME to make or block the active ligand', K),
+  ('Example: blocking a ligand?', '11-beta hydroxysteroid dehydrogenase converts cortisol → cortisone (inactive) → leaves the mineralocorticoid receptor for aldosterone', K),
+  ('Example: making a stronger ligand?', '5-alpha reductase converts testosterone → dihydrotestosterone (DHT) · finasteride blocks it', K),
+  ('Another testosterone enzyme from lecture?', 'Aromatase converts testosterone → estradiol (covered verbally 10/23, confirm details in transcript)', U),
+  ('Requirement 3?', 'A specific set of GENE REGULATORY proteins (co-factors) must be present; some are cell-specific', K),
+  ('Bottom line?', 'Same hormone everywhere, but only cells with receptor + right enzymes + right co-factors respond', K)])
+E4DECKS[0] = ('cellphys-path4.html', '🧬 LC25 steroid receptor pathways', 'Common mechanism ★ · specificity ★ · aldosterone · thyroid', [18, 21, 19, 20])
 
 def build_pathways_e4(HUB, V):
     cj = _copyjs(); tiles = ''
