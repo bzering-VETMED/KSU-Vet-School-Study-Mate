@@ -162,6 +162,8 @@ SECS=[
  ('Racehorse during a run','Cardiac output ↑ ~10× → transit too fast → hypoxemic + slightly hypercapnic (blue-black arterial blood)'),
  ('Horse spleen','~14 kg, contracts in exercise → "turbocharger" ↑ O₂ content'),
  ('★ At altitude, O₂ becomes…','Diffusion-limited → arterial saturation falls as exercise ↑ cardiac output'),
+ ('★ Carbon monoxide test (tested on Quiz 9!)','Measures lung DIFFUSING CAPACITY · CO binds hemoglobin so tightly that blood PCO ≈ 0'),
+ ('Nitrous oxide test','Perfusion-limited → measures pulmonary BLOOD FLOW'),
 ]),
 ('pp4','LC42 · Pulmonary Physiology 4','Poole · pulmonary blood flow',[
  ('Pulmonary arteries carry…','Deoxygenated blood (only arteries that do) · pulmonary veins = only veins with oxygenated blood'),
