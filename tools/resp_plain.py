@@ -1,0 +1,100 @@
+# Build: Exam 3 · "Poole in plain English" — one simple-explainer page per Poole lecture + index
+# Run from repo root AFTER tools/resp_terms.py (reuses its CSS). Linked from systems-lec-exam3.html via resp_terms.py.
+import re,time,html
+E=html.escape; V=str(int(time.time()))
+E3='systems-lec-exam3.html'; IDX='systems-lec3-plain.html'
+css=re.search(r'<style>(.*?)</style>',open('systems-lec3-pp3-terms.html').read(),re.S).group(1)
+css+=('.one{background:#fff;border:2px solid var(--p);border-radius:14px;padding:10px 12px;margin:12px 0;font-size:17px;font-weight:700;color:var(--ink)}'
+      '.pic{background:#F5ECFD;border-radius:14px;padding:10px 12px;margin:12px 0}.pic b{color:var(--v)}'
+      '.sec ul{margin:4px 0;padding-left:20px}.sec li{margin:6px 0;line-height:1.45}'
+      '.lt{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-left:6px solid var(--p);border-radius:14px;padding:12px 14px;margin:12px 0;color:var(--v)}.lt b{display:block;font-size:18px}.lt span{font-size:14px;color:#6b4c7d}')
+
+# slug, title, one-liner, picture-it, [plain points], [(if he asks, say)]
+L=[
+('pp1','LC39 · Physiology 1 · Structure',
+ 'The lung is built to move oxygen in and CO₂ out, and its whole design is about making that easy: huge surface, paper-thin wall.',
+ 'Picture a tennis court of tissue folded into your chest, with blood spread over it in a sheet thinner than a soap bubble.',
+ ['<b>Why we breathe:</b> mainly to get rid of CO₂ and keep blood pH ~7.4. Getting O₂ in matters too, but CO₂ is what the body controls tightly (arterial PCO₂ ~40).',
+  '<b>Fick\'s law in plain words:</b> more gas crosses when the surface is BIG, the wall is THIN, and the pressure difference is LARGE. Every lung disease breaks one of these.',
+  '<b>Gases go from high pressure to low pressure.</b> No pumps. Ever.',
+  '<b>Airways = two zones:</b> the pipes (trachea → bronchioles) just carry air (dead space). Gas exchange only happens deep in the lung (respiratory zone).',
+  '<b>Big pipes, small total area:</b> one trachea vs millions of tiny airways. So the trachea and big bronchi are where most of the resistance is. A blockage there is noticed fast; a blockage deep in the lung can hide.',
+  '<b>The lung barely uses O₂ from the air:</b> it only pulls out ~25%, even in exercise. That keeps alveolar O₂ high so blood can load.',
+  '<b>Birds are better:</b> air flows one way through their lungs. Mammals breathe in and out of dead-end sacs, so fresh air mixes with stale air.',
+  '<b>3 alveolar cells:</b> Type I (the thin wall), Type II (makes surfactant, repairs Type I), macrophages (cleaning crew; they won\'t eat silica or asbestos).'],
+ [('Why is the lung designed this way?','Fick: maximize area, minimize thickness'),('Where is total cross-sectional area biggest?','Respiratory zone (deep lung)'),('What do the 3 alveolar cells do?','Type I barrier · Type II surfactant + repair · macrophage cleaning')]),
+('pp2','LC40 · Physiology 2 · Volumes & ventilation',
+ 'Not every breath is useful: part of it just fills the pipes. What counts is the air that reaches the alveoli, and that is what sets your blood CO₂.',
+ 'Think of a long snorkel: each breath first refills the snorkel with your old air before any fresh air gets to you. The snorkel is dead space.',
+ ['<b>Tidal volume</b> = one normal breath. Part fills the pipes (dead space), the rest reaches alveoli (alveolar ventilation).',
+  '<b>Deep, slow breaths beat fast, shallow ones.</b> Fast shallow breathing keeps re-filling the pipes and wastes air. A panting dog is cooling off, not clearing CO₂.',
+  '<b>Bohr equation (plain):</b> the more dead space you have, the more your exhaled CO₂ gets diluted. Compare exhaled CO₂ to blood CO₂ → tells you what fraction of each breath is wasted. Cows/horses waste more (long airways).',
+  '<b>Alveolar ventilation equation (plain):</b> blood CO₂ goes UP if you breathe less or make more CO₂, and DOWN if you breathe more. Double the useful breathing → CO₂ halves.',
+  '<b>Lung volumes:</b> functional residual capacity = where you rest after a normal breath out; no muscles working. Residual volume = what\'s left after blowing out as hard as you can (never zero). Vital capacity = the most you can move in one breath.',
+  '<b>A spirometer can\'t see residual volume</b> (you can\'t blow it out) → use nitrogen washout.',
+  '<b>Red blood cell transit time:</b> how long a red cell sits in the lung capillary. At rest ~0.75 s. Exercise speeds blood up → less time. Racehorses and greyhounds go so fast they don\'t fully load O₂.',
+  '<b>Most air goes to the BASE of the lung:</b> the top alveoli are already stretched and stiff; the bottom ones are floppy and fill easily.'],
+ [('Deep vs fast breathing — which is more efficient?','Deep and slow (less dead-space waste)'),('Ventilation doubles, CO₂ production same → PaCO₂?','Halves'),('Which lung region gets the most ventilation?','The base (compliant alveoli)')]),
+('pp3','LC41 · Physiology 3 · Gas laws & diffusion',
+ 'Oxygen loses pressure at every step from the air to your cells, and it only moves because there is always a lower pressure waiting downstream.',
+ 'Water running downhill: air (159) → windpipe (149) → alveoli (100) → blood leaving lung (100) → veins (40) → mitochondria (~1–5).',
+ ['<b>Dalton:</b> the O₂ pressure = total air pressure × 21%. At altitude the 21% doesn\'t change; the total pressure drops, so O₂ pressure drops.',
+  '<b>Why alveoli have only ~100 (not 159):</b> 1) air gets moistened in the airways (water vapor takes up space) → 149; 2) it mixes with CO₂ in the alveoli; 3) you take out more O₂ than you put back CO₂ (R = 0.8). ⭐ He has asked this on exams.',
+  '<b>Alveolar gas equation:</b> just a recipe for #2 and #3: alveolar O₂ = 149 − (CO₂ ÷ 0.8) ≈ 100.',
+  '<b>Henry:</b> O₂ barely dissolves in blood (that\'s why we need hemoglobin). CO₂ dissolves ~20× better.',
+  '<b>So CO₂ needs only a tiny push</b> (46 → 40 = 6) while O₂ needs a big push (100 → 40 = 60).',
+  '<b>Boyle:</b> squeeze a gas → pressure up. Diaphragm pulls down → chest gets bigger → pressure drops below air → air rushes in.',
+  '<b>Healthy lung loads O₂ in ~0.25 s</b> out of ~0.75 s → lots of spare time.',
+  '<b>Thick barrier (fibrosis, proteinosis):</b> fine at rest, but exercise speeds blood up and there isn\'t enough time → the animal gets low O₂ when it runs → "Fluffy won\'t run."',
+  '<b>Mild lung disease → O₂ drops first, CO₂ stays normal</b> because the body breathes more to fix CO₂ (and CO₂ diffuses easily).'],
+ [('Why is alveolar PO₂ lower than room air?','Humidified (47) + diluted by CO₂ + R < 1'),('Why does a dog with a thick barrier get worse with exercise?','Faster blood → less time → can\'t equilibrate'),('What happens to O₂ at altitude?','Becomes diffusion-limited')]),
+('pp4','LC42 · Physiology 4 · Pulmonary blood flow',
+ 'The lung gets ALL the blood the heart pumps, at very low pressure, because high pressure would rip its paper-thin walls.',
+ 'A garden hose made of tissue paper: it can carry lots of water only if you keep the pressure low and open more hoses when flow goes up.',
+ ['<b>Low pressure:</b> pulmonary artery ~25/8 (mean ~15) vs body ~120/80. Proof: pulmonary arteries have thin walls and little muscle. ⭐ Why low? To protect the fragile barrier.',
+  '<b>Resistance is very low:</b> same blood flow as the body with ~1/10 the pressure drop.',
+  '<b>Exercise:</b> blood flow goes up 5×, but pressure only ~doubles because the lung OPENS closed vessels (recruitment) and WIDENS open ones (distension). Horses go up ~10× → vessels burst (exercise-induced pulmonary hemorrhage).',
+  '<b>Two kinds of vessels:</b> capillaries in alveolar walls get SQUEEZED when alveoli are full/pressurized; bigger vessels outside the alveoli get PULLED OPEN when the lung inflates.',
+  '<b>J-curve:</b> resistance is lowest at normal resting lung volume. Too empty → big vessels narrow. Too full → capillaries stretched thin. ⭐ That\'s one reason animals don\'t breathe near full lungs.',
+  '<b>Ventilator warning:</b> too much positive pressure squeezes capillaries shut → no blood → blood gases get WORSE.',
+  '<b>Hypoxic vasoconstriction:</b> a poorly ventilated spot shuts its own blood supply so blood goes where the air is (good). At altitude the WHOLE lung does it → pressure up → right heart fails → <b>brisket disease</b> in cattle. ⭐ Fix: go down or give O₂.',
+  '<b>Gravity:</b> most blood goes to the bottom of the lung (like most air). The top gets more air than blood → higher O₂ there → tuberculosis likes the top.'],
+ [('Why must pulmonary pressure stay low?','Protect the 0.3 µm barrier'),('2 ways resistance drops in exercise?','Recruitment + distension'),('Explain brisket disease','Altitude → whole-lung vasoconstriction → high pressure → right heart failure → edema')]),
+('pp5','LC43 · Physiology 5 · Causes of hypoxemia',
+ 'Low blood oxygen has 5 possible causes, and you tell them apart with two clues: the CO₂ level and what happens on 100% oxygen.',
+ 'Detective work: low O₂ is the crime; CO₂ and the 100% O₂ test are your fingerprints.',
+ ['<b>1. Low inspired O₂</b> (altitude, wrong gas settings): low O₂ makes the animal breathe harder → CO₂ goes LOW.',
+  '<b>2. Hypoventilation</b> (blocked airway, weak muscles, drugs): not breathing enough → CO₂ goes HIGH and pushes O₂ out of the alveoli. Halve breathing → CO₂ doubles (40 → 80) → alveolar O₂ ~49. ⭐ Tell 1 from 2 by CO₂.',
+  '<b>3. Diffusion limitation</b> (thick barrier): usually only shows during exercise. Measure diffusing capacity.',
+  '<b>4. Right-to-left shunt</b> (blood skips the lung: patent ductus arteriosus, septal defect, collapsed lung): giving 100% O₂ barely helps because the shunted blood never sees it. PaO₂ >500 on 100% O₂ ≈ small shunt; ~250 ≈ big shunt.',
+  '<b>5. Ventilation-perfusion mismatch</b> (air and blood going to different places; most lung disease): ALWAYS lowers O₂. Good units can\'t make up for bad ones because hemoglobin is already almost full. 100% O₂ DOES help here.',
+  '<b>Ratio extremes:</b> 0 = blood but no air (shunt) · infinity = air but no blood (dead space).',
+  '<b>How bad is the mismatch?</b> Calculate what alveolar O₂ should be (alveolar gas equation), subtract the real arterial O₂. Big gap = bad mismatch.'],
+ [('Low O₂ — inspired hypoxia or hypoventilation?','Check CO₂: low = inspired · high = hypoventilation'),('Which cause does NOT improve on 100% O₂?','Shunt'),('PaO₂ 49, PaCO₂ 48, R 0.8 → gap?','89 − 49 = 40 mmHg')]),
+('pp6','LC44 · Physiology 6 · Mechanics (part 1)',
+ 'Air flows when you make a pressure difference, and how easily it flows depends on how stretchy the lung is and how wide the airways are.',
+ 'Flow = push ÷ resistance. Like water through a hose: push harder or widen the hose → more flow.',
+ ['<b>Breathing in:</b> diaphragm contracts → chest bigger → pressure drops → air in. <b>Breathing out at rest:</b> just let go; the lung springs back. Horses are the exception (they actively exhale).',
+  '<b>Diaphragm = the main breathing muscle.</b> In a galloping horse the rib cage locks and the diaphragm works like a piston. Gut "sloshing" adds only ~5%.',
+  '<b>Compliance = stretchiness.</b> Recoil = how hard it snaps back.',
+  '<b>Emphysema = baggy lung:</b> holes in the tissue → too stretchy, weak recoil → airways collapse → hard to get air OUT. Crackles on the stethoscope.',
+  '<b>Fibrosis = stiff lung:</b> scarring → not stretchy, strong recoil → hard to get air IN. These animals are thin from all the work of breathing.',
+  '<b>3 things make the lung stretchy/springy:</b> elastin + collagen (woven like nylon stockings), surface tension, and interdependence (alveoli hold each other open).',
+  '<b>Surface tension + Laplace:</b> wet bubbles want to shrink, and SMALL bubbles shrink hardest. Surfactant (Type II cells) stops small alveoli from collapsing. Preemies without it can\'t inflate their lungs.',
+  '<b>Roaring (horse):</b> paralyzed left larynx flaps in when breathing IN. <b>Honking (toy dogs):</b> weak trachea inside the chest collapses when breathing OUT.',
+  '<b>Pneumothorax:</b> air in the pleural space → lung shrinks in, chest wall springs out.',
+  '<b>Most resistance is in the BIG airways.</b> Deep airways are many and in parallel.',
+  '<b>Blowing out from full lungs:</b> fastest at the start (strong recoil, airways held wide open). Later, flow is set by the lung itself, not by how hard you try ("effort independence").'],
+ [('What causes roaring?','Left laryngeal hemiplegia (inspiration)'),('Where do you hide a tumor?','Deep in the lung, not a big airway'),('Emphysema vs fibrosis?','Emphysema: baggy, air won\'t come OUT · fibrosis: stiff, air won\'t go IN')]),
+]
+links=''
+for slug,title,one,pic,pts,qa in L:
+    fn=f'systems-lec3-{slug}-plain.html'
+    body=(f'<div class="one">💡 {one}</div><div class="pic"><b>🖼️ Picture it:</b> {E(pic)}</div>'
+          '<div class="sec"><h2>The plain-English version</h2><ul>'+''.join(f'<li>{p}</li>' for p in pts)+'</ul></div>'
+          '<div class="sec p"><h2>🎯 If he asks… say…</h2><table>'+''.join(f'<tr><td>{E(q)}</td><td>{E(a)}</td></tr>' for q,a in qa)+'</table></div>'
+          f'<div class="key">Then go to the <a href="systems-lec3-{slug}-terms.html?v={V}">terms page</a> for the exact wording.</div>')
+    open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🗣️ {E(title)} · Plain English</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{IDX}?v={V}">← Back to Plain English</a><div class="hero"><h1>🗣️ {E(title)}</h1><p>Poole, explained simply · read this first, then the terms page</p></div>{body}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div></body></html>')
+    links+=f'<a class="lt" href="{fn}?v={V}"><b>{E(title)}</b><span>{E(one[:90])}…</span></a>'
+open(IDX,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🗣️ Poole in Plain English</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{E3}?v={V}">← Back to Exam 3</a><div class="hero"><h1>🗣️ Poole in Plain English</h1><p>Each lecture in simple words · big idea → picture → key points → likely questions</p></div>{links}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div></body></html>')
+print(IDX,len(L))
