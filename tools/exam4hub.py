@@ -27,7 +27,7 @@ tiles = ''.join(f'<a class="tile" href="{h}?v={V}"><div class="emoji">{e}</div><
 rows = ''.join(f'<tr class="{"done" if s.startswith("built") else ""}"><td>{d}</td><td><b>{n}</b></td><td>{H.escape(t)}</td><td>{p}</td><td>{s}</td></tr>' for d, n, t, p, s in LECTURES)
 page = f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>📖 Gross Anatomy I · Exam 4</title><style>{CSS}</style></head><body><div class="wrap">
 <section class="hero"><h1>📖 Gross Anatomy I · Exam 4</h1><p>Lectures 26–37 · Labs 26–36 · practical Thu 12/3, 8:00 AM · lecture exam Fri 12/4</p></section>
-<div class="nav"><a href="gross-anatomy.html?v={V}">← Back</a></div>
+<div class="nav"><a href="gross-anatomy-lecture.html?v={V}">← Back to Lecture</a></div>
 <div class="note"><b>📣 Scope notes (Canvas + syllabus)</b><ul>
 <li><b>L26 pelvic limb vessels & nerves is NOT on Exam 3</b>, not on Wednesday's Quiz 7, and excluded from Lab Exam 3 → it starts Exam 4.</li>
 <li>Exam 4 = 100 pt written + 100 pt practical; up to <b>20% review</b> of earlier material.</li>
