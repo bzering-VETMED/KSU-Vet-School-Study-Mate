@@ -62,6 +62,13 @@ for n in map(int,sys.argv[1:]):
             k,sc=kind(c)
             if k is None: continue
             cards.append(dict(src=href,name=name,cls=cls,fp=fp(c),html=str(c),items=items(answer_text(c)),nm=answer_text(c).lower(),full=c.get_text(' ').lower(),kind=k,score=sc-(15 if cls=='extra' else 0),ex=cls=='extra'))
+    # 📖 diagram-section drawings: used ONLY to fill ⭐ gaps when no photo exists (Bethany: all bold terms in one place)
+    for dsec in re.findall(r'<div class="sec diag"[^>]*>(.*?)</div>',hub,re.S):
+        for href in re.findall(r'<a href="([^"?]+)',dsec):
+            if not os.path.exists(href) or '-best' in href: continue
+            for c in BeautifulSoup(open(href).read(),'html.parser').select('section.card'):
+                if not c.select_one('.pic img'): continue
+                cards.append(dict(src=href,name='📖 diagram',cls='diag',fp=fp(c),html=str(c),items=items(answer_text(c)),nm=answer_text(c).lower(),full=c.get_text(' ').lower(),kind='draw',score=18,ex=False))
     keep=[]
     for c in sorted(cards,key=lambda c:-c['score']):
         if not any(same(c,k) for k in keep): keep.append(c)
@@ -108,7 +115,7 @@ for n in map(int,sys.argv[1:]):
     for f in os.listdir('.'):
         if re.match(rf'gross-anatomy-lab{n}-best\d+\.html$',f): os.remove(f)
     links=''; k=0
-    for label,group in (('🌐 UMN labeled photos',core),('📷 Filling the gaps · my photos + slides',gaps)):
+    for label,group in (('🌐 UMN labeled photos',core),('📷 Filling the gaps · my photos, slides + diagrams',gaps)):
         bl=[group[i:i+12] for i in range(0,len(group),12)]
         for bi,blk in enumerate(bl,1):
             k+=1; fn=f'gross-anatomy-lab{n}-best{k}.html'; nm=label+(f' {bi}' if len(bl)>1 else '')
