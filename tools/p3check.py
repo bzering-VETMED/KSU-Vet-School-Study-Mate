@@ -24,7 +24,8 @@ for n in map(int,sys.argv[1:]):
     rows=[];got=0
     for term,al,note in bold.BOLD[n]:
         w=next(((i,nm) for i,nm,t,tn in links if _norm_hit(al,t,tn)),None)
-        if w: got+=1
+        if w and any(('no photo yet · '+a) in t for i,nm,t,tn in links if i=='🧠' for a in [term.lower()]): w=('❗','no photo yet · in 🧠 Bold terms with no photo yet')   # a fact mention is not a photo
+        if w and w[0]!='❗': got+=1
         cell=f'{w[0]} {E(w[1])}' if w else '❗ no photo yet'
         if note: cell+=f' · {E(note)}'
         rows.append(f'<tr><td>{E(term)}</td><td>{cell}</td></tr>')
