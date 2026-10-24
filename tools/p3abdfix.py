@@ -27,3 +27,8 @@ for f in glob.glob('gross-anatomy-*.html'):
     h2=h2.replace('<div class="pr">❓ Name #1</div><div class="an big">#1 Renal pelvis<img','<div class="pr">❓ Name #1, #2 and #3</div><div class="an big">#1 Renal pelvis · #2 Renal cortex · #3 Renal medulla<img')
     if h2!=h: open(f,'w').write(h2); n+=1
 print('patched',n,'pages')
+# checklist: cortex + medulla now have a photo (same card as renal pelvis)
+hub='gross-anatomy-lab22-images.html'; h=open(hub).read()
+for t in ('renal cortex','medulla (kidney)'):
+    h=h.replace(f'<tr><td>{t}</td><td>🧠 Bold terms with no photo yet</td></tr>',f'<tr><td>{t}</td><td>⭐ 📷 Filling the gaps · my photos + slides</td></tr>')
+open(hub,'w').write(h); print('checklist patched')
