@@ -15,7 +15,9 @@ _src=open('tools/p3split.py').read(); exec(_src[:_src.index('for n in map')])   
 V=str(int(time.time())); E=html.escape
 def kind(card):
     t=card.get_text(' ')[:600]; q=card.select_one('.q').get_text(' ') if card.select_one('.q') else ''
-    if '✏️' in t or '📖' in t or 'lab guide' in t or 'Diagram' in t: return None,0          # drawings never count
+    if 'web photo' in t: return 'mine',54
+    if 'gap fill' in t: return 'draw',20                                                    # drawings only when no photo exists
+    if '✏️' in t or '📖' in t or 'lab guide' in t or 'Diagram' in t: return None,0          # other drawings never count
     find='No labels' in q or 'find-it' in t.lower() or 'find + point' in q.lower()
     if '🌐' in t or 'UMN' in t: return 'umn',(0 if find else 60)
     if '📷' in t: return 'mine',55
@@ -81,7 +83,7 @@ for n in map(int,sys.argv[1:]):
         if ti in covered: continue
         best=None
         for full in (False,True):
-            cand=[ci for ci,c in enumerate(cards) if c['kind'] in('mine','slide','other') and names_term(c,als,full)]
+            cand=[ci for ci,c in enumerate(cards) if c['kind'] in('mine','slide','other','draw') and names_term(c,als,full)]
             if not cand: cand=[ci for ci,c in enumerate(cards) if c['kind']=='umn' and c['score']>-10 and ci not in core and names_term(c,als,full)]
             best=max(cand,key=lambda ci:cards[ci]['score'],default=None)
             if best is not None: break
@@ -116,7 +118,7 @@ for n in map(int,sys.argv[1:]):
     if nophoto:
         k+=1; fn=f'gross-anatomy-lab{n}-best{k}.html'
         write(fn,f'Lab {n} · Bold terms with no photo yet',f'Concepts, drawings-only terms + photos still coming · {len(nophoto)} cards',nophoto,css,hubf)
-        nplink=f'<div class="sec nophoto" style="border-left:7px solid #e0a03c"><h2>🧠 Bold terms with no photo yet</h2><p>Concepts + terms with no real photo yet. Photos get added as they come in.</p><a href="{fn}?v={V}">Bold terms with no photo yet<span>{len(nophoto)} cards</span></a></div>'
+        nplink=f'<a href="{fn}?v={V}">🧠 Concepts + bold terms with no photo<span>{len(nophoto)} cards</span></a>'
     for f in os.listdir('.'):
         if re.match(rf'gross-anatomy-lab{n}-more\d+\.html$',f): os.remove(f)
     inbest=set(core+gaps); morelinks=''; mi=0; groups={}
@@ -130,8 +132,8 @@ for n in map(int,sys.argv[1:]):
             write(fn,f'Lab {n} · {label}',f'📚 More practice · not repeated in ⭐ · {len(part)} cards',part,css,hubf)
             morelinks+=f'<a href="{fn}?v={V}">{E(label)}<span>{len(part)} cards</span></a>'
     srcmark='<!--p3src:'+'|'.join(f'{cls}::{h}::{nm}' for cls,h,nm in pages if cls in ('main','more'))+'-->'
-    main=f'<div class="sec main"><h2>⭐ Bold-term labeled photos · start here</h2><p>UMN labeled photos that show your bold terms, then your photos + course slides for anything UMN doesn&#39;t show.</p>{links}</div>'+nplink
-    more=f'<div class="sec more" style="border-left:7px solid #b48ad6"><h2>📚 More practice · same bold terms</h2><p>Every bold term, in small blocks. Nothing here repeats ⭐.</p>{morelinks}{srcmark}</div>'
+    main=f'<div class="sec main"><h2>⭐ ALL bold terms · start here</h2><p>Every bold term in one place: cadaver photos first (UMN, then your photos + course slides), then drawings/web photos for the few with no cadaver photo, then concept cards.</p>{links}{nplink}</div>'
+    more=f'<div class="sec more" style="border-left:7px solid #b48ad6"><h2>📚 Supplemental · more practice</h2><p>Optional extra views of the same terms. Nothing here repeats ⭐.</p>{morelinks}{srcmark}</div>'
     hub=re.sub(r'<div class="sec nophoto".*?</div>','',hub,flags=re.S)
     mo=sec('more'); hub=hub.replace(sec('main').group(0),main,1)
     hub=hub.replace(mo.group(0),more,1) if mo else hub.replace(main,main+more,1)
