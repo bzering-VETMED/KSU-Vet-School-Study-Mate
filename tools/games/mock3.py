@@ -2,7 +2,7 @@
 Stations follow the Lab Exam 3 blueprint (questions per lab + per topic).
 ID stations use the clearest ⭐ "Bold-term labeled photos" (UMN first, then course slides / my photos),
 one numbered structure per station. Conceptual stations use the ★ rows (professor emphasis) from the
-per-lab Functions data. Lab 24 radiology (2 Qs) + Lab 25 (6 Qs) are left out until those materials exist.
+per-lab Functions data. Lab 24 radiology (2 Qs) is left out (use the radiology hub).
 Writes gross-anatomy-p3-mock.html and links it from the Practical 3 page + Practical 3 games page."""
 import sys,os,re,glob,json,random,time,html,collections
 sys.path.insert(0,'tools'); sys.path.insert(0,'tools/games')
@@ -11,7 +11,7 @@ from common import CSS,TABJS
 _src=open('tools/p3split.py').read(); exec(_src[:_src.index('for n in map')])   # norm, terms, item_bold, answer_text
 from p3labfn_data import LABS as FNL,build_rest
 V=str(int(time.time())); E=html.escape
-LABS=[16,17,18,19,21,22,23,24]
+LABS=[16,17,18,19,21,22,23,24,25]
 T={n:terms(n) for n in LABS}
 NMOCK=4
 # ---------------- blueprint: (lab, kind, count, filter, label) ----------------
@@ -23,7 +23,8 @@ BP=[(16,'ID',2,None,'ID'),(16,'C',1,None,'Conceptual'),
     (21,'ID',1,'wall','Abdominal wall nerves + vessels'),(21,'ID',1,'cord','Spermatic cord'),(21,'ID',1,'testis','Testis'),(21,'ID',1,'inguinal','Inguinal canal + openings'),
     (22,'ID',5,'organ','Abdominal organs'),(22,'ID',3,'mes','Mesenteries + ligaments'),(22,'ID',2,'kidney','Kidney features'),
     (23,'C',2,'ans23','ANS concepts'),(23,'ID',2,'artery','Arterial supply'),(23,'ID',1,'vein','Venous drainage'),
-    (24,'ID',1,'pelvart','Arterial supply to pelvic viscera'),(24,'ID',1,'penisart','Arterial supply to the penis'),(24,'ID',2,'pelvisc','Pelvic viscera'),(24,'ID',1,'pouch','Peritoneal pouches')]
+    (24,'ID',1,'pelvart','Arterial supply to pelvic viscera'),(24,'ID',1,'penisart','Arterial supply to the penis'),(24,'ID',2,'pelvisc','Pelvic viscera'),(24,'ID',1,'pouch','Peritoneal pouches'),
+    (25,'ID',3,'male','Male reproductive'),(25,'ID',3,'female','Female reproductive')]
 F={'artery':r'arter','vein':r'\bvein|\bvena','nerve':r'nerve',
    'wall':r'epigastric|pudendal|circumflex iliac|iliohypogastric|ilioinguinal|genitofemoral|cutaneous femoral|deep femoral|pudendoepigastric',
    'cord':r'ductus deferens|deferent|testicular (artery|vein|vessel)|pampiniform|cremaster|spermatic cord|mesorchium|mesoductus|vaginal tunic',
@@ -34,6 +35,8 @@ F={'artery':r'arter','vein':r'\bvein|\bvena','nerve':r'nerve',
    'pelvart':r'(vesical|vaginal|prostatic|uterine|middle rectal|internal pudendal|umbilical|ductus deferens|internal iliac|ventral perineal|caudal rectal|caudal gluteal).*arter|arter.*(vesical|ductus)',
    'penisart':r'(penis|bulb|clitoris).*arter|arter.*(penis|bulb|clitoris)',
    'pouch':r'pouch|pararectal fossa',
+   'male':r'prostat|urethr|penis|penile|prepuce|crus|corpus|tunica albuginea|ischiocavernosus|retractor penis|bulbospongiosus|bulb|ischiourethralis|glans of|bulbus glandis|pars longa|os penis|colliculus',
+   'female':r'cervi|vagina|vestibul|urethral tubercle|clitori|vulva|rima pudendi|commissure',
    'pelvisc':r'bladder|rectum|anal canal|\banus\b|urethra|prostate|sphincter|trigone|rugae|paranal|coccygeus|levator ani|rectococcygeus|cutaneous zone'}
 def nkey(n): return ' '.join(w for w in norm(re.sub(r'\(.*?\)','',n)) if w not in ('liver','lung','heart'))
 def passes(lab,flt,name):
@@ -154,7 +157,7 @@ body=f'''<div class="tabs"><button class="on" data-t="p1">⏱️ Take a mock</bu
  <div class="grid" id="mpick"></div>
  <div class="row"><label><b>Seconds per station:</b> <select id="secs"><option>45</option><option selected>60</option><option>90</option><option value="0">Untimed</option></select></label>
  <label><b>Order:</b> <select id="ord"><option value="lab" selected>Lab order (like the exam)</option><option value="mix">Shuffled</option></select></label></div>
- <p class="hint" style="margin-top:10px">⚠️ Not included yet: <b>Lab 24 radiology</b> (2 Qs) + <b>Lab 25 repro</b> (6 Qs). They get added when those materials are posted.</p></div>
+ <p class="hint" style="margin-top:10px">⚠️ Not included yet: <b>Lab 24 radiology</b> (2 Qs): practice it on the 🩻 radiology hub.</p></div>
  <div id="stage" style="display:none">
   <div class="row" style="margin-top:0"><b id="snum"></b><span id="stopic" style="color:#8a6b99;font-weight:700"></span><span class="score" id="timer" style="font-size:26px"></span></div>
   <div id="sorient" class="hint" style="margin:6px 0 0"></div>
@@ -170,7 +173,7 @@ body=f'''<div class="tabs"><button class="on" data-t="p1">⏱️ Take a mock</bu
  <div id="mstage" style="display:none"><div id="morient" class="hint"></div><div class="q" id="mq"></div><div style="background:#f7f0fb;border-radius:14px"><img id="mimg" style="display:block;max-width:100%;max-height:60vh;margin:auto;border-radius:14px"></div><div class="fb" id="mans"></div>
  <div class="row"><button class="btn hot" id="mrev">💗 Reveal</button><button class="btn" id="mgot" style="display:none">✅ Got it</button><button class="btn" id="mmiss" style="display:none">❌ Missed</button></div></div><div class="fb" id="mend"></div></div>
 <div id="p3" class="panel"><h2>📋 What each mock samples</h2><p class="hint">From the Lab Exam 3 blueprint (54 Qs, 2 pts each). ID = photo station · Conceptual = function / concept question from his ★ emphasis.</p>
- <table style="width:100%;border-collapse:collapse;font-size:15px"><tr style="background:#f3eafb"><th align="left">Lab</th><th align="left">Topic</th><th>Qs</th></tr>{BPROWS}<tr><td>Lab 24</td><td>Radiology abdomen <i>(not yet)</i></td><td>2</td></tr><tr><td>Lab 25</td><td>Male + female repro <i>(not yet)</i></td><td>6</td></tr></table></div>
+ <table style="width:100%;border-collapse:collapse;font-size:15px"><tr style="background:#f3eafb"><th align="left">Lab</th><th align="left">Topic</th><th>Qs</th></tr>{BPROWS}<tr><td>Lab 24</td><td>Radiology abdomen <i>(not yet)</i></td><td>2</td></tr></table></div>
 <div id="zoom" style="display:none;position:fixed;inset:0;background:#000d;z-index:9;padding:env(safe-area-inset-top,0px) 0 0;overflow:auto" onclick="this.style.display='none'"><img id="zimg" style="width:100%;height:auto;display:block"></div>'''
 EXTRA_CSS='''.rv{border:1px solid var(--line);border-radius:16px;padding:10px;margin:10px 0;background:#fff}.rv img{max-width:100%;max-height:260px;border-radius:12px;display:block;margin:6px 0}
 .rv .you{font-weight:800}.rv .key{background:#f4ebfb;border-radius:10px;padding:8px;margin-top:6px;font-weight:800;color:#4b1f70}.rv .fx{font-size:14px;color:#6b5579;margin-top:4px}
