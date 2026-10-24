@@ -75,6 +75,13 @@ for (x0,y0,x1,y1),a in PL:
     if a: k+=1; badge(d,(x0+x1)/2,(y0+y1)/2,k,r=30)
 pq.crop((0,30,1500,1125)).save('assets/p3web_pig_testis_q.jpg',quality=90); Image.open('tools/umn_src/scb209_l11_p6.png').convert('RGB').crop((0,30,1500,1125)).save('assets/p3web_pig_testis_a.jpg',quality=90)
 CARDS[21].insert(1,img_card_facts('Isolated testis, medial view (top) + lateral view (bottom). Name 1–3.',f'assets/p3web_pig_testis_q.jpg?v={V}','#1 Ductus deferens · #2 Testis · #3 Head of the epididymis','⚠️ FETAL PIG specimen · head = cranial end of the epididymis where it joins the testis; body runs along the testis; tail = caudal end → ductus deferens',f'assets/p3web_pig_testis_a.jpg?v={V}',[],'🌐 web photo (fetal pig) · SCB209 Lab 11 · sent by Bethany'))
+
+# Lecture 23 drawings (already OCR-erased + numbered by p3repro.py) → Lab 21 gap fill-ins, answers spelled out
+LEC=[('m10','Testis attachments, lateral view. Name each number.','Ductus deferens · Cremaster muscle · Parietal vaginal tunic · Ligament of the tail of the epididymis · Proper ligament of the testis','Proper ligament: tail of the epididymis → testis · ligament of the tail: tail → vaginal tunic + spermatic fascia (gubernaculum remnants)'),
+     ('m11','Testis + epididymis (A lateral, B medial). Name each number.','Head of the epididymis · Body of the epididymis · Tail of the epididymis · Testis · Pampiniform plexus · Testicular bursa · Cremaster muscle · Ductus deferens · Parietal vaginal tunic · Ligament of the tail of the epididymis · Proper ligament of the testis','Head = cranial end · body = along the testis · tail = caudal end, continues as the ductus deferens'),
+     ('m12','Cross section of the spermatic cord. Name each number.','Spermatic fascia · Parietal vaginal tunic · Visceral vaginal tunic · Vaginal cavity · Mesorchium · Mesoductus deferens · Testicular artery and vein · Ductus deferens · Deferent artery · Deferent vein · Cremaster muscle','Deferent artery + vein ride with the ductus deferens in the mesoductus deferens; testicular vessels sit in the mesorchium')]
+for nm,q,a,c in LEC:
+    CARDS[21].append(img_card_facts(q,f'assets/p3rep_{nm}_q.jpg?v={V}',a,c,f'assets/p3rep_{nm}_a.jpg?v={V}',[],'📖 lecture drawing · gap fill (no real photo exists) · Lecture 23 Male reproductive'))
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,cs in CARDS.items():
     fn=f'gross-anatomy-lab{n}-gapfill1.html'; hubf=f'gross-anatomy-lab{n}-images.html'
