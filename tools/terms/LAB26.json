@@ -1,0 +1,89 @@
+{
+"sections": [
+{"title": "🔴 Internal iliac → gluteal region", "items": [
+ {"q": "Internal iliac artery splits into?", "a": "Internal pudendal artery (smaller · pelvic viscera) + caudal gluteal artery (larger)", "star": true, "why": "Pre-lab video + slide 2: caudal gluteal = LARGER terminal branch"},
+ {"q": "Branch of the internal iliac to the lateral ligament of the bladder?", "a": "Umbilical artery"},
+ {"q": "First branch off the caudal gluteal, running dorsally?", "a": "Iliolumbar artery (usually before the cranial gluteal; sometimes straight off the internal iliac)", "star": true, "why": "Video + Lab 26 notes #3"},
+ {"q": "Iliolumbar artery ends where (lateral view)?", "a": "Deep surface of the cranial end of the middle gluteal muscle"},
+ {"q": "Next branch off the caudal gluteal after the iliolumbar?", "a": "Cranial gluteal artery"},
+ {"q": "Cranial gluteal artery + nerve course?", "a": "Across the cranial part of the greater ischiatic notch, between the middle + deep gluteal muscles, toward the tensor fasciae latae"},
+ {"q": "Caudal gluteal artery passes which side of the sacrotuberous ligament?", "a": "Lateral to its attachment on the tuber ischii", "star": true, "why": "Lab 26 notes #4"},
+ {"q": "Small nerve just MEDIAL to the sacrotuberous ligament at the tuber ischii?", "a": "Caudal cutaneous femoral nerve (may run with a small branch of the caudal gluteal artery)"},
+ {"q": "Muscles transected for the lateral (gluteal) approach?", "a": "Superficial gluteal, middle gluteal, biceps femoris"},
+ {"q": "Which limb is dissected?", "a": "The RIGHT pelvic limb", "star": true, "why": "Lab 26 notes #1 + video"}
+]},
+{"title": "🟣 External iliac → deep femoral", "items": [
+ {"q": "External iliac arteries arise from?", "a": "Abdominal aorta at the level of lumbar vertebra 6–7, caudal to the caudal mesenteric artery"},
+ {"q": "External iliac terminates as?", "a": "Femoral artery (bigger) + deep femoral artery (smaller)", "star": true, "why": "Video"},
+ {"q": "Only branch of the external iliac artery?", "a": "Deep femoral artery — arises inside the abdomen near the vascular lacuna", "star": true, "why": "Slide 14"},
+ {"q": "Short trunk off the deep femoral artery?", "a": "Pudendoepigastric trunk", "star": true, "why": "Video spent a long time on it"},
+ {"q": "Pudendoepigastric trunk splits into?", "a": "External pudendal artery + caudal epigastric artery", "star": true, "why": "Video: 'pudendo' + 'epigastric' parts"},
+ {"q": "External pudendal artery leaves the abdomen through?", "a": "Inguinal canal → superficial inguinal ring"},
+ {"q": "Caudal epigastric artery runs on?", "a": "Deep (dorsal) surface of the rectus abdominis, cranially"},
+ {"q": "If the two arteries come off separately (no trunk)?", "a": "Name them by where they go — caudal epigastric or external pudendal"},
+ {"q": "Deep femoral after the pudendoepigastric trunk is called?", "a": "Medial circumflex femoral artery", "star": true, "why": "Video + slide 15: the deep femoral CHANGES NAME"},
+ {"q": "Medial circumflex femoral course?", "a": "Out through the vascular lacuna, caudally between the quadriceps femoris + pectineus, into the adductor"},
+ {"q": "Two branches of the medial circumflex femoral?", "a": "Transverse branch + deep branch", "star": true, "why": "Video"},
+ {"q": "Deep branch of the medial circumflex femoral runs?", "a": "Distally, between the adductor + vastus medialis"},
+ {"q": "Transverse branch of the medial circumflex femoral runs?", "a": "Transversely/caudally through the adductor → ends in the semimembranosus"},
+ {"q": "Muscle origins cut to find those branches?", "a": "Gracilis + adductor (pectineus reflected too)"}
+]},
+{"title": "🟢 Femoral triangle + femoral artery", "items": [
+ {"q": "Entrance to the femoral triangle?", "a": "Vascular lacuna", "star": true, "why": "Video"},
+ {"q": "Vascular lacuna lies between?", "a": "Caudal border of the external abdominal oblique aponeurosis (inguinal ligament) + the pelvis"},
+ {"q": "Femoral triangle boundaries?", "a": "Cranial: sartorius · lateral: vastus medialis · caudal: pectineus + adductor"},
+ {"q": "Contents of the femoral triangle?", "a": "Femoral artery, femoral vein, saphenous nerve"},
+ {"q": "Femoral artery = continuation of?", "a": "External iliac artery beyond the vascular lacuna"},
+ {"q": "Small branch from the CRANIAL/lateral side of the femoral, near the top?", "a": "Superficial circumflex iliac artery", "star": true, "why": "Video: students confused it with the deep circumflex iliac"},
+ {"q": "Deep circumflex iliac artery comes from?", "a": "Abdominal aorta (deep, inside the abdomen) — runs with the lateral cutaneous femoral nerve", "star": true, "why": "Video: superficial = femoral, deep = aorta"},
+ {"q": "Larger branch at the same level as the superficial circumflex iliac?", "a": "Lateral circumflex femoral artery"},
+ {"q": "Lateral circumflex femoral passes between?", "a": "Rectus femoris + vastus medialis"},
+ {"q": "Three caudal femoral arteries (proximal → distal)?", "a": "Proximal caudal femoral · middle caudal femoral · distal caudal femoral — all off the CAUDAL aspect", "star": true, "why": "Video repeated the trio"},
+ {"q": "Proximal caudal femoral artery arises?", "a": "Caudal surface of the femoral artery, distal to the lateral circumflex femoral, mid-thigh"},
+ {"q": "Small artery from the CRANIAL aspect descending to the stifle?", "a": "Descending genicular artery"},
+ {"q": "Artery from the caudal aspect running with its namesake nerve?", "a": "Saphenous artery (with the saphenous nerve + medial saphenous vein)"},
+ {"q": "Middle caudal femoral artery dives into?", "a": "Semimembranosus (arises after the femoral passes lateral to it)"},
+ {"q": "Distal caudal femoral artery arises?", "a": "Caudal surface of the LAST centimeter of the femoral artery (large vessel)"},
+ {"q": "Muscle transected to expose the distal caudal femoral?", "a": "Medial head of the gastrocnemius"}
+]},
+{"title": "🔵 Saphenous vessels + veins", "items": [
+ {"q": "Saphenous artery arises?", "a": "Femoral artery, proximal to the stifle"},
+ {"q": "Saphenous artery terminates as?", "a": "Cranial branch + caudal branch"},
+ {"q": "Cranial branch of the saphenous artery ends as?", "a": "Dorsal common digital arteries (proximal metatarsus)"},
+ {"q": "Caudal branch of the saphenous artery course?", "a": "Between the medial head of the gastrocnemius + tibia → tarsal tunnel → plantar paw"},
+ {"q": "Is there a LATERAL saphenous artery?", "a": "No — only a saphenous artery, on the medial side", "star": true, "why": "Video"},
+ {"q": "Vein with the saphenous artery?", "a": "Medial saphenous vein (artery = plain 'saphenous')", "star": true, "why": "Video naming trap"},
+ {"q": "Medial saphenous vein branches?", "a": "Cranial + caudal branches (tributaries) — travel with the cranial + caudal branches of the saphenous artery"},
+ {"q": "Lateral saphenous vein travels with an artery?", "a": "No — it does not satellite an artery"},
+ {"q": "Lateral saphenous vein is formed by?", "a": "Cranial branch + caudal branch"},
+ {"q": "Most common venipuncture site, DOG pelvic limb?", "a": "Cranial branch of the lateral saphenous vein", "star": true, "why": "Said twice in the video + slide 44"},
+ {"q": "Most common venipuncture site, CAT pelvic limb?", "a": "Medial saphenous vein", "star": true, "why": "Slide 42"},
+ {"q": "Look-alike next to the caudal branch of the lateral saphenous vein?", "a": "Small distally running vein caudal to it — can be sizeable", "star": false},
+ {"q": "Nerve biopsied near the lateral saphenous vein?", "a": "Caudal cutaneous sural nerve (sensory + sympathetic + some motor axons, no obvious deficit)", "star": true, "why": "Lab 26 notes #8"}
+]},
+{"title": "🟠 Popliteal → cranial tibial", "items": [
+ {"q": "Popliteal artery begins where?", "a": "Femoral artery continues as the popliteal after the distal caudal femoral comes off", "star": true, "why": "Lab 26 notes #9 + video"},
+ {"q": "Popliteal artery course?", "a": "Between the two heads of the gastrocnemius → over the flexor surface of the stifle → popliteal notch of the tibia (deep to the popliteus muscle)"},
+ {"q": "Muscle you transect to follow the popliteal artery?", "a": "Popliteus"},
+ {"q": "Popliteal artery terminates as?", "a": "Cranial tibial artery (large, main continuation) + caudal tibial artery (tiny)", "star": true, "why": "Video + notes #5"},
+ {"q": "Which tibial artery won't you find?", "a": "Caudal tibial artery (2–3 tiny branches into the popliteus)"},
+ {"q": "Cranial tibial artery passes between?", "a": "Tibia + fibula (interosseous space) → lateral crus"},
+ {"q": "Cranial tibial artery lies between which muscles?", "a": "Cranial tibial muscle + long digital extensor", "star": true, "why": "Video + slide 58"},
+ {"q": "Third muscle in that group (lateral)?", "a": "Fibularis (peroneus) longus"},
+ {"q": "Nerve that runs with the cranial tibial artery distally?", "a": "Deep branch of the common peroneal (fibular) nerve"},
+ {"q": "Nerve to watch for when reflecting the crural fascia?", "a": "Superficial branch of the common peroneal (fibular) nerve", "star": true, "why": "Video: he cut some by accident"}
+]}
+],
+"traps": [
+ "SAPHENOUS ARTERY is plain 'saphenous' — the vein with it is the MEDIAL saphenous vein. There is NO lateral saphenous artery.",
+ "SUPERFICIAL circumflex iliac = branch of the FEMORAL. DEEP circumflex iliac = branch of the AORTA (Lab 23).",
+ "Deep femoral artery → gives the pudendoepigastric trunk → then is renamed MEDIAL circumflex femoral. LATERAL circumflex femoral comes off the FEMORAL artery.",
+ "Caudal gluteal = LARGER terminal branch of the internal iliac; internal pudendal = smaller.",
+ "Venipuncture: DOG = cranial branch of the LATERAL saphenous vein · CAT = MEDIAL saphenous vein. Don't flip them.",
+ "Proximal, middle + distal caudal femoral arteries all leave the CAUDAL side; the descending genicular leaves the CRANIAL side.",
+ "Popliteal ARTERY runs deep to the popliteUS MUSCLE (the transcript says 'popliteal muscle').",
+ "Cranial tibial artery runs between the cranial tibial MUSCLE and the long digital extensor — artery and muscle share a name.",
+ "Peroneal = fibular (same nerve; the lab guide says peroneal, the video says fibular)."
+],
+"flags": []
+}
