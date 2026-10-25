@@ -159,6 +159,7 @@ def write_hub(lab,title,sub,secs,practical=4):
        f'<a class="back" href="gross-anatomy-practical{practical}.html?v={V}">← Back to Practical {practical}</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div>'
        f'<details class="sec chk"><summary>✅ Bold-term checklist · {got}/{len(P4BOLD[lab])} with a photo</summary><p>Same order as your bold-term list. ⭐ = start-here photos · 📚 = more practice · 🧠 = no photo yet. ❗ = waiting on a photo.</p><div class="tw"><table>{"".join(rows)}</table></div></details>')
     for cls,h2,pp,links,icon in secs:
+        if not links: h+=f'<div class="sec {cls}"><h2>{E(h2)}</h2><p>None 🎉 every bold term has a photo.</p></div>'; continue
         h+=f'<div class="sec {cls}"><h2>{E(h2)}</h2><p>{E(pp)}</p>'+''.join(f'<a href="{fn}?v={V}">{E(label)}<span>{len(cards)} cards</span></a>' for fn,label,cards in links)+'</div>'
     open(f'gross-anatomy-lab{lab}-images.html','w').write(h+'</div></body></html>')
     return got
@@ -175,7 +176,7 @@ if __name__=='__main__':
         if re.match(rf'gross-anatomy-lab{LAB}-(best|more|nophoto)\d+\.html$',f): os.remove(f)
     links_star=[];links_more=[];links_np=[]
     for k,b in enumerate(blocks(star,12),1):
-        fn=f'gross-anatomy-lab{LAB}-best{k}.html'; lab_=f'📚 Lab 26 slides {k} · {b[0]["name"]} → {b[-1]["name"]}'
+        fn=f'gross-anatomy-lab{LAB}-best{k}.html'; lab_=f'Lab 26 slides {k} · {b[0]["name"]} → {b[-1]["name"]}'
         write_deck(fn,f'Lab {LAB} · Lab slides {k}',f'⭐ Highlighted bold terms · {len(b)} cards',b,hub); links_star.append((fn,lab_,b))
     for k,b in enumerate(blocks(vn,12),1):
         fn=f'gross-anatomy-lab{LAB}-more{k}.html'; lab_=f'🔢 Numbered lecture photos {k}'

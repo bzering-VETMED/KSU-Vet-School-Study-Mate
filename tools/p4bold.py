@@ -1,4 +1,4 @@
-"""Practical 4 bold-term lists, SAME order as the professor's "Notes for Laboratory N" PDFs.
+"""Practical 4 bold-term lists, SAME order as Bethany's Canvas bold-term lists (Lab 26: Canvas "LAB 26: BOLD TERMS" page — its cranial/caudal branches belong to the SAPHENOUS artery).
 Format matches tools/bold.py: (term, [lowercase search aliases], note).  Made by Claude."""
 from bold import T
 import p3bold
@@ -12,8 +12,8 @@ P4BOLD={
     T('femoral artery'),T('superficial circumflex iliac artery'),T('lateral circumflex femoral artery'),
     T('proximal caudal femoral artery'),T('saphenous artery'),T('saphenous nerve'),
     T('medial saphenous vein'),
-    T('cranial branch (medial saphenous vein)','cranial branch of the medial saphenous vein','cranial branch of medial saphenous vein'),
-    T('caudal branch (medial saphenous vein)','caudal branch of the medial saphenous vein','caudal branch of medial saphenous vein'),
+    T('cranial branch (saphenous artery)','cranial branch of the saphenous artery','cranial branch of saphenous artery'),
+    T('caudal branch (saphenous artery)','caudal branch of the saphenous artery','caudal branch of saphenous artery'),
     T('lateral saphenous vein'),
     T('cranial branch (lateral saphenous vein)','cranial branch of the lateral saphenous vein','lateral saphenous vein cranial branch','cranial branch of lateral saphenous vein'),
     T('caudal branch (lateral saphenous vein)','caudal branch of the lateral saphenous vein','lateral saphenous vein caudal branch','caudal branch of lateral saphenous vein'),
