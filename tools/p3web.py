@@ -39,6 +39,32 @@ C[25].append(img_card_facts('Vulva (pre-lab 25 photo). Name the pinned structure
  'The labia meet above and below the rima pudendi: dorsal commissure (ventral to the pelvic symphysis level) and ventral commissure (directed caudoventrally)','',
  [('🔎 Dorsal commissure','The OPPOSITE end of the rima pudendi from the pin'),('⚠️ Note','Pin answer = your pre-lab answer; confirm when graded')],'📷 pre-lab 25 photo (dog)'))
 C[24]=[C[25][1],C[25][2],C[25][3]]   # levator ani parts, coccygeus, external anal sphincter, rectococcygeus also Lab 24 terms
+# batch 2 (Oct 26): journal Figs 2, 3, 4 (perineum + pelvic pouches)
+if os.path.exists(f'{A}/a1fe5a13-image.jpg'):
+    G2ab=crop('a1fe5a13-image.jpg',(155,42,818,592),'p3web_g2ab.jpg'); G2c=crop('a1fe5a13-image.jpg',(836,42,1154,592),'p3web_g2c.jpg')
+    G3a=crop('426d6e65-image.jpg',(175,50,677,635),'p3web_g3a.jpg'); G3b=crop('426d6e65-image.jpg',(697,50,1173,633),'p3web_g3b.jpg')
+    G4a=crop('0e0de78a-image.jpg',(349,5,905,525),'p3web_g4a.jpg'); G4b=crop('0e0de78a-image.jpg',(349,538,905,1000),'p3web_g4b.jpg')
+    g2ab=img_card_facts('Lateral view of the perineum, skin + superficial fascia (a) then deeper (b). Name 3 and 4.',G2ab,
+     '#3 Rectococcygeus muscle · #4 Anus','Others: 1 superficial perineal fascia · 2 deep perineal fascia · 5 external fascia of the pelvic diaphragm (not bold terms)','',
+     [('💪 Rectococcygeus','Smooth muscle from the rectum → ventral tail vertebrae; the retractor penis/clitoridis arises from it')],TAG)
+    g2c=img_card_facts('Caudal view of the perineum (tail at top). Name 4, 7, 8, 9.',G2c,
+     '#4 Anus · #7 External anal sphincter muscle · #8 Levator ani muscle · #9 Coccygeus muscle','#6 = internal fascia of the pelvic diaphragm (not bold)','',
+     [('🧩 Pelvic diaphragm','Levator ani (medial) + coccygeus (lateral) + their fasciae')],TAG)
+    g3a=img_card_facts('MALE perineum, caudal view (T = testes). Name 5, 6, 10, 12, 20, 21, 23, 27.',G3a,
+     '#5 Ischiourethralis muscle · #6 Ischiocavernosus muscle · #10 External anal sphincter muscle · #12 Coccygeus muscle · #20 Bulbospongiosus muscle · #21 Retractor penis muscle · #23 Rectococcygeus muscle · #27 Anus',
+     'Nerves 13–19, 22 (pudendal, caudal rectal, perineal, dorsal nerve of the penis) are not on your bold list · 24 = ischiorectal fossa · 1 superficial gluteal · 2 internal obturator · 3 semimembranosus · 4 semitendinosus · 25 gracilis','',[],TAG)
+    g3b=img_card_facts('FEMALE perineum, caudal view (VL = vulvar lips). Name 7, 10, 11, 12, 23, 27.',G3b,
+     '#7 Retractor clitoridis muscle (reflected) · #10 External anal sphincter muscle · #11 Levator ani muscle · #12 Coccygeus muscle · #23 Rectococcygeus muscle · #27 Anus · VL = labia of the vulva',
+     '8 constrictor vestibuli + 9 constrictor vulvae + 5 ischiourethralis + 6 ischiocavernosus also shown (constrictors not bold) · nerves 13–19 not bold','',[],TAG)
+    g4a=img_card_facts('MALE pelvis, right side (cranial right). Name 2, 3, 4, 5, 6, 7, 8 + R, P, U, U.B.',G4a,
+     '#2 Pararectal fossa · #3 Rectogenital pouch · #4 Vesicogenital pouch · #5 Pubovesical pouch · #6 Internal anal sphincter muscle · #7 Paranal sinus (right anal sac) · #8 External anal sphincter muscle · R Rectum · P Prostate gland · U Urethra (pelvic part) · U.B Urinary bladder',
+     'Pouch order dorsal → ventral: pararectal fossa → rectogenital → vesicogenital → pubovesical · 9 = ampulla of the rectum · L.dd / R.dd = ductus deferens','',
+     [('⚠️ Exam word','Paper says "paranal sac" → write paranal sinus; say pouch, not fossa (except pararectal fossa)')],TAG)
+    g4b=img_card_facts('FEMALE pelvis, right side (cranial right). Name 2, 3, 4, 5, 10 + R, ut.c, V, VV, U, U.B.',G4b,
+     '#2 Pararectal fossa · #3 Rectogenital pouch · #4 Vesicogenital pouch · #5 Pubovesical pouch · #10 Round ligament of the bladder · R Rectum · ut.c Cervix · V Vagina · VV Vestibule · U Urethra · U.B Urinary bladder',
+     '6 internal + 8 external anal sphincter muscles · 7 paranal sinus · 11 constrictor vulvae · 12 constrictor vestibuli (not bold)','',
+     [('🧩 Female pouches','Rectogenital = between rectum + uterus/vagina; vesicogenital = between genital tract + bladder')],TAG)
+    C[24]+= [g2ab,g2c,g4a,g4b,g3a,g3b]; C[25]+= [g3a,g3b,g4a,g4b]
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,cs in C.items():
     fn=f'gross-anatomy-lab{n}-web1.html'; hubf=f'gross-anatomy-lab{n}-images.html'
