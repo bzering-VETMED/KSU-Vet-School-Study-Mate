@@ -65,6 +65,12 @@ if os.path.exists(f'{A}/a1fe5a13-image.jpg'):
      '6 internal + 8 external anal sphincter muscles · 7 paranal sinus · 11 constrictor vulvae · 12 constrictor vestibuli (not bold)','',
      [('🧩 Female pouches','Rectogenital = between rectum + uterus/vagina; vesicogenital = between genital tract + bladder')],TAG)
     C[24]+= [g2ab,g2c,g4a,g4b,g3a,g3b]; C[25]+= [g3a,g3b,g4a,g4b]
+# batch 3: vulva drawing (labels erased + badges made earlier into assets/p3web_vulva_draw.jpg)
+if os.path.exists('assets/p3web_vulva_draw.jpg'):
+    C[25].insert(0,img_card_facts('Female dog, caudal view (drawing). Name 1–6.',f'assets/p3web_vulva_draw.jpg?v={V}',
+     '#1 Anus · #2 Dorsal commissure · #3 Rima pudendi · #4 Ventral commissure · #5 Labia (of the vulva) · #6 Vulva',
+     'Drawing labels say "dorsal/ventral labial commissure" and "vulvar cleft" → exam words: dorsal commissure, ventral commissure, rima pudendi','',
+     [('🧩 Vulva','= two labia + the rima pudendi between them'),('🔝 Commissures','Dorsal = top end of the rima (toward the anus) · ventral = bottom end, points caudoventrally')],'🌐 web drawing (dog) · sent by Bethany'))
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,cs in C.items():
     fn=f'gross-anatomy-lab{n}-web1.html'; hubf=f'gross-anatomy-lab{n}-images.html'
