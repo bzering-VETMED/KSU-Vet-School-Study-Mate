@@ -77,7 +77,7 @@ document.querySelectorAll('.pic').forEach(x=>x.onclick=reveal);
 document.addEventListener('keydown',e=>{if(['ArrowRight','Enter',' '].includes(e.key)){e.preventDefault();reveal()}else if(e.key==='ArrowLeft'){e.preventDefault();back()}});
 render();'''
 
-def write(path, title, sub, cards, texts, back='gross-anatomy-lecture.html'):
+def write(path, title, sub, cards, texts, back='gross-anatomy-exam3.html'):
     hc = []
     for c in cards:
         hc.append(f'''<section class="card" data-kind="img" data-labels='{html.escape(json.dumps(c["labels"]))}'>
@@ -87,7 +87,7 @@ def write(path, title, sub, cards, texts, back='gross-anatomy-lecture.html'):
         hc.append(f'''<section class="card" data-kind="text" data-labels='{html.escape(json.dumps([{"n":a} for a in ans]))}'>
 <div class="q textq">{html.escape(q)}<span class="tagline">{len(ans)} to reveal</span></div><ol class="trace big"></ol></section>''')
     page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{html.escape(title)}</title><style>{CSS}</style></head><body><div class="wrap">
-<a class="back" href="{back}?v={V}">← Back to Lecture</a>
+<a class="back" href="{back}?v={V}">← Back to {"Exam 3" if back == "gross-anatomy-exam3.html" else "Lecture"}</a>
 <div class="hero"><h1>{html.escape(title)}</h1><p>{html.escape(sub)}</p></div>
 <div class="bar"><button id="skipb">⏮ Prev card</button><button id="prev">◀ Prev</button><button class="hot" id="reveal">Reveal next</button><button id="next">Next ▶</button><button id="skip">⏭ Next card</button><button id="all">👀 Show all</button><button id="hide">🙈 Hide all</button><button id="zoom">🔍 Zoom</button><span class="count" id="count"></span></div>
 {"".join(hc)}

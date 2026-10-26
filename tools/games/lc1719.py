@@ -62,5 +62,5 @@ function game(k){const g=D[k];let miss=store(k),only=false,deck=[],cur=null,ok=0
  $('#'+k+'-next').onclick=next;$('#'+k+'-miss').onclick=e=>{only=!only;e.target.classList.toggle('hot',only);deck=[];next()};
  $('#'+k+'-clear').onclick=()=>{miss={};save(k,miss);deck=[];next()};build();next()}
 tabs();['muscle','div','func'].forEach(game);document.addEventListener('keydown',e=>{if(e.key==='Enter'){const p=document.querySelector('.panel.on');if(p)p.querySelector('.btn.hot').click()}});'''
-open('gross-anatomy-lc17-19-games.html','w').write(common.page('🎮 L17–19 Games','Lecture games · nerve functions, sympathetic vs. parasympathetic, functional types · 🔁 misses come back until you get them right twice',body,js,back=f'gross-anatomy-lecture.html?v={V}'))
+open('gross-anatomy-lc17-19-games.html','w').write(common.page('🎮 L17–19 Games','Lecture games · nerve functions, sympathetic vs. parasympathetic, functional types · 🔁 misses come back until you get them right twice',body,js,back=f'gross-anatomy-exam3.html?v={V}'))
 print('ok', len(MUSCLE), len(DIV), len(FUNC))

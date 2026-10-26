@@ -45,7 +45,7 @@ PAGES = [("L17", "gross-anatomy-lc17-cards.html", "L17 Terms · Nervous System 1
          ("PATTERNS", "gross-anatomy-patterns.html", "Memory Patterns · Exam 3"),
          ("L26", "gross-anatomy-lc26-cards.html", "L26 Terms · Pelvic Limb Vessels & Nerves (slides · lecture Monday)", "gross-anatomy-exam4.html")]
 
-def build(key, out, title, V, back="gross-anatomy-lecture.html"):
+def build(key, out, title, V, back="gross-anatomy-exam3.html"):
     d = json.load(open(os.path.join(HERE, "terms", key + ".json")))
     n = sum(len(s["items"]) for s in d["sections"]); ns = sum(1 for s in d["sections"] for i in s["items"] if i.get("star"))
     body = ""
@@ -59,7 +59,7 @@ def build(key, out, title, V, back="gross-anatomy-lecture.html"):
     traps = "".join(f"<li>{H.escape(t)}</li>" for t in d.get("traps", []))
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{H.escape(title)}</title><style>{CSS}</style></head><body><div class="wrap">'
-            f'<a class="back" href="{back}?v={V}">← Back to {"Lecture" if back == "gross-anatomy-lecture.html" else "Exam 4"}</a>'
+            f'<a class="back" href="{back}?v={V}">← Back to {"Exam 3" if back == "gross-anatomy-exam3.html" else "Exam 4"}</a>'
             f'<div class="hero"><h1>⚡ {H.escape(title)}</h1><p>Say it, then tap the pink box · {n} terms · ★ {ns} emphasized by the professor</p></div>'
             f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="shuf">🔀 Shuffle</button>'
             f'<button id="topic" hidden>📚 By topic</button><button id="staronly">★ Only</button><button id="copy">📋 Copy misses</button><span class="n" id="n"></span></div>'

@@ -338,6 +338,6 @@ $('#copy').onclick=()=>{const txt=misses().map((a,n)=>(n+1)+'. ['+LECS[a.c.d.l]+
 document.addEventListener('keydown',e=>{if(!$('#quiz').classList.contains('on'))return;if(/^[1-4a-dA-D]$/.test(e.key)){const k=/\d/.test(e.key)?+e.key-1:'abcd'.indexOf(e.key.toLowerCase());pick(k)}else if(e.key==='Enter')$('#next').click()});'''
 
 out = common.page('📝 Exam 3 Practice Exam', 'Gross Anatomy Lecture Exam 3 · 53 blueprint-weighted multiple-choice questions · tap an option for instant feedback',
-                  body, js, back=f'gross-anatomy-lecture.html?v={V}')
+                  body, js, back=f'gross-anatomy-exam3.html?v={V}')
 open('gross-anatomy-exam3-practice.html', 'w').write(out)
 print('ok', len(DATA), dict(cnt), 'letters', dict(sorted(DIST.items())))

@@ -331,7 +331,7 @@ def review(title, sub, cards, secs):
         body += f'<div class="sec{" p" if k % 2 else ""}"><h2>{H.escape(h)}</h2><table>{rows}</table></div>'
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{H.escape(title)}</title><style>{CSS}</style></head><body><div class="wrap">'
-            f'<a class="back" href="gross-anatomy-lecture.html?v={V}">← Back to Lecture</a>'
+            f'<a class="back" href="gross-anatomy-exam3.html?v={V}">← Back to Exam 3</a>'
             f'<div class="hero"><h1>{H.escape(title)}</h1><p>{H.escape(sub)}</p></div>'
             f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="shuf">🔀 Shuffle</button><button id="topic" hidden>📚 By topic</button><span class="n" id="n"></span></div>'
             f'<div class="cols">{body}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{JS}</script></body></html>')

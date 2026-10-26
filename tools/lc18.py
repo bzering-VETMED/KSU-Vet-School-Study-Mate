@@ -60,7 +60,7 @@ cards = [
  deck.text_card2("Sympathetic loop around the axillary artery?","Ansa axillaris","Name it"),
  deck.text_card2("Sympathetic supply to the intestine: which pathway?","Splanchnic nerve pathway (synapse in a prevertebral ganglion)","Name it"),
 ]
-html = deck.page("🧠 ANS Pathways · Name It", "Lecture 18 · look at the route, name the pathway, then reveal", "".join(cards), back="gross-anatomy-lecture.html")
+html = deck.page("🧠 ANS Pathways · Name It", "Lecture 18 · look at the route, name the pathway, then reveal", "".join(cards), back="gross-anatomy-exam3.html")
 html = html.replace("← Back to Practical 2", "← Back to Lecture").replace("← Back to Practical 3", "← Back to Lecture")
 open("gross-anatomy-lc18-quiz.html", "w").write(html)
 print("ok", len(cards), "cards")
