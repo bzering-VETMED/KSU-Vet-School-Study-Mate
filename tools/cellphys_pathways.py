@@ -233,6 +233,26 @@ P[21] = ('★ Specificity: why only SOME cells respond', 'LC25 slide 14 (Schultz
   ('Requirement 3?', 'A specific set of GENE REGULATORY proteins (co-factors) must be present; some are cell-specific', K),
   ('Bottom line?', 'Same hormone everywhere, but only cells with receptor + right enzymes + right co-factors respond', K)])
 E4DECKS[0] = ('cellphys-path4.html', '🧬 LC25 steroid receptor pathways', 'Common mechanism ★ · specificity ★ · aldosterone · thyroid', [18, 21, 19, 20])
+P[22] = ('★ Gs pathway (PGE₂ → EP2)', 'LC28 slide 10 (Basel: "memorize Gs, Gi, Gq")', 'PGE₂ in the tissue fluid', [
+  ('1 · What binds what?', 'PGE₂ binds the EP2 receptor (a G protein-coupled receptor)', K),
+  ('2 · Which G protein does EP2 recruit?', 'Gs (STIMULATORY): its alpha subunit swaps GDP → GTP and becomes active', K),
+  ('3 · What does Gα,s turn ON?', 'ADENYLYL CYCLASE: converts ATP → cAMP (cyclic adenosine monophosphate)', K),
+  ('4 · Net second messenger?', 'cAMP ↑ → activates various pathways (e.g., protein kinase A)', K),
+  ('Other Gs-coupled eicosanoid receptors (S9, not to memorize)?', 'EP4, DP (PGD₂), IP (PGI₂ → endothelium, vasodilation)', U)])
+P[23] = ('★ Gi pathway (PGE₂ → EP3)', 'LC28 slide 10', 'PGE₂ in the tissue fluid (SAME ligand as Gs)', [
+  ('1 · What binds what?', 'PGE₂ binds the EP3 receptor', K),
+  ('2 · Which G protein does EP3 recruit?', 'Gi (INHIBITORY): alpha subunit swaps GDP → GTP', K),
+  ('3 · What does Gα,i do to adenylyl cyclase?', 'INHIBITS it → less ATP → cAMP', K),
+  ('4 · Net second messenger?', 'cAMP ↓ → reduces cAMP-dependent pathways', K),
+  ('Why does this matter? (Main Point, S9)', 'SAME prostaglandin, DIFFERENT receptor and G protein → different effects in different tissues (e.g., vasoconstriction vs vasodilation)', K)])
+P[24] = ('★ Gq pathway (TxA₂ → TPβ)', 'LC28 slide 11', 'Thromboxane A₂ from platelets', [
+  ('1 · What binds what?', 'TxA₂ binds the TPβ receptor', K),
+  ('2 · Which G protein?', 'Gq: alpha subunit swaps GDP → GTP', K),
+  ('3 · What does Gα,q turn ON?', 'PHOSPHOLIPASE C (PLC), NOT adenylyl cyclase', K),
+  ('4 · What does PLC make?', 'DAG (diacylglycerol, stays in the membrane) + IP₃ (inositol trisphosphate, goes into the cytosol)', K),
+  ('5 · Net result?', 'DAG/IP₃ activate various pathways → IP₃ raises Ca²⁺ (S26: platelet adhesion, smooth muscle contraction)', K),
+  ('Other Gq-coupled eicosanoid receptors (S9, not to memorize)?', 'EP1 (PGE₂), FP (PGF₂α)', U)])
+E4DECKS.append(('cellphys-path5.html', '🔥 LC28 G protein pathways ★', 'Gs ↑cAMP · Gi ↓cAMP · Gq → PLC, DAG, IP₃', [22, 23, 24]))
 
 def build_pathways_e4(HUB, V):
     cj = _copyjs(); tiles = ''

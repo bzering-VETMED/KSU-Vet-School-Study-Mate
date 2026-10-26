@@ -33,7 +33,7 @@
    "Phospholipase A2 (PLA2)",
    "First, shared enzyme: releases arachidonic acid. Blocking it (glucocorticoids via annexin A1) cuts off ALL eicosanoid branches.",
    "S6, S15",
-   false
+   true
   ],
   [
    "Prostaglandin-G/H synthase 1 (PTGS1) = cyclooxygenase-1 (COX-1)",
@@ -141,7 +141,7 @@
    "G protein-coupled receptor (GPCR)",
    "Seven-transmembrane receptor that activates a heterotrimeric G protein; the receptor type for all eicosanoids.",
    "S8",
-   false
+   true
   ],
   [
    "Main Point: different G protein couplings",
@@ -153,31 +153,31 @@
    "Gs (stimulatory G protein)",
    "Gαs activates adenylyl cyclase → ↑ cAMP. Used by EP2, EP4, DP, IP.",
    "S9, S10",
-   false
+   true
   ],
   [
    "Gi (inhibitory G protein)",
    "Gαi inhibits adenylyl cyclase → ↓ cAMP. Used by EP3, CRTH2.",
    "S9, S10",
-   false
+   true
   ],
   [
    "Gq",
    "Gαq activates phospholipase C → DAG + IP3 (↑ Ca2+). Used by EP1, TPβ, FP.",
    "S9, S11",
-   false
+   true
   ],
   [
    "Adenylyl cyclase (AC)",
    "Enzyme that converts ATP to cAMP; activated by Gαs, inhibited by Gαi.",
    "S8, S10",
-   false
+   true
   ],
   [
    "Cyclic adenosine monophosphate (cAMP)",
    "Second messenger made by adenylyl cyclase; activates protein kinase A.",
    "S8, S10, S26",
-   false
+   true
   ],
   [
    "Protein kinase A (PKA)",
@@ -189,19 +189,19 @@
    "Phospholipase C (PLC)",
    "Gαq-activated enzyme that produces DAG and IP3.",
    "S8, S11",
-   false
+   true
   ],
   [
    "Diacylglycerol (DAG)",
    "PLC product and second messenger (slide typo: diacylglyerol).",
    "S8, S11",
-   false
+   true
   ],
   [
    "Inositol trisphosphate (IP3)",
    "PLC product that raises cytosolic Ca2+ (slide writes triphosphate).",
    "S8, S11, S26",
-   false
+   true
   ],
   [
    "EP1",
@@ -213,13 +213,13 @@
    "EP2",
    "PGE2 receptor coupled to Gs (↑ cAMP).",
    "S9, S10",
-   false
+   true
   ],
   [
    "EP3",
    "PGE2 receptor coupled to Gi/G12 (↓ cAMP).",
    "S9, S10",
-   false
+   true
   ],
   [
    "EP4",
@@ -237,7 +237,7 @@
    "TPα / TPβ",
    "Thromboxane A2 receptors; both Gq (+G13, Gh). TPα also Gs (↑ cAMP); TPβ also Gi (↓ cAMP).",
    "S9, S11",
-   false
+   true
   ],
   [
    "DP / CRTH2",
@@ -373,6 +373,8 @@
   ]
  ],
  "traps": [
+  "<b>Basel: MEMORIZE Gs, Gi, Gq.</b> Gs = adenylyl cyclase ON → cAMP <b>↑</b> · Gi = adenylyl cyclase OFF → cAMP <b>↓</b> · Gq = <b>phospholipase C</b> → DAG + IP₃ (no cAMP)",
+  "Same PGE₂ → <b>EP2 = Gs</b> (↑cAMP) but <b>EP3 = Gi</b> (↓cAMP). TxA₂ → <b>TPβ = Gq</b>. Don't swap EP2/EP3.",
   "<b>COX-1 vs COX-2 home tissues (S7 box colors):</b> gastric mucosa and platelets (TxA2) = <b>COX-1</b>; joints/soft tissue, colon cancer, endothelium (PGI2), kidney, uterus = <b>COX-2</b>; airways = <b>5-LOX</b>. S28 draws kidney as <b>PTGS1/2</b>. Do not flip platelets and endothelium.",
   "<b>TxA2 vs PGI2:</b> TxA2 (platelets) = aggregation + <b>vasoconstriction</b> via Gq; PGI2 (endothelium) = platelet resting + <b>vasodilation</b> via Gs/cAMP. Opposites.",
   "<b>Where each drug hits:</b> glucocorticoid → <b>phospholipase A2</b> (via annexin A1, blocks ALL branches incl. leukotrienes); NSAID → COX-1 + COX-2; coxib → COX-2 only. None of the three block 5-LOX directly.",

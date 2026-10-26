@@ -123,6 +123,8 @@ def build_exam4(HUB, V):
     tiles += build_pathways_e4(HUB, V)
     from cellphys_e4_slides import build_slide_pages
     tiles += build_slide_pages(HUB, V)
+    from cellphys_e4_slides import build_inflam
+    tiles += build_inflam(HUB, V)
     rep = []
     for L in lecs:
         tf, tn, st = build_terms(L, tcss, tjs, HUB, V)

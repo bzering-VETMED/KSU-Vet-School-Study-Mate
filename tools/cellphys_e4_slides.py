@@ -81,3 +81,40 @@ def build_slide_pages(HUB, V):
     print('slide pages', [fn])
     return (f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🔥</div><h2>LC28 Eicosanoid Functions (S7)</h2>'
             f'<p>Slide grid kept · tap to reveal · hide eicosanoids, functions, enzymes or tissues</p></a>')
+
+# ---- LC28 S13 "Eicosanoids and Inflammation": 8 effects around the center + 4 cardinal signs
+INF = [['Neutrophil Recruitment and Activation', 'Hyperalgesia', 'Enhanced Epithelial Barrier Function'],
+       ['Eosinophil Recruitment and Activation', None, 'Platelet Aggregation'],
+       ['Mast Cell Maturation', 'Vasodilation and Leakage', 'Smooth Muscle Contraction']]
+SIGNS = [('Rubor', 'Redness', 'due to vasodilation'), ('Tumor', 'Swelling', 'due to vascular permeability'),
+         ('Calor', '↑ Temperature', 'due to activation of leukocytes (cytokines)'), ('Dolor', 'Pain', 'due to increased nociception')]
+ICSS = ('.ig{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}.ic{border:2px solid #c9b3dc;border-radius:12px;background:#fff;padding:10px 6px;text-align:center;min-height:74px;display:flex;align-items:center;justify-content:center;font-size:15px}'
+        '.ic.mid{border:3px solid #6a3392;flex-direction:column;font-size:13px}.ic.mid b{font-size:19px;color:#4b1f70}.ic.mid i{display:block;line-height:1.35}'
+        '.cs{display:grid;grid-template-columns:110px 1fr;gap:6px 10px;align-items:center;margin:8px 0}.cs .lat{font-weight:900;font-size:18px;color:#4b1f70}.cs .r{text-align:left;background:#fff;border:2px solid #c9b3dc}'
+        'h2.s{font-size:18px;color:#65328c;margin:16px 0 4px}@media(max-width:700px){.ic{font-size:12.5px;min-height:64px;padding:6px 3px}.ic.mid b{font-size:15px}.ic.mid{font-size:11px}}')
+IJS = JS.replace("m==='ei'?k==='ei': m==='fx'?k==='fx': m==='enz'?(k==='enz'||k==='ei'||k==='fx'): m==='tis'?k==='tis':false", "m==='ei'?k==='ei': m==='fx'?k==='fx': m==='tis'?k==='tis':false")
+
+def build_inflam(HUB, V):
+    cells = ''
+    for row in INF:
+        for c in row:
+            cells += ('<div class="ic mid"><b>Eicosanoids</b><i>Prostaglandins<br>Prostacyclins<br>Thromboxanes<br>Leukotrienes</i></div>' if c is None
+                      else f'<div class="ic"><span class="r" data-k="ei">{E(c)}</span></div>')
+    signs = ''.join(f'<div class="lat"><span class="r" data-k="tis">{a}</span></div><div><span class="r" data-k="fx"><b>{E(b)}</b> {E(c)}</span></div>' for a, b, c in SIGNS)
+    bar = ('<div class="bar"><button data-m="ans">🙈 Answers</button><button data-m="ei">🕸️ 8 effects</button><button data-m="fx">🔥 Sign meanings</button>'
+           '<button data-m="tis">🔁 Latin names</button><button data-m="none">👀 Show all</button><span class="n" id="n"></span></div>')
+    trap = ('<div class="trap"><h2>⚠️ Precision traps</h2><ul>'
+            '<li><b>Rubor</b> = redness (vasoDILATION) · <b>Tumor</b> = swelling (vascular PERMEABILITY), not a cancer here.</li>'
+            '<li><b>Calor</b> = heat from leukocyte activation (<b>cytokines</b>) · <b>Dolor</b> = pain from ↑ <b>nociception</b> (hyperalgesia).</li>'
+            '<li>Slide says <b>FOUR</b> cardinal signs (textbooks add a 5th, loss of function, outside).</li>'
+            '<li>Not every arrow is "bad": eicosanoids also <b>enhance epithelial barrier function</b>.</li></ul></div>')
+    body = (f'<a class="back" href="{HUB}?v={V}">← Back to Cell Physiology</a>'
+            '<div class="hero"><h1>🔥 LC28 · Eicosanoids and Inflammation (S13)</h1><p>Slide layout kept · say it, then tap</p></div>'
+            f'{bar}<h2 class="s">8 things eicosanoids do</h2><div class="ig">{cells}</div>'
+            f'<h2 class="s">Eicosanoids mediate all four cardinal signs of inflammation</h2><div class="cs">{signs}</div>{trap}<div class="foot">{FOOT}</div>')
+    fn = 'cellphys-lc28-inflammation.html'
+    open(fn, 'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+                        f'<title>🔥 LC28 Inflammation</title><style>{CSS}{ICSS}</style></head><body><div class="wrap">{body}</div><script>{IJS}</script></body></html>')
+    print('slide pages', [fn])
+    return (f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🌡️</div><h2>LC28 Eicosanoids and Inflammation (S13)</h2>'
+            f'<p>8 effects + rubor, tumor, calor, dolor · tap to reveal</p></a>')
