@@ -121,6 +121,8 @@ def build_exam4(HUB, V):
     tiles = head('📅 Exam 4 · Fri 11/13 · 8:00 AM · 61.5 pts · LC25–LC33' + (f' · coming: {", ".join(pend)}' if pend else ''))
     from cellphys_pathways import build_pathways_e4
     tiles += build_pathways_e4(HUB, V)
+    from cellphys_e4_slides import build_slide_pages
+    tiles += build_slide_pages(HUB, V)
     rep = []
     for L in lecs:
         tf, tn, st = build_terms(L, tcss, tjs, HUB, V)
