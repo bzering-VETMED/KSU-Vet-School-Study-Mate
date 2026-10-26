@@ -1,5 +1,6 @@
 {
  "traps": [
+  "✅ CORRECTED in lecture (10/26): the S1–S3 nerve at the sacral end of slide 21 is the PUDENDAL n., not 'superficial fibular' (slide typo). Superficial fibular = L6–L7, off the common fibular.",
   "Deep FEMORAL artery comes off the EXTERNAL ILIAC (before the vascular lacuna) — not off the femoral artery (slide 5).",
   "Pudendoepigastric trunk and medial circumflex femoral = branches of the DEEP FEMORAL. Lateral circumflex femoral = branch of the FEMORAL.",
   "Popliteal a. continues mainly as the CRANIAL tibial a.; the caudal tibial a. is the small one (slide 6).",
@@ -12,7 +13,6 @@
   "Lumbosacral plexus = VENTRAL branches of L3–S3 (dog).",
   "Common peroneal = common fibular (old vs new name). Superficial/deep fibular = superficial/deep peroneal.",
   "Caudal gluteal n. is L7 (S1, 2) and mainly the SUPERFICIAL gluteal; cranial gluteal n. (L6, 7, S1) = middle + deep gluteal + tensor fasciae latae.",
-  "⚠️ FLAG — slide 21 labels TWO nerves 'superficial fibular': one S1–S3 at the sacral end and one L6–L7 off the sciatic. Slide 22 gives the pudendal as S1, 2, 3, and the S1–S3 label sits where the pudendal runs (outside knowledge). Use superficial fibular = L6–L7 branch of the common fibular for now; confirm on Monday.",
   "⚠️ FLAG — slide 5 drawing puts the saphenous a. origin at about the same level as the middle caudal femoral a.; the order between them is from the drawing only. Confirm with the transcript."
  ],
  "sections": [
@@ -330,6 +330,12 @@
      "a": "Tibial n. (L6–L7–S1) and common fibular n. → superficial + deep fibular (L6–L7)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "S1–S3 nerve at the sacral end of the plexus (slide 21)?",
+     "a": "Pudendal n. (slide mislabels it 'superficial fibular')",
+     "star": true,
+     "why": "Dr. Malreddy corrected this slide in lecture 10/26 — likely tested"
     },
     {
      "q": "Caudal cutaneous femoral n. segments?",

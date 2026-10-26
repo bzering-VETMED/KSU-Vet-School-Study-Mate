@@ -180,7 +180,7 @@ cards.append(rcard(21, 'l26_plexus', [
     ("Deep fibular n. (L6–L7)", [(1075, 1015, 1300, 1100)]),
     ("Caudal cutaneous femoral n. (S1–S2)", [(380, 540, 745, 625)]),
     ("Dorsal n. of the penis (S1–S2)", [(425, 430, 715, 515)]),
-    ("Superficial fibular n. (S1–S3) — as labeled on slide 21 ⚠️ position matches the pudendal n. (S1–S3, slide 22) — confirm", [(430, 325, 715, 410)]),
+    ("Pudendal n. (S1–S3) — ✅ corrected in lecture 10/26: slide 21 mislabels it 'superficial fibular'", [(430, 325, 715, 410)]),
 ], "Slide 21 · Lumbosacral plexus", "Segments L3 (right) to S3 (left) along the top. Name each nerve and its segments, cranial to caudal.",
     crop=(300, 214, 1830, 1210)))
 
