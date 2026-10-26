@@ -19,6 +19,7 @@ EQ=[ # (name, equation, lecture)
  ('Fick principle','O₂ uptake = cardiac output × (arterial O₂ content − venous O₂ content)','LC42'),
  ('Pulmonary vascular resistance','(Mean pulmonary artery pressure − left atrial pressure) ÷ cardiac output','LC42'),
  ('Arterial O₂ content','(Hemoglobin × 1.34 × saturation) + (PO₂ × 0.003)','LC45'),
+ ('Henderson–Hasselbalch','pH = 6.1 + log [bicarbonate ÷ (0.03 × PCO₂)]','LC46'),
  ('Henry\'s law','Dissolved O₂ = PO₂ × 0.003 mL/100 mL/mmHg','LC41'),
  ('Boyle\'s law','P₁V₁ = P₂V₂','LC41'),
  ('Nitrogen washout','Lung volume = exhaled N₂ volume ÷ 0.79','LC40'),
@@ -72,6 +73,16 @@ PROBS=[ # (section, [(question, worked answer)])
  ('No hemoglobin: O₂ uptake 250 mL/min, dissolved O₂ 0.3 mL/100 mL all extracted. Cardiac output needed?','250 ÷ (0.3 × 10 per L) = 250 ÷ 3 ≈ 83 L/min'),
  ('★ St. Bernard in heart failure: cardiac output 4 → 2 L/min, same O₂ uptake. Extraction?','Arteriovenous O₂ difference DOUBLES (e.g., 5 → 10 mL/100 mL)'),
  ('Same dog: arterial 20 → venous 10 mL/100 mL, P50 32. Venous PO₂ and saturation?','10/20 = 50% saturated → PO₂ = P50 = 32 mmHg'),
+]),
+('Acid–base · Henderson–Hasselbalch (LC46) · log 20 = 1.3',[
+ ('★ Normal: bicarbonate 24, PCO₂ 40. pH?','24 ÷ (0.03 × 40 = 1.2) = 20 → log 1.3 → 6.1 + 1.3 = 7.4'),
+ ('★ Sprint adds 10 mEq acid, NO hyperventilation (PCO₂ 40). pH?','14 ÷ 1.2 = 11.7 → log 1.07 → 7.17'),
+ ('★ Same sprint, hyperventilates to PCO₂ 30. pH?','14 ÷ 0.9 = 15.6 → log 1.19 → 7.29'),
+ ('★ Ryun: resting bicarbonate 12, +10 acid, PCO₂ 30. pH?','2 ÷ 0.9 = 2.2 → log 0.34 → 6.44'),
+ ('★ pH 7.32, PCO₂ 60, bicarbonate 30. Read it.','Acidemia · high PCO₂ = primary RESPIRATORY acidosis · ↑ bicarbonate = RENAL compensation → CHRONIC (e.g., emphysema)'),
+ ('★ pH 7.47, PCO₂ 20, bicarbonate 14. Read it.','Alkalemia · low PCO₂ = primary RESPIRATORY alkalosis · ↓ bicarbonate = RENAL compensation → CHRONIC (e.g., altitude)'),
+ ('★ pH 7.29, PCO₂ 30, bicarbonate 14. Read it.','Acidemia · low bicarbonate = primary METABOLIC acidosis · low PCO₂ = RESPIRATORY compensation → can\'t tell acute vs chronic'),
+ ('★ pH 7.48, PCO₂ 55, bicarbonate 40. Read it.','Alkalemia · high bicarbonate = primary METABOLIC alkalosis (vomiting) · high PCO₂ = RESPIRATORY compensation (hypoventilation) → can\'t tell'),
 ]),
 ]
 eq='<div class="sec trap"><h2>📇 Equations for your note card</h2><table>'+''.join(f'<tr><td>{E(n)}</td><td>{E(e)} <span style="color:#8a6b99;font-size:13px">({l})</span></td></tr>' for n,e,l in EQ)+'</table></div>'
