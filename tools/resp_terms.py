@@ -405,6 +405,9 @@ HCSS=re.search(r'<style>.*?</style>',open(E2).read(),re.S).group(0)
 def hub(fn,title,h1,sub,back,backlbl,tiles):
     open(fn,'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>{title}</title>{HCSS}</head><body><div class="wrap"><section class="hero"><h1>{h1}</h1><p>{sub}</p></section><div class="nav"><a href="{back}?v={V}">← {backlbl}</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
 # Exam 3 hub: one tile per lecture terms page
+links+=f'<a class="tile" href="systems-lec3-diagrams.html?v={V}"><div class="emoji">📈</div><h2>Key diagrams</h2><p>8 must-know Poole pictures · pink = what changed from normal</p></a>'
+links+=f'<a class="tile" href="systems-lec3-compare.html?v={V}"><div class="emoji">⚖️</div><h2>Look-alikes</h2><p>12 comparison tables · 🙈 quiz-me mode · memory hooks</p></a>'
+links+=f'<a class="tile" href="systems-lec3-equations.html?v={V}"><div class="emoji">📝</div><h2>Equation sheet</h2><p>18 equations · plain English + worked example · note-card print</p></a>'
 links+=f'<a class="tile" href="systems-lec3-calcs.html?v={V}"><div class="emoji">🧮</div><h2>Calculation practice</h2><p>Poole equations for your note card · worked answers · tap to reveal</p></a>'
 links+=f'<a class="tile" href="systems-lec3-plain.html?v={V}"><div class="emoji">🗣️</div><h2>Poole in Plain English</h2><p>Each Poole lecture explained simply · read before the terms page</p></a>'
 hub(E3,'🫁 Systems I · Lecture Exam 3','🫁 Lecture Exam 3','Respiratory · Fri 11/6, 8 AM · LC37–50 · Basel 14 pts / Poole 84 pts',HUB,'Back to Lecture',links)

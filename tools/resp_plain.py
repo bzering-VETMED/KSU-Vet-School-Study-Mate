@@ -7,6 +7,7 @@ css=re.search(r'<style>(.*?)</style>',open('systems-lec3-pp3-terms.html').read()
 css+=('.one{background:#fff;border:2px solid var(--p);border-radius:14px;padding:10px 12px;margin:12px 0;font-size:17px;font-weight:700;color:var(--ink)}'
       '.pic{background:#F5ECFD;border-radius:14px;padding:10px 12px;margin:12px 0}.pic b{color:var(--v)}'
       '.sec ul{margin:4px 0;padding-left:20px}.sec li{margin:6px 0;line-height:1.45}'
+      '.figs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.fig{background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px;margin:0}.fig img{width:100%;border-radius:8px;display:block}.fig figcaption{font-size:14px;line-height:1.35;margin-top:4px}.fig b{color:var(--p)}'
       '.lt{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-left:6px solid var(--p);border-radius:14px;padding:12px 14px;margin:12px 0;color:var(--v)}.lt b{display:block;font-size:18px}.lt span{font-size:14px;color:#6b4c7d}')
 
 # slug, title, one-liner, picture-it, [plain points], [(if he asks, say)]
@@ -32,7 +33,7 @@ L=[
   '<b>Alveolar ventilation equation (plain):</b> blood CO₂ goes UP if you breathe less or make more CO₂, and DOWN if you breathe more. Double the useful breathing → CO₂ halves.',
   '<b>Lung volumes:</b> functional residual capacity = where you rest after a normal breath out; no muscles working. Residual volume = what\'s left after blowing out as hard as you can (never zero). Vital capacity = the most you can move in one breath.',
   '<b>A spirometer can\'t see residual volume</b> (you can\'t blow it out) → use nitrogen washout.',
-  '<b>Red blood cell transit time:</b> how long a red cell sits in the lung capillary. At rest ~0.75 s. Exercise speeds blood up → less time. Racehorses and greyhounds go so fast they don\'t fully load O₂.',
+  '<b>Red blood cell transit time:</b> how long a red cell sits in the lung capillary. At rest ~0.75 s (🟠 source conflict: slide 7 and the notes calculation give 0.84 s; the diffusion notes and figure use ~0.75 s. Know both). Exercise speeds blood up → less time (0.28 s). Racehorses and greyhounds go so fast they don\'t fully load O₂.',
   '<b>Most air goes to the BASE of the lung:</b> the top alveoli are already stretched and stiff; the bottom ones are floppy and fill easily.'],
  [('Deep vs fast breathing — which is more efficient?','Deep and slow (less dead-space waste)'),('Ventilation doubles, CO₂ production same → PaCO₂?','Halves'),('Which lung region gets the most ventilation?','The base (compliant alveoli)')]),
 ('pp3','LC41 · Physiology 3 · Gas laws & diffusion',
@@ -103,11 +104,72 @@ L=[
   '<b>Why mismatch hurts O₂ but not always CO₂:</b> the O₂ curve is flat on top, so extra breathing can\'t add O₂. The CO₂ curve is steep, so extra breathing CAN blow off extra CO₂.'],
  [('What shifts the curve right?','↑ temperature, ↑ CO₂, ↑ acid (↓ pH), ↑ 2,3-DPG'),('Calculate O₂ content: hemoglobin 10, 97%, PaO₂ 100','10 × 1.34 × 0.97 + 0.3 ≈ 13.3'),('Why can\'t hyperventilation fix low O₂ from mismatch?','O₂ curve is flat at the top; hemoglobin is already full')]),
 ]
+
+# 📸 Slide figures per lecture: (file in assets/resp, slide #, what to notice). Rendered from Poole's deck PDFs.
+FIGS={
+'pp1':[('pp1-s4',4,'The oxygen pathway: air → lung → blood → muscle → mitochondria. Every step is a pressure drop.'),
+ ('pp1-s8',8,'The blood-gas barrier: capillary (C) separated from air by thin epithelium + interstitium + endothelium.'),
+ ('pp1-s20',20,'Emphysema vs healthy lung: big holes = lost surface area (Fick: less area → less diffusion).'),
+ ('pp1-s22',22,'Fick\'s law: gas flow = area ÷ thickness × diffusion constant × pressure difference.'),
+ ('pp1-s30',30,'Mammals breathe in and out of dead ends, so fresh air mixes with old alveolar air.'),
+ ('pp1-s35',35,'A walk down the airways: trachea → bronchi → bronchioles → alveoli.'),
+ ('pp1-s43',43,'Type I cell: very thin, flat → this is the gas-exchange wall.'),
+ ('pp1-s44',44,'Type II cell: makes surfactant, repairs Type I.'),
+ ('pp1-s52',52,'Capillaries wrap the alveoli like a net → a sheet of blood over the air.')],
+'pp2':[('pp2-s9',9,'Lung volumes on a spirometer. Residual volume can\'t be blown out, so a spirometer can\'t measure it.'),
+ ('pp2-s11',11,'Nitrogen washout: breathe 100% O₂, collect all exhaled N₂ → FRC = N₂ volume ÷ 0.79.'),
+ ('pp2-s7',7,'Transit time = capillary blood volume ÷ cardiac output (0.84 s rest → 0.28 s exercise).'),
+ ('pp2-s17',17,'Same total ventilation, but fast shallow breaths waste more air in dead space (alveolar ventilation 5.6 vs 3.2 L/min).'),
+ ('pp2-s19',19,'Bohr equation: (40 − 20) ÷ 40 = 0.5 → half of each breath is dead space.'),
+ ('pp2-s21',21,'Alveolar ventilation equation: double alveolar ventilation → PaCO₂ halves.'),
+ ('pp2-s22',22,'Ventilation is highest at the BASE of the lung.'),
+ ('pp2-s24',24,'Why: apex alveoli are already stretched (stiff part of the curve); base alveoli sit on the steep part.')],
+'pp3':[('pp3-s4',4,'⭐ The oxygen cascade: 159 → 149 → 100 → 40 → mitochondria.'),
+ ('pp3-s9',9,'Alveolar gas equation: 149 − (40 ÷ 0.8) ≈ 100 mmHg.'),
+ ('pp3-s15',15,'Fick for O₂ vs CO₂: CO₂ is far more soluble, but its pressure difference is tiny (46 − 40 = 6 vs 100 − 40 = 60).'),
+ ('pp3-s17',17,'Normal blood gases: venous 40/46 in → arterial 100/40 out.'),
+ ('pp3-s18',18,'⭐ Equilibration time: normal loads by ~0.25 s; thick barrier is slower; exercise cuts the time available.'),
+ ('pp3-s19',19,'Alveolar proteinosis: the barrier fills with material → diffusion limitation.'),
+ ('pp3-s23',23,'At altitude, alveolar and arterial PO₂ split apart during exercise → O₂ becomes diffusion-limited.')],
+'pp4':[('pp4-s3',3,'⭐ Low pulmonary pressures: 25/8 (mean 15) vs systemic 120/80 (mean 93).'),
+ ('pp4-s9',9,'Alveolar vessels (capillaries in alveolar walls) vs extra-alveolar vessels (arterioles/venules).'),
+ ('pp4-s12',12,'⭐ J-curve: vascular resistance is lowest near FRC, high at RV and at TLC.'),
+ ('pp4-s15',15,'⭐ Exercise: recruitment (closed vessels open) + distension (open vessels widen) → resistance falls.'),
+ ('pp4-s17',17,'Hypoxic vasoconstriction: a poorly ventilated region shuts its blood flow (good locally).'),
+ ('pp4-s18',18,'⭐ Whole-lung hypoxia (altitude) → high pulmonary pressure → right heart failure → brisket disease.'),
+ ('pp4-s24',24,'Gravity: base capillaries are full and open; apex capillaries are narrow.'),
+ ('pp4-s27',27,'Ventilation and blood flow both rise toward the base, but blood flow rises MORE → ventilation-perfusion ratio is highest at the apex.'),
+ ('pp4-s28',28,'So PO₂ is highest at the apex (132) and lowest at the base (89). Tuberculosis likes the apex.')],
+'pp5':[('pp5-s3',3,'The 5 causes of hypoxemia (healthy pink vs cyanotic gums).'),
+ ('pp5-s6',6,'1. Low inspired PO₂ → PaO₂ down AND PaCO₂ down (the animal hyperventilates).'),
+ ('pp5-s10',10,'⭐ 2. Hypoventilation: 149 − (80 ÷ 0.8) = 49 mmHg. PaCO₂ goes UP.'),
+ ('pp5-s16',16,'Iso-shunt graph: with a big shunt, raising inspired O₂ barely raises PaO₂.'),
+ ('pp5-s22',22,'Ventilation-perfusion mismatch: low-ratio units drag O₂ content down; high-ratio units can\'t make up for it.'),
+ ('pp5-s23',23,'⭐ Alveolar–arterial difference: 89 − 49 = 40 mmHg → severe mismatch.')],
+'pp6':[('pp6-s3',3,'Flow = (atmospheric − alveolar pressure) ÷ resistance.'),
+ ('pp6-s12',12,'⭐ Roaring: normal larynx (A) vs left laryngeal hemiplegia (B), horse.'),
+ ('pp6-s16',16,'⭐ Compliance curves: emphysema steeper (baggy), fibrosis flatter (stiff).'),
+ ('pp6-s22',22,'Surfactant lowers surface tension so small alveoli don\'t collapse.'),
+ ('pp6-s25',25,'Interdependence: neighboring alveoli pull each other open.'),
+ ('pp6-s27',27,'Pneumothorax: pleural pressure goes to 0 → lung collapses in, chest wall springs out.'),
+ ('pp6-s32',32,'⭐ Total cross-sectional area explodes in small airways → resistance is mostly in the BIG airways.'),
+ ('pp6-s36',36,'Effort independence: after the peak, more effort doesn\'t raise expiratory flow.'),
+ ('pp6-s38',38,'Honking: tracheal collapse in brachycephalics and toy breeds (on expiration).')],
+'pp7':[('pp7-s8',8,'Why we need hemoglobin: dissolved O₂ alone would need ~83 L/min of cardiac output.'),
+ ('pp7-s14',14,'O₂ dissociation curve: arterial ~97.5%, mixed venous at rest ~75% at PO₂ 40.'),
+ ('pp7-s15',15,'⭐ O₂ content = (hemoglobin × 1.34 × saturation) + (PO₂ × 0.003) = 19.5 + 0.3 ≈ 19.8.'),
+ ('pp7-s18',18,'Exercise shifts the curve RIGHT (higher P50) → more O₂ unloaded.'),
+ ('pp7-s19',19,'P50 across species (elephant → mouse): small animals sit further right.'),
+ ('pp7-s21',21,'⭐ Label the curve: 1 arterial rest · 2 venous rest · 3 P50 · 4 arterial exercise · 5 venous exercise.'),
+ ('pp7-s24',24,'CO₂ transport: bicarbonate 60% · carbamino 30% · dissolved 10% (see source conflict).'),
+ ('pp7-s27',27,'The CO₂ curve is far steeper than the O₂ curve in the normal range.')],
+}
 links=''
 for slug,title,one,pic,pts,qa in L:
     fn=f'systems-lec3-{slug}-plain.html'
     body=(f'<div class="one">💡 {one}</div><div class="pic"><b>🖼️ Picture it:</b> {E(pic)}</div>'
-          '<div class="sec"><h2>The plain-English version</h2><ul>'+''.join(f'<li>{p}</li>' for p in pts)+'</ul></div>'
+          '<div class="sec"><h2>The plain-English version</h2><ul>'+''.join(f'<li>{p}</li>' for p in pts)+'</ul></div>'+
+          (('<div class="sec"><h2>📸 From his slides (tap to zoom)</h2><div class="figs">'+''.join(f'<figure class="fig"><a href="assets/resp/{f}.jpg?v={V}" target="_blank"><img loading="lazy" src="assets/resp/{f}.jpg?v={V}" alt="Slide {n}"></a><figcaption><b>Slide {n}:</b> {E(c)}</figcaption></figure>' for f,n,c in FIGS[slug])+'</div></div>') if slug in FIGS else '')+
           '<div class="sec p"><h2>🎯 If he asks… say…</h2><table>'+''.join(f'<tr><td>{E(q)}</td><td>{E(a)}</td></tr>' for q,a in qa)+'</table></div>'
           f'<div class="key">Then go to the <a href="systems-lec3-{slug}-terms.html?v={V}">terms page</a> for the exact wording.</div>')
     open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🗣️ {E(title)} · Plain English</title><style>{css}</style></head><body><div class="wrap"><a class="back" href="{IDX}?v={V}">← Back to Plain English</a><div class="hero"><h1>🗣️ {E(title)}</h1><p>Poole, explained simply · read this first, then the terms page</p></div>{body}<div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div></body></html>')
