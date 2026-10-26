@@ -3,11 +3,11 @@
 import time, re, html as H
 V = str(int(time.time()))
 TILES = [  # (emoji, href, title, blurb)
-    ("⚡", "gross-anatomy-lc26-cards.html", "L26 Terms", "Pelvic Limb Vessels & Nerves · 66 terms · ★ 10 · slides only, stars update after the transcript"),
+    ("⚡", "gross-anatomy-lc26-cards.html", "L26 Terms", "Pelvic Limb Vessels & Nerves · 105 terms · ★ 48 · slides + lecture 10/26 · exam signals, scope, traps"),
     ("🧭", "gross-anatomy-l26-trace.html", "L26 Trace It", "Arteries aorta → paw, deep + superficial veins, lymph nodes, lumbosacral plexus, testing sites · names pop up in order"),
 ]
 LECTURES = [  # from the Canvas lecture schedule
-    ("Mon 10/26", "L26", "Pelvic limb vessels & nerves", "Dr. Malreddy", "built (slides)"),
+    ("Mon 10/26", "L26", "Pelvic limb vessels & nerves", "Dr. Malreddy", "built (slides + transcript)"),
     ("Mon 11/2", "L28", "Digestive components of head 1", "Dr. Diehl", ""),
     ("Wed 11/4", "L30", "Eye", "Dr. Malreddy", ""),
     ("Thu 11/5", "L29", "Digestive components of head 2", "Dr. Diehl", ""),

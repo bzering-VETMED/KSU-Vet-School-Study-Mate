@@ -100,9 +100,9 @@ cards.append(vcard(6, 'l26_arteries_dist', [
     ("Caudal tibial a. — small branch, goes caudal", [(359, 135, 450, 149)]),
     ("Cranial tibial a. — the popliteal's main continuation", [(95, 208, 262, 227)]),
     ("Dorsal pedal a. — cranial tibial renamed at the tarsus", [(361, 253, 508, 270)]),
-    ("Arcuate a.", [(160, 271, 214, 286), (160, 287, 202, 303)]),
+    ("Arcuate a. — the dorsal pedal ends as this (lecture)", [(160, 271, 214, 286), (160, 287, 202, 303)]),
     ("Dorsal metatarsal a. II", [(173, 383, 321, 399)]),
-    ("Perforating metatarsal a. — dives between metatarsals II and III", [(329, 326, 576, 343)]),
+    ("Perforating metatarsal a. — from dorsal metatarsal a. II, between MT II and III; perforates dorsal → plantar (lecture)", [(329, 326, 576, 343)]),
     ("Deep plantar arch", [(411, 382, 586, 399)]),
 ], "Slide 6 · Popliteal → deep plantar arch", "Keep going from the popliteal artery down to the paw."))
 
@@ -181,7 +181,7 @@ cards.append(rcard(21, 'l26_plexus', [
     ("Caudal cutaneous femoral n. (S1–S2)", [(380, 540, 745, 625)]),
     ("Dorsal n. of the penis (S1–S2)", [(425, 430, 715, 515)]),
     ("Pudendal n. (S1–S3) — ✅ corrected in lecture 10/26: slide 21 mislabels it 'superficial fibular'", [(430, 325, 715, 410)]),
-], "Slide 21 · Lumbosacral plexus", "Segments L3 (right) to S3 (left) along the top. Name each nerve and its segments, cranial to caudal.",
+], "Slide 21 · Lumbosacral plexus", "Segments L3 (right) to S3 (left) along the top. Name each nerve, cranial to caudal. Dr. Malreddy: memorize this figure; segments are NOT tested.",
     crop=(300, 214, 1830, 1210)))
 
 # ── Slide 24: testing sites for cutaneous nerves
@@ -199,7 +199,7 @@ cards.append(vcard(24, 'l26_testing', [
 ], "Slide 24 · Testing sites for cutaneous nerves", "Blue dot = testing site. Name the nerve, then say where you test it.", top=30, bottom=402))
 
 texts = [
-    ("Main arterial chain, aorta to paw (slide 4)", ["Abdominal aorta", "External iliac a.", "Femoral a.", "Popliteal a.", "Cranial tibial a.",
+    ("Main arterial chain, aorta to paw (slide 4; lecture adds arcuate → dorsal metatarsal II before the perforating)", ["Abdominal aorta", "External iliac a.", "Femoral a.", "Popliteal a.", "Cranial tibial a.",
         "Dorsal pedal a.", "Perforating metatarsal a.", "Deep plantar arch", "Plantar metatarsal arteries"]),
     ("Deep femoral artery: its two branches and their branches (slide 5)", ["Pudendoepigastric trunk → caudal epigastric a. + external pudendal a.",
         "Medial circumflex femoral a. → obturator, transverse and deep branches"]),
@@ -209,7 +209,7 @@ texts = [
     ("Superficial vs deep venous system (slide 9)", ["Superficial: lateral saphenous v. + medial saphenous v.", "Deep: deep femoral v. + femoral v."]),
     ("Deep venous drainage, femoral v. → heart (slide 10)", ["Femoral v.", "through the vascular lacuna", "External iliac v.",
         "Common iliac v. (internal iliac v. joins)", "Caudal vena cava"]),
-    ("Venipuncture: dog vs cat (slides 11, 13)", ["DOG: lateral saphenous v. (lateral surface)", "CAT: medial saphenous v. (medial surface)"]),
+    ("Venipuncture: dog vs cat (slides 11, 13)", ["DOG: cranial branch of the lateral saphenous v. (lateral surface)", "CAT: medial saphenous v. (medial surface)"]),
     ("Lymph nodes of the pelvic limb (slide 16)", ["Constant: popliteal (palpable), superficial inguinal (palpable), medial iliac",
         "Inconstant: iliofemoral (deep inguinal), femoral", "Single terminal node: medial iliac", "Slide 17 lymphangiogram: popliteal → medial iliac → cisterna chyli → thoracic duct"]),
     ("Lumbosacral plexus: what makes it? (slide 20)", ["Ventral branches of spinal nerves L3–S3 (dog)", "Supplies the nerves to the pelvic limb muscles"]),
@@ -221,6 +221,6 @@ texts = [
 ]
 
 T.write('gross-anatomy-l26-trace.html', '🧭 L26 Trace It · Pelvic Limb Vessels & Nerves',
-        'Slides only (transcript after Monday 10/26) · names pop up in order · then the chain lists', cards, texts, back='gross-anatomy-exam4.html')
+        'Slides + lecture 10/26 · names pop up in order · then the chain lists', cards, texts, back='gross-anatomy-exam4.html')
 print(len(cards), 'image cards,', sum(len(c['labels']) for c in cards), 'labels;', len(texts), 'chain cards')
 p = 'gross-anatomy-l26-trace.html'; txt = open(p).read(); open(p, 'w').write(txt.replace('← Back to Lecture', '← Back to Exam 4'))

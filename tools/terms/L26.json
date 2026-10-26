@@ -1,127 +1,221 @@
 {
  "traps": [
-  "✅ CORRECTED in lecture (10/26): the S1–S3 nerve at the sacral end of slide 21 is the PUDENDAL n., not 'superficial fibular' (slide typo). Superficial fibular = L6–L7, off the common fibular.",
-  "Deep FEMORAL artery comes off the EXTERNAL ILIAC (before the vascular lacuna) — not off the femoral artery (slide 5).",
-  "Pudendoepigastric trunk and medial circumflex femoral = branches of the DEEP FEMORAL. Lateral circumflex femoral = branch of the FEMORAL.",
-  "Popliteal a. continues mainly as the CRANIAL tibial a.; the caudal tibial a. is the small one (slide 6).",
-  "Dorsal pedal a. = cranial tibial renamed at the tarsus. Perforating metatarsal a. dives between MT II and III to the DEEP PLANTAR ARCH.",
-  "Superficial = COMMON DIGITAL arteries; deep = METATARSAL arteries — on both dorsal and plantar surfaces (slide 7).",
-  "Venipuncture: DOG = LATERAL saphenous v.; CAT = MEDIAL saphenous v. Don't flip them.",
-  "Lateral saphenous v. drains to the DISTAL CAUDAL FEMORAL v.; medial saphenous v. drains to the FEMORAL v.",
-  "Palpable nodes = popliteal + superficial inguinal. Medial iliac is constant but NOT palpable; it is the single terminal node.",
-  "Inconstant = iliofemoral (deep inguinal) + femoral. 'Deep inguinal' is another name for iliofemoral, not for superficial inguinal.",
-  "Lumbosacral plexus = VENTRAL branches of L3–S3 (dog).",
-  "Common peroneal = common fibular (old vs new name). Superficial/deep fibular = superficial/deep peroneal.",
-  "Caudal gluteal n. is L7 (S1, 2) and mainly the SUPERFICIAL gluteal; cranial gluteal n. (L6, 7, S1) = middle + deep gluteal + tensor fasciae latae.",
-  "⚠️ FLAG — slide 5 drawing puts the saphenous a. origin at about the same level as the middle caudal femoral a.; the order between them is from the drawing only. Confirm with the transcript."
+  "🎯 SCOPE (Dr. Malreddy, 10/26): know the NAMED nerves and the MUSCLES they innervate. Spinal cord segments (L3, L4–L6…) — 'I'm not going to hold you responsible.'",
+  "✅ CORRECTED in lecture: the S1–S3 nerve on slide 21 is the PUDENDAL n. — the slide's 'superficial fibular' label there is wrong. Superficial fibular = L6–L7 branch of the common fibular.",
+  "SUPERFICIAL circumflex iliac a. = branch of the FEMORAL a. · DEEP circumflex iliac a. = branch of the ABDOMINAL AORTA.",
+  "MEDIAL circumflex femoral = continuation of the DEEP femoral · LATERAL circumflex femoral = branch of the FEMORAL (caudal aspect).",
+  "Veins have a COMMON ILIAC v.; arteries do NOT (aorta → 2 external iliac, 2 internal iliac, median sacral).",
+  "Thoracic limb = SUPERFICIAL PALMAR arch · pelvic limb = DEEP PLANTAR arch.",
+  "Venipuncture: DOG = cranial branch of the LATERAL saphenous v. · CAT = MEDIAL saphenous v.",
+  "Lateral saphenous v. → DISTAL CAUDAL FEMORAL v. · Medial saphenous v. → FEMORAL v.",
+  "Palpable = popliteal + SUPERFICIAL inguinal (constant). DEEP inguinal = iliofemoral = inconstant.",
+  "Pelvic limb has a single terminal node (MEDIAL ILIAC); the thoracic limb has NONE.",
+  "Chyle (fat-rich milky lymph in lacteals) ≠ chyme (partly digested food in the stomach).",
+  "⚠️ FLAG — slide 4 lists dorsal pedal → perforating metatarsal. Lecture: dorsal pedal → arcuate a. → dorsal metatarsal a. II → perforating metatarsal. Use the lecture chain; for a short 'main chain' answer, slide 4's order still holds.",
+  "⚠️ FLAG (still open) — exact order of the saphenous a. vs. the middle caudal femoral a. Lecture only says the descending genicular and saphenous come off the CRANIAL aspect; the order is from the slide 5 drawing."
  ],
  "sections": [
   {
-   "title": "❤️ LO1 · Main arterial chain (slide 4)",
+   "title": "📣 Exam signals (lecture 10/26)",
    "items": [
     {
-     "q": "Main arterial chain of the pelvic limb?",
+     "q": "Is L26 on Exam 3?",
+     "a": "No — lecture AND the pelvic limb labs are Exam 4",
+     "star": true,
+     "why": "Stated at the start of lecture"
+    },
+    {
+     "q": "Lumbosacral plexus figure (slide 21)?",
+     "a": "Memorize it — 'expect a couple of questions'",
+     "star": true,
+     "why": "Direct quote: 'if you could memorize this figure… you can expect a couple of questions'"
+    },
+    {
+     "q": "Spinal cord segments for each nerve — need them?",
+     "a": "No: 'I'm not going to hold you responsible.' Know named nerves + the muscles they innervate",
+     "star": true,
+     "why": "Answer to a student question — sets scope for LO4"
+    },
+    {
+     "q": "Autonomous zones figure (slide 23)?",
+     "a": "'Important figure' — same as the thoracic limb one",
+     "star": true,
+     "why": "Called important twice"
+    },
+    {
+     "q": "Kahoot: continuation of the femoral a.?",
+     "a": "Popliteal a.",
+     "star": true,
+     "why": "In-class Kahoot; 'similar questions for the thoracic limb… on the exam'"
+    },
+    {
+     "q": "Kahoot: obturator n. innervates…",
+     "a": "Adductor (and pectineus, gracilis, external obturator)",
+     "star": true,
+     "why": "Closing Kahoot question"
+    },
+    {
+     "q": "Small paw/digit branches?",
+     "a": "Not studied — too small; more detail in equine",
+     "star": true,
+     "why": "Scope statement"
+    }
+   ]
+  },
+  {
+   "title": "❤️ LO1 · Main arterial chain",
+   "items": [
+    {
+     "q": "Main arterial chain of the pelvic limb (slide 4)?",
      "a": "Abdominal aorta → external iliac → femoral → popliteal → cranial tibial → dorsal pedal → perforating metatarsal → deep plantar arch → plantar metatarsal arteries",
      "star": true,
-     "why": "LO1 spine; slide 4 is the whole lecture's arterial outline"
+     "why": "LO1 spine; walked through first"
     },
     {
-     "q": "External iliac a. becomes the femoral a. where?",
-     "a": "At the vascular lacuna (green circle, slide 5)",
+     "q": "Abdominal aorta terminates as…",
+     "a": "2 external iliac, 2 internal iliac, 1 median sacral a.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "External iliac a. terminates as…",
+     "a": "Femoral a. and deep femoral a.",
      "star": true,
-     "why": "Name-change point on slide 5"
+     "why": "'Those are the terminations of your external iliac'"
     },
     {
-     "q": "Femoral a. becomes the popliteal a. after which branch?",
-     "a": "Distal caudal femoral a.",
+     "q": "Femoral a. becomes the popliteal a. after…",
+     "a": "The distal caudal femoral a. comes off (as it enters the popliteus region)",
      "star": true,
-     "why": "Name-change point on slide 5"
+     "why": "Name-change point + Kahoot"
     },
     {
-     "q": "Popliteal a. continues as…",
-     "a": "Cranial tibial a. (main); caudal tibial a. is a small branch",
+     "q": "Popliteal a. divides into…",
+     "a": "Cranial tibial a. (main) + caudal tibial a. (small, often not injected)",
+     "star": true,
+     "why": "'Main source' = cranial tibial"
+    },
+    {
+     "q": "Cranial tibial a. becomes…",
+     "a": "Dorsal pedal a. — name change only, no branching, at the tarsus",
+     "star": true,
+     "why": "Pure name change"
+    },
+    {
+     "q": "Dorsal pedal pulse is most useful in…",
+     "a": "Large animals, especially horses (also humans)",
      "star": false,
      "why": ""
     },
     {
-     "q": "Cranial tibial a. becomes the…",
-     "a": "Dorsal pedal a. (at the tarsus)",
+     "q": "Main blood supply to the digits?",
+     "a": "Plantar metatarsal arteries (the bulk)",
+     "star": true,
+     "why": "'Main source of the blood supply to the digits'"
+    },
+    {
+     "q": "Thoracic limb arch vs pelvic limb arch?",
+     "a": "Thoracic = superficial palmar arch; pelvic = deep plantar arch",
+     "star": true,
+     "why": "Compared directly in lecture"
+    }
+   ]
+  },
+  {
+   "title": "🌿 Deep femoral a. (slide 5)",
+   "items": [
+    {
+     "q": "First branch of the deep femoral a.?",
+     "a": "Pudendoepigastric trunk",
+     "star": true,
+     "why": "Already ID'd in lab"
+    },
+    {
+     "q": "Pudendoepigastric trunk branches?",
+     "a": "External pudendal a. ('pudendo-') + caudal epigastric a. ('-epigastric')",
+     "star": true,
+     "why": "Break the name in half"
+    },
+    {
+     "q": "Deep femoral a. becomes ___ after the pudendoepigastric trunk",
+     "a": "Medial circumflex femoral a.",
+     "star": true,
+     "why": "'Not the femoral' — continuation of the DEEP femoral"
+    },
+    {
+     "q": "Medial circumflex femoral branches?",
+     "a": "Deep branch, transverse branch, obturator branch",
      "star": false,
      "why": ""
     },
     {
-     "q": "Dorsal pedal a. gives the perforating metatarsal a., which goes to…",
-     "a": "Deep plantar arch (between metatarsals II and III)",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Deep plantar arch gives…",
-     "a": "Plantar metatarsal arteries",
+     "q": "What is a 'trunk' (arteries)?",
+     "a": "A short common stem that branches like a Y (e.g., costocervical, brachiocephalic)",
      "star": false,
      "why": ""
     }
    ]
   },
   {
-   "title": "🌿 Aorta & deep femoral branches (slide 5)",
+   "title": "🩸 Femoral a. & femoral triangle (slide 5)",
    "items": [
     {
-     "q": "Terminal branches of the abdominal aorta shown on slide 5?",
-     "a": "External iliac a. (×2), internal iliac a. (×2), median sacral a.",
+     "q": "Vascular lacuna = ?",
+     "a": "Base of the femoral triangle (think cone); femoral a. enters, femoral v. exits",
+     "star": true,
+     "why": "Defined in lecture"
+    },
+    {
+     "q": "Where do you take the femoral pulse?",
+     "a": "Femoral a. in the femoral triangle / vascular lacuna",
      "star": false,
      "why": ""
     },
     {
-     "q": "Deep femoral a. arises from…",
-     "a": "External iliac a., just before the vascular lacuna",
+     "q": "Superficial circumflex iliac a. — origin and side?",
+     "a": "Femoral a., cranial aspect",
+     "star": true,
+     "why": "Contrasted with the deep circumflex iliac"
+    },
+    {
+     "q": "Deep circumflex iliac a. — origin?",
+     "a": "Abdominal aorta (to the caudal lateral abdominal wall)",
+     "star": true,
+     "why": "Superficial vs deep trap"
+    },
+    {
+     "q": "Lateral circumflex femoral a. — origin?",
+     "a": "Femoral a., caudal aspect, about the same level as the superficial circumflex iliac",
+     "star": true,
+     "why": "Lateral (femoral) vs medial (deep femoral)"
+    },
+    {
+     "q": "Thoracic limb equivalent of the circumflex femorals?",
+     "a": "Cranial + caudal circumflex humeral aa. (caudal from subscapular, cranial from axillary)",
      "star": false,
      "why": ""
     },
     {
-     "q": "Two branches of the deep femoral a.?",
-     "a": "Pudendoepigastric trunk and medial circumflex femoral a.",
+     "q": "Caudal femoral arteries?",
+     "a": "Proximal, middle, distal — all from the caudal aspect of the femoral a.",
      "star": false,
      "why": ""
     },
     {
-     "q": "Branches of the pudendoepigastric trunk?",
-     "a": "Caudal epigastric a. and external pudendal a.",
+     "q": "Descending genicular a. goes to…",
+     "a": "The stifle (genu = knee); from the cranial aspect",
      "star": false,
      "why": ""
     },
     {
-     "q": "Branches of the medial circumflex femoral a.?",
-     "a": "Obturator branch, transverse branch, deep branch",
-     "star": false,
-     "why": ""
-    }
-   ]
-  },
-  {
-   "title": "🩸 Femoral a. branches (slide 5)",
-   "items": [
-    {
-     "q": "Femoral a. branches, proximal → distal?",
-     "a": "Superficial circumflex iliac, lateral circumflex femoral, proximal caudal femoral, descending genicular, saphenous, middle caudal femoral, distal caudal femoral",
-     "star": false,
-     "why": ""
+     "q": "Saphenous a. — origin, size, travel partners?",
+     "a": "Femoral a. (cranial aspect); small, superficial, often cut when skinning; runs with the saphenous n. + MEDIAL saphenous v.",
+     "star": true,
+     "why": "'Do look for it' — lab tip"
     },
     {
-     "q": "Femoral triangle on slide 5 = ?",
-     "a": "Purple triangle around the proximal femoral a.",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Saphenous a. splits into…",
-     "a": "Cranial branch and caudal branch",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Lateral vs medial circumflex femoral — whose branch?",
-     "a": "Lateral = femoral a.; medial = deep femoral a.",
+     "q": "Saphenous a. divides into…",
+     "a": "Cranial branch + caudal branch",
      "star": false,
      "why": ""
     }
@@ -131,114 +225,144 @@
    "title": "🐾 Distal limb & paw arteries (slides 6–7)",
    "items": [
     {
-     "q": "Small caudal branch of the popliteal a.?",
-     "a": "Caudal tibial a.",
+     "q": "Dorsal pedal a. terminates as…",
+     "a": "Arcuate a. (runs in an arc)",
+     "star": true,
+     "why": "Transcript chain"
+    },
+    {
+     "q": "Arcuate a. gives off…",
+     "a": "Dorsal metatarsal arteries",
      "star": false,
      "why": ""
     },
     {
-     "q": "Arteries off the dorsal pedal a. on slide 6?",
-     "a": "Arcuate a., dorsal metatarsal a. II, perforating metatarsal a.",
+     "q": "Which artery gives the perforating metatarsal a.?",
+     "a": "Dorsal metatarsal a. II (between metatarsals II and III)",
+     "star": true,
+     "why": "Lecture detail; slide 4 skips it — see flag"
+    },
+    {
+     "q": "Why 'perforating'?",
+     "a": "It perforates from the dorsal side to the plantar side",
      "star": false,
      "why": ""
     },
     {
-     "q": "Perforating metatarsal a. passes between which metatarsals?",
-     "a": "II and III",
+     "q": "Perforating metatarsal a. ends as…",
+     "a": "Deep plantar arch → plantar metatarsal arteries",
      "star": false,
      "why": ""
     },
     {
-     "q": "Dorsal surface: superficial vs deep arteries?",
-     "a": "Superficial = dorsal common digital arteries; deep = dorsal metatarsal arteries",
-     "star": false,
-     "why": ""
+     "q": "Superficial vs deep naming (both surfaces)?",
+     "a": "Superficial = common digital arteries; deep = metatarsal arteries",
+     "star": true,
+     "why": "Same pattern as the thoracic limb"
     },
     {
-     "q": "Plantar surface: superficial vs deep arteries?",
-     "a": "Superficial = plantar common digital arteries; deep = plantar metatarsal arteries",
+     "q": "Four sets on slide 7?",
+     "a": "Dorsal common digital, dorsal metatarsal, plantar metatarsal, plantar common digital",
      "star": false,
      "why": ""
     }
    ]
   },
   {
-   "title": "💙 LO2 · Veins (slides 9–14)",
+   "title": "💙 LO2 · Veins",
    "items": [
     {
-     "q": "Two superficial veins of the pelvic limb?",
-     "a": "Lateral saphenous v. and medial saphenous v.",
+     "q": "Superficial veins?",
+     "a": "Lateral saphenous v. + medial saphenous v.",
      "star": false,
      "why": ""
     },
     {
-     "q": "Two deep veins of the pelvic limb?",
-     "a": "Deep femoral v. and femoral v.",
+     "q": "Deep veins?",
+     "a": "Femoral v. + deep femoral v.",
      "star": false,
      "why": ""
     },
     {
-     "q": "Deep drainage: femoral v. → heart?",
-     "a": "Femoral v. → (vascular lacuna) → external iliac v. → common iliac v. (+ internal iliac v.) → caudal vena cava",
+     "q": "Deep drainage, femoral v. → heart?",
+     "a": "Femoral v. (exits vascular lacuna) + deep femoral v. → external iliac v. + internal iliac v. → common iliac v. → caudal vena cava",
      "star": false,
      "why": ""
     },
     {
-     "q": "Venipuncture site in the DOG?",
-     "a": "Lateral saphenous v. (lateral surface of the leg)",
+     "q": "Common iliac: vein, artery, or both?",
+     "a": "Vein only — no common iliac artery",
      "star": true,
-     "why": "Red arrow on slide 11 — clinical, likely tested"
+     "why": "Pointed out as a difference"
     },
     {
-     "q": "Lateral saphenous v. branches?",
-     "a": "Cranial and caudal branches",
+     "q": "Venipuncture site in the DOG (pelvic limb)?",
+     "a": "Cranial branch of the LATERAL saphenous v.",
+     "star": true,
+     "why": "'Main site for venipuncture in the dog'"
+    },
+    {
+     "q": "Forelimb vs hind limb venipuncture (dog)?",
+     "a": "Forelimb = cephalic v.; hind limb = cranial branch of the lateral saphenous v.",
      "star": false,
      "why": ""
     },
     {
-     "q": "Lateral saphenous v. drains into…",
-     "a": "Distal caudal femoral v. (near the popliteal lymph node)",
-     "star": false,
-     "why": ""
+     "q": "Lateral saphenous v. disappears where, into what?",
+     "a": "At the popliteal lymph node (caudal to the stifle) → joins the distal caudal femoral v.",
+     "star": true,
+     "why": "Asked as a review question"
     },
     {
      "q": "Venipuncture site in the CAT?",
-     "a": "Medial saphenous v. (medial surface)",
+     "a": "MEDIAL saphenous v. (preferred site)",
      "star": true,
-     "why": "Red arrow on slide 13 — dog vs cat contrast"
+     "why": "Dog vs cat contrast"
     },
     {
-     "q": "Medial saphenous v. drains into…",
-     "a": "Femoral v. (in the femoral triangle)",
-     "star": false,
-     "why": ""
+     "q": "Medial saphenous v. joins…",
+     "a": "Femoral v., in the femoral triangle",
+     "star": true,
+     "why": "Asked as a review question"
     },
     {
-     "q": "Medial saphenous v. branches?",
-     "a": "Cranial and caudal branches",
-     "star": false,
-     "why": ""
+     "q": "Two veins that form the cranial vena cava? (review)",
+     "a": "Right + left brachiocephalic vv. (each = external jugular + subclavian)",
+     "star": true,
+     "why": "Review Q in lecture — Exam 3 material"
+    },
+    {
+     "q": "Two veins that form the portal vein? (review)",
+     "a": "Cranial mesenteric + caudal mesenteric vv.",
+     "star": true,
+     "why": "Review Q in lecture — Exam 3 material"
     }
    ]
   },
   {
-   "title": "🟢 LO3 · Lymphatics (slides 16–18)",
+   "title": "🟢 LO3 · Lymphatics",
    "items": [
     {
-     "q": "Constant lymph nodes of the pelvic limb?",
-     "a": "Popliteal, superficial inguinal, medial iliac",
-     "star": true,
-     "why": "Slide 16 list"
+     "q": "Constant vs inconstant vs terminal lymph node?",
+     "a": "Constant = always present; inconstant = sometimes (varies by dog/breed); terminal = all lymph from a region passes through it",
+     "star": false,
+     "why": ""
     },
     {
-     "q": "Which constant nodes are palpable?",
-     "a": "Popliteal and superficial inguinal",
+     "q": "Constant lymph nodes?",
+     "a": "Popliteal, superficial inguinal, medial iliac",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palpable lymph nodes?",
+     "a": "Popliteal (immediately caudal to the stifle) + superficial inguinal",
      "star": true,
-     "why": "'Palpable' highlighted in blue on slide 16"
+     "why": "'Palpable' highlighted on slide 16"
     },
     {
      "q": "Inconstant lymph nodes?",
-     "a": "Iliofemoral (deep inguinal) and femoral",
+     "a": "Iliofemoral (= deep inguinal) + femoral",
      "star": false,
      "why": ""
     },
@@ -246,29 +370,71 @@
      "q": "Single terminal lymph node of the pelvic limb?",
      "a": "Medial iliac lymph node",
      "star": true,
-     "why": "Shown in red on slide 16"
+     "why": "Quick question in lecture"
     },
     {
-     "q": "Medial iliac ln. drains to…",
-     "a": "Cisterna chyli (CH) → thoracic duct (slide 17)",
+     "q": "Single terminal lymph node of the THORACIC limb?",
+     "a": "None",
+     "star": true,
+     "why": "Trick question in lecture"
+    },
+    {
+     "q": "Medial iliac ln. location?",
+     "a": "At the termination of the abdominal aorta, near the deep circumflex iliac a.",
      "star": false,
      "why": ""
     },
     {
-     "q": "Slide 17 lymphangiogram, numbers 1–4?",
-     "a": "1 popliteal ln., 2 medial iliac ln., 3 cisterna chyli, 4 thoracic duct",
+     "q": "Medial iliac ln. also drains…",
+     "a": "Testes (male); ovaries + part of the uterine body/horns (female)",
      "star": false,
      "why": ""
     },
     {
-     "q": "Slide 18 clinical picture?",
-     "a": "Multicentric lymphoma — arrows on the hind limb (likely the enlarged popliteal nodes; confirm Monday)",
+     "q": "Where is the iliofemoral (deep inguinal) ln.?",
+     "a": "Entrance of the femoral triangle",
      "star": false,
      "why": ""
     },
     {
-     "q": "D.C.I. a. on slide 16?",
-     "a": "Deep circumflex iliac a. (landmark near the medial iliac node)",
+     "q": "Where is the femoral ln.?",
+     "a": "Medial thigh, between the popliteal and superficial inguinal nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lymph route (slide 17)?",
+     "a": "Popliteal ln. → medial iliac ln. → cisterna chyli → thoracic duct → cranial vena cava",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cisterna chyli?",
+     "a": "Large lymph cistern caudal to the diaphragm; collects chyle + lymph from the medial iliac nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Chyle vs chyme?",
+     "a": "Chyle = fat-rich milky lymph in lacteals; chyme = partly digested food in the stomach",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Thoracic duct runs where, ends where?",
+     "a": "Roof of the thoracic cavity → joins the cranial vena cava",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Multicentric lymphoma (slide 18)?",
+     "a": "Multiple swollen lymph nodes — here, swollen popliteal nodes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Thoracic limb constant vs inconstant nodes?",
+     "a": "Axillary = constant; accessory axillary = inconstant",
      "star": false,
      "why": ""
     }
@@ -279,79 +445,91 @@
    "items": [
     {
      "q": "Lumbosacral plexus is made of…",
-     "a": "Ventral branches of spinal nerves L3–S3 (dog)",
+     "a": "Ventral branches of spinal nerves L3–S3 (dorsal branches go to epaxial muscles)",
      "star": true,
-     "why": "Slide 20 bullet"
+     "why": "Slide 20 + lecture"
     },
     {
-     "q": "Lumbosacral plexus supplies…",
-     "a": "The nerves to the pelvic limb muscles",
+     "q": "Brachial plexus segments? (compare)",
+     "a": "C6–T2",
      "star": false,
      "why": ""
     },
     {
-     "q": "Ilioinguinal n. segment?",
-     "a": "L3",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Lateral cutaneous femoral n. segments?",
-     "a": "L3–L4",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Genitofemoral n. segments?",
-     "a": "L3–L4",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Femoral n. segments?",
-     "a": "L4–L6",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Obturator n. segments?",
-     "a": "L4–L6",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Sciatic n. segments?",
-     "a": "L6–L7–S1",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Sciatic n. ends as…",
-     "a": "Tibial n. (L6–L7–S1) and common fibular n. → superficial + deep fibular (L6–L7)",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "S1–S3 nerve at the sacral end of the plexus (slide 21)?",
-     "a": "Pudendal n. (slide mislabels it 'superficial fibular')",
+     "q": "S1–S3 nerve at the sacral end of slide 21?",
+     "a": "Pudendal n. — slide mislabels it 'superficial fibular'",
      "star": true,
-     "why": "Dr. Malreddy corrected this slide in lecture 10/26 — likely tested"
+     "why": "Corrected in lecture: 'if you could write that down'"
     },
     {
-     "q": "Caudal cutaneous femoral n. segments?",
-     "a": "S1–S2",
+     "q": "Pudendal n. goes to…",
+     "a": "Pelvic viscera + external anal sphincter (via caudal rectal n.)",
      "star": false,
      "why": ""
     },
     {
-     "q": "Dorsal n. of the penis segments?",
-     "a": "S1–S2",
+     "q": "Ilioinguinal n. (seen where)?",
+     "a": "Lateral abdominal wall (L3)",
      "star": false,
      "why": ""
     },
     {
-     "q": "Sural nerves on slide 21?",
-     "a": "Proximal caudal cutaneous sural (L6–L7–S1), lateral cutaneous sural (L6–L7), distal caudal cutaneous sural (L7–S1)",
+     "q": "Lateral cutaneous femoral n. runs with…",
+     "a": "Deep circumflex iliac a. + v.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Genitofemoral n. exits with…",
+     "a": "External pudendal a. + v. through the superficial inguinal ring",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Femoral n. goes to…",
+     "a": "Quadriceps (disappears deep into the quads)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Obturator n. goes to…",
+     "a": "Adductor muscles, medial thigh",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Biggest nerve of the plexus?",
+     "a": "Sciatic n.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sciatic n. divides into…",
+     "a": "Common fibular (cranial division) + tibial n. (caudal division)",
+     "star": true,
+     "why": "Main division"
+    },
+    {
+     "q": "Common fibular = ?",
+     "a": "Common peroneal (old name) → superficial fibular + deep fibular",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal cutaneous femoral n. supplies…",
+     "a": "Skin of the caudal thigh",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal n. of the penis runs with…",
+     "a": "Dorsal a. of the penis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumbosacral trunk?",
+     "a": "Common nerve stem giving cranial gluteal, caudal gluteal, caudal rectal + sciatic ('not sure you need to know')",
      "star": false,
      "why": ""
     }
@@ -361,50 +539,68 @@
    "title": "💪 Nerve → muscles (slide 22)",
    "items": [
     {
-     "q": "Femoral n. (L4, 5, 6) innervates…",
+     "q": "Femoral n. →",
      "a": "Iliopsoas, quadriceps, sartorius",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "'Main thing = these muscles and these nerves'"
     },
     {
-     "q": "Obturator n. ((L4), 5, 6) innervates…",
+     "q": "Obturator n. →",
      "a": "External obturator, pectineus, gracilis, adductor",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Kahoot"
     },
     {
-     "q": "Cranial gluteal n. (L6, 7, S1) innervates…",
+     "q": "Cranial gluteal n. →",
      "a": "Middle gluteal, deep gluteal, tensor fasciae latae",
+     "star": true,
+     "why": "Named nerve → muscles"
+    },
+    {
+     "q": "Caudal gluteal n. →",
+     "a": "Superficial gluteal (+ a few branches to the middle gluteal)",
+     "star": true,
+     "why": "Named nerve → muscles"
+    },
+    {
+     "q": "Sciatic n. (muscular branches) →",
+     "a": "Hamstrings: biceps femoris, semimembranosus, semitendinosus",
+     "star": true,
+     "why": "Named nerve → muscles"
+    },
+    {
+     "q": "Common fibular (peroneal) n. →",
+     "a": "Digital EXTENSORS: fibularis longus, lateral digital extensor, long digital extensor, cranial tibial",
+     "star": true,
+     "why": "Fibular = extensors"
+    },
+    {
+     "q": "Tibial n. →",
+     "a": "Digital FLEXORS + gastrocnemius + popliteus (superficial + deep digital flexors)",
+     "star": true,
+     "why": "Tibial = flexors"
+    },
+    {
+     "q": "Gastrocnemius inserts on / action at the tarsus?",
+     "a": "Calcanean tuber via the common calcanean tendon → EXTENDS the tarsus",
+     "star": true,
+     "why": "Asked in lecture"
+    },
+    {
+     "q": "Tibial n. muscles overall: tarsus vs digits?",
+     "a": "Extend the tarsus, flex the digits",
      "star": false,
      "why": ""
     },
     {
-     "q": "Caudal gluteal n. (L7, (S1, 2)) innervates…",
-     "a": "Superficial gluteal (middle gluteal)",
+     "q": "Pudendal n. → caudal rectal n. →",
+     "a": "External anal sphincter",
      "star": false,
      "why": ""
     },
     {
-     "q": "Sciatic n. (L6, 7, S1, (2)) innervates…",
-     "a": "Biceps femoris, semimembranosus, semitendinosus",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Common peroneal (common fibular) n. innervates…",
-     "a": "Peroneus (fibularis) longus, lateral digital extensor, long digital extensor, cranial tibial",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Tibial n. innervates…",
-     "a": "Gastrocnemius, popliteus, superficial digital flexor, deep digital flexor",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Pudendal n. segments and its branch?",
-     "a": "S1, 2, 3 → caudal rectal n. → external anal sphincter",
+     "q": "How to reason about nerve injury?",
+     "a": "Use the line diagrams: muscle location → action → which joint loses function",
      "star": false,
      "why": ""
     }
@@ -414,8 +610,56 @@
    "title": "📍 Skin zones & testing sites (slides 23–24)",
    "items": [
     {
-     "q": "Nerves with autonomous zones on slide 23?",
-     "a": "Caudal cutaneous femoral, genitofemoral, lateral cutaneous femoral, fibular, saphenous, sciatic, tibial",
+     "q": "Autonomous zone of the caudal cutaneous femoral n.?",
+     "a": "Caudal (and caudolateral) thigh, near the ischiatic tuberosity",
+     "star": true,
+     "why": "'Important figure'"
+    },
+    {
+     "q": "Autonomous zone of the lateral cutaneous femoral n.?",
+     "a": "Lateral thigh, cranial to the caudal cutaneous femoral zone",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomous zone of the genitofemoral n.?",
+     "a": "Medial thigh",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Saphenous n. is a branch of… and carries…",
+     "a": "Femoral n.; mainly sensory from the medial leg",
+     "star": true,
+     "why": "Lecture confirmed"
+    },
+    {
+     "q": "Saphenous n., a. and v. travel together where?",
+     "a": "Medial aspect: saphenous n. + saphenous a. + MEDIAL saphenous v.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomous zone of the sciatic n.?",
+     "a": "Caudal + lateral leg (before it divides)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomous zone of the tibial n.?",
+     "a": "Plantar paw + half of the lateral digit (like the ulnar n. in the thoracic limb)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomous zone of the fibular n.?",
+     "a": "Dorsal paw",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why test cutaneous nerves?",
+     "a": "No response to a pinch = nerve injury; can roughly localize spinal cord damage (e.g., hit by car)",
      "star": false,
      "why": ""
     },
@@ -446,12 +690,6 @@
     {
      "q": "Testing site: caudal cutaneous femoral n.?",
      "a": "4 cm distal to the ischiatic tuberosity",
-     "star": false,
-     "why": ""
-    },
-    {
-     "q": "Saphenous n. is a branch of…",
-     "a": "Femoral n. (outside knowledge — slide 24 shows the site only)",
      "star": false,
      "why": ""
     }

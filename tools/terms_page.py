@@ -43,7 +43,7 @@ PAGES = [("L17", "gross-anatomy-lc17-cards.html", "L17 Terms · Nervous System 1
          ("L24", "gross-anatomy-lc24-cards.html", "L24 Terms · Female Reproductive"),
          ("L25", "gross-anatomy-lc25-cards.html", "L25 Terms · Abdominal Radiology"),
          ("PATTERNS", "gross-anatomy-patterns.html", "Memory Patterns · Exam 3"),
-         ("L26", "gross-anatomy-lc26-cards.html", "L26 Terms · Pelvic Limb Vessels & Nerves (slides · lecture Monday)", "gross-anatomy-exam4.html")]
+         ("L26", "gross-anatomy-lc26-cards.html", "L26 Terms · Pelvic Limb Vessels & Nerves", "gross-anatomy-exam4.html")]
 
 def build(key, out, title, V, back="gross-anatomy-exam3.html"):
     d = json.load(open(os.path.join(HERE, "terms", key + ".json")))
