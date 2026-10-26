@@ -3,7 +3,7 @@ Format matches tools/bold.py: (term, [lowercase search aliases], note).  Made by
 from bold import T
 import p3bold
 P4BOLD={
-25: p3bold.P3BOLD[25],   # Lab 25 = male + female reproductive (same list as built for Practical 3)
+# Lab 25 (reproductive) is on PRACTICAL 3, not Practical 4 (Bethany, Oct 26).
 26:[T('caudal gluteal artery'),T('cranial gluteal artery'),T('cranial gluteal nerve'),T('iliolumbar artery'),
     T('external iliac artery','external iliac arteries','ext. iliac'),T('vascular lacuna'),T('deep femoral artery'),
     T('caudal epigastric artery'),T('femoral triangle'),T('medial circumflex femoral artery'),
