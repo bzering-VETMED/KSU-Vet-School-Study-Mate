@@ -88,7 +88,7 @@ texts = [
  ("Lesser curvature vs. greater curvature arteries?", ["Lesser curvature: right and left gastric aa.","Greater curvature: right and left gastroepiploic aa."]),
  ("Arteries of the duodenum?", ["Cranial pancreatoduodenal a.","Caudal pancreatoduodenal a."]),
  ("Arteries of the jejunum and ileum?", ["Jejunal aa.","Ileal aa.","Antimesenteric ileal a. (from the cecal a.)"]),
- ("The cecocolic a. gives off…", ["Cecal a. (→ antimesenteric ileal a.)","Colic a. (ascending colon)"]),
+ ("Three branches of the ileocolic a.?", ["Colic branch","Mesenteric ileal branch","Cecal branch (→ antimesenteric ileal a.)"]),
  ("Tributaries of the caudal vena cava, cranial → caudal?", ["Hepatic veins","Phrenicoabdominal veins","Renal veins","Right ovarian/testicular vein","Deep circumflex iliac veins","Common iliac veins (formed at the caudal end)"]),
  ("Right vs. left ovarian/testicular vein drain into…", ["Right: caudal vena cava","Left: left renal vein"]),
  ("Veins draining into the portal vein?", ["Gastroduodenal V.","Splenic V.","Caudal mesenteric V.","Cranial mesenteric V. (with jejunal branches and caudal pancreaticoduodenal V.)"]),
