@@ -244,6 +244,29 @@ if L16:
     Q.save('assets/p3draw_l16ligs.jpg',quality=92)
     card(16,['yellow ligament','intercapital ligament','nucleus pulposus','intervertebral disc','ventral longitudinal ligament','dorsal longitudinal ligament'],'Ligaments of the vertebral column + ribs: ventral view (left), dorsal view with arches removed (right). Name each number.','assets/p3draw_l16ligs.jpg?v={V}',' · '.join(ans),
      'Intercapital ligament: joins the two rib heads across the floor of the vertebral canal (T2–T10), dorsal to the disc. Yellow ligament: between the arches of neighboring vertebrae. Nucleus pulposus = soft center of the disc, annulus fibrosus = outer ring',[],'📖 lab guide Fig 2-85 + 2-86 · Lab 16 (labels → badges)')
+
+    # Fig 2-83 (Lab 16 notes p3): atlas/axis ligaments incl. transverse ligament of the atlas
+    p=doc[2]; R=pymupdf.Rect(40,495,300,724); lines=[]
+    for bl in p.get_text('dict')['blocks']:
+        for l in bl.get('lines',[]):
+            tx=' '.join(s_['text'] for s_ in l['spans']).strip(); r=pymupdf.Rect(l['bbox'])
+            if tx and r.intersects(R) and not tx.startswith('Fig') and len(tx)<45: lines.append([r,re.sub(r'\s+',' ',tx)])
+    lines.sort(key=lambda x:(x[0].y0,x[0].x0)); blocks=[]
+    for r,tx in lines:
+        pr=next((b_ for b_ in reversed(blocks) if 0<=r.y0-b_[0].y1<4 and abs(r.x0-b_[0].x0)<40),None)
+        if pr and (tx[:1].islower() or pr[1].endswith('-')): pr[0]|=r; pr[1]+=(' ' if not pr[1].endswith('-') else '')+tx
+        else: blocks.append([r,tx])
+    for w in p.get_text('words'):
+        if pymupdf.Rect(w[:4]).intersects(R): p.add_redact_annot(pymupdf.Rect(w[:4])+(-1,-1,1,1),fill=False)
+    p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+    q=p.get_pixmap(matrix=pymupdf.Matrix(3,3),clip=R); Q=Image.frombytes('RGB',(q.w,q.h),q.samples); dr=ImageDraw.Draw(Q); ans=[]
+    for r,tx in blocks:
+        if 'Transverse' not in tx: continue
+        cx,cy=((r.x0+r.x1)/2-R.x0)*3,((r.y0+r.y1)/2-R.y0)*3
+        ans.append(f'#{len(ans)+1} Transverse ligament of the atlas'); dr.ellipse([cx-24,cy-24,cx+24,cy+24],fill=(224,95,168),outline='white',width=4); dr.text((cx,cy),str(len(ans)),font=F,fill='white',anchor='mm')
+    Q.save('assets/p3draw_l16atlas.jpg',quality=92)
+    card(16,['transverse ligament of the atlas'],'Atlas + axis, dorsolateral view (lab guide Fig 2-83, dorsal arch cut away). Name #1.','assets/p3draw_l16atlas.jpg?v={V}',' · '.join(ans),
+     'Transverse ligament of the atlas: across the floor of the atlas, holding the dens down against it',[],'📖 lab guide Fig 2-83 · Lab 16 (labels → badges)')
     body=(f'<path d="M80 250 C80 180 160 150 230 160 L300 175 L300 330 L230 340 C160 350 80 320 80 250 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/>'
      f'<path d="M300 200 L420 190 L430 300 L300 310 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/><path d="M430 210 L650 200 C690 200 700 230 690 260 L680 320 L430 330 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/>'
      f'<path d="M470 205 C520 120 640 90 700 110 C690 160 650 190 600 205 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/>'
