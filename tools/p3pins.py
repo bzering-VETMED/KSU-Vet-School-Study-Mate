@@ -7,7 +7,7 @@ sys.path.insert(0,'tools')
 from bs4 import BeautifulSoup
 from deck import page
 V=str(int(time.time()))
-PINS={21:['p3s_abd_1q.jpg','umn_4605.jpg','p3s_abd_7q.jpg','p3s_l24_39_0.jpg','p3s_l23b_30_0.jpg']}
+PINS={23:['p3s_abd_44q.jpg','p3s_l23b_26_0.jpg','p3s_l23b_28_0.jpg','p3s_l23b_30_0.jpg'],21:['p3s_abd_1q.jpg','umn_4605.jpg','p3s_abd_7q.jpg','p3s_l24_39_0.jpg','p3s_l23b_30_0.jpg']}
 pages=[f for f in sorted(glob.glob('gross-anatomy-*.html')) if not re.search(r'star\d|pins\d|mock|games|practical',f)]
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,want in PINS.items():
