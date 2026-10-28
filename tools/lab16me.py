@@ -43,11 +43,6 @@ card('mrln','Identify the purple-dyed structure at the probe.',
  'Medial retropharyngeal lymph node',
  [('📍 Where?','Opposite the larynx, ventrolateral to the carotid sheath'),
   ('🎯 Drains?','Main collecting node of the head + cranial neck → tracheal trunk')]),
-card('lat','Name the 3 strung structures by color.',
- 'Orange: lateral thoracic artery · yellow-green: lateral thoracic vein · teal: lateral thoracic nerve · Axilla: the space they emerge from',
- [('📍 Emerge from?','The axilla, between the latissimus dorsi and the deep pectoral'),
-  ('🧬 Lateral thoracic nerve?','C8 + T1 · motor to the cutaneous trunci (panniculus reflex)'),
-  ('🩸 Artery from / vein to?','Axillary artery / axillary vein')]),
 ]
 EX=[card('neck','Name the deep neck structures exposed (5) + the 2 reflected muscles.',
  'Trachea · larynx · thyroid gland · esophagus · carotid sheath · reflected: cleidocephalicus (mastoid part) + sternocephalicus',[])]
