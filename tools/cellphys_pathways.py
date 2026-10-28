@@ -253,6 +253,47 @@ P[24] = ('★ Gq pathway (TxA₂ → TPβ)', 'LC28 slide 11', 'Thromboxane A₂ 
   ('5 · Net result?', 'DAG/IP₃ activate various pathways → IP₃ raises Ca²⁺ (S26: platelet adhesion, smooth muscle contraction)', K),
   ('Other Gq-coupled eicosanoid receptors (S9, not to memorize)?', 'EP1 (PGE₂), FP (PGF₂α)', U)])
 E4DECKS.append(('cellphys-path5.html', '🔥 LC28 G protein pathways ★', 'Gs ↑cAMP · Gi ↓cAMP · Gq → PLC, DAG, IP₃', [22, 23, 24]))
+P[25] = ('★ Gq/IP₃/DAG · α1-adrenergic → vascular smooth muscle CONTRACTS', 'LC27 slides 7–13', 'Norepinephrine (NE) reaches vascular smooth muscle', [
+  ('1 · Ligand + receptor?', 'NE binds the α1-ADRENERGIC receptor (7-pass GPCR)', K),
+  ('2 · G protein switch?', 'Gq: GDP OUT, GTP IN on αq → αq separates from βγ', K),
+  ('3 · What does αq turn on?', 'PHOSPHOLIPASE C (PLC)', K),
+  ('4 · What does PLC cut, into what?', 'PIP₂ (membrane lipid) → IP₃ + DAG (two second messengers)', K),
+  ('IP₃ arm 5 · What does IP₃ do?', 'Opens receptor-gated channels on the ER → Ca²⁺ released', K),
+  ('IP₃ arm 6 · Ca²⁺ binds?', 'CALMODULIN (CaM)', K),
+  ('IP₃ arm 7 · Ca²⁺-CaM activates?', 'MYOSIN LIGHT CHAIN KINASE (MLCK) → phosphorylates myosin light chain (MLC) → myosin binds actin → CONTRACTION (uses ATP)', K),
+  ('DAG arm 5 · DAG + Ca²⁺ activate?', 'PROTEIN KINASE C (PKC)', K),
+  ('DAG arm 6 · PKC phosphorylates?', 'CPI-17 → which INHIBITS myosin light chain PHOSPHATASE (MLCP)', K),
+  ('DAG arm 7 · Net effect?', 'MLC stays phosphorylated → contraction MAINTAINED (relaxation reduced)', K),
+  ('Termination?', 'NE leaves · αq GTPase: GTP → GDP · IP₃ → inositol, DAG → phosphatidic acid · CPI-17 dephosphorylated → MLCP on · Ca²⁺ pumped back to ER / out of cell', U)])
+P[26] = ('★ Gq/NO/cGMP · H1 histamine → vessel RELAXES', 'LC27 slides 14–18 (S18: two cells)', 'Histamine released by a MAST CELL', [
+  ('1 · Ligand + receptor + WHICH CELL?', 'Histamine binds the H1 receptor on the ENDOTHELIAL cell (S18)', K),
+  ('2–4 · First steps (same as the other Gq)?', 'Gq → αq → PLC → PIP₂ → IP₃ + DAG → IP₃ releases Ca²⁺', K),
+  ('5 · What does Ca²⁺ activate here?', 'NO SYNTHASE → makes nitric oxide (NO, a gas) from ARGININE', K),
+  ('6 · Where does NO go?', 'A gas: diffuses a very SHORT distance from the endothelial cell into the nearby SMOOTH MUSCLE cell, then breaks down (nitrite/nitrate)', K),
+  ('7 · In smooth muscle, NO stimulates?', 'GUANYLYL cyclase: GTP → cGMP', K),
+  ('8 · cGMP activates?', 'PROTEIN KINASE G (PKG)', K),
+  ('9 · PKG phosphorylates?', 'MYPT-1 → STIMULATES myosin phosphatase → MLC dephosphorylated → RELAXATION (vasodilation)', K),
+  ('Compare (S16)!', 'CPI-17 (PKC) INHIBITS myosin phosphatase → contraction · MYPT-1 (PKG) STIMULATES it → relaxation', K),
+  ('Termination?', 'Histamine leaves · αq GTPase · NO oxidized · cGMP → GMP by phosphodiesterases · MYPT-1 dephosphorylated · Ca²⁺ removed', U)])
+P[27] = ('★ Gs/cAMP · β1-adrenergic → heart rate ↑', 'LC27 slides 19–23', 'Norepinephrine at the sinus node (pacemaker cells)', [
+  ('1 · Ligand + receptor?', 'NE binds the β1-ADRENERGIC receptor', K),
+  ('2 · G protein?', 'Gs (stimulatory): GDP → GTP, αs separates from βγ (βγ can activate GIRK channels)', K),
+  ('3 · αs turns on?', 'ADENYLYL CYCLASE: ATP → cAMP', K),
+  ('4a · cAMP binds directly to?', 'HCN channels → faster "funny current" (If) → faster depolarization', K),
+  ('4b · cAMP also activates?', 'PKA (cAMP binds the REGULATORY subunit → catalytic subunit freed)', K),
+  ('5 · PKA phosphorylates?', 'Cav3.1 T-type Ca²⁺ channels (ICa,T) → faster depolarization', K),
+  ('6 · Result?', 'Faster depolarization → HEART RATE ↑', K),
+  ('Termination?', 'NE leaves · αs GTPase · cAMP leaves HCN/PKA · PHOSPHODIESTERASES: cAMP → AMP · phosphatases dephosphorylate', U)])
+P[28] = ('★ Gi/cAMP · M2 muscarinic → heart rate ↓', 'LC27 slides 24–27', 'Acetylcholine (ACh) from parasympathetic (vagal) fibers', [
+  ('1 · Ligand + receptor?', 'ACh binds the M2 MUSCARINIC receptor', K),
+  ('2 · G protein?', 'Gi (inhibitory): GDP → GTP, αi separates from βγ', K),
+  ('3a · What does βγ do here?', 'Opens GIRK (inwardly rectifying K⁺ channel) → HYPERPOLARIZATION', K),
+  ('3b · What does αi do?', 'INHIBITS adenylyl cyclase → cAMP ↓ (phosphodiesterases keep breaking it down)', K),
+  ('4 · Effect on HCN?', 'Fewer HCN channels have cAMP → slower funny current → slower depolarization', K),
+  ('5 · Effect on PKA / Cav3.1?', 'Less PKA → phosphatases dephosphorylate Cav3.1 → less ICa,T', K),
+  ('6 · Result?', 'Hyperpolarized + slower depolarization → HEART RATE ↓', K),
+  ('Termination?', 'ACh leaves · αi GTPase: GTP → GDP · βγ leaves GIRK and rebinds GDP-bound α', U)])
+E4DECKS.append(('cellphys-path6.html', '🔀 LC27 Schultz G protein pathways ★', 'Gq/IP₃/DAG · Gq/NO/cGMP · Gs/cAMP · Gi/cAMP', [25, 26, 27, 28]))
 
 def build_pathways_e4(HUB, V):
     cj = _copyjs(); tiles = ''
