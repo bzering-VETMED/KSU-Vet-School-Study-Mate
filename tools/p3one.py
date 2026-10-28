@@ -45,12 +45,15 @@ for n in map(int,sys.argv[1:]):
             tg=c.select_one('.tagline'); q=c.select_one('.q')
             cands.append(dict(c=c,cov=cov,q=qual(tg.get_text() if tg else '',q.get_text() if q else ''),src=im['src'].split('?')[0],f=f))
     got=set(); pick=[]; used=set()
+    for k in cands:   # 📌 cards Bethany asked to keep in ⭐ go first
+        if '📌' in k['c'].get_text() and k['src'] not in used: pick.append((min(k['cov']),k)); used.add(k['src']); got|=k['cov']
     for ti in range(len(T)):
         if ti in got: continue
         opts=[k for k in cands if ti in k['cov'] and k['src'] not in used]
         if not opts: continue
         best=min(opts,key=lambda k:(k['q'],-len(k['cov']-got),len(k['cov'])))
         pick.append((ti,best)); used.add(best['src']); got|=best['cov']
+    pick.sort(key=lambda z:z[0])
     miss=[T[i][0] for i in range(len(T)) if i not in got]
     # write star pages
     for f in os.listdir('.'):
