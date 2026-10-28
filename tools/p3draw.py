@@ -215,5 +215,42 @@ card(23,['short gastric arteries'],'Stomach + spleen, ventral view. Name 1–5.'
  '#1 Splenic artery · #2 Short gastric arteries · #3 Left gastroepiploic artery · #4 Spleen · #5 Stomach (fundus/body)',
  'Short gastric arteries leave the splenic branches at the cranial (dorsal) end of the spleen and run in the gastrosplenic ligament to the fundus / greater curvature. The splenic artery continues as the left gastroepiploic along the greater curvature',
  [('🔁 Celiac','Celiac → hepatic, left gastric, splenic (→ short gastrics + left gastroepiploic)')])
+
+# ---------- Lab 16 · ligaments of vertebral column (lab guide Fig 2-85/2-86) + dorsal atlantoaxial ligament schematic
+L16=sys.argv[3] if len(sys.argv)>3 else None
+if L16:
+    doc=pymupdf.open(L16); p=doc[3]; R=pymupdf.Rect(55,395,580,600); lines=[]
+    for bl in p.get_text('dict')['blocks']:
+        for l in bl.get('lines',[]):
+            tx=' '.join(s_['text'] for s_ in l['spans']).strip(); r=pymupdf.Rect(l['bbox'])
+            if tx and r.intersects(R): lines.append([r,re.sub(r'\s+',' ',tx)])
+    lines.sort(key=lambda x:(x[0].y0,x[0].x0)); blocks=[]
+    for r,tx in lines:
+        pr=next((b_ for b_ in reversed(blocks) if 0<=r.y0-b_[0].y1<4 and abs(r.x0-b_[0].x0)<40),None)
+        if pr and (tx[:1].islower() or re.search(r'\b(of|the)$',pr[1])): pr[0]|=r; pr[1]+=' '+tx
+        else: blocks.append([r,tx])
+    for w in p.get_text('words'):
+        if pymupdf.Rect(w[:4]).intersects(R): p.add_redact_annot(pymupdf.Rect(w[:4])+(-1,-1,1,1),fill=False)
+    p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+    q=p.get_pixmap(matrix=pymupdf.Matrix(3,3),clip=R); Q=Image.frombytes('RGB',(q.w,q.h),q.samples); dr=ImageDraw.Draw(Q); ans=[]
+    W16={'yellow':'Yellow ligament','intercapital':'Intercapital ligament','nucleus':'Nucleus pulposus','intervertebral':'Intervertebral disc','ventral longitudinal':'Ventral longitudinal ligament','dorsal longitudinal':'Dorsal longitudinal ligament'}
+    for r,tx in blocks:
+        for part in re.split(r'(?<=disc) (?=Intercapital)',tx):
+            k=next((v for k2,v in W16.items() if k2 in part.lower()),None)
+            if not k: continue
+            cx,cy=((r.x0+r.x1)/2-R.x0)*3,((r.y0+r.y1)/2-R.y0)*3
+            if part!=tx: cy+= -14 if 'disc' in part.lower() else 14
+            ans.append(f'#{len(ans)+1} {k}'); dr.ellipse([cx-24,cy-24,cx+24,cy+24],fill=(224,95,168),outline='white',width=4); dr.text((cx,cy),str(len(ans)),font=F,fill='white',anchor='mm')
+    Q.save('assets/p3draw_l16ligs.jpg',quality=92)
+    card(16,['yellow ligament','intercapital ligament','nucleus pulposus','intervertebral disc','ventral longitudinal ligament','dorsal longitudinal ligament'],'Ligaments of the vertebral column + ribs: ventral view (left), dorsal view with arches removed (right). Name each number.','assets/p3draw_l16ligs.jpg?v={V}',' · '.join(ans),
+     'Intercapital ligament: joins the two rib heads across the floor of the vertebral canal (T2–T10), dorsal to the disc. Yellow ligament: between the arches of neighboring vertebrae. Nucleus pulposus = soft center of the disc, annulus fibrosus = outer ring',[],'📖 lab guide Fig 2-85 + 2-86 · Lab 16 (labels → badges)')
+    body=(f'<path d="M80 250 C80 180 160 150 230 160 L300 175 L300 330 L230 340 C160 350 80 320 80 250 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/>'
+     f'<path d="M300 200 L420 190 L430 300 L300 310 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/><path d="M430 210 L650 200 C690 200 700 230 690 260 L680 320 L430 330 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/>'
+     f'<path d="M470 205 C520 120 640 90 700 110 C690 160 650 190 600 205 Z" fill="#f1ece4" stroke="#bfb3a3" stroke-width="4"/>'
+     f'<path d="M330 195 C380 150 450 140 500 165" stroke="#e05fa8" stroke-width="10" fill="none"/><path d="M300 330 L430 330" stroke="#7b42a0" stroke-width="8"/>'
+     +b(400,120,1,405,165)+b(150,250,2)+b(365,255,3)+b(560,265,4)+b(640,140,5)+t(20,420,'Atlas + axis, left lateral schematic · cranial LEFT · skull not shown',15))
+    card(16,['dorsal atlantoaxial ligament'],'Atlas + axis, lateral schematic. Name 1–5.',svg('atlantoaxial',800,440,body),
+     '#1 Dorsal atlantoaxial ligament · #2 Atlas (C1) · #3 Atlantoaxial joint · #4 Axis (C2) · #5 Spinous process of the axis',
+     'Dorsal atlantoaxial ligament: dorsal arch of the atlas → cranial end of the spinous process of the axis (dorsal to the atlantoaxial joint)',[('🔁 Others here','Transverse ligament of the atlas holds the dens to the atlas floor; apical + alar ligaments join the dens to the skull')])
 json.dump(C,open('tools/p3draw_cards.json','w'))
 print({k:len(v) for k,v in C.items()})
