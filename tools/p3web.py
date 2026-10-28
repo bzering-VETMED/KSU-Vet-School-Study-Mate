@@ -75,7 +75,7 @@ if os.path.exists('assets/p3web_vulva_draw.jpg'):
 if os.path.exists('assets/p3web_abdnerves_photo.jpg'):
     C[21]=[img_card_facts('Left abdominal wall, internal oblique (6) reflected dorsally; cranial LEFT. Name nerves A–E on the transversus abdominis (7), and 1–8.',f'assets/p3web_abdnerves_photo.jpg?v={V}',
      'E Lateral cutaneous femoral nerve (L4) · D Ilioinguinal nerve (L3) · C Caudal iliohypogastric nerve (L2) · B Cranial iliohypogastric nerve (L1) · A Costoabdominal nerve (T13) · 1 Spermatic cord · 2 External pudendal vessels · 3 Superficial inguinal ring · 4 Superficial inguinal lymph node · 5 External abdominal oblique · 6 Internal abdominal oblique · 7 Transversus abdominis · 8 Rectus abdominis',
-     'Why: F sits at the cut caudal edge of the internal oblique, where L4 perforates it (lab guide p150); matches Dr. Klinger's review count (L4, 3, 2, 1, T13). 13th rib not visible, so levels are a best read','',
+     'E sits at the cut caudal edge of the internal oblique, where L4 perforates it (lab guide p150); matches Dr. Klinger\'s review count (L4, 3, 2, 1, T13)','',
      [('⚠️ Confirm','Ask the TA / check a dog: T13 runs along the caudal border of the 13th rib; L4 comes out with the deep circumflex iliac vessels'),('🧠 Order','Cranial → caudal: costoabdominal T13 · cranial iliohypogastric L1 · caudal iliohypogastric L2 · ilioinguinal L3 · lateral cutaneous femoral L4')],
      '🌐 web photo (dog, fresh tissue) · sent by Bethany · asterisks → letters A–E')]
 if os.path.exists('assets/p3web_klinger_l4.jpg'):
