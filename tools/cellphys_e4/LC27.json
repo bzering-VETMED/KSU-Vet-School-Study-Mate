@@ -1,0 +1,1046 @@
+{
+ "lc": 27,
+ "prof": "Schultz",
+ "title": "G Protein-Coupled Receptors",
+ "emoji": "🔀",
+ "date": "Wed 10/28",
+ "terms": [
+  [
+   "G protein-coupled receptor (GPCR)",
+   "Most common cell-surface receptor type; ligands for and effects of many still undetermined. Also called G-protein-linked receptor.",
+   "S1, S2, S30",
+   true
+  ],
+  [
+   "GPCR drug targets",
+   ">800 human GPCR genes; 475 approved drugs (34%) target 108 GPCRs; 27% of global drug market.",
+   "S2",
+   false
+  ],
+  [
+   "Seven-pass transmembrane protein",
+   "GPCR topology: crosses the membrane 7 times ('seven-pass' underlined on slide); N-terminus outside, C-terminus in cytosol.",
+   "S3, S30",
+   true
+  ],
+  [
+   "Extracellular ligand-binding site",
+   "Domain on the interstitial side that binds the first messenger (e.g., norepinephrine, histamine, acetylcholine).",
+   "S3, S30",
+   true
+  ],
+  [
+   "G protein binding site",
+   "Intracellular (cytosolic) receptor domain that binds the heterotrimeric G protein.",
+   "S3, S30",
+   true
+  ],
+  [
+   "Phosphorylation sites (receptor)",
+   "Sites on the cytosolic C-terminal tail of the GPCR (shown in S3 figure; function not stated on slide).",
+   "S3",
+   false
+  ],
+  [
+   "Heterotrimeric G protein",
+   "Three-subunit (α, β, γ) guanine-nucleotide binding protein coupling the GPCR to cytosolic targets: commonly ion channels or enzymes.",
+   "S1, S3, S4",
+   true
+  ],
+  [
+   "α (alpha) subunit",
+   "Binds GDP/GTP; has GTPase activity; mediates signaling in many (most) pathways (αq, αs, αi).",
+   "S4, S5",
+   true
+  ],
+  [
+   "βγ (beta-gamma) subunit",
+   "Dissociates from α when GTP binds; mediates signaling in some pathways (e.g., activates GIRK in Gi pathway).",
+   "S4, S26",
+   true
+  ],
+  [
+   "Molecular switch",
+   "G protein toggles off (GDP-bound) and on (GTP-bound).",
+   "S5",
+   true
+  ],
+  [
+   "GDP-bound = 'switched off'",
+   "Guanosine diphosphate on α: trimer intact (α with βγ), inactive.",
+   "S5",
+   true
+  ],
+  [
+   "GTP-bound = 'switched on'",
+   "Activated receptor causes GTP-for-GDP exchange; G protein switches on and α and βγ dissociate.",
+   "S5, S30",
+   true
+  ],
+  [
+   "GTPase activity (of α)",
+   "α subunit hydrolyzes its own GTP to GDP after a short period: switches off and re-associates with βγ.",
+   "S5",
+   true
+  ],
+  [
+   "Monomeric G protein (e.g., RAS)",
+   "Single-subunit G protein that is also a molecular 'switch'.",
+   "S5",
+   false
+  ],
+  [
+   "Gq",
+   "G protein whose αq stimulates phospholipase C; drives both Gq/IP3/DAG and Gq/NO/cGMP pathways.",
+   "S6, S10, S15",
+   true
+  ],
+  [
+   "Gs ('stimulatory')",
+   "G protein whose αs stimulates adenylyl cyclase: cAMP ↑, protein kinase A ↑.",
+   "S6, S22",
+   true
+  ],
+  [
+   "Gi ('inhibitory')",
+   "G protein whose αi inhibits adenylyl cyclase: cAMP ↓, protein kinase A ↓.",
+   "S6, S26",
+   true
+  ],
+  [
+   "Other G proteins (GOlf, GGust, transducin, G12, G13)",
+   "Additional G proteins to be presented in cell and systems physiology, not in this lecture.",
+   "S6",
+   false
+  ],
+  [
+   "Second messenger",
+   "Intracellular signal made after G protein activation; the 4 prototypical pathways are named for the G protein + second messenger(s).",
+   "S6, S30",
+   true
+  ],
+  [
+   "Phospholipases (PLA2, PLA1, PLD, PLC)",
+   "Enzymes cutting different bonds of a membrane phospholipid; PLC is the one in the Gq pathway.",
+   "S8",
+   false
+  ],
+  [
+   "Phospholipase C (PLC)",
+   "Stimulated by αq; cleaves PIP2 into IP3 + DAG (bold on S10).",
+   "S8, S10, S15",
+   true
+  ],
+  [
+   "PIP2: phosphatidylinositol bisphosphate",
+   "Membrane lipid broken down by PLC into IP3 and DAG (S15 calls it 'phosphoinositol diphosphate').",
+   "S8, S10, S15",
+   true
+  ],
+  [
+   "IP3: inositol trisphosphate",
+   "Second messenger: opens receptor-gated channels on endoplasmic reticulum to release Ca²⁺ (S15: 'phosphoinositol triphosphate').",
+   "S10, S11, S15",
+   true
+  ],
+  [
+   "DAG: diacylglycerol",
+   "Second messenger that, together with Ca²⁺, activates protein kinase C.",
+   "S10, S12",
+   true
+  ],
+  [
+   "α1-adrenergic receptor",
+   "Norepinephrine receptor on vascular smooth muscle; Gq/IP3/DAG → vasoconstriction.",
+   "S10, S29",
+   true
+  ],
+  [
+   "Norepinephrine (NE)",
+   "Ligand for α1 (Gq, vascular smooth muscle) and β1 (Gs, pacemaker) receptors.",
+   "S10, S22",
+   true
+  ],
+  [
+   "Endoplasmic / sarcoplasmic reticulum",
+   "Intracellular Ca²⁺ store emptied through IP3-activated receptor-gated channels.",
+   "S11, S15",
+   true
+  ],
+  [
+   "Calmodulin (CaM)",
+   "Ca²⁺-binding protein that imparts Ca²⁺ sensitivity to proteins it interacts with.",
+   "S11",
+   true
+  ],
+  [
+   "Myosin light chain kinase (MLCK)",
+   "Activated by Ca²⁺–CaM; phosphorylates MLC → contraction.",
+   "S11",
+   true
+  ],
+  [
+   "Myosin light chain (MLC)",
+   "Phosphorylated MLC raises myosin head affinity for actin; cross-bridge cycling needs ATP hydrolysis.",
+   "S11, S13",
+   true
+  ],
+  [
+   "Protein kinase C (PKC)",
+   "Activated by DAG + Ca²⁺ together; phosphorylates CPI-17.",
+   "S6, S12",
+   true
+  ],
+  [
+   "CPI-17",
+   "C-kinase potentiated protein phosphatase inhibitor, 17 kDa; phosphorylated by PKC → INHIBITS MLCP → contraction maintained.",
+   "S12",
+   true
+  ],
+  [
+   "Myosin light chain phosphatase (MLCP)",
+   "Dephosphorylates MLC → relaxation; inhibited by CPI-17, stimulated via MYPT-1.",
+   "S12, S13, S16",
+   true
+  ],
+  [
+   "Inositol / phosphatidic acid",
+   "Breakdown products of IP3 and DAG, respectively (termination).",
+   "S13, S17",
+   true
+  ],
+  [
+   "Ca²⁺ removal",
+   "Termination: transport into intracellular stores (Ca²⁺-ATPase) + export out of cell (exchangers and pumps).",
+   "S13, S17",
+   true
+  ],
+  [
+   "H1 histaminergic receptor",
+   "Histamine receptor; Gq → PLC → IP3 → Ca²⁺ → NO/cGMP → vasodilation (S29: on vascular endothelium).",
+   "S15, S18, S29",
+   true
+  ],
+  [
+   "Histamine (His)",
+   "Released from mast cells (S18); ligand for H1 (Gq/NO/cGMP) and H2 (Gs, stomach acid).",
+   "S15, S18, S28",
+   true
+  ],
+  [
+   "Nitric oxide synthase (NOS)",
+   "Activated by Ca²⁺; makes NO from the amino acid arginine.",
+   "S16",
+   true
+  ],
+  [
+   "Nitric oxide (NO)",
+   "Gaseous second messenger; diffuses very short distances, then breaks down to nitrite/nitrate (NO2⁻/NO3⁻).",
+   "S16, S17",
+   true
+  ],
+  [
+   "Guanylyl cyclase",
+   "Stimulated by NO; makes cGMP from GTP.",
+   "S16",
+   true
+  ],
+  [
+   "cGMP: cyclic guanosine monophosphate",
+   "Second messenger that stimulates PKG; broken down by phosphodiesterases to GMP.",
+   "S16, S17",
+   true
+  ],
+  [
+   "Protein kinase G (PKG)",
+   "cGMP-activated kinase; phosphorylates MYPT-1.",
+   "S6, S16",
+   true
+  ],
+  [
+   "MYPT-1: myosin phosphatase target 1",
+   "Phosphorylated by PKG → STIMULATES myosin phosphatase → relaxation (opposite of CPI-17).",
+   "S16",
+   true
+  ],
+  [
+   "Endothelial cell → smooth muscle (S18)",
+   "S18 figure: H1 + NOS in endothelial cell; NO diffuses to smooth muscle → guanylyl cyclase → PKG → vasodilation.",
+   "S18",
+   false
+  ],
+  [
+   "β1-adrenergic receptor",
+   "Norepinephrine receptor in cardiac pacemaker cells; Gs/cAMP → ↑ heart rate.",
+   "S22, S28",
+   true
+  ],
+  [
+   "Adenylyl cyclase",
+   "Stimulated by αs, inhibited by αi; makes cAMP from ATP.",
+   "S22, S26",
+   true
+  ],
+  [
+   "cAMP: cyclic adenosine monophosphate",
+   "Second messenger; binds HCN directly and the regulatory subunit of PKA.",
+   "S22",
+   true
+  ],
+  [
+   "Protein kinase A (PKA)",
+   "cAMP binds regulatory subunit → catalytic subunit active; phosphorylates Cav3.1.",
+   "S22",
+   true
+  ],
+  [
+   "HCN channel",
+   "Hyperpolarization and cyclic nucleotide gated cation channel; cAMP binding speeds its activation.",
+   "S20, S22",
+   true
+  ],
+  [
+   "Funny current (If)",
+   "'Pacemaker' current through HCN channels; drives phase 4 potential toward threshold.",
+   "S20, S22",
+   true
+  ],
+  [
+   "Cav3.1 / ICa,T",
+   "T-type Ca²⁺ channel/current; activates at threshold and generates the action potential upstroke (phase 0).",
+   "S20, S22",
+   true
+  ],
+  [
+   "Pacemaker action potential phases 4, 0, 3",
+   "Phase 4 slow depolarization (If) → phase 0 upstroke (ICa,T) → phase 3 repolarization.",
+   "S19, S20",
+   false
+  ],
+  [
+   "Sinoatrial (SA) node",
+   "Cardiac pacemaker / sinus node: the example tissue for the Gs and Gi pathways.",
+   "S19, S24",
+   false
+  ],
+  [
+   "Phosphodiesterases (PDE)",
+   "Break down cAMP → AMP (many types) and cGMP → GMP; ongoing activity lowers cAMP in Gi.",
+   "S17, S23, S26",
+   true
+  ],
+  [
+   "Phosphatases",
+   "Dephosphorylate proteins (Cav3.1, CPI-17, MYPT-1); many types.",
+   "S13, S17, S23, S26",
+   true
+  ],
+  [
+   "M2 muscarinic receptor",
+   "Acetylcholine receptor in cardiac pacemaker cells; Gi/cAMP + βγ-GIRK → ↓ heart rate.",
+   "S26, S29",
+   true
+  ],
+  [
+   "Acetylcholine (ACh)",
+   "Released from parasympathetic fibers; M2 (Gi, heart), M1/M3 (Gq, bronchi, pancreatic β-cell), M3 (Gq/NO, endothelium).",
+   "S24, S26, S29",
+   true
+  ],
+  [
+   "GIRK (Kir3) channel",
+   "G protein-gated inwardly rectifying K⁺ channel; activated by βγ in Gi pathway → hyperpolarization.",
+   "S24, S26, S27",
+   true
+  ],
+  [
+   "Pathway bifurcation",
+   "One pathway can branch to multiple effects in a cell (e.g., IP3 arm + DAG arm).",
+   "S10, S30",
+   true
+  ],
+  [
+   "One ligand, many receptor subtypes",
+   "Same ligand can act via different receptor subtypes/pathways in different tissues (e.g., ACh: M2 vs M3).",
+   "S30",
+   true
+  ],
+  [
+   "Different ligands, common cascade",
+   "Different ligands acting on their own receptors in one tissue can activate the same second-messenger cascade.",
+   "S30",
+   true
+  ],
+  [
+   "β2-adrenergic receptor (appendix)",
+   "Gs/cAMP: arteries vasodilation, bronchi bronchodilation, muscle glycogen breakdown.",
+   "S28",
+   false
+  ],
+  [
+   "V1 vs V2 vasopressin receptors (appendix)",
+   "V2 = Gs, kidney distal nephron water reabsorption; V1 = Gq/IP3/DAG, arterial vasoconstriction.",
+   "S28, S29",
+   false
+  ],
+  [
+   "Gs appendix receptors: H2, glucagon, ACTH-R, TSH-R",
+   "H2 stomach acid; glucagon liver glycogen breakdown; ACTH-R cortisol; TSH-R thyroid hormone.",
+   "S28",
+   false
+  ],
+  [
+   "α2-adrenergic receptor (appendix)",
+   "Gi/cAMP: epinephrine on neurons decreases neurotransmitter release.",
+   "S29",
+   false
+  ],
+  [
+   "M1, M3 / AT1, AT2 (appendix)",
+   "Gq/IP3/DAG: ACh bronchoconstriction and insulin secretion; angiotensin arterial vasoconstriction.",
+   "S29",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>CPI-17 vs MYPT-1</b>: CPI-17 is phosphorylated by <b>PKC</b> and <b>INHIBITS</b> MLCP → MLC stays phosphorylated → contraction <b>maintained</b> (S12). MYPT-1 is phosphorylated by <b>PKG</b> and <b>STIMULATES</b> myosin phosphatase → <b>relaxation</b> (S16). Slide says: compare them.",
+  "<b>Gq ≠ always contraction</b>: α1 + Gq/IP3/DAG → contraction (S9–S12); H1 + Gq/NO/cGMP → relaxation/vasodilation (S14–S18). Same G protein, same PLC, opposite tone.",
+  "<b>Same ligand, different receptor</b>: acetylcholine → <b>M2/Gi</b> heart (↓ rate); <b>M1/M3/Gq/IP3/DAG</b> bronchi (constriction); <b>M3/Gq/NO/cGMP</b> vascular endothelium (vasodilation) (S26, S29). Norepinephrine: α1 (Gq) vessels vs β1 (Gs) heart.",
+  "<b>α vs βγ</b>: α carries most signaling and owns the <b>GTPase</b> (S4–S5). βγ activates <b>GIRK</b> in the <b>Gi</b> pathway (S26). On S22 the Gs line 'βγ can activate GIRK/Kir3' is <b>struck through</b>; do not assign GIRK to Gs.",
+  "<b>GDP = OFF, GTP = ON</b>: activation = GDP leaves, GTP binds (exchange), not phosphorylation of GDP. Off-switch = α's own GTPase hydrolyzes GTP → GDP (S5).",
+  "<b>IP3 vs DAG</b>: IP3 → endoplasmic reticulum channel → Ca²⁺ → CaM → MLCK (S11). DAG + Ca²⁺ → PKC → CPI-17 (S12). Breakdown: IP3 → <b>inositol</b>, DAG → <b>phosphatidic acid</b> ('respectively', S13).",
+  "<b>-ase precision</b>: guanylyl <b>cyclase</b> makes cGMP from GTP; adenylyl <b>cyclase</b> makes cAMP from ATP; <b>phosphodiesterase</b> breaks cAMP/cGMP to AMP/GMP; <b>phosphatase</b> removes phosphate from proteins; MLC<b>K</b> (kinase) contracts vs MLC<b>P</b> (phosphatase) relaxes.",
+  "<b>Direct vs kinase-mediated</b>: cAMP binds <b>HCN directly</b> (faster If); cAMP acts on <b>Cav3.1 via PKA phosphorylation</b> (S22). In Gi, Cav3.1 is changed by <b>phosphatases</b> dephosphorylating it (S26).",
+  "<b>Gi lowers cAMP two ways in sequence</b>: αi <b>inhibits adenylyl cyclase</b>, then <b>ongoing phosphodiesterase</b> activity actually drops cAMP (S26). Gi does not destroy cAMP itself.",
+  "<b>Kinase per pathway (S6)</b>: IP3/DAG → <b>PKC</b>; NO/cGMP → <b>PKG</b>; Gs cAMP ↑ → <b>PKA ↑</b>; Gi cAMP ↓ → <b>PKA ↓</b>. Watch arrows ↑/↓ flipped in options."
+ ],
+ "know": [
+  {
+   "title": "G-protein-linked second messenger pathways",
+   "slide": "S6",
+   "note": "The 4 'first discovered and best described' pathways. Dr. Basel (LC28): Schultz wants these memorized.",
+   "headers": [
+    "First step",
+    "G protein",
+    "Second messenger",
+    "Major target"
+   ],
+   "rows": [
+    [
+     "Receptor →",
+     "Gq",
+     "IP3/DAG",
+     "Protein kinase C"
+    ],
+    [
+     "Receptor →",
+     "Gq",
+     "NO/cGMP",
+     "Protein kinase G"
+    ],
+    [
+     "Receptor →",
+     "Gs",
+     "cAMP ↑",
+     "Protein kinase A ↑"
+    ],
+    [
+     "Receptor →",
+     "Gi",
+     "cAMP ↓",
+     "Protein kinase A ↓"
+    ]
+   ],
+   "hide": [
+    2,
+    3
+   ]
+  },
+  {
+   "title": "G protein switch: off vs on",
+   "slide": "S4–S5",
+   "note": "GDP/GTP exchange + subunit dissociation is 'critical for pathway initiation' (S30).",
+   "headers": [
+    "State",
+    "Nucleotide on α",
+    "Subunits",
+    "What happens"
+   ],
+   "rows": [
+    [
+     "Switched off (inactive)",
+     "GDP",
+     "α + βγ associated (trimer)",
+     "No signaling"
+    ],
+    [
+     "Activation",
+     "GDP leaves, GTP binds (exchange)",
+     "Begin to dissociate",
+     "Triggered by ligand-activated receptor"
+    ],
+    [
+     "Switched on (active)",
+     "GTP",
+     "α and βγ dissociated",
+     "α signals in most pathways; βγ in some"
+    ],
+    [
+     "Switching off",
+     "GTP hydrolyzed to GDP by α's own GTPase",
+     "α-GDP re-associates with βγ",
+     "Signal ends after a short period"
+    ]
+   ],
+   "hide": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "title": "Four prototypical pathways side by side",
+   "slide": "S7–S27",
+   "note": "Built from the four pathway slide sets. Say each column top to bottom out loud.",
+   "headers": [
+    "Feature",
+    "Gq/IP3/DAG",
+    "Gq/NO/cGMP",
+    "Gs/cAMP",
+    "Gi/cAMP"
+   ],
+   "rows": [
+    [
+     "Ligand",
+     "Norepinephrine",
+     "Histamine",
+     "Norepinephrine",
+     "Acetylcholine"
+    ],
+    [
+     "Receptor",
+     "α1-adrenergic",
+     "H1 histaminergic",
+     "β1-adrenergic",
+     "M2 muscarinic"
+    ],
+    [
+     "Example tissue",
+     "Vascular smooth muscle",
+     "Vascular smooth muscle (S15) / endothelium → smooth muscle (S18)",
+     "Cardiac pacemaker (sinus node)",
+     "Cardiac pacemaker (sinus node)"
+    ],
+    [
+     "G protein α",
+     "αq",
+     "αq",
+     "αs (stimulatory)",
+     "αi (inhibitory)"
+    ],
+    [
+     "Enzyme",
+     "Phospholipase C",
+     "Phospholipase C → NO synthase → guanylyl cyclase",
+     "Adenylyl cyclase stimulated",
+     "Adenylyl cyclase inhibited"
+    ],
+    [
+     "Second messenger(s)",
+     "IP3 + DAG (+ Ca²⁺)",
+     "IP3 → Ca²⁺ → NO → cGMP",
+     "cAMP ↑",
+     "cAMP ↓"
+    ],
+    [
+     "Kinase / key protein",
+     "MLCK (Ca²⁺–CaM); PKC → CPI-17",
+     "PKG → MYPT-1",
+     "PKA → Cav3.1; cAMP → HCN direct",
+     "Less PKA; HCN lacks cAMP; βγ → GIRK"
+    ],
+    [
+     "Effect",
+     "Contraction (vasoconstriction); DAG arm maintains it",
+     "Relaxation (vasodilation)",
+     "Faster depolarization → ↑ heart rate",
+     "Hyperpolarization + slower depolarization → ↓ heart rate"
+    ],
+    [
+     "Termination",
+     "αq GTPase; IP3 → inositol, DAG → phosphatidic acid; phosphatases on CPI-17; Ca²⁺ removal",
+     "αq GTPase; IP3/DAG breakdown; NO oxidized; PDE: cGMP → GMP; phosphatases on MYPT-1; Ca²⁺ removal",
+     "αs GTPase; cAMP leaves HCN/PKA; PDE: cAMP → AMP; phosphatases",
+     "αi GTPase; βγ leaves GIRK and rebinds α-GDP"
+    ],
+    [
+     "Slides",
+     "S7–S13",
+     "S14–S18",
+     "S19–S23",
+     "S24–S27"
+    ]
+   ],
+   "hide": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "title": "Appendix: signaling by pathway (ligand / tissue / receptor / response)",
+   "slide": "S28–S29",
+   "note": "Slides titled 'Appendix': exam scope unknown until transcript.",
+   "headers": [
+    "Pathway",
+    "Ligand",
+    "Target tissue",
+    "Receptor",
+    "Major response"
+   ],
+   "rows": [
+    [
+     "Gs/cAMP",
+     "Norepinephrine",
+     "Heart",
+     "β1-adrenergic",
+     "Increase heart rate, contraction velocity, contraction force"
+    ],
+    [
+     "Gs/cAMP",
+     "Epinephrine",
+     "Arteries",
+     "β2-adrenergic",
+     "Vasodilation"
+    ],
+    [
+     "Gs/cAMP",
+     "Norepinephrine",
+     "Bronchi",
+     "β2-adrenergic",
+     "Bronchodilation"
+    ],
+    [
+     "Gs/cAMP",
+     "Epinephrine",
+     "Muscle",
+     "β2-adrenergic",
+     "Glycogen breakdown"
+    ],
+    [
+     "Gs/cAMP",
+     "Vasopressin",
+     "Kidney (distal nephron)",
+     "V2",
+     "Water reabsorption"
+    ],
+    [
+     "Gs/cAMP",
+     "Histamine",
+     "Stomach",
+     "H2",
+     "Acid secretion"
+    ],
+    [
+     "Gs/cAMP",
+     "Glucagon",
+     "Liver",
+     "G (slide text cut off)",
+     "Glycogen breakdown"
+    ],
+    [
+     "Gs/cAMP",
+     "ACTH",
+     "Adrenal cortex",
+     "ACTH-R",
+     "Cortisol secretion"
+    ],
+    [
+     "Gs/cAMP",
+     "TSH",
+     "Thyroid gland",
+     "TSH-R",
+     "Thyroid hormone synthesis and secretion"
+    ],
+    [
+     "Gi/cAMP",
+     "Acetylcholine",
+     "Heart",
+     "M2",
+     "Decrease heart rate"
+    ],
+    [
+     "Gi/cAMP",
+     "Epinephrine",
+     "Neuron",
+     "α2-adrenergic",
+     "Decrease neurotransmitter release"
+    ],
+    [
+     "Gq/IP3/DAG",
+     "Norepinephrine",
+     "Arteries",
+     "α1-adrenergic",
+     "Vasoconstriction"
+    ],
+    [
+     "Gq/IP3/DAG",
+     "Acetylcholine",
+     "Bronchi",
+     "M1, M3",
+     "Constriction"
+    ],
+    [
+     "Gq/IP3/DAG",
+     "Acetylcholine",
+     "Pancreatic β-cell",
+     "M1, M3",
+     "Increase insulin secretion"
+    ],
+    [
+     "Gq/IP3/DAG",
+     "Angiotensin",
+     "Arteries",
+     "AT1, AT2",
+     "Vasoconstriction"
+    ],
+    [
+     "Gq/IP3/DAG",
+     "Vasopressin",
+     "Arteries",
+     "V1",
+     "Vasoconstriction"
+    ],
+    [
+     "Gq/NO/cGMP",
+     "Acetylcholine",
+     "Vascular endothelium",
+     "M3",
+     "Vasodilation"
+    ],
+    [
+     "Gq/NO/cGMP",
+     "Histamine",
+     "Vascular endothelium",
+     "H1",
+     "Vasodilation"
+    ]
+   ],
+   "hide": [
+    3,
+    4
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "A heterotrimeric G protein has guanosine diphosphate (GDP) bound to its α subunit. Which describes its state? (select one correct response)",
+   "ok": "Switched off, with α and βγ associated",
+   "bad": [
+    "Switched on, with α and βγ dissociated",
+    "Switched off, with α and βγ dissociated",
+    "Switched on, with α and βγ associated",
+    "Partly on, with only βγ free to signal"
+   ],
+   "why": "GDP on α = switched off; the trimer is intact. GTP = on, and α and βγ dissociate.",
+   "cite": "S5",
+   "sure": true
+  },
+  {
+   "stem": "Which activity switches a heterotrimeric G protein off by converting guanosine triphosphate (GTP) to guanosine diphosphate (GDP)? (select one correct response)",
+   "ok": "GTPase activity of the α subunit itself",
+   "bad": [
+    "GTPase activity of the βγ subunit itself",
+    "Phosphodiesterase activity in the cytosol",
+    "Phosphatase activity acting on the α subunit",
+    "Kinase activity at the receptor's cytosolic tail"
+   ],
+   "why": "The α subunit possesses GTPase activity and hydrolyzes its own GTP to GDP, then re-associates with βγ.",
+   "cite": "S5",
+   "sure": true
+  },
+  {
+   "stem": "Questions 3–4. A hypothetical drug, vasotonin-X, is a full agonist at α1-adrenergic receptors on vascular smooth muscle. Which enzyme does the activated αq subunit stimulate? (select one correct response)",
+   "ok": "Phospholipase C",
+   "bad": [
+    "Phospholipase A2",
+    "Phospholipase D",
+    "Adenylyl cyclase",
+    "Guanylyl cyclase"
+   ],
+   "why": "αq stimulates phospholipase C (PLC), which cleaves phosphatidylinositol bisphosphate (PIP2) into IP3 and DAG.",
+   "cite": "S7, S8, S10",
+   "sure": true
+  },
+  {
+   "stem": "(Linked to question 3.) The diacylglycerol (DAG) made in response to vasotonin-X, together with Ca²⁺, activates which kinase, and which protein does that kinase phosphorylate? Key: PKC/PKG/PKA = protein kinase C/G/A; CPI-17 = C-kinase potentiated phosphatase inhibitor; MYPT-1 = myosin phosphatase target 1. (select one correct response)",
+   "ok": "Protein kinase C, which phosphorylates CPI-17",
+   "bad": [
+    "Protein kinase G, which phosphorylates MYPT-1",
+    "Protein kinase C, which phosphorylates MYPT-1",
+    "Protein kinase A, which phosphorylates CPI-17",
+    "Protein kinase G, which phosphorylates CPI-17"
+   ],
+   "why": "DAG + Ca²⁺ activate protein kinase C (PKC), which phosphorylates CPI-17 (C-kinase potentiated protein phosphatase inhibitor, 17 kDa). MYPT-1 is the PKG substrate.",
+   "cite": "S12",
+   "sure": true
+  },
+  {
+   "stem": "In α1-adrenergic signaling in vascular smooth muscle, what is the effect of phosphorylated CPI-17? (select one correct response)",
+   "ok": "It inhibits myosin light chain phosphatase, maintaining contraction",
+   "bad": [
+    "It stimulates myosin light chain phosphatase, causing relaxation",
+    "It inhibits myosin light chain kinase, causing relaxation of muscle",
+    "It stimulates myosin light chain kinase, initiating contraction",
+    "It inhibits guanylyl cyclase, maintaining smooth muscle contraction"
+   ],
+   "why": "Phosphorylated CPI-17 inhibits MLCP, so MLC stays phosphorylated; the DAG pathway reduces relaxation.",
+   "cite": "S12",
+   "sure": true
+  },
+  {
+   "stem": "In α1-adrenergic signaling, inositol trisphosphate (IP3) produces contraction through which sequence? Key: ER = endoplasmic reticulum; MLCK/MLCP = myosin light chain kinase/phosphatase; MLC = myosin light chain; NO = nitric oxide; PKG/PKA = protein kinase G/A. (select one correct response)",
+   "ok": "ER Ca²⁺ release → calmodulin → MLCK → phosphorylated MLC",
+   "bad": [
+    "ER Ca²⁺ release → calmodulin → MLCP → dephosphorylated MLC",
+    "ER Ca²⁺ release → NO synthase → PKG → phosphorylated MLC",
+    "Cav3.1 Ca²⁺ entry → calmodulin → MLCK → phosphorylated MLC",
+    "ER Ca²⁺ release → calmodulin → PKA → phosphorylated MLC"
+   ],
+   "why": "IP3 opens receptor-gated channels on the endoplasmic reticulum (ER); Ca²⁺–calmodulin activates myosin light chain kinase (MLCK), which phosphorylates myosin light chain (MLC).",
+   "cite": "S11",
+   "sure": true
+  },
+  {
+   "stem": "Per the lecture, phosphorylation of myosin light chain (MLC) by myosin light chain kinase (MLCK) has which direct effect? (select one correct response)",
+   "ok": "Increases affinity of the myosin head for actin",
+   "bad": [
+    "Decreases affinity of the myosin head for actin",
+    "Increases affinity of calmodulin for cytosolic Ca²⁺",
+    "Decreases affinity of the phosphatase for its MLC",
+    "Increases affinity of the actin filament for CPI-17"
+   ],
+   "why": "Phosphorylated MLC raises myosin head affinity for actin; MLCP dephosphorylation lowers it (relaxation).",
+   "cite": "S11, S13",
+   "sure": true
+  },
+  {
+   "stem": "During termination of Gq/IP3/DAG signaling, inositol trisphosphate (IP3) and diacylglycerol (DAG) are broken down to what, respectively? (select one correct response)",
+   "ok": "Inositol and phosphatidic acid",
+   "bad": [
+    "Phosphatidic acid and inositol",
+    "Inositol and arachidonic acid",
+    "Glycerol and phosphatidic acid",
+    "Inositol and diacylglycerol kinase"
+   ],
+   "why": "S13/S17: 'IP3 and DAG are broken down to inositol and phosphatidic acid, respectively.'",
+   "cite": "S13, S17",
+   "sure": true
+  },
+  {
+   "stem": "Which events occur during activation of the Gq/NO/cGMP pathway by histamine at the H1 receptor? Key: NO = nitric oxide; cGMP = cyclic guanosine monophosphate; PIP2 = phosphatidylinositol bisphosphate; IP3 = inositol trisphosphate; DAG = diacylglycerol; MYPT-1 = myosin phosphatase target 1. (select all that apply)",
+   "ok": [
+    "Phospholipase C cleaves PIP2 into IP3 and DAG",
+    "Released Ca²⁺ activates nitric oxide synthase",
+    "Nitric oxide stimulates guanylyl cyclase to make cGMP"
+   ],
+   "bad": [
+    "Nitric oxide synthase makes nitric oxide from glutamine",
+    "Phosphorylated MYPT-1 inhibits myosin phosphatase activity"
+   ],
+   "why": "PLC → IP3 → Ca²⁺ → NO synthase (from arginine, not glutamine) → NO → guanylyl cyclase → cGMP → PKG → MYPT-1, which STIMULATES myosin phosphatase. PIP2 = phosphatidylinositol bisphosphate; IP3 = inositol trisphosphate; DAG = diacylglycerol; cGMP = cyclic guanosine monophosphate.",
+   "cite": "S15, S16",
+   "sure": true
+  },
+  {
+   "stem": "Norepinephrine at α1-adrenergic receptors and histamine at H1 receptors both activate Gq and phospholipase C in the vessel wall. Why do they produce opposite effects on vascular tone? Key: NO = nitric oxide; cGMP = cyclic guanosine monophosphate; PKG/PKC = protein kinase G/C; DAG = diacylglycerol. (select one correct response)",
+   "ok": "H1 signaling adds NO/cGMP/PKG, which stimulates myosin phosphatase",
+   "bad": [
+    "α1 signaling adds NO/cGMP/PKG, which stimulates myosin phosphatase",
+    "H1 signaling adds DAG and PKC, which inhibits myosin phosphatase",
+    "H1 signaling couples to Gi, which inhibits the adenylyl cyclase",
+    "α1 signaling couples to Gs, which activates the adenylyl cyclase"
+   ],
+   "why": "Histamine's Ca²⁺ activates nitric oxide (NO) synthase → cyclic guanosine monophosphate (cGMP) → protein kinase G (PKG) → MYPT-1 → myosin phosphatase stimulated → vasodilation.",
+   "cite": "S9, S14, S16, S18",
+   "sure": true
+  },
+  {
+   "stem": "How does cyclic adenosine monophosphate (cAMP) speed the funny current (If) through the hyperpolarization and cyclic nucleotide gated (HCN) channel in β1-adrenergic signaling? Key: PKA = protein kinase A; cGMP = cyclic guanosine monophosphate; GIRK = G protein-gated inwardly rectifying K⁺ channel. (select one correct response)",
+   "ok": "cAMP binds the HCN channel directly, speeding its activation",
+   "bad": [
+    "PKA phosphorylates the HCN channel, speeding its activation",
+    "cAMP binds the Cav3.1 channel directly, speeding its activation",
+    "cGMP binds the HCN channel directly, speeding its activation",
+    "PKA phosphorylates the GIRK channel, slowing its activation"
+   ],
+   "why": "cAMP binds HCN directly; protein kinase A (PKA) is the route to Cav3.1 (ICa,T), not HCN.",
+   "cite": "S20, S22",
+   "sure": true
+  },
+  {
+   "stem": "A hypothetical drug, cardiozine, selectively blocks phosphodiesterases in sinoatrial node pacemaker cells. A dog given cardiozine then receives norepinephrine. Compared with norepinephrine alone, which outcome is expected? Key: cAMP/cGMP = cyclic adenosine/guanosine monophosphate; IP3 = inositol trisphosphate. (select one correct response)",
+   "ok": "cAMP stays elevated longer, prolonging the heart rate increase",
+   "bad": [
+    "cAMP falls faster, shortening the heart rate increase overall",
+    "IP3 stays elevated longer, prolonging the heart rate increase",
+    "cAMP stays elevated longer, prolonging the heart rate decrease",
+    "cGMP stays elevated longer, prolonging the heart rate increase"
+   ],
+   "why": "β1/Gs raises cyclic adenosine monophosphate (cAMP); phosphodiesterases end the signal by breaking cAMP to AMP. Blocking them prolongs the cAMP-driven ↑ heart rate.",
+   "cite": "S22, S23",
+   "sure": true
+  },
+  {
+   "stem": "Which steps terminate β1-adrenergic Gs/cAMP signaling in cardiac pacemaker cells? Key: cAMP = cyclic adenosine monophosphate; GTP/GDP = guanosine tri/diphosphate; AMP = adenosine monophosphate; IP3 = inositol trisphosphate; DAG = diacylglycerol. (select all that apply)",
+   "ok": [
+    "The αs subunit hydrolyzes its bound GTP to GDP",
+    "Phosphodiesterases break down cAMP to form AMP",
+    "Phosphatases dephosphorylate proteins such as Cav3.1"
+   ],
+   "bad": [
+    "IP3 and DAG are broken down to inositol and phosphatidic acid",
+    "Adenylyl cyclase converts the remaining cAMP back into ATP"
+   ],
+   "why": "S23 lists ligand dissociation, αs GTPase, cAMP leaving HCN/PKA, phosphodiesterases (cAMP → AMP), phosphatases. IP3/DAG breakdown is Gq termination.",
+   "cite": "S21, S23",
+   "sure": true
+  },
+  {
+   "stem": "In an M2 muscarinic receptor pacemaker cell, the αi subunit has just inhibited adenylyl cyclase. What lowers the existing cytosolic cyclic adenosine monophosphate (cAMP)? Key: AMP/ATP = adenosine mono/triphosphate; cGMP = cyclic guanosine monophosphate; GIRK = G protein-gated inwardly rectifying K⁺ channel. (select one correct response)",
+   "ok": "Ongoing phosphodiesterase activity breaks down the cAMP",
+   "bad": [
+    "The αi subunit directly hydrolyzes the cAMP to AMP",
+    "Phosphatases dephosphorylate the cAMP back to ATP",
+    "Guanylyl cyclase converts the existing cAMP to cGMP",
+    "The βγ subunit exports cAMP out through GIRK channels"
+   ],
+   "why": "αi stops new cAMP synthesis; ongoing phosphodiesterase activity lowers the cAMP already present.",
+   "cite": "S25, S26",
+   "sure": true
+  },
+  {
+   "stem": "In the Gi/cAMP pathway in cardiac pacemaker cells, which subunit activates the inwardly rectifying K⁺ (GIRK) channel, and with what effect? (select one correct response)",
+   "ok": "βγ subunit; hyperpolarization that slows heart rate",
+   "bad": [
+    "αi subunit; hyperpolarization that slows heart rate",
+    "βγ subunit; depolarization that speeds heart rate",
+    "αs subunit; hyperpolarization that slows heart rate",
+    "αi subunit; depolarization that slows the heart rate"
+   ],
+   "why": "The βγ subunit binds and activates GIRK → hyperpolarization; with slower HCN and Cav3.1 activity this decreases heart rate.",
+   "cite": "S24, S26",
+   "sure": true
+  },
+  {
+   "stem": "Acetylcholine (ACh) acts on sinoatrial node pacemaker cells, bronchial smooth muscle, and vascular endothelium. Which receptor–pathway–response pairing matches the lecture? Key: NO = nitric oxide; cGMP/cAMP = cyclic guanosine/adenosine monophosphate; IP3 = inositol trisphosphate; DAG = diacylglycerol. (select one correct response)",
+   "ok": "Endothelium: M3 receptor, Gq/NO/cGMP, vasodilation",
+   "bad": [
+    "Pacemaker: M2 receptor, Gq/IP3/DAG, decreased heart rate",
+    "Bronchi: M2 receptor, Gi/cAMP, bronchial constriction",
+    "Endothelium: M2 receptor, Gi/cAMP, vasodilation",
+    "Bronchi: M3 receptor, Gq/NO/cGMP, bronchodilation"
+   ],
+   "why": "ACh: M2/Gi in heart (↓ rate); M1, M3/Gq/IP3/DAG in bronchi (constriction); M3/Gq/NO/cGMP in vascular endothelium (vasodilation). One ligand, many receptor subtypes (S30).",
+   "cite": "S26, S29, S30",
+   "sure": true
+  },
+  {
+   "stem": "Which pairing of G protein, second messenger, and major target matches the lecture's summary table? Key: IP3 = inositol trisphosphate; DAG = diacylglycerol; NO = nitric oxide; cGMP/cAMP = cyclic guanosine/adenosine monophosphate. (select one correct response)",
+   "ok": "Gq → NO/cGMP → protein kinase G",
+   "bad": [
+    "Gs → cAMP ↓ → protein kinase A ↓",
+    "Gi → cAMP ↑ → protein kinase A ↑",
+    "Gq → IP3/DAG → protein kinase G",
+    "Gs → NO/cGMP → protein kinase A"
+   ],
+   "why": "S6: Gq → IP3/DAG → PKC; Gq → NO/cGMP → PKG; Gs → cAMP ↑ → PKA ↑; Gi → cAMP ↓ → PKA ↓. (NO = nitric oxide; cGMP/cAMP = cyclic guanosine/adenosine monophosphate.)",
+   "cite": "S6",
+   "sure": true
+  },
+  {
+   "stem": "Which statement about G protein-coupled receptors (GPCRs) is NOT consistent with the lecture? (select one correct response)",
+   "ok": "They are single-pass proteins with cytosolic ligand sites",
+   "bad": [
+    "They are seven-pass proteins with extracellular ligand sites",
+    "They couple to ion channels or enzymes via G proteins",
+    "They are the most common type of cell surface receptor",
+    "Their C-terminal tail contains several phosphorylation sites"
+   ],
+   "why": "GPCRs are seven-pass transmembrane proteins with an extracellular ligand-binding site and a cytosolic G protein binding site.",
+   "cite": "S3, S30",
+   "sure": true
+  },
+  {
+   "stem": "According to the lecture summary, which statements about G protein-coupled receptor (GPCR) signaling are correct? Key: GTP = guanosine triphosphate. (select all that apply)",
+   "ok": [
+    "One ligand can bind receptor subtypes linked to different pathways",
+    "Different ligands can activate a common cascade in one cell type",
+    "Pathways can bifurcate, causing multiple effects within one cell"
+   ],
+   "bad": [
+    "Each ligand activates one single pathway in every tissue type",
+    "GTP hydrolysis by the α subunit initiates each of the pathways"
+   ],
+   "why": "S30 summary points. GTP hydrolysis ENDS signaling; GDP/GTP exchange and subunit dissociation initiate it.",
+   "cite": "S5, S30",
+   "sure": true
+  },
+  {
+   "stem": "Vasopressin acts on the kidney distal nephron and on arteries. Which receptor and pathway match each tissue in the lecture appendix? Key: cAMP = cyclic adenosine monophosphate; IP3 = inositol trisphosphate; DAG = diacylglycerol; NO = nitric oxide; cGMP = cyclic guanosine monophosphate. (select one correct response)",
+   "ok": "Kidney V2, Gs/cAMP; arteries V1, Gq/IP3/DAG",
+   "bad": [
+    "Kidney V1, Gs/cAMP; arteries V2, Gq/IP3/DAG",
+    "Kidney V2, Gi/cAMP; arteries V1, Gq/NO/cGMP",
+    "Kidney V2, Gq/IP3/DAG; arteries V1, Gs/cAMP",
+    "Kidney V1, Gq/IP3/DAG; arteries V2, Gs/cAMP"
+   ],
+   "why": "Appendix: V2 (Gs/cAMP) → water reabsorption; V1 (Gq/IP3/DAG) → vasoconstriction. Appendix scope unconfirmed until transcript.",
+   "cite": "S28, S29",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "S22 strikethrough: βγ → GIRK removed from Gs",
+   "Slide image S22 shows 'and the βγ-subunit (which can activate GIRK/Kir3 channels)' struck through; the text export kept it. βγ → GIRK is taught only for Gi (S24, S26, S27) · use: Gs pathway = αs → adenylyl cyclase; GIRK = Gi βγ."
+  ],
+  [
+   "PIP2 name differs S10 vs S15",
+   "S10: 'phosphatidylinositol bisphosphate'; S15: 'phosphoinositol diphosphate' · use S10 (standard name) and spell it that way on Canvas fill-ins."
+  ],
+  [
+   "IP3 name differs S10 vs S15",
+   "S10: 'inositol trisphosphate'; S15: 'phosphoinositol triphosphate' · use S10 (standard name)."
+  ],
+  [
+   "H1 receptor location: smooth muscle vs endothelium",
+   "S15–S17 titles say 'H1 histaminergic receptors in vascular smooth muscle' and S14 draws the whole pathway in one cell; S18 shows histamine (mast cell) → H1 + NO synthase in the ENDOTHELIAL cell → NO diffuses to smooth muscle → guanylyl cyclase/PKG/MYPT-1 → vasodilation; S29 lists H1 and M3 target tissue as 'vascular endothelium'. OUTSIDE — confirm: textbooks match S18 (endothelial NO acts on smooth muscle) · use S18/S29 for mechanism; recognize S15 wording if it appears in a stem."
+  ],
+  [
+   "Cav3.1 (text) vs 'Cav1.x' (S21 figure)",
+   "S20, S22, S24, S26 text: Cav3.1 = T-type Ca²⁺ current (ICa,T); S21 and S25 figures label the PKA/phosphatase-target channel 'Cav1.x'. OUTSIDE — confirm: Cav1.x is usually L-type · use Cav3.1 (text) for the exam."
+  ],
+  [
+   "S28 glucagon receptor shown as 'G'",
+   "S28 receptor cell for glucagon reads only 'G' (cut off). OUTSIDE — confirm: likely 'glucagon receptor' · answer 'glucagon receptor' if asked."
+  ],
+  [
+   "S28 norepinephrine at bronchial β2",
+   "S28 lists norepinephrine (bronchi, β2-adrenergic, bronchodilation). OUTSIDE — confirm: textbooks usually cite circulating epinephrine for bronchial β2 · use slide for this exam."
+  ],
+  [
+   "S29 AT1, AT2 both under Gq/IP3/DAG",
+   "S29 lists angiotensin → arteries → AT1, AT2 → vasoconstriction. OUTSIDE — confirm: AT1 is the classic Gq vasoconstrictor receptor (matches LC25); AT2 usually opposes it · use slide; ask if pressed."
+  ],
+  [
+   "Appendix (S28–S29) exam scope unknown",
+   "Slides titled 'Appendix' (usually lower priority) · learn the S29 ACh/H1 rows (they mirror S26 and S15–S18); confirm scope with transcript."
+  ],
+  [
+   "★ marks = Dr. Basel's verbal report, not a slide marker",
+   "Dr. Basel (LC28, Mon 10/26) said Schultz will want the G protein pathways memorized. LC27 slides themselves only bold/underline a few words (S3, S10, S12, S15) · treat all 4 pathways as high priority; confirm with LC27 transcript."
+  ]
+ ]
+}

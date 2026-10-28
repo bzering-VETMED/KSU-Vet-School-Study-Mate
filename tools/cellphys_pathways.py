@@ -277,7 +277,7 @@ P[26] = ('★ Gq/NO/cGMP · H1 histamine → vessel RELAXES', 'LC27 slides 14–
   ('Termination?', 'Histamine leaves · αq GTPase · NO oxidized · cGMP → GMP by phosphodiesterases · MYPT-1 dephosphorylated · Ca²⁺ removed', U)])
 P[27] = ('★ Gs/cAMP · β1-adrenergic → heart rate ↑', 'LC27 slides 19–23', 'Norepinephrine at the sinus node (pacemaker cells)', [
   ('1 · Ligand + receptor?', 'NE binds the β1-ADRENERGIC receptor', K),
-  ('2 · G protein?', 'Gs (stimulatory): GDP → GTP, αs separates from βγ (βγ can activate GIRK channels)', K),
+  ('2 · G protein?', 'Gs (stimulatory): GDP → GTP on αs, which dissociates (S22 STRIKES OUT βγ → GIRK here: GIRK belongs to the Gi pathway)', K),
   ('3 · αs turns on?', 'ADENYLYL CYCLASE: ATP → cAMP', K),
   ('4a · cAMP binds directly to?', 'HCN channels → faster "funny current" (If) → faster depolarization', K),
   ('4b · cAMP also activates?', 'PKA (cAMP binds the REGULATORY subunit → catalytic subunit freed)', K),
