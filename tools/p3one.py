@@ -53,14 +53,6 @@ for n in map(int,sys.argv[1:]):
         if not opts: continue
         best=min(opts,key=lambda k:(k['q'],-len(k['cov']-got),len(k['cov'])))
         pick.append((ti,best)); used.add(best['src']); got|=best['cov']
-    # pass 2 (Bethany: "I don't see it"): a term that only shows up as one number on a crowded card (≥5 labels)
-    # also gets its best dedicated card (≤2 labels) if one exists
-    nlab=lambda k: len([x for x in items(answer_text(k['c'])) if x.strip()])
-    for ti in range(len(T)):
-        if any(ti in b['cov'] and nlab(b)<5 for _,b in pick): continue
-        opts=[k for k in cands if ti in k['cov'] and k['src'] not in used and nlab(k)<=2]
-        if opts:
-            best=min(opts,key=lambda k:(k['q'],len(k['cov']))); pick.append((ti,best)); used.add(best['src'])
     pick.sort(key=lambda z:z[0])
     miss=[T[i][0] for i in range(len(T)) if i not in got]
     # write star pages
