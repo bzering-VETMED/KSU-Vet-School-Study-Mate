@@ -6,7 +6,16 @@ links it at the end of the hub's ⭐ section (<!--fill-->). Idempotent; run AFTE
 import sys,re,os,glob,time,json
 sys.path.insert(0,'tools')
 from bs4 import BeautifulSoup
-from deck import page
+from deck import page,img_card_facts
+import json as _json
+def normalize(c):
+    """label-overlay cards (radiology/label pages) → a standard tap-to-reveal card with the answer written out"""
+    if not c.get('data-labels'): return str(c)
+    L=_json.loads(c['data-labels']); q=c.select_one('.q'); tg=q.select_one('.tagline') if q else None
+    qt=(q.contents[0] if q and q.contents else 'Name each labeled area.'); qt=qt if isinstance(qt,str) else qt.get_text()
+    hint=c.select_one('.hint'); img=c.select_one('img')['src']
+    ans=' · '.join(x.get('n') or x.get('s') for x in L)
+    return img_card_facts(qt.strip()+(' '+hint.get_text(' ',strip=True) if hint else ''),img,ans,'','',[],tg.get_text() if tg else '')
 _src=open('tools/p3split.py').read(); exec(_src[:_src.index('for n in map')])
 V=str(int(time.time()))
 DRAW=json.load(open('tools/p3draw_cards.json')) if os.path.exists('tools/p3draw_cards.json') else {}
@@ -44,7 +53,7 @@ for n in map(int,sys.argv[1:]):
             f,c,src=best; seen.add(src); c=BeautifulSoup(str(c),'html.parser').section
             tg=c.select_one('.tagline')
             if tg: tg.string=tg.get_text()+f' · 🔗 copied for: {als[0]}'
-            out.append(str(c)); filled.append(als[0])
+            out.append(normalize(c)); filled.append(als[0])
             for tj,a2 in enumerate(T):        # one copied card may cover more missing terms
                 if tj not in got and any(item_bold(x,[a2]) for x in items(answer_text(c))): got.add(tj)
         elif str(n) in DRAW and any(als[0].lower() in d['covers'] for d in DRAW[str(n)]): pass
