@@ -264,7 +264,9 @@ P[25] = ('★ Gq/IP₃/DAG · α1-adrenergic → vascular smooth muscle CONTRACT
   ('DAG arm 5 · DAG + Ca²⁺ activate?', 'PROTEIN KINASE C (PKC)', K),
   ('DAG arm 6 · PKC phosphorylates?', 'CPI-17 → which INHIBITS myosin light chain PHOSPHATASE (MLCP)', K),
   ('DAG arm 7 · Net effect?', 'MLC stays phosphorylated → contraction MAINTAINED (relaxation reduced)', K),
-  ('Termination?', 'NE leaves · αq GTPase: GTP → GDP · IP₃ → inositol, DAG → phosphatidic acid · CPI-17 dephosphorylated → MLCP on · Ca²⁺ pumped back to ER / out of cell', U)])
+  ('Termination?', 'NE leaves · αq GTPase: GTP → GDP · IP₃ → inositol, DAG → phosphatidic acid · CPI-17 dephosphorylated → MLCP on · Ca²⁺ pumped back to ER / out of cell', U),
+  ('★ Schultz: the GENERALIZED Gq pathway to know', 'Gq α → phospholipase C → IP₃ + DAG → IP₃ releases Ca²⁺ → Ca²⁺-dependent effect (calmodulin) · Ca²⁺ + DAG → PKC → phosphorylation effect. α1 is just ONE example.', K),
+  ('Why is Ca²⁺-calmodulin all-or-none?', '4 Ca²⁺ binding sites with COOPERATIVITY → very steep activation curve', U)])
 P[26] = ('★ Gq/NO/cGMP · H1 histamine → vessel RELAXES', 'LC27 slides 14–18 (S18: two cells)', 'Histamine released by a MAST CELL', [
   ('1 · Ligand + receptor + WHICH CELL?', 'Histamine binds the H1 receptor on the ENDOTHELIAL cell (S18)', K),
   ('2–4 · First steps (same as the other Gq)?', 'Gq → αq → PLC → PIP₂ → IP₃ + DAG → IP₃ releases Ca²⁺', K),
@@ -273,7 +275,8 @@ P[26] = ('★ Gq/NO/cGMP · H1 histamine → vessel RELAXES', 'LC27 slides 14–
   ('7 · In smooth muscle, NO stimulates?', 'GUANYLYL cyclase: GTP → cGMP', K),
   ('8 · cGMP activates?', 'PROTEIN KINASE G (PKG)', K),
   ('9 · PKG phosphorylates?', 'MYPT-1 → STIMULATES myosin phosphatase → MLC dephosphorylated → RELAXATION (vasodilation)', K),
-  ('Compare (S16)!', 'CPI-17 (PKC) INHIBITS myosin phosphatase → contraction · MYPT-1 (PKG) STIMULATES it → relaxation', K),
+  ('Compare (S16)!', 'CPI-17 (PKC) INHIBITS myosin phosphatase → contraction · MYPT-1 (PKG) STIMULATES it → relaxation. Schultz: no need to memorize the full names, know kinases ADD and phosphatases REMOVE phosphates', K),
+  ('Why must NO act in ANOTHER cell?', 'DAG is "standing around" in the endothelial cell. If DAG → PKC → CPI-17 ran in the same cell, it would block relaxation', K),
   ('Termination?', 'Histamine leaves · αq GTPase · NO oxidized · cGMP → GMP by phosphodiesterases · MYPT-1 dephosphorylated · Ca²⁺ removed', U)])
 P[27] = ('★ Gs/cAMP · β1-adrenergic → heart rate ↑', 'LC27 slides 19–23', 'Norepinephrine at the sinus node (pacemaker cells)', [
   ('1 · Ligand + receptor?', 'NE binds the β1-ADRENERGIC receptor', K),
@@ -281,7 +284,7 @@ P[27] = ('★ Gs/cAMP · β1-adrenergic → heart rate ↑', 'LC27 slides 19–2
   ('3 · αs turns on?', 'ADENYLYL CYCLASE: ATP → cAMP', K),
   ('4a · cAMP binds directly to?', 'HCN channels → faster "funny current" (If) → faster depolarization', K),
   ('4b · cAMP also activates?', 'PKA (cAMP binds the REGULATORY subunit → catalytic subunit freed)', K),
-  ('5 · PKA phosphorylates?', 'Cav3.1 T-type Ca²⁺ channels (ICa,T) → faster depolarization', K),
+  ('5 · PKA phosphorylates?', 'Cav3.x (often 3.1) T-type Ca²⁺ channels (ICa,T) → faster depolarization (phase 0)', K),
   ('6 · Result?', 'Faster depolarization → HEART RATE ↑', K),
   ('Termination?', 'NE leaves · αs GTPase · cAMP leaves HCN/PKA · PHOSPHODIESTERASES: cAMP → AMP · phosphatases dephosphorylate', U)])
 P[28] = ('★ Gi/cAMP · M2 muscarinic → heart rate ↓', 'LC27 slides 24–27', 'Acetylcholine (ACh) from parasympathetic (vagal) fibers', [
@@ -291,7 +294,7 @@ P[28] = ('★ Gi/cAMP · M2 muscarinic → heart rate ↓', 'LC27 slides 24–27
   ('3b · What does αi do?', 'INHIBITS adenylyl cyclase → cAMP ↓ (phosphodiesterases keep breaking it down)', K),
   ('4 · Effect on HCN?', 'Fewer HCN channels have cAMP → slower funny current → slower depolarization', K),
   ('5 · Effect on PKA / Cav3.1?', 'Less PKA → phosphatases dephosphorylate Cav3.1 → less ICa,T', K),
-  ('6 · Result?', 'Hyperpolarized + slower depolarization → HEART RATE ↓', K),
+  ('6 · Result? How many mechanisms?', 'THREE: GIRK hyperpolarizes + slower HCN + less Cav3.x → HEART RATE ↓. Schultz: "put a period here on GIRK and its importance"', K),
   ('Termination?', 'ACh leaves · αi GTPase: GTP → GDP · βγ leaves GIRK and rebinds GDP-bound α', U)])
 E4DECKS.append(('cellphys-path6.html', '🔀 LC27 Schultz G protein pathways ★', 'Gq/IP₃/DAG · Gq/NO/cGMP · Gs/cAMP · Gi/cAMP', [25, 26, 27, 28]))
 
