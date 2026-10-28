@@ -275,5 +275,59 @@ if L16:
     card(16,['dorsal atlantoaxial ligament'],'Atlas + axis, lateral schematic. Name 1–5.',svg('atlantoaxial',800,440,body),
      '#1 Dorsal atlantoaxial ligament · #2 Atlas (C1) · #3 Atlantoaxial joint · #4 Axis (C2) · #5 Spinous process of the axis',
      'Dorsal atlantoaxial ligament: dorsal arch of the atlas → cranial end of the spinous process of the axis (dorsal to the atlantoaxial joint)',[('🔁 Others here','Transverse ligament of the atlas holds the dens to the atlas floor; apical + alar ligaments join the dens to the skull')])
+
+# ---------- Lab 24 · internal pudendal branches (male), audit gap fill
+P='#d64545'
+def ln(d,w=7,c=P): return f'<path d="{d}" stroke="{c}" stroke-width="{w}" fill="none" stroke-linecap="round"/>'
+body=(f'<ellipse cx="110" cy="330" rx="80" ry="60" fill="#f6dbe6" stroke="#c46a83" stroke-width="3"/><rect x="330" y="420" width="300" height="34" rx="16" fill="#f1e3c8" stroke="#c9a46a" stroke-width="3"/>'
+ +ln('M60 80 L760 80',10)+ln('M260 80 L260 220')+ln('M260 220 C200 240 160 250 130 270')+ln('M180 250 C160 290 140 300 125 300',5)+ln('M260 220 C320 250 370 260 420 260')
+ +ln('M680 80 L680 300')+ln('M680 300 C640 340 600 380 560 420')+ln('M680 300 L680 420')+ln('M680 300 C720 350 760 390 780 420')
+ +b(120,55,1,140,80)+b(300,150,2,262,150)+b(150,215,3,190,245)+b(80,250,4,125,300)+b(450,230,5,420,258)+b(730,180,6,682,180)+b(520,390,7,575,405)+b(640,445,8,680,420)+b(760,450,9,775,420)
+ +t(20,520,'Male pelvis, left lateral schematic · cranial LEFT · pink = bladder · tan = penis',15))
+card(24,['artery of the ductus deferens','artery of the bulb of the penis','middle rectal artery','caudal vesical artery','dorsal artery of the penis'],
+ 'Internal pudendal artery branches (male). Name 1–9.',svg('pudendal',820,540,body),
+ '#1 Internal pudendal artery · #2 Prostatic artery · #3 Artery of the ductus deferens · #4 Caudal vesical artery · #5 Middle rectal artery · #6 Artery of the penis · #7 Artery of the bulb of the penis · #8 Deep artery of the penis · #9 Dorsal artery of the penis',
+ 'Prostatic artery splits: cranial branch = artery of the ductus deferens (gives the caudal vesical artery to the bladder), caudal branch = middle rectal artery. Artery of the penis ends at the ischiatic arch as bulb, deep, and dorsal arteries (Lab 24 slides #29, #43)',
+ [('♀ Female','Vaginal artery replaces the prostatic artery; artery of the clitoris replaces the artery of the penis')],TAG.replace('(no photo exists)','(slides only point with a probe)'))
+# ---------- Lab 19 · ulnar nerve branches
+body=(f'<path d="M300 40 L500 40 L470 520 L330 520 Z" fill="#f6eadf" stroke="#d8c0aa" stroke-width="3"/><path d="M330 520 L470 520 L480 640 L320 640 Z" fill="#efe6dc" stroke="#d8c0aa" stroke-width="3"/>'
+ f'<circle cx="490" cy="545" r="22" fill="#e9e2ee" stroke="#a99bb5" stroke-width="3"/>'
+ +ln('M470 50 L455 420',8,N)+ln('M455 380 C500 420 520 470 500 520 C480 580 440 610 420 640',6,N)+ln('M455 420 C430 470 410 540 400 640',8,N)
+ +b(560,200,1,462,200)+b(580,470,2,510,470)+b(330,580,3,405,580)+b(580,560,4,512,548)+t(20,690,'Left antebrachium, lateral view · cranial LEFT · yellow = nerve',15))
+card(19,['dorsal branch (ulnar nerve)','palmar branch (ulnar nerve)'],'Ulnar nerve in the antebrachium. Name 1–4.',svg('ulnarbr',800,710,body),
+ '#1 Ulnar nerve · #2 Dorsal branch of the ulnar nerve · #3 Palmar branch of the ulnar nerve · #4 Accessory carpal bone',
+ 'Ulnar nerve splits in the distal antebrachium: dorsal branch (smaller) wraps laterally to the dorsolateral paw; palmar branch (much larger) continues to the palmar paw (Lab 19/20 slide #40)',
+ [('⚠️ Size','Palmar branch is typically much LARGER than the dorsal branch')])
+# ---------- Lab 19 · cutaneous area vs autonomous zone
+body=(f'<path d="M260 40 C330 30 420 30 470 50 L450 560 C440 620 360 640 320 610 L300 560 Z" fill="#f6eadf" stroke="#d8c0aa" stroke-width="3"/>'
+ f'<path d="M290 120 C360 100 440 110 465 140 L455 380 C400 410 330 400 295 370 Z" fill="#cfe8dc" stroke="#2f9e6e" stroke-width="3" stroke-dasharray="10 6"/>'
+ f'<path d="M340 200 C380 190 420 200 430 220 L425 300 C400 315 360 312 345 295 Z" fill="#2f9e6e" opacity=".85"/>'
+ +b(560,150,1,462,170)+b(560,260,2,428,260)+t(20,670,'Forelimb skin, lateral schematic · light green = one nerve\'s skin · dark = only that nerve',15))
+card(19,['cutaneous area','autonomous zone'],'Skin map for ONE cutaneous nerve. Name 1–2.',svg('cutarea',800,690,body),
+ '#1 Cutaneous area · #2 Autonomous zone',
+ 'Cutaneous area = ALL the skin a nerve supplies (overlaps its neighbors). Autonomous zone = the smaller part supplied ONLY by that nerve, so you test it to check that one nerve',
+ [('⚠️ Pair','cutaneous area (big, overlapping) vs autonomous zone (small, exclusive)')])
+# ---------- Lab 23 · hepatic artery tree
+body=(ln('M60 470 L760 470',14)+ln('M400 470 L400 380',10)+ln('M400 380 C330 340 280 300 240 250')+ln('M400 380 L420 220')+ln('M400 380 C480 360 560 340 640 320')
+ +ln('M240 250 L160 120',6)+ln('M240 250 L215 110',5)+ln('M240 250 L265 110',5)
+ +ln('M240 250 C200 270 150 290 100 300',5)+ln('M300 300 C290 350 270 400 240 430',6)+ln('M240 430 C200 430 150 430 100 420',5)+ln('M240 430 C230 400 260 380 300 390',5)
+ +f'<path d="M80 70 C200 30 330 60 340 90 L300 110 C200 90 130 100 80 130 Z" fill="#c98a7a" opacity=".55"/>'
+ +b(450,430,1,402,420)+b(240,200,2,240,250)+b(140,80,3,160,118)+b(60,300,4,100,300)+b(340,320,5,300,320)+b(60,420,6,100,420)+b(340,400,7,300,392)+b(470,210,8,420,222)+b(680,290,9,640,320)
+ +t(20,530,'Celiac branches, ventral schematic · cranial UP · brown = liver · thick line = aorta',15))
+card(23,['hepatic branches','right gastric artery','right gastroepiploic artery','cranial pancreaticoduodenal artery','gastroduodenal artery'],'Celiac + hepatic artery tree. Name 1–9.',svg('hepatic',800,550,body),
+ '#1 Celiac artery · #2 Hepatic artery · #3 Hepatic branches · #4 Right gastric artery · #5 Gastroduodenal artery · #6 Right gastroepiploic artery · #7 Cranial pancreaticoduodenal artery · #8 Left gastric artery · #9 Splenic artery',
+ 'Hepatic artery: 1–5 hepatic branches into the liver lobes, plus right gastric and gastroduodenal (→ right gastroepiploic + cranial pancreaticoduodenal) (Lab 23 slide: Hepatic artery)',
+ [('🧠 Hook','Celiac = hepatic, left gastric, splenic (H-L-S)')])
+# ---------- Lab 22 · greater omentum leaves
+body=(f'<path d="M60 60 L760 60 L760 600 L60 600" fill="none" stroke="#b9a3c9" stroke-width="10"/>'
+ f'<path d="M140 120 C220 80 320 90 360 150 C380 210 340 250 280 250 C220 250 160 220 140 120 Z" fill="#f2b6c4" stroke="#c46a83" stroke-width="4"/>'
+ f'<path d="M300 248 C310 330 330 450 360 560 L560 560" stroke="{PER}" stroke-width="6" fill="none"/>'
+ f'<path d="M560 560 C560 530 550 510 520 510 L420 510 C400 400 420 250 470 70" stroke="{PER}" stroke-width="6" fill="none" stroke-dasharray="14 6"/>'
+ f'<path d="M318 260 C330 340 345 440 372 545 L540 545 C540 528 532 522 515 522 L410 522 C390 400 405 260 455 80 Z" fill="#fde7f1" opacity=".9"/>'
+ +b(250,170,1)+b(270,440,2,330,440)+b(520,330,3,428,330)+b(440,460,4)+b(640,560,5,560,560)+t(20,650,'Sagittal schematic · cranial LEFT · dorsal UP · solid = superficial · dashed = deep · pink space = bursa',15))
+card(22,['superficial leaf','deep leaf','omental bursa','greater omentum'],'Greater omentum, sagittal schematic. Name 1–5.',svg('omentum',800,670,body),
+ '#1 Stomach · #2 Superficial leaf (greater omentum) · #3 Deep leaf (greater omentum) · #4 Omental bursa · #5 Greater omentum (caudal fold)',
+ 'Greater omentum leaves the greater curvature as the superficial leaf, runs caudally, folds back as the deep leaf to the dorsal body wall. The space between the leaves = omental bursa (slide: "middle finger is in the omental bursa")',
+ [('📷 Real photo','Lab 22 ⭐ card 9: middle finger under the superficial leaf, index finger under the deep leaf')])
 json.dump(C,open('tools/p3draw_cards.json','w'))
 print({k:len(v) for k,v in C.items()})

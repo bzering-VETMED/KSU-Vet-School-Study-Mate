@@ -7,7 +7,7 @@ sys.path.insert(0,'tools')
 from bs4 import BeautifulSoup
 from deck import page
 V=str(int(time.time()))
-PINS={25:['p3x_l25_71q.jpg'],24:['p3s_l24_70_0.jpg'],23:['p3s_abd_44q.jpg','p3s_l23b_26_0.jpg','p3s_l23b_28_0.jpg','p3s_l23b_30_0.jpg'],21:['p3s_abd_1q.jpg','umn_4605.jpg','p3s_abd_7q.jpg','p3s_l24_39_0.jpg','p3s_l23b_30_0.jpg']}
+PINS={22:['p3draw_omentum.svg','p3x_l22_94q.jpg'],16:['lab16_draw_disc_q.svg'],17:['p3s_Lab_17_Dee_s12q.jpg'],19:['p3s_fl2_44_0.jpg','p3draw_ulnarbr.svg','p3draw_cutarea.svg'],25:['p3x_l25_71q.jpg','p3x_l25_69q.jpg','p3x_l25_75rima.jpg','p3web_vulva_draw.jpg'],24:['p3s_l24_70_0.jpg','p3draw_pudendal.svg','p3s_l24_72_0.jpg','p3s_l24_35_0.jpg','p3s_l24_49_0.jpg','p3s_l24_67_0.jpg','umn_4626.jpg'],23:['p3s_abd_44q.jpg','p3s_l23b_26_0.jpg','p3s_l23b_28_0.jpg','p3s_l23b_30_0.jpg','p3s_l23m_9_0.jpg','p3s_l23b_24_0.jpg','p3s_l23b_46_0.jpg','p3s_l23b_50_0.jpg','p3s_l23b_56_0.jpg','umn_4555.jpg','p3draw_hepatic.svg','p3s_l23b_54_0.jpg','p3s_l23a_4_0.jpg'],21:['p3s_abd_1q.jpg','umn_4605.jpg','p3s_abd_7q.jpg','p3s_l24_39_0.jpg','p3s_l23b_30_0.jpg']}
 pages=[f for f in sorted(glob.glob('gross-anatomy-*.html')) if not re.search(r'star\d|pins\d|mock|games|practical',f)]
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,want in PINS.items():
