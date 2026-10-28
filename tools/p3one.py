@@ -1,5 +1,5 @@
 """Practical 3 · ONE bold-term section per lab (made by Claude, Bethany's rule Oct 27):
-  ⭐ = the single best picture for every bold term (one curated deck, ≤15 cards per block, bold-list order)
+  ⭐ = the single best picture for every bold term (one deck, bold-list order)
   📚 Extra = EVERYTHING else (old best/fill/web/lecture pages, UMN sets, slides, diagrams, terms + functions)
 Picks from every image card the hub links (any section). Quality: cadaver photo (UMN / my / lab / classmate) >
 course slide or dog web photo > video > lab-guide/lecture drawing or other species > Claude drawing.
@@ -56,15 +56,15 @@ for n in map(int,sys.argv[1:]):
         if re.match(rf'gross-anatomy-lab{n}-star\d+\.html$',f): os.remove(f)
     css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
     blocks=[]
-    for k in range(0,len(pick),15):
-        blk=pick[k:k+15]; fn=f'gross-anatomy-lab{n}-star{k//15+1}.html'
+    for k in range(0,len(pick),1000):
+        blk=pick[k:k+1000]; fn=f'gross-anatomy-lab{n}-star{k//15+1}.html'
         cards=[]
         for ti,b in blk:
             c=BeautifulSoup(str(b['c']),'html.parser').section
             for x in c.select('img'):
                 if x.get('src') and '?' not in x['src']: x['src']+=f'?v={V}'
             cards.append(str(c))
-        nm=f'Bold terms {k+1}–{k+len(blk)} · {T[blk[0][0]][0].lstrip("=")} → {T[blk[-1][0]][0].lstrip("=")}'
+        nm=f'All bold terms · {len(blk)} cards'
         pg=page(f'Lab {n} · ⭐ {nm}',f'Best picture for each bold term · {len(blk)} cards',''.join(cards).replace('class="card"','class="card on"',1),back=f'{hubf}?v={V}')
         open(fn,'w').write(re.sub(r'<style>.*?</style>',lambda _:f'<style>{css}</style>',pg,count=1,flags=re.S))
         blocks.append(f'<a href="{fn}?v={V}">⭐ {nm}<span>{len(blk)} cards</span></a>')
