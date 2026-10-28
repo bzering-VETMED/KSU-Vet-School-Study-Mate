@@ -71,12 +71,19 @@ if os.path.exists('assets/p3web_vulva_draw.jpg'):
      '#1 Anus · #2 Dorsal commissure · #3 Rima pudendi · #4 Ventral commissure · #5 Labia (of the vulva) · #6 Vulva',
      'Drawing labels say "dorsal/ventral labial commissure" and "vulvar cleft" → exam words: dorsal commissure, ventral commissure, rima pudendi','',
      [('🧩 Vulva','= two labia + the rima pudendi between them'),('🔝 Commissures','Dorsal = top end of the rima (toward the anus) · ventral = bottom end, points caudoventrally')],'🌐 web drawing (dog) · sent by Bethany'))
+# batch 4: abdominal wall nerves photo (fresh dissection, Bethany found it); printed asterisks → letter badges A–F
+if os.path.exists('assets/p3web_abdnerves_photo.jpg'):
+    C[21]=[img_card_facts('Left abdominal wall, internal oblique (6) reflected dorsally; cranial LEFT. Name nerves A–F on the transversus abdominis (7), and 1–8.',f'assets/p3web_abdnerves_photo.jpg?v={V}',
+     'Best read (count from caudal): F Ilioinguinal nerve (L3) · E Caudal iliohypogastric nerve (L2) · D Cranial iliohypogastric nerve (L1) · C Costoabdominal nerve (T13) · B, A Ventral branches of thoracic nerves (T12, T11) · 1 Spermatic cord · 2 External pudendal vessels · 3 Superficial inguinal ring · 4 Superficial inguinal lymph node · 5 External abdominal oblique · 6 Internal abdominal oblique · 7 Transversus abdominis · 8 Rectus abdominis',
+     'Source caption only says "ventral branches of thoracic and lumbar spinal nerves" (asterisks), so the T/L split is Claude\'s count from the caudal end (13th rib not visible). Lateral cutaneous femoral (L4) is caudal to F, near the tuber coxae (hidden by the reflected muscle)','',
+     [('⚠️ Confirm','Ask the TA / check a dog: T13 runs along the caudal border of the 13th rib; L4 comes out with the deep circumflex iliac vessels'),('🧠 Order','Cranial → caudal: costoabdominal T13 · cranial iliohypogastric L1 · caudal iliohypogastric L2 · ilioinguinal L3 · lateral cutaneous femoral L4')],
+     '🌐 web photo (dog, fresh tissue) · sent by Bethany · asterisks → letters')]
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,cs in C.items():
     fn=f'gross-anatomy-lab{n}-web1.html'; hubf=f'gross-anatomy-lab{n}-images.html'
-    pg=page(f'Lab {n} · 🌐 Extra dog photos',f'Perineum + vulva photos Bethany found · {len(cs)} cards',''.join(cs).replace('class="card"','class="card on"',1),back=f'{hubf}?v={V}')
+    pg=page(f'Lab {n} · 🌐 Extra dog photos',f'Photos Bethany found · {len(cs)} cards',''.join(cs).replace('class="card"','class="card on"',1),back=f'{hubf}?v={V}')
     open(fn,'w').write(re.sub(r'<style>.*?</style>',lambda _:f'<style>{css}</style>',pg,count=1,flags=re.S))
     h=open(hubf).read(); h=re.sub(r'<!--web-->.*?<!--/web-->','',h,flags=re.S)
-    link=f'<!--web--><a href="{fn}?v={V}">🌐 Extra dog photos · perineum{" + vulva" if n==25 else ""}<span>{len(cs)} cards</span></a><!--/web-->'
+    link=f'<!--web--><a href="{fn}?v={V}">🌐 Extra dog photos · {"abdominal wall nerves" if n==21 else "perineum"+(" + vulva" if n==25 else "")}<span>{len(cs)} cards</span></a><!--/web-->'
     m=re.search(r'(<div class="sec main">.*?)(</div>)',h,re.S)
     h=h[:m.end(1)]+link+h[m.end(1):]; open(hubf,'w').write(h); print(n,len(cs))
