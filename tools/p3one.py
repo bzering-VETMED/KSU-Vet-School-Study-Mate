@@ -71,6 +71,7 @@ for n in map(int,sys.argv[1:]):
         nm=f'All bold terms · {len(blk)} cards'
         pg=page(f'Lab {n} · ⭐ {nm}',f'Best picture for each bold term · {len(blk)} cards',''.join(cards).replace('class="card"','class="card on"',1),back=f'{hubf}?v={V}')
         open(fn,'w').write(re.sub(r'<style>.*?</style>',lambda _:f'<style>{css}</style>',pg,count=1,flags=re.S))
+        import subprocess; subprocess.run([sys.executable,'tools/p3grid.py',fn],check=True)
         blocks.append(f'<a href="{fn}?v={V}">⭐ {nm}<span>{len(blk)} cards</span></a>')
     main=(f'<div class="sec main"><h2>⭐ Bold terms · start here</h2><p>One best picture for every bold term · {len(pick)} cards cover {len(got)}/{len(T)} terms, in your bold-list order. Everything else is in 📚 Extra.</p>'+''.join(blocks)+'</div>')
     # extra: functions/terms first, then every other old link
