@@ -11,9 +11,8 @@ _src=open('tools/p3split.py').read(); exec(_src[:_src.index('for n in map')])
 V=str(int(time.time()))
 DRAW=json.load(open('tools/p3draw_cards.json')) if os.path.exists('tools/p3draw_cards.json') else {}
 SKIP=re.compile(r'mock|games|-terms|-functions|-lec\d|practical|-fill\d|rad-|quiz')
-def main_pages(h):
-    m=re.search(r'<div class="sec main">(.*?)</div>',h,re.S)
-    return [f for f in re.findall(r'href="([^"?]+)',m.group(1)) if os.path.exists(f) and '-fill' not in f] if m else []
+def main_pages(h):   # the curated source decks (best/web/lecture), wherever the hub now lists them
+    return [f for f in dict.fromkeys(re.findall(r'href="([^"?]+)',h)) if os.path.exists(f) and re.search(r'-(best|web|lect)\d+\.html$',f)]
 cache={}
 def cards(f):
     if f not in cache:
