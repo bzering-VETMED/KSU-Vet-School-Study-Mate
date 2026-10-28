@@ -13,6 +13,7 @@ _src=open('tools/p3split.py').read(); exec(_src[:_src.index('for n in map')])
 V=str(int(time.time()))
 def qual(tag,q):
     t=(tag or '').lower()
+    if 'lab review video' in t: return 0   # professor/TA's own pin = most trusted
     if 'unlabeled' in t or q.lower().startswith(('📍','find')): return 6
     if '✏️' in tag or 'drawing by claude' in t or 'drawn diagram' in t: return 4
     if '🧠' in tag: return 5

@@ -78,6 +78,11 @@ if os.path.exists('assets/p3web_abdnerves_photo.jpg'):
      'Why: F sits at the cut caudal edge of the internal oblique, where L4 perforates it (lab guide p150); the same dog cropped differently marks only B–E (= the 4 nerves crossing the transversus in Fig 4-3: T13–L3). 13th rib not visible, so levels are a best read','',
      [('⚠️ Confirm','Ask the TA / check a dog: T13 runs along the caudal border of the 13th rib; L4 comes out with the deep circumflex iliac vessels'),('🧠 Order','Cranial → caudal: costoabdominal T13 · cranial iliohypogastric L1 · caudal iliohypogastric L2 · ilioinguinal L3 · lateral cutaneous femoral L4')],
      '🌐 web photo (dog, fresh tissue) · sent by Bethany · asterisks → letters')]
+if os.path.exists('assets/p3web_klinger_l4.jpg'):
+    C.setdefault(21,[]).append(img_card_facts('Review video (Dr. Klinger): nerves on the transversus abdominis. He put the probe (grey, top right) on L4 and counted forward. Name each badge.',f'assets/p3web_klinger_l4.jpg?v={V}',
+     'L4 Lateral cutaneous femoral nerve · L3 Ilioinguinal nerve · L2 Caudal iliohypogastric nerve · L1 Cranial iliohypogastric nerve · T13 Costoabdominal nerve',
+     'Transcript: "you will find T13 L1 L2 L3 L4 … L4 along here, 3, 2, 1, T13 … make sure you know the names." Badges = one nerve per step from his L4','',
+     [('🧠 Method','Find L4 (with the deep circumflex iliac vessels) → count cranially 3, 2, 1, T13 (behind the last rib)')],'🎥 Lab review video frame (Oct 27) · badges added'))
 css=re.search(r'<style>(.*?)</style>',open('gross-anatomy-lab22-best1.html').read(),re.S).group(1)
 for n,cs in C.items():
     fn=f'gross-anatomy-lab{n}-web1.html'; hubf=f'gross-anatomy-lab{n}-images.html'
