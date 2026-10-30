@@ -601,7 +601,7 @@ TRAPS={
         'Resting drive ~80% central / ~20% peripheral (don\'t flip)',
         'Apneustic = prolongs inspiration · pneumotaxic = ends it',
         'Hering–Breuer inhibits INSPIRATION',
-        '🟠 Notes Q7 (initial response to high CO₂) isn\'t answered directly · outside knowledge: peripheral respond FASTEST, central give MOST of the response'],
+        'Notes Q7: INITIAL response to high CO₂ = PERIPHERAL (seconds downstream) · central give MOST of the sustained response'],
  'pp11':['Horse = HYPOventilates (PaCO₂ ↑) in max exercise · humans/most mammals HYPERventilate (PaCO₂ ↓)',
         'Main cause of horse hypoxemia = short TRANSIT TIME, not hypoventilation',
         'Phase I = cardiac output · Phase II = venous blood arrival · Phase III = steady state',
@@ -643,6 +643,7 @@ HCSS=re.search(r'<style>.*?</style>',open(E2).read(),re.S).group(0)
 def hub(fn,title,h1,sub,back,backlbl,tiles):
     open(fn,'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>{title}</title>{HCSS}</head><body><div class="wrap"><section class="hero"><h1>{h1}</h1><p>{sub}</p></section><div class="nav"><a href="{back}?v={V}">← {backlbl}</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
 # Exam 3 hub: one tile per lecture terms page
+links+=f'<a class="tile" href="systems-lec3-notesqs.html?v={V}"><div class="emoji">❓</div><h2>End-of-notes questions</h2><p>All 10 notes lectures · answers · tap to reveal</p></a>'
 links+=f'<a class="tile" href="systems-lec3-old2024.html?v={V}"><div class="emoji">📝</div><h2>Poole Old Exam · 2024</h2><p>22 Q · posted key · tap to check · ⭐ start here</p></a>'
 links+=f'<a class="tile" href="systems-lec3-old2023.html?v={V}"><div class="emoji">📝</div><h2>Poole Old Exam · 2023</h2><p>22 Q · student answers, checked · tap to check</p></a>'
 links+=f'<a class="tile" href="systems-lec3-diagrams.html?v={V}"><div class="emoji">📈</div><h2>Key diagrams</h2><p>8 must-know Poole pictures · pink = what changed from normal</p></a>'
