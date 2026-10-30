@@ -40,6 +40,8 @@ PROBS=[ # (section, [(question, worked answer)])
  ('Sheep: PaCO₂ 60, R 0.8. Alveolar PO₂?','149 − (60 ÷ 0.8) = 149 − 75 = 74 mmHg'),
  ('★ Dog on room air: PaO₂ 49, PaCO₂ 48, R 0.8. Alveolar–arterial difference?','Ideal alveolar = 149 − 48/0.8 = 149 − 60 = 89 → 89 − 49 = 40 mmHg (big → mismatch)'),
  ('Dog: PaO₂ 70, PaCO₂ 40, R 0.8. Alveolar–arterial difference?','Ideal alveolar = 149 − 50 = 99 → 99 − 70 ≈ 29 mmHg'),
+ ('★ Horse at max: CO₂ output 90 L/min, PaCO₂ 50. Alveolar ventilation (×863)?','(90 ÷ 50) × 863 ≈ 1,553 L/min'),
+ ('★ Same horse hyperventilates to PaCO₂ 30. Alveolar ventilation?','(90 ÷ 30) × 863 ≈ 2,589 L/min → impossible, so the horse can\'t compensate'),
  ('Alveolar ventilation doubles, CO₂ output unchanged. PaCO₂ from 40 →?','Halves → 20 mmHg (hyperventilation)'),
  ('CO₂ output doubles (exercise) and alveolar ventilation doubles. PaCO₂?','Stays 40 mmHg (that\'s the goal of breathing)'),
 ]),
