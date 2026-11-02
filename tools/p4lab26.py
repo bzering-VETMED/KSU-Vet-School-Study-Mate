@@ -151,7 +151,7 @@ def write_hub(lab,title,sub,secs,practical=4):
     rows=[];got=0
     for t,_,note in P4BOLD[lab]:
         w=where.get(t)
-        if w and w[0]!='🧠': got+=1
+        if w and w[0] in ('⭐','📚','📍'): got+=1
         cell=f'{w[0]} {E(w[1])}' if w else '❗ not in decks yet'
         if w and w[0]=='🧠': cell+=' · ❗ no photo on the slides'
         rows.append(f'<tr><td>{E(t)}</td><td>{cell}</td></tr>')
