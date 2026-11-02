@@ -19,4 +19,10 @@ P4BOLD={
     T('caudal branch (lateral saphenous vein)','caudal branch of the lateral saphenous vein','lateral saphenous vein caudal branch','caudal branch of lateral saphenous vein'),
     T('descending genicular artery'),T('middle caudal femoral artery'),T('distal caudal femoral artery'),
     T('popliteal artery'),T('cranial tibial artery')],
+27:[T('lumbosacral plexus'),T('obturator nerve'),T('femoral nerve'),T('pudendal nerve'),T('caudal rectal nerve'),
+    T('perineal nerves','perineal nerve'),T('dorsal nerve of the penis','dorsal nerve of the penis/clitoris','dorsal nerve of the clitoris'),
+    T('caudal cutaneous femoral nerve'),T('lumbosacral trunk'),T('caudal gluteal nerve'),T('cranial gluteal nerve'),T('sciatic nerve'),
+    T('lateral cutaneous sural nerve'),T('caudal cutaneous sural nerve'),T('common fibular nerve','common peroneal nerve'),
+    T('superficial fibular nerve','superficial peroneal nerve'),T('deep fibular nerve','deep peroneal nerve'),
+    T('perforating branch','perforating branch of dorsal metatarsal artery ii'),T('tibial nerve'),T('tarsal tunnel')],
 }

@@ -44,7 +44,7 @@ FULL={'external iliac arteries':'External iliac artery (paired: right + left)',
 def slide_cards(pdf,lab,tag,prefix,src_label):
     d=fz.open(pdf); out=[]
     for i,p in enumerate(d):
-        ims=p.get_image_info(); dr=[x for x in p.get_drawings() if x.get('fill') and x['fill']!=(1.0,1.0,1.0)]
+        ims=p.get_image_info(); dr=[x for x in p.get_drawings() if x.get('fill') and x['fill'] not in((1.0,1.0,1.0),(0.0,0.0,0.0),(1.0,1.0,0.0))]   # green highlight only (black arrows / yellow label boxes = a labeled slide)
         if not ims or not dr: continue                      # keep only the highlighted copy of each pair
         t=p.get_text(); title=re.sub(r'\s+',' ',t.split('Note:')[0]).strip()
         note=re.sub(r'\s+',' ',t.split('Note:')[1].split('Dissection:')[0]).strip() if 'Note:' in t else ''
@@ -60,7 +60,7 @@ def slide_cards(pdf,lab,tag,prefix,src_label):
 
 # ---------- 📚 vector-labeled lecture photos ----------
 AB=[(r'\bCr\. branch, ','cranial branch of the '),(r'\bCd\. branch, ','caudal branch of the '),(r'\bext\.','external'),
-    (r'\ba\. & n\.','artery and nerve'),(r'\ba\.','artery'),(r'\bn\.','nerve'),(r'\bv\.','vein'),(r'\bm\.','muscle')]
+    (r'\ba\. & n\.','artery and nerve'),(r'\ba\.','artery'),(r'\bn\.','nerve'),(r'\bv\.','vein'),(r'\bm\.','muscle'),(r'\bperoneal\b','fibular')]
 def expand(s):
     for a,b in AB: s=re.sub(a,b,s,flags=re.I)
     s=re.sub(r'\s+',' ',s).strip().lower(); return s[0].upper()+s[1:]
@@ -153,7 +153,7 @@ def write_hub(lab,title,sub,secs,practical=4):
         w=where.get(t)
         if w and w[0]!='🧠': got+=1
         cell=f'{w[0]} {E(w[1])}' if w else '❗ not in decks yet'
-        if w and w[0]=='🧠': cell+=' · ❗ no photo yet — photograph at lab'
+        if w and w[0]=='🧠': cell+=' · ❗ no photo on the slides'
         rows.append(f'<tr><td>{E(t)}</td><td>{cell}</td></tr>')
     h=(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {lab}</title><style>{HUBCSS}</style></head><body><div class="wrap">'
        f'<a class="back" href="gross-anatomy-practical{practical}.html?v={V}">← Back to Practical {practical}</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div>'
