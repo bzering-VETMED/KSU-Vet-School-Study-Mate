@@ -164,6 +164,35 @@ def write_hub(lab,title,sub,secs,practical=4):
     open(f'gross-anatomy-lab{lab}-images.html','w').write(h+'</div></body></html>')
     return got
 
+def two_area_hub(lab,title,sub,best,extra,best_note='',practical=4):
+    """Bethany's Practical 4 layout (Nov 2): ONE ⭐ Bold terms deck (best photo per bold term — UMN first, then school
+    slides until UMN arrives; concept cards for photo-less terms at the end) + ONE 📚 Extra bold-term photos deck.
+    Checklist is a small collapsed line at the bottom. Old block pages (best/more/nophoto/umn…) for this lab are removed."""
+    order=[t for t,_,_ in P4BOLD[lab]]
+    best=sorted(best,key=lambda c:min([order.index(t) for t in c['terms'] if t in order]+[999]))
+    for f in os.listdir('.'):
+        if re.match(rf'gross-anatomy-lab{lab}-(best|more|nophoto|ppt|umn)\d*\.html$',f): os.remove(f)
+    hub=f'gross-anatomy-lab{lab}-images.html'; bf=f'gross-anatomy-lab{lab}-bold.html'; xf=f'gross-anatomy-lab{lab}-extra.html'
+    if best: write_deck(bf,f'Lab {lab} · ⭐ Bold terms',f'Best photo for each bold term, in your list order · {len(best)} cards',best,hub)
+    if extra: write_deck(xf,f'Lab {lab} · 📚 Extra bold-term photos',f'More photos of the same bold terms · {len(extra)} cards',extra,hub)
+    where={}
+    for icon,cs in (('⭐',best),('📚',extra)):
+        for c in cs:
+            for t in c['terms']: where.setdefault(t,icon)
+    photo=lambda c:'🧠' not in c['html'][:300]
+    have={t for c in best+extra if photo(c) for t in c['terms']}
+    rows=''.join(f'<tr><td>{E(t)}</td><td>{where.get(t,"❗")}{"" if t in have else " · ❗ no photo yet"}</td></tr>' for t in order)
+    got=sum(t in have for t in order)
+    big='display:block;text-decoration:none;margin:14px 0;padding:22px 20px;border-radius:20px;color:#fff;font-weight:900;font-size:21px'
+    h=(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lab {lab}</title><style>{HUBCSS}</style></head><body><div class="wrap">'
+       f'<a class="back" href="gross-anatomy-practical{practical}.html?v={V}">← Back to Practical {practical}</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div>')
+    h+=(f'<a href="{bf}?v={V}" style="{big};background:linear-gradient(135deg,#5d347e,#e05fa8)">⭐ Bold terms<span style="display:block;font-size:14px;font-weight:700;opacity:.92">{len(best)} cards · best photo per bold term · {E(best_note)}</span></a>' if best else
+        f'<div style="{big};background:#c9b6d9">⭐ Bold terms<span style="display:block;font-size:14px;font-weight:700">Photos coming — send UMN screenshots or the lab slides</span></div>')
+    if extra: h+=f'<a href="{xf}?v={V}" style="{big};background:linear-gradient(135deg,#8855b8,#df78ad)">📚 Extra bold-term photos<span style="display:block;font-size:14px;font-weight:700;opacity:.92">{len(extra)} cards · school photos + other angles</span></a>'
+    h+=f'<details class="sec chk"><summary>✅ Checklist · {got}/{len(order)} bold terms have a photo</summary><div class="tw"><table>{rows}</table></div></details>'
+    open(hub,'w').write(h+'</div></body></html>')
+    return got
+
 if __name__=='__main__':
     SL,VN=sys.argv[1],sys.argv[2]; LAB=26; hub=f'gross-anatomy-lab{LAB}-images.html'
     star=slide_cards(SL,LAB,'','p4_l26s','Lab 26 slides')
@@ -172,19 +201,5 @@ if __name__=='__main__':
     NP={'cranial branch (medial saphenous vein)':'Runs with the cranial branch of the saphenous artery (medial side of the crus). The medial saphenous vein satellites the saphenous artery; it is the most common venipuncture site in the CAT hind limb. (Lab 26 slide 42 note)',
         'caudal branch (medial saphenous vein)':'Runs with the caudal branch of the saphenous artery (medial side of the crus, toward the tarsus). (Lab 26 slide 42 note)'}
     npc=[dict(name=t,terms=[t],html=f'<section class="card"><div class="q">🧠 {E(t)}<span class="tagline">❗ no photo yet · photograph at lab</span></div><div class="stg ans"><div class="pr">❓ Where is it + what does it travel with?</div><div class="an"><div class="nm">{E(t)}</div><div class="fx">{E(NP.get(t,""))}</div></div></div><div class="rev">💗 TAP TO REVEAL</div></section>') for t in nophoto]
-    for f in os.listdir('.'):
-        if re.match(rf'gross-anatomy-lab{LAB}-(best|more|nophoto)\d+\.html$',f): os.remove(f)
-    links_star=[];links_more=[];links_np=[]
-    for k,b in enumerate(blocks(star,12),1):
-        fn=f'gross-anatomy-lab{LAB}-best{k}.html'; lab_=f'Lab 26 slides {k} · {b[0]["name"]} → {b[-1]["name"]}'
-        write_deck(fn,f'Lab {LAB} · Lab slides {k}',f'⭐ Highlighted bold terms · {len(b)} cards',b,hub); links_star.append((fn,lab_,b))
-    for k,b in enumerate(blocks(vn,12),1):
-        fn=f'gross-anatomy-lab{LAB}-more{k}.html'; lab_=f'🔢 Numbered lecture photos {k}'
-        write_deck(fn,f'Lab {LAB} · Numbered lecture photos {k}',f'📚 More practice · {len(b)} cards',b,hub); links_more.append((fn,lab_,b))
-    if npc:
-        fn=f'gross-anatomy-lab{LAB}-nophoto1.html'; write_deck(fn,f'Lab {LAB} · Bold terms with no photo yet','🧠 Photograph these at lab',npc,hub); links_np.append((fn,'🧠 Bold terms with no photo yet',npc))
-    got=write_hub(LAB,'Lab 26 · Pelvic limb vessels','Lab slides (Dr. Stueve) + lecture photos. Small decks, one tap = full answer. 🐾',[
-        ('main','⭐ Bold-term labeled photos · start here','Every bold term highlighted on the lab-slide photos, in list order.',links_star,'⭐'),
-        ('terms','🧠 Bold terms with no photo yet','Not on any slide photo — photograph these at lab.',links_np,'🧠'),
-        ('extra','📚 More practice','Lecture photos (Pelvic limb vv nn): labels erased → pink numbers. Different photos, same bold terms.',links_more,'📚')])
+    got=two_area_hub(LAB,'Lab 26 · Pelvic limb vessels','Two decks. One tap = full answer. 🐾',star+npc,vn,'school lab slides until UMN photos arrive')
     print('star',len(star),'more',len(vn),'nophoto',nophoto,'covered',got,'/',len(P4BOLD[LAB]))

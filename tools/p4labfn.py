@@ -43,9 +43,9 @@ for n,L in sorted(ALL.items()):
             tf=f'gross-anatomy-lab{n}-terms.html'
             pg,tn,ts=TP.build(f'LAB{n}',tf,f'Lab {n} Terms · {L["title"].split("· ",1)[-1]}',V,f'gross-anatomy-lab{n}-images.html')
             pg=pg.replace('← Back to Exam 4','← Back to Lab hub')
-            open(tf,'w').write(pg); tlink=f'<a href="{tf}?v={V}">⚡ Terms page · tap to reveal<span>{tn} terms · ★{ts}</span></a>'
+            open(tf,'w').write(pg); tlink=f'<a href="{tf}?v={V}">⚡ Terms page<span>{tn} terms · ★{ts}</span></a>'
         h=open(hf).read(); h=re.sub(r'<!--fn-->.*?<!--/fn-->','',h,flags=re.S)
-        sec=f'<!--fn--><div class="sec terms"><h2>🧠 No-image terms + functions</h2><p>From the pre-lab video, Lab {n} notes + slide notes. ★ pink = he stressed it.</p>{tlink}<a href="{fn}?v={V}">🧠 Functions page · tap to reveal<span>{rows} items · ★{stars}</span></a></div><!--/fn-->'
+        sec=f'<!--fn--><div class="sec terms" style="padding:8px 14px"><p style="margin:4px 0 0">📄 Study pages (no photos)</p>{tlink}<a href="{fn}?v={V}">🧠 Functions page<span>{rows} items · ★{stars}</span></a></div><!--/fn-->'
         h=h.replace('</div></body></html>',sec+'</div></body></html>',1)
         open(hf,'w').write(h)
     except FileNotFoundError: pass

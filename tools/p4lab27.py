@@ -50,19 +50,6 @@ if __name__=='__main__':
     # nerve photos that already live in the Lab 26 decks (no repeated photos)
     seen=[dict(name='Femoral nerve',terms=['femoral nerve']),dict(name='Sciatic nerve',terms=['sciatic nerve']),
           dict(name='Deep fibular nerve',terms=['deep fibular nerve']),dict(name='Cranial gluteal nerve',terms=['cranial gluteal nerve'])]
-    for f in os.listdir('.'):
-        if re.match(rf'gross-anatomy-lab{LAB}-(best|more|nophoto)\d+\.html$',f): os.remove(f)
-    ls,lm,ln=[],[],[]
-    for k,b in enumerate(B.blocks(star,12),1):
-        fn=f'gross-anatomy-lab{LAB}-best{k}.html'; B.write_deck(fn,f'Lab {LAB} · Lab slides {k}',f'⭐ Bold-term photos · {len(b)} cards',b,HUB)
-        ls.append((fn,f'Lab 27 slides {k} · {b[0]["name"].split(" | ")[0]} → {b[-1]["name"].split(" | ")[0]}',b))
-    for k,b in enumerate(B.blocks(vn,12),1):
-        fn=f'gross-anatomy-lab{LAB}-more{k}.html'; B.write_deck(fn,f'Lab {LAB} · Numbered lecture photos {k}',f'📚 More practice · {len(b)} cards',b,HUB); lm.append((fn,f'🔢 Numbered lecture photos {k}',b))
-    fn=f'gross-anatomy-lab{LAB}-nophoto1.html'; B.write_deck(fn,f'Lab {LAB} · Concept terms (no photo)','🧠 Define them out loud',np_,HUB); ln.append((fn,'Lumbosacral plexus + trunk (concepts)',np_))
-    got=B.write_hub(LAB,'Lab 27 · Pelvic limb nerves','Lab slides (Dr. Stueve) + lecture photos. Small decks, one tap = full answer. 🐾',[
-        ('main','⭐ Bold-term labeled photos · start here','Every bold term with a photo, in your list order.',ls,'⭐'),
-        ('terms','🧠 Bold terms with no photo yet','Concept terms — no photo exists on the slides. Define them out loud.',ln,'🧠'),
-        ('extra','📚 More practice','Lecture photos (Pelvic limb vv nn): labels erased → pink numbers.',lm,'📚'),
-        ('extra','📍 Seen in Lab 26','Femoral, sciatic + deep fibular nerve lecture photos, and the cranial gluteal nerve slide, live in the Lab 26 decks (no repeated photos).',
-         [('gross-anatomy-lab26-more2.html','📍 Lab 26 · Numbered lecture photos 2 (femoral, sciatic, deep fibular nerves)',seen[:3]),('gross-anatomy-lab26-best1.html','📍 Lab 26 · Lab slides 1 (cranial gluteal nerve)',seen[3:])],'📍')])
+    seencard=dict(name='Seen in Lab 26',terms=[t for c in seen for t in c['terms']],html='<section class="card"><div class="q">📍 More nerve photos live in Lab 26<span class="tagline">femoral, sciatic + deep fibular nerves · cranial gluteal nerve</span></div><div class="stg ans"><div class="pr">❓ Where?</div><div class="an"><div class="nm"><a href="gross-anatomy-lab26-extra.html">Lab 26 · 📚 Extra bold-term photos</a></div><div class="fx">Numbered lecture photos: femoral nerve, sciatic nerve, deep fibular nerve. Lab 26 ⭐ deck: cranial gluteal nerve slide.</div></div></div><div class="rev">💗 TAP TO REVEAL</div></section>')
+    got=B.two_area_hub(LAB,'Lab 27 · Pelvic limb nerves','Two decks. One tap = full answer. 🐾',star+np_,vn+[seencard],'school lab slides until UMN photos arrive')
     print('star',len(star),'more',len(vn),'covered',got,'/',len(P4BOLD[LAB]))
