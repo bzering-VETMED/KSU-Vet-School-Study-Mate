@@ -30,4 +30,4 @@ let bar=document.querySelector('.bar'),mb=document.createElement('button');mb.te
 mb.onclick=()=>{let m=cards.map((_,i)=>i).filter(i=>G[i]==0);if(!m.length){mb.textContent='🎉 No misses';setTimeout(()=>mb.textContent='🔁 Misses only',1500);return}ord=m;p=0;show()};
 let rz=document.createElement('button');rz.textContent='🧹 Clear scores';rz.onclick=()=>{G={};save();paint()};bar.insertBefore(rz,sc);
 let z=document.createElement('div');z.className='zoom';z.innerHTML='<b>✕ Close</b><img>';document.body.appendChild(z);z.onclick=()=>z.classList.remove('on');
-document.querySelectorAll('.pic img,.an img').forEach(im=>im.onclick=e=>{e.stopPropagation();z.querySelector('img').src=im.src;z.classList.add('on')});paint()})();</script><script src="swipe.js?v=1793684808"></script></body></html>
+document.querySelectorAll('.pic img,.an img').forEach(im=>im.onclick=e=>{e.stopPropagation();z.querySelector('img').src=im.src;z.classList.add('on')});paint()})();</script><script src="swipe.js?v=1793685060"></script></body></html>
