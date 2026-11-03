@@ -51,5 +51,7 @@ if __name__=='__main__':
     seen=[dict(name='Femoral nerve',terms=['femoral nerve']),dict(name='Sciatic nerve',terms=['sciatic nerve']),
           dict(name='Deep fibular nerve',terms=['deep fibular nerve']),dict(name='Cranial gluteal nerve',terms=['cranial gluteal nerve'])]
     seencard=dict(name='Seen in Lab 26',terms=[t for c in seen for t in c['terms']],html='<section class="card"><div class="q">📍 More nerve photos live in Lab 26<span class="tagline">femoral, sciatic + deep fibular nerves · cranial gluteal nerve</span></div><div class="stg ans"><div class="pr">❓ Where?</div><div class="an"><div class="nm"><a href="gross-anatomy-lab26-extra.html">Lab 26 · 📚 Extra bold-term photos</a></div><div class="fx">Numbered lecture photos: femoral nerve, sciatic nerve, deep fibular nerve. Lab 26 ⭐ deck: cranial gluteal nerve slide.</div></div></div><div class="rev">💗 TAP TO REVEAL</div></section>')
-    got=B.two_area_hub(LAB,'Lab 27 · Pelvic limb nerves','Two decks. One tap = full answer. 🐾',star+np_,vn+[seencard],'school lab slides until UMN photos arrive')
+    import p4umn
+    best,extra,nu=p4umn.merge(LAB,star+np_,vn+[seencard])
+    got=B.two_area_hub(LAB,'Lab 27 · Pelvic limb nerves','Two decks. One tap = full answer. 🐾',best,extra,f'{nu} UMN photos first, school slides fill the gaps')
     print('star',len(star),'more',len(vn),'covered',got,'/',len(P4BOLD[LAB]))

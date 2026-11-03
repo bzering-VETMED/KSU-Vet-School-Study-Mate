@@ -201,5 +201,7 @@ if __name__=='__main__':
     NP={'cranial branch (medial saphenous vein)':'Runs with the cranial branch of the saphenous artery (medial side of the crus). The medial saphenous vein satellites the saphenous artery; it is the most common venipuncture site in the CAT hind limb. (Lab 26 slide 42 note)',
         'caudal branch (medial saphenous vein)':'Runs with the caudal branch of the saphenous artery (medial side of the crus, toward the tarsus). (Lab 26 slide 42 note)'}
     npc=[dict(name=t,terms=[t],html=f'<section class="card"><div class="q">🧠 {E(t)}<span class="tagline">❗ no photo yet · photograph at lab</span></div><div class="stg ans"><div class="pr">❓ Where is it + what does it travel with?</div><div class="an"><div class="nm">{E(t)}</div><div class="fx">{E(NP.get(t,""))}</div></div></div><div class="rev">💗 TAP TO REVEAL</div></section>') for t in nophoto]
-    got=two_area_hub(LAB,'Lab 26 · Pelvic limb vessels','Two decks. One tap = full answer. 🐾',star+npc,vn,'school lab slides until UMN photos arrive')
+    import p4umn
+    best,extra,nu=p4umn.merge(LAB,star+npc,vn)
+    got=two_area_hub(LAB,'Lab 26 · Pelvic limb vessels','Two decks. One tap = full answer. 🐾',best,extra,f'{nu} UMN photos first, school slides fill the gaps')
     print('star',len(star),'more',len(vn),'nophoto',nophoto,'covered',got,'/',len(P4BOLD[LAB]))
