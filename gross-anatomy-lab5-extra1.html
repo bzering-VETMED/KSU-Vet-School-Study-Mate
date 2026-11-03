@@ -21,4 +21,4 @@ function pv(){let c=cur(),s=st(c),n=shown(c);if(n>0){s[n-1].classList.remove('vi
 function all(){let c=cur();st(c).forEach(x=>x.classList.add('vis'));upd(c)}
 next.onclick=nx;prev.onclick=pv;reveal.onclick=all;skip.onclick=()=>{if(p<ord.length-1){p++;show()}};skipb.onclick=()=>{if(p>0){p--;show()}};shuffle.onclick=()=>{for(let i=ord.length-1;i;i--){let j=Math.floor(Math.random()*(i+1));[ord[i],ord[j]]=[ord[j],ord[i]]}p=0;show()};reset.onclick=()=>{ord=cards.map((_,i)=>i);p=0;show()};
 document.querySelectorAll('.rev').forEach(r=>r.onclick=()=>{if(!step())nx()});
-document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown','Enter',' ','ArrowDown'].includes(e.key)){e.preventDefault();nx()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();pv()}});show();</script></body></html>
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown','Enter',' ','ArrowDown'].includes(e.key)){e.preventDefault();nx()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();pv()}});show();</script><script src="swipe.js?v=1793684808"></script></body></html>

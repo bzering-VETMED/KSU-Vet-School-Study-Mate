@@ -48,4 +48,4 @@ function open(){let m=list();pre.textContent=m.length?T+' · misses ('+m.length+
 go.onclick=()=>{let t=pre.textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).catch(()=>{let a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}).finally(()=>go.textContent='✅ Copied! Paste it to Claude')};
 w.querySelector('.x').onclick=()=>w.classList.remove('on');
 let b=document.createElement('button');b.textContent='📋 Copy misses';b.onclick=open;let bar=document.querySelector('.bar');bar.insertBefore(b,document.getElementById('count'));
-document.addEventListener('click',e=>{if(!e.target.closest('.grade'))return;setTimeout(()=>{let g=G();if(cs.every((_,i)=>i in g))open()},50)});})();</script></body></html>
+document.addEventListener('click',e=>{if(!e.target.closest('.grade'))return;setTimeout(()=>{let g=G();if(cs.every((_,i)=>i in g))open()},50)});})();</script><script src="swipe.js?v=1793684808"></script></body></html>
