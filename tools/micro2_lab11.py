@@ -5,7 +5,7 @@ MAIN=[
 ('c11/al02','Rat brain, sagittal (MHS 283): name 1–6.','1 = olfactory bulb · 2 = cerebrum · 3 = hippocampus · 4 = nucleus (cluster of neuron cell bodies in the CNS) · 5 = cerebellum · 6 = brain stem',
  'Cerebellum = sharp layered folds (arbor vitae) · cerebrum = wide pale gray matter · brain stem = gray and white matter mixed, nuclei instead of layers',
  'Cerebrum = conscious perception + voluntary movement · cerebellum = coordination (feed-forward motor control)','Active Learning slide 2',0),
-('c11/al03','Hippocampus (class slide 45): name 1–5.','1 = choroid plexus · 2 = hippocampus · 3 = lateral ventricle · 4 = dentate gyrus · 5 = piriform lobe',
+('c11/al03','Hippocampus (class slide 45): name 1–5. (Ignore the small black numbers on the drawing; top of the section = ventral.)','1 = choroid plexus · 2 = hippocampus · 3 = lateral ventricle · 4 = dentate gyrus · 5 = piriform lobe',
  'Dentate gyrus = the pointed, darker V-shaped band · hippocampus = the curved part that folds in on itself',
  'Klimek: the slide says "third ventricle" but lateral ventricle is correct','Active Learning slide 3 · Klimek in lab',0),
 ('c11/al04','Hippocampus (Michigan slide): name 1–5.','1 = choroid plexus · 2 = hippocampus · 3 = lateral ventricle · 4 = dentate gyrus · 5 = piriform lobe',
@@ -34,19 +34,19 @@ MAIN=[
 ('c11/al12','Slide 41, trichrome (collagen = blue): name 1–6.','1 = dura mater · 2 = arachnoid and pia mater · 3 = dorsal root · 4 = ventral root · 5 = subdural space (potential space) · 6 = subarachnoid space',
  'Subarachnoid space is larger in life because it is filled with cerebrospinal fluid · roots sit under the dura then pierce it',
  'Nerve roots in longitudinal section can look like smooth muscle: zoom in for axons + myelin (Klimek)','Active Learning slide 12',0),
-('c11/ex/q20','Spinal cord at T11: name the circled region and the neurons in it.','Lateral horn · sympathetic preganglionic neurons',
- 'Small sideways bump of gray matter between the dorsal and ventral horns · only at thoracolumbar levels',
- 'Thoracolumbar = sympathetic · preganglionic because postganglionic cell bodies sit in ganglia','Active Learning slide 20 · Basel in lab',0),
+('c11/ex/q20','Spinal cord at T11: what neurons are in the circled region, and which horn holds them?','Sympathetic preganglionic neurons · lateral horn',
+ 'Klimek: at T11 these are sympathetic preganglionic · Basel: the lateral horn (thoracolumbar only) holds sympathetic preganglionic neurons',
+ '⚠️ No clear horn bump in this image · "lateral horn" is inferred from the level, not pointed out by name','Active Learning slide 20 · Basel + Klimek in lab',1),
 ]
 PHOTOS=[]
 # 📗 Slide Atlas (hint letters replaced with pink numbers)
 ATLAS=[
 ('fig/p108_f3','Rat brain (Atlas p.108, Fig 3): name 1–7.','1 = olfactory bulb · 2 = cerebrum · 3 = lateral ventricle · 4 = dentate gyrus and hippocampus · 5 = cerebellum · 6 = fourth ventricle · 7 = medulla oblongata','','','Slide Atlas p.108 Fig 3',0),
 ('fig/p108_f4','Atlas p.108, Fig 4: what do the arrows mark?','Nuclei (collections of neurons) in the brain stem and the deep cerebellum','','','Slide Atlas p.108 Fig 4',0),
-('clean/p109_f5','Cerebral cortex, Golgi stain (Atlas p.109, Fig 5): name 1–3. What are 4 and 5?','1 = molecular layer · 2 = small pyramidal layer · 3 = large pyramidal layer · 4, 5 = deep multiform / polymorphous layers','Only molecular vs pyramidal is tested (Basel)','','Slide Atlas p.109 Fig 5',0),
+('clean/p109_f5','Cerebral cortex (Atlas p.109, Fig 5): name 1–5.','1 = molecular layer · 2 = small pyramidal layer · 3 = large pyramidal layer · 4 = multiform layer · 5 = polymorphous layer','Only molecular vs pyramidal is tested (Basel) · deep layer names vary: slide 5 = multiform, Basel = polymorphic, atlas = polymorphous','','Slide Atlas p.109 Fig 5',0),
 ('fig/p110_f7','Atlas p.110, Fig 7: name 1–4.','1 = hippocampus · 2 = dentate gyrus · 3 = choroid plexus · 4 = ependymal cells','','Choroid plexus makes most of the cerebrospinal fluid','Slide Atlas p.110 Fig 7',0),
 ('fig/p110_f8','Choroid plexus (Atlas p.110, Fig 8): name 1 and 2.','1 = ependymal cells · 2 = loose connective tissue of the pia mater around blood vessels','Cuboidal ependymal cells over a capillary-rich core','Rich blood supply lets these ependymal cells make lots of cerebrospinal fluid','Slide Atlas p.110 Fig 8',0),
-('fig/p111_f9','Atlas p.111, Fig 9: name 1–6.','1 = third ventricle · 2 = white matter of hippocampus · 3 = pyramidal layer of hippocampus · 4 = molecular layer of hippocampus · 5 = molecular layer of dentate gyrus · 6 = pyramidal layer of dentate gyrus','','','Slide Atlas p.111 Fig 9',0),
+('fig/p111_f9','Atlas p.111, Fig 9: name 1–6.','1 = third ventricle (atlas label; Klimek corrected the same label to lateral ventricle on Active Learning slide 3) · 2 = white matter of hippocampus · 3 = pyramidal layer of hippocampus · 4 = molecular layer of hippocampus · 5 = molecular layer of dentate gyrus · 6 = pyramidal layer of dentate gyrus','','','Slide Atlas p.111 Fig 9',0),
 ('fig/p111_f10','Cresyl violet (Atlas p.111, Fig 10): name 1–3.','1 = lateral ventricle · 2 = pyramidal layer of hippocampus · 3 = pyramidal layer of dentate gyrus','','','Slide Atlas p.111 Fig 10',0),
 ('fig/p112_f11','Cerebellum (Atlas p.112, Fig 11): name 1–5.','1 = blood vessel in the pia mater or arachnoid · 2 = molecular layer · 3 = Purkinje cell · 4 = granular layer · 5 = white matter','','','Slide Atlas p.112 Fig 11',0),
 ('clean/p112_f12','Medulla oblongata, ovine (Atlas p.112, Fig 12): name 1–4.','1 = reticular formation · 2 = nucleus (cranial nerve nucleus) · 3 = ependyma · 4 = fourth ventricle','Fibers run every direction = reticular formation, most of the medulla','','Slide Atlas p.112 Fig 12',0),
