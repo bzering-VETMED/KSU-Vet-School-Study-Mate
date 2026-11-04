@@ -28,3 +28,4 @@
 - ⭐ decks = real cadaver photos only: UMN corrosion casts (p4umn.CASTS) go to 📚 Extra.
 - Update (Bethany, Nov 3 later): ⭐ = UMN cadaver photos with ALL bold numbers answered on ONE card (`p4umn.merge`, casts excluded) + school slides only for uncovered terms. `per_term()` kept but unused.
 - sw.js: network-first with cache:'no-cache' (bypasses the phone's 10-min GitHub Pages cache); every page registers it (updateViaCache none).
+- **Clean look (Bethany, Nov 3): NO precision-traps boxes, source-disagreement/flag boxes, legends or ★-reason lines on any page.** Builders no longer emit them; run `python3 tools/clean.py` after any build as a safety net.

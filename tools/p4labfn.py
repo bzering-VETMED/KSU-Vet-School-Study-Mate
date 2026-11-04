@@ -23,9 +23,8 @@ for n,L in sorted(ALL.items()):
     body=f'<body><div class="wrap"><a class="back" href="gross-anatomy-practical4.html?v={V}">← Back to Practical 4</a> <a class="back" href="gross-anatomy-lab{n}-images.html?v={V}">🖼️ Lab {n} hub</a>'
     body+=f'<div class="hero"><h1>🧠 {E(L["title"])} · Functions</h1><p>Say it, then tap the pink box · {rows} items · ★ {stars} professor-emphasized · {E(L["src"])}</p></div>'
     body+='<div class="bar"><script defer src="shuffle.js"></script><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="star">★ Starred only</button><span class="n" id="n"></span></div>'
-    body+='<p class="legend"><span>★ pink row</span> = he stressed it in the pre-lab video or lecture.</p>'
-    if L['traps']: body+='<div class="trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(x)}</li>' for x in L['traps'])+'</ul></div>'
-    for ft,fx in L['flags']: body+=f'<div class="flag"><b>{E(ft)}</b> · {E(fx)}</div>'
+    if False: body+='<div class="trap"><h2>⚠️ Precision traps</h2><ul>'+''.join(f'<li>{E(x)}</li>' for x in L['traps'])+'</ul></div>'
+    for ft,fx in []: body+=f'<div class="flag"><b>{E(ft)}</b> · {E(fx)}</div>'
     body+='<div class="cols">'
     for i,(h,rs) in enumerate(L['secs']):
         body+=f'<div class="sec{" p" if i%2 else ""}"><h2>{E(h)}</h2><table>'+''.join(f'<tr class="{"star" if s else ""}"><td>{E(q)}</td><td><span class="ans">{E(a)}</span></td></tr>' for q,a,s in rs)+'</table></div>'

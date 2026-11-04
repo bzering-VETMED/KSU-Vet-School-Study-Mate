@@ -57,7 +57,7 @@ def build(key, out, title, V, back="gross-anatomy-exam3.html"):
     for k, s in enumerate(d["sections"]):
         rows = ""
         for it in s["items"]:
-            why = f'<div class="why">★ {H.escape(it["why"])}</div>' if it.get("star") and it.get("why") else ""
+            why = ''
             rows += (f'<tr class="{"star" if it.get("star") else ""}"><td>{H.escape(it["q"])}</td>'
                      f'<td><span class="ans">{H.escape(it["a"])}</span>{why}</td><td class="m"><button class="miss" title="Mark as missed">✗</button></td></tr>')
         body += f'<div class="sec{" p" if k % 2 else ""}"><h2>{H.escape(s["title"])}</h2><table>{rows}</table></div>'
@@ -68,8 +68,7 @@ def build(key, out, title, V, back="gross-anatomy-exam3.html"):
             f'<div class="hero"><h1>⚡ {H.escape(title)}</h1><p>Say it, then tap the pink box · {n} terms · ★ {ns} emphasized by the professor</p></div>'
             f'<div class="bar"><button id="hide">🙈 Hide all</button><button id="all">👀 Show all</button><button id="shuf">🔀 Shuffle</button>'
             f'<button id="topic" hidden>📚 By topic</button><button id="staronly">★ Only</button><button id="copy">📋 Copy misses</button><span class="n" id="n"></span></div>'
-            f'<p class="legend">★ pink rows = professor emphasized · tap ✗ to mark a miss, then 📋 Copy misses</p>'
-            f'<div class="traps"><h2>⚠️ Precision traps</h2><ul>{traps}</ul></div>'
+            
             f'<div class="cols">{body}</div><div class="foot">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>{JS}</script></body></html>'), n, ns
 
 if __name__ == "__main__":
