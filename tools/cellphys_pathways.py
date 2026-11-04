@@ -297,6 +297,38 @@ P[28] = ('★ Gi/cAMP · M2 muscarinic → heart rate ↓', 'LC27 slides 24–27
   ('6 · Result? How many mechanisms?', 'THREE: GIRK hyperpolarizes + slower HCN + less Cav3.x → HEART RATE ↓. Schultz: "put a period here on GIRK and its importance"', K),
   ('Termination?', 'ACh leaves · αi GTPase: GTP → GDP · βγ leaves GIRK and rebinds GDP-bound α', U)])
 E4DECKS.append(('cellphys-path6.html', '🔀 LC27 Schultz G protein pathways ★', 'Gq/IP₃/DAG · Gq/NO/cGMP · Gs/cAMP · Gi/cAMP', [25, 26, 27, 28]))
+P[29] = ('★ ANP → guanylyl cyclase → blood pressure ↓', 'LC26 slides 3–7 + transcript', 'Atria stretched (↑ volume/pressure)', [
+  ('1 · Who releases what?', 'ATRIA release ANP (atrial natriuretic peptide). Distended VENTRICLE releases BNP (pathological)', K),
+  ('2 · How is it activated?', '126-amino-acid prohormone cleaved by CORIN → 28-amino-acid active peptide', U),
+  ('3 · Receptor type?', 'Single-pass receptor with its OWN guanylyl cyclase domain. ANP binding → DIMERIZES → cyclase ON', K),
+  ('4 · Second messenger → kinase?', 'GTP → cGMP → PROTEIN KINASE G (PKG)', K),
+  ('Effect 1 · Blood vessels?', 'PKG → MYPT-1 → myosin light chain phosphatase ON → VASODILATION', K),
+  ('Effect 2 · Kidney?', 'Afferent arteriole dilates → ↑GFR · ↓RENIN → ↓angiotensin II → ↓aldosterone', K),
+  ('Effect 3 · Adrenal?', 'cGMP → ↑PHOSPHODIESTERASE 2 → breaks down cAMP → ↓ACTH-stimulated CORTISOL (and modestly ↓aldosterone)', K),
+  ('Effect 4 · Pituitary?', '↓ADH', K),
+  ('Net result?', 'Less Na⁺ + water kept, vasodilation → BLOOD PRESSURE ↓ (the opposite of RAAS)', K),
+  ('Termination + drugs?', 'Phosphodiesterase: cGMP → GMP. PDE5 inhibitors (sildenafil, tadalafil, vardenafil) keep cGMP up → pulmonary hypertension, prostatic hyperplasia', U)])
+P[30] = ('★ Insulin receptor (tyrosine kinase) · TWO arms', 'LC26 slides 9–12 + transcript', 'Insulin from pancreatic β cells', [
+  ('1 · Receptor type + first event?', 'Receptor TYROSINE KINASE: insulin binds → halves come together → AUTOPHOSPHORYLATION', K),
+  ('Arm 1 · Adapter?', 'IRS-1 (insulin receptor substrate 1, a scaffold)', K),
+  ('Arm 1 · Enzyme?', 'PI3 KINASE: PIP₂ → PIP₃ (Akt etc., don\'t need the steps)', K),
+  ('Arm 1 · Result?', 'GLUT4 vesicles fuse with the membrane → glucose IN (muscle, fat)', K),
+  ('Arm 2 · Exchange factor?', 'SOS (son of sevenless) swaps GDP → GTP on RAS', K),
+  ('Arm 2 · What is RAS?', 'MONOMERIC G protein; its GTPase is the TIMER', K),
+  ('Arm 2 · Cascade?', 'RAS-GTP → MAPKKK (Raf) → MAPKK (MEK) → MAPK (ERK). Each K phosphorylates the next', K),
+  ('Arm 2 · Which one enters the nucleus?', 'MAP KINASE (not MAPKK or MAPKKK) → with jun, fos, myc → transcription', K),
+  ('Arm 2 · What gene here?', 'GLUT4 → refill vesicles for the NEXT insulin round', K),
+  ('Why is RAS a proto-oncogene?', 'Mutated RAS can\'t hydrolyze GTP → always ON → mitogen signaling never stops → tumors', K)])
+P[31] = ('★ EPO → JAK/STAT (tyrosine kinase–ASSOCIATED)', 'LC26 slides 17–20 + transcript', 'Low oxygen → KIDNEY makes erythropoietin (EPO)', [
+  ('1 · Does the receptor have its own kinase?', 'NO. EPO binds → receptor DIMERIZES → recruits JAK2 (Janus kinase)', K),
+  ('2 · What does JAK2 phosphorylate?', 'ITSELF + the RECEPTOR', K),
+  ('Arm 1 · Next?', 'STAT5 (signal transducer and activator of transcription) phosphorylated → enters NUCLEUS', K),
+  ('Arm 1 · Gene + effect?', 'BCL-2 → cell survival, ↓APOPTOSIS (longevity)', K),
+  ('Arm 2 · Shared cascade?', 'SOS → RAS → MAPKKK → MAPKK → MAPK → myc/jun/fos', K),
+  ('Arm 2 · Gene + effect?', 'CYCLIN D → PROLIFERATION', K),
+  ('Net result?', 'More red blood cell progenitors survive + divide → more RBCs', K),
+  ('Clinical?', 'Failing kidney → recombinant EPO · misuse (doping) → ↑viscosity, embolism · Apoquel blocks JAK → canine dermatitis', U)])
+E4DECKS.append(('cellphys-path7.html', '🧷 LC26 enzyme-linked receptor pathways ★', 'ANP/guanylyl cyclase · insulin two arms · EPO JAK/STAT', [29, 30, 31]))
 
 def build_pathways_e4(HUB, V):
     cj = _copyjs(); tiles = ''
