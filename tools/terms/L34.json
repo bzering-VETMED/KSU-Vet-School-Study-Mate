@@ -1,0 +1,904 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Mon 11/16) — stars and corrections update when the transcript arrives.",
+  "Meninges outside → in: DURA → ARACHNOID → PIA (DAP). Pia is the one stuck to nervous tissue and follows vessels in (slides 39, 42).",
+  "Spaces: EPIDURAL = outside dura, fat-filled, spinal cord ONLY (brain has NO epidural space — dura fused to skull periosteum) · SUBDURAL = POTENTIAL space (open only as an artifact) · SUBARACHNOID = real space with CSF + blood vessels + arachnoid trabeculae (slides 40, 43, 47).",
+  "FALX CEREBRI = longitudinal cerebral fissure (left vs right hemispheres), holds dorsal sagittal sinus · TENTORIUM CEREBELLI = transverse cerebral fissure (cerebrum vs cerebellum), partly dura + partly bone (slides 44–46).",
+  "Lumens: telencephalon = LATERAL ventricles · diencephalon = THIRD ventricle · mesencephalon = MESENCEPHALIC (cerebral) AQUEDUCT, not a ventricle · metencephalon + myelencephalon = FOURTH ventricle (medulla = caudal ½ only) · spinal cord = central canal (slides 9, 18, 25, 33, 49).",
+  "3-vesicle → 5-vesicle: prosencephalon splits (telencephalon + diencephalon), rhombencephalon splits (metencephalon + myelencephalon); the MESENCEPHALON stays ONE segment (slide 6).",
+  "Colliculi: ROSTRAL = VISUAL reflexes, CAUDAL = AUDITORY reflexes. Same pattern in the metathalamus: LATERAL geniculate = VISUAL, MEDIAL geniculate = AUDITORY (slides 22, 26).",
+  "Fiber types: PROJECTION = to/from brainstem + spinal cord (internal capsule) · COMMISSURAL = between hemispheres (corpus callosum, fornix/hippocampal commissure, rostral commissure) · ASSOCIATION = within the same hemisphere (slide 13).",
+  "Cerebral vs cerebellar arteries: 3 CEREBRAL (rostral, middle, caudal) come off the arterial CIRCLE; 2 CEREBELLAR (rostral, caudal) come off the BASILAR artery. Only rostral + caudal cerebral show on the MEDIAL surface (slide 37).",
+  "Cerebellar peduncles: MIDDLE = continuous with transverse fibers of the pons · CAUDAL = to medulla oblongata · ROSTRAL = mainly EFFERENT (cerebellum → brainstem). Don't flip 'cerebellar peduncle' (cerebellum ↔ brainstem) with 'cerebral peduncle' (midbrain, continues into internal capsule) (slides 27, 31).",
+  "CSF made by CHOROID PLEXUS (all ventricles), leaves via LATERAL APERTURES of the 4th ventricle, reabsorbed by ARACHNOID VILLI into the DORSAL SAGITTAL SINUS — production ≠ exit ≠ drainage (slides 55–61).",
+  "Pons: TRANSVERSE fibers = visible ventral bar; LONGITUDINAL fibers lie DORSAL to them, continue the crus cerebri, NOT visible on surface (slide 29).",
+  "⚠️ FLAG (terminology): metathalamus is listed as 'medial and lateral geniculate NUCLEI' on slide 18 but 'geniculate BODY' on slide 22 — same structures; confirm which wording the professor wants on the exam.",
+  "⚠️ FLAG: slide 23 says mammillary bodies are 'immediately DORSAL to the pituitary.' Standard description places the mammillary bodies CAUDAL to the infundibulum/tuber cinereum (outside knowledge — confirm). Use slide wording for now.",
+  "⚠️ FLAG: slide 66 is titled 'Normal brain CT scan versus hydrocephalus' but the images appear to be magnetic resonance images (MRI) (outside knowledge — confirm). Content (enlarged lateral ventricle, compressed cerebral cortex) is unaffected."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "LO1 (slide 2)…",
+     "a": "Explain the 3- and 5-vesicle stages of brain development, and the divisions of the adult brain.",
+     "star": true,
+     "why": "LO spine, bolded on slide 3"
+    },
+    {
+     "q": "LO2 (slide 2)…",
+     "a": "Describe the major structures associated with each region.",
+     "star": true,
+     "why": "LO spine, bolded on slide 8"
+    },
+    {
+     "q": "LO3 (slide 2)…",
+     "a": "Summarize the distribution of the cerebral and cerebellar arteries.",
+     "star": true,
+     "why": "LO spine, bolded on slide 35"
+    },
+    {
+     "q": "LO4 (slide 2)…",
+     "a": "Describe the meninges and their associated spaces.",
+     "star": true,
+     "why": "LO spine, bolded on slide 38"
+    },
+    {
+     "q": "LO5 (slide 2)…",
+     "a": "Describe the location of the lateral ventricles, third ventricle, mesencephalic aqueduct, fourth ventricle, and central canal.",
+     "star": true,
+     "why": "LO spine, bolded on slide 48"
+    },
+    {
+     "q": "LO6 (slide 2)…",
+     "a": "Describe the production, flow and drainage of cerebrospinal fluid (CSF).",
+     "star": true,
+     "why": "LO spine, bolded on slide 54"
+    },
+    {
+     "q": "In-class (clicker) questions shown on the slides (slides 34, 62, 64)?",
+     "a": "'With what region of the brain is the pituitary associated?' (slide 34) · 'Click on the cerebellomedullary cistern' (slide 62) · 'Dilation of the lateral ventricles might compress what brain region specifically?' (slide 64)",
+     "star": true,
+     "why": "In-class question slides = likely exam stems"
+    },
+    {
+     "q": "Practice applications listed (slide 63)?",
+     "a": "Hydrocephalus · epidural anesthesia · CSF collection · pituitary tumors in horses",
+     "star": true,
+     "why": "Clinical 'Practice applications' summary slide"
+    }
+   ]
+  },
+  {
+   "title": "🧬 LO1 · Brain development & divisions",
+   "items": [
+    {
+     "q": "3 parts of the brain (slide 4)?",
+     "a": "Cerebrum, cerebellum, brain stem",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What connects the brain stem to the cerebrum and cerebellum (slide 4)?",
+     "a": "Peduncles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Brain stem is continuous with… and most cranial nerves arise from… (slide 4)",
+     "a": "Continuous with the spinal cord (shares some features with it); most cranial nerves arise from the brain stem",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Brain and brainstem develop from… (slide 5)",
+     "a": "The neural tube",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumen of the neural tube in the brain becomes… (slide 5)",
+     "a": "The ventricles and the mesencephalic aqueduct",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "3-vesicle stage, rostral → caudal (slide 5)?",
+     "a": "Prosencephalon (forebrain) → mesencephalon (midbrain) → rhombencephalon (hindbrain)",
+     "star": true,
+     "why": "Bulleted list of the initial 3 regions; LO1"
+    },
+    {
+     "q": "5-vesicle stage, rostral → caudal (slides 6–7)?",
+     "a": "Telencephalon → diencephalon → mesencephalon → metencephalon → myelencephalon",
+     "star": true,
+     "why": "LO1 core sequence (color-coded slides 6–7)"
+    },
+    {
+     "q": "Prosencephalon divides into… (slide 6)",
+     "a": "Telencephalon (yellow) + diencephalon (peach)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Rhombencephalon divides into… (slide 6)",
+     "a": "Metencephalon (blue) + myelencephalon (pink)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which 3-vesicle segment does NOT divide (slide 6)?",
+     "a": "Mesencephalon — remains one segment",
+     "star": true,
+     "why": "Stated explicitly in slide caption"
+    },
+    {
+     "q": "Adult derivative of each vesicle (slides 7, 9, 18, 25, 28, 33)?",
+     "a": "Telencephalon = cerebrum (hemispheres, olfactory bulb) · diencephalon = epithalamus, thalamus, metathalamus, hypothalamus · mesencephalon = midbrain · metencephalon = cerebellum + pons · myelencephalon = medulla oblongata",
+     "star": true,
+     "why": "Ties the region slides together; LO1→LO2"
+    },
+    {
+     "q": "Structures labeled on the adult-regions median section (horse, slide 7)?",
+     "a": "Cerebrum, commissure of the cerebral hemispheres, choroid plexus of the 3rd ventricle, epiphysis (pineal), interthalamic adhesion, olfactory bulb, optic nerve (II), hypophysis, mammillary body, pons, medulla oblongata, cerebellum, choroid plexus of the 4th ventricle",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧠 LO2 · Telencephalon (cerebrum)",
+   "items": [
+    {
+     "q": "Cerebrum: how many hemispheres and lobes each (slide 9)?",
+     "a": "2 hemispheres; each has 4 lobes",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "4 lobes of each cerebral hemisphere (slide 9)?",
+     "a": "Frontal, parietal, temporal, occipital",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumen of each cerebral hemisphere (slide 9)?",
+     "a": "The lateral ventricle",
+     "star": true,
+     "why": "Lumen-per-region is LO5"
+    },
+    {
+     "q": "Surface of the cerebrum has… (slide 9)",
+     "a": "Gyri (ridges) and sulci (grooves)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Numbered functional areas of the cerebrum, dorsal view (slide 10)?",
+     "a": "1 motor cortex · 2 overlap · 3 somatosensory cortex · 4 auditory cortex · 5 visual cortex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Named sulcus on the dorsal cerebrum (slide 10)?",
+     "a": "Cruciate sulcus (motor cortex lies around it rostrally; somatosensory caudal)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which cortex is most caudal (occipital) on slide 10?",
+     "a": "Visual cortex (5)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudate nucleus is a… (slide 11)",
+     "a": "Basal nucleus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Definition of basal nuclei (slide 11)?",
+     "a": "Nuclei found deep within the white matter of the brain",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Main role of basal nuclei (slide 12)?",
+     "a": "Motor control (subcortical neuron groups); also motor learning, executive functions and behavior, emotions",
+     "star": true,
+     "why": "'motor control' bolded on slide"
+    },
+    {
+     "q": "Slide 12 figure numbers 1, 2, 3?",
+     "a": "1 motor cortex · 2 cerebellum · 3 basal nuclei (4–8 other nuclei)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "3 types of communication fibers in cerebral white matter (slide 13)?",
+     "a": "Projection, commissural, association",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Projection fibers (slide 13)?",
+     "a": "Ascending/descending fibers to and from the brain stem and spinal cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Commissural fibers (slide 13)?",
+     "a": "Go between hemispheres",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Association fibers (slide 13)?",
+     "a": "Stay within the same hemisphere",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Internal capsule: what is it and can you see it (slides 13–14)?",
+     "a": "Projection fibers connecting the cerebral hemisphere to the brain stem; can't see without cutting into the brain",
+     "star": true,
+     "why": "'Structures to identify' list"
+    },
+    {
+     "q": "Internal capsule is continuous with… (slide 14)",
+     "a": "Crus cerebri and cerebral peduncle (3 bottom figure)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Internal capsule figure numbers (slide 14)?",
+     "a": "7 on the left figure; 1 on the right figure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "3 commissural structures visible on a sagittal section (slides 13, 15)?",
+     "a": "Fornix, corpus callosum, rostral commissure",
+     "star": true,
+     "why": "'Structures to identify' list"
+    },
+    {
+     "q": "Fornix connects… (slide 15)",
+     "a": "The hippocampus with the diencephalon and cerebrum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hippocampal commissure = ? and where (slide 15)?",
+     "a": "Commissure of the fornix; at the caudal part of the fornix",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Rostral commissure (RC) fibers connect… (slide 15)",
+     "a": "The olfactory components of each hemisphere",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Corpus callosum (slide 15)?",
+     "a": "Axons crossing between hemispheres (largest commissure, dorsal on sagittal section)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other labels on the sagittal white-matter photo (slide 15)?",
+     "a": "Frontal lobe, occipital lobe, commissure of the fornix, fornix, corpus callosum, rc (rostral commissure), lam (lamina terminalis — outside knowledge, confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hippocampus: what is it (slides 14, 16)?",
+     "a": "An inward fold (invaginated gyrus) of the cerebrum that projects into / ends up in the floor of the lateral ventricle",
+     "star": true,
+     "why": "Defined on 2 slides"
+    },
+    {
+     "q": "Hippocampus belongs to which functional system (slide 16)?",
+     "a": "Principal component of the limbic system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the sheep brain hippocampus dissection (slide 16)?",
+     "a": "Corpus callosum, caudate nucleus, fimbria, cerebral white matter, cerebral cortex, septal region, hippocampus (floor of lateral ventricle)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧠 LO2 · Diencephalon",
+   "items": [
+    {
+     "q": "Diencephalon position (slide 18)?",
+     "a": "Rostral-most part of the brainstem; ventral to the fornix, medial to the internal capsule",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "4 parts of the diencephalon (slide 18)?",
+     "a": "Epithalamus, thalamus, metathalamus, hypothalamus",
+     "star": true,
+     "why": "Bulleted 'Includes' list"
+    },
+    {
+     "q": "Lumen of the diencephalon (slide 18)?",
+     "a": "Third ventricle",
+     "star": true,
+     "why": "Lumen-per-region (LO5)"
+    },
+    {
+     "q": "3 epithalamus components (slide 19)?",
+     "a": "Stria habenularis; habenular nuclei + interconnecting fibers (habenular commissure); pineal gland",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Habenular commissure location (slide 19)?",
+     "a": "TINY, rostroventral to the pineal (not shown)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pineal gland other name and species note (slide 19)?",
+     "a": "Epiphysis; dog has a small pineal, sheep a very large one",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Thalamus function (slide 21)?",
+     "a": "Important relay center",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Interthalamic adhesion (slides 21, 49)?",
+     "a": "Connects right and left thalamic halves across the midline; surrounded by the third ventricle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Metathalamus major structures + functions (slide 22)?",
+     "a": "Lateral geniculate body (4) = visual relay · medial geniculate body (5) = auditory relay",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "3 hypothalamus surface structures, ventral view (slide 23)?",
+     "a": "Optic chiasm (7, 24) · infundibulum (10, 22; where pituitary (21) attaches) · mammillary bodies (11, 20)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mammillary bodies position per slide 23?",
+     "a": "'Immediately dorsal to the pituitary' (see ⚠️ flag)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pituitary attaches to the hypothalamus at… by… (slide 24)",
+     "a": "Tuber cinereum, by the infundibular stalk, just caudal to the optic chiasm",
+     "star": true,
+     "why": "Arrowed figure (red = optic chiasm, blue = pituitary)"
+    },
+    {
+     "q": "Why does the pituitary often stay in the skull when the brain is removed (slide 24)?",
+     "a": "Fold of dura covers it in the sella turcica",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "With what region of the brain is the pituitary associated (slide 34)?",
+     "a": "Diencephalon (hypothalamus)",
+     "star": true,
+     "why": "In-class question slide"
+    }
+   ]
+  },
+  {
+   "title": "🧠 LO2 · Mesencephalon (midbrain)",
+   "items": [
+    {
+     "q": "3 mesencephalon structures (slide 25)?",
+     "a": "Tectum, cerebral peduncle, mesencephalic aqueduct (lumen)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumen of the mesencephalon (slide 25)?",
+     "a": "Mesencephalic aqueduct",
+     "star": true,
+     "why": "Lumen-per-region (LO5)"
+    },
+    {
+     "q": "Tectum position (slide 26)?",
+     "a": "Dorsal to the mesencephalic aqueduct",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other name for the tectum (slide 26)?",
+     "a": "Corpora quadrigemina",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Rostral colliculi function (slide 26)?",
+     "a": "Visual reflexes (2 rostral colliculi, #6)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal colliculi function (slide 26)?",
+     "a": "Auditory reflexes (2 caudal colliculi, #7)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebral peduncle continues into… (slide 27)",
+     "a": "The internal capsule, to connect to the cerebrum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "3 structures of the cerebral peduncle (slide 27)?",
+     "a": "Crus cerebri, tegmentum, substantia nigra",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Crus cerebri location (slide 27)?",
+     "a": "Ventral surface of the cerebral peduncle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebral peduncle figure numbers (slide 27)?",
+     "a": "3 and 12",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧠 LO2 · Metencephalon & myelencephalon",
+   "items": [
+    {
+     "q": "Metencephalon parts (slide 28)?",
+     "a": "Cerebellum and pons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pons = which surface feature (slide 29)?",
+     "a": "Large transverse bar on the ventral brainstem = transverse fibers of the pons (14)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Longitudinal fibers of the pons (slide 29)?",
+     "a": "Dorsal to the transverse fibers; continue the descending fibers of the crus cerebri; not visible on the surface",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebellum regions (slide 30)?",
+     "a": "Two lateral cerebellar hemispheres (2) + one central cerebellar vermis (1)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebellar cortex vs medulla (slide 30)?",
+     "a": "Cortex = gray matter · medulla = white matter (mostly; contains some nuclei)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebellar peduncles: what they do and how they're named (slide 31)?",
+     "a": "Connect cerebellum to brainstem; named for where they attach (not easy to distinguish)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Rostral cerebellar peduncle (slide 31)?",
+     "a": "Mainly efferent axons from cerebellum to brainstem",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Middle cerebellar peduncle (slide 31)?",
+     "a": "Continuous with the transverse fibers of the pons",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal cerebellar peduncle (slide 31)?",
+     "a": "Connects the medulla oblongata and the cerebellum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebellar peduncle figure numbers (slide 32)?",
+     "a": "Rostral (9) · middle (2) · caudal (3); they carry fibers in and out of the cerebellum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Myelencephalon = ? and connected to… (slide 33)",
+     "a": "Medulla oblongata; connected to the spinal cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Medulla oblongata structures (slide 33)?",
+     "a": "Trapezoid body (15), pyramids (17)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lumen of the myelencephalon (slide 33)?",
+     "a": "Caudal ½ of the 4th ventricle",
+     "star": true,
+     "why": "Lumen-per-region (LO5)"
+    }
+   ]
+  },
+  {
+   "title": "🩸 LO3 · Cerebral & cerebellar arteries",
+   "items": [
+    {
+     "q": "Formation of the basilar artery (slide 36)?",
+     "a": "Ventral spinal a. (12) joined by the vertebral aa. (13) → basilar a.; continues rostrally and bifurcates at the midbrain",
+     "star": true,
+     "why": "Review slide; LO3 pathway"
+    },
+    {
+     "q": "Which arteries join the arterial circle rostrally (slide 36)?",
+     "a": "Two internal carotid aa. (5); their rostral branches complete the circle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the arterial circle species-specific (slide 36)?",
+     "a": "No — circle and branches are very similar across species",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cerebral arteries off the circle (slide 37)?",
+     "a": "3: rostral, middle, caudal cerebral",
+     "star": true,
+     "why": "Summary text; LO3"
+    },
+    {
+     "q": "Which cerebral arteries are visible on the medial surface (slide 37)?",
+     "a": "Rostral and caudal cerebral",
+     "star": true,
+     "why": "Summary text; LO3"
+    },
+    {
+     "q": "Cerebellar arteries — source and names (slide 37)?",
+     "a": "2, from the basilar a.: rostral and caudal cerebellar",
+     "star": true,
+     "why": "Summary text; LO3"
+    },
+    {
+     "q": "Territory of each cerebral artery, dorsal view (slide 37)?",
+     "a": "Rostral cerebral = dorsomedial strip (dark) · middle cerebral = lateral surface · caudal cerebral = caudomedial (occipital) strip",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other arteries labeled on the lateral/midline views (slide 37)?",
+     "a": "Internal ethmoidal, internal ophthalmic, internal carotid, labyrinthine, caudal communicating, ventral spinal, vertebral, basilar",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🛡️ LO4 · Meninges & spaces",
+   "items": [
+    {
+     "q": "Meninges = ? and buffered by… (slide 39)",
+     "a": "Connective tissue layers covering brain and spinal cord; buffered by cerebrospinal fluid (CSF)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three meningeal layers, outside → in (slide 39)?",
+     "a": "Dura mater → arachnoid (mater) → pia mater",
+     "star": true,
+     "why": "LO4 spine"
+    },
+    {
+     "q": "Dura mater texture (slide 40)?",
+     "a": "Tough, dense connective tissue",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Epidural space around the spinal cord (slide 40)?",
+     "a": "Fat-filled space separating dura from the periosteum of the vertebral canal",
+     "star": true,
+     "why": "Contrast brain vs spinal cord; LO4"
+    },
+    {
+     "q": "Epidural space over the brain (slide 40)?",
+     "a": "None — dura is fused to the periosteum of the cranial cavity",
+     "star": true,
+     "why": "Contrast brain vs spinal cord; LO4"
+    },
+    {
+     "q": "Where does the dura fuse to periosteum at the brain/cord junction (slide 43)?",
+     "a": "Foramen magnum (dotted circle) — no epidural space cranial to it",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal cord meninges histology labels, inner → outer (slide 41)?",
+     "a": "PM (pia mater) → SA (subarachnoid space) → SD (subdural space) → DM (dura mater) → ED (epidural space)",
+     "star": true,
+     "why": "Labeled order = layer + space sequence"
+    },
+    {
+     "q": "Arachnoid structure (slide 42)?",
+     "a": "Outer membrane + trabeculae reaching down to the pia ('spider-like')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Subarachnoid space location and contents (slide 42)?",
+     "a": "Below the outer arachnoid membrane; blood vessels surrounded by CSF",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pia mater (slide 42)?",
+     "a": "Inner membrane most closely associated with nervous tissue; follows blood vessels into the central nervous system (CNS)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Subdural space (slide 47)?",
+     "a": "A POTENTIAL space (open only as an artifact on the specimen)",
+     "star": true,
+     "why": "Capitalized 'POTENTIAL' on slide"
+    },
+    {
+     "q": "Cerebellomedullary cistern = ? (slide 47)",
+     "a": "Cisterna magna — a clinically important enlargement of the subarachnoid space",
+     "star": true,
+     "why": "'Clinically-important' on slide; also clicker slide 62"
+    },
+    {
+     "q": "Falx cerebri (slide 44)?",
+     "a": "Dura extending into the longitudinal cerebral fissure, between the cerebral hemispheres",
+     "star": true,
+     "why": "Dural specialization; LO4"
+    },
+    {
+     "q": "Venous sinus in the falx cerebri (slide 44)?",
+     "a": "Dorsal sagittal sinus (a vein)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tentorium cerebelli (slide 45)?",
+     "a": "Extends into the transverse cerebral fissure, between cerebral hemispheres and cerebellum",
+     "star": true,
+     "why": "Dural specialization; LO4"
+    },
+    {
+     "q": "Tentorium cerebelli composition (slide 45)?",
+     "a": "Partly dura mater and partly bone",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the falx/arachnoid figure (slide 44)?",
+     "a": "Arachnoid villi, dorsal sagittal sinus, bone, dura mater, arachnoid, trabeculae, subarachnoid space, pia mater, cerebral vein/venule, cerebral artery/arteriole, perivascular space, cerebrum, falx cerebri",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "💧 LO5 · Ventricles & connections",
+   "items": [
+    {
+     "q": "Ventricular system in order of CSF flow (slides 49, 56)?",
+     "a": "Lateral ventricles → (interventricular foramen) → third ventricle → mesencephalic (cerebral) aqueduct → fourth ventricle → central canal of spinal cord / lateral apertures → subarachnoid space",
+     "star": true,
+     "why": "LO5/LO6 core pathway"
+    },
+    {
+     "q": "Ventricles are lined by… filled with… (slide 49)",
+     "a": "Ependymal cells; circulating cerebrospinal fluid (CSF)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lateral ventricles location (slide 49)?",
+     "a": "Cerebral hemispheres (2)",
+     "star": true,
+     "why": "Ventricle summary slide; LO5"
+    },
+    {
+     "q": "Third ventricle location and communications (slide 49)?",
+     "a": "Diencephalon, surrounds the interthalamic adhesion; communicates with lumen of the infundibulum (5) and mesencephalic aqueduct",
+     "star": true,
+     "why": "Ventricle summary slide; LO5"
+    },
+    {
+     "q": "Mesencephalic aqueduct: location and leads to… (slide 49)",
+     "a": "Mesencephalon (6); leads to the fourth ventricle",
+     "star": true,
+     "why": "Ventricle summary slide; LO5"
+    },
+    {
+     "q": "Fourth ventricle location (slides 49, 51)?",
+     "a": "Spans the metencephalon and myelencephalon (7)",
+     "star": true,
+     "why": "Ventricle summary slide; LO5"
+    },
+    {
+     "q": "Fourth ventricle connections (slide 49)?",
+     "a": "Central canal of the spinal cord (9) and lateral apertures (8) to the subarachnoid space",
+     "star": true,
+     "why": "Ventricle summary slide; LO5"
+    },
+    {
+     "q": "Opening connecting lateral and third ventricles (figure label, slide 56)?",
+     "a": "Interventricular foramen (lateral + third ventricles communicate, slide 50)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Roof of the 4th ventricle rostral and caudal to the cerebellum (slide 51)?",
+     "a": "Rostral (15) and caudal (15') medullary velum — thin, membrane-like flaps",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What is revealed when the cerebellum and medullary vela are removed (slide 52)?",
+     "a": "Floor of the 4th ventricle",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "💧 LO6 · Cerebrospinal fluid production, flow, drainage",
+   "items": [
+    {
+     "q": "CSF life cycle: produced → exits → reabsorbed (slides 55–61)?",
+     "a": "Choroid plexus (all ventricles) → flows through ventricles → exits via lateral apertures of 4th ventricle → subarachnoid space around brain + cord → arachnoid villi → dorsal sagittal sinus (venous blood)",
+     "star": true,
+     "why": "LO6 core chain"
+    },
+    {
+     "q": "What produces CSF (slide 55)?",
+     "a": "Choroid plexus — specialized membrane that secretes CSF",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is choroid plexus found (slide 56)?",
+     "a": "Roof and walls of all ventricles; lateral + third ventricles share choroid plexus where they communicate",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does CSF exit the ventricular system (slide 56)?",
+     "a": "Lateral apertures of the 4th ventricle → subarachnoid space",
+     "star": true,
+     "why": "Exit point; LO6"
+    },
+    {
+     "q": "Choroid plexus development (slide 57)?",
+     "a": "Blood vessels invaginate into the pia mater and are covered with modified ependymal cells; tufts of capillaries protrude into the ventricles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What forms the blood–CSF barrier (slide 57)?",
+     "a": "Tight junctions between the (modified) ependymal cells of the choroid plexus",
+     "star": true,
+     "why": "Barrier concept"
+    },
+    {
+     "q": "FYI choroid plexus functions beyond CSF (slide 58)?",
+     "a": "Eliminates waste, controls T-cell travel in CSF, regulates microglia/neural stem cells, neuroplasticity windows, synapse maintenance (FYI only)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is 4th-ventricle choroid plexus visible on a removed brain (slides 59–60)?",
+     "a": "Protruding through the lateral aperture into the subarachnoid space",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other labels on the lateral-aperture brain photo (slide 59)?",
+     "a": "Cingulate gyrus, corpus callosum, fornix, septum, fimbria, hippocampus, piriform lobe, middle cerebellar peduncle, choroid plexus, cranial nerves II, V, VII",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "CSF reabsorption route (slide 61)?",
+     "a": "Arachnoid villi — projections from the subarachnoid space into the dorsal sagittal sinus",
+     "star": true,
+     "why": "Drainage; LO6"
+    }
+   ]
+  },
+  {
+   "title": "🏥 Clinical practice focus",
+   "items": [
+    {
+     "q": "Hydrocephalus definition (slide 65)?",
+     "a": "CSF build-up enlarging the ventricles, usually the lateral ventricles",
+     "star": true,
+     "why": "Practice Focus clinical box"
+    },
+    {
+     "q": "3 causes of hydrocephalus (slide 65)?",
+     "a": "Obstruction to circulation, impaired drainage, overproduction; acquired or developmental",
+     "star": true,
+     "why": "Practice Focus clinical box"
+    },
+    {
+     "q": "Obstruction in the mesencephalon → result (slide 65)?",
+     "a": "CSF produced rostral to it can't reach the 4th ventricle to exit → fluid accumulates → compression of cerebral tissue",
+     "star": true,
+     "why": "Mechanism chain in clinical box"
+    },
+    {
+     "q": "Rapid-onset hydrocephalus signs (slide 65)?",
+     "a": "Mania, head pressing, muscle tremor, convulsions",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slow-onset hydrocephalus signs (slide 65)?",
+     "a": "Paralysis, dullness, blindness — or no clinical signs (incidental in people)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dilated lateral ventricles compress which region (slides 64, 66)?",
+     "a": "Cerebral cortex (telencephalon) — 'enlarged lateral ventricle', 'compressed cerebral cortex'",
+     "star": true,
+     "why": "In-class question slide"
+    },
+    {
+     "q": "Epidural anesthesia — which space and why it works (slide 67)?",
+     "a": "Epidural space of the vertebral canal (dura and periosteum separated, fat-filled) → regional anesthesia of spinal nerves",
+     "star": true,
+     "why": "Practice Focus clinical box"
+    },
+    {
+     "q": "Two CSF collection sites (slides 68–69)?",
+     "a": "Cisterna magna (cerebellomedullary cistern) and lumbosacral junction (lumbar cistern)",
+     "star": true,
+     "why": "Practice Focus clinical box"
+    },
+    {
+     "q": "Pituitary tumors in horses — neighboring structure labeled (slide 70)?",
+     "a": "Optic chiasm (pituitary/tumor sits just caudal-ventral to it)",
+     "star": true,
+     "why": "Practice application"
+    }
+   ]
+  }
+ ]
+}

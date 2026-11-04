@@ -1,0 +1,863 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Thu 11/5) — stars and corrections update when the transcript arrives.",
+  "BRACHY (short; brachydont, brachycephalic) vs BRACHIO (arm; brachium, brachial plexus) — slides 3–4 ask both. 'Brachio = arm' is not answered on the slides (outside knowledge — confirm).",
+  "Brachydont (dog: short, stops growing after eruption, crown + neck + root) vs Hypsodont (tall, long reserve crown — horse photo) — slides 6–7.",
+  "Hydroxyapatite ladder: Enamel 96% (no collagen, ameloblasts) > Dentin 70% (type I collagen, odontoblasts) > Cementum 45% (type I collagen, cementoblasts) — don't swap the blast cells (slides 8–10).",
+  "Pulp CHAMBER = in the crown; ROOT CANAL = in the root; both = pulp cavity; exits at the APICAL foramen (slide 11).",
+  "MESIAL = toward the FIRST incisor; DISTAL = away from it (not 'medial/lateral'). LABIAL = lips, BUCCAL = cheeks — both are VESTIBULAR. LINGUAL = tongue (slides 21–22). CORONAL = toward the crown; APICAL = toward the root apex (slide 23).",
+  "Bite: SUPERIOR teeth bite LATERAL to inferior teeth; INFERIOR canine bites ROSTRAL to the superior canine (slide 24).",
+  "Interalveolar septa = between ADJACENT teeth; Interradicular septa = between ROOTS of the SAME tooth (slide 20).",
+  "Missing teeth — slash side matters (X/ = upper, X/ after = lower): dog adult missing M3/ (upper); cat adult missing p1/ (upper) AND p/1, p/2 (lower). Carnassials: dog p4/ + m/1; cat p3/ + m/1 (slides 27–29).",
+  "Triadan quadrants go CLOCKWISE from the patient's RIGHT UPPER: 100 right upper → 200 left upper → 300 left lower → 400 right lower; deciduous = 500–800. Photo is viewed facing the patient, so the patient's right is on YOUR left (slides 30, 34–35).",
+  "Pharynx compartment names: oropharynx = palatoglossal arch → BASE of epiglottis, but it communicates caudally with laryngopharynx over the TIP of the epiglottis (slides 41–42).",
+  "Nasopharynx: soft palate is its VENTRAL border; oropharynx: soft palate is its DORSAL border (slides 40–43).",
+  "⚠️ FLAG (slide 47): text names the middle constrictor 'Hyopharyngeus', but the dorsal-view figure label reads 'Hypopharyngeal muscle'. Use HYOpharyngeus (origin = hyoid bone; spelling matches the text) — confirm in transcript.",
+  "⚠️ FLAG (slide 43): nasopharynx lateral border lists 'Hyopharyngeus muscles – Ceratohyoideus muscles'. Ceratohyoideus is a hyoid-apparatus muscle, and standard texts usually give pterygopharyngeus/palatopharyngeus laterally (outside knowledge — confirm). Learn the slide version for now and confirm with Dr. Diehl.",
+  "⚠️ FLAG (slide 21): list spells it 'Occlusial'; slide 22 spells it 'Occlusal' (correct). Use 'occlusal' on Canvas fill-ins."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "Lecture 29 learning objectives (slide 2)?",
+     "a": "LO1: Describe the teeth. LO2: Describe the pharynx.",
+     "star": true,
+     "why": "Learning-objective spine (slide 2)"
+    },
+    {
+     "q": "Lecture 29 title, instructor, date (slide 1)?",
+     "a": "Digestive Components of the Head 2 — Dr. Chandler Diehl, VAP 806, November 5th (part 2 after Lecture 28: oral cavity, palate, tongue, salivary glands).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Meaning of the Greek word 'brachy' (slides 3, 5–6)?",
+     "a": "Short (e.g., brachydont, brachycephalic breeds pictured on slide 5).",
+     "star": true,
+     "why": "Posed as a stand-alone question slide (slide 3)"
+    },
+    {
+     "q": "Meaning of the Greek word 'brachio' (slide 4)?",
+     "a": "Arm (outside knowledge — confirm; slide only poses the question).",
+     "star": true,
+     "why": "Posed as a stand-alone question slide (slide 4)"
+    }
+   ]
+  },
+  {
+   "title": "🦷 LO1 · Tooth type & hard tissues",
+   "items": [
+    {
+     "q": "Brachydont tooth — definition and features (slide 6)?",
+     "a": "'Brachy' = short; does NOT grow after eruption is complete; has a crown, neck, and root (dog-type tooth).",
+     "star": true,
+     "why": "Bold heading + diagram titled in red (slides 6–7)"
+    },
+    {
+     "q": "Brachydont vs hypsodont on the diagram (slides 6–7)?",
+     "a": "Brachydont = short crown, distinct crown/root; Hypsodont = long crown (~crown extends below gumline) with occlusal surface wear — pictured with a horse dental procedure (slide 7).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Diagram legend for tooth tissues (slide 6)?",
+     "a": "Pulp cavity (black), bone, enamel, dentine, cementum.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three regions of a brachydont tooth (slides 6, 8)?",
+     "a": "Crown, neck, root.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Enamel — hardness, mineral %, collagen, secreting cell (slide 8)?",
+     "a": "Hardest component of the body; 96% hydroxyapatite; NO collagen; secreted by ameloblasts.",
+     "star": true,
+     "why": "Bold heading; 'ameloblasts' italic/underlined (slide 8)"
+    },
+    {
+     "q": "Dentin — hardness, mineral %, collagen, secreting cell (slide 9)?",
+     "a": "Harder than bone; 70% hydroxyapatite; type I collagen present; secreted by odontoblasts.",
+     "star": true,
+     "why": "Bold heading; 'odontoblasts' italic/underlined (slide 9)"
+    },
+    {
+     "q": "Cementum — hardness, mineral %, collagen, secreting cell (slide 10)?",
+     "a": "Resembles bone; 45% hydroxyapatite; type I collagen present; secreted by cementoblasts.",
+     "star": true,
+     "why": "Bold heading; 'cementoblasts' italic/underlined (slide 10)"
+    },
+    {
+     "q": "Rank enamel, dentin, cementum by hydroxyapatite content (slides 8–10)…",
+     "a": "Enamel 96% > dentin 70% > cementum 45%.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which hard tooth tissue lacks collagen (slides 8–10)?",
+     "a": "Enamel (dentin and cementum both have type I collagen).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the tooth section figure (slides 8–12)?",
+     "a": "Enamel, gingiva, dentin, pulp cavity, root canal, cementum, periodontal ligaments, dental alveolus; crown, neck, root.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩸 LO1 · Pulp cavity",
+   "items": [
+    {
+     "q": "Two parts of the pulp cavity and where each sits (slide 11)?",
+     "a": "Pulp chamber = in the crown; root canal = in the root.",
+     "star": true,
+     "why": "Bold heading with italic subdivisions (slide 11)"
+    },
+    {
+     "q": "Contents of the pulp cavity (slide 11)?",
+     "a": "Sensory nerves, arteries, veins, and lymphatic capillaries.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Opening at the root tip where pulp vessels/nerves enter (slide 11)?",
+     "a": "Apical foramen.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 03-13 (simple tooth, longitudinal section) numbered labels (slides 12, 19)?",
+     "a": "1 enamel; 2 dentin; 3 cement(um); 4 pulp; 5 apical foramen; 6 periodontal ligament; 7 socket (alveolus); 8 gum.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical application on slide 12 shows…",
+     "a": "Photos of a dog's canine teeth being examined beside the tooth-section figure — pulp/apical foramen context (clinical point in transcript; slides show images only).",
+     "star": true,
+     "why": "'Clinical Application' slide (slide 12)"
+    }
+   ]
+  },
+  {
+   "title": "🌸 LO1 · Periodontium & gingiva",
+   "items": [
+    {
+     "q": "Periodontium — definition (slide 13)?",
+     "a": "The supporting tissues of the teeth.",
+     "star": true,
+     "why": "Bold heading + numbered list (slide 13)"
+    },
+    {
+     "q": "Four components of the periodontium (slide 13)?",
+     "a": "1 Gums (gingivae), 2 cementum on the root, 3 periodontal ligament, 4 alveolar bone.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gums (gingivae) — what they do and are made of (slide 14)?",
+     "a": "Surround the teeth; dense fibrous tissue covered by mucous membrane.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gingival margin (slide 15)?",
+     "a": "The edge of the gingiva NOT attached to the crown (free gingival margin on the photo).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gingival sulcus (slide 15)?",
+     "a": "Space between the gingival margin and the tooth.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Normal gingival sulcus depth — dog vs cat (slide 15)?",
+     "a": "Dog 1–3 mm; cat 0.5–1 mm.",
+     "star": true,
+     "why": "Numbers on slide 15, repeated on probe photo slide 16"
+    },
+    {
+     "q": "Sulcus depth at which a dog's tooth is 'in danger' (slide 16)?",
+     "a": "> 4 mm (normal 1–3 mm); measured with a periodontal probe.",
+     "star": true,
+     "why": "Clinical probe-photo slide with the cutoff (slide 16)"
+    },
+    {
+     "q": "Mucogingival junction (slide 17)?",
+     "a": "An indistinct line that separates the gingiva from the oral mucosa.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the gingiva photo (slides 15, 17)?",
+     "a": "Sulcus, free gingival margin, attached gingiva, mucogingival junction.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🦴 LO1 · Periodontal ligament & alveolar bone",
+   "items": [
+    {
+     "q": "Periodontal ligament — function (slide 18)?",
+     "a": "Attaches the root to the alveolar bone.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical application on slide 19 shows…",
+     "a": "Dog mouth with an exposed/loose canine (periodontal support loss) next to Figure 03-13 — context in transcript.",
+     "star": true,
+     "why": "'Clinical Application' slide (slide 19)"
+    },
+    {
+     "q": "Alveolar socket (slide 20)?",
+     "a": "Socket of alveolar bone that houses the tooth.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Interalveolar septa (slide 20)?",
+     "a": "Bone between ADJACENT teeth.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Interradicular septa (slide 20)?",
+     "a": "Bone between the ROOTS of the SAME tooth.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Alveolar juga (slide 20)?",
+     "a": "Bony elevation over the lateral surface of a tooth (root) — visible on the skull.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lamina dura (slide 20)?",
+     "a": "Dense bone surrounding the teeth (lines the socket).",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧭 LO1 · Surfaces, directions & bite",
+   "items": [
+    {
+     "q": "Four tooth surfaces with subdivisions (slide 21)?",
+     "a": "1 Occlusal; 2 Contact (A mesial, B distal); 3 Lingual; 4 Vestibular (A labial, B buccal).",
+     "star": true,
+     "why": "Color-coded numbered list (slide 21)"
+    },
+    {
+     "q": "Occlusal surface (slide 22)?",
+     "a": "Contact surface with the tooth of the OPPOSITE jaw.",
+     "star": true,
+     "why": "Bold definitions list (slide 22)"
+    },
+    {
+     "q": "Contact surface (slide 22)?",
+     "a": "Surfaces facing adjacent teeth in the SAME dental arch.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mesial surface (slide 22)?",
+     "a": "Surface toward the first incisor.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Distal surface (slide 22)?",
+     "a": "Surface away from the first incisor.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lingual surface (slide 22)?",
+     "a": "Surface facing the tongue.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vestibular surface and its two subtypes (slide 22)?",
+     "a": "Faces the lips or cheeks: labial = facing the lips; buccal = facing the cheeks.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "On an incisor vs a molar, which vestibular term applies (slides 21–22)?",
+     "a": "Incisor/canine (rostral, by lips) = labial; cheek teeth = buccal (yellow vs pink on slide 21).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Coronal direction (slide 23)?",
+     "a": "Toward the crown.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Apical direction (slide 23)?",
+     "a": "Toward the apex of the root.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Normal dog bite — superior vs inferior teeth (slide 24)?",
+     "a": "Superior (upper) teeth bite LATERAL to the inferior (lower) teeth.",
+     "star": true,
+     "why": "'lateral' bold-underlined (slide 24)"
+    },
+    {
+     "q": "Normal dog bite — canines (slide 24)?",
+     "a": "Inferior (lower) canine bites ROSTRAL to the superior (upper) canine.",
+     "star": true,
+     "why": "'rostral' bold-underlined (slide 24)"
+    }
+   ]
+  },
+  {
+   "title": "🔢 LO1 · Tooth groups & dental formulae",
+   "items": [
+    {
+     "q": "Heterodont (slides 24–26)?",
+     "a": "Having different kinds of teeth (incisors, canines, premolars, molars).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tooth groups in the dog (slide 25)?",
+     "a": "Incisors, canine, premolars, molars.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Incisor names by number (slide 25)?",
+     "a": "Incisor 1 = central; Incisor 2 = middle; Incisor 3 = lateral.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Diphyodont (slide 26)?",
+     "a": "Two sets of teeth develop sequentially: deciduous then permanent.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "When is the deciduous set complete / replaced by permanent teeth in the dog (slide 26)?",
+     "a": "Deciduous complete by 20 days after birth; permanent replace deciduous by 6 months of age (as written on slide).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Carnassial teeth (slide 27)?",
+     "a": "The largest shearing teeth.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog deciduous dental formula and total (slides 26, 28)?",
+     "a": "2 × (Di3 Dc1 Dp3 / Di3 Dc1 Dp3) = 28.",
+     "star": true,
+     "why": "Formula boxed on two slides (26, 28)"
+    },
+    {
+     "q": "Dog permanent dental formula and total (slides 26, 28)?",
+     "a": "2 × (i3 c1 p4 m2 / i3 c1 p4 m3) = 42.",
+     "star": true,
+     "why": "Formula boxed on two slides (26, 28)"
+    },
+    {
+     "q": "Dog deciduous — missing teeth, molars, carnassials (slide 28)?",
+     "a": "Upper & lower Dp1 missing; NO molars; carnassials = Dp3/ (upper 3rd deciduous premolar) and Dp/4 (lower 4th deciduous premolar).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog adult — missing tooth and carnassials (slide 28)?",
+     "a": "M3/ (upper 3rd molar) missing; carnassials = p4/ (upper 4th premolar) and m/1 (lower 1st molar).",
+     "star": true,
+     "why": "Dog carnassials on formula slide (28)"
+    },
+    {
+     "q": "Cat deciduous dental formula and total (slide 29)?",
+     "a": "2 × (Di3 Dc1 Dp3 / Di3 Dc1 Dp2) = 26.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cat permanent dental formula and total (slide 29)?",
+     "a": "2 × (i3 c1 p3 m1 / i3 c1 p2 m1) = 30.",
+     "star": true,
+     "why": "Formula boxed (slide 29)"
+    },
+    {
+     "q": "Cat deciduous — missing teeth, molars, carnassials (slide 29)?",
+     "a": "Dp1/ missing; Dp/1 and Dp/2 missing; NO molars; carnassials = Dp3/ and Dp/4.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cat adult — missing teeth and carnassials (slide 29)?",
+     "a": "p1/ missing; p/1 and p/2 missing; carnassials = p3/ (upper 3rd premolar) and m/1 (lower 1st molar).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slash notation: what does p4/ vs m/1 mean (slides 28–29)?",
+     "a": "Number before the slash = upper arcade (p4/ = upper 4th premolar); after the slash = lower arcade (m/1 = lower 1st molar).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deciduous vs permanent notation (slides 26–29)?",
+     "a": "Deciduous = capital 'D' prefix (Di, Dc, Dp); permanent = lowercase i, c, p, m.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🗺️ LO1 · Modified Triadan system",
+   "items": [
+    {
+     "q": "Modified Triadan system — what is it (slides 30–35)?",
+     "a": "Three-digit tooth numbering: first digit = quadrant, last two digits = tooth position counted from the midline (01 = first incisor).",
+     "star": true,
+     "why": "Clinical Application + multiple dedicated slides (30–35)"
+    },
+    {
+     "q": "Permanent quadrant numbers (slide 30)?",
+     "a": "100 right upper, 200 left upper, 300 left lower, 400 right lower (clockwise from patient's right upper).",
+     "star": true,
+     "why": "Quadrant photo (slide 30)"
+    },
+    {
+     "q": "Deciduous quadrant numbers (slides 34–35)?",
+     "a": "500 right upper, 600 left upper, 700 left lower, 800 right lower.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog permanent Triadan positions for I1–M3 (slide 32)?",
+     "a": "I1 01, I2 02, I3 03, C 04, P1 05, P2 06, P3 07, P4 08, M1 09, M2 10, M3 11.",
+     "star": true,
+     "why": "Summary table (slide 32)"
+    },
+    {
+     "q": "Triadan number of the dog's right upper canine (slide 32)?",
+     "a": "104.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Triadan numbers of the dog's carnassial teeth (slides 28, 32)?",
+     "a": "Upper 4th premolars 108 / 208; lower 1st molars 309 / 409.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why do upper arcades end at 110 / 210 in the dog (slide 32)?",
+     "a": "Upper M3 is absent (shown as '–'); lower arcades run to 311 / 411.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog deciduous Triadan — what's missing and how high do numbers go (slide 35)?",
+     "a": "P1 is 'Missing' in every quadrant (505, 605, 705, 805 absent); numbers go to P4 (508, 608, 708, 808) — no molars.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical application on slide 31 shows…",
+     "a": "Examining a dog's mouth beside an extracted canine tooth (shows the long root) — context in transcript.",
+     "star": true,
+     "why": "'Clinical Application' slide (slide 31)"
+    },
+    {
+     "q": "Slide 33 figure source?",
+     "a": "Evans, Anatomy of the Dog 4th ed., fig. 7-6 — dental arcade with Triadan numbers (101–110, 201–210, 301–311, 401–411).",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌱 LO1 · Roots & eruption times",
+   "items": [
+    {
+     "q": "Root count, dog upper arcade I1–M2 (slide 36)?",
+     "a": "I1–I3: 1; C: 1; P1: 1; P2: 2; P3: 2; P4: 3; M1: 3; M2: 3; (M3 absent).",
+     "star": true,
+     "why": "Summary table (slide 36)"
+    },
+    {
+     "q": "Root count, dog lower arcade I1–M3 (slide 36)?",
+     "a": "I1–I3: 1; C: 1; P1: 1; P2–P4: 2; M1: 2; M2: 2; M3: 1.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which dog teeth have three roots (slide 36)?",
+     "a": "Upper P4, upper M1, upper M2.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which dog teeth are single-rooted (slide 36)?",
+     "a": "All incisors, canines, P1 (upper and lower), and lower M3.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog deciduous eruption times (slide 37)?",
+     "a": "Incisors 3–4 weeks; canines 3–4 weeks; premolars 3–5 weeks.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cat deciduous eruption times (slide 37)?",
+     "a": "Incisors 2–3 weeks; canines 3–4 weeks; premolars 3–6 weeks.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog permanent eruption times (slide 37)?",
+     "a": "Incisors 4 months; canines 5–6 months; premolars 5–7 months; molars 5–7 months.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cat permanent eruption times (slide 37)?",
+     "a": "Incisors 3.5 months; canines 4–5 months; premolars 4–6 months; molars 4–6 months.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General rule dog vs cat eruption (slide 37)?",
+     "a": "Cats erupt slightly earlier than dogs at each stage.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👅 LO2 · Pharynx overview",
+   "items": [
+    {
+     "q": "Pharynx — definition (slide 38)?",
+     "a": "Common cavity through which air and food pass.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does the pharynx connect (slide 38)?",
+     "a": "Oral cavity → esophagus; nasal cavity → larynx.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pharynx compartments (slide 38)?",
+     "a": "1 Rostral compartment: A nasopharynx (dorsal), B oropharynx (ventral); 2 Caudal compartment (laryngopharynx).",
+     "star": true,
+     "why": "Organizing outline of LO2 (slide 38)"
+    },
+    {
+     "q": "What divides the rostral pharynx into nasopharynx and oropharynx (slides 38, 42)?",
+     "a": "The soft palate.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 03-27 numbered labels (slides 38–39)?",
+     "a": "1 nasal cavity; 2 oral cavity; 3 soft palate; 4 nasopharynx; 5 root of tongue; 6 larynx (protruding through pharyngeal floor); 7 laryngopharynx (piriform recess); 8 caudal end of palatopharyngeal arch; 9 esophagus; 10 lamina of cricoid cartilage; 11 trachea.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "In Figure 03-27, broken arrow vs single arrow (slide 38)?",
+     "a": "Broken arrow = passage of food; single arrow = passage of air.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Intrapharyngeal ostium — what meets there and what forms it (slide 39)?",
+     "a": "Where nasopharynx and oropharynx meet; formed by the soft palate and palatopharyngeal arch.",
+     "star": true,
+     "why": "Bold heading, labeled on diagram (slides 39, 46)"
+    }
+   ]
+  },
+  {
+   "title": "🚪 LO2 · Pharyngeal boundaries (sagittal section)",
+   "items": [
+    {
+     "q": "Boundary between nasal cavity and nasopharynx (slide 40)?",
+     "a": "Choanae (openings) at the caudal end of the hard palate.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Boundary between oral cavity and oropharynx (slide 40)?",
+     "a": "Palatoglossal arch.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What marks the end of the soft palate (slides 40, 42)?",
+     "a": "Palatopharyngeal arch.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Boundary between laryngopharynx and esophagus (slide 40)?",
+     "a": "Pharyngoesophageal limen.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sagittal-section labels, slide 40/45 (numbers 1–12)?",
+     "a": "1 choanae; 2 nasopharynx; 3 palatoglossal arch; 4 oral cavity; 5 oropharynx; 6 palatopharyngeal arch; 7 soft palate; 8 pharyngoesophageal limen; 9 laryngopharynx; 10 esophagus; 11 epiglottis; 12 other laryngeal cartilages.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Enlarged-pharynx labels, slides 42–43 (numbers 1–11)?",
+     "a": "1 soft palate; 2 nasopharynx; 3 opening of auditory tube; 4 oropharynx; 5 palatine tonsil; 6 semilunar fold; 7 palatopharyngeal arch; 8 laryngopharynx; 9 epiglottis; 10 root of tongue; 11 bones of floor of cranial cavity.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Order of airway from nose to trachea through the pharynx (slides 38, 46)…",
+     "a": "Nasal cavity → choanae → nasopharynx → intrapharyngeal ostium → laryngopharynx → larynx → trachea.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Order of food from mouth to esophagus (slides 38, 46)…",
+     "a": "Oral cavity → palatoglossal arch → oropharynx → (over the epiglottis) laryngopharynx → pharyngoesophageal limen → esophagus.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🍽️ LO2 · Oropharynx & palatine tonsil",
+   "items": [
+    {
+     "q": "Oropharynx extent (slide 41)?",
+     "a": "Palatoglossal fold (arch) → base of the epiglottis.",
+     "star": true,
+     "why": "Bold section with border list (slides 41–42)"
+    },
+    {
+     "q": "Oropharynx borders (slide 41)?",
+     "a": "Dorsal: soft palate; ventral: root of the tongue; lateral: tonsillar fossa.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palatine tonsil — location and covering (slide 41)?",
+     "a": "In the lateral walls of the oropharynx (tonsillar fossa); covered by the semilunar fold.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Oropharynx communications (slide 41)?",
+     "a": "Rostrally: oral cavity; caudally: laryngopharynx (over the tip of the epiglottis); dorsally: caudal opening of the nasopharynx.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👃 LO2 · Nasopharynx",
+   "items": [
+    {
+     "q": "Nasopharynx extent and function (slide 43)?",
+     "a": "Choanae → intrapharyngeal opening; part of the respiratory channel.",
+     "star": true,
+     "why": "Bold section with border list (slide 43)"
+    },
+    {
+     "q": "Nasopharynx borders (slide 43)?",
+     "a": "Ventral: soft palate; caudal: epiglottis; lateral: hyopharyngeus and ceratohyoideus muscles (as written — see flag).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Auditory tube openings — location (slide 43)?",
+     "a": "Lateral walls of the nasopharynx.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nasopharynx communications (slide 43)?",
+     "a": "Rostrally: nasal cavity; caudally: laryngopharynx; caudoventrally: oropharynx.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🫁 LO2 · Laryngopharynx",
+   "items": [
+    {
+     "q": "Laryngopharynx extent (slide 44)?",
+     "a": "Epiglottis → pharyngoesophageal limen.",
+     "star": true,
+     "why": "Bold section (slide 44)"
+    },
+    {
+     "q": "Laryngopharynx — which systems share it and where it sits (slide 44)?",
+     "a": "Common segment of the respiratory and digestive systems; located dorsal to the larynx.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pharyngoesophageal limen — what it is and its level (slide 44)?",
+     "a": "Annular (ring-like) mucosal boundary between laryngopharynx and esophagus; at the level of the axis (second cervical vertebra — outside knowledge) and cricoid cartilage.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Piriform recesses — location and function (slide 44)?",
+     "a": "On each side of the base of the epiglottis; continue the oropharyngeal floor around the laryngeal entrance; serve as gutters for fluids.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Laryngopharynx communications (slide 44)?",
+     "a": "Caudally: esophagus; rostrally: nasopharynx and oropharynx.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔄 LO2 · Respiration vs swallowing",
+   "items": [
+    {
+     "q": "During respiration, what is the airflow path (slide 46A)?",
+     "a": "Nasal cavity → nasopharynx (above the soft palate/hard palate) → intrapharyngeal ostium → larynx → trachea.",
+     "star": true,
+     "why": "Paired diagram A/B with colored arrows (slide 46)"
+    },
+    {
+     "q": "During swallowing, what is the food path (slide 46B)?",
+     "a": "Oral cavity → oropharynx (below the soft palate) → laryngopharynx → esophagus.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Landmark labeled at the oral-cavity/oropharynx junction in the swallowing diagram (slide 46)?",
+     "a": "Palatoglossal fold.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Structures labeled on slide 46 diagrams?",
+     "a": "Intrapharyngeal ostium, nasopharynx, nasal cavity, soft palate, hard palate, trachea, larynx (A); choana, esophagus, laryngopharynx, soft palate, hard palate, oropharynx, oral cavity, palatoglossal fold (B).",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "💪 LO2 · Pharyngeal muscles",
+   "items": [
+    {
+     "q": "Rostral pharyngeal constrictors (slide 47)?",
+     "a": "Pterygopharyngeus and palatopharyngeus.",
+     "star": true,
+     "why": "Organized O/I list (slide 47)"
+    },
+    {
+     "q": "Pterygopharyngeus — origin / insertion (slide 47)?",
+     "a": "Origin: pterygoid bone; insertion: median dorsal pharyngeal raphe.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palatopharyngeus — origin / insertion (slide 47)?",
+     "a": "Origin: soft palate; insertion: median dorsal pharyngeal raphe.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Middle pharyngeal constrictor (slide 47)?",
+     "a": "Hyopharyngeus.",
+     "star": true,
+     "why": "Marked (!) on slide 47"
+    },
+    {
+     "q": "Hyopharyngeus — origin / insertion (slide 47)?",
+     "a": "Origin: hyoid bone (thyrohyoid, ceratohyoid); insertion: median dorsal pharyngeal raphe.",
+     "star": true,
+     "why": "Marked (!) on slide 47"
+    },
+    {
+     "q": "Caudal pharyngeal constrictors (slide 47)?",
+     "a": "Thyropharyngeus and cricopharyngeus.",
+     "star": true,
+     "why": "Both marked (!) on slide 47"
+    },
+    {
+     "q": "Thyropharyngeus — origin / insertion (slide 47)?",
+     "a": "Origin: thyroid cartilage; insertion: median dorsal pharyngeal raphe.",
+     "star": true,
+     "why": "Marked (!) on slide 47"
+    },
+    {
+     "q": "Cricopharyngeus — origin / insertion (slide 47)?",
+     "a": "Origin: cricoid cartilage; insertion: median dorsal pharyngeal raphe.",
+     "star": true,
+     "why": "Marked (!) on slide 47"
+    },
+    {
+     "q": "Dilator of the pharynx (slide 47)?",
+     "a": "Stylopharyngeus.",
+     "star": true,
+     "why": "Only dilator; listed separately (slide 47)"
+    },
+    {
+     "q": "Stylopharyngeus — origin / insertion (slide 47)?",
+     "a": "Origin: stylohyoid bone; insertion: lateral pharyngeal wall (NOT the raphe).",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Shared insertion of all pharyngeal constrictors (slide 47)?",
+     "a": "Median dorsal pharyngeal raphe.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Constrictors rostral → caudal, in order (slide 47)…",
+     "a": "Pterygopharyngeus, palatopharyngeus → hyopharyngeus → thyropharyngeus → cricopharyngeus.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the dorsal-view pharynx figure (slide 47)?",
+     "a": "Tongue, oropharynx, soft palate, nasopharynx, thyropharyngeal muscle, 'hypopharyngeal' muscle, cricopharyngeal muscle, median raphe, esophagus, trachea.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

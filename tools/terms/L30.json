@@ -1,0 +1,948 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Wed 11/4) — stars and corrections update when the transcript arrives.",
+  "Palpebral conjunctiva (lines INNER surface of eyelids) vs bulbar conjunctiva (covers SCLERA) — the fornix is the angle where they meet; conjunctival sac = potential space when the eye is closed (slides 15–16).",
+  "Lacrimal GLAND (~70% of tears, dorsolateral) vs gland of the THIRD EYELID (~30%, medial, surrounds the cartilage stem) — and don't confuse the lacrimal gland with the lacrimal SAC (a drainage step, slides 20–21).",
+  "Tear drainage order: puncta → canaliculi → lacrimal SAC → nasolacrimal DUCT → nasal vestibule. Sac comes BEFORE duct (slide 20).",
+  "Choroid vs tapetum lucidum: tapetum is the reflective area WITHIN the choroid, in the DORSAL fundus — not a separate tunic (slides 27, 29).",
+  "Cornea vs sclera vs limbus: cornea = transparent, AVASCULAR, anterior; sclera = opaque white, posterior; limbus = the corneoscleral JUNCTION (slide 23).",
+  "Posterior chamber = between iris/pupil and LENS; anterior chamber = between CORNEA and iris/pupil. Both hold aqueous humor; vitreous chamber is behind the lens (slide 34). 'Posterior chamber' is NOT the vitreous chamber.",
+  "Aqueous flow: ciliary body → POSTERIOR chamber → pupil → ANTERIOR chamber → iridocorneal angle → scleral venous plexus (slide 36). Produced in the posterior chamber first.",
+  "Ciliary muscle CONTRACTION RELAXES zonular fiber tension → lens FATTENS (accommodation) — the inverted relationship (slide 38).",
+  "Constrictor pupillae (CIRCULAR, parasympathetic via oculomotor nerve, miosis) vs dilator pupillae (RADIAL, sympathetic from cranial cervical ganglion, mydriasis) (slide 38).",
+  "Dorsal oblique vs ventral oblique: only the DORSAL oblique is cranial nerve IV (trochlear); the ventral oblique is cranial nerve III (oculomotor) (slide 42).",
+  "LR6 Do4 Rest3 — but retractor bulbi is colored RED on slide 42 (same color as lateral rectus = cranial nerve VI, abducent). It is an exception to 'Rest3' (outside knowledge — confirm: retractor bulbi = abducent nerve).",
+  "Retractor bulbi (muscle of the GLOBE) vs retractor anguli oculi lateralis (muscle of the EYELIDS) vs levator anguli oculi medialis vs levator palpebrae superioris — look-alike names (slide 39).",
+  "⚠️ FLAG (slide 23): 'Insertion of extrinsic ocular muscles' sits directly under 'Limbus – corneoscleral junction' with no bullet of its own. Read literally it says the muscles insert at the limbus; standard anatomy has the extrinsic muscles inserting on the SCLERA (outside knowledge — confirm in lecture which the professor means).",
+  "⚠️ FLAG (slides 4–5): slide 4 lists 'Meridional and sagittal planes' but slide 5 defines only the meridional plane; sagittal is never defined on the slides."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "LO1 (slide 3)?",
+     "a": "Describe the orientation terms for the eye",
+     "star": true,
+     "why": "LO spine (slide 3)"
+    },
+    {
+     "q": "LO2 (slide 3)?",
+     "a": "Describe and distinguish the orbit, orbital margin and periorbita that house the eye",
+     "star": true,
+     "why": "LO spine, bolded terms (slide 3)"
+    },
+    {
+     "q": "LO3 (slide 3)?",
+     "a": "Describe the eyelids, conjunctiva and lacrimal apparatus",
+     "star": true,
+     "why": "LO spine, bolded terms (slide 3)"
+    },
+    {
+     "q": "LO4 (slide 3)?",
+     "a": "Identify and discuss the three tunics of the eyeball",
+     "star": true,
+     "why": "LO spine, bolded terms (slide 3)"
+    },
+    {
+     "q": "LO5 (slide 3)?",
+     "a": "Locate and discuss the muscles of the eye",
+     "star": true,
+     "why": "LO spine, bolded terms (slide 3)"
+    },
+    {
+     "q": "Where are the in-class Kahoot quiz breaks in this deck?",
+     "a": "Slides 2, 12, 19, 28, 37, 43 (www.kahoot.it)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which slides are image-only with no key (practice ID images)?",
+     "a": "Slide 10 (orbit drawing, numbers 1–8, no legend) and slide 26 (dissection photo of the eye and orbit, unlabeled). The transcript may fill these in",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧭 LO1 · Orientation terms",
+   "items": [
+    {
+     "q": "List the orientation terms covered for the eye (slide 4)…",
+     "a": "Anterior and posterior poles; meridional and sagittal planes; equator; transverse, coronal, frontal planes; inner vs outer; medial vs lateral; dorsal vs ventral",
+     "star": true,
+     "why": "LO1 summary list (slide 4)"
+    },
+    {
+     "q": "Anterior pole (slide 5)?",
+     "a": "The central point of the anterior curvature of the eyeball",
+     "star": true,
+     "why": "Bold definition (slide 5)"
+    },
+    {
+     "q": "Posterior pole (slide 5)?",
+     "a": "The central point of the posterior curvature of the eyeball",
+     "star": true,
+     "why": "Bold definition (slide 5)"
+    },
+    {
+     "q": "Meridional plane (slide 5)?",
+     "a": "The central plane of the eye that passes through the anterior and posterior poles",
+     "star": true,
+     "why": "Bold definition (slide 5)"
+    },
+    {
+     "q": "Equator (slide 6)?",
+     "a": "The imaginary line extending around the eyeball midway between the anterior and posterior poles",
+     "star": true,
+     "why": "Bold definition (slide 6)"
+    },
+    {
+     "q": "Coronal, transverse and frontal planes of the eye are oriented how (slide 6)?",
+     "a": "Parallel to the equator",
+     "star": true,
+     "why": "Bold definition (slide 6)"
+    },
+    {
+     "q": "Inner vs outer (slide 7)?",
+     "a": "Inner = closer to the center of the eyeball; outer = away from the center of the eyeball",
+     "star": true,
+     "why": "Bold definitions (slide 7)"
+    },
+    {
+     "q": "Dorsal and ventral on the eye equal… (slide 7)",
+     "a": "Dorsal = superior; ventral = inferior",
+     "star": true,
+     "why": "Bold definitions (slide 7)"
+    },
+    {
+     "q": "Medial and lateral on the eye equal… (slide 8)",
+     "a": "Medial = nasal; lateral = temporal",
+     "star": true,
+     "why": "Bold definitions (slide 8)"
+    },
+    {
+     "q": "Slide 8 photo: Yorkshire terrier with a red mass at the medial angle of the eye. What is it?",
+     "a": "Not labeled on the slide. It appears to be a prolapsed gland of the third eyelid ('cherry eye') sitting at the nasal (medial) side (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🦴 LO2 · Orbit, orbital margin, periorbita",
+   "items": [
+    {
+     "q": "Orbit: shape and location (slide 9)?",
+     "a": "Cone-shaped cavity on the lateral surface of the skull",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Orbit contains… (slide 9)",
+     "a": "The eyeball and the ocular adnexa (accessory structures: eyelids, conjunctiva, lacrimal apparatus, muscles)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Medial boundary of the orbit (slide 9)?",
+     "a": "Parts of the frontal, presphenoid and lacrimal bones",
+     "star": true,
+     "why": "Bold boundary list (slide 9)"
+    },
+    {
+     "q": "Ventral boundary of the orbit (slide 9)?",
+     "a": "Zygomatic salivary gland and pterygoid muscles",
+     "star": true,
+     "why": "Bold boundary list (slide 9)"
+    },
+    {
+     "q": "Caudodorsal boundary of the orbit (slide 9)?",
+     "a": "Temporal muscle",
+     "star": true,
+     "why": "Bold boundary list (slide 9)"
+    },
+    {
+     "q": "Trap: is the orbit's ventral wall bone (slide 9)?",
+     "a": "No. It is soft tissue: the zygomatic salivary gland and pterygoid muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Orbital margin: which bones form it (slide 11)?",
+     "a": "Frontal, lacrimal and zygomatic bones (osseous margin)",
+     "star": true,
+     "why": "Color-coded on skull + caption (slide 11)"
+    },
+    {
+     "q": "How is the dorsolateral gap in the orbital margin closed (slide 11)?",
+     "a": "By the orbital ligament",
+     "star": true,
+     "why": "Bold 'orbital ligament' + 'Orbital Lig.' label (slide 11)"
+    },
+    {
+     "q": "Color code on the slide 11 skull: yellow / blue / green?",
+     "a": "Yellow = frontal; blue = lacrimal; green = zygomatic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Periorbita (slide 13)?",
+     "a": "A sheath of connective tissue and smooth muscle that encloses the orbital contents",
+     "star": true,
+     "why": "Star marker on slide 13"
+    },
+    {
+     "q": "Orbit vs orbital margin vs periorbita, in one line each (LO2)?",
+     "a": "Orbit = the cone-shaped cavity; orbital margin = its bony rim (frontal, lacrimal, zygomatic + orbital ligament); periorbita = the connective tissue/smooth muscle sheath enclosing the contents",
+     "star": true,
+     "why": "LO2 asks to distinguish these (slide 3)"
+    }
+   ]
+  },
+  {
+   "title": "👁️ LO3 · Eyelids",
+   "items": [
+    {
+     "q": "Eyelid terms listed on slide 14?",
+     "a": "Superior and inferior palpebrae; medial and lateral commissures (canthi); palpebral fissure; palpebral ligaments (medial and lateral)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palpebra = ?",
+     "a": "Eyelid (superior palpebra = upper eyelid; inferior palpebra = lower eyelid) (slide 14)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Commissure (canthus) = ?",
+     "a": "The angle where the upper and lower eyelids meet; medial and lateral palpebral commissures (slide 14)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palpebral fissure (slide 14)?",
+     "a": "The opening between the upper and lower eyelids",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Palpebral ligaments (slide 14)?",
+     "a": "Medial and lateral palpebral ligaments",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Label the 4 boxes on the slide 14 eye photo…",
+     "a": "Superior palpebra, inferior palpebra, medial palpebral commissure, lateral palpebral commissure",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩷 LO3 · Conjunctiva",
+   "items": [
+    {
+     "q": "Conjunctiva: what kind of tissue (slide 15)?",
+     "a": "Richly vascular mucous membrane",
+     "star": true,
+     "why": "'Richly vascular' underlined (slide 15)"
+    },
+    {
+     "q": "Palpebral conjunctiva (slide 15)?",
+     "a": "Lines the inner surface of the eyelids",
+     "star": true,
+     "why": "Bold term (slide 15)"
+    },
+    {
+     "q": "Bulbar conjunctiva (slide 15)?",
+     "a": "Covers the sclera of the eye",
+     "star": true,
+     "why": "Bold term (slide 15)"
+    },
+    {
+     "q": "Fornix (slide 15)?",
+     "a": "The angle formed between the palpebral and bulbar conjunctiva",
+     "star": true,
+     "why": "Bold term (slide 15)"
+    },
+    {
+     "q": "Conjunctival sac (slide 15)?",
+     "a": "Potential cavity formed when the eye is closed",
+     "star": true,
+     "why": "Bold term (slide 15)"
+    },
+    {
+     "q": "Plica semilunaris per slide 15?",
+     "a": "The third eyelid: a concave fold of palpebral conjunctiva and cartilage protruding from the medial angle of the eye",
+     "star": true,
+     "why": "Bold term (slide 15)"
+    },
+    {
+     "q": "Slide 16 figure color code: red / purple / dashed line?",
+     "a": "Red = palpebral conjunctiva; purple = bulbar conjunctiva; fornix = where they meet; dashed space = conjunctival sac; third eyelid sits ventromedially",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🛡️ LO3 · Third eyelid",
+   "items": [
+    {
+     "q": "Other name for the third eyelid (slide 17)?",
+     "a": "Plica semilunaris",
+     "star": true,
+     "why": "Bold term (slide 17)"
+    },
+    {
+     "q": "Third eyelid: what is it and where does it protrude from (slide 17)?",
+     "a": "A concave fold of palpebral conjunctiva that protrudes from the medial angle of the eye",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What supports the third eyelid (slide 17)?",
+     "a": "A T-shaped cartilage",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial gland of the third eyelid: what kind of gland and where (slide 17)?",
+     "a": "Accessory lacrimal gland; surrounds the cartilage 'stem'",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the slide 17 third-eyelid drawings?",
+     "a": "3rd eyelid, superior punctum, inferior punctum; free edge, cartilage, superficial gland of 3rd eyelid",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two surfaces of the third eyelid (slide 18)?",
+     "a": "Palpebral surface (faces the eyelids) and bulbar surface (faces the eyeball)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is the lymphoid tissue of the third eyelid (slide 18)?",
+     "a": "On the bulbar surface",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other structures labeled in the slide 18 section?",
+     "a": "Cartilage of third eyelid and gland of third eyelid (at the base)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "💧 LO3 · Lacrimal apparatus (tear flow)",
+   "items": [
+    {
+     "q": "Tear sources and their share (slide 20)?",
+     "a": "Lacrimal gland (~70%) or gland of the third eyelid (~30%)",
+     "star": true,
+     "why": "Flow-chart spine with numbers (slide 20)"
+    },
+    {
+     "q": "Full tear flow pathway from gland to nose (slide 20)…",
+     "a": "Lacrimal gland / gland of third eyelid → conjunctival sac → superior and inferior lacrimal puncta → lacrimal canaliculi → lacrimal sac → nasolacrimal duct → nasal vestibule",
+     "star": true,
+     "why": "Flow-chart spine (slide 20)"
+    },
+    {
+     "q": "Tear flow: what comes right after the conjunctival sac (slide 20)?",
+     "a": "Superior and inferior lacrimal puncta",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tear flow: what comes right after the lacrimal canaliculi (slide 20)?",
+     "a": "Lacrimal sac",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tear flow: reverse it, nose back to gland (slide 20)…",
+     "a": "Nasal vestibule ← nasolacrimal duct ← lacrimal sac ← lacrimal canaliculi ← lacrimal puncta ← conjunctival sac ← lacrimal gland / gland of third eyelid",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do tears exit (slide 20)?",
+     "a": "Nasal vestibule",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 9-21 key, numbers 1–5 (slide 21)…",
+     "a": "1 upper canaliculus; 2 lacrimal caruncle; 3 nasolacrimal duct; 4 gland of third eyelid; 5 lacrimal punctum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 9-21 key, numbers 6–9 (slide 21)…",
+     "a": "6 third eyelid; 7 position of conjunctival fornix; 8 pupil; 9 lacrimal gland",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Position of the lacrimal gland vs gland of the third eyelid in Figure 9-21 (slide 21)?",
+     "a": "Lacrimal gland (9) = dorsolateral to the globe; gland of third eyelid (4) = ventromedial, at the third eyelid",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 21 inset photo: green dye at a dog's nostril. What does it show?",
+     "a": "Fluorescein placed in the eye appearing at the nostril, showing a patent nasolacrimal drainage pathway (outside knowledge — confirm; slide does not label it)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧅 LO4 · Three tunics — overview + fibrous tunic",
+   "items": [
+    {
+     "q": "The three tunics of the eyeball, outer to inner (slide 22)…",
+     "a": "1. External fibrous coat; 2. Middle vascular coat; 3. Internal 'nervous coat'",
+     "star": true,
+     "why": "LO4 spine, numbered list (slide 22)"
+    },
+    {
+     "q": "Parts of the external fibrous coat (slide 23)…",
+     "a": "Cornea, sclera, limbus",
+     "star": true,
+     "why": "Bold terms (slide 23)"
+    },
+    {
+     "q": "Cornea (slide 23)?",
+     "a": "Transparent, avascular anterior portion of the fibrous coat",
+     "star": true,
+     "why": "Bold term (slide 23)"
+    },
+    {
+     "q": "Sclera (slide 23)?",
+     "a": "Opaque (white) posterior portion of the fibrous coat",
+     "star": true,
+     "why": "Bold term (slide 23)"
+    },
+    {
+     "q": "Limbus (slide 23)?",
+     "a": "Corneoscleral junction",
+     "star": true,
+     "why": "Bold term (slide 23)"
+    },
+    {
+     "q": "Fibrous coat: what attaches / passes / continues (slide 23)?",
+     "a": "Insertion of extrinsic ocular muscles; penetrated by blood vessels and nerves; continuous with the dura mater of the brain",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "The sclera is continuous with which brain covering (slide 23)?",
+     "a": "The dura mater",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 24 figure color code: red vs blue?",
+     "a": "Red = cornea; blue = sclera (boxed area = limbus, enlarged at right with cornea, limbus, sclera, lens)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 25 photo labels?",
+     "a": "Cornea, limbus, sclera (sectioned eye, enlarged at the corneoscleral junction)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩸 LO4 · Middle vascular tunic (uvea)",
+   "items": [
+    {
+     "q": "Other name for the middle vascular coat (slide 27)?",
+     "a": "Uvea",
+     "star": true,
+     "why": "Bold heading (slide 27)"
+    },
+    {
+     "q": "Three parts of the uvea, posterior to anterior (slide 27)…",
+     "a": "Choroid → ciliary body → iris",
+     "star": true,
+     "why": "Bold terms (slide 27)"
+    },
+    {
+     "q": "Choroid (slide 27)?",
+     "a": "Posterior portion of the uvea; lines the internal surface of the sclera",
+     "star": true,
+     "why": "Bold term (slide 27)"
+    },
+    {
+     "q": "Tapetum lucidum (slide 27)?",
+     "a": "Reflective area in the dorsal fundus (part of the choroid)",
+     "star": true,
+     "why": "Bold term (slide 27)"
+    },
+    {
+     "q": "Ciliary body: what is it (slide 27)?",
+     "a": "Thickened mound at the limbus",
+     "star": true,
+     "why": "Bold term (slide 27)"
+    },
+    {
+     "q": "Three functions of the ciliary body (slide 27)…",
+     "a": "Produces aqueous humor; suspends the lens via zonular fibers from the ciliary processes; ciliary muscle regulates the shape of the lens",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "The lens hangs from the ciliary processes by… (slide 27)",
+     "a": "Zonular fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Iris (slide 27)?",
+     "a": "Most anterior segment of the uvea; regulates the diameter of the pupil",
+     "star": true,
+     "why": "Bold term (slide 27)"
+    },
+    {
+     "q": "Slide 29 labels 1–5…",
+     "a": "1 pupil; 2 iris; 3 choroid; 4 tapetum lucidum; 5 optic disk",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 29: which views are shown?",
+     "a": "Left = posterior-to-anterior view (pupil and iris from behind); right = anterior-to-posterior view of the fundus with the retina removed",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fundus (slide 29)?",
+     "a": "The back interior of the eyeball seen through the pupil; here shown with the retina removed",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is the tapetum lucidum relative to the optic disk on slide 29?",
+     "a": "Dorsal fundus, above/around the optic disk; the non-tapetal choroid is dark (ventral)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔬 LO4 · Anterior segment figure (Figure 9-5)",
+   "items": [
+    {
+     "q": "Figure 9-5 key, 1–5 (slide 30)…",
+     "a": "1 anterior chamber; 2 lens; 3 zonular fibers; 4 iridocorneal angle; 5 ciliary body",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 9-5 key, 6–10 (slide 30)…",
+     "a": "6 sclera; 7 ciliary muscles; 8 venous plexus of sclera; 9 cornea; 10 iris",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Iridocorneal angle (slide 30)?",
+     "a": "The angle between the iris and the cornea at the edge of the anterior chamber (#4 in Figure 9-5)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧠 LO4 · Internal nervous tunic (retina)",
+   "items": [
+    {
+     "q": "Internal nervous coat = ? (slide 31)",
+     "a": "Retina",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three parts of the retina (slide 31)…",
+     "a": "Pars optica, pars ciliaris, pars iridica",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does each part of the retina lie (slide 31 figure)?",
+     "a": "Pars optica = lines the posterior eyeball (light-sensitive part); pars ciliaris = over the ciliary body; pars iridica = over the back of the iris",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "In an embalmed specimen, what happens to the retina (slide 32)?",
+     "a": "The nervous layer of the pars optica peels away from the pigmented epithelial cells, which stay attached to the choroid",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 9-3 key, 1–8 (slide 33)…",
+     "a": "1 limbus; 2 upper fornix; 3 deep muscular fascia; 4 dorsal rectus muscle; 5 vagina bulbi; 6 choroid; 7 sclera; 8 ora serrata",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 9-3 key, 9–16 (slide 33)…",
+     "a": "9 retina; 10 lens; 11 optic axis; 12 visual axis; 13 area cribrosa; 14 optic disc; 15 retina; 16 ciliary body",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Figure 9-3 key, 17–23 (slide 33)…",
+     "a": "17 iris; 18 cornea; 19 conjunctiva; 20 ventral rectus muscle; 21 optic nerve; 22 retractor bulbi; 23 sheath of optic nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ora serrata (slides 33, 35)?",
+     "a": "Junction between the pars optica and the pars ciliaris of the retina (outside knowledge for the definition — confirm; labeled on slides only)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Area cribrosa (slide 33)?",
+     "a": "Sieve-like region of the sclera where the optic nerve fibers exit (outside knowledge for the definition — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagina bulbi (slide 33)?",
+     "a": "Fascial sheath around the eyeball (outside knowledge for the definition — confirm)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🫧 LO4 · Compartments & aqueous humor",
+   "items": [
+    {
+     "q": "Compartments of the eye, posterior to anterior (slide 34)…",
+     "a": "Vitreous chamber → lens → posterior chamber → anterior chamber",
+     "star": true,
+     "why": "Compartments list (slide 34)"
+    },
+    {
+     "q": "Vitreous chamber: location and contents (slide 34)?",
+     "a": "Posterior to the lens; filled with the transparent, jelly-like vitreous body",
+     "star": true,
+     "why": "Bold term (slide 34)"
+    },
+    {
+     "q": "Posterior chamber: boundaries (slide 34)?",
+     "a": "Between the iris/pupil and the lens",
+     "star": true,
+     "why": "Bold term (slide 34)"
+    },
+    {
+     "q": "Anterior chamber: boundaries (slide 34)?",
+     "a": "Between the cornea and the iris/pupil",
+     "star": true,
+     "why": "Bold term (slide 34)"
+    },
+    {
+     "q": "What fills the anterior and posterior chambers (slide 34)?",
+     "a": "Aqueous humor, which is constantly produced",
+     "star": true,
+     "why": "Bracketed bold callout (slide 34)"
+    },
+    {
+     "q": "Layers of the cornea labeled on slide 35…",
+     "a": "Anterior corneal epithelium, substantia propria of cornea, posterior corneal epithelium",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Iris muscles labeled on slide 35?",
+     "a": "Sphincter of iris and dilator of iris",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other slide 35 labels around the angle and ciliary region…",
+     "a": "Limbus corneae, iridocorneal angle, palpebral conjunctiva, bulbar conjunctiva, scleral ring, scleral venous plexus, lens capsule, posterior chamber, zonular fibers, ciliary process, ciliary body, ciliary muscle, pars ciliaris retinae, ora serrata, pars optica retina, choroid, sclera",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Aqueous humor production-to-resorption pathway (slide 36)…",
+     "a": "Ciliary body → posterior chamber → pupil → anterior chamber → iridocorneal angle → scleral venous plexus",
+     "star": true,
+     "why": "Boxed flow-chart spine (slide 36)"
+    },
+    {
+     "q": "Aqueous humor: where is it produced and where is it resorbed (slide 36)?",
+     "a": "Produced by the ciliary body; resorbed through the iridocorneal angle into the scleral venous plexus",
+     "star": true,
+     "why": "Boxed flow chart (slide 36)"
+    },
+    {
+     "q": "Aqueous flow: what does it pass through to go from the posterior to the anterior chamber (slide 36)?",
+     "a": "The pupil",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical: if drainage at the iridocorneal angle is blocked while production continues…",
+     "a": "Aqueous builds up and intraocular pressure rises (glaucoma) (outside knowledge — confirm; not on slides)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "⚙️ LO5 · Intrinsic muscles",
+   "items": [
+    {
+     "q": "Intrinsic muscles of the eye (slide 38)…",
+     "a": "Ciliary muscles (ciliary body) and pupillary muscles (iris): constrictor pupillae and dilator pupillae",
+     "star": true,
+     "why": "Bold LO5 terms (slide 38)"
+    },
+    {
+     "q": "Ciliary muscle function (slide 38)?",
+     "a": "Regulates the shape of the lens",
+     "star": true,
+     "why": "Bold term (slide 38)"
+    },
+    {
+     "q": "Mechanism chain: ciliary muscle contracts → … (slide 38)",
+     "a": "→ tension on the zonular fibers relaxes → lens fattens (rounds up) = accommodation",
+     "star": true,
+     "why": "Bold 'zonular fibers' + 'accommodation' (slide 38)"
+    },
+    {
+     "q": "Accommodation (slide 38)?",
+     "a": "The lens fattening when the ciliary muscle contracts and the zonular fibers relax (for near focus — outside knowledge)",
+     "star": true,
+     "why": "Bold term (slide 38)"
+    },
+    {
+     "q": "Innervation of the ciliary muscle (slide 38)?",
+     "a": "Oculomotor nerve (cranial nerve III), parasympathetic nervous system",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fiber types of the ciliary muscle in the slide 38 diagram…",
+     "a": "Meridional, radial and circular fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Constrictor pupillae: fiber arrangement and innervation (slide 38)?",
+     "a": "Circular; oculomotor nerve (cranial nerve III), parasympathetic nervous system",
+     "star": true,
+     "why": "Bold/italic innervation (slide 38)"
+    },
+    {
+     "q": "Dilator pupillae: fiber arrangement and innervation (slide 38)?",
+     "a": "Linear, radial; sympathetic nervous system (from the cranial cervical ganglion)",
+     "star": true,
+     "why": "Bold/italic innervation (slide 38)"
+    },
+    {
+     "q": "Dilation (mydriasis): which muscle contracts and which relaxes (slide 38)?",
+     "a": "Dilators contract, constrictors relax",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Constriction (miosis): which muscle contracts and which relaxes (slide 38)?",
+     "a": "Constrictors contract, dilators relax",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mydriasis vs miosis?",
+     "a": "Mydriasis = pupil dilation (sympathetic); miosis = pupil constriction (parasympathetic) (slide 38)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🎯 LO5 · Extrinsic muscles",
+   "items": [
+    {
+     "q": "Seven extrinsic muscles of the globe (slide 39)…",
+     "a": "Dorsal rectus, ventral rectus, lateral rectus, medial rectus, dorsal oblique, ventral oblique, retractor bulbi",
+     "star": true,
+     "why": "LO5 list (slide 39)"
+    },
+    {
+     "q": "Four muscles of the eyelids (palpebrae) (slide 39)…",
+     "a": "Levator palpebrae superioris, orbicularis oculi, retractor anguli oculi lateralis, levator anguli oculi medialis",
+     "star": true,
+     "why": "LO5 list (slide 39)"
+    },
+    {
+     "q": "Labels on slide 39 figure A (orbit, lateral view)?",
+     "a": "Trochlea, fossa for lacrimal sac, ventral oblique, maxillary foramen; dorsal oblique, levator palpebrae, retractor bulbi, dorsal rectus, lateral rectus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What structure does the dorsal oblique pass around (slide 39 figure A)?",
+     "a": "The trochlea (pulley) at the dorsomedial orbit",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on slide 39 figure B (isolated globe and muscles)?",
+     "a": "Dorsal rectus, lateral rectus, optic nerve, orbital fissure, ventral oblique, ventral rectus, retractor bulbi",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Retractor bulbi: position relative to the optic nerve (slides 33, 39)?",
+     "a": "Surrounds the optic nerve, deep to the recti, attaching around the posterior globe",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the ventral oblique arise compared with the other extrinsic muscles (slide 39 figure A)?",
+     "a": "From the ventromedial orbit near the fossa for the lacrimal sac, not from the orbital apex like the recti and retractor bulbi (origin detail — outside knowledge, confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 40 rotation figure: numbered muscles 1–6…",
+     "a": "(1) dorsal rectus, (2) lateral rectus, (3) ventral rectus, (4) ventral oblique, (5) medial rectus, (6) dorsal oblique; also retractor bulbi",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 40: three axes of eye rotation…",
+     "a": "Superior–inferior (vertical), medial–lateral, anterior–posterior",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: lateral rectus (slide 41)?",
+     "a": "Turns the eye laterally (abducts)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: medial rectus (slide 41)?",
+     "a": "Turns the eye medially (adducts)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: dorsal rectus (slide 41)?",
+     "a": "Rotates the eye dorsally (looks up)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: ventral rectus (slide 41)?",
+     "a": "Rotates the eye ventrally (looks down)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: dorsal oblique (slide 41)?",
+     "a": "Rotates the dorsal part of the eye medially (intorsion); the cat's slit pupil tilts with its top toward the nose",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: ventral oblique (slide 41)?",
+     "a": "Rotates the dorsal part of the eye laterally (extorsion); the cat's slit pupil tilts with its top away from the nose",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Action: retractor bulbi?",
+     "a": "Retracts the globe into the orbit (outside knowledge — confirm; no action written on slides)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "⚡ LO5 · Innervation & cranial nerve deficits",
+   "items": [
+    {
+     "q": "Mnemonic for extrinsic eye muscle innervation (slide 42)?",
+     "a": "LR6 Do4 Rest3: lateral rectus = cranial nerve VI (abducent); dorsal oblique = cranial nerve IV (trochlear); the rest = cranial nerve III (oculomotor)",
+     "star": true,
+     "why": "Red/blue mnemonic, large type (slide 42)"
+    },
+    {
+     "q": "Lateral rectus is innervated by… (slide 42)",
+     "a": "Cranial nerve VI (abducent)",
+     "star": true,
+     "why": "Red highlight (slide 42)"
+    },
+    {
+     "q": "Dorsal oblique is innervated by… (slide 42)",
+     "a": "Cranial nerve IV (trochlear)",
+     "star": true,
+     "why": "Blue highlight (slide 42)"
+    },
+    {
+     "q": "Medial, dorsal and ventral rectus + ventral oblique are innervated by… (slide 42)",
+     "a": "Cranial nerve III (oculomotor)",
+     "star": true,
+     "why": "'Rest3' (slide 42)"
+    },
+    {
+     "q": "Retractor bulbi innervation (slide 42)?",
+     "a": "Shown in red with the lateral rectus: cranial nerve VI (abducent). It is the exception to 'Rest3' (outside knowledge — confirm)",
+     "star": true,
+     "why": "Red highlight (slide 42)"
+    },
+    {
+     "q": "Name every structure cranial nerve III (oculomotor) supplies across slides 38 and 42…",
+     "a": "Medial rectus, dorsal rectus, ventral rectus, ventral oblique (somatic); ciliary muscle and constrictor pupillae (parasympathetic). Levator palpebrae superioris is also oculomotor (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 44: cat with cranial nerve III (oculomotor) deficit looks like…",
+     "a": "Eye deviated laterally/ventrolaterally (ventrolateral strabismus; the term and the dilated pupil that goes with it are outside knowledge — confirm)",
+     "star": true,
+     "why": "Color-coded clinical panel (slide 44)"
+    },
+    {
+     "q": "Slide 44: cat with cranial nerve IV (trochlear) deficit looks like…",
+     "a": "Slit pupil rotated: its dorsal end tilts laterally (extorsion, because the unopposed ventral oblique wins)",
+     "star": true,
+     "why": "Color-coded clinical panel (slide 44)"
+    },
+    {
+     "q": "Slide 44: cat with cranial nerve VI (abducent) deficit looks like…",
+     "a": "Eye deviated medially (medial strabismus; lateral rectus lost)",
+     "star": true,
+     "why": "Color-coded clinical panel (slide 44)"
+    },
+    {
+     "q": "Why do slide 44 deficits mirror slide 41 actions?",
+     "a": "Losing a muscle lets its opposite act unopposed: losing the lateral rectus (cranial nerve VI) → eye drifts medially; losing the dorsal oblique (cranial nerve IV) → extorsion; losing most of the recti (cranial nerve III) → eye drifts laterally/ventrally (logic applied — confirm in lecture)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}

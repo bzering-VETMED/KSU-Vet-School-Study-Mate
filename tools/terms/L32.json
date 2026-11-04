@@ -1,0 +1,801 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Wed 11/11) — stars and corrections update when the transcript arrives.",
+  "⚠️ FLAG — palatine branch naming: slide 25 says the maxillary becomes the infraorbital 'after the DESCENDING PALATINE arises'; the overview diagram (slides 8, 10, 21, 22) just says 'palatine'; L28 (Dr. Diehl) gave minor palatine + a common trunk → major palatine + sphenopalatine. The vein figure (slide 56) labels major palatine + sphenopalatine. Same territory, different naming — ask which names the exam uses.",
+  "⚠️ FLAG — slide 27 says superficial branches to the lips and nose come 'from the facial, mental and infraorbital NERVES' on a slide about vessels. Probably meant arteries/vessels (facial a., mental branches, infraorbital a.) — confirm in transcript.",
+  "⚠️ FLAG — plexus name word order: slide 39 (Fig. 4-35 legend) says 'internal ventral vertebral venous plexus'; slides 47–48 say 'ventral internal vertebral venous plexus'. Same structure — write 'ventral internal vertebral venous plexus' for fill-ins unless told otherwise.",
+  "⚠️ Internal vs external carotid: INTERNAL → arterial circle → brain; EXTERNAL → almost everything else in the head (slide 8). Carotid sinus is at the origin of the INTERNAL carotid (slides 10, 16).",
+  "⚠️ Maxillary ARTERY (terminal branch of external carotid, through the alar canal) vs maxillary VEIN (tributary of external jugular) vs maxillary NERVE (trigeminal branch that travels WITH the artery across the pterygopalatine fossa and becomes the infraorbital nerve, slide 24).",
+  "⚠️ Superficial temporal = LAST branch of the external carotid, ROSTRAL to the ear, smaller (slides 15–16). Caudal auricular = CAUDAL side of the ear (slide 14). Don't swap.",
+  "⚠️ Transverse facial a. branches from the SUPERFICIAL TEMPORAL, not the facial (slide 17). Palpebral vessels also from the SUPERFICIAL TEMPORAL; malar a. from the MAXILLARY (slide 26).",
+  "⚠️ Inferior alveolar a. arises BEFORE the maxillary enters the alar canal (slide 22, 'before' underlined). It enters the MANDIBULAR foramen and exits the MENTAL foramen — don't flip entry/exit.",
+  "⚠️ Occipital a. JOINS the vertebral a. in the atlantal fossa (slide 33) — an anastomosis, not a branch-of.",
+  "⚠️ Direction: arteries BRANCH; veins MERGE. Facial v. + lingual v. → linguofacial v.; linguofacial v. + maxillary v. → external jugular v. The two DIRECT tributaries of the external jugular are linguofacial + maxillary (slide 40) — NOT lingual or caudal auricular.",
+  "⚠️ Ventral spinal a. + both vertebral aa. → BASILAR a. (slide 34). Basilar + internal carotid → arterial circle around pituitary + optic chiasm (slide 35).",
+  "⚠️ Vertebral VEIN drains to the costocervical vertebral TRUNK (slide 48); more caudal intervertebral veins drain to the AZYGOUS vein.",
+  "⚠️ Medial retropharyngeal lymph node = DEEP, the 'terminal node' of the head (slide 51). Lateral retropharyngeal and parotid are different nodes. Buccal node present in only 13/150 dogs (slide 53).",
+  "⚠️ Enucleation danger = angularis oculi VEIN + malar ARTERY (slide 56) — vein vs artery pairing."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "LO 1 — arterial supply to the head: which 3 pathways (slide 6)?",
+     "a": "External carotid, internal carotid, vertebral",
+     "star": true,
+     "why": "LO spine (slides 6, 29, 37, 49)"
+    },
+    {
+     "q": "LO 2 — pathway of arteries to the spinal cord, brain stem and brain: which 2 arteries (slide 6)?",
+     "a": "Internal carotid and vertebral",
+     "star": true,
+     "why": "LO spine"
+    },
+    {
+     "q": "LO 3 — venous drainage: which 2 tributaries of the external jugular vein (slide 6)?",
+     "a": "Maxillary vein and linguofacial vein",
+     "star": true,
+     "why": "LO spine"
+    },
+    {
+     "q": "LO 3b — what must you give or recognize about venous drainage of the head (slide 6)?",
+     "a": "An example of collateral circulation related to blood drainage from the head",
+     "star": true,
+     "why": "LO spine"
+    },
+    {
+     "q": "LO 4 — what about lymph (slide 6)?",
+     "a": "Be able to explain routes of lymphatic drainage from the head",
+     "star": true,
+     "why": "LO spine"
+    },
+    {
+     "q": "Three arteries that course cranially toward the head (slide 7)?",
+     "a": "Common carotid artery, vertebral artery, deep cervical artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "The deep cervical artery is a branch of… (slide 7)",
+     "a": "Costocervical trunk",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Do the spinal arteries reach the brain (slide 7)?",
+     "a": "Yes — they continue to the brain (covered slides 31–34)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Warm-up: where would you palpate the mandibular salivary gland (slide 4)?",
+     "a": "Answer not marked on slide (options A/B/C on live dog) — near the angle of the mandible, at the linguofacial/maxillary vein junction (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "❤️ Common carotid & external carotid overview",
+   "items": [
+    {
+     "q": "The common carotid artery ends by dividing into… (slide 8)",
+     "a": "Internal carotid artery and external carotid artery",
+     "star": true,
+     "why": "Core bullet; branching diagram repeated on most arterial slides"
+    },
+    {
+     "q": "What does the internal carotid supply (slide 8)?",
+     "a": "Joins an arterial circle that supplies the brain",
+     "star": true,
+     "why": "Slide 8 bullet"
+    },
+    {
+     "q": "What does the external carotid supply (slide 8)?",
+     "a": "Almost everything else in the head",
+     "star": true,
+     "why": "Slide 8 bullet"
+    },
+    {
+     "q": "Where is the carotid sinus (slides 10, 16)?",
+     "a": "At the origin of the internal carotid artery (labeled 'internal carotid (carotid sinus)'; asterisk on slide 16)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which nerve innervates the carotid sinus (slide 16 legend)?",
+     "a": "Glossopharyngeal nerve (cranial nerve IX)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Landmark used to locate the common carotid bifurcation on the live dog (slides 8–9)?",
+     "a": "Near the ear canal / temporomandibular joint (TMJ) region — blue star marks the ear canal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Branch of the common carotid shown just before the bifurcation on the overview diagram (slide 10)?",
+     "a": "Cranial thyroid artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Branches of the external carotid in order on the overview diagram (slide 10)?",
+     "a": "Occipital → ascending pharyngeal → lingual → facial → caudal auricular → superficial temporal → then continues as the maxillary",
+     "star": true,
+     "why": "'Blood Supply to the Head' diagram repeated as the spine of the arterial section"
+    },
+    {
+     "q": "Branches of the external carotid in order per the cadaver photo legend (slide 16)?",
+     "a": "Occipital (3), cranial laryngeal (4), lingual (5), facial (6), caudal auricular (7), superficial temporal (8); after which the term maxillary (9) is used",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Full arterial chain to the nose via the external carotid (slides 10, 25)?",
+     "a": "Common carotid → external carotid → maxillary → (alar canal) → infraorbital → infraorbital foramen → upper lip and nose",
+     "star": true,
+     "why": "Pathway LO"
+    },
+    {
+     "q": "Nerves visible next to the carotid bifurcation in the slide 16 photo?",
+     "a": "Glossopharyngeal (10), vagus (11), hypoglossal (12); medial retropharyngeal lymph node (13) also visible",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔀 Occipital, lingual, facial, caudal auricular",
+   "items": [
+    {
+     "q": "Occipital artery is a branch of… and where does it arise (slide 11)?",
+     "a": "External carotid; arises adjacent to the internal carotid and courses dorsally",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the occipital artery go after coursing dorsally (slide 33)?",
+     "a": "Joins the vertebral artery in the atlantal fossa",
+     "star": true,
+     "why": "Brought back on slide 33 ('We'll come back to it', slide 11)"
+    },
+    {
+     "q": "Lingual artery is a branch of… (slides 10, 12)",
+     "a": "External carotid artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the lingual artery arise (slide 12)?",
+     "a": "Near the angle of the mandible",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lingual vs facial artery — which is more rostral on the external carotid (slides 10, 13)?",
+     "a": "Lingual arises first (more caudal); facial arises just rostral to it",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Course of the facial artery (slide 12)?",
+     "a": "Arises medial to the mandible, crosses it ventrally to become superficial, lateral to the mandible",
+     "star": true,
+     "why": "Underlined on slide 12"
+    },
+    {
+     "q": "What does the facial artery supply and what is its clinical use (slide 12)?",
+     "a": "Many superficial branches of the face; a pulse point in some large animals",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lower lip blood supply besides the inferior alveolar/mental branches (slide 23)?",
+     "a": "Labial branches from the facial artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Caudal auricular artery is a branch of… and its course (slides 10, 14)?",
+     "a": "External carotid; passes dorsally on the caudal side of the ear",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which auricular artery is on the cranial side of the ear and do we dissect it (slide 14)?",
+     "a": "Rostral auricular artery — usually not dissected",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How does the caudal auricular supply the inner surface of the pinna (slide 60)?",
+     "a": "Branches on the convex (outer) aspect of the pinna and perforates the aural cartilage to supply the inner surface",
+     "star": true,
+     "why": "Clinical correlation (aural hematoma)"
+    }
+   ]
+  },
+  {
+   "title": "🌡️ Superficial temporal & transverse facial",
+   "items": [
+    {
+     "q": "Superficial temporal artery is the ___ branch of the external carotid (slide 15)?",
+     "a": "LAST branch, before the external carotid becomes the maxillary",
+     "star": true,
+     "why": "Key bullet slide 15"
+    },
+    {
+     "q": "Position of superficial temporal relative to the ear (slide 16)?",
+     "a": "Rostral to the ear",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Superficial temporal vs maxillary artery — which is larger (slides 16, 21)?",
+     "a": "Maxillary is much larger; it dives deep to the mandible",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Transverse facial artery is a branch of… (slide 17)",
+     "a": "Superficial temporal artery",
+     "star": true,
+     "why": "Slide title + sole bullet"
+    },
+    {
+     "q": "Transverse facial vs facial artery size in the dog (slide 17)?",
+     "a": "Transverse facial is smaller than the facial in the dog",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Eyelid (palpebral) vessels arise from… (slide 26)",
+     "a": "Superficial temporal artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "External carotid terminates as… (slides 15–16)",
+     "a": "Superficial temporal artery and maxillary artery",
+     "star": true,
+     "why": "Matches L28; slide 15 bullet"
+    }
+   ]
+  },
+  {
+   "title": "🦴 Maxillary artery & pterygopalatine fossa",
+   "items": [
+    {
+     "q": "Maxillary artery is the continuation of… (slides 15–16)",
+     "a": "External carotid artery (after the superficial temporal arises)",
+     "star": true,
+     "why": "Spine of pathway"
+    },
+    {
+     "q": "Maxillary artery relation to the temporomandibular joint (slide 21)?",
+     "a": "Passes ventral to the temporomandibular joint",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Canal the maxillary artery passes through and direction (slide 21)?",
+     "a": "Alar canal, caudal to rostral, in the pterygopalatine fossa",
+     "star": true,
+     "why": "Alar canal clicker (slide 18) + slide 21"
+    },
+    {
+     "q": "Fossa ventral to the orbit (slide 19)?",
+     "a": "Pterygopalatine fossa",
+     "star": true,
+     "why": "In-class clicker question"
+    },
+    {
+     "q": "Three steps to expose the maxillary artery in the pterygopalatine fossa (slide 20)?",
+     "a": "Remove the zygomatic arch; partially or totally disarticulate the temporomandibular joint; dig out ALL of the temporalis muscle",
+     "star": true,
+     "why": "'all' bolded on slide 20"
+    },
+    {
+     "q": "What travels with the maxillary artery across the pterygopalatine fossa (slide 24)?",
+     "a": "Maxillary nerve — together they become the infraorbital artery and nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Branches of the maxillary on the overview diagram in order (slide 10)?",
+     "a": "Inferior alveolar → (alar canal) → external ophthalmic → palatine → continues as infraorbital",
+     "star": true,
+     "why": "Overview diagram"
+    },
+    {
+     "q": "Malar artery arises from… (slide 26)",
+     "a": "Maxillary artery",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is the malar artery and where does it exit the orbit (slide 26)?",
+     "a": "Medioventral orbit; emerges from the orbit at the medial canthus",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🦷 Inferior alveolar artery",
+   "items": [
+    {
+     "q": "Inferior alveolar artery is a branch of… (slide 22)",
+     "a": "Maxillary artery — one of its first branches",
+     "star": true,
+     "why": "Slide 22 + clinical slides 62–65"
+    },
+    {
+     "q": "Does the inferior alveolar arise before or after the maxillary enters the alar canal (slide 22)?",
+     "a": "BEFORE (red asterisk marks the alar canal)",
+     "star": true,
+     "why": "'before' underlined"
+    },
+    {
+     "q": "Foramen the inferior alveolar artery ENTERS (slide 22)?",
+     "a": "Mandibular foramen",
+     "star": true,
+     "why": "Slides 22, 64–65"
+    },
+    {
+     "q": "What does the inferior alveolar artery supply and what travels with it (slide 22)?",
+     "a": "Lower jaw and teeth; travels with the inferior alveolar nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Foramen where the inferior alveolar EXITS and what it supplies there (slide 23)?",
+     "a": "Mental foramen; supplies the lower lip",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pathway: common carotid → … → lower lip via the mandible (slides 10, 22–23)?",
+     "a": "Common carotid → external carotid → maxillary → inferior alveolar → mandibular foramen → mandibular canal → mental foramen → lower lip",
+     "star": true,
+     "why": "Pathway LO"
+    },
+    {
+     "q": "Clinical risk with the inferior alveolar artery (slide 64)?",
+     "a": "Can be lacerated as it enters the mandibular foramen, or cause significant bleeding during extractions",
+     "star": true,
+     "why": "Clinical slide 64"
+    },
+    {
+     "q": "Where is the needle placed for the inferior alveolar (mandibular) nerve block (slides 64–65)?",
+     "a": "At the mandibular foramen, on the medial side of the mandible (intraoral or extraoral approach)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👁️ Orbit, infraorbital & muzzle",
+   "items": [
+    {
+     "q": "External ophthalmic artery is a branch of… and where (slide 24)?",
+     "a": "Maxillary artery, at the apex of the orbit",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the external ophthalmic artery ultimately pass (slide 24)?",
+     "a": "Internally through the ethmoid foramen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "When does the maxillary artery end (slide 25)?",
+     "a": "When it becomes the infraorbital artery, after the descending palatine arises",
+     "star": true,
+     "why": "Slide 25 core bullet"
+    },
+    {
+     "q": "Palatine branch of the maxillary named on slide 25?",
+     "a": "Descending palatine artery (diagram: 'palatine')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does the infraorbital artery supply (slide 25)?",
+     "a": "Upper arcade (upper teeth); then emerges at the infraorbital foramen to supply the upper lip and nose",
+     "star": true,
+     "why": "Slide 25"
+    },
+    {
+     "q": "Is the infraorbital foramen palpable (slides 25, 28)?",
+     "a": "Yes — 'palpable' bold italic; clicker asks you to palpate it on the live dog",
+     "star": true,
+     "why": "Bold italic + clicker"
+    },
+    {
+     "q": "Superficial branches to the lips and nose come from… (slide 27)",
+     "a": "Facial, mental and infraorbital (slide says 'nerves' — see flag)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Do you need to dissect specific muzzle branches (slide 27)?",
+     "a": "No — but know the location of the infraorbital and mental foramina",
+     "star": true,
+     "why": "'Make sure you know' (underlined)"
+    },
+    {
+     "q": "Infraorbital pathway through bone (L28, consistent here)?",
+     "a": "Maxillary foramen → infraorbital canal → infraorbital foramen — this deck (slides 24–25) names only the alar canal and infraorbital foramen",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧠 Vertebral artery, spinal cord & brain",
+   "items": [
+    {
+     "q": "Vertebral artery is a branch of… (slide 30)",
+     "a": "Subclavian artery",
+     "star": true,
+     "why": "Slide 30; LO 1 and 2"
+    },
+    {
+     "q": "Course of the vertebral artery in the neck (slide 30)?",
+     "a": "Cranially through the transverse foramina of the cervical vertebrae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal cord segmental supply — spinal branches come mainly from… (slide 31)",
+     "a": "Vertebral artery or the aorta; they enter the vertebral column all along its length",
+     "star": true,
+     "why": "'segmental spinal branches' in blue highlight"
+    },
+    {
+     "q": "Longitudinal arteries formed from the spinal arteries (slide 32)?",
+     "a": "Single ventral spinal artery (4) and a pair of dorsolateral spinal arteries (12)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ventral spinal artery continues to… (slide 32)",
+     "a": "The brain stem",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Path of the vertebral artery at the atlas (slide 33)?",
+     "a": "Joined by the occipital a. in the atlantal fossa → dorsally through the alar notch (or foramen, species-dependent) → lateral vertebral foramen → joins the ventral spinal artery",
+     "star": true,
+     "why": "Full-width bullet slide 33"
+    },
+    {
+     "q": "Alar notch vs alar foramen (slide 33)?",
+     "a": "Depends on species (notch vs foramen at the atlas)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Basilar artery formation (slide 34)?",
+     "a": "Vertebral arteries on each side join the ventral spinal artery; the ventral spinal artery then becomes the basilar artery",
+     "star": true,
+     "why": "Arrow-coded slide 34"
+    },
+    {
+     "q": "Arterial circle — which vessels contribute (slide 35)?",
+     "a": "Basilar artery + internal carotid artery",
+     "star": true,
+     "why": "Slide 35 caption"
+    },
+    {
+     "q": "The arterial circle surrounds… (slide 35)",
+     "a": "The pituitary gland and optic chiasm; vessels branch from it to the brain",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Full chain subclavian → brain (slides 30–35)?",
+     "a": "Subclavian → vertebral → (transverse foramina) → atlantal fossa → alar notch → lateral vertebral foramen → ventral spinal → basilar → arterial circle → brain",
+     "star": true,
+     "why": "LO 2 pathway"
+    },
+    {
+     "q": "Arteries labeled on the arterial circle figure (slides 35–36)?",
+     "a": "Internal ethmoidal, rostral cerebral, internal ophthalmic, middle cerebral, internal carotid, caudal communicating, caudal cerebral, rostral cerebellar, labyrinthine, caudal cerebellar, basilar, ventral spinal, vertebral",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is brain blood supply detail covered now (slide 36)?",
+     "a": "No — 'You will learn more about the blood supply to the brain later'",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩸 Venous drainage — external jugular & tributaries",
+   "items": [
+    {
+     "q": "Four possible venous drainage routes from the head (slides 38–39)?",
+     "a": "External jugular, internal jugular, vertebral vein, and the ventral internal vertebral venous plexus",
+     "star": true,
+     "why": "Slide 38–39; LO 3"
+    },
+    {
+     "q": "Which drainage route is NEW to you (slide 39)?",
+     "a": "Internal ventral vertebral venous plexus (18) — 'This is new' (others 'you have seen')",
+     "star": true,
+     "why": "Slide 39 annotation"
+    },
+    {
+     "q": "Fig. 4-35 numbers 4, 5, 6 (slide 39)?",
+     "a": "4 vertebral, 5 internal jugular, 6 external jugular",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig. 4-35 head veins 7, 8, 8a, 9, 10, 11 (slide 39)?",
+     "a": "7 linguofacial, 8 facial, 8a angularis oculi, 9 maxillary, 10 superficial temporal, 11 dorsal sagittal sinus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two DIRECT tributaries of the external jugular vein (slide 40)?",
+     "a": "Linguofacial vein and maxillary vein",
+     "star": true,
+     "why": "Clicker + LO 3"
+    },
+    {
+     "q": "Linguofacial vein forms from… (slides 41–42)",
+     "a": "Facial vein + lingual vein",
+     "star": true,
+     "why": "Labeled photo slide 41"
+    },
+    {
+     "q": "Venous chain from nose to external jugular via the face (slides 39, 41–42)?",
+     "a": "Angularis oculi + dorsal nasal → facial → (+ lingual) → linguofacial → (+ maxillary) → external jugular",
+     "star": true,
+     "why": "Pathway LO 3"
+    },
+    {
+     "q": "Superficial temporal vein drains into… (slide 39 list order; slide 56 figure)",
+     "a": "Maxillary vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Naming rule for head veins (slide 41)?",
+     "a": "Most are named for corresponding arteries",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prominent vein in the live-dog photo (slide 41)?",
+     "a": "Facial vein and its branches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Veins labeled in Budras (slide 42)?",
+     "a": "Superior labial, lateral nasal, dorsal nasal, angularis oculi, rostral auricular, superficial temporal, caudal auricular, maxillary, inferior labial, submental, sublingual, angularis oris, deep facial, facial, lingual, hyoid venous arch, linguofacial, external jugular",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vein joining the two lingual veins across the midline (slides 42, 56)?",
+     "a": "Hyoid venous arch",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tributaries of the maxillary vein shown on Fig. 5-42 (slide 56)?",
+     "a": "Superficial temporal, caudal auricular, deep auricular, vein from palatine plexus, emissary vein of retroarticular foramen, auricular veins",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tributaries of the linguofacial vein near its origin on Fig. 5-42 (slide 56)?",
+     "a": "Facial, lingual, plus veins from the mandibular gland and medial retropharyngeal lymph node; cranial laryngeal, ascending pharyngeal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Deep plexuses shown on the face (slide 56)?",
+     "a": "Ophthalmic plexus, pterygoid plexus, palatine plexus",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔄 Collateral circulation, sinuses & vertebral plexus",
+   "items": [
+    {
+     "q": "Why is there a lot of collateral venous circulation in the head (slide 42)?",
+     "a": "Superficial veins connect to deep veins, and some deep veins form venous plexuses",
+     "star": true,
+     "why": "LO 3b — collateral circulation"
+    },
+    {
+     "q": "Where are the venous sinuses of the cranial cavity (slide 44)?",
+     "a": "In the dura of the cranial cavity; some connect to deep veins or plexuses of the face",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Example of face-to-cranial-sinus collateral (slide 44)?",
+     "a": "Ventral external ophthalmic venous plexus communicates through the orbital fissure with the cavernous sinus",
+     "star": true,
+     "why": "The slide's example of collateral circulation (LO 3b)"
+    },
+    {
+     "q": "Through what opening does the ventral external ophthalmic plexus reach the cavernous sinus (slide 44)?",
+     "a": "Orbital fissure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Function of the dorsal sagittal sinus (slide 45)?",
+     "a": "Reabsorption of cerebrospinal fluid from the subarachnoid space into the blood",
+     "star": true,
+     "why": "Only sinus with a function bullet"
+    },
+    {
+     "q": "Four drainage options of the cranial venous sinuses (slide 46)?",
+     "a": "Veins around the spinal cord (vertebral venous plexus), vertebral veins, internal jugular veins, maxillary veins",
+     "star": true,
+     "why": "Collateral drainage list"
+    },
+    {
+     "q": "Cranial sinuses labeled on Fig. 6-5 (slide 46)?",
+     "a": "Dorsal sagittal, straight, transverse, temporal, sigmoid, basilar, dorsal petrosal, ventral petrosal, cavernous",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What connects the ventral internal vertebral venous plexus to the vertebral veins (slide 47)?",
+     "a": "Intervertebral veins",
+     "star": true,
+     "why": "Slide 47 sole bullet"
+    },
+    {
+     "q": "Cranial continuation of the ventral internal vertebral plexus at the skull (slide 47)?",
+     "a": "Basilar sinus (left basilar sinus, ventral interbasilar sinus labeled)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vertebral vein drains to… (slide 48)",
+     "a": "Costocervical vertebral trunk",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "More caudal intervertebral veins drain to… (slide 48)",
+     "a": "Azygous vein",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🟢 Lymphatic drainage",
+   "items": [
+    {
+     "q": "Superficial lymph nodes of the head and neck (slide 50)?",
+     "a": "Parotid, mandibular, lateral retropharyngeal, (buccal), superficial cervical",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "The 'terminal node' of the head in the dog (slide 51)?",
+     "a": "Medial retropharyngeal lymph node — everything drains through it",
+     "star": true,
+     "why": "Bolded 'terminal node'"
+    },
+    {
+     "q": "Is the medial retropharyngeal node superficial or deep (slide 51)?",
+     "a": "Deep",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lymph route from the head (slide 51)?",
+     "a": "Parotid / mandibular / buccal / lateral retropharyngeal → medial retropharyngeal → tracheal trunk (via deep cervical nodes along the trachea) → left joins thoracic duct",
+     "star": true,
+     "why": "LO 4 route"
+    },
+    {
+     "q": "Deep cervical lymph nodes lie along… (slide 51)",
+     "a": "The trachea",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Left tracheal trunk joins… (slide 51)",
+     "a": "Thoracic duct",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where to palpate the parotid lymph node (slide 52)?",
+     "a": "Just rostral to the base of the ear, near the temporomandibular joint/parotid gland (outside knowledge — slide shows only a clicker)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Buccal lymph node prevalence (slide 53)?",
+     "a": "Present in 13 of 150 dogs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Enlarged lymph node shown in lymphoma example (slide 53)?",
+     "a": "Mandibular lymph node",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 54 'What is at the arrow?' (live Weimaraner, arrow dorsal to the eye)?",
+     "a": "Answer not given on slide — confirm in transcript",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🩺 Clinical applications",
+   "items": [
+    {
+     "q": "Enucleation — which vessels to watch for (slide 56)?",
+     "a": "Angularis oculi vein and malar artery",
+     "star": true,
+     "why": "Clinical box"
+    },
+    {
+     "q": "Venipuncture sites besides the external jugular (slide 57)?",
+     "a": "Auricular veins (16, 17) and the lingual vein (33)",
+     "star": true,
+     "why": "Clinical slide"
+    },
+    {
+     "q": "Which vein can be used to give medications (slide 57)?",
+     "a": "Lingual vein",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ear vein clinical use by owners (slides 58–59)?",
+     "a": "Collect small blood samples to monitor diabetes treatment (marginal ear vein in cats and small dogs)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mechanism of aural hematoma (slide 60)?",
+     "a": "Shaking/scratching ruptures vessels perforating the aural cartilage (caudal auricular branches) → hematoma",
+     "star": true,
+     "why": "Clinical slide"
+    },
+    {
+     "q": "Consequence if the hematoma elevates the perichondrium (slide 60)?",
+     "a": "New cartilage may form from the perichondrium (at least in pigs)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dental risk of the inferior alveolar vessels (slide 64)?",
+     "a": "Laceration at the mandibular foramen; significant bleeding during extractions",
+     "star": true,
+     "why": "Clinical slide"
+    }
+   ]
+  }
+ ]
+}
