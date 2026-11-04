@@ -12,33 +12,69 @@
    false
   ],
   [
+   "Plug-and-play pathways",
+   "★ Dr. Schultz's classic pathways (steroid, Gs/Gi/Gq, tyrosine kinase, guanylyl cyclase): \"really good if you ... could walk through those pathways.\" Pharmacology expects it.",
+   "transcript",
+   true
+  ],
+  [
+   "Gradient signaling",
+   "Pathways are GRADIENTS, not on/off: more or less signal gives more or less effect.",
+   "S1; transcript",
+   false
+  ],
+  [
    "Pheochromocytoma",
-   "Adrenal tumor that secretes catecholamines (norepinephrine/epinephrine); surgery risks hemodynamic instability from massive release.",
-   "S2",
+   "Adrenal tumor secreting catecholamines (epinephrine, norepinephrine, some dopamine) → extreme sympathetic signal everywhere; poking it in surgery releases more.",
+   "S2; transcript",
+   false
+  ],
+  [
+   "Catecholamines",
+   "Epinephrine, norepinephrine, and (to some degree) dopamine.",
+   "S2; transcript",
    false
   ],
   [
    "Hemodynamic instability",
-   "Dangerous blood pressure/heart swings during pheochromocytoma surgery caused by surges of norepinephrine and epinephrine from the tumor.",
-   "S2",
+   "Blood pressure swinging wildly (\"sometimes 800/600, sometimes 0/0\") from catecholamine surges; both extremes inconsistent with life.",
+   "S2; transcript",
    false
   ],
   [
    "Amplification",
-   "A signal going from a few molecules to a huge response; enabled by second messengers.",
-   "S3",
+   "Going from a very low signal concentration to a relatively large cell effect, via second messenger steps.",
+   "S3; transcript",
    false
   ],
   [
    "Second messenger",
-   "Intracellular signal made after the primary signal; allows multiplication (amplification), integration, and modulation of the signal.",
-   "S4",
+   "★ Intracellular signal after the primary signal; allows AMPLIFICATION, MODULATION, and INTEGRATION. Gs → cAMP; Gi → ↓ cAMP; Gq → IP3 and/or DAG.",
+   "S4; transcript",
+   true
+  ],
+  [
+   "Gs → cAMP; Gi → ↓ cAMP; Gq → IP3/DAG",
+   "★ \"Memorize in your sleep\": Gs second messenger = cyclic adenosine monophosphate (cAMP); Gi = NOT cAMP (↓); Gq = inositol trisphosphate (IP3) and/or diacylglycerol (DAG).",
+   "S4; transcript",
+   true
+  ],
+  [
+   "Steroid receptor: no second messenger",
+   "Steroid hormone receptor itself goes to the nucleus as a transcription factor; example of signaling without second messengers.",
+   "transcript",
+   false
+  ],
+  [
+   "Modulation",
+   "Second-messenger steps (G proteins, kinases, phosphatases) let the cell turn the signal up or down.",
+   "S4–S5; transcript",
    false
   ],
   [
    "Direct effect (no second messenger)",
-   "Primary signal acts directly: 1:1 signal-to-effect ratio, limited by signal concentration, cannot integrate other signals.",
-   "S5",
+   "Primary signal acts directly: 1:1 signal-to-effect, limited by receptor number and signal concentration, cannot integrate; \"literally an on-off system.\"",
+   "S5; transcript",
    false
   ],
   [
@@ -49,14 +85,32 @@
   ],
   [
    "Integration",
-   "Second-messenger pathways accept 'other signals' at multiple steps (PKA, phosphorylase kinase, glycogen phosphorylase), combining inputs into one output.",
-   "S5–S6",
+   "Other signals merge into the same second-messenger pathway: two Gs signals synergize, a Gi signal counteracts; one decision point.",
+   "S5–S6; transcript",
+   false
+  ],
+  [
+   "Synergy (two Gs signals)",
+   "Glucagon + epinephrine together both raise cAMP → liver breaks down glycogen \"really, really fast.\"",
+   "S6; transcript",
+   false
+  ],
+  [
+   "Gi counteracts Gs",
+   "A Gi signal on the same cell counteracts Gs → less effect than Gs alone.",
+   "S6; transcript",
+   false
+  ],
+  [
+   "Liver glycogen inputs",
+   "Glucagon, epinephrine, insulin, glucocorticoids, growth hormone, AMP:ATP status, citrate — integrated into one glycogen phosphorylase decision.",
+   "S6; transcript",
    false
   ],
   [
    "Stimulatory G protein (Gs)",
-   "G protein activated by the epinephrine/glucagon receptor; swaps guanosine diphosphate (GDP) for guanosine triphosphate (GTP), then activates adenylyl cyclase.",
-   "S6",
+   "Liver glucagon and epinephrine receptors are both Gs-coupled. Receptor acts as guanine nucleotide exchange factor: GDP out, GTP in; αs leaves βγ → adenylyl cyclase.",
+   "S6; transcript",
    false
   ],
   [
@@ -96,6 +150,12 @@
    false
   ],
   [
+   "Why each step multiplies",
+   "Each activated molecule keeps acting while active: receptor (while agonist bound), Gαs (while GTP bound), PKA (while cAMP bound), each kinase (while phosphorylated).",
+   "S6; transcript",
+   false
+  ],
+  [
    "~100,000,000-fold amplification",
    "Total amplification from very-low-concentration epinephrine/glucagon to glucose-1-phosphate in a liver cell.",
    "S6",
@@ -103,56 +163,62 @@
   ],
   [
    "Receptor desensitization",
-   "Receptors respond to changes in signal concentration, not absolute level; sustained agonist gives a decreasing response over time.",
-   "S7",
+   "★ Receptors respond to CHANGES in signal concentration, not absolute concentration; sustained signal → less and less effect.",
+   "S7; transcript",
    true
   ],
   [
    "Mu-opioid receptor (MOR) tolerance",
-   "Chronic opioid users need higher and higher doses for the same effect.",
-   "S7",
+   "Chronic opioid users (medical or recreational) need more and more for the same effect → can lead to overdose as other pathways overactivate.",
+   "S7; transcript",
    false
   ],
   [
    "Long-acting beta-2 (β2) adrenergic agonist",
-   "Asthma drug that relaxes airway smooth muscle; chronic use can cause receptor desensitization.",
-   "S7",
+   "Airway smooth muscle relaxant (e.g. albuterol); daily use desensitizes, so daily asthma maintenance uses a glucocorticoid instead.",
+   "S7; transcript",
    false
   ],
   [
    "Desensitization (short term)",
-   "Short-term loss of response: milliseconds to minutes.",
-   "S7",
+   "Short-term loss of response (slide: milliseconds–minutes). Basel: some systems desensitize within milliseconds–seconds.",
+   "S7; transcript",
    false
   ],
   [
    "Tolerance (long term)",
-   "Long-term loss of response: days to years.",
-   "S7",
+   "Long-term loss of response (slide: days–years; Basel: hours to days and longer).",
+   "S7; transcript",
    false
   ],
   [
    "Disabled signaling",
-   "Desensitization method: a kinase phosphorylates the receptor and arrestin binds, blocking signaling.",
-   "S8",
+   "Fast desensitization: a kinase PHOSPHORYLATES the receptor (seconds–minutes) and arrestin binds, blocking signaling.",
+   "S8; transcript",
    false
   ],
   [
    "Arrestin",
-   "Protein that binds the phosphorylated receptor; blocks signaling and accompanies the receptor during internalization.",
-   "S8–S9",
+   "Protein that binds phosphorylated receptors and blocks signaling (seconds–minutes); accompanies receptor internalization.",
+   "S8–S9; transcript",
    false
   ],
   [
    "Membrane cycling",
-   "Desensitization method: phosphorylated, arrestin-bound receptor is internalized in a vesicle, then degraded or recycled to the surface.",
-   "S8",
+   "Receptors pulled off the membrane (internalized) into vesicles → degraded or recycled. Basel groups it with hours–days changes.",
+   "S8; transcript",
    false
   ],
   [
    "Reduced expression",
-   "Desensitization method: the cell expresses fewer receptors (less gene expression), so fewer reach the surface.",
-   "S8",
+   "Cell makes fewer receptors (hours–days) so it stays sensitive to changes, not absolute signal.",
+   "S8; transcript",
+   false
+  ],
+  [
+   "Insulin receptor desensitization",
+   "Long-term deactivation of insulin receptors can lead toward type 2 diabetes. Basel unsure of exact kinetics (see flag).",
+   "transcript",
    false
   ],
   [
@@ -181,194 +247,218 @@
   ],
   [
    "Michaelis-Menten equation",
-   "Effect = Emax × [ligand] / (EC50 + [ligand]); describes magnitude of a ligand/receptor effect.",
-   "S10–S11",
+   "Effect = Emax × [ligand] / (EC50 + [ligand]). Applies to receptor AND enzyme pathways. ★ \"I don't need you to do math.\"",
+   "S10–S11; transcript",
+   true
+  ],
+  [
+   "8-receptor thought experiment",
+   "Little agonist + many free receptors → sharp rise in effect; as receptors fill, less effect per added agonist; saturated → no further change.",
+   "S10–S11; transcript",
+   false
+  ],
+  [
+   "Kon / Koff",
+   "On/off binding rates (Dr. Schultz). Many free receptors → high Kon; as receptors fill, Kon falls until Koff balances it.",
+   "S10–S11; transcript",
+   false
+  ],
+  [
+   "Ligand vs agonist",
+   "Ligand = anything that binds a receptor (agnostic to effect). Agonist = ligand that ACTIVATES it.",
+   "S16; transcript",
    false
   ],
   [
    "Maximal effect (Emax)",
-   "The maximal effect a ligand produces; plateau of the dose-response curve.",
-   "S11",
+   "Maximal possible effect (all receptors maximally active); only at infinite concentration, so never actually reached. Measure of efficacy.",
+   "S11; transcript",
    false
   ],
   [
    "Half-maximal effective concentration (EC50)",
-   "Ligand concentration (dose) that produces ½ Emax.",
-   "S11",
-   false
+   "★ Concentration giving ½ Emax; tells how sensitive the pathway is to the signal. ALWAYS has concentration units.",
+   "S11; transcript",
+   true
   ],
   [
    "Efficacy",
-   "Activation of a receptor by a ligand; measured as Emax. Higher Emax = more efficacious.",
-   "S10, S12",
-   false
+   "★ = Emax: how much effect you could get at very high signal. Higher Emax = more efficacious; curve shifts UP.",
+   "S10, S12; transcript",
+   true
   ],
   [
    "Potency",
-   "Interaction/binding strength of ligand to receptor; measured as EC50. Lower EC50 = more potent.",
-   "S10, S13",
-   false
+   "★ = EC50: how much signal is needed for the effect. LOWER EC50 = MORE potent; curve shifts LEFT.",
+   "S10, S13; transcript",
+   true
   ],
   [
    "Semi-logarithmic (semi-log) plot",
-   "Effect vs log [ligand]; turns the hyperbola into an S-curve. Most common display of ligand-receptor interactions.",
-   "S10, S14",
+   "★ Linear effect vs log [ligand] (each unit = ×10). Sigmoid curve; easy to read Emax and EC50. \"Make sure you can read a semi-log plot.\"",
+   "S10, S14; transcript",
+   true
+  ],
+  [
+   "Linear dose-response plot",
+   "Hyperbola with EC50s clustered in the corner; used only for thought experiments (\"last time you'll see this\").",
+   "S10–S13; transcript",
    false
   ],
   [
    "Agonist",
-   "Ligand that binds a receptor and initiates a physiological response; has measurable potency and efficacy.",
-   "S16, S18",
+   "A ligand that ACTIVATES the receptor (a type of ligand); has measurable potency and efficacy.",
+   "S16, S18; transcript",
    false
   ],
   [
    "Full agonist",
    "Activates maximal response equal to the endogenous ligand.",
-   "S18",
+   "S18 · slides only, not yet lectured",
    true
   ],
   [
    "Partial agonist",
    "Activates LESS than maximal response (less efficacious); can act as an antagonist against more efficacious agonists.",
-   "S18–S19",
+   "S18–S19 · slides only, not yet lectured",
    true
   ],
   [
    "Super agonist",
    "Causes a response GREATER than the endogenous full agonist.",
-   "S18",
+   "S18 · slides only, not yet lectured",
    true
   ],
   [
    "Inverse agonist",
    "Causes the opposite effect of an agonist; requires receptors with basal signaling activity without agonist.",
-   "S18",
+   "S18 · slides only, not yet lectured",
    true
   ],
   [
    "Morphine",
    "Agonist at the mu-opioid receptor; residence time in the low-minute range (koff ~0.01/s).",
-   "S19, S22",
+   "S19, S22 · slides only, not yet lectured",
    false
   ],
   [
    "Buprenorphine",
    "Partial agonist at the mu-opioid receptor.",
-   "S19",
+   "S19 · slides only, not yet lectured",
    false
   ],
   [
    "Goserelin",
    "Super agonist at the luteinizing hormone-releasing hormone receptor (LHRHR); downregulates LHRHR and sex hormones in prostate/breast cancer.",
-   "S19",
+   "S19 · slides only, not yet lectured",
    true
   ],
   [
    "Ro15-4513",
    "Inverse agonist at the gamma-aminobutyric acid (GABA) receptor; developed to counteract alcohol poisoning.",
-   "S19",
+   "S19 · slides only, not yet lectured",
    false
   ],
   [
    "GABA inverse agonist effect",
    "Gamma-aminobutyric acid (GABA) inverse agonists can cause anxiety.",
-   "S18",
+   "S18 · slides only, not yet lectured",
    false
   ],
   [
    "Antagonist",
    "Ligand that both binds the receptor and prevents its activation by an agonist.",
-   "S16",
+   "S16 · slides only, not yet lectured",
    false
   ],
   [
    "Competitive antagonist",
    "Binds the agonist binding site, prevents agonist binding; raises EC50; overcome by more agonist.",
-   "S17, S20–S21",
+   "S17, S20–S21 · slides only, not yet lectured",
    true
   ],
   [
    "Non-competitive antagonist",
    "Binds an allosteric site away from the agonist site; inhibits response; lowers Emax.",
-   "S17, S20–S21",
+   "S17, S20–S21 · slides only, not yet lectured",
    false
   ],
   [
    "Allosteric site",
    "Receptor site other than the agonist binding site; where non-competitive antagonists bind.",
-   "S17, S20",
+   "S17, S20 · slides only, not yet lectured",
    false
   ],
   [
    "Lock-and-key model",
    "Agonist = key that starts car; competitive antagonist = key blank; non-competitive antagonist = car boot.",
-   "S17",
+   "S17 · slides only, not yet lectured",
    false
   ],
   [
    "Naloxone",
    "Competitive antagonist at opioid receptors (raises EC50).",
-   "S21",
+   "S21 · slides only, not yet lectured",
    false
   ],
   [
    "Ketamine",
    "Non-competitive antagonist at the N-methyl-D-aspartate (NMDA) receptor (lowers Emax).",
-   "S21",
+   "S21 · slides only, not yet lectured",
    false
   ],
   [
    "k-1 (off rate) of antagonist",
    "Ability to overcome a competitive antagonist partially depends on its off rate.",
-   "S21",
+   "S21 · slides only, not yet lectured",
    true
   ],
   [
    "Off rate (koff)",
    "Dissociation rate of a ligand from the receptor, per second; sets residence time.",
-   "S22",
+   "S22 · slides only, not yet lectured",
    false
   ],
   [
    "Residence time",
    "How long a ligand stays bound to the receptor; inverse of how fast it comes off.",
-   "S22",
+   "S22 · slides only, not yet lectured",
    false
   ],
   [
    "Reversible",
    "Measurable koff: the ligand comes back off.",
-   "S22",
+   "S22 · slides only, not yet lectured",
    false
   ],
   [
    "Irreversible",
    "No measurable koff: does not come off; often covalently bound to the receptor.",
-   "S22",
+   "S22 · slides only, not yet lectured",
    false
   ],
   [
    "Practically irreversible",
    "Off rate so low that physiological functions cannot occur.",
-   "S22",
+   "S22 · slides only, not yet lectured",
    false
   ],
   [
    "Irreversible antagonist looks non-competitive",
    "Actual or practical irreversible antagonist lowers Emax regardless of binding site; agonist cannot compete for sites.",
-   "S22",
+   "S22 · slides only, not yet lectured",
    true
   ],
   [
    "Phenoxybenzamine",
    "Irreversible, non-competitive alpha-adrenergic inhibitor used preoperatively for pheochromocytoma resection.",
-   "S24",
+   "S24 · slides only, not yet lectured",
    false
   ],
   [
    "Low-dose phenoxybenzamine paradox",
    "Tolerable doses shift the curve right instead of depressing max; spare alpha-adrenoceptors are not depleted (answered LC30).",
-   "S24; LC30",
+   "S24; LC30 · slides only, not yet lectured",
    false
   ]
  ],
@@ -382,9 +472,128 @@
   "<b>Inverse agonist ≠ antagonist</b>: an antagonist blocks an agonist; an inverse agonist produces the opposite effect on its own (needs basal signaling).",
   "<b>Reversible = measurable koff</b>; irreversible = no measurable koff. An irreversible antagonist <b>looks non-competitive regardless of where it binds</b>.",
   "<b>Naloxone</b> (competitive, opioid receptor) vs <b>ketamine</b> (non-competitive, NMDA receptor). <b>Buprenorphine</b> = partial agonist, not antagonist.",
-  "<b>Adenylyl cyclase</b> (enzyme, -ase) makes <b>cAMP</b> from ATP; <b>phosphorylase kinase</b> activates <b>glycogen phosphorylase</b> (kinase comes first)."
+  "<b>Adenylyl cyclase</b> (enzyme, -ase) makes <b>cAMP</b> from ATP; <b>phosphorylase kinase</b> activates <b>glycogen phosphorylase</b> (kinase comes first).",
+  "★ <b>Second messengers:</b> Gs → <b>cAMP ↑</b>; Gi → <b>NOT cAMP (↓)</b>; Gq → <b>IP3 and/or DAG</b>. <b>Steroid receptors have NO second messenger</b> (receptor = transcription factor) (transcript).",
+  "★ <b>Shift directions:</b> more <b>efficacious</b> = curve shifts <b>UP</b> (higher Emax); more <b>potent</b> = shifts <b>LEFT</b> (lower EC50). Less potent = right; less efficacious = down (transcript, S12–S14).",
+  "★ <b>EC50 units = CONCENTRATION</b> (not % effect, not time). Read it by tracing from ½ Emax down to the x-axis (transcript, S14).",
+  "<b>Ligand ≠ agonist:</b> ligand just binds (agnostic); <b>agonist ACTIVATES</b>. Every agonist is a ligand, not vice versa (transcript).",
+  "<b>Desensitization mechanisms by speed:</b> receptor <b>phosphorylation</b> and <b>arrestin</b> = seconds–minutes; <b>internalization / reduced expression</b> = hours–days (transcript).",
+  "<b>Emax is never actually reached</b> (requires infinite agonist). Receptors respond to <b>changes</b>, not absolute concentration (transcript, S7, S11)."
  ],
  "know": [
+  {
+   "title": "Second messengers by pathway (\"memorize in your sleep\")",
+   "slide": "S4; transcript",
+   "note": "★ Basel: \"one of those things that you should probably memorize in your sleep.\" Plug-and-play pathways from Dr. Schultz.",
+   "headers": [
+    "Pathway",
+    "Second messenger",
+    "Note"
+   ],
+   "rows": [
+    [
+     "Gs",
+     "cAMP (↑)",
+     "Adenylyl cyclase ON; liver glucagon/epinephrine"
+    ],
+    [
+     "Gi",
+     "NOT cAMP (↓ cAMP)",
+     "Counteracts Gs"
+    ],
+    [
+     "Gq",
+     "IP3 and/or DAG",
+     "Phospholipase C"
+    ],
+    [
+     "Steroid hormone receptor",
+     "None",
+     "Receptor itself = transcription factor"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Liver Gs amplification walk-through",
+   "slide": "S6; transcript",
+   "note": "Transcript matches S6 multipliers; cAMP → PKA has no multiplier. Product: 100 × 100 × 10 × 10 × 100 = 100,000,000.",
+   "headers": [
+    "Step",
+    "Multiplier",
+    "Why it multiplies (transcript)"
+   ],
+   "rows": [
+    [
+     "1 receptor → G proteins",
+     "×100",
+     "Receptor diffuses and activates G proteins repeatedly while agonist stays bound"
+    ],
+    [
+     "Gαs-adenylyl cyclase → cAMP",
+     "×100",
+     "Keeps making cAMP as long as Gα has GTP bound"
+    ],
+    [
+     "cAMP → PKA",
+     "(none)",
+     "cAMP's main target is PKA"
+    ],
+    [
+     "PKA → phosphorylase kinase",
+     "×10",
+     "Active PKA finds many phosphorylase kinases"
+    ],
+    [
+     "Phosphorylase kinase → glycogen phosphorylase",
+     "×10",
+     "Keeps phosphorylating while phosphorylated itself"
+    ],
+    [
+     "Glycogen phosphorylase → glucose residues",
+     "×100",
+     "Keeps cutting glucose off glycogen while phosphorylated"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Desensitization mechanisms and time scales",
+   "slide": "S7–S9; transcript",
+   "note": "Short term = desensitization; long term = tolerance. S9 figure times differ slightly (see flag).",
+   "headers": [
+    "Mechanism",
+    "What happens",
+    "Time scale (transcript)"
+   ],
+   "rows": [
+    [
+     "Receptor phosphorylation (disabled signaling)",
+     "Kinase phosphorylates receptor → less able to respond",
+     "Seconds–minutes (fast)"
+    ],
+    [
+     "Arrestin",
+     "Binds receptor and blocks the pathway",
+     "Seconds–minutes"
+    ],
+    [
+     "Internalization / reduced expression",
+     "Receptors pulled off membrane; fewer made",
+     "Hours–days"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
   {
    "title": "Efficacy vs potency: Emax and EC50 tables",
    "slide": "S12–S14",
@@ -464,7 +673,7 @@
   {
    "title": "Agonist types",
    "slide": "S18–S19",
-   "note": "Definitions from S18; drug examples from S19.",
+   "note": "NOT YET LECTURED (slides only; lecture stopped after Measurement objective). Definitions from S18; drug examples from S19.",
    "headers": [
     "Type",
     "Definition",
@@ -500,7 +709,7 @@
   {
    "title": "Antagonist types",
    "slide": "S17, S20–S21",
-   "note": "Lock-and-key analogy from S17.",
+   "note": "NOT YET LECTURED (slides only; lecture stopped after Measurement objective). Lock-and-key analogy from S17.",
    "headers": [
     "Type",
     "Binding site",
@@ -534,7 +743,7 @@
   {
    "title": "Off rates (koff) and residence times",
    "slide": "S22",
-   "note": "Numbers are on the slide; reading only.",
+   "note": "NOT YET LECTURED (slides only; lecture stopped after Measurement objective). Numbers are on the slide; reading only.",
    "headers": [
     "Ligand",
     "Residence time",
@@ -577,7 +786,7 @@
     "~10,000-fold",
     "~1,000,000,000-fold"
    ],
-   "why": "S6 labels the whole cascade ~100,000,000-fold amplification.",
+   "why": "S6 labels the whole cascade ~100,000,000-fold; Basel: 100 × 100 × 10 × 10 × 100 (transcript).",
    "cite": "S6",
    "sure": true
   },
@@ -589,8 +798,8 @@
     "Integration, internalization, and inhibition",
     "Modulation, phosphorylation, and degradation"
    ],
-   "why": "S4–S5: second messengers allow multiplication (amplification), integration and modulation of the signal.",
-   "cite": "S4–S5",
+   "why": "S4–S5 + transcript: second messengers allow amplification, modulation, and integration.",
+   "cite": "S4–S5; transcript",
    "sure": true
   },
   {
@@ -674,7 +883,7 @@
     "It is unchanged; they bind different sites"
    ],
    "why": "S19: buprenorphine is a partial agonist; partial agonists can act as antagonists against more efficacious agonists.",
-   "cite": "S19",
+   "cite": "S19 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -686,7 +895,7 @@
     "Inverse agonist that silences basal activity"
    ],
    "why": "S19: goserelin is an LHRHR super agonist used to downregulate LHRHR and sex hormone production.",
-   "cite": "S19",
+   "cite": "S19 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -698,7 +907,7 @@
     "A covalent bond to an irreversible ligand"
    ],
    "why": "S18: inverse agonism is often caused by receptors that have basal signaling activity with no agonist.",
-   "cite": "S18",
+   "cite": "S18 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -710,7 +919,7 @@
     "Ro15-4513 at the GABA receptor"
    ],
    "why": "S21: competitive antagonist (naloxone) raises EC50 and is overcome by more agonist. Ketamine lowers Emax; buprenorphine (partial agonist) caps the max; Ro15-4513 is an inverse agonist. NMDA = N-methyl-D-aspartate; GABA = gamma-aminobutyric acid.",
-   "cite": "S21",
+   "cite": "S21 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -722,7 +931,7 @@
     "Inverse agonist"
    ],
    "why": "S17: car boot = non-competitive antagonist binding an allosteric site; key blank = competitive antagonist.",
-   "cite": "S17",
+   "cite": "S17 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -734,7 +943,7 @@
     "Lowering the antagonist's off rate"
    ],
    "why": "S21: more agonist does not kick out the antagonist but competes for binding sites; ability depends partly on antagonist k-1.",
-   "cite": "S21",
+   "cite": "S21 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -746,7 +955,7 @@
     "An inverse agonist, reversing the effect"
    ],
    "why": "S22: an irreversible antagonist (actual or practical) looks non-competitive regardless of where it binds.",
-   "cite": "S22",
+   "cite": "S22 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -758,7 +967,7 @@
     "Irreversible inhibitor, koff ~1/s"
    ],
    "why": "S22: acetylcholine has low/sub-millisecond residence times (koff ~1000/s), the fastest off rate listed.",
-   "cite": "S22",
+   "cite": "S22 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -770,7 +979,7 @@
     "Inverse alpha agonism silences basal activity"
    ],
    "why": "S24: a non-competitive inhibitor should reduce maximum epinephrine response no matter the dose; phenoxybenzamine is an irreversible, non-competitive alpha-adrenergic inhibitor.",
-   "cite": "S23–S24",
+   "cite": "S23–S24 (slides only, not yet lectured)",
    "sure": true
   },
   {
@@ -784,6 +993,54 @@
    "why": "S8 lists three methods: disabled signaling (kinase + arrestin), membrane cycling, reduced expression. Inverse agonism is a ligand type (S18).",
    "cite": "S8",
    "sure": true
+  },
+  {
+   "stem": "Per lecture, why do Gs-coupled pathways use second messengers instead of a direct receptor effect?",
+   "ok": "To amplify, modulate, and integrate the incoming signal",
+   "bad": [
+    "To keep a strict one-to-one signal-to-effect ratio",
+    "To limit the effect to the receptor number present",
+    "To let the receptor itself act as a transcription factor"
+   ],
+   "why": "Second messengers expand a small signal (amplification), allow regulation (modulation), and let other signals merge (integration). Direct effect = 1:1, receptor-limited; steroid receptors act as transcription factors.",
+   "cite": "S4–S5; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A receptor is exposed to a sustained agonist. Which pairing of desensitization mechanism and time scale matches the lecture?",
+   "ok": "Arrestin binding blocks the receptor within seconds to minutes",
+   "bad": [
+    "Receptor internalization removes surface receptors within a few milliseconds",
+    "Reduced receptor expression lowers signaling within seconds to minutes",
+    "Receptor phosphorylation lowers signaling only over days to years"
+   ],
+   "why": "Phosphorylation and arrestin act within seconds–minutes; internalization and reduced expression take hours–days.",
+   "cite": "S8; transcript",
+   "sure": true
+  },
+  {
+   "stem": "On a semi-log dose-response plot, Drug B's curve sits to the LEFT of Drug A's with the same plateau. Which statement is correct?",
+   "ok": "Drug B is more potent, with a lower EC50",
+   "bad": [
+    "Drug B is more efficacious, with a higher Emax",
+    "Drug B is less potent, with a higher EC50",
+    "Drug B is more potent, with a higher EC50"
+   ],
+   "why": "Left shift = lower EC50 = more potent; same plateau = same Emax (efficacy). Up shift would mean more efficacious.",
+   "cite": "S13–S14; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A student reads an EC50 off a semi-log plot by tracing from half of Emax down to the x-axis. In what units should the answer be reported?",
+   "ok": "Concentration units, such as micromolar",
+   "bad": [
+    "Effect units, such as percent response",
+    "Rate units, such as per second",
+    "Time units, such as minutes"
+   ],
+   "why": "EC50 is the concentration giving half-maximal effect, so it always has concentration units.",
+   "cite": "S11, S14; transcript",
+   "sure": true
   }
  ],
  "flags": [
@@ -792,16 +1049,16 @@
    "S10 says Michaelis-Menten; S11–S14 equation boxes say \"Michaelis-Menton\" · Use the correct spelling Michaelis-Menten."
   ],
   [
-   "Michaelis-Menten applied to dose-response (OUTSIDE — confirm)",
-   "Slides use Effect = Emax[ligand]/(EC50+[ligand]) · Classically Michaelis-Menten is enzyme kinetics (velocity, Vmax, Michaelis constant Km); the slide adapts the same hyperbola to dose-response. Use the slide's Emax/EC50 version for the exam."
+   "CLOSED by transcript: Michaelis-Menten for receptors",
+   "Basel: Michaelis-Menten dynamics \"happen in receptor signaling pathways. They happen in enzyme pathways.\" Use the slide's Emax/EC50 version; \"I don't need you to do math\" (equation won't be repeated)."
   ],
   [
-   "Checked against slide image: S6 step multipliers",
-   "Image confirms: activated receptor → Gs ×100; adenylyl cyclase ATP → cAMP ×100; PKA → phosphorylase kinase ×10; phosphorylase kinase → glycogen phosphorylase ×10; glycogen → glucose-1-phosphate ×100 (no multiplier on cAMP → PKA); total ~100,000,000-fold. 'Other signals' enter at PKA, phosphorylase kinase, glycogen phosphorylase."
+   "Checked against slide image + transcript: S6 step multipliers",
+   "Image confirms: activated receptor → Gs ×100; adenylyl cyclase ATP → cAMP ×100; PKA → phosphorylase kinase ×10; phosphorylase kinase → glycogen phosphorylase ×10; glycogen → glucose-1-phosphate ×100 (no multiplier on cAMP → PKA); total ~100,000,000-fold. Transcript matches (groups cAMP → PKA without a multiplier; says \"glucose residues\" = glucose-1-phosphate). \"Other signals\" enter at PKA, phosphorylase kinase, glycogen phosphorylase."
   ],
   [
-   "S13 EC50 wording",
-   "S13 asks \"How much drug is needed to get to maximal effect?\" · S11 defines EC50 at ½ Emax. Use: EC50 = dose giving half-maximal effect."
+   "CLOSED by transcript: S13 EC50 wording",
+   "S13 asks \"How much drug is needed to get to maximal effect?\"; Basel defines EC50 as \"the effective concentration to get 50% of the maximal effect\" (S11) · use half-maximal."
   ],
   [
    "S19 heading vs drug list",
@@ -817,7 +1074,7 @@
   ],
   [
    "S22 practically irreversible koff overlaps morphine",
-   "Practically irreversible acetylcholine receptor inhibitor koff ~1/s–0.01/s overlaps morphine's ~0.01/s, which is reversible · \"Practically irreversible\" is relative to the endogenous ligand's speed (acetylcholine ~1000/s). Confirm with transcript."
+   "Practically irreversible acetylcholine receptor inhibitor koff ~1/s–0.01/s overlaps morphine's ~0.01/s, which is reversible · \"Practically irreversible\" is relative to the endogenous ligand's speed (acetylcholine ~1000/s). Not yet lectured — confirm when covered."
   ],
   [
    "Phenoxybenzamine binding site (OUTSIDE — confirm)",
@@ -828,12 +1085,32 @@
    "S24 asks why low-dose phenoxybenzamine shifts the curve right instead of depressing max · LC30 S26: there are spare alpha-adrenoceptors in many smooth muscles; low (tolerated) doses of the irreversible antagonist do not completely deplete the receptor reserve, so massive epinephrine can still cause hypertensive crisis. LC30 S27: the dose cannot just be raised because the therapeutic index is too small (full blockade is itself toxic)."
   ],
   [
-   "Checked against slide image: S9 timeline vs S7 terms",
-   "S9 figure (Pharmacol Rev 2013): G-protein signal (<~1 s) → phosphorylation by GRK → beta-arrestin-2 binding → endocytosis (~10 min–1 hr); bands read rapid desensitization (to ~10 min), short-term tolerance (~10 min–1 day), long-term tolerance (>1 day). S7 uses only two terms: desensitization (ms–min) vs tolerance (days–years) · Use S7's two-term framing; times on S9 are read approximately from the figure. Confirm with transcript."
+   "S9 timeline vs transcript time scales",
+   "S9 figure: G-protein signal (<~1 s) → GRK phosphorylation → beta-arrestin-2 → endocytosis (~10 min–1 hr). S7: desensitization (ms–min) vs tolerance (days–years). Transcript: phosphorylation + arrestin seconds–minutes; internalization/reduced expression hours–days; \"short term we call desensitization, long term we call tolerance\" · use S7 two-term framing; for endocytosis timing, S9 (slides win), but know Basel grouped it with hours–days."
   ],
   [
    "S24 citation typo",
    "\"Goodman & Gliman's\" should be Goodman & Gilman's · Cosmetic only."
+  ],
+  [
+   "S15–S24 not yet lectured",
+   "Lecture stopped at 11:47 after the Measurement objective. Agonist/antagonist types, reversible/irreversible, and the pheochromocytoma resolution (S15–S24) are slides only · study from slides; Basel said this gets \"more complicated\" Wednesday."
+  ],
+  [
+   "Insulin desensitization kinetics (Basel unsure)",
+   "Student question: Basel said he would have to look up insulin specifically; long-term receptor deactivation can lead toward type 2 diabetes · do not rely on specific insulin kinetics."
+  ],
+  [
+   "Transcript slip: \"give an agonist\" for pheochromocytoma",
+   "Student answered \"antagonist\"; Basel then says \"maybe we could give an agonist of some sort\" right after saying we want to BLOCK adrenoreceptors · use antagonist (block adrenoreceptors); resolution not yet lectured."
+  ],
+  [
+   "\"Alpha 3\" adrenoreceptor (OUTSIDE — confirm)",
+   "Transcript lists \"alpha 1s, alpha 2s, alpha 3s, beta 3s\" · standard pharmacology has α1, α2, β1, β2, β3 — no α3; likely a slip. Not on slides."
+  ],
+  [
+   "Transcript slip: adenylyl cyclase \"increase ATP\"",
+   "Basel says αs increases adenylyl cyclase rate \"and increase ATP\" · S6: adenylyl cyclase converts ATP → cAMP (↑ cAMP). Use S6."
   ]
  ]
 }

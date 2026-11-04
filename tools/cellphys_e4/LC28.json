@@ -3,7 +3,7 @@
  "prof": "Basel",
  "title": "Eicosanoids",
  "emoji": "🔥",
- "date": "Mon 10/26",
+ "date": "Mon 10/26 (kidney Mon 11/2)",
  "terms": [
   [
    "Eicosanoid",
@@ -73,8 +73,8 @@
   ],
   [
    "Prostaglandin-G/H synthase 2 (PTGS2) = cyclooxygenase-2 (COX-2)",
-   "★ INDUCIBLE (PAMPs/DAMPs trigger it). Soft-tissue inflammation/pain, endothelial PGI2, colon cancer prostaglandins; S7 also colors kidney and uterus.",
-   "S6, S7, S26; transcript",
+   "★ INDUCIBLE (PAMPs/DAMPs trigger it). Soft-tissue inflammation/pain, endothelial PGI2, colon cancer prostaglandins. Kidney macula densa expresses BOTH PTGS1 and PTGS2.",
+   "S6, S7, S26, S28; transcript",
    true
   ],
   [
@@ -103,8 +103,8 @@
   ],
   [
    "Prostaglandin E2 (PGE2)",
-   "Most versatile prostaglandin: gastric cytoprotection, inflammation/pain, colon cancer survival, afferent arteriole dilation in kidney.",
-   "S5, S7, S21, S28",
+   "Most versatile prostaglandin: gastric cytoprotection, inflammation/pain, colon cancer survival; kidney macula densa product that dilates the afferent arteriole and raises renin.",
+   "S5, S7, S21, S28; transcript",
    false
   ],
   [
@@ -121,8 +121,8 @@
   ],
   [
    "Prostacyclin = prostaglandin I2 (PGI2)",
-   "Endothelial (PTGS2) paracrine signal → Gs → cAMP → ↓ Ca2+: platelets rest, smooth muscle relaxes. Normally STRONGER than TxA2.",
-   "S7, S9, S26; transcript",
+   "Endothelial paracrine signal → Gs → cAMP → ↓ Ca2+: platelets rest, smooth muscle relaxes. Normally STRONGER than TxA2. Kidney: low O2 → PGI2 opens afferent.",
+   "S7, S9, S26, S28; transcript",
    false
   ],
   [
@@ -444,51 +444,111 @@
    false
   ],
   [
+   "Tubuloglomerular feedback",
+   "Systems tie-in: low tubular flow → low NaCl at macula densa → prostaglandin signal opens the afferent arteriole to restore flow and filtrate.",
+   "S28; transcript",
+   false
+  ],
+  [
+   "Endothelial PGI2 (kidney)",
+   "Low O2 (low blood flow) → endothelium makes prostacyclin (PGI2) → relaxes smooth muscle → opens afferent arteriole. Same as the clotting slide.",
+   "S28; transcript",
+   false
+  ],
+  [
+   "Macula densa PGE2 → Gs",
+   "PGE2 binds PGE2 receptors on afferent arteriole smooth muscle → Gs → cAMP → relaxation → afferent dilation.",
+   "S28; transcript",
+   false
+  ],
+  [
    "Afferent arteriole",
-   "Arteriole into the glomerulus; PGE2 dilates it to maintain glomerular perfusion.",
-   "S7, S28, S30 · slides only, not yet lectured",
+   "Arteriole into the glomerulus. Endothelial PGI2 and macula densa PGE2 relax its smooth muscle → opens → more glomerular blood flow and filtrate.",
+   "S7, S28, S30; transcript",
    false
   ],
   [
    "Efferent arteriole",
-   "Arteriole leaving the glomerulus; angiotensin II raises its resistance to support glomerular pressure.",
-   "S30 · slides only, not yet lectured",
+   "Arteriole leaving the glomerulus; angiotensin II constricts it especially. Open afferent + close efferent → ↑ filtration.",
+   "S30; transcript",
    false
   ],
   [
    "Macula densa",
-   "Tubule cells that sense low NaCl and make PGE2 (PTGS1/2), which stimulates renin exocytosis and dilates the afferent arteriole.",
-   "S28, S30 · slides only, not yet lectured",
+   "Cells of the distal convoluted tubule that sense low NaCl (low flow) → express BOTH PTGS1 and PTGS2 → make mainly PGE2.",
+   "S28, S30; transcript",
    false
   ],
   [
-   "Juxtaglomerular granular cells",
-   "Renin-containing cells; PGE2 stimulates renin exocytosis.",
-   "S28 · slides only, not yet lectured",
+   "Granular (juxtaglomerular) cells",
+   "Renin-secreting cells; macula densa PGE2 acts on them → ↑ renin secretion → starts RAAS.",
+   "S28; transcript",
    false
   ],
   [
-   "Renin → angiotensin II → aldosterone",
-   "Cascade triggered by macula densa PGE2; raises efferent resistance and Na+/H2O retention.",
-   "S30 · slides only, not yet lectured",
+   "Renin → angiotensin II → aldosterone + ADH",
+   "Renin starts RAAS; angiotensin II constricts (especially efferent), stimulates aldosterone and antidiuretic hormone (ADH) → ↑ volume and pressure.",
+   "S30; transcript",
+   false
+  ],
+  [
+   "Renin-angiotensin-aldosterone system (RAAS)",
+   "Renin cleaves angiotensinogen → angiotensin I → angiotensin-converting enzyme (ACE) → angiotensin II. Details next in Systems.",
+   "S30; transcript",
+   false
+  ],
+  [
+   "Antidiuretic hormone (ADH) = vasopressin",
+   "\"The hormone so nice we named it twice\"; angiotensin II stimulates its release (more in Systems).",
+   "transcript",
    false
   ],
   [
    "Glomerular filtration rate (GFR)",
-   "Filtration rate set by glomerular hydrostatic pressure; NSAIDs can lower it.",
-   "S30 · slides only, not yet lectured",
+   "Filtration rate set by glomerular hydrostatic pressure; NSAIDs lower it by letting the afferent arteriole constrict.",
+   "S30; transcript",
+   false
+  ],
+  [
+   "NSAIDs block both kidney prostaglandins",
+   "★ NSAID blocks endothelial PGI2 AND macula densa PGE2 → afferent tone ↑ (constricts) → ↓ renal blood flow and ↓ GFR.",
+   "S30; transcript",
+   true
+  ],
+  [
+   "Usual compensation",
+   "Most patients are fine: autoregulation and tubuloglomerular feedback handle the drop (\"How many of you have taken ibuprofen and have acute kidney failure?\").",
+   "S30; transcript",
    false
   ],
   [
    "Acute kidney injury (AKI)",
-   "Ischemic kidney damage NSAIDs/coxibs may cause in fragile patients.",
-   "S12, S29, S30 · slides only, not yet lectured",
+   "★ NSAID/coxib risk: afferent constricts → slower flow → vasa recta O2 plummets → medullary damage. Pharmacology: NSAIDs may cause AKI in dogs.",
+   "S12, S29, S30; transcript",
+   true
+  ],
+  [
+   "Peritubular capillaries / vasa recta",
+   "Capillaries after the glomerulus (vasa recta = medullary ones); already low O2, so slower flow makes medullary O2 plummet.",
+   "transcript",
    false
   ],
   [
    "At-risk patients for NSAID AKI",
-   "Hypovolemic, hypotensive, or on RAAS inhibitors (angiotensin-converting enzyme inhibitors or angiotensin receptor blockers).",
-   "S29, S30 · slides only, not yet lectured",
+   "★ DOGS, especially with kidney disease or pressure problems; hypovolemic; hypotensive; on RAAS inhibitors (ACE inhibitors/ARBs) = \"double stacking.\"",
+   "S29, S30; transcript",
+   true
+  ],
+  [
+   "\"Double stacking\"",
+   "Giving an NSAID to a patient already on a RAAS inhibitor: both disrupt the same afferent/efferent pathway.",
+   "S29; transcript",
+   false
+  ],
+  [
+   "Colon cancer PGE2 survival signal",
+   "Cancers upregulate PGE2 as a survival signal; an NSAID alone isn't strong enough but could sensitize colon cancer to other therapies.",
+   "S7; transcript",
    false
   ]
  ],
@@ -501,21 +561,23 @@
   "<b>Block COX-2 → TOWARD clotting</b> (coxib; lose endothelial PGI2). <b>Block COX-1 → AWAY from clotting</b> (low-dose aspirin; lose platelet TxA2). Aspirin = COX-1 <b>more</b> than COX-2 (transcript, S26).",
   "<b>Gut: PGE2 = AUTOCRINE survival</b> (same cell: don't die + mucus) · <b>LTB4 = PARACRINE damage</b> (neutrophils, chief cells, parietal cells). NSAID → shunt to 5-LOX → ↑ LTB4 (transcript, S21).",
   "<b>5-LOX = 5-lipoxyGENASE</b> (slides). Basel says \"5-leukotriene oxidase\" — write lipoxygenase (transcript vs S4/S6).",
-  "<b>COX-1 vs COX-2 home tissues (S7 box colors):</b> gastric mucosa and platelets (TxA2) = <b>COX-1</b>; joints/soft tissue, colon cancer, endothelium (PGI2), kidney, uterus = <b>COX-2</b>; airways = <b>5-LOX</b>. S28 draws kidney as <b>PTGS1/2</b>. Do not flip platelets and endothelium.",
+  "<b>COX-1 vs COX-2 home tissues (S7 box colors):</b> gastric mucosa and platelets (TxA2) = <b>COX-1</b>; joints/soft tissue, colon cancer, endothelium (PGI2), kidney, uterus = <b>COX-2</b>; airways = <b>5-LOX</b>. Kidney: S28 + transcript = macula densa expresses <b>BOTH</b> PTGS1 and PTGS2 (S7 green box is simplified). Do not flip platelets and endothelium.",
   "<b>TxA2 vs PGI2:</b> TxA2 (platelets) = aggregation + <b>vasoconstriction</b> via Gq; PGI2 (endothelium) = platelet resting + <b>vasodilation</b> via Gs/cAMP. Opposites.",
   "<b>Where each drug hits:</b> glucocorticoid → <b>phospholipase A2</b> (via annexin A1, blocks ALL branches incl. leukotrienes); NSAID → COX-1 + COX-2; coxib → COX-2 only. None of the three block 5-LOX directly.",
   "<b>Gq goes to phospholipase C, not adenylyl cyclase:</b> TPβ/EP1/FP → Gq → PLC → DAG + IP3 → Ca2+. Phospholipase <b>C</b> (signaling) vs phospholipase <b>A2</b> (synthesis) — do not swap.",
   "<b>Adverse effect pairing:</b> 1st-gen NSAID → <b>gastric ulcers</b>; coxib → <b>cardiovascular events</b>; BOTH → <b>AKI</b> risk in fragile patients; glucocorticoid → <b>immune suppression + catabolism</b>.",
-  "<b>Kidney arterioles:</b> PGE2 <b>dilates the afferent</b>; angiotensin II <b>constricts the efferent</b>. NSAIDs prevent afferent dilation AND (via ↓ renin) efferent contraction.",
+  "<b>Kidney arterioles:</b> prostaglandins (PGE2, PGI2) <b>dilate the afferent</b>; angiotensin II <b>constricts the efferent</b>. Open afferent + close efferent → ↑ filtration. NSAIDs → afferent <b>constricts</b> (S30; transcript).",
   "<b>Cardinal sign causes:</b> rubor = vasodilation; tumor = vascular <b>permeability</b>; calor = leukocyte activation (cytokines); dolor = nociception. Rubor and tumor are easy to swap.",
   "<b>Same word, different enzyme:</b> \"cytoprotection, anti-apoptotic\" appears for gastric mucosa (<b>COX-1</b>, PGE2 + PGI2) AND colon cancer (<b>COX-2</b>, PGE2).",
-  "<b>Do not memorize the receptor table — but know its Main Point:</b> different G protein couplings explain why one prostaglandin causes different effects in different tissues."
+  "<b>Do not memorize the receptor table — but know its Main Point:</b> different G protein couplings explain why one prostaglandin causes different effects in different tissues.",
+  "<b>Kidney sensors:</b> <b>endothelium</b> senses <b>low O2</b> → <b>PGI2</b>; <b>macula densa</b> (distal convoluted tubule cells) senses <b>low NaCl</b> → mainly <b>PGE2</b>. Low O₂ → I₂; low salt → E₂ (S28; transcript).",
+  "<b>NSAID AKI mechanism:</b> afferent <b>constricts</b> (loses dilators) → slower flow → <b>vasa recta / peritubular</b> O2 plummets → AKI. Not \"efferent dilates.\" Most healthy patients are fine; <b>dogs</b> are the sensitive population (transcript, S30)."
  ],
  "know": [
   {
    "title": "Eicosanoid functions by tissue",
    "slide": "S7",
-   "note": "Shown 7 times (S7, S14, S20, S22, S25, S27, S29). Box color = enzyme (brown PTGS1, green PTGS2, purple 5-LOX). Transcript: PTGS1 constitutive, PTGS2 inducible; kidney/uterus enzyme not said aloud.",
+   "note": "Shown 7 times (S7, S14, S20, S22, S25, S27, S29). Box color = enzyme (brown PTGS1, green PTGS2, purple 5-LOX). Transcript: PTGS1 constitutive, PTGS2 inducible; kidney macula densa expresses BOTH isoforms (Mon 11/2). Uterus enzyme not said aloud.",
    "headers": [
     "Tissue",
     "Enzyme",
@@ -561,9 +623,9 @@
     ],
     [
      "Kidney",
-     "PTGS2 (COX-2); S28 says PTGS1/2 (kidney not yet lectured)",
-     "PGE2",
-     "Dilation of afferent arteriole"
+     "PTGS1 + PTGS2 (macula densa expresses both; S7 green box simplified)",
+     "PGE2 (macula densa); PGI2 (endothelium, S28)",
+     "Dilation of afferent arteriole; PGE2 also ↑ renin"
     ],
     [
      "Uterus",
@@ -745,7 +807,7 @@
   {
    "title": "3 drug classes: target / mechanism / side effect / example",
    "slide": "S12, S15–S27",
-   "note": "Transcript answers the racehorse case: all three treat the pain; none fixes osteoarthritis. \"Side effects don't make a drug bad.\" AKI = S29–S30, slides only (not yet lectured).",
+   "note": "Transcript answers the racehorse case: all three treat the pain; none fixes osteoarthritis. \"Side effects don't make a drug bad.\" AKI = S29–S30, lectured Mon 11/2 (dogs = sensitive population).",
    "headers": [
     "Drug class",
     "Target",
@@ -765,15 +827,56 @@
      "1st-gen NSAID",
      "PTGS1 (COX-1) + PTGS2 (COX-2)",
      "↓ prostaglandins, prostacyclins, thromboxanes; AA shunted to 5-LOX → ↑ LTB4",
-     "Ulcers (horses: hindgut); AKI in fragile patients (slides only)",
+     "Ulcers (horses: hindgut); AKI in fragile patients",
      "Ibuprofen, naproxen, aspirin"
     ],
     [
      "Coxib (2nd-gen NSAID)",
      "PTGS2 (COX-2) only",
      "Spares gut PTGS1; loses endothelial PGI2 → platelet TxA2 unopposed",
-     "Clotting → adverse cardiovascular events (human: black box); AKI (slides only)",
+     "Clotting → adverse cardiovascular events (human: black box); AKI",
      "Firocoxib (only approved vet coxib)"
+    ]
+   ],
+   "hide": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "title": "Kidney prostaglandin sensors (lectured Mon 11/2)",
+   "slide": "S28, S30",
+   "note": "Transcript: ties to Systems tubuloglomerular feedback; RAAS next in Systems.",
+   "headers": [
+    "Sensor cell",
+    "Trigger",
+    "Enzyme",
+    "Main product",
+    "Target → effect"
+   ],
+   "rows": [
+    [
+     "Endothelium",
+     "Low O2 (low blood flow)",
+     "PTGS1/2",
+     "PGI2 (prostacyclin)",
+     "Afferent smooth muscle relaxes → afferent opens"
+    ],
+    [
+     "Macula densa (distal convoluted tubule cells)",
+     "Low [NaCl] (low tubular flow)",
+     "BOTH PTGS1 and PTGS2",
+     "Mainly PGE2",
+     "Afferent smooth muscle PGE2 receptor → Gs → dilation"
+    ],
+    [
+     "Macula densa (same PGE2)",
+     "Low [NaCl]",
+     "BOTH PTGS1 and PTGS2",
+     "Mainly PGE2",
+     "Granular (juxtaglomerular) cells → ↑ renin → RAAS → angiotensin II constricts efferent"
     ]
    ],
    "hide": [
@@ -883,26 +986,26 @@
   },
   {
    "stem": "A hypovolemic dog is given a non-steroidal anti-inflammatory drug (NSAID) and glomerular filtration rate drops. Which change contributes?",
-   "ok": "Loss of PGE2-driven afferent arteriole dilation",
+   "ok": "Loss of prostaglandin-driven afferent arteriole dilation",
    "bad": [
-    "Loss of PGE2-driven efferent arteriole dilation",
+    "Loss of prostaglandin-driven efferent arteriole dilation",
     "Excess TxA2-driven afferent arteriole constriction",
     "Excess angiotensin II-driven afferent arteriole dilation"
    ],
-   "why": "NSAIDs reduce macula densa and endothelial PGE2, preventing afferent dilation (and, via less renin, efferent contraction).",
-   "cite": "S12, S30 (slides only, not yet lectured)",
+   "why": "NSAIDs block endothelial PGI2 and macula densa PGE2, so the afferent arteriole constricts (and, via less renin, efferent contraction is lost) → ↓ GFR.",
+   "cite": "S12, S30; transcript",
    "sure": true
   },
   {
-   "stem": "Macula densa cells sense low NaCl and produce prostaglandin E2 (PGE2) via PTGS1/2. What does this PGE2 stimulate?",
+   "stem": "Macula densa cells sense low NaCl and produce prostaglandin E2 (PGE2) via PTGS1 and PTGS2. Besides dilating the afferent arteriole, what does this PGE2 stimulate?",
    "ok": "Renin exocytosis from juxtaglomerular granular cells",
    "bad": [
     "Aldosterone release from juxtaglomerular granular cells",
     "Angiotensin II release from macula densa cells",
     "Renin exocytosis from afferent arteriole endothelial cells"
    ],
-   "why": "Macula densa PGE2 stimulates renin exocytosis from the granular cells of the juxtaglomerular apparatus.",
-   "cite": "S28 (slides only, not yet lectured)",
+   "why": "Macula densa PGE2 acts on granular (juxtaglomerular) cells → ↑ renin secretion → RAAS (S28; transcript).",
+   "cite": "S28; transcript",
    "sure": true
   },
   {
@@ -916,8 +1019,8 @@
     "A patient with osteoarthritis only",
     "A healthy, well-hydrated patient"
    ],
-   "why": "Most healthy patients are fine; hypovolemic, hypotensive, or angiotensin-converting enzyme (ACE) inhibitor/angiotensin receptor blocker (ARB) patients are at risk.",
-   "cite": "S29, S30 (slides only, not yet lectured)",
+   "why": "Most healthy patients are fine; hypovolemic, hypotensive, or angiotensin-converting enzyme (ACE) inhibitor/angiotensin receptor blocker (ARB) patients are at risk (\"double stacking\"). Basel: dogs are a sensitive population.",
+   "cite": "S29, S30; transcript",
    "sure": true
   },
   {
@@ -976,8 +1079,8 @@
     "Only coxibs carry risk, because renal prostaglandins use COX-2 only",
     "Neither carries risk, because kidney perfusion depends on angiotensin only"
    ],
-   "why": "Kidney PGE2 is made by PTGS1/2, and the slide states NSAIDs and coxibs may both cause AKI in fragile patients.",
-   "cite": "S28, S29 (slides only, not yet lectured)",
+   "why": "Macula densa expresses BOTH PTGS1 and PTGS2 (transcript; S28), and S29 states NSAIDs and coxibs may both cause AKI in fragile patients.",
+   "cite": "S28, S29; transcript",
    "sure": true
   },
   {
@@ -1063,20 +1166,56 @@
    "why": "Glucocorticoids relieve pain but are catabolic in peripheral tissue, including cartilage, so the joint degrades further.",
    "cite": "S17; transcript",
    "sure": true
+  },
+  {
+   "stem": "A hypovolemic dog with chronic kidney disease receives a non-steroidal anti-inflammatory drug (NSAID) and develops acute kidney injury (AKI). Which sequence explains the medullary damage?",
+   "ok": "Afferent constriction slows flow, so vasa recta oxygen plummets",
+   "bad": [
+    "Efferent dilation slows flow, so vasa recta oxygen plummets",
+    "Afferent dilation raises pressure, so glomerular capillaries rupture",
+    "Efferent constriction slows outflow, so tubular sodium load rises sharply"
+   ],
+   "why": "Losing PGI2/PGE2 lets the afferent arteriole constrict; slower flow drops O2 in the already low-O2 peritubular capillaries/vasa recta → AKI.",
+   "cite": "S30; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Per lecture, which patient is at greatest risk of acute kidney injury (AKI) from a non-steroidal anti-inflammatory drug (NSAID)?",
+   "ok": "A hypotensive dog already taking an angiotensin-converting enzyme inhibitor",
+   "bad": [
+    "A healthy, well-hydrated person taking occasional ibuprofen tablets",
+    "A normotensive, well-hydrated horse with osteoarthritis and normal kidney function",
+    "A well-hydrated, normotensive cat receiving a single low dose"
+   ],
+   "why": "Dogs are the sensitive population, especially hypotensive/hypovolemic or on RAAS inhibitors (\"double stacking\"); most healthy patients compensate.",
+   "cite": "S29, S30; transcript",
+   "sure": true
+  },
+  {
+   "stem": "In the kidney, low oxygen and low tubular sodium chloride (NaCl) each trigger prostaglandin release. Which pairing of cell, trigger, and main product is correct?",
+   "ok": "Macula densa: low NaCl → mainly prostaglandin E2 (PGE2)",
+   "bad": [
+    "Macula densa: low oxygen → mainly prostaglandin I2 (PGI2)",
+    "Endothelium: low NaCl → mainly prostaglandin E2 (PGE2)",
+    "Endothelium: low oxygen → mainly thromboxane A2 (TxA2)"
+   ],
+   "why": "Endothelium senses low O2 → PGI2; macula densa senses low NaCl → mainly PGE2 (both isoforms). Both open the afferent arteriole.",
+   "cite": "S28; transcript",
+   "sure": true
   }
  ],
  "flags": [
   [
-   "Functions table enzymes (partly confirmed by transcript)",
-   "S7 color-codes every box: brown = PTGS1 (gastric mucosa, platelets), green = PTGS2 (joints, colon cancer, endothelium, kidney, uterus), purple = 5-LOX (airways). Transcript CONFIRMS gut + platelets = PTGS1 and soft tissue + endothelium = PTGS2; kidney and uterus enzymes were not said aloud · keep S7 colors; confirm kidney/uterus when kidney is lectured."
+   "Functions table enzymes (kidney now confirmed)",
+   "S7 color-codes every box: brown = PTGS1 (gastric mucosa, platelets), green = PTGS2 (joints, colon cancer, endothelium, kidney, uterus), purple = 5-LOX (airways). Transcript CONFIRMS gut + platelets = PTGS1, soft tissue + endothelium = PTGS2, and kidney macula densa = BOTH (Mon 11/2). Uterus enzyme not said aloud · keep S7 colors for uterus."
   ],
   [
-   "Kidney enzyme: COX-2 (S7) vs PTGS1/2 (S28) — not yet lectured",
-   "S7 colors the kidney box green (PTGS2); S28 labels both endothelial and macula densa synthesis PTGS1/2 · use PTGS1/2 for kidney mechanism (why both NSAIDs and coxibs risk AKI, S29)."
+   "CLOSED by transcript (Mon 11/2): kidney enzyme",
+   "Macula densa \"can express both isoforms\" (PTGS1 and PTGS2) — consistent with S28 PTGS1/2; the S7 green (PTGS2) kidney box is a simplification · use BOTH for kidney (why NSAIDs and coxibs both risk AKI, S29)."
   ],
   [
-   "Kidney endothelium: PGI2 vs PGE2 — not yet lectured",
-   "Checked against slide image: S28 endothelium makes PGI2 (low O2 → PTGS1/2 → PGI2), but its red arrow lands on a receptor labeled PGE2R; macula densa PGE2 also arrows to that PGE2R. S12, S30, and S7 say PGE2 · use PGE2 for kidney; know endothelium is drawn as PGI2."
+   "CLOSED by transcript (Mon 11/2): kidney PGI2 vs PGE2",
+   "Endothelium makes PGI2 (low O2 → relaxes smooth muscle → opens afferent); macula densa makes mainly PGE2 (low NaCl → Gs on afferent smooth muscle PGE2 receptors; also ↑ renin). S28 drawing both arrows into one PGE2R is a simplification · use: endothelium = PGI2, macula densa = PGE2."
   ],
   [
    "Uterus panel dropped on S22, S27, S29",
@@ -1115,8 +1254,8 @@
    "Checked against slide image: ↓ arterial pressure → ↓ glomerular hydrostatic pressure → ↓ GFR (plus ↑ NaCl reabsorption) → ↓ macula densa NaCl → PGE2 → ↑ renin → ↑ angiotensin II → ↑ efferent resistance (and ↑ aldosterone → ↑ Na+/H2O retention → ↑ arterial pressure); PGE2 also → ↓ afferent resistance. NSAID blocks both PGE2 arrows. Nothing left in doubt."
   ],
   [
-   "Kidney section S28–S30 not yet lectured",
-   "Lecture ended at 11:50 after the coxib/aspirin section (S26–S27). All kidney content is slides only · study from slides; verify when Basel covers it."
+   "CLOSED by transcript (Mon 11/2): kidney section S28–S30 lectured",
+   "Basel finished LC28 at the start of Mon 11/2 class (before LC29), tying it to Systems tubuloglomerular feedback; RAAS comes next in Systems · all kidney content is now slides + transcript."
   ],
   [
    "5-LOX name: \"oxidase\" vs lipoxygenase",
@@ -1129,6 +1268,18 @@
   [
    "Coxib slip in transcript",
    "Basel says coxibs \"very selectively block BTGS1,\" seconds after saying they block PTGS2 · slides (S23) and the rest of the lecture say PTGS2 — use PTGS2."
+  ],
+  [
+   "Transcript slip: \"afferent contraction\"",
+   "Basel reads S30 as \"prevents both afferent dilation and afferent contraction\" · S30 says afferent dilation and EFFERENT contraction — use S30."
+  ],
+  [
+   "RAAS garbled / self-corrected in transcript",
+   "Transcript garbles the cascade (\"cleaves angiotensinogen 2, angiotensin 1 ... ACE 22\") and corrects himself: angiotensin II constricts (especially efferent), stimulates aldosterone, and ADH release (aldosterone/ADH \"not taught yet\") · use angiotensinogen → angiotensin I → ACE → angiotensin II; details belong to Systems."
+  ],
+  [
+   "Pharmacology professor name unconfirmed",
+   "Transcript: \"Doctor Kukanne\" (pharmacology next year) will teach that NSAIDs may cause AKI in dogs · spelling unconfirmed; the fact is what matters."
   ]
  ]
 }
