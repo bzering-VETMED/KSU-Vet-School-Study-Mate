@@ -5,10 +5,11 @@ V = str(int(time.time()))
 TILES = [  # (emoji, href, title, blurb)
     ("⚡", "gross-anatomy-lc26-cards.html", "L26 Terms", "Pelvic Limb Vessels & Nerves · 105 terms · ★ 48 · slides + lecture 10/26 · exam signals, scope, traps"),
     ("🧭", "gross-anatomy-l26-trace.html", "L26 Trace It", "Arteries aorta → paw, deep + superficial veins, lymph nodes, lumbosacral plexus, testing sites · names pop up in order"),
+    ("⚡", "gross-anatomy-lc28-cards.html", "L28 Terms", "Digestive Components of the Head 1 · 104 terms · ★ 50 · transcript only (slides pending) · oral cavity, palate, tongue, salivary glands"),
 ]
 LECTURES = [  # from the Canvas lecture schedule
     ("Mon 10/26", "L26", "Pelvic limb vessels & nerves", "Dr. Malreddy", "built (slides + transcript)"),
-    ("Mon 11/2", "L28", "Digestive components of head 1", "Dr. Diehl", ""),
+    ("Mon 11/2", "L28", "Digestive components of head 1", "Dr. Diehl", "built (transcript)"),
     ("Wed 11/4", "L30", "Eye", "Dr. Malreddy", ""),
     ("Thu 11/5", "L29", "Digestive components of head 2", "Dr. Diehl", ""),
     ("Mon 11/9", "L31", "Ear", "Dr. Malreddy", ""),
