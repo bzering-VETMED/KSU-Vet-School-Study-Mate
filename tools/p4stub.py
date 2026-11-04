@@ -9,7 +9,10 @@ lab=int(sys.argv[1]); title=sys.argv[2]; V=str(int(time.time()))
 tf=f'gross-anatomy-lab{lab}-terms.html'
 pg,n,s=TP.build(f'LAB{lab}',tf,f'Lab {lab} Bold Terms · definition → name it',V,f'gross-anatomy-lab{lab}-images.html')
 open(tf,'w').write(pg.replace('← Back to Exam 4','← Back to Lab hub'))
-B.two_area_hub(lab,title,'Two decks once photos arrive. Definitions page below. 🐾',[],[])
+best=[]
+if lab==28:
+    import p4skull; best=p4skull.build()
+B.two_area_hub(lab,title,'Your lab photos + definitions page. 🐾' if best else 'Two decks once photos arrive. Definitions page below. 🐾',best,[],'📷 your skull-model photos · labels by Claude' if best else '')
 print(lab,n,'terms')
 h=open(f'gross-anatomy-lab{lab}-images.html').read()
 h=h.replace('</div></body></html>',f'<!--fn--><div class="sec terms" style="padding:8px 14px"><p style="margin:4px 0 0">📄 Study pages (no photos)</p><a href="{tf}?v={V}">⚡ Bold-term definitions page<span>{n} terms</span></a></div><!--/fn--></div></body></html>',1)
