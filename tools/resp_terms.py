@@ -654,9 +654,11 @@ links+=f'<a class="tile" href="systems-lec3-plain.html?v={V}"><div class="emoji"
 hub(E3,'🫁 Systems I · Lecture Exam 3','🫁 Lecture Exam 3','Respiratory · Fri 11/6, 8 AM · LC37–50 · Basel 14 pts / Poole 84 pts',HUB,'Back to Lecture',links)
 # old combined index → just forwards to the Exam 3 hub (keeps old bookmarks working)
 open(FS,'w').write(f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url={E3}?v={V}"><a href="{E3}?v={V}">Exam 3</a>')
-# Systems Lecture hub: just the exam folders
+# Systems Lecture hub: just the exam folders (keep the newer Exam 4 tile from tools/sys_lec4_terms.py if present)
+_k4=re.search(r'<a class="tile" href="systems-lec-exam4\.html[^"]*">.*?</a>',open(HUB).read(),re.S) if os.path.exists(HUB) else None
 hub(HUB,'📖 Veterinary Systems I · Lecture','📖 Veterinary Systems I · Lecture','Pick an exam',
     'veterinary-systems.html','Back',
+    (_k4.group(0) if _k4 else '')+
     f'<a class="tile" href="{E3}?v={V}"><div class="emoji">🫁</div><h2>Exam 3 · Respiratory</h2><p>Fri 11/6 · LC37–50 · {total} terms so far · ⭐ current</p></a>'
     f'<a class="tile" href="{E2}?v={V}"><div class="emoji">✅</div><h2>Exam 2</h2><p>Fri 10/16 · Lectures 19–37 + Musch · old exams, practice exams, ECG cards</p></a>')
 # cache-bust links into the hub + service worker
