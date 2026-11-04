@@ -1,6 +1,6 @@
 {
  "traps": [
-  "📄 Built from the LECTURE TRANSCRIPT only (Dr. Diehl, Mon 11/2). Slides not uploaded yet — slides win any disagreement; slide numbers get added when the deck arrives.",
+  "📄 Slides (41) + lecture transcript (Mon 11/2) woven together. Slide numbers in (slide N).",
   "✏️ CORRECTED in lecture: GENIOGLOSSUS action = PROTRUSION of the tongue (cross out the slide's action).",
   "✏️ Slide error: 'glossa' is GREEK (lingua = Latin). She doesn't care which language — know the MEANINGS.",
   "Vestibule = OUTSIDE the teeth (rostral + lateral) · Oral cavity proper = INSIDE the teeth (tongue's space).",
@@ -16,8 +16,11 @@
   "Tongue nerves: lingual n. = general sensation rostral 2/3 · chorda tympani = TASTE rostral 2/3 · glossopharyngeal (IX) = taste caudal 1/3 · hypoglossal (XII) = the ONLY motor.",
   "Parotid duct AND zygomatic duct → BUCCAL vestibule (zygomatic ~1 cm caudal) · Mandibular duct → SUBLINGUAL CARUNCLE.",
   "Arteries BRANCH, veins MERGE — say venous names in drainage order.",
-  "⚠️ FLAG — monostomatic vs polystomatic: lecture paired 'major = monostomatic (one duct)' and 'minor = polystomatic (many ducts)' while describing the sublingual gland, which has both parts. Safe answer: monostomatic = one duct, polystomatic = many ducts. Check the slide wording.",
-  "⚠️ FLAG — linguofacial vein: lecture once says facial + SUBlingual meet to form it, then summarizes facial + LINGUAL. Use facial + lingual = linguofacial (sublingual drains into lingual). Confirm on the slide."
+  "✅ CLOSED — linguofacial v. (slide 33 flow chart): sublingual → lingual; LINGUAL + FACIAL → linguofacial; linguofacial + maxillary → external jugular.",
+  "✅ CLOSED — mono/polystomatic (slide 39): the SUBLINGUAL gland has a MAJOR (monostomatic, one duct → sublingual caruncle, shares capsule with mandibular) part and a MINOR (polystomatic, many lobules, many ducts) part.",
+  "Minor palatine n. = sensory to the SOFT palate · Major palatine n. = sensory to the HARD palate (slide 17).",
+  "⚠️ FLAG — slide 31 copies the styloglossus action onto the genioglossus. Dr. Diehl: genioglossus = PROTRUSION. Use protrusion.",
+  "Hyoglossus (slide 29–30): RETRACTS + depresses the tongue (transcript only said depress)."
  ],
  "sections": [
   {
@@ -78,7 +81,7 @@
    "items": [
     {
      "q": "Oral cavity extends from… to…",
-     "a": "Lips (rostral) to the pharynx (caudal)",
+     "a": "Lips (rostral) to the pharynx (caudal) (slides 3–4)",
      "star": false,
      "why": ""
     },
@@ -108,13 +111,13 @@
     },
     {
      "q": "Labial vestibule?",
-     "a": "Rostral: between the incisor teeth and the lips",
+     "a": "Rostral: between the lips and the (incisor) teeth (slide 6)",
      "star": true,
      "why": "Labial = lips"
     },
     {
      "q": "Buccal vestibule?",
-     "a": "Lateral: between the teeth and the cheeks",
+     "a": "Lateral: between the cheeks and the teeth (slide 6)",
      "star": true,
      "why": "Buccal = cheek"
     },
@@ -132,7 +135,7 @@
     },
     {
      "q": "Dorsal border of the oral cavity proper?",
-     "a": "Hard palate",
+     "a": "Hard palate (slide 7)",
      "star": true,
      "why": "Borders list"
     },
@@ -144,7 +147,7 @@
     },
     {
      "q": "Rostral + lateral borders of the oral cavity proper?",
-     "a": "The teeth (U-shaped arcade)",
+     "a": "Dental arcade (teeth) (slide 7)",
      "star": false,
      "why": ""
     },
@@ -153,6 +156,12 @@
      "a": "Buccal vestibule (a bone medial to the teeth = oral cavity proper)",
      "star": true,
      "why": "Clinical application slide"
+    },
+    {
+     "q": "Structures numbered on slide 3 (oral cavity view)?",
+     "a": "Vestibule, canine tooth, philtrum, hard palate, soft palate, tongue, sublingual caruncle, palatoglossal arch, palatine tonsil, frenulum",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -167,13 +176,13 @@
     },
     {
      "q": "Three bones forming the hard palate?",
-     "a": "Incisive, maxilla (maxillary), palatine",
+     "a": "Palatine process of the maxilla + incisive bones + horizontal plate of the palatine bone (slide 9)",
      "star": true,
      "why": "'Main thing is that it's formed by 3 bones'"
     },
     {
      "q": "Transverse ridges of the hard palate mucosa?",
-     "a": "Rugae",
+     "a": "Rugae — 8–10 transverse ridges on the oral side (slide 9)",
      "star": false,
      "why": ""
     },
@@ -191,13 +200,13 @@
     },
     {
      "q": "Median palatine raphe?",
-     "a": "Midline seam dividing the hard palate into left and right halves (#3)",
+     "a": "Midline seam dividing the hard palate into two symmetrical halves; less distinct in dogs (slide 11)",
      "star": false,
      "why": ""
     },
     {
      "q": "Incisive papilla?",
-     "a": "Bump just caudal to the incisor teeth (#2)",
+     "a": "Small median swelling caudal to the upper central incisors (slide 11)",
      "star": false,
      "why": ""
     },
@@ -221,7 +230,7 @@
     },
     {
      "q": "Vomeronasal organ function?",
-     "a": "Detecting pheromones; lined with olfactory receptor cells",
+     "a": "Sexual behavior + kin recognition via pheromones; lined with olfactory receptor cells (slides 12–13)",
      "star": true,
      "why": "Function slide"
     },
@@ -274,19 +283,19 @@
     },
     {
      "q": "Tensor veli palatini action?",
-     "a": "Tenses the soft palate",
+     "a": "Tenses the soft palate (slide 16)",
      "star": true,
      "why": "Know actions (not in lab)"
     },
     {
      "q": "Levator veli palatini action?",
-     "a": "Raises the soft palate",
+     "a": "Raises the soft palate (slide 16)",
      "star": true,
      "why": "Know actions (not in lab)"
     },
     {
      "q": "Palatinus action?",
-     "a": "Shortens the soft palate",
+     "a": "Shortens the soft palate — slide calls it 'palatine muscle' (slide 16)",
      "star": true,
      "why": "Know actions (not in lab)"
     }
@@ -309,9 +318,9 @@
     },
     {
      "q": "Major + minor palatine nerves come from… and supply…",
-     "a": "Maxillary n. (V2) → sensation to the hard + soft palate",
-     "star": false,
-     "why": ""
+     "a": "Maxillary n. (V2): MINOR palatine → soft palate; MAJOR palatine → hard palate (slide 17)",
+     "star": true,
+     "why": "Slide 17 splits them — likely tested"
     },
     {
      "q": "Nerve to the tensor veli palatini comes from…",
@@ -340,6 +349,12 @@
     {
      "q": "Ganglion closely associated with the maxillary n.?",
      "a": "Pterygopalatine ganglion (minor palatine n. appears to leave near it)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other nerves labeled with the maxillary n. on slide 18?",
+     "a": "Pterygopalatine ganglion + nerve, nerve of the pterygoid canal, infraorbital n., caudal nasal n., accessory palatine n.",
      "star": false,
      "why": ""
     }
@@ -386,7 +401,7 @@
     },
     {
      "q": "Common trunk from the maxillary a. gives…",
-     "a": "Major palatine a. (ventral) + sphenopalatine a. (dorsal)",
+     "a": "Major palatine a. (ventral) + sphenopalatine a. (dorsal) (slide 19)",
      "star": false,
      "why": ""
     },
@@ -413,6 +428,12 @@
      "a": "Choanae = caudal openings of the nasal cavity; conchae = bony scrolls in the nasal cavity",
      "star": true,
      "why": "Called out as look-alikes"
+    },
+    {
+     "q": "Other branches labeled on the palate artery slide (slide 19)?",
+     "a": "Infraorbital → dorsal nasal + lateral nasal aa.; rami of the major palatine aa. run rostrally on the palate",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -445,7 +466,7 @@
     },
     {
      "q": "Lyssa?",
-     "a": "Fibrous cord with fat + muscle on the ventral apex; stiffens the apex for lapping water",
+     "a": "Fibrous cord with fat + muscle on the ventral apex; stiffens the apex for lapping water (slides 20, 22)",
      "star": true,
      "why": "Named structure"
     },
@@ -484,6 +505,12 @@
      "a": "Sides of the tongue (leaf-like)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Structures numbered on the tongue figure (slide 20)?",
+     "a": "Apex, body, root (floor of the oropharynx), median groove, vallate papillae, fungiform papillae, palatoglossal arch, palatine tonsil in the tonsillar fossa, epiglottis, frenulum",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -504,25 +531,25 @@
     },
     {
      "q": "Styloglossus — origin and action?",
-     "a": "Stylohyoid bone; shortens the tongue + pulls its mid portion laterally",
+     "a": "Stylohyoid bone → middle portion of the tongue; shortens the tongue, elevates the apex, pulls the mid portion laterally (slide 28)",
      "star": true,
      "why": "Named extrinsic muscle"
     },
     {
      "q": "Hyoglossus — origin and action?",
-     "a": "Basihyoid bone; depresses the tongue (pulls it ventrally)",
+     "a": "Basihyoid bone → caudal 2/3 of the tongue; RETRACTS + depresses the tongue (slides 29–30)",
      "star": true,
      "why": "Named extrinsic muscle"
     },
     {
      "q": "Hyoglossus relationships?",
-     "a": "Lingual a. medial (deep) · hypoglossal n. lateral (runs across it)",
+     "a": "Passes between the lingual a. (deep/medial) and the hypoglossal n. (superficial/lateral) (slides 29–30)",
      "star": true,
      "why": "Lab orientation"
     },
     {
      "q": "Genioglossus — origin and action?",
-     "a": "Mandibular symphysis (chin); PROTRUSION of the tongue",
+     "a": "Mandibular symphysis (chin) → ventral surface of the tongue; PROTRUSION of the tongue (slide 31 action is wrong)",
      "star": true,
      "why": "Action corrected in lecture"
     },
@@ -575,13 +602,13 @@
     },
     {
      "q": "Facial v. + lingual v. form…",
-     "a": "Linguofacial v.",
+     "a": "Linguofacial v. (slide 33)",
      "star": true,
      "why": "Drainage chain"
     },
     {
      "q": "Linguofacial v. + maxillary v. form…",
-     "a": "External jugular v.",
+     "a": "External jugular v. (slide 33)",
      "star": true,
      "why": "Drainage chain endpoint"
     },
@@ -590,6 +617,12 @@
      "a": "Angularis oculi + dorsal nasal → facial; sublingual → lingual; facial + lingual → linguofacial; linguofacial + maxillary → external jugular",
      "star": true,
      "why": "Drawn step by step on the slide"
+    },
+    {
+     "q": "Branches labeled on the lingual a. (slide 32)?",
+     "a": "Hyoid branch + tonsillar a.",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -627,19 +660,19 @@
    "items": [
     {
      "q": "Major salivary glands?",
-     "a": "Parotid, mandibular, sublingual — most saliva, long ducts",
+     "a": "Parotid, mandibular, sublingual — serous secretion, most saliva, longer ducts (slide 35)",
      "star": true,
      "why": "'Focus on the major'"
     },
     {
      "q": "Minor salivary glands?",
-     "a": "Zygomatic, buccal — more mucous secretions; studied less",
+     "a": "Zygomatic, buccal — mucous secretion, shorter ducts; studied less (slide 35)",
      "star": false,
      "why": ""
     },
     {
      "q": "Parotid gland location (every species)?",
-     "a": "Ventral to the ear; inverted triangle",
+     "a": "Paired, triangular, mixed gland ventral to the auricular cartilage (ear) (slide 37)",
      "star": true,
      "why": "'In every species'"
     },
@@ -651,19 +684,19 @@
     },
     {
      "q": "Parotid duct opens where?",
-     "a": "Buccal vestibule, opposite upper premolar 4 (after crossing the cheek)",
+     "a": "Buccal vestibule opposite upper premolar 4 (parotid papilla) (slide 37)",
      "star": true,
      "why": "Duct opening"
     },
     {
      "q": "Mandibular gland location?",
-     "a": "Round gland ventral to the parotid, between the maxillary and linguofacial veins (already seen in lab)",
+     "a": "Paired, ovoid, mixed; between the maxillary and linguofacial veins, caudal to the mandible (slide 38)",
      "star": false,
      "why": ""
     },
     {
      "q": "Mandibular gland shares a capsule with…",
-     "a": "Sublingual salivary gland",
+     "a": "MAJOR (monostomatic) sublingual gland (slides 38–39)",
      "star": false,
      "why": ""
     },
@@ -681,21 +714,39 @@
     },
     {
      "q": "Monostomatic vs polystomatic?",
-     "a": "Monostomatic = one duct; polystomatic = many ducts (sublingual gland has both parts)",
+     "a": "Major sublingual = monostomatic (one duct → sublingual caruncle); minor sublingual = polystomatic (many small lobules, many ducts into the oral cavity) (slide 39)",
      "star": true,
      "why": "Defined in lecture — see flag"
     },
     {
      "q": "Zygomatic gland location?",
-     "a": "Ventral to the orbit, under the zygomatic arch (cut the arch to see it)",
+     "a": "Medial to the rostral end of the zygomatic arch, ventral to the periorbita, lateral to the medial pterygoid m. (slide 40)",
      "star": false,
      "why": ""
     },
     {
      "q": "Zygomatic duct opens where?",
-     "a": "Buccal vestibule, about 1 cm caudal to the parotid duct opening",
+     "a": "Buccal vestibule, 1 cm caudal to the parotid papilla (slide 40)",
      "star": true,
      "why": "Duct opening"
+    },
+    {
+     "q": "Mandibular gland neighbors (slide 38)?",
+     "a": "Digastricus m., medial retropharyngeal lymph node, hypoglossal n., external carotid a.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Order of the 4 salivary glands numbered on slide 36?",
+     "a": "1 parotid, 2 mandibular, 3 sublingual, 4 zygomatic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Zygomatic gland is the dog's version of…",
+     "a": "Dorsal buccal glands (slide 39 legend)",
+     "star": false,
+     "why": ""
     }
    ]
   }
