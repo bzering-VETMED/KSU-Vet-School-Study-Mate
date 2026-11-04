@@ -27,3 +27,4 @@
 - **Every bold term gets its OWN ⭐ card (Bethany, Nov 3)** — `p4umn.per_term()`: one card per bold term in list order ('Name #7' on the best UMN photo, else that term's school highlight slide, else a concept card). Multi-number UMN cards + all other photos → 📚 Extra.
 - ⭐ decks = real cadaver photos only: UMN corrosion casts (p4umn.CASTS) go to 📚 Extra.
 - Update (Bethany, Nov 3 later): ⭐ = UMN cadaver photos with ALL bold numbers answered on ONE card (`p4umn.merge`, casts excluded) + school slides only for uncovered terms. `per_term()` kept but unused.
+- sw.js: network-first with cache:'no-cache' (bypasses the phone's 10-min GitHub Pages cache); every page registers it (updateViaCache none).

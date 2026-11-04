@@ -190,7 +190,7 @@ def two_area_hub(lab,title,sub,best,extra,best_note='',practical=4):
         f'<div style="{big};background:#c9b6d9">⭐ Bold terms<span style="display:block;font-size:14px;font-weight:700">Photos coming — send UMN screenshots or the lab slides</span></div>')
     if extra: h+=f'<a href="{xf}?v={V}" style="{big};background:linear-gradient(135deg,#8855b8,#df78ad)">📚 Extra bold-term photos<span style="display:block;font-size:14px;font-weight:700;opacity:.92">{len(extra)} cards · school photos + other angles</span></a>'
     h+=f'<details class="sec chk"><summary>✅ Checklist · {got}/{len(order)} bold terms have a photo</summary><div class="tw"><table>{rows}</table></div></details>'
-    open(hub,'w').write(h+'</div></body></html>')
+    open(hub,'w').write(h+'</div><script>if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js",{updateViaCache:"none"}).then(r=>r.update()).catch(()=>{})</script></body></html>')
     return got
 
 if __name__=='__main__':
