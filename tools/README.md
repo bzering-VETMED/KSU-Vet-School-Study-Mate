@@ -30,3 +30,4 @@
 - sw.js: network-first with cache:'no-cache' (bypasses the phone's 10-min GitHub Pages cache); every page registers it (updateViaCache none).
 - **Clean look (Bethany, Nov 3): NO precision-traps boxes, source-disagreement/flag boxes, legends or ★-reason lines on any page.** Builders no longer emit them; run `python3 tools/clean.py` after any build as a safety net.
 - `p4skull.py`: Lab 28 📷 Bethany's skull-model photos (tools/skull_src_p4) → numbered cards (bones + big landmarks, Claude's labels). Built by `p4stub.py 28`.
+- `p4guide.py`: lab-guide figures from the Notes PDFs → numbered 📖 diagram cards (guidefigs.run/render; only bold-term labels get numbers). `fill()` puts a diagram in ⭐ only if it adds a bold term no photo shows. Wired into `p4stub.py` (Labs 28, 29).
