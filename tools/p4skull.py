@@ -14,6 +14,8 @@ SPEC=[
  ('8550','Caudal (back) view',(200,100,1260,1180),[(470,600,'Parietal bone'),(725,600,'External sagittal crest'),(700,170,'Frontal bone'),(250,620,'Zygomatic arch'),(330,820,'Zygomatic process (temporal bone)')]),
  ('8557','Ventral view (hard palate)',(150,140,1260,2000),[(688,515,'Palatine fissure'),(735,370,'Incisive bone'),(620,870,'Hard palate'),(470,470,'Canine tooth'),(640,215,'Incisor teeth'),(470,830,'Premolars'),(320,1180,'Superior shearing tooth (upper fourth premolar)'),(430,1330,'Molars'),(240,1520,'Zygomatic arch')]),
  ('8556','Ventral view, caudal skull',(160,0,1360,1650),[(470,1040,'Tympanic bulla'),(720,500,'Choanae'),(640,230,'Hard palate'),(355,600,'Zygomatic arch'),(700,1250,'Occipital bone')]),
+
+ ('sag1','Real skull, sagittal section (medial view, nose to the right)',(0,560,1512,1520),[(1250,850,'Frontal sinus'),(1215,1185,'Cribriform plate'),(300,1060,'Tentorium osseum'),(540,1215,'Petrous part (temporal bone)')]),
 ]
 def build():
     out=[]; font=ImageFont.truetype(FONT,52)
