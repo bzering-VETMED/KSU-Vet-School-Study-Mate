@@ -26,3 +26,4 @@
 - `swipe.js` (root): swipe left = reveal answer, then next card; swipe right = previous card. Injected into every deck page (anything with #skip); deck.py template includes it. Ignores pinch-zoom + vertical scroll.
 - **Every bold term gets its OWN ⭐ card (Bethany, Nov 3)** — `p4umn.per_term()`: one card per bold term in list order ('Name #7' on the best UMN photo, else that term's school highlight slide, else a concept card). Multi-number UMN cards + all other photos → 📚 Extra.
 - ⭐ decks = real cadaver photos only: UMN corrosion casts (p4umn.CASTS) go to 📚 Extra.
+- Update (Bethany, Nov 3 later): ⭐ = UMN cadaver photos with ALL bold numbers answered on ONE card (`p4umn.merge`, casts excluded) + school slides only for uncovered terms. `per_term()` kept but unused.

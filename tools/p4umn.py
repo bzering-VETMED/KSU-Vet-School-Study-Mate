@@ -64,20 +64,22 @@ def cards_for(lab):
         vterms=[t for t in view if t in [x for x,_,_ in P4BOLD[lab]]]
         if not bold and not vterms: continue
         img=crop(img_id,captop)
-        nums=', '.join('#'+n if n[0].isdigit() else n for n,_,_ in bold)
+        LBL=lambda n:'#'+n if n[0].isdigit() else ('the asterisk (*)' if n=='*' else 'the unnumbered arrow')
+        nums=', '.join(LBL(n) for n,_,_ in bold)
         q=(f'Which region/plexus is this? Then name {nums}' if vterms and bold else f'Name {nums}' if bold else 'Which region/plexus is this?')
         nm=''.join(f'<div class="nm">{E(v[0].upper()+v[1:])}</div>' for v in vterms)
         nm+=''.join(f'<div class="nm">{"#"+n if n[0].isdigit() else n} · {E(name)}</div>' for n,name,_ in bold)
         facts=[('Also labeled (not your bold terms):',' · '.join(f'{"#"+n if n[0].isdigit() else n} {name}' for n,name,_ in other))] if other else []
         terms=vterms+[t for _,_,ts in bold for t in ts]
-        out.append(dict(name=' | '.join(name for _,name,_ in bold) or vterms[0],terms=list(dict.fromkeys(terms)),umn=True,
+        out.append(dict(name=' | '.join(name for _,name,_ in bold) or vterms[0],terms=list(dict.fromkeys(terms)),umn=True,cast=img_id in CASTS,
             html=B.card(q,f'🌐 UMN · {src}',img,nm,facts)))
     return out
 
 def merge(lab,school,extra):
-    """UMN first; a school card stays in ⭐ only if it shows a bold term no UMN photo covers; the rest → 📚 extra."""
-    umn=cards_for(lab); covered={t for c in umn for t in c['terms']}
-    best=list(umn); moved=[]
+    """Bethany (Nov 3): UMN CADAVER photos with ALL their numbers answered on one card (no casts in ⭐); a school card stays in ⭐ only if it shows a bold term no UMN photo covers; the rest → 📚 extra."""
+    allu=cards_for(lab); umn=[c for c in allu if not c['cast']]; casts=[c for c in allu if c['cast']]
+    covered={t for c in umn for t in c['terms']}
+    best=list(umn); moved=list(casts)
     for c in school:
         (best if (not c['terms'] or set(c['terms'])-covered) else moved).append(c)
     return best,moved+extra,len(umn)
