@@ -33,6 +33,7 @@ SPEC=[
  ('4926','UMN Lab 21 · sciatic division (cat)',1091,{'1':'Biceps femoris muscle (reflected)','2':'Sciatic nerve','3':'Branches of the sciatic nerve to the hamstrings','4':'Common fibular nerve','5':'Tibial nerve','6':'Soleus + lateral head of the gastrocnemius (reflected)','7':'Tibial nerve branches to the caudal crus muscles','8':'Quadriceps femoris muscle','9':'Adductor muscle','10':'Semimembranosus muscle','11':'Semitendinosus muscle','12':'Popliteal artery'},[]),
  ('4927','UMN Lab 21 · caudal thigh (dog)',798,{'1':'Biceps femoris muscle (reflected)','2':'Semitendinosus muscle (reflected)','3':'Sciatic nerve','4':'Caudal gluteal artery','5':'Greater trochanter','6':'Branches of the sciatic nerve to the hamstrings','7':'Common fibular nerve','8':'Tibial nerve','9':'Caudal cutaneous sural nerve','10':'Tensor fasciae latae muscle','11':'Quadriceps femoris muscle','12':'Semimembranosus muscle','13':'Lateral head of the gastrocnemius muscle'},[]),
 ]
+CASTS={'4906','4915','4928'}   # corrosion casts (plastic, not a cadaver) → 📚 Extra only, never ⭐ (Bethany, Nov 3)
 TOP={'4928':110}   # Safari status bar overlaid on the photo
 NOT_BOLD={'Femoral artery and vein':'femoral artery'}   # label → bold term it still counts for
 
@@ -88,6 +89,7 @@ def per_term(lab,school,extra):
     order=[t for t,_,_ in P4BOLD[lab]]; best=[]; used_school=set(); nu=0
     def umn_hit(term):
         for img_id,src,captop,labels,view in SPEC:
+            if img_id in CASTS: continue
             if term in view: return img_id,src,captop,None,labels
             for n,name in labels.items():
                 ts=strict_terms(name,lab) or ([NOT_BOLD[name]] if name in NOT_BOLD else [])

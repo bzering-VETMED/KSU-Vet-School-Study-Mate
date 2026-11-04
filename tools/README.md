@@ -25,3 +25,4 @@
 - `p4umn.py`: 🌐 UMN screenshots (tools/umn_src_p4) → ⭐ cards. Caption + Safari bar cropped; UMN numbers kept; question asks only YOUR bold-term numbers (exact-match), reveal lists the rest. `merge()` puts UMN first and keeps a school slide in ⭐ only for terms UMN doesn't show. Add screenshots by appending to SPEC, then rerun p4lab26/p4lab27.
 - `swipe.js` (root): swipe left = reveal answer, then next card; swipe right = previous card. Injected into every deck page (anything with #skip); deck.py template includes it. Ignores pinch-zoom + vertical scroll.
 - **Every bold term gets its OWN ⭐ card (Bethany, Nov 3)** — `p4umn.per_term()`: one card per bold term in list order ('Name #7' on the best UMN photo, else that term's school highlight slide, else a concept card). Multi-number UMN cards + all other photos → 📚 Extra.
+- ⭐ decks = real cadaver photos only: UMN corrosion casts (p4umn.CASTS) go to 📚 Extra.
