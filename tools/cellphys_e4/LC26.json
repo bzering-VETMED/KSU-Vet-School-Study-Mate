@@ -1,0 +1,964 @@
+{
+ "lc": 26,
+ "prof": "Schultz",
+ "title": "Enzyme-linked Receptors",
+ "emoji": "🧷",
+ "date": "Fri 10/30",
+ "terms": [
+  [
+   "Enzyme-linked receptor",
+   "Cell-surface receptor whose cytosolic domain IS an enzyme or is tightly associated with one; ligand is water-soluble.",
+   "S1, S22; transcript",
+   false
+  ],
+  [
+   "Why a membrane receptor?",
+   "Water-soluble ligands can't cross the membrane, so the receptor faces outside (contrast steroid hormones' cytosolic receptors, LC25).",
+   "transcript",
+   false
+  ],
+  [
+   "Receptor guanylyl cyclase",
+   "Receptor with an intrinsic guanylyl cyclase domain: guanosine triphosphate (GTP) → cyclic guanosine monophosphate (cGMP). Example: ANP receptor.",
+   "S2, S4",
+   false
+  ],
+  [
+   "Atrial natriuretic peptide (ANP)",
+   "Peptide from atrial secretory granules, released by stretch (pressure/volume); lowers blood pressure. Normal ~10 pM; >100 pM pathologic.",
+   "S3, S7; transcript",
+   true
+  ],
+  [
+   "B-type natriuretic peptide (BNP)",
+   "Historically 'brain' natriuretic peptide but secreted by the VENTRICLE on distension. Normal ≤1 pM; >200 pM = badly distended heart.",
+   "transcript",
+   true
+  ],
+  [
+   "ANP receptor structure",
+   "Single membrane-spanning protein: extracellular binding domain, transmembrane domain, intracellular guanylyl cyclase domain. Unbound monomer = inactive.",
+   "S4",
+   false
+  ],
+  [
+   "Dimerization (ANP receptor)",
+   "ANP binding dimerizes the receptor; the two cyclase halves come together and become active.",
+   "S3, S4; transcript",
+   false
+  ],
+  [
+   "Cyclic guanosine monophosphate (cGMP)",
+   "Second messenger made from GTP by guanylyl cyclase; activates protein kinase G.",
+   "S4",
+   false
+  ],
+  [
+   "Protein kinase G (PKG)",
+   "cGMP-activated kinase; phosphorylates CELL-TYPE/TISSUE-SPECIFIC target proteins.",
+   "S4",
+   false
+  ],
+  [
+   "Myosin phosphatase target subunit 1 (MYPT-1)",
+   "PKG target in vascular smooth muscle; leads to activation of myosin light chain phosphatase.",
+   "S3 figure; transcript",
+   false
+  ],
+  [
+   "Myosin light chain phosphatase (MLCP)",
+   "Dephosphorylates myosin light chain → smooth muscle relaxes → vasodilation → blood pressure drops.",
+   "S3 figure; transcript",
+   false
+  ],
+  [
+   "Phosphodiesterase (PDE)",
+   "Terminates the signal: converts cGMP to GMP (slide typo 'PPE').",
+   "S4; transcript",
+   false
+  ],
+  [
+   "Phosphodiesterase 5 (PDE5)",
+   "Breaks down cGMP; inhibited by sildenafil, tadalafil, vardenafil.",
+   "transcript",
+   true
+  ],
+  [
+   "PDE5 inhibitors",
+   "Sildenafil (Viagra), tadalafil (Cialis), vardenafil (Levitra): erectile dysfunction, PULMONARY ARTERIAL HYPERTENSION, prostatic hyperplasia.",
+   "transcript",
+   true
+  ],
+  [
+   "Corin",
+   "Protease that cleaves the 126-amino-acid natriuretic prohormone to the 28-amino-acid active peptide.",
+   "transcript",
+   true
+  ],
+  [
+   "Natriuretic peptide receptor A/B (NPR-A/B)",
+   "ANP/BNP receptors (slide 'NP-A/B'); mainly adrenal gland, kidney, vascular smooth muscle; → cGMP → PKG.",
+   "S7; transcript",
+   true
+  ],
+  [
+   "Phosphodiesterase 2 (PDE2)",
+   "In adrenal cells, cGMP ↑ PDE2 → breaks down cyclic adenosine monophosphate (cAMP) → ↓ACTH-stimulated cortisol (and modestly ↓aldosterone).",
+   "transcript",
+   true
+  ],
+  [
+   "Adrenocorticotropic hormone (ACTH)",
+   "Raises cAMP in adrenal cortisol-secreting cells → cortisol; ANP opposes this via PDE2.",
+   "transcript",
+   false
+  ],
+  [
+   "Renin-angiotensin-aldosterone system (RAAS)",
+   "↓Renal perfusion → renin → angiotensin I → (ACE) angiotensin II → aldosterone, vasoconstriction, ADH, sympathetic activity → ↑blood pressure.",
+   "S5, S6",
+   false
+  ],
+  [
+   "Angiotensin-converting enzyme (ACE)",
+   "On pulmonary and renal endothelium; converts angiotensin I → angiotensin II.",
+   "S5",
+   false
+  ],
+  [
+   "Angiotensin II type 1 (AT1) receptor",
+   "Angiotensin II receptor in adrenal cortex, arterioles, pituitary; a G protein-coupled receptor (GPCR).",
+   "transcript",
+   false
+  ],
+  [
+   "Antidiuretic hormone (ADH) / V2 receptor",
+   "ADH from posterior pituitary; V2 receptor in kidney = Gs-coupled GPCR → collecting duct water absorption. ANP ↓ADH.",
+   "S5; transcript",
+   false
+  ],
+  [
+   "ENaC and ROMK",
+   "Epithelial sodium channel and renal outer medullary potassium channel; aldosterone ↑ their expression in distal convoluted tubule and collecting duct.",
+   "transcript",
+   false
+  ],
+  [
+   "ANP net renal/vascular effect",
+   "Afferent dilation → ↑GFR; ↓renin → ↓angiotensin II → ↓aldosterone; ↓ADH; vasodilation → ↓Na⁺/water retention → ↓blood pressure.",
+   "S6, S7; transcript",
+   true
+  ],
+  [
+   "Glomerular filtration rate (GFR)",
+   "Rises when ANP dilates the afferent arteriole without changing the efferent arteriole.",
+   "S7; transcript",
+   true
+  ],
+  [
+   "Receptor tyrosine kinase (RTK)",
+   "Receptor with intrinsic tyrosine kinase; ligand brings two halves together → autophosphorylation. Mostly growth factor receptors.",
+   "S2, S8",
+   true
+  ],
+  [
+   "Autophosphorylation",
+   "The receptor's own tyrosine kinase phosphorylates its own tyrosines after ligand binding.",
+   "S8, S11",
+   true
+  ],
+  [
+   "Growth factor receptors",
+   "FGF, VEGF, NGF, IGF-1, EGF, PDGF receptors (S8): ↑proliferation, ↑cell longevity, ↓programmed cell death.",
+   "S8; transcript",
+   true
+  ],
+  [
+   "Insulin receptor",
+   "Two extracellular (binding) + two membrane-spanning (cytosolic tyrosine kinase) subunits; signals via TWO arms (IRS-1 and MAPK).",
+   "S11",
+   true
+  ],
+  [
+   "Insulin receptor substrate 1 (IRS-1)",
+   "Adapter/scaffolding protein; binds activated insulin receptor and activates PI3K (skeletal muscle, adipose).",
+   "S11",
+   true
+  ],
+  [
+   "Phosphoinositide 3-kinase (PI3K)",
+   "Phosphorylates PIP2 → PIP3; through a series of steps drives GLUT4 vesicle fusion with the membrane.",
+   "S11; transcript",
+   true
+  ],
+  [
+   "Akt/PKB, PDK1, mTORC1",
+   "Condensed steps between PI3K and GLUT4 insertion; Schultz: 'I don't think you need to know all those steps.'",
+   "transcript",
+   false
+  ],
+  [
+   "Glucose transporter 4 (GLUT4)",
+   "Insulin-regulated glucose transporter stored in vesicles; inserted into the membrane → facilitated diffusion of glucose.",
+   "S11, S14",
+   true
+  ],
+  [
+   "Glucose transporter 1 (GLUT1)",
+   "Constitutive glucose transporter; also a transcription target of the insulin MAPK arm.",
+   "S12",
+   false
+  ],
+  [
+   "Glucose transporter 2 (GLUT2)",
+   "Glucose transporter of the pancreatic β cell; lets glucose in to raise ATP:ADP.",
+   "S14; transcript",
+   false
+  ],
+  [
+   "Son of sevenless (SOS)",
+   "Slide: 'adapter protein'; Schultz: GTP EXCHANGE FACTOR that swaps GDP for GTP on RAS.",
+   "S12, S19; transcript",
+   true
+  ],
+  [
+   "RAS (rat sarcoma virus protein)",
+   "MONOMERIC G protein/GTPase: GTP-bound = on, GDP-bound = off; its GTPase is the timer.",
+   "S2, S13; transcript",
+   true
+  ],
+  [
+   "Monomeric vs heterotrimeric G protein",
+   "RAS = single subunit in RTK pathways; heterotrimeric (α, β, γ) = GPCR pathways (LC27).",
+   "transcript",
+   false
+  ],
+  [
+   "Mitogen-activated protein kinase (MAPK) cascade",
+   "MAPKKK (Raf) → MAPKK (MEK) → MAPK (ERK); each phosphorylates the next.",
+   "S12; transcript",
+   true
+  ],
+  [
+   "Mitogen",
+   "Mito = thread (chromosome in division) + gen = generate → drives cell proliferation.",
+   "transcript",
+   false
+  ],
+  [
+   "MAPK (ERK)",
+   "The ONLY kinase in the cascade that translocates into the nucleus; activates early-gene transcription.",
+   "S12; transcript",
+   true
+  ],
+  [
+   "Early genes: myc, jun, fos",
+   "Transcribed after MAPK enters the nucleus; jun and fos proteins co-activate target genes (GLUT4, GLUT1, cyclin D).",
+   "S12, S19",
+   false
+  ],
+  [
+   "Proto-oncogene",
+   "Normal growth-signaling gene; mutated RAS lacking GTPase stays on → excessive proliferation → cancer. 'Your first example.'",
+   "S13; transcript",
+   true
+  ],
+  [
+   "Pancreatic β cell insulin secretion",
+   "Glucose via GLUT2 → ↑ATP:ADP → ATP-sensitive K⁺ channel closes → depolarization → insulin secretion.",
+   "S14; transcript",
+   false
+  ],
+  [
+   "Insulin target tissues (S14)",
+   "Liver, skeletal muscle, cardiac muscle, fibrocytes (GLUT4 drawn).",
+   "S14",
+   false
+  ],
+  [
+   "Insulin-deficient diabetes mellitus (IDD)",
+   "Defective β cells → insufficient secretion, LOW insulin; treated with insulin.",
+   "S15",
+   false
+  ],
+  [
+   "Insulin-resistant diabetes mellitus (IRD)",
+   "Defective receptor/signaling in peripheral tissues; NORMAL or HIGH insulin; still treated with insulin (fewest side effects).",
+   "S15; transcript",
+   false
+  ],
+  [
+   "Glucose unit conversion",
+   "5 mM glucose = 90 mg/dL ('just an FYI', systems link).",
+   "transcript",
+   false
+  ],
+  [
+   "Starvation in plenty",
+   "Cells starve despite hyperglycemia: weight loss, polydipsia/polyuria, weakness; hyperlipidemia, ketonuria, uremia.",
+   "S16; transcript",
+   false
+  ],
+  [
+   "Osmotic diuresis",
+   "Glucose above renal threshold → glucosuria drags water → polyuria.",
+   "S16",
+   false
+  ],
+  [
+   "Ketoacidosis",
+   "Fatty acids → acetyl-CoA → acetoacetate → 4-OH butyrate + acetone → ketoacidosis → acidotic coma; ketonuria.",
+   "S16",
+   false
+  ],
+  [
+   "Uremia (diabetic)",
+   "Amino acid metabolism for energy → urea production → uremia.",
+   "S16",
+   false
+  ],
+  [
+   "Tyrosine-kinase-associated receptor",
+   "NO intrinsic kinase; after ligand-induced dimerization recruits a non-receptor tyrosine kinase (JAK2).",
+   "S2, S17, S18",
+   true
+  ],
+  [
+   "Erythropoietin (EPO)",
+   "Made mainly by kidney; ↑ when oxygen partial pressure (PO2) is low; ↑ erythroid progenitor proliferation in bone marrow.",
+   "S20",
+   false
+  ],
+  [
+   "Janus kinase 2 (JAK2)",
+   "Non-receptor tyrosine kinase; binds dimerized EPO receptor, phosphorylates ITSELF and the RECEPTOR. Janus = god of doorways.",
+   "S18; transcript",
+   true
+  ],
+  [
+   "Signal transducer and activator of transcription 5 (STAT5)",
+   "Phosphorylated by receptor/JAK2 complex → nucleus → transcription of bcl-2.",
+   "S18",
+   true
+  ],
+  [
+   "B-cell lymphoma 2 (BCL-2)",
+   "Longevity gene: prevents apoptosis, promotes survival (EPO's JAK-STAT arm).",
+   "S18; transcript",
+   true
+  ],
+  [
+   "Cyclin D",
+   "Secondary gene from EPO's MAPK arm (via jun/fos); needed for cell division → proliferation.",
+   "S19",
+   true
+  ],
+  [
+   "Oclacitinib (Apoquel)",
+   "JAK inhibitor used for canine atopic dermatitis ('totally off target' side note).",
+   "transcript",
+   false
+  ],
+  [
+   "Recombinant human EPO (rhEPO)",
+   "Replaces EPO when a failing kidney can't make enough; misused as a doping agent.",
+   "S20, S21",
+   false
+  ],
+  [
+   "EPO misuse risk",
+   "↑Red blood cells → ↑blood viscosity → embolism risk.",
+   "S20",
+   false
+  ],
+  [
+   "Isoelectric focusing (EPO test)",
+   "Separates native vs recombinant EPO by charge (gel pH ~3.8–5.2); basis of rhEPO urine test.",
+   "S21; transcript",
+   false
+  ],
+  [
+   "Receptor tyrosine phosphatase",
+   "Signals by REMOVING phosphates; example CD45 ('that's all I'm going to say').",
+   "S2; transcript",
+   false
+  ],
+  [
+   "Receptor serine/threonine kinase",
+   "TGF-β, bone morphogenetic protein (BMP), Müllerian inhibiting substance → SMAD; FK506 link to immunosuppression; not covered.",
+   "S2; transcript",
+   false
+  ]
+ ],
+ "traps": [
+  "<b>cGMP vs cAMP</b>: ANP → guanylyl cyclase → <b>cGMP</b> → protein kinase <b>G</b>. ACTH → <b>cAMP</b> → cortisol. Don't swap the letters.",
+  "<b>PDE5 vs PDE2</b>: PDE5 <b>breaks down cGMP</b> (Viagra target). PDE2 is <b>activated by cGMP</b> and breaks down <b>cAMP</b> (how ANP ↓cortisol).",
+  "<b>ANP = atria</b> (modest stretch, physiologic) vs <b>BNP = ventricle</b> (distension, pathologic). 'B' was historically 'brain' but it is NOT secreted by brain.",
+  "<b>Units: pM</b> for natriuretic peptides (ANP 10 pM normal, &gt;100 pM pathologic; BNP ≤1 pM, &gt;200 pM bad) vs <b>mM</b> for glucose. Watch pM vs nM vs mM options.",
+  "<b>Autophosphorylation</b> (receptor tyrosine kinase: insulin, growth factors) vs <b>JAK2 phosphorylates the receptor</b> (EPO receptor has NO intrinsic kinase).",
+  "<b>MAPKKK → MAPKK → MAPK</b>: each K phosphorylates the next; only <b>MAPK</b> enters the nucleus. RAS <b>activates</b> MAPKKK (Schultz's correction), it doesn't phosphorylate it.",
+  "<b>RAS-GTP = ON, RAS-GDP = OFF</b>. SOS loads GTP; RAS's own GTPase turns it off. Mutant RAS without GTPase = <b>always on</b> → tumor (proto-oncogene).",
+  "Insulin's two arms: <b>IRS-1 → PI3K</b> = insert GLUT4 <b>now</b>; <b>SOS → RAS → MAPK</b> = transcribe GLUT4 <b>for next time</b>.",
+  "EPO's two arms: <b>STAT5 → bcl-2</b> = survival (↓apoptosis); <b>MAPK → cyclin D</b> = proliferation. Don't swap the products.",
+  "<b>GLUT2</b> = β-cell glucose sensor; <b>GLUT4</b> = insulin-regulated target-tissue transporter. <b>IDD = low insulin</b>, <b>IRD = normal/high insulin</b>, BOTH treated with insulin.",
+  "<b>Corin</b> cleaves pro-ANP (126 → 28 amino acids) vs <b>renin</b> cleaves angiotensinogen. ANP <b>↓</b> renin, aldosterone, ADH; ANP <b>↑</b> GFR."
+ ],
+ "know": [
+  {
+   "title": "Receptor classes",
+   "slide": "S2",
+   "note": "Schultz walks guanylyl cyclase → RTK → tyrosine-kinase-associated; phosphatases and serine/threonine kinases named only ('that's all I'm going to say'; 'not covering today').",
+   "headers": [
+    "Receptor class",
+    "Example (S2)",
+    "Enzyme activity",
+    "Messenger / next step"
+   ],
+   "rows": [
+    [
+     "Receptor guanylyl cyclase",
+     "ANP receptor",
+     "Intrinsic guanylyl cyclase",
+     "GTP → cGMP → protein kinase G"
+    ],
+    [
+     "Receptor tyrosine kinase",
+     "Growth factor receptors; insulin receptor (RAS in pathway)",
+     "Intrinsic tyrosine kinase (autophosphorylation)",
+     "IRS-1 → PI3K; SOS → RAS → MAPK cascade"
+    ],
+    [
+     "Tyrosine kinase associated receptor",
+     "Erythropoietin receptor",
+     "None intrinsic; recruits JAK2",
+     "JAK2 → STAT5; SOS → RAS → MAPK"
+    ],
+    [
+     "Receptor tyrosine phosphatase",
+     "CD45",
+     "Removes phosphates",
+     "Not covered"
+    ],
+    [
+     "Receptor serine/threonine kinase",
+     "Müllerian inhibiting substance; BMP; TGF-β",
+     "Serine/threonine kinase",
+     "SMAD pathway (transcript; not covered)"
+    ]
+   ],
+   "hide": [
+    2,
+    3
+   ]
+  },
+  {
+   "title": "ANP vs RAAS: opposing effects on blood pressure",
+   "slide": "S6 (+S5, S7, transcript)",
+   "note": "S6 layout: ANP on the left, RAAS on the right, converging on Na⁺/H₂O retention and blood pressure. ★ Schultz put them side by side 'so you can see how they work in contrast'.",
+   "headers": [
+    "Step",
+    "ANP side (left)",
+    "RAAS side (right)"
+   ],
+   "rows": [
+    [
+     "Sensor",
+     "Atria sense blood pressure UP (stretch)",
+     "Kidney senses blood pressure DOWN"
+    ],
+    [
+     "Hormone released",
+     "ANP release (heart stimulates)",
+     "Renin secretion → angiotensin II generation"
+    ],
+    [
+     "Aldosterone production",
+     "Inhibits",
+     "Increases"
+    ],
+    [
+     "Na⁺ & H₂O retention (tubule & duct)",
+     "Inhibits",
+     "Increases"
+    ],
+    [
+     "Arterioles",
+     "Vasodilation",
+     "Vasoconstriction"
+    ],
+    [
+     "Net blood pressure",
+     "Decreases",
+     "Increases"
+    ],
+    [
+     "Extra (transcript/S7)",
+     "↑GFR, ↓renin, ↓ADH, ↓ACTH-stimulated cortisol (PDE2)",
+     "ADH ↑ via AT1 in pituitary; aldosterone → ENaC/ROMK"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Insulin receptor: two arms",
+   "slide": "S9–S12",
+   "note": "★ 'This insulin receptor is starting two major pathways.' Step names Akt/PDK1/mTORC1 not required.",
+   "headers": [
+    "Step",
+    "Arm 1: IRS-1 pathway (S9, S11)",
+    "Arm 2: MAPK pathway (S10, S12)"
+   ],
+   "rows": [
+    [
+     "Receptor event",
+     "Insulin binds → tyrosine kinase autophosphorylation",
+     "Same: insulin binds → autophosphorylation"
+    ],
+    [
+     "First partner",
+     "IRS-1 (adapter/scaffold)",
+     "SOS (exchange factor)"
+    ],
+    [
+     "Next",
+     "PI3K (PIP2 → PIP3)",
+     "RAS: GDP → GTP"
+    ],
+    [
+     "Cascade",
+     "'Series of steps' (Akt/PKB, PDK1, mTORC1)",
+     "MAPKKK (Raf) → MAPKK (MEK) → MAPK (ERK)"
+    ],
+    [
+     "Endpoint",
+     "GLUT4 vesicles fuse with membrane → glucose uptake now",
+     "MAPK into nucleus + myc/jun/fos → GLUT4 (GLUT1) transcription → refill vesicles"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Erythropoietin receptor: two arms",
+   "slide": "S17–S19",
+   "note": "★ Net: ↓cell death + ↑proliferation = more red blood cells.",
+   "headers": [
+    "Step",
+    "Arm 1: JAK2/STAT pathway (S18)",
+    "Arm 2: MAPK pathway (S19)"
+   ],
+   "rows": [
+    [
+     "Receptor event",
+     "EPO → dimerization → JAK2 binds, phosphorylates itself + receptor",
+     "Same JAK2-phosphorylated receptor"
+    ],
+    [
+     "Next",
+     "STAT5 phosphorylated",
+     "SOS → RAS-GTP"
+    ],
+    [
+     "Cascade",
+     "STAT5 translocates into nucleus",
+     "MAPKKK → MAPKK → MAPK → nucleus (myc, jun, fos)"
+    ],
+    [
+     "Gene product",
+     "bcl-2",
+     "Cyclin D"
+    ],
+    [
+     "Outcome",
+     "Prevents apoptosis / promotes survival",
+     "Cell division / proliferation"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Canine & feline diabetes mellitus numbers",
+   "slide": "S16",
+   "note": "Transcript FYI: 5 mM glucose = 90 mg/dL.",
+   "headers": [
+    "Measure",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Plasma glucose, normal (resting)",
+     "4–6 mM"
+    ],
+    [
+     "Plasma glucose, normal (after-dinner or excitement)",
+     "14–17 mM"
+    ],
+    [
+     "Plasma glucose, diabetes",
+     "22–44 mM"
+    ],
+    [
+     "Incidence, dogs",
+     "6.4 in 1,000"
+    ],
+    [
+     "Incidence, cats",
+     "7.4 in 1,000"
+    ],
+    [
+     "Incidence, Burmese cats",
+     "22.6 in 1,000"
+    ]
+   ],
+   "hide": [
+    1
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "Binding of atrial natriuretic peptide (ANP) to its receptor directly activates which enzyme activity? (select one correct response)",
+   "ok": "Guanylyl cyclase activity of the receptor itself",
+   "bad": [
+    "Adenylyl cyclase activity of an associated Gs protein",
+    "Tyrosine kinase activity of the receptor itself",
+    "Phospholipase C activity of an associated Gq protein",
+    "Janus kinase activity recruited to the receptor"
+   ],
+   "why": "The ANP receptor has an intrinsic intracellular guanylyl cyclase domain: GTP → cGMP. (Asked on Quiz07.)",
+   "cite": "S2, S4",
+   "sure": true
+  },
+  {
+   "stem": "A dog's plasma atrial natriuretic peptide (ANP) is measured at 150 pM. Using Dr. Schultz's cutoffs, how is this interpreted? (select one correct response)",
+   "ok": "Pathologic; above the 100 pM ANP cutoff",
+   "bad": [
+    "Healthy; well below the 100 nM ANP cutoff",
+    "Healthy; near the 10 pM ANP normal",
+    "Healthy; below the 200 pM BNP cutoff",
+    "Pathologic; above the 1 pM ANP normal"
+   ],
+   "why": "ANP ~10 pM is healthy; >100 pM is pathologic. 100 nM is a unit trap; 200 pM is the BNP number; 1 pM is BNP's normal.",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "A cat's plasma B-type natriuretic peptide (BNP) is 250 pM. Which interpretation fits the lecture? (select one correct response)",
+   "ok": "Badly distended ventricle; BNP is secreted by the ventricle",
+   "bad": [
+    "Badly distended atria; BNP is secreted by the atrial wall",
+    "Normal value; BNP is normally near 250 pM in plasma",
+    "Brain injury; BNP is secreted by brain neurons",
+    "Normal value; BNP is normally near 250 nM in plasma"
+   ],
+   "why": "BNP is historically 'brain' but comes from the ventricle; normal ≤1 pM; >200 pM = badly distended heart. (BNP source asked on Quiz07.)",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "Sildenafil, tadalafil, and vardenafil inhibit phosphodiesterase 5. Besides erectile dysfunction, which clinical use did Dr. Schultz name? (select one correct response)",
+   "ok": "Pulmonary arterial hypertension",
+   "bad": [
+    "Systemic arterial hypotension in shock",
+    "Canine atopic dermatitis",
+    "Insulin-resistant diabetes",
+    "Chronic renal anemia"
+   ],
+   "why": "PDE5 inhibitors keep cGMP high (vasodilation); used for erectile dysfunction, pulmonary arterial hypertension, prostatic hyperplasia.",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "In adrenal cortisol-secreting cells, adrenocorticotropic hormone (ACTH) raises cyclic adenosine monophosphate (cAMP). How does atrial natriuretic peptide (ANP) reduce ACTH-stimulated cortisol secretion? (select one correct response)",
+   "ok": "↑cGMP activates phosphodiesterase 2, which degrades cAMP",
+   "bad": [
+    "↑cGMP activates phosphodiesterase 5, which degrades cAMP",
+    "↑cAMP activates phosphodiesterase 2, which degrades cGMP",
+    "↑cGMP activates protein kinase G, which blocks ACTH binding",
+    "↓cGMP inactivates phosphodiesterase 2, which preserves cAMP"
+   ],
+   "why": "ANP → cGMP → ↑PDE2 activity → cAMP broken down → ↓cortisol (same mechanism modestly ↓aldosterone). (Asked on Quiz07.)",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "Natriuretic peptides are released from the heart as a 126-amino-acid prohormone. Which enzyme activates it, and what is the active peptide's length? (select one correct response)",
+   "ok": "Corin; 28-amino-acid active peptide",
+   "bad": [
+    "Renin; 28-amino-acid active peptide",
+    "Corin; 126-amino-acid active peptide",
+    "Angiotensin-converting enzyme; 28-amino-acid peptide",
+    "Corin; 128-amino-acid active peptide"
+   ],
+   "why": "Corin cleaves the 126-aa prohormone to the 28-aa active form (Schultz corrected himself from 128 to 126).",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "Which effects result from activation of natriuretic peptide receptors A/B (NPR-A/B)? (select all that apply)",
+   "ok": [
+    "Increased glomerular filtration rate",
+    "Decreased renin secretion",
+    "Decreased aldosterone secretion"
+   ],
+   "bad": [
+    "Increased antidiuretic hormone secretion",
+    "Arteriolar smooth muscle contraction"
+   ],
+   "why": "Afferent dilation ↑GFR; kidney vasodilation ↓renin → ↓angiotensin II → ↓aldosterone; pituitary NP receptors ↓ADH; vessels dilate.",
+   "cite": "S6, S7; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Atrial natriuretic peptide (ANP) dilates the afferent arteriole while the efferent arteriole is unchanged. What happens to glomerular filtration rate (GFR)? (select one correct response)",
+   "ok": "Increases, putting more fluid into the nephron",
+   "bad": [
+    "Decreases, putting less fluid into the nephron",
+    "Increases, because the efferent arteriole dilates",
+    "Decreases, because renin secretion is stimulated",
+    "Unchanged, because both arterioles stay matched"
+   ],
+   "why": "Afferent dilation without efferent change → ↑GFR → more fluid delivered to the nephron.",
+   "cite": "S7; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Fibroblast growth factor, vascular endothelial growth factor, and nerve growth factor receptors share which activation step? (select one correct response)",
+   "ok": "Ligand brings halves together; tyrosines autophosphorylate",
+   "bad": [
+    "Ligand brings halves together; Janus kinase 2 is recruited",
+    "Ligand brings halves together; cyclic GMP is generated",
+    "Ligand releases a heterotrimeric G protein from the receptor",
+    "Ligand brings halves together; CD45 removes phosphates"
+   ],
+   "why": "Receptor tyrosine kinases: agonist → two halves together → intrinsic tyrosine kinase → autophosphorylation.",
+   "cite": "S8; transcript",
+   "sure": true
+  },
+  {
+   "stem": "In skeletal muscle, the insulin receptor substrate 1 (IRS-1) adapter protein directly activates which enzyme? (select one correct response)",
+   "ok": "Phosphoinositide 3-kinase",
+   "bad": [
+    "Mitogen-activated protein kinase",
+    "Janus kinase 2",
+    "Protein kinase G",
+    "Myosin light chain phosphatase"
+   ],
+   "why": "Activated insulin receptor → IRS-1 → PI3K (PIP2 → PIP3) → GLUT4 vesicle fusion. (Asked on Quiz07.)",
+   "cite": "S9, S11",
+   "sure": true
+  },
+  {
+   "stem": "Which steps lie between insulin binding and GLUT4 insertion through the IRS-1 arm? (select all that apply)",
+   "ok": [
+    "Autophosphorylation of receptor tyrosine kinase domains",
+    "Association of the receptor with IRS-1",
+    "Activation of phosphoinositide 3-kinase"
+   ],
+   "bad": [
+    "Exchange of GDP for GTP on RAS by SOS",
+    "Translocation of MAPK into the nucleus"
+   ],
+   "why": "IRS-1 arm: autophosphorylation → IRS-1 → PI3K → GLUT4 vesicle fusion. SOS/RAS/MAPK belong to the second arm (GLUT4 synthesis).",
+   "cite": "S9, S11",
+   "sure": true
+  },
+  {
+   "stem": "Per Dr. Schultz's in-class correction, how does RAS-GTP act on MAP kinase kinase kinase (Raf)? (select one correct response)",
+   "ok": "Activates it by direct interaction, not phosphorylation",
+   "bad": [
+    "Phosphorylates it on a tyrosine residue to fully activate it",
+    "Phosphorylates it on a serine residue to activate it",
+    "Dephosphorylates it to remove an inhibitory phosphate",
+    "Hydrolyzes its own GTP to transfer phosphate to it"
+   ],
+   "why": "Slides (S10, S12) show 'phosphorylation of MAPKKK'; Schultz said a newer review shows RAS activates it by interaction. See flag.",
+   "cite": "transcript (vs S12)",
+   "sure": true
+  },
+  {
+   "stem": "In the insulin receptor's mitogen-activated protein kinase (MAPK) arm, which kinase translocates into the nucleus? (select one correct response)",
+   "ok": "MAP kinase (ERK)",
+   "bad": [
+    "MAP kinase kinase (MEK)",
+    "MAP kinase kinase kinase (Raf)",
+    "Phosphoinositide 3-kinase",
+    "Janus kinase 2"
+   ],
+   "why": "Only phosphorylated MAPK translocates into the nucleus and activates early genes (myc, jun, fos). (Trap asked on Quiz07.)",
+   "cite": "S12",
+   "sure": true
+  },
+  {
+   "stem": "A RAS mutation abolishes its intrinsic GTPase activity, but son of sevenless (SOS) still functions. Which state does RAS stay in? (select one correct response)",
+   "ok": "GTP-bound and switched on",
+   "bad": [
+    "GDP-bound and switched off",
+    "GTP-bound and switched off",
+    "GDP-bound and switched on",
+    "Nucleotide-free and switched off"
+   ],
+   "why": "SOS loads GTP; without GTPase RAS can't hydrolyze GTP → stays on. GTPase is the timer.",
+   "cite": "S13; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Continuing the previous question (RAS lacking GTPase activity), what outcome does the lecture predict? (select one correct response)",
+   "ok": "Excessive proliferation; RAS acts as a proto-oncogene",
+   "bad": [
+    "Excessive apoptosis; RAS acts as a tumor suppressor",
+    "Reduced proliferation; MAPK signaling is terminated",
+    "Excessive proliferation; JAK2 is always switched on",
+    "Reduced survival; bcl-2 transcription is blocked"
+   ],
+   "why": "MAPK pathway always on → mitogenesis → tumors. 'Your first example of a proto-oncogene.'",
+   "cite": "S13; transcript",
+   "sure": true
+  },
+  {
+   "stem": "In a pancreatic β cell, glucose enters via GLUT2 and raises the ATP:ADP ratio. What happens next? (select one correct response)",
+   "ok": "ATP-sensitive K⁺ channels close, depolarizing the cell",
+   "bad": [
+    "ATP-sensitive K⁺ channels open, hyperpolarizing the cell",
+    "ATP-sensitive Ca²⁺ channels close, hyperpolarizing the cell",
+    "GLUT4 vesicles fuse with membrane, depolarizing the cell",
+    "Insulin receptors autophosphorylate, depolarizing the cell"
+   ],
+   "why": "↑ATP:ADP ↓K⁺ channel activity → depolarization → insulin secretion.",
+   "cite": "S14; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A cat's resting plasma glucose is 30 mM. Using 5 mM = 90 mg/dL, what is the value in mg/dL and its S16 category? (select one correct response)",
+   "ok": "540 mg/dL; in the diabetes range",
+   "bad": [
+    "540 mg/dL; in the after-dinner range",
+    "167 mg/dL; in the diabetes range",
+    "54 mg/dL; in the normal resting range",
+    "270 mg/dL; in the after-dinner range"
+   ],
+   "why": "30 mM × 18 = 540 mg/dL. 30 mM falls in 22–44 mM = diabetes (after-dinner is 14–17 mM).",
+   "cite": "S16; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Which statement correctly describes the erythropoietin (EPO) receptor? (select one correct response)",
+   "ok": "No intrinsic kinase; recruits Janus kinase 2 after dimerization",
+   "bad": [
+    "Intrinsic tyrosine kinase; autophosphorylates after dimerization",
+    "No intrinsic kinase; generates cGMP itself after dimerization",
+    "Intrinsic guanylyl cyclase; makes cGMP after it dimerizes",
+    "No intrinsic kinase; recruits IRS-1 and PI3K after dimerization"
+   ],
+   "why": "Tyrosine-kinase-associated receptor: cytosolic domain lacks kinase activity; EPO → dimerization → JAK2 binds. (EPO → JAK asked on Quiz07.)",
+   "cite": "S18",
+   "sure": true
+  },
+  {
+   "stem": "Ferbitinib, an invented drug, selectively blocks MAP kinase kinase (MEK). In an erythroid progenitor stimulated by erythropoietin (EPO), which response is most directly reduced? (select one correct response)",
+   "ok": "Cyclin D transcription via the MAPK arm",
+   "bad": [
+    "Bcl-2 transcription via the STAT5 arm",
+    "JAK2 autophosphorylation at the receptor",
+    "STAT5 phosphorylation by the JAK2 complex",
+    "GDP-to-GTP exchange on RAS by SOS"
+   ],
+   "why": "MEK sits downstream of SOS/RAS and upstream of MAPK → cyclin D. The JAK2/STAT5 → bcl-2 arm is untouched.",
+   "cite": "S18, S19",
+   "sure": true
+  },
+  {
+   "stem": "Which events are part of erythropoietin (EPO) receptor signaling? (select all that apply)",
+   "ok": [
+    "JAK2 phosphorylates itself and the receptor",
+    "Phosphorylated STAT5 moves into the nucleus",
+    "Transcription of the survival gene bcl-2",
+    "Transcription of the cell-cycle gene cyclin D"
+   ],
+   "bad": [
+    "Receptor tyrosine kinase domain autophosphorylates"
+   ],
+   "why": "EPO receptor has no intrinsic kinase; JAK2 does the phosphorylating. Arms: STAT5 → bcl-2 and SOS/RAS/MAPK → cyclin D.",
+   "cite": "S18, S19",
+   "sure": true
+  }
+ ],
+ "flags": [
+  [
+   "S4 typo: 'PPE'",
+   "S4 says 'Phosphodiesterase (PPE) converts cGMP to GMP'; Schultz: typo, should be phosphodiesterase (PDE) · use PDE."
+  ],
+  [
+   "MAPKKK phosphorylated vs activated (S10, S12, S19)",
+   "Slides/figures: 'phosphorylation of MAPKKK' by RAS-GTP; Schultz (newer review): RAS ACTIVATES MAPKKK by interaction, not phosphorylation · use Schultz's correction; MAPKKK → MAPKK → MAPK are phosphorylations."
+  ],
+  [
+   "ANP vs RAAS side-by-side slide not in posted deck",
+   "Transcript describes a slide with RAAS on the right and ANP on the left (corin, 126 → 28 amino acids, PDE2/cortisol, NPR-A/B, ↓ADH); posted S5 shows RAAS only, S6–S7 cover ANP generally · those facts cited 'transcript'; ask for the updated slide."
+  ],
+  [
+   "'NRR-A' label typo",
+   "In-class slide said 'NRR-A'; Schultz: natriuretic peptide receptor A or B. Posted S7 says 'NP-A/B' · use NPR-A/B."
+  ],
+  [
+   "S2 lists RAS under receptor tyrosine kinases",
+   "RAS is not a receptor; Schultz: a monomeric G protein that is part of the RTK pathway (S13) · treat RAS as a pathway component."
+  ],
+  [
+   "SOS: 'adapter protein' (S12, S19) vs 'exchange factor' (transcript)",
+   "Slides call SOS an adapter; Schultz calls it a GTP exchange factor that swaps GDP for GTP on RAS · know both. OUTSIDE—confirm: SOS is a guanine nucleotide exchange factor; Grb2 is the adapter."
+  ],
+  [
+   "Apoquel (oclacitinib) JAK target",
+   "Schultz first said 'JAK-4', then 'JAK1 and 3' (unsure). OUTSIDE—confirm: oclacitinib is JAK1-preferential · for now just 'JAK inhibitor for canine atopic dermatitis'; don't commit to a number."
+  ],
+  [
+   "Renin trigger: 'distention' (transcript) vs ↓renal perfusion (S5)",
+   "Transcript: 'distention at the juxtaglomerular apparatus' releases renin; S5: 'decrease in renal perfusion' · slides win (likely misspeak/garble)."
+  ],
+  [
+   "'Corticotropes' in the adrenal gland",
+   "Schultz calls adrenal cortisol-secreting cells 'corticotropes'. OUTSIDE—confirm: corticotropes usually = anterior pituitary ACTH cells; adrenal cortisol cells = zona fasciculata · know the mechanism, not the cell name."
+  ],
+  [
+   "S14 lists liver among GLUT4 target tissues",
+   "S14 draws GLUT4 on liver, skeletal muscle, cardiac muscle, fibrocytes; S11 says skeletal muscle and adipose. OUTSIDE—confirm: hepatocytes mainly use GLUT2 · slide wins for exam."
+  ],
+  [
+   "S16 '4-OH butyrate'",
+   "OUTSIDE—confirm: standard name is β-hydroxybutyrate (3-hydroxybutyrate) · use the slide's chain on the exam."
+  ],
+  [
+   "Proto-oncogene wording (S13)",
+   "S13: 'RAS is called a proto-oncogene.' OUTSIDE—confirm: normal RAS gene = proto-oncogene; GTPase-dead mutant = oncogene · use slide wording."
+  ],
+  [
+   "ANP vs BNP prohormone size",
+   "Schultz: ANP or BNP released as 126-amino-acid prohormone → 28-amino-acid active peptide. OUTSIDE—confirm: those numbers are ANP's; BNP differs · use 126 → 28 for ANP."
+  ],
+  [
+   "PI3K name (S11)",
+   "S11: 'phospho-inositol-3-kinase'. OUTSIDE: standard name phosphoinositide 3-kinase · same enzyme."
+  ],
+  [
+   "S4 asterisks without footnote",
+   "S4 marks 'monomer*' and 'dimerization*' with no footnote; transcript confirms ANP binding → dimerization → active cyclase · nothing to resolve unless a footnote appears."
+  ],
+  [
+   "S8 'Epithelial Growth Factor Receptor'",
+   "S8 labels EGF receptor 'Epithelial'. OUTSIDE—confirm: standard name is epidermal growth factor (EGF) receptor · same receptor; either name should be accepted."
+  ],
+  [
+   "Janus 'Greek god'",
+   "Schultz: Janus = Greek god of doorways. OUTSIDE: Janus is a Roman god · not testable."
+  ]
+ ]
+}
