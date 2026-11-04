@@ -80,3 +80,40 @@ def merge(lab,school,extra):
     for c in school:
         (best if (not c['terms'] or set(c['terms'])-covered) else moved).append(c)
     return best,moved+extra,len(umn)
+
+def per_term(lab,school,extra):
+    """Bethany (Nov 3): EVERY bold term gets its OWN ⭐ card, in list order.
+    Pick: UMN photo where the term is a numbered label ('Name #7') → else a school slide that shows ONLY/mainly that term
+    → else a concept card. All multi-number UMN cards + every other photo go to 📚 Extra."""
+    order=[t for t,_,_ in P4BOLD[lab]]; best=[]; used_school=set(); nu=0
+    def umn_hit(term):
+        for img_id,src,captop,labels,view in SPEC:
+            if term in view: return img_id,src,captop,None,labels
+            for n,name in labels.items():
+                ts=strict_terms(name,lab) or ([NOT_BOLD[name]] if name in NOT_BOLD else [])
+                if term in ts: return img_id,src,captop,(n,name),labels
+        return None
+    for term in order:
+        h=umn_hit(term); TERM=term[0].upper()+term[1:]
+        if h:
+            img_id,src,captop,lab_,labels=h; img=crop(img_id,captop); nu+=1
+            if lab_:
+                n,name=lab_; tag='#'+n if n[0].isdigit() else ('the ' +('asterisk' if n=='*' else 'unnumbered arrow'))
+                q=f'Name {tag}'
+                nm=f'<div class="nm">{E(TERM)}</div>'+('' if B.norm(name)==B.norm(term) else f'<div class="fx" style="text-align:center">label: {E(name)}</div>')
+            else:
+                q='Name the whole structure shown in this view.'; nm=f'<div class="nm">{E(TERM)}</div>'
+            best.append(dict(name=term,terms=[term],html=B.card(q,f'🌐 UMN · {src}',img,nm,[])))
+            continue
+        pick=None
+        for i,c in enumerate(school):
+            if term in c['terms'] and i not in used_school and len(c['terms'])==1: pick=i; break
+        if pick is None:
+            for i,c in enumerate(school):
+                if term in c['terms']: pick=i; break
+        if pick is not None:
+            used_school.add(pick); c=dict(school[pick]); c['terms']=[term]; best.append(c)
+        else:
+            best.append(dict(name=term,terms=[term],html=f'<section class="card"><div class="q">🧠 {E(TERM)}<span class="tagline">❗ no photo yet</span></div><div class="stg ans"><div class="pr">❓ Where is it?</div><div class="an"><div class="nm">{E(TERM)}</div></div></div><div class="rev">💗 TAP TO REVEAL</div></section>'))
+    rest=cards_for(lab)+[c for i,c in enumerate(school) if i not in used_school and '🧠' not in c['html'][:300]]+extra
+    return best,rest,nu
