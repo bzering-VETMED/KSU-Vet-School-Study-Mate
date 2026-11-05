@@ -1,7 +1,10 @@
 {
  "traps": [
-  "📄 Built from the SLIDES only (lecture Thu 11/5) — stars and corrections update when the transcript arrives.",
-  "BRACHY (short; brachydont, brachycephalic) vs BRACHIO (arm; brachium, brachial plexus) — slides 3–4 ask both. 'Brachio = arm' is not answered on the slides (outside knowledge — confirm).",
+  "📄 Slides (48) + lecture transcript (Thu 11/5) woven together.",
+  "🎯 SCOPE (Dr. Diehl): 'I am NOT going to ask you any questions about eruption times' — only know adult canines erupt by ~5–6 months (used to age a puppy).",
+  "★ Pharyngeal muscles she cares about = HTC, rostral → caudal: Hyopharyngeus, Thyropharyngeus, Cricopharyngeus (prefix = origin). ✅ Closes the hyo-/hypo- flag: it's HYOpharyngeus.",
+  "✏️ Slash notation (she misspoke, then corrected): slash AFTER the number = UPPER (p4/), slash BEFORE = LOWER (m/1, Dp/4).",
+  "BRACHY (short; brachydont, brachycephalic) vs BRACHIO (arm; brachium, brachial plexus) — slides 3–4 ask both. ✅ Lecture: brachio = ARM; it's brachYcephalic, not 'brachiocephalic'.",
   "Brachydont (dog: short, stops growing after eruption, crown + neck + root) vs Hypsodont (tall, long reserve crown — horse photo) — slides 6–7.",
   "Hydroxyapatite ladder: Enamel 96% (no collagen, ameloblasts) > Dentin 70% (type I collagen, odontoblasts) > Cementum 45% (type I collagen, cementoblasts) — don't swap the blast cells (slides 8–10).",
   "Pulp CHAMBER = in the crown; ROOT CANAL = in the root; both = pulp cavity; exits at the APICAL foramen (slide 11).",
@@ -12,11 +15,55 @@
   "Triadan quadrants go CLOCKWISE from the patient's RIGHT UPPER: 100 right upper → 200 left upper → 300 left lower → 400 right lower; deciduous = 500–800. Photo is viewed facing the patient, so the patient's right is on YOUR left (slides 30, 34–35).",
   "Pharynx compartment names: oropharynx = palatoglossal arch → BASE of epiglottis, but it communicates caudally with laryngopharynx over the TIP of the epiglottis (slides 41–42).",
   "Nasopharynx: soft palate is its VENTRAL border; oropharynx: soft palate is its DORSAL border (slides 40–43).",
-  "⚠️ FLAG (slide 47): text names the middle constrictor 'Hyopharyngeus', but the dorsal-view figure label reads 'Hypopharyngeal muscle'. Use HYOpharyngeus (origin = hyoid bone; spelling matches the text) — confirm in transcript.",
   "⚠️ FLAG (slide 43): nasopharynx lateral border lists 'Hyopharyngeus muscles – Ceratohyoideus muscles'. Ceratohyoideus is a hyoid-apparatus muscle, and standard texts usually give pterygopharyngeus/palatopharyngeus laterally (outside knowledge — confirm). Learn the slide version for now and confirm with Dr. Diehl.",
-  "⚠️ FLAG (slide 21): list spells it 'Occlusial'; slide 22 spells it 'Occlusal' (correct). Use 'occlusal' on Canvas fill-ins."
+  "⚠️ FLAG (slide 21): list spells it 'Occlusial'; slide 22 spells it 'Occlusal' (correct). Use 'occlusal' on Canvas fill-ins.",
+  "LINGUAL surface = LOWER arcade (faces tongue) · PALATINE surface = UPPER arcade (faces palate) — lecture only, not on the slide.",
+  "⚠️ FLAG — oropharynx caudal limit: slide 41 says BASE of the epiglottis; lecture said TIP of the epiglottis. Learn: palatoglossal arch → epiglottis; ask which word if it matters.",
+  "Ignore the slide 39 intrapharyngeal-ostium image — Dr. Diehl: use Monday's (L28) image; the opening is formed by the PALATOPHARYNGEAL arches.",
+  "Brachydont (dog, cat: short crown, neck present, stops growing) vs HYPSOdont (horse, cattle cheek teeth: long crown, short root, NO distinct neck, continuously erupting → needs floating)."
  ],
  "sections": [
+  {
+   "title": "📣 Exam signals & scope (11/5)",
+   "items": [
+    {
+     "q": "Eruption times — tested?",
+     "a": "NO. Only know: adult canines erupt by ~5–6 months (used to estimate a puppy's age)",
+     "star": true,
+     "why": "'I am not going to ask you any questions about eruption times'"
+    },
+    {
+     "q": "Pharyngeal muscles she cares about?",
+     "a": "Hyopharyngeus, thyropharyngeus, cricopharyngeus = HTC, rostral → caudal; prefix = origin",
+     "star": true,
+     "why": "'The main ones that I care about'"
+    },
+    {
+     "q": "In-class question: Hal fractured which tooth (Triadan)?",
+     "a": "404 — lower right canine",
+     "star": true,
+     "why": "In-class question"
+    },
+    {
+     "q": "Intrapharyngeal ostium image to use?",
+     "a": "Monday's L28 image (opening formed by the palatopharyngeal arches) — not the slide 39 image",
+     "star": true,
+     "why": "'I decided that I actually hated this image'"
+    },
+    {
+     "q": "Lab today (11/5)?",
+     "a": "Pharyngeal muscles (HTC) + palatine tonsil under the semilunar fold",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dr. Diehl's availability?",
+     "a": "Out of the country until 11/16 — not checking email",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
   {
    "title": "📋 Learning objectives & scope (slides)",
    "items": [
@@ -40,9 +87,9 @@
     },
     {
      "q": "Meaning of the Greek word 'brachio' (slide 4)?",
-     "a": "Arm (outside knowledge — confirm; slide only poses the question).",
+     "a": "Arm (confirmed in lecture: brachycephalic = short head; 'brachiocephalic' for pugs is wrong)",
      "star": true,
-     "why": "Posed as a stand-alone question slide (slide 4)"
+     "why": "Called out in lecture"
     }
    ]
   },
@@ -51,15 +98,15 @@
    "items": [
     {
      "q": "Brachydont tooth — definition and features (slide 6)?",
-     "a": "'Brachy' = short; does NOT grow after eruption is complete; has a crown, neck, and root (dog-type tooth).",
+     "a": "'Brachy' = short; dogs + cats; does NOT grow once erupted; crown (above gum) + neck + root (in the alveolus)",
      "star": true,
      "why": "Bold heading + diagram titled in red (slides 6–7)"
     },
     {
      "q": "Brachydont vs hypsodont on the diagram (slides 6–7)?",
-     "a": "Brachydont = short crown, distinct crown/root; Hypsodont = long crown (~crown extends below gumline) with occlusal surface wear — pictured with a horse dental procedure (slide 7).",
-     "star": false,
-     "why": ""
+     "a": "Brachydont = short crown, distinct crown/neck/root (dog, cat). Hypsodont = 'high' tooth: long crown, short root, NO distinct neck, continuously erupting (horse, cattle cheek teeth)",
+     "star": true,
+     "why": "Explained the slide 6 schematic in detail"
     },
     {
      "q": "Diagram legend for tooth tissues (slide 6)?",
@@ -81,7 +128,7 @@
     },
     {
      "q": "Dentin — hardness, mineral %, collagen, secreting cell (slide 9)?",
-     "a": "Harder than bone; 70% hydroxyapatite; type I collagen present; secreted by odontoblasts.",
+     "a": "Harder than bone; 70% hydroxyapatite; type I collagen present; secreted by odontoblasts. Collagen gives tensile strength + flexibility and spreads chewing forces.",
      "star": true,
      "why": "Bold heading; 'odontoblasts' italic/underlined (slide 9)"
     },
@@ -108,6 +155,12 @@
      "a": "Enamel, gingiva, dentin, pulp cavity, root canal, cementum, periodontal ligaments, dental alveolus; crown, neck, root.",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Why float a horse's teeth?",
+     "a": "Hypsodont teeth keep erupting → grind down sharp enamel points with a float (speculum holds the mouth open)",
+     "star": true,
+     "why": "Clinical example"
     }
    ]
   },
@@ -116,7 +169,7 @@
    "items": [
     {
      "q": "Two parts of the pulp cavity and where each sits (slide 11)?",
-     "a": "Pulp chamber = in the crown; root canal = in the root.",
+     "a": "Pulp chamber = in the crown + neck; root canal = in the root.",
      "star": true,
      "why": "Bold heading with italic subdivisions (slide 11)"
     },
@@ -143,6 +196,12 @@
      "a": "Photos of a dog's canine teeth being examined beside the tooth-section figure — pulp/apical foramen context (clinical point in transcript; slides show images only).",
      "star": true,
      "why": "'Clinical Application' slide (slide 12)"
+    },
+    {
+     "q": "Root canal procedure?",
+     "a": "Clean out an infected/inflamed/damaged pulp cavity (vessels + nerves) and fill it",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -202,6 +261,30 @@
      "a": "Sulcus, free gingival margin, attached gingiva, mucogingival junction.",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Gingiva layers?",
+     "a": "Deep: fibrous connective tissue; superficial: mucous membrane",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Gum colors and meaning?",
+     "a": "Pink = healthy; pale = anemic; yellow = jaundiced; dark red = inflammation; blue/purple = poor oxygenation",
+     "star": true,
+     "why": "Clinical use of the gingiva"
+    },
+    {
+     "q": "How is gingivitis assessed on probing?",
+     "a": "Redness, swelling, and bleeding on probing the gingival sulcus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Periodontium — what does 'peri' mean?",
+     "a": "Around: all tissues around the tooth (gingiva, cementum, periodontal ligament, alveolar bone)",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -211,8 +294,8 @@
     {
      "q": "Periodontal ligament — function (slide 18)?",
      "a": "Attaches the root to the alveolar bone.",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Ligaments you break with the elevator during extraction"
     },
     {
      "q": "Clinical application on slide 19 shows…",
@@ -246,7 +329,13 @@
     },
     {
      "q": "Lamina dura (slide 20)?",
-     "a": "Dense bone surrounding the teeth (lines the socket).",
+     "a": "Thin dense bone lining the alveolus — radiographically important.",
+     "star": true,
+     "why": "'Radiographically important'"
+    },
+    {
+     "q": "Interalveolar septa in humans = where you…",
+     "a": "Floss (bone between adjacent teeth)",
      "star": false,
      "why": ""
     }
@@ -287,9 +376,9 @@
     },
     {
      "q": "Lingual surface (slide 22)?",
-     "a": "Surface facing the tongue.",
-     "star": false,
-     "why": ""
+     "a": "Faces the tongue — technically the LOWER arcade; the upper arcade's equivalent is the PALATINE surface (lecture only).",
+     "star": true,
+     "why": "Lecture added palatine vs lingual (not on slide)"
     },
     {
      "q": "Vestibular surface and its two subtypes (slide 22)?",
@@ -317,7 +406,7 @@
     },
     {
      "q": "Normal dog bite — superior vs inferior teeth (slide 24)?",
-     "a": "Superior (upper) teeth bite LATERAL to the inferior (lower) teeth.",
+     "a": "Superior (upper) teeth bite LATERAL to the inferior (lower) teeth. (Superior/inferior is human terminology — say upper/lower arcade.)",
      "star": true,
      "why": "'lateral' bold-underlined (slide 24)"
     },
@@ -326,6 +415,18 @@
      "a": "Inferior (lower) canine bites ROSTRAL to the superior (upper) canine.",
      "star": true,
      "why": "'rostral' bold-underlined (slide 24)"
+    },
+    {
+     "q": "Palatine surface?",
+     "a": "Upper-arcade surface facing the palate (lingual = lower arcade) — lecture only",
+     "star": true,
+     "why": "Lecture-only addition"
+    },
+    {
+     "q": "Labial vs buccal surfaces — which teeth?",
+     "a": "Labial = incisors (face the lips); buccal = premolars/molars (face the cheek)",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -335,8 +436,8 @@
     {
      "q": "Heterodont (slides 24–26)?",
      "a": "Having different kinds of teeth (incisors, canines, premolars, molars).",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Heterodont + diphyodont both defined in lecture"
     },
     {
      "q": "Tooth groups in the dog (slide 25)?",
@@ -383,8 +484,8 @@
     {
      "q": "Dog deciduous — missing teeth, molars, carnassials (slide 28)?",
      "a": "Upper & lower Dp1 missing; NO molars; carnassials = Dp3/ (upper 3rd deciduous premolar) and Dp/4 (lower 4th deciduous premolar).",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Walked through in lecture"
     },
     {
      "q": "Dog adult — missing tooth and carnassials (slide 28)?",
@@ -407,24 +508,48 @@
     {
      "q": "Cat deciduous — missing teeth, molars, carnassials (slide 29)?",
      "a": "Dp1/ missing; Dp/1 and Dp/2 missing; NO molars; carnassials = Dp3/ and Dp/4.",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Walked through in lecture"
     },
     {
      "q": "Cat adult — missing teeth and carnassials (slide 29)?",
      "a": "p1/ missing; p/1 and p/2 missing; carnassials = p3/ (upper 3rd premolar) and m/1 (lower 1st molar).",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Walked through in lecture"
     },
     {
      "q": "Slash notation: what does p4/ vs m/1 mean (slides 28–29)?",
-     "a": "Number before the slash = upper arcade (p4/ = upper 4th premolar); after the slash = lower arcade (m/1 = lower 1st molar).",
-     "star": false,
-     "why": ""
+     "a": "Slash AFTER the number = UPPER (p4/ = upper 4th premolar); slash BEFORE = LOWER (m/1 = lower 1st molar).",
+     "star": true,
+     "why": "She corrected herself on this in lecture"
     },
     {
      "q": "Deciduous vs permanent notation (slides 26–29)?",
      "a": "Deciduous = capital 'D' prefix (Di, Dc, Dp); permanent = lowercase i, c, p, m.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Functions of each tooth type?",
+     "a": "Incisors: nibbling, grooming, social display · canines: puncture/grasp · premolars + molars (cheek teeth): shear/grind",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dental formula reads how?",
+     "a": "ONE side of the mouth: numerator = upper arcade, denominator = lower arcade; ×2 for the total",
+     "star": true,
+     "why": "Explained step by step"
+    },
+    {
+     "q": "Cat deciduous premolar numbering?",
+     "a": "Upper Dp1 missing → numbered Dp2, Dp3, Dp4; lower Dp1 + Dp2 missing → Dp3, Dp4",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cat adult premolar numbering?",
+     "a": "Upper p1 missing → p2–p4; lower p1 + p2 missing → p3, p4",
      "star": false,
      "why": ""
     }
@@ -441,15 +566,15 @@
     },
     {
      "q": "Permanent quadrant numbers (slide 30)?",
-     "a": "100 right upper, 200 left upper, 300 left lower, 400 right lower (clockwise from patient's right upper).",
+     "a": "PATIENT's sides: 100 upper right, 200 upper left, 300 lower left, 400 lower right (clockwise). Facing the dog, its right is on YOUR left.",
      "star": true,
      "why": "Quadrant photo (slide 30)"
     },
     {
      "q": "Deciduous quadrant numbers (slides 34–35)?",
      "a": "500 right upper, 600 left upper, 700 left lower, 800 right lower.",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "'Put a big asterisk here' — deciduous numbering is different"
     },
     {
      "q": "Dog permanent Triadan positions for I1–M3 (slide 32)?",
@@ -483,7 +608,7 @@
     },
     {
      "q": "Clinical application on slide 31 shows…",
-     "a": "Examining a dog's mouth beside an extracted canine tooth (shows the long root) — context in transcript.",
+     "a": "Dr. Diehl's dog Hal: slab fracture of the lower right canine at the pulp → extracted. Triadan number = 404.",
      "star": true,
      "why": "'Clinical Application' slide (slide 31)"
     },
@@ -492,6 +617,18 @@
      "a": "Evans, Anatomy of the Dog 4th ed., fig. 7-6 — dental arcade with Triadan numbers (101–110, 201–210, 301–311, 401–411).",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Why does Triadan matter clinically?",
+     "a": "Dentals: chart present/missing teeth in the medical record and label any teeth extracted",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Retained deciduous tooth — how is it numbered?",
+     "a": "With the deciduous system (500–800); adult teeth still use 100–400",
+     "star": true,
+     "why": "Student question in lecture"
     }
    ]
   },
@@ -518,37 +655,37 @@
     },
     {
      "q": "Which dog teeth are single-rooted (slide 36)?",
-     "a": "All incisors, canines, P1 (upper and lower), and lower M3.",
+     "a": "All incisors, canines, P1 (upper and lower), and lower M3. Lecture: incisors, canines and the first premolar have one root; the rest of the premolars/molars have 2–3.",
      "star": false,
      "why": ""
     },
     {
      "q": "Dog deciduous eruption times (slide 37)?",
-     "a": "Incisors 3–4 weeks; canines 3–4 weeks; premolars 3–5 weeks.",
+     "a": "Incisors 3–4 weeks; canines 3–4 weeks; premolars 3–5 weeks. — NOT TESTED (Dr. Diehl: no eruption-time questions).",
      "star": false,
      "why": ""
     },
     {
      "q": "Cat deciduous eruption times (slide 37)?",
-     "a": "Incisors 2–3 weeks; canines 3–4 weeks; premolars 3–6 weeks.",
+     "a": "Incisors 2–3 weeks; canines 3–4 weeks; premolars 3–6 weeks. — NOT TESTED (Dr. Diehl: no eruption-time questions).",
      "star": false,
      "why": ""
     },
     {
      "q": "Dog permanent eruption times (slide 37)?",
-     "a": "Incisors 4 months; canines 5–6 months; premolars 5–7 months; molars 5–7 months.",
-     "star": false,
-     "why": ""
+     "a": "Incisors 4 months; canines 5–6 months; premolars 5–7 months; molars 5–7 months. Only know: adult canines by ~5–6 months (NOT otherwise tested).",
+     "star": true,
+     "why": "Only eruption fact she wants: adult canines at 5–6 months to age a puppy"
     },
     {
      "q": "Cat permanent eruption times (slide 37)?",
-     "a": "Incisors 3.5 months; canines 4–5 months; premolars 4–6 months; molars 4–6 months.",
+     "a": "Incisors 3.5 months; canines 4–5 months; premolars 4–6 months; molars 4–6 months. — NOT TESTED (Dr. Diehl: no eruption-time questions).",
      "star": false,
      "why": ""
     },
     {
      "q": "General rule dog vs cat eruption (slide 37)?",
-     "a": "Cats erupt slightly earlier than dogs at each stage.",
+     "a": "Cats erupt slightly earlier than dogs at each stage. — NOT TESTED (Dr. Diehl: no eruption-time questions).",
      "star": false,
      "why": ""
     }
@@ -659,7 +796,7 @@
    "items": [
     {
      "q": "Oropharynx extent (slide 41)?",
-     "a": "Palatoglossal fold (arch) → base of the epiglottis.",
+     "a": "Palatoglossal fold (arch) → epiglottis (slide 41 says BASE; lecture said TIP — see flag).",
      "star": true,
      "why": "Bold section with border list (slides 41–42)"
     },
@@ -671,9 +808,9 @@
     },
     {
      "q": "Palatine tonsil — location and covering (slide 41)?",
-     "a": "In the lateral walls of the oropharynx (tonsillar fossa); covered by the semilunar fold.",
-     "star": false,
-     "why": ""
+     "a": "In the lateral walls of the oropharynx (tonsillar fossa); covered by the semilunar fold. Lab: find the semilunar fold first, move it aside, then the palatine tonsil is underneath.",
+     "star": true,
+     "why": "Lab ID today — semilunar fold covers it"
     },
     {
      "q": "Oropharynx communications (slide 41)?",
@@ -700,7 +837,7 @@
     },
     {
      "q": "Auditory tube openings — location (slide 43)?",
-     "a": "Lateral walls of the nasopharynx.",
+     "a": "Inside the nasopharynx (opening of the auditory tube).",
      "star": false,
      "why": ""
     },
@@ -736,12 +873,18 @@
     {
      "q": "Piriform recesses — location and function (slide 44)?",
      "a": "On each side of the base of the epiglottis; continue the oropharyngeal floor around the laryngeal entrance; serve as gutters for fluids.",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Defined in lecture"
     },
     {
      "q": "Laryngopharynx communications (slide 44)?",
      "a": "Caudally: esophagus; rostrally: nasopharynx and oropharynx.",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Epiglottis during respiration vs swallowing?",
+     "a": "Breathing: tilts to let air pass into the larynx/trachea · swallowing: tilts to cover the larynx so food goes to the esophagus",
      "star": false,
      "why": ""
     }
@@ -801,7 +944,7 @@
      "q": "Middle pharyngeal constrictor (slide 47)?",
      "a": "Hyopharyngeus.",
      "star": true,
-     "why": "Marked (!) on slide 47"
+     "why": "HTC — 'the main ones that I care about'"
     },
     {
      "q": "Hyopharyngeus — origin / insertion (slide 47)?",
@@ -813,19 +956,19 @@
      "q": "Caudal pharyngeal constrictors (slide 47)?",
      "a": "Thyropharyngeus and cricopharyngeus.",
      "star": true,
-     "why": "Both marked (!) on slide 47"
+     "why": "HTC — 'the main ones that I care about'"
     },
     {
      "q": "Thyropharyngeus — origin / insertion (slide 47)?",
      "a": "Origin: thyroid cartilage; insertion: median dorsal pharyngeal raphe.",
      "star": true,
-     "why": "Marked (!) on slide 47"
+     "why": "HTC — 'the main ones that I care about'"
     },
     {
      "q": "Cricopharyngeus — origin / insertion (slide 47)?",
      "a": "Origin: cricoid cartilage; insertion: median dorsal pharyngeal raphe.",
      "star": true,
-     "why": "Marked (!) on slide 47"
+     "why": "HTC — 'the main ones that I care about'"
     },
     {
      "q": "Dilator of the pharynx (slide 47)?",

@@ -45,7 +45,7 @@ PAGES = [("L17", "gross-anatomy-lc17-cards.html", "L17 Terms · Nervous System 1
          ("PATTERNS", "gross-anatomy-patterns.html", "Memory Patterns · Exam 3"),
          ("L26", "gross-anatomy-lc26-cards.html", "L26 Terms · Pelvic Limb Vessels & Nerves", "gross-anatomy-exam4.html"),
          ("L28", "gross-anatomy-lc28-cards.html", "L28 Terms · Digestive Components of the Head 1", "gross-anatomy-exam4.html"),
-         ("L29", "gross-anatomy-lc29-cards.html", "L29 Terms · Digestive Components of the Head 2 (slides · lecture Thu 11/5)", "gross-anatomy-exam4.html"),
+         ("L29", "gross-anatomy-lc29-cards.html", "L29 Terms · Digestive Components of the Head 2", "gross-anatomy-exam4.html"),
          ("L30", "gross-anatomy-lc30-cards.html", "L30 Terms · Eye (slides · lecture Wed 11/4)", "gross-anatomy-exam4.html"),
          ("L32", "gross-anatomy-lc32-cards.html", "L32 Terms · Head Vessels (slides · lecture Wed 11/11)", "gross-anatomy-exam4.html"),
          ("L34", "gross-anatomy-lc34-cards.html", "L34 Terms · Brain & Meninges (slides · lecture Mon 11/16)", "gross-anatomy-exam4.html")]
