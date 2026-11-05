@@ -3,8 +3,9 @@
 import html,time,re,json
 E=html.escape; V=str(int(time.time()))
 src=open('systems-lec3-old2024.html').read()
-CSS=re.search(r'<style>(.*?)</style>',src,re.S).group(1)
-JS=re.findall(r'<script>(.*?)</script>',src,re.S)[-1]
+_py=open('tools/sys_lecture.py').read()
+CSS=re.search(r"^CSS='''(.*?)'''",_py,re.S|re.M).group(1)
+JS=re.search(r"^JS='''(.*?)'''",_py,re.S|re.M).group(1)  # grading script (not the page's last <script>)
 N='Normals: PaO₂ 100 · PaCO₂ 40 · pH 7.4 · HCO₃ 24 · venous PO₂ 40 / PCO₂ 46. '
 A=[
 ("A dog with chronic bronchitis has: pH <7.4, HCO₃⁻ 34 mM, PaCO₂ 70 mmHg. Which description best fits?",["Primary metabolic acidemia, respiratory compensation (cannot tell acute vs chronic)","Primary respiratory acidemia, metabolic compensation (chronic)","Primary metabolic alkalemia, respiratory compensation (cannot tell acute vs chronic)","Primary respiratory alkalemia, metabolic compensation (chronic)"],[1],"High CO₂ explains the acid = RESPIRATORY · bicarbonate above 24 = kidneys compensated = CHRONIC (his review: 'bicarb really high → kidneys retaining a while')"),

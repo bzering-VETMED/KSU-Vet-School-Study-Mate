@@ -3,8 +3,9 @@
 import html,time,re,json
 E=html.escape; V=str(int(time.time()))
 src=open('systems-lec-old2024.html').read()
-CSS=re.search(r'<style>(.*?)</style>',src,re.S).group(1)
-JS=re.findall(r'<script>(.*?)</script>',src,re.S)[-1]
+_py=open('tools/sys_lecture.py').read()
+CSS=re.search(r"^CSS='''(.*?)'''",_py,re.S|re.M).group(1)
+JS=re.search(r"^JS='''(.*?)'''",_py,re.S|re.M).group(1)  # grading script (not the page's last <script>)
 # (stem, [options], [correct indexes], why, sure)
 P2024=[
 ("Ruidoso Downs racetrack (7,000 ft): high incidence and severity of EIPH. A contributing mechanism?",["Decreased hematocrit","Respiratory muscle dysfunction","Greater work of breathing","Pulmonary hypoxic vasoconstriction"],[3],"LC50: low alveolar O₂ at altitude → hypoxic vasoconstriction → ↑ pulmonary artery pressure → more capillary rupture",1),
