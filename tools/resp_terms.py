@@ -645,6 +645,7 @@ def hub(fn,title,h1,sub,back,backlbl,tiles):
 # Exam 3 hub: one tile per lecture terms page
 links+=f'<a class="tile" href="systems-lec3-notesqs.html?v={V}"><div class="emoji">❓</div><h2>End-of-notes questions</h2><p>All 10 notes lectures · answers · tap to reveal</p></a>'
 links+=f'<a class="tile" href="systems-lec3-old2024.html?v={V}"><div class="emoji">📝</div><h2>Poole Old Exam · 2024</h2><p>22 Q · posted key · tap to check · ⭐ start here</p></a>'
+links+=f'<a class="tile" href="systems-lec3-olddcp.html?v={V}"><div class="emoji">📝</div><h2>Poole Old Exam · AP 747</h2><p>19 Q · older exam · tap to check</p></a>'
 links+=f'<a class="tile" href="systems-lec3-old2023.html?v={V}"><div class="emoji">📝</div><h2>Poole Old Exam · 2023</h2><p>22 Q · student answers, checked · tap to check</p></a>'
 links+=f'<a class="tile" href="systems-lec3-diagrams.html?v={V}"><div class="emoji">📈</div><h2>Key diagrams</h2><p>8 must-know Poole pictures · pink = what changed from normal</p></a>'
 links+=f'<a class="tile" href="systems-lec3-compare.html?v={V}"><div class="emoji">⚖️</div><h2>Look-alikes</h2><p>12 comparison tables · 🙈 quiz-me mode · memory hooks</p></a>'
