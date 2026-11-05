@@ -7,6 +7,7 @@ TILES = [  # (emoji, href, title, blurb)
     ("🧭", "gross-anatomy-l26-trace.html", "L26 Trace It", "Arteries aorta → paw, deep + superficial veins, lymph nodes, lumbosacral plexus, testing sites · names pop up in order"),
     ("⚡", "gross-anatomy-lc28-cards.html", "L28 Terms", "Digestive Components of the Head 1 · 112 terms · ★ 51 · slides + lecture 11/2 · oral cavity, palate, tongue, salivary glands"),
     ("⚡", "gross-anatomy-lc29-cards.html", "L29 Terms", "Digestive Components of the Head 2 · 127 terms · ★ 39 · slides only (lecture Thu 11/5) · teeth, dental formulae, Triadan, pharynx"),
+    ("🦷", "gross-anatomy-l29-teeth.html", "L29 Tooth Types · Tap to Reveal", "Your slide 6 photo: brachydont vs hypsodont, pulp cavity, enamel, dentine, cementum, crown, root, occlusal surface"),
     ("⚡", "gross-anatomy-lc30-cards.html", "L30 Terms", "Eye · 142 terms · ★ 64 · slides only (lecture Wed 11/4)"),
     ("⚡", "gross-anatomy-lc32-cards.html", "L32 Terms", "Head Vessels · 120 terms · ★ 52 · slides only (lecture Wed 11/11) · arterial branches + venous drainage"),
     ("⚡", "gross-anatomy-lc34-cards.html", "L34 Terms", "Brain & Meninges · 138 terms · ★ 52 · slides only (lecture Mon 11/16)"),
@@ -41,5 +42,5 @@ page = f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport
 <div class="grid">{tiles}</div>
 <h2 style="color:#70428f;margin:22px 0 8px">🗓️ Lecture tracker</h2>
 <table><tr><th>Date</th><th>#</th><th>Topic</th><th>Instructor</th><th>Pages</th></tr>{rows}</table>
-<div class="footer">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div></body></html>'''
+<div class="footer">🎀 Bethany · K-State CVM Class of 2030 · 🐾</div></div><script>if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js",{{updateViaCache:"none"}}).then(r=>r.update()).catch(()=>{{}})</script></body></html>'''
 open('gross-anatomy-exam4.html', 'w').write(page); print('exam4 hub:', len(TILES), 'tiles')
