@@ -643,6 +643,7 @@ HCSS=re.search(r'<style>.*?</style>',open(E2).read(),re.S).group(0)
 def hub(fn,title,h1,sub,back,backlbl,tiles):
     open(fn,'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>{title}</title>{HCSS}</head><body><div class="wrap"><section class="hero"><h1>{h1}</h1><p>{sub}</p></section><div class="nav"><a href="{back}?v={V}">← {backlbl}</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
 # Exam 3 hub: one tile per lecture terms page
+links+=f'<a class="tile" href="systems-lec3-basel4.html?v={V}"><div class="emoji">🔁</div><h2>Basel Practice Exam 4 · Misses</h2><p>25 Q · your misses, new wording + likely untested · ⭐ do this</p></a>'
 links+=f'<a class="tile" href="systems-lec3-basel1.html?v={V}"><div class="emoji">🔬</div><h2>Basel Practice Exam 1</h2><p>25 Q · LC38–39 microanatomy · tap to check + answer</p></a>'
 links+=f'<a class="tile" href="systems-lec3-basel2.html?v={V}"><div class="emoji">🔬</div><h2>Basel Practice Exam 2</h2><p>25 Q · LC38–39 microanatomy · tap to check + answer</p></a>'
 links+=f'<a class="tile" href="systems-lec3-basel3.html?v={V}"><div class="emoji">🔬</div><h2>Basel Practice Exam 3</h2><p>25 Q · LC38–39 microanatomy · tap to check + answer</p></a>'

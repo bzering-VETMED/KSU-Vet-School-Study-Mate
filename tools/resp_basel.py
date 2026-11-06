@@ -87,6 +87,33 @@ X3=[
 ("Alveolar macrophages:",["Phagocytose debris to keep alveoli clear","Secrete surfactant to lower surface tension","Form the blood–air barrier with endothelium","Act as stem cells for bronchioles"],""),
 ("Which change does NOT occur moving from bronchi to bronchioles?",["Glands increase","Cartilage disappears","Epithelium gets shorter","Club cells increase"],""),
 ]
+X4=[
+("A biopsy of the olfactory region shows glands below the epithelium. Their secretion:",["Dissolves odorants and clears away old odors","Moves debris up toward the pharynx","Lowers surface tension in the alveoli","Signals airway cells with serotonin"],"Olfactory (Bowman's) glands"),
+("In the olfactory epithelium, which cell type renews the epithelium?",["Basal cells","Sustentacular cells","Olfactory sensory neurons","Olfactory (Bowman's) gland cells"],"Basal = sits on the base, stem cell"),
+("Fluid is removed from the pleural cavity faster than it enters. What does this, and what is the result?",["Lymphatics; slightly negative pleural pressure","Lymphatics; slightly positive pleural pressure","Trachealis; slightly negative pleural pressure","Type II cells; slightly negative pleural pressure"],"Negative pressure holds the lungs open"),
+("In which region did Basel say there is a lamina propria but NO muscularis mucosa?",["Nasal cavity","Bronchioles","Respiratory bronchioles","Bronchi"],"Trachea: may or may not see it"),
+("The muscularis mucosa is MOST well developed in the:",["Bronchioles","Trachea","Bronchi","Alveolar sacs"],"Muscle replaces the cartilage"),
+("The trachealis muscle is best described as:",["Muscle closing the back of the C-rings, separate from the mucosa","The tracheal muscularis mucosa, just under the lamina propria","A spiral of muscle forming knobs at alveolar openings","A thin band that marks the end of the tracheal mucosa"],"Slide lists it with the rings in the adventitia"),
+("Basel said that where the trachea enters the thoracic cavity, its outer layer becomes:",["Serosa","Adventitia","Submucosa","Lamina propria"],"Neck = adventitia · thorax = serosa (lecture)"),
+("As airways become bronchioles, goblet cells are replaced by:",["Club (Clara) cells","Basal cells","Type II pneumocytes","Diffuse neuroendocrine cells"],"Bronchi still have goblet cells, no club cells"),
+("Which TWO cell types produce surfactant, per Basel?",["Club cells and type II pneumocytes","Type I and type II pneumocytes","Goblet cells and club cells","Type II pneumocytes and macrophages"],"Club cells start it; type II cells make most"),
+("A non-ciliated stem cell that detoxifies (CYP450) lives in the ___; a cuboidal surfactant-secreting cell lives in the ___.",["Bronchioles; alveoli","Alveoli; bronchioles","Bronchi; alveolar ducts","Trachea; bronchioles"],"Club cell, then type II pneumocyte"),
+("Small patches of cuboidal cells covering smooth muscle knobs are the hallmark of:",["Alveolar ducts","Alveolar sacs","Respiratory bronchioles","Bronchioles"],""),
+("The airway ends in a dead-end space with no knobs and no cuboidal cells. This is the:",["Alveolar sac","Alveolar duct","Respiratory bronchiole","Bronchiole"],""),
+("The first airway with alveoli opening off its wall, still lined by cuboidal cells with continuous muscle, is the:",["Respiratory bronchiole","Alveolar duct","Bronchiole","Bronchus"],""),
+("How many types of bronchiole does Basel define for this course?",["Two: bronchiole and respiratory bronchiole","Three: terminal, respiratory, and lobular","One: the bronchiole only","Two: terminal and respiratory bronchioles"],"\"I don't care\" about the textbook subtypes"),
+("The fiber framework (stroma) inside the wall between neighboring alveoli is made of:",["Collagen and elastin","Hyaline cartilage","Seromucous glands","Smooth muscle knobs"],"Septum = the wall · stroma = its fibers"),
+("Loose connective tissue directly beneath the airway epithelium is the:",["Lamina propria","Adventitia","Serosa","Submucosa"],"Adventitia = outermost, blends into neighbors"),
+("Which feature identifies the vestibular (false) fold?",["Respiratory epithelium with mixed glands","Stratified squamous non-keratinized epithelium","A muscular core under the epithelium","Olfactory epithelium with basal cells"],"True fold = muscular, stratified squamous"),
+("Cartilage PLATES (not rings) plus seromucous glands identify a:",["Bronchus","Bronchiole","Trachea","Respiratory bronchiole"],""),
+("Misregulation of diffuse neuroendocrine cells, which release serotonin, can contribute to:",["Asthma","Pneumothorax","Tracheal collapse","Loss of smell"],""),
+("Club cells break down mucus mainly to:",["Keep mucus off the gas-exchange barrier","Help cilia carry mucus to the pharynx","Dissolve odorants for sensory neurons","Feed the goblet cells of the bronchi"],"Lecture: mucus could cover the diffusion barrier"),
+("Going from bronchioles to alveolar sacs, smooth muscle:",["Decreases until it is absent in the sacs","Increases until it peaks in the sacs","Stays continuous through the sacs","Is replaced by cartilage plates"],""),
+("In the nasal cavity, what supporting tissue often appears in the adventitia?",["Bone of the conchae and skull","Hyaline cartilage plates","C-shaped cartilage rings","Smooth muscle knobs"],""),
+("Horses are obligate nasal breathers because of the position of the:",["Epiglottis","Nasal conchae","Trachealis muscle","Vestibular fold"],""),
+("In spontaneous pneumothorax, air enters the pleural cavity through failure of the:",["Visceral pleura","Parietal pleura","Trachealis muscle","Alveolar septum"],"Usually ruptured blebs/bullae"),
+("Moving from the trachea to the bronchi, the epithelium:",["Stays pseudostratified but gets shorter","Becomes simple cuboidal with club cells","Becomes stratified squamous","Loses all of its cilia"],"Also fewer goblet cells"),
+]
 def letters(n,seed):
     r=random.Random(seed)
     while True:
@@ -105,7 +132,7 @@ def page(fn,title,sub,qs):
         out.append(f'<div class="q" data-a="{json.dumps(ans)}" data-m="0"><h3><span>Q{i}</span>{E(stem)}</h3>{ob}<div class="ans">✅ <b>{chr(65+ans[0])}. {E(opts[ans[0]])}</b>{" · "+E(why) if why else ""}</div></div>')
     open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><style>{CSS}.ans{{display:none;margin-top:8px;padding:10px 12px;border-radius:12px;background:#fdf2f9;font-size:15px}}.q.done .ans{{display:block}}</style></head><body><div class="wrap"><a class="back" href="systems-lec-exam3.html?v={V}">← Back to Exam 4 hub</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="bar"><button id="shuf">🎲 Shuffle</button><button id="miss">🔁 Misses only</button><button id="all">↺ Show all</button><span class="score" id="sc"></span></div><div id="qs">{"".join(out)}</div></div><script>{JS}</script></body></html>')
 import collections
-for k,(X,seed) in enumerate(((X1,11),(X2,22),(X3,33)),1):
+for k,(X,seed) in enumerate(((X1,11),(X2,22),(X3,33),(X4,44)),1):
     q=arrange(X,seed)
-    page(f'systems-lec3-basel{k}.html',f'🔬 Basel Practice Exam {k}','25 Q · LC38–39 pulmonary microanatomy · from Basel\'s slides only',q)
+    page(f'systems-lec3-basel{k}.html',f'🔬 Basel Practice Exam {k}'+(' · Misses' if k==4 else ''),f'{len(q)} Q · LC38–39 pulmonary microanatomy · from Basel\'s slides only',q)
     print(k,len(q),''.join(chr(65+a[2][0]) for a in q),collections.Counter(chr(65+a[2][0]) for a in q))
