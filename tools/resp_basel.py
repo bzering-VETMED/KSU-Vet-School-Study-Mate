@@ -22,6 +22,16 @@ X1=[
 ("The blood–air barrier is formed mainly by:",["Type I pneumocytes and endothelial cells","Type II pneumocytes and endothelial cells","Type I pneumocytes and alveolar macrophages","Club cells and type II pneumocytes"],"Both squamous cells"),
 ("In feline asthma, the bright branching pattern along the airways on x-ray reflects:",["Inflammation around bronchi and bronchioles","Air pockets in the pleural cavity","Ruptured blebs on the lung surface","Collapse of tracheal cartilage rings"],"Himalayan cat case (LC39)"),
 ("Birds achieve unidirectional airflow through their lungs using:",["Anterior and posterior air sacs","Buccal pumping with throat muscles","A diaphragm like crocodilians","Gas exchange across the skin"],"Buccal pumping = some lizards · skin = amphibians"),
+("Basel's upper airways are the:",["Nares, nasal cavity, and pharynx","Larynx, trachea, and bronchial tree","Nares, larynx, and trachea","Pharynx, larynx, and bronchi"],"Lower = larynx, trachea, bronchial tree, lungs"),
+("The loose connective tissue of the mucosa is the:",["Lamina propria","Submucosa","Adventitia","Muscularis mucosa"],""),
+("In the nasal cavity, the submucosa often contains:",["Submucosal (mucus) glands","Olfactory sensory neurons","Cartilage rings","Smooth muscle knobs"],""),
+("The cilia and goblet cells of respiratory epithelium work together to:",["Move mucus up the airways to clear debris","Dissolve odors and refresh the olfactory system","Secrete surfactant to lower surface tension","Detoxify inhaled substances with CYP450"],""),
+("The larynx is best described as:",["A cartilage-walled structure housing the vocal folds","A muscular tube closed by the trachealis","A bony chamber lined by olfactory epithelium","A thin-walled duct with smooth muscle knobs"],""),
+("Club cells act as stem cells in the:",["Bronchioles","Trachea","Nasal cavity","Alveolar sacs"],""),
+("Type I pneumocytes are:",["Squamous cells lining alveoli that form the barrier","Cuboidal cells that secrete pulmonary surfactant","Phagocytic cells that keep alveoli free of debris","Non-ciliated cells that break down mucus"],""),
+("Alveoli are best described as:",["Blind ends where gas exchange occurs by diffusion","Conducting tubes lined by respiratory epithelium","Transition zones with continuous smooth muscle","Spaces between visceral and parietal pleura"],""),
+("A dog has dusky mucous membranes, orthopneic posture, and air outside the lungs on x-ray with no trauma. Diagnosis?",["Spontaneous pneumothorax","Allergic airway inflammation (asthma)","Collapse of the tracheal cartilage rings","Excess pleural fluid from lymphatics"],"Husky case (LC38)"),
+("Which reptiles use a diaphragm similar to mammals?",["Crocodilians","Snakes","Lizards that buccal pump","Lizards using chest wall muscles"],""),
 ]
 X2=[
 ("Which three cell types make up the olfactory epithelium?",["Sustentacular, basal, olfactory sensory neurons","Ciliated, goblet, and basal cells","Type I, type II, and macrophages","Ciliated, club, and neuroendocrine cells"],"Bowman's glands sit BELOW it"),
@@ -39,6 +49,16 @@ X2=[
 ("Which structure is ABSENT from bronchioles?",["Cartilage","Smooth muscle","Ciliated cells","Club cells"],"Also no glands"),
 ("The 'smooth muscle knobs' of alveolar ducts are really:",["A spiral of smooth muscle seen in cross-section","Remnants of the bronchial cartilage plates","Clusters of type II pneumocytes","Bundles of collagen and elastin"],"Covered by a few cuboidal cells"),
 ("The serous membrane that covers the surface of the lung is the:",["Visceral pleura","Parietal pleura","Pleural cavity","Adventitia"],"Parietal = on the thoracic wall"),
+("Epithelium plus lamina propria (plus muscularis mucosa) make up the:",["Mucosa","Submucosa","Adventitia","Serosa"],""),
+("Basel's slide describes the outer layer of the trachea as:",["Adventitia that blends into surrounding tissue","Serosa bounded by a serous membrane","Submucosa with seromucous glands","Muscularis mucosa with the trachealis"],""),
+("Which feature is found in bronchi but NOT bronchioles?",["Submucosal (bronchial) glands","Smooth muscle","Ciliated epithelial cells","Lamina propria"],""),
+("Club (Clara) cells are:",["Non-ciliated cells of the bronchiolar epithelium","Ciliated cells of the bronchial epithelium","Squamous cells of the alveolar wall","Mucus-secreting cells of the trachea"],""),
+("Respiratory bronchioles are the transition between:",["Conducting and gas-exchange airways","Upper and lower airways","Visceral and parietal pleura","The trachea and the bronchi"],""),
+("As alveoli crowd the alveolar duct wall, its epithelium:",["Persists only in small cuboidal patches","Becomes taller pseudostratified epithelium","Changes to stratified squamous epithelium","Gains more goblet cells and glands"],""),
+("Endothelial cells of the alveolar septum are:",["Squamous cells lining the capillaries","Cuboidal cells that secrete surfactant","Phagocytic cells that remove debris","Columnar cells with motile cilia"],""),
+("The pleural cavity wraps around each lung like:",["A double-walled balloon","A C-shaped cartilage ring","A spiral of smooth muscle","A blind-ended alveolar sac"],""),
+("Pleural fluid mainly functions to:",["Minimize friction as the lungs move","Exchange gas with pleural capillaries","Secrete surfactant onto the lung surface","Hold the airway cartilage rings open"],""),
+("Bronchi have which cartilage arrangement?",["Plates, not complete rings","C-shaped rings closed by muscle","Complete circular rings","No cartilage at all"],""),
 ]
 X3=[
 ("Which statement about respiratory epithelium is INCORRECT?",["It is simple cuboidal with many club cells","Its cilia move mucus up the airways","Its goblet cells produce mucus","It covers most airways until the lungs"],"That's bronchiolar epithelium"),
@@ -56,6 +76,16 @@ X3=[
 ("Which is the correct airflow order?",["Nares → nasal cavity → pharynx → larynx → trachea","Nares → pharynx → nasal cavity → larynx → trachea","Nares → nasal cavity → larynx → pharynx → trachea","Nasal cavity → nares → pharynx → trachea → larynx"],""),
 ("Which structure does Basel classify as part of the LOWER airways?",["Larynx","Pharynx","Nasal cavity","Nares"],"Upper = nares, nasal cavity, pharynx"),
 ("Which feature is continuous in respiratory bronchioles but breaks into knobs in alveolar ducts?",["Smooth muscle (muscularis mucosa)","Hyaline cartilage plates","Goblet cells","Submucosal glands"],""),
+("Which is NOT true of the trachealis muscle?",["It secretes seromucous fluid","It closes the C-shaped rings","It accommodates the esophagus","It helps prevent collapse on inhalation"],""),
+("Which is NOT a cell of the alveoli/alveolar septum?",["Club cell","Type I pneumocyte","Type II pneumocyte","Endothelial cell"],""),
+("Compared with bronchial epithelium, bronchiolar epithelium is:",["Simple columnar/cuboidal with club cells","Pseudostratified with goblet cells","Stratified squamous non-keratinized","Olfactory with sensory neurons"],""),
+("Which airway has a continuous muscularis mucosa AND openings to alveoli?",["Respiratory bronchiole","Alveolar sac","Bronchus","Alveolar duct"],""),
+("Which pair is correctly matched?",["Vestibular fold — respiratory epithelium","True vocal fold — respiratory epithelium","Olfactory region — stratified squamous","Bronchiole — pseudostratified with glands"],""),
+("Inflammation in feline asthma leads to all of these EXCEPT:",["Air entering the pleural cavity","Recruitment of more immune cells","Increased mucus secretion","Increased airway muscle contraction"],""),
+("A connective tissue layer that blends into surrounding organs is called:",["Adventitia","Serosa","Submucosa","Lamina propria"],""),
+("On Basel's upper airway slide, the hard and soft palates separate the nasal cavity from the:",["Oral cavity","Larynx","Trachea","Pleural cavity"],""),
+("Alveolar macrophages:",["Phagocytose debris to keep alveoli clear","Secrete surfactant to lower surface tension","Form the blood–air barrier with endothelium","Act as stem cells for bronchioles"],""),
+("Which change does NOT occur moving from bronchi to bronchioles?",["Glands increase","Cartilage disappears","Epithelium gets shorter","Club cells increase"],""),
 ]
 def letters(n,seed):
     r=random.Random(seed)
@@ -72,10 +102,10 @@ def page(fn,title,sub,qs):
     out=[]
     for i,(stem,opts,ans,why) in enumerate(qs,1):
         ob=''.join(f'<button class="opt">{chr(65+j)}. {E(o)}</button>' for j,o in enumerate(opts))
-        out.append(f'<div class="q" data-a="{json.dumps(ans)}" data-m="0"><h3><span>Q{i}</span>{E(stem)}</h3>{ob}<div class="why">✅ <b>{chr(65+ans[0])}</b>{" · "+E(why) if why else ""}</div></div>')
-    open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><style>{CSS}</style></head><body><div class="wrap"><a class="back" href="systems-lec-exam3.html?v={V}">← Back to Exam 4 hub</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="bar"><button id="shuf">🎲 Shuffle</button><button id="miss">🔁 Misses only</button><button id="all">↺ Show all</button><span class="score" id="sc"></span></div><div id="qs">{"".join(out)}</div></div><script>{JS}</script></body></html>')
+        out.append(f'<div class="q" data-a="{json.dumps(ans)}" data-m="0"><h3><span>Q{i}</span>{E(stem)}</h3>{ob}<div class="ans">✅ <b>{chr(65+ans[0])}. {E(opts[ans[0]])}</b>{" · "+E(why) if why else ""}</div></div>')
+    open(fn,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><style>{CSS}.ans{{display:none;margin-top:8px;padding:10px 12px;border-radius:12px;background:#fdf2f9;font-size:15px}}.q.done .ans{{display:block}}</style></head><body><div class="wrap"><a class="back" href="systems-lec-exam3.html?v={V}">← Back to Exam 4 hub</a><div class="hero"><h1>{E(title)}</h1><p>{E(sub)}</p></div><div class="bar"><button id="shuf">🎲 Shuffle</button><button id="miss">🔁 Misses only</button><button id="all">↺ Show all</button><span class="score" id="sc"></span></div><div id="qs">{"".join(out)}</div></div><script>{JS}</script></body></html>')
 import collections
 for k,(X,seed) in enumerate(((X1,11),(X2,22),(X3,33)),1):
     q=arrange(X,seed)
-    page(f'systems-lec3-basel{k}.html',f'🔬 Basel Practice Exam {k}','15 Q · LC38–39 pulmonary microanatomy · from Basel\'s slides only',q)
+    page(f'systems-lec3-basel{k}.html',f'🔬 Basel Practice Exam {k}','25 Q · LC38–39 pulmonary microanatomy · from Basel\'s slides only',q)
     print(k,len(q),''.join(chr(65+a[2][0]) for a in q),collections.Counter(chr(65+a[2][0]) for a in q))
