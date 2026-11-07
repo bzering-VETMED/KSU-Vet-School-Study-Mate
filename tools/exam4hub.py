@@ -8,14 +8,14 @@ TILES = [  # (emoji, href, title, blurb)
     ("⚡", "gross-anatomy-lc28-cards.html", "L28 Terms", "Digestive Components of the Head 1 · 112 terms · ★ 51 · slides + lecture 11/2 · oral cavity, palate, tongue, salivary glands"),
     ("⚡", "gross-anatomy-lc29-cards.html", "L29 Terms", "Digestive Components of the Head 2 · 149 terms · ★ 61 · slides + lecture 11/5 · teeth, dental formulae, Triadan, pharynx"),
     ("🦷", "gross-anatomy-l29-teeth.html", "L29 Teeth · Tap to Reveal", "Your lecture photos (tooth types, parts of a tooth) + Triadan quadrants & tables, roots, dental formulae, eruption times"),
-    ("⚡", "gross-anatomy-lc30-cards.html", "L30 Terms", "Eye · 142 terms · ★ 64 · slides only (lecture Wed 11/4)"),
+    ("⚡", "gross-anatomy-lc30-cards.html", "L30 Terms", "Eye · 155 terms · ★ 77 · lecture 11/4 woven in through the iris; rest slide-only until Mon 11/9"),
     ("⚡", "gross-anatomy-lc32-cards.html", "L32 Terms", "Head Vessels · 120 terms · ★ 52 · slides only (lecture Wed 11/11) · arterial branches + venous drainage"),
     ("⚡", "gross-anatomy-lc34-cards.html", "L34 Terms", "Brain & Meninges · 138 terms · ★ 52 · slides only (lecture Mon 11/16)"),
 ]
 LECTURES = [  # from the Canvas lecture schedule
     ("Mon 10/26", "L26", "Pelvic limb vessels & nerves", "Dr. Malreddy", "built (slides + transcript)"),
     ("Mon 11/2", "L28", "Digestive components of head 1", "Dr. Diehl", "built (slides + transcript)"),
-    ("Wed 11/4", "L30", "Eye", "Dr. Malreddy", "built (slides)"),
+    ("Wed 11/4", "L30", "Eye", "Dr. Malreddy", "built (slides + part-1 transcript)"),
     ("Thu 11/5", "L29", "Digestive components of head 2", "Dr. Diehl", "built (slides + transcript)"),
     ("Mon 11/9", "L31", "Ear", "Dr. Malreddy", ""),
     ("Wed 11/11", "L32", "Head vessels · Quiz 8", "Dr. Klimek", "built (slides)"),

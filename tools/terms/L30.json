@@ -1,6 +1,8 @@
 {
  "traps": [
-  "📄 Built from the SLIDES only (lecture Wed 11/4) — stars and corrections update when the transcript arrives.",
+  "📄 Lecture 11/4 (Dr. Malreddy) covered slides 1–29 (through the iris). Sections marked '(slides · lecture continues Mon 11/9)' are slide-only until that transcript arrives.",
+  "✅ CLOSED (slide 23 flag): lecture — the extrinsic eye muscles attach at the LIMBUS region, on the SCLERA. Limbus = 'excellent site' for their attachment.",
+  "🎯 Monday 11/9 quiz covers only what he finished (through the iris) — not the rest of the slides.",
   "Palpebral conjunctiva (lines INNER surface of eyelids) vs bulbar conjunctiva (covers SCLERA) — the fornix is the angle where they meet; conjunctival sac = potential space when the eye is closed (slides 15–16).",
   "Lacrimal GLAND (~70% of tears, dorsolateral) vs gland of the THIRD EYELID (~30%, medial, surrounds the cartilage stem) — and don't confuse the lacrimal gland with the lacrimal SAC (a drainage step, slides 20–21).",
   "Tear drainage order: puncta → canaliculi → lacrimal SAC → nasolacrimal DUCT → nasal vestibule. Sac comes BEFORE duct (slide 20).",
@@ -13,10 +15,68 @@
   "Dorsal oblique vs ventral oblique: only the DORSAL oblique is cranial nerve IV (trochlear); the ventral oblique is cranial nerve III (oculomotor) (slide 42).",
   "LR6 Do4 Rest3 — but retractor bulbi is colored RED on slide 42 (same color as lateral rectus = cranial nerve VI, abducent). It is an exception to 'Rest3' (outside knowledge — confirm: retractor bulbi = abducent nerve).",
   "Retractor bulbi (muscle of the GLOBE) vs retractor anguli oculi lateralis (muscle of the EYELIDS) vs levator anguli oculi medialis vs levator palpebrae superioris — look-alike names (slide 39).",
-  "⚠️ FLAG (slide 23): 'Insertion of extrinsic ocular muscles' sits directly under 'Limbus – corneoscleral junction' with no bullet of its own. Read literally it says the muscles insert at the limbus; standard anatomy has the extrinsic muscles inserting on the SCLERA (outside knowledge — confirm in lecture which the professor means).",
-  "⚠️ FLAG (slides 4–5): slide 4 lists 'Meridional and sagittal planes' but slide 5 defines only the meridional plane; sagittal is never defined on the slides."
+  "⚠️ FLAG (slides 4–5): slide 4 lists 'Meridional and sagittal planes' but slide 5 defines only the meridional plane; sagittal is never defined on the slides.",
+  "ORBIT = the cone-shaped SPACE · ORBITAL MARGIN = its rim (frontal, lacrimal, zygomatic bones + orbital ligament) · PERIORBITA = connective tissue + smooth muscle sheath INSIDE the orbit around the contents.",
+  "Orbital LIGAMENT is unique to the DOG — cats and other species have a complete bony orbital margin. Palatine bone is NOT part of the orbital margin.",
+  "Third eyelid: BOTH surfaces (bulbar and palpebral) are lined by PALPEBRAL conjunctiva. Bulbar conjunctiva = only on the sclera.",
+  "Nictitating membrane = non-mammal term (no cartilage); mammals have a T-shaped cartilage → call it third eyelid / plica semilunaris.",
+  "Aqueous humor (ciliary body, inside the eye) ≠ tears (lacrimal gland + gland of third eyelid, conjunctival sac).",
+  "Pupil is a SPACE, not a structure — the iris makes it."
  ],
  "sections": [
+  {
+   "title": "📣 Exam signals & scope (lecture 11/4)",
+   "items": [
+    {
+     "q": "Tear drainage sequence — how important?",
+     "a": "'That is important to know that sequence': glands → conjunctival sac → puncta → canaliculi → lacrimal sac → nasolacrimal duct → nasal vestibule",
+     "star": true,
+     "why": "Stated directly"
+    },
+    {
+     "q": "Cornea blood supply?",
+     "a": "AVASCULAR — no direct blood supply (diffusion) — 'I want you to remember'",
+     "star": true,
+     "why": "Stated directly"
+    },
+    {
+     "q": "Orbital ligament — which species?",
+     "a": "Dog only (other species: complete bony orbital margin); you'll ID it on the cadaver head",
+     "star": true,
+     "why": "Stressed + lab ID"
+    },
+    {
+     "q": "In-class question: the posterior (bulbar) surface of the third eyelid is covered by…",
+     "a": "PALPEBRAL conjunctiva (both surfaces are)",
+     "star": true,
+     "why": "In-class question — he spent a long time on it"
+    },
+    {
+     "q": "In-class question: which bone is NOT part of the orbital margin?",
+     "a": "Palatine bone",
+     "star": true,
+     "why": "In-class question"
+    },
+    {
+     "q": "Monday 11/9 quiz scope?",
+     "a": "Only material finished on 11/4 (through the iris)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spelling of 'ophthalmology'?",
+     "a": "Not on the exam (silent-L joke)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lab: group lab exam?",
+     "a": "Announcement + mock activity at the start of lab — don't be late",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
   {
    "title": "📋 Learning objectives & scope (slides)",
    "items": [
@@ -69,7 +129,7 @@
    "items": [
     {
      "q": "List the orientation terms covered for the eye (slide 4)…",
-     "a": "Anterior and posterior poles; meridional and sagittal planes; equator; transverse, coronal, frontal planes; inner vs outer; medial vs lateral; dorsal vs ventral",
+     "a": "Anterior + posterior poles; meridional plane; equator; coronal/transverse/frontal planes; inner/outer; dorsal (superior)/ventral (inferior); medial (nasal)/lateral (temporal). Eye uses HUMAN terms.",
      "star": true,
      "why": "LO1 summary list (slide 4)"
     },
@@ -87,19 +147,19 @@
     },
     {
      "q": "Meridional plane (slide 5)?",
-     "a": "The central plane of the eye that passes through the anterior and posterior poles",
+     "a": "The central plane of the eye that passes through the anterior and posterior poles — ANY plane connecting the two poles is meridional.",
      "star": true,
      "why": "Bold definition (slide 5)"
     },
     {
      "q": "Equator (slide 6)?",
-     "a": "The imaginary line extending around the eyeball midway between the anterior and posterior poles",
+     "a": "The imaginary line extending around the eyeball midway between the anterior and posterior poles — perpendicular to the meridional plane.",
      "star": true,
      "why": "Bold definition (slide 6)"
     },
     {
      "q": "Coronal, transverse and frontal planes of the eye are oriented how (slide 6)?",
-     "a": "Parallel to the equator",
+     "a": "Parallel to the equator but NOT at its midpoint; any of them can be called coronal, frontal or transverse.",
      "star": true,
      "why": "Bold definition (slide 6)"
     },
@@ -111,7 +171,7 @@
     },
     {
      "q": "Dorsal and ventral on the eye equal… (slide 7)",
-     "a": "Dorsal = superior; ventral = inferior",
+     "a": "Dorsal = superior; ventral = inferior (Muscles use the NAV terms dorsal/ventral.)",
      "star": true,
      "why": "Bold definitions (slide 7)"
     },
@@ -123,7 +183,13 @@
     },
     {
      "q": "Slide 8 photo: Yorkshire terrier with a red mass at the medial angle of the eye. What is it?",
-     "a": "Not labeled on the slide. It appears to be a prolapsed gland of the third eyelid ('cherry eye') sitting at the nasal (medial) side (outside knowledge — confirm)",
+     "a": "Cherry eye: prolapse of the superficial gland of the third eyelid, at the MEDIAL canthus.",
+     "star": true,
+     "why": "Clinical example in lecture"
+    },
+    {
+     "q": "Why do eye terms use anterior/posterior/superior/inferior?",
+     "a": "They're HUMAN terms; vet ophthalmology kept them (anterior = toward the front of the eye)",
      "star": false,
      "why": ""
     }
@@ -140,7 +206,7 @@
     },
     {
      "q": "Orbit contains… (slide 9)",
-     "a": "The eyeball and the ocular adnexa (accessory structures: eyelids, conjunctiva, lacrimal apparatus, muscles)",
+     "a": "Eyeball + ocular adnexa ('adnexa' = associated/extra structures of the eyeball)",
      "star": false,
      "why": ""
     },
@@ -170,15 +236,15 @@
     },
     {
      "q": "Orbital margin: which bones form it (slide 11)?",
-     "a": "Frontal, lacrimal and zygomatic bones (osseous margin)",
+     "a": "Frontal, lacrimal and zygomatic bones (osseous margin) — bony part; NOT the palatine bone (in-class question)",
      "star": true,
      "why": "Color-coded on skull + caption (slide 11)"
     },
     {
      "q": "How is the dorsolateral gap in the orbital margin closed (slide 11)?",
-     "a": "By the orbital ligament",
+     "a": "By the orbital ligament (connective tissue) — UNIQUE to the dog; other species have a complete bony margin.",
      "star": true,
-     "why": "Bold 'orbital ligament' + 'Orbital Lig.' label (slide 11)"
+     "why": "Dog-only structure, stressed"
     },
     {
      "q": "Color code on the slide 11 skull: yellow / blue / green?",
@@ -190,7 +256,7 @@
      "q": "Periorbita (slide 13)?",
      "a": "A sheath of connective tissue and smooth muscle that encloses the orbital contents",
      "star": true,
-     "why": "Star marker on slide 13"
+     "why": "Lecture: orbit vs orbital margin vs periorbita is the LO2 distinction"
     },
     {
      "q": "Orbit vs orbital margin vs periorbita, in one line each (LO2)?",
@@ -217,15 +283,15 @@
     },
     {
      "q": "Commissure (canthus) = ?",
-     "a": "The angle where the upper and lower eyelids meet; medial and lateral palpebral commissures (slide 14)",
+     "a": "The angle where the upper and lower eyelids meet; medial and lateral palpebral commissures (slide 14) 'Canthus' is the more clinical term.",
      "star": false,
      "why": ""
     },
     {
      "q": "Palpebral fissure (slide 14)?",
      "a": "The opening between the upper and lower eyelids",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Compared to the rima pudendi (vulvar cleft)"
     },
     {
      "q": "Palpebral ligaments (slide 14)?",
@@ -246,7 +312,7 @@
    "items": [
     {
      "q": "Conjunctiva: what kind of tissue (slide 15)?",
-     "a": "Richly vascular mucous membrane",
+     "a": "Richly vascular mucous membrane (= tunica mucosa; like the gums you press for capillary refill time)",
      "star": true,
      "why": "'Richly vascular' underlined (slide 15)"
     },
@@ -264,13 +330,13 @@
     },
     {
      "q": "Fornix (slide 15)?",
-     "a": "The angle formed between the palpebral and bulbar conjunctiva",
+     "a": "The angle/junction where palpebral and bulbar conjunctiva meet (palpebral or conjunctival fornix) — caudal end of the conjunctival sac.",
      "star": true,
      "why": "Bold term (slide 15)"
     },
     {
      "q": "Conjunctival sac (slide 15)?",
-     "a": "Potential cavity formed when the eye is closed",
+     "a": "Space enclosed by the eyelids/conjunctiva (conjunctival cavity); its opening = palpebral fissure; tears pool here; eye drops go here.",
      "star": true,
      "why": "Bold term (slide 15)"
     },
@@ -285,6 +351,18 @@
      "a": "Red = palpebral conjunctiva; purple = bulbar conjunctiva; fornix = where they meet; dashed space = conjunctival sac; third eyelid sits ventromedially",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Palpebrae vs palpebra?",
+     "a": "Palpebrae = plural (eyelids); palpebra = singular",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Upper/lower eyelid — official names?",
+     "a": "Superior palpebra / inferior palpebra (human terms, not dorsal/ventral)",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -293,7 +371,7 @@
    "items": [
     {
      "q": "Other name for the third eyelid (slide 17)?",
-     "a": "Plica semilunaris",
+     "a": "Plica semilunaris; nictitating membrane is the NON-mammal term (no cartilage)",
      "star": true,
      "why": "Bold term (slide 17)"
     },
@@ -311,9 +389,9 @@
     },
     {
      "q": "Superficial gland of the third eyelid: what kind of gland and where (slide 17)?",
-     "a": "Accessory lacrimal gland; surrounds the cartilage 'stem'",
-     "star": false,
-     "why": ""
+     "a": "Accessory lacrimal gland ('superficial gland of the third eyelid' = full name); at the base of the T-shaped cartilage; vestigial in humans.",
+     "star": true,
+     "why": "Cherry eye gland — makes ~30% of tears"
     },
     {
      "q": "Labels on the slide 17 third-eyelid drawings?",
@@ -323,9 +401,9 @@
     },
     {
      "q": "Two surfaces of the third eyelid (slide 18)?",
-     "a": "Palpebral surface (faces the eyelids) and bulbar surface (faces the eyeball)",
-     "star": false,
-     "why": ""
+     "a": "Bulbar surface faces the eyeball (posterior); palpebral surface faces the eyelids (anterior) — BOTH lined by palpebral conjunctiva.",
+     "star": true,
+     "why": "In-class question"
     },
     {
      "q": "Where is the lymphoid tissue of the third eyelid (slide 18)?",
@@ -346,7 +424,7 @@
    "items": [
     {
      "q": "Tear sources and their share (slide 20)?",
-     "a": "Lacrimal gland (~70%) or gland of the third eyelid (~30%)",
+     "a": "Lacrimal gland ~70%; superficial gland of the third eyelid ~30% → don't remove a cherry eye, replace it surgically.",
      "star": true,
      "why": "Flow-chart spine with numbers (slide 20)"
     },
@@ -400,7 +478,13 @@
     },
     {
      "q": "Slide 21 inset photo: green dye at a dog's nostril. What does it show?",
-     "a": "Fluorescein placed in the eye appearing at the nostril, showing a patent nasolacrimal drainage pathway (outside knowledge — confirm; slide does not label it)",
+     "a": "Fluorescein (corneal-ulcer test) dropped into the conjunctival sac shows up at the nostril (nasal vestibule) — proves the duct is open. Also why your nose runs when you cry.",
+     "star": true,
+     "why": "Clinical example in lecture"
+    },
+    {
+     "q": "Lacrimal puncta — how many?",
+     "a": "Two: superior (upper eyelid) + inferior (lower eyelid) lacrimal puncta; may be collapsed on embalmed dogs",
      "star": false,
      "why": ""
     }
@@ -417,7 +501,7 @@
     },
     {
      "q": "Parts of the external fibrous coat (slide 23)…",
-     "a": "Cornea, sclera, limbus",
+     "a": "Cornea (anterior ~1/3, transparent), sclera (posterior ~2/3, white), limbus (corneoscleral junction)",
      "star": true,
      "why": "Bold terms (slide 23)"
     },
@@ -441,15 +525,15 @@
     },
     {
      "q": "Fibrous coat: what attaches / passes / continues (slide 23)?",
-     "a": "Insertion of extrinsic ocular muscles; penetrated by blood vessels and nerves; continuous with the dura mater of the brain",
-     "star": false,
-     "why": ""
+     "a": "Extrinsic ocular muscles attach at the limbus region (on the sclera); vessels + nerves penetrate the sclera; continuous with the dura mater.",
+     "star": true,
+     "why": "Limbus = muscle attachment site"
     },
     {
      "q": "The sclera is continuous with which brain covering (slide 23)?",
      "a": "The dura mater",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Stated in lecture"
     },
     {
      "q": "Slide 24 figure color code: red vs blue?",
@@ -462,6 +546,12 @@
      "a": "Cornea, limbus, sclera (sectioned eye, enlarged at the corneoscleral junction)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "What surrounds the CNS that the fibrous tunic continues as?",
+     "a": "Dura mater (one of the connective tissue coverings of the brain)",
+     "star": false,
+     "why": ""
     }
    ]
   },
@@ -470,7 +560,7 @@
    "items": [
     {
      "q": "Other name for the middle vascular coat (slide 27)?",
-     "a": "Uvea",
+     "a": "Uvea (inflammation = uveitis)",
      "star": true,
      "why": "Bold heading (slide 27)"
     },
@@ -488,21 +578,21 @@
     },
     {
      "q": "Tapetum lucidum (slide 27)?",
-     "a": "Reflective area in the dorsal fundus (part of the choroid)",
+     "a": "Reflective layer in the DORSAL part of the choroid; reflects light back = improves vision in dim light (the eyeshine you see in deer at night).",
      "star": true,
      "why": "Bold term (slide 27)"
     },
     {
      "q": "Ciliary body: what is it (slide 27)?",
-     "a": "Thickened mound at the limbus",
+     "a": "Thickened mound of the uvea at the level of the limbus; contains the ciliary muscles (intrinsic).",
      "star": true,
      "why": "Bold term (slide 27)"
     },
     {
      "q": "Three functions of the ciliary body (slide 27)…",
-     "a": "Produces aqueous humor; suspends the lens via zonular fibers from the ciliary processes; ciliary muscle regulates the shape of the lens",
-     "star": false,
-     "why": ""
+     "a": "Produces aqueous humor (NOT tears); its ciliary processes anchor the zonular fibers that suspend the lens; ciliary muscles change lens shape.",
+     "star": true,
+     "why": "Lecture: aqueous humor is not the same as tears"
     },
     {
      "q": "The lens hangs from the ciliary processes by… (slide 27)",
@@ -512,7 +602,7 @@
     },
     {
      "q": "Iris (slide 27)?",
-     "a": "Most anterior segment of the uvea; regulates the diameter of the pupil",
+     "a": "Most anterior part of the uvea; gives eye color; its muscles change the size of the PUPIL (a space, not a structure).",
      "star": true,
      "why": "Bold term (slide 27)"
     },
@@ -543,7 +633,7 @@
    ]
   },
   {
-   "title": "🔬 LO4 · Anterior segment figure (Figure 9-5)",
+   "title": "🔬 LO4 · Anterior segment figure (Figure 9-5) (slides · lecture continues Mon 11/9)",
    "items": [
     {
      "q": "Figure 9-5 key, 1–5 (slide 30)…",
@@ -566,7 +656,7 @@
    ]
   },
   {
-   "title": "🧠 LO4 · Internal nervous tunic (retina)",
+   "title": "🧠 LO4 · Internal nervous tunic (retina) (slides · lecture continues Mon 11/9)",
    "items": [
     {
      "q": "Internal nervous coat = ? (slide 31)",
@@ -631,7 +721,7 @@
    ]
   },
   {
-   "title": "🫧 LO4 · Compartments & aqueous humor",
+   "title": "🫧 LO4 · Compartments & aqueous humor (slides · lecture continues Mon 11/9)",
    "items": [
     {
      "q": "Compartments of the eye, posterior to anterior (slide 34)…",
@@ -708,7 +798,7 @@
    ]
   },
   {
-   "title": "⚙️ LO5 · Intrinsic muscles",
+   "title": "⚙️ LO5 · Intrinsic muscles (slides · lecture continues Mon 11/9)",
    "items": [
     {
      "q": "Intrinsic muscles of the eye (slide 38)…",
@@ -779,7 +869,7 @@
    ]
   },
   {
-   "title": "🎯 LO5 · Extrinsic muscles",
+   "title": "🎯 LO5 · Extrinsic muscles (slides · lecture continues Mon 11/9)",
    "items": [
     {
      "q": "Seven extrinsic muscles of the globe (slide 39)…",
@@ -880,7 +970,7 @@
    ]
   },
   {
-   "title": "⚡ LO5 · Innervation & cranial nerve deficits",
+   "title": "⚡ LO5 · Innervation & cranial nerve deficits (slides · lecture continues Mon 11/9)",
    "items": [
     {
      "q": "Mnemonic for extrinsic eye muscle innervation (slide 42)?",
