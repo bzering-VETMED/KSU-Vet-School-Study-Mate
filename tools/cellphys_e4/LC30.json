@@ -7,50 +7,56 @@
  "terms": [
   [
    "Pharmacokinetics (PK)",
-   "\"What the body does to the drug\": absorption, distribution, metabolism, elimination (ADME).",
-   "S5",
-   false
+   "★ \"What the BODY does to the DRUG\": absorption, distribution, metabolism, elimination (ADME). Basel: brief primer only; pharmacology covers it next year.",
+   "S4–S5; transcript",
+   true
   ],
   [
    "Pharmacodynamics (PD)",
-   "\"What the drug does to the body\": binding, activation, systemic response.",
-   "S5",
-   false
+   "★ \"What the DRUG does to the BODY\": does it bind? what does it do when it binds? what systemic effects?",
+   "S5, S7; transcript",
+   true
   ],
   [
    "ADME",
-   "Absorption, Distribution, Metabolism, Elimination: the four pharmacokinetic processes.",
-   "S6",
+   "Absorption, Distribution, Metabolism, Elimination: the four pharmacokinetic processes (Basel: \"admi\").",
+   "S4, S6; transcript",
    false
   ],
   [
    "Absorption",
-   "How the drug gets into plasma (injection, transdermal, oral).",
-   "S6",
+   "How (and how fast) the drug gets into plasma: oral (gut), intravenous injection, transdermal (skin), inhalation (lung capillaries).",
+   "S6; transcript",
    false
   ],
   [
    "Intravenous / subcutaneous / intramuscular",
-   "Injection routes listed under absorption on the S6 figure (\"Intravenous, Subcutaneous, Intramuscular, etc.\").",
-   "S6",
+   "Injection routes on the S6 figure; IV is easiest — \"I put it in your plasma.\"",
+   "S6; transcript",
    false
   ],
   [
    "Transdermal",
-   "Absorption route through the skin.",
-   "S6",
+   "Absorption route across the skin.",
+   "S6; transcript",
    false
   ],
   [
    "Oral",
-   "Absorption route by mouth.",
-   "S6",
+   "Absorbed through the stomach or small intestine; may need modification before absorption.",
+   "S6; transcript",
+   false
+  ],
+  [
+   "Inhalation",
+   "Absorption through lung capillaries (transcript; not on S6 figure).",
+   "transcript",
    false
   ],
   [
    "Distribution",
-   "Where the drug goes in the body: bound in plasma, free in plasma, lipid, tissues A/B/C (S6 figure).",
-   "S6",
+   "Where the drug goes once in blood: bound vs free in plasma, fat (lipid) vs water, tissues A/B/C.",
+   "S6; transcript",
    false
   ],
   [
@@ -61,92 +67,98 @@
   ],
   [
    "Metabolism",
-   "How the body processes the drug, in liver (or other tissues).",
-   "S6",
+   "Chemical processing by liver (or other tissues): glucuronidation, oxidation, sulfation, reduction, hydrolysis, conjugation.",
+   "S6; transcript",
    false
   ],
   [
-   "Oxidation, reduction, hydrolysis, conjugation",
-   "Metabolism reactions listed on the slide (liver or other tissues).",
-   "S6",
+   "Glucuronidation",
+   "Liver adds a big sugar (glucuronide) → more water-soluble → kidney excretes it. Basel's acetaminophen example.",
+   "transcript",
    false
   ],
   [
    "Elimination",
-   "How the drug exits the body (\"out of the body\"); S6 figure pictures kidney and intestine; the S5 diagram labels this step excretion.",
-   "S6",
+   "How the drug exits: kidney filtration, bile, exhaled by lungs, sweated through skin (S5 diagram says \"excretion\").",
+   "S6; transcript",
+   false
+  ],
+  [
+   "Acetaminophen (PK example)",
+   "Liver glucuronidates it → kidney filters and won't reabsorb it → washes out. Mechanism of action unclear (maybe \"COX-3\"). Overdose (~10,000 mg) lethal.",
+   "transcript",
    false
   ],
   [
    "Half-life",
-   "OUTSIDE — confirm: time for plasma drug concentration to fall by 50%. Listed in objective terms, not defined on slides.",
+   "OUTSIDE — confirm: time for plasma drug concentration to fall by 50%. Listed on S4, NOT lectured (pharmacology next year).",
    "S4",
    false
   ],
   [
    "Area under the curve (AUC)",
-   "OUTSIDE — confirm: area under the plasma concentration–time curve; reflects total drug exposure. Listed, not defined on slides.",
+   "OUTSIDE — confirm: area under the plasma concentration–time curve; total drug exposure. Listed, not lectured.",
    "S4",
    false
   ],
   [
    "Cmax",
-   "OUTSIDE — confirm: maximum (peak) plasma concentration after a dose. Listed, not defined on slides.",
+   "OUTSIDE — confirm: maximum (peak) plasma concentration after a dose. Listed, not lectured.",
    "S4",
    false
   ],
   [
    "Tmax",
-   "OUTSIDE — confirm: time after dosing at which Cmax is reached. Listed, not defined on slides.",
+   "OUTSIDE — confirm: time after dosing at which Cmax is reached. Listed, not lectured.",
    "S4",
    false
   ],
   [
    "Minimum effective concentration (MEC)",
-   "OUTSIDE — confirm: lowest plasma concentration that produces the desired effect. Listed, not defined on slides.",
+   "OUTSIDE — confirm: lowest plasma concentration that produces the desired effect. Listed, not lectured.",
    "S4",
    false
   ],
   [
    "MAC",
-   "OUTSIDE — confirm: meaning not given on slides; in anesthesia = minimum alveolar concentration. Confirm which meaning Dr. Basel intends.",
+   "OUTSIDE — confirm: not expanded on slides or in lecture; in anesthesia = minimum alveolar concentration.",
    "S4",
    false
   ],
   [
    "Minimum inhibitory concentration (MIC)",
-   "OUTSIDE — confirm: lowest antimicrobial concentration that inhibits visible bacterial growth. Listed, not defined on slides.",
+   "OUTSIDE — confirm: lowest antimicrobial concentration that inhibits visible bacterial growth. Listed, not lectured.",
    "S4",
    false
   ],
   [
    "Therapeutic window",
-   "OUTSIDE — confirm: concentration range between minimum effective and toxic levels. Listed, not defined on slides.",
-   "S4",
+   "Range between therapeutic and toxic/lethal doses; Basel uses it as the window the therapeutic index describes (\"narrow window\" for chemotherapeutics).",
+   "S4; transcript",
    false
   ],
   [
-   "Binding (PD step 1)",
-   "How the drug binds the receptor; described by KD.",
-   "S7",
+   "Binding (PD question 1)",
+   "Does it bind to the receptor, and how well? → affinity, KD. In vitro, even cell-free.",
+   "S7; transcript",
    false
   ],
   [
-   "Activation (PD step 2)",
-   "What the drug does at the receptor.",
-   "S7",
+   "Activation (PD question 2)",
+   "When it binds, what does it do? → EC50, Emax. In vitro, on cells.",
+   "S7; transcript",
    false
   ],
   [
-   "Systemic response (PD step 3)",
-   "What the drug does to the body.",
-   "S7",
+   "Systemic response (PD question 3)",
+   "In a whole body, what systemic effects? → dose, ED50, TD50, LD50.",
+   "S7; transcript",
    false
   ],
   [
    "Binding study",
-   "Cell-free study of drug affinity for a receptor, ignores effect; [DR] plotted against [D]; described by KD.",
-   "S9, S12",
+   "Cell-free study of affinity only — \"does not care about any effects, just binding\"; vary [drug] at constant receptor; Michaelis-Menten-shaped curve; described by KD.",
+   "S9, S12; transcript",
    false
   ],
   [
@@ -163,141 +175,183 @@
   ],
   [
    "Dissociation constant (KD)",
-   "KD = k-1/k1 (a ratio); drug concentration (M) at which 50% of receptors are bound.",
-   "S9, S10, S12",
-   false
+   "★ KD = k-1/k1; drug CONCENTRATION (M) at which 50% of receptors are bound.",
+   "S9, S10, S12; transcript",
+   true
   ],
   [
    "Affinity",
-   "How tightly a drug binds its receptor. Low KD = high affinity; high KD = low affinity.",
-   "S10",
-   false
+   "How tightly a drug binds. ★ LOW KD = HIGH affinity; high KD = low affinity. \"Affinity isn't necessarily good or bad.\"",
+   "S10; transcript",
+   true
   ],
   [
    "Michaelis-Menten equation",
-   "Listed in S8 terms; not explained on slides. OUTSIDE — confirm: saturation equation with the same form as the binding curve.",
-   "S8",
+   "Binding curve follows Michaelis-Menten dynamics again: many open receptors → fast binding; as they fill, fewer binding events; 100% only at infinite concentration.",
+   "S8; transcript",
    false
   ],
   [
    "Concentration response study",
-   "In vitro study of how much signal a ligand causes; [drug] vs cellular effect; depends on binding + signaling; described by EC50.",
-   "S11, S12",
+   "In vitro (cells): [drug] vs cellular effect; depends on binding + signaling; described by EC50 and Emax (\"last lecture\" = LC29).",
+   "S11, S12; transcript",
    false
   ],
   [
    "Half-maximal effective concentration (EC50)",
    "Drug concentration (M) that elicits 50% of the maximal response in vitro.",
-   "S11, S12",
+   "S11, S12; transcript",
    false
   ],
   [
+   "KD and EC50 units + ideal",
+   "★ Both ALWAYS have CONCENTRATION units. In a perfect world KD = EC50 (bind 50% → 50% response).",
+   "S12; transcript",
+   true
+  ],
+  [
    "Concentration",
-   "Mass/volume or moles/volume; good for in vitro, where drug concentration at the receptor is measurable.",
-   "S14",
+   "Mass/volume or moles/volume; needs a defined volume (petri dish, cell-free) — good for in vitro.",
+   "S14; transcript",
    false
   ],
   [
    "Dose",
-   "Mass/weight or mass/surface area; better for in vivo; brings pharmacokinetic principles into play.",
-   "S14",
+   "Mass/weight (mg/kg) or mass/surface area (mg/m²; slides: μg/m²); no need to know local concentration; PK comes into play. Better for in vivo.",
+   "S14; transcript",
+   false
+  ],
+  [
+   "Dose per surface area",
+   "Used for more dangerous drugs: toxicity scales better with surface area (squared) than weight (cubed).",
+   "transcript",
    false
   ],
   [
    "Dose response study",
-   "In vivo study; drug dose vs % population with therapeutic effect; combines PD and PK; described by ED50.",
-   "S15, S19",
+   "In vivo: y = % of POPULATION responding as wanted; x = log dose; S-shaped curve; combines PD and PK; described by ED50.",
+   "S15, S19; transcript",
    false
   ],
   [
    "Median effective dose (ED50)",
-   "Drug dose (μg/m2) at which 50% of the population shows a therapeutic effect.",
-   "S15, S19",
-   false
+   "★ Dose at which 50% of the population shows a therapeutic (positive) effect.",
+   "S15, S19; transcript",
+   true
   ],
   [
    "ED99",
-   "Drug dose at which 99% of the population shows a therapeutic effect.",
-   "S19",
+   "Dose at which 99% of the population shows a therapeutic effect.",
+   "S19; transcript",
    false
   ],
   [
    "Median toxic dose (TD50)",
-   "Drug dose at which 50% of the population shows a toxic effect.",
-   "S16, S19",
-   false
+   "★ Dose at which 50% of the population shows a toxic (negative side) effect.",
+   "S16, S19; transcript",
+   true
   ],
   [
    "Median lethal dose (LD50)",
-   "Drug dose at which 50% of the population shows a lethal effect.",
-   "S16, S19",
-   false
+   "★ Dose at which 50% of the population would be expected to die; ESTIMATED from side effects + animal studies, not dosed to death.",
+   "S16, S19; transcript",
+   true
   ],
   [
    "LD1",
-   "Drug dose at which 1% of the population shows a lethal effect.",
-   "S19",
+   "Dose at which 1% of the population shows a lethal effect.",
+   "S19; transcript",
    false
   ],
   [
    "Therapeutic index (TI)",
-   "LD50/ED50, a comparison of doses. Larger TI = bigger gap between therapeutic and toxic doses = generally safer drug.",
-   "S17, S19, S27",
+   "★ Classic = LD50/ED50 (use unless otherwise defined). Larger = safer. ED50 ≈ LD50 → \"not a drug, it's a poison.\"",
+   "S17, S19, S27; transcript",
+   true
+  ],
+  [
+   "LD1/ED99",
+   "★ Stronger therapeutic index: treat ~everyone before killing anyone. Want it > 1.",
+   "S19; transcript",
    true
   ],
   [
    "Relatively safe drugs (TI)",
-   "Amoxicillin (>>100:1), penicillin (>>100:1).",
-   "S18",
+   "Amoxicillin, penicillin (>>100:1; ~100× dose without deaths). Allergy is a separate confounder (immune reaction).",
+   "S18; transcript",
    false
   ],
   [
    "Midrange drugs (TI)",
-   "Morphine (70:1), diazepam (100:1).",
-   "S18",
+   "Morphine (~70:1), diazepam (~100:1).",
+   "S18; transcript",
    false
   ],
   [
    "Dangerous drugs (TI)",
-   "Cocaine 15:1, amphotericin 4:1, 5-fluorouracil 2.5:1, digoxin 2:1, cisplatin 1.5:1.",
-   "S18",
+   "Cocaine 15:1 (cough suppressant), amphotericin 4:1 (antifungal), 5-fluorouracil 2.5:1, digoxin 2:1, cisplatin 1.5:1.",
+   "S18; transcript",
+   false
+  ],
+  [
+   "Amphotericin B",
+   "Antifungal; fungi are \"not all that different\" from us → few selective targets → TI ~4; resistant fungi leave no room to raise dose.",
+   "S18; transcript",
+   false
+  ],
+  [
+   "Cocaine (pharmaceutical use)",
+   "Strong cough suppressant (not a pain reliever); TI ~15.",
+   "S18; transcript",
+   false
+  ],
+  [
+   "Chemotherapeutics",
+   "Narrowest TI: given by controlled infusion in hospital with close monitoring.",
+   "S18; transcript",
    false
   ],
   [
    "Potency",
-   "Strength of the response a drug produces; S21 compares potency of the response (EC50) with binding affinity (KD).",
+   "Strength of the response a drug produces (EC50); S21 compares potency of the response (EC50) with binding affinity (KD).",
    "S21",
    false
   ],
   [
    "EC50 = KD",
-   "No spare receptors: 1:1 receptors to pathways; response tracks % receptors bound; binding is the limiting step.",
-   "S21, S22",
+   "No spare receptors: 1:1 receptors to pathways (4 receptors, 4 pathways); response tracks % bound; receptor binding is the limiting step.",
+   "S21, S22; transcript",
    false
   ],
   [
    "EC50 < KD",
-   "Spare receptors: more receptors than pathways; response exceeds % bound; signaling is the limiting step. S22: effect curve sits left of % bound curve.",
-   "S21, S22",
-   false
-  ],
-  [
-   "Spare receptors (receptor reserve)",
-   "Receptors beyond what is needed for full signal; create redundancy if receptors are deactivated.",
-   "S21, S23",
+   "★ SPARE RECEPTORS: more receptors than pathways (8 receptors, 4 pathways); 50% bound → 100% response; signaling is the limiting step.",
+   "S21, S22; transcript",
    true
   ],
   [
+   "Spare receptors (receptor reserve)",
+   "★ More receptors than signaling pathways; makes the cell more sensitive to drug and lets it survive receptor loss.",
+   "S21, S23; transcript",
+   true
+  ],
+  [
+   "Why spare receptors exist",
+   "Critical receptors (adrenoceptors) — lose them and \"you're basically dead\"; reserve lets you absorb a toxin (e.g. snake bite) without losing max response.",
+   "S23; transcript",
+   false
+  ],
+  [
    "Maximal effect (Emax)",
-   "Maximum response of the pathway; lowered by an irreversible inhibitor once receptor reserve is gone.",
+   "Maximum response; lowered by an irreversible inhibitor only once the receptor reserve is gone.",
    "S23, S25",
    false
   ],
   [
-   "Irreversible antagonist",
-   "Permanently inactivates receptors; with spare receptors the curve shifts right at full effect until reserve is used up, then Emax falls (S23 figure).",
-   "S23",
-   false
+   "Irreversible antagonist + spare receptors",
+   "★ Shifts EC50 RIGHT with full Emax (LOOKS COMPETITIVE) until the receptor reserve is depleted; then ↓ Emax.",
+   "S23; transcript",
+   true
   ],
   [
    "Competitive antagonist",
@@ -314,7 +368,7 @@
   [
    "Pheochromocytoma",
    "Adrenal tumor secreting catecholamines; surgical danger is hemodynamic instability from massive norepinephrine/epinephrine release.",
-   "S2, S24",
+   "S2, S24; transcript",
    false
   ],
   [
@@ -325,14 +379,14 @@
   ],
   [
    "Alpha-adrenergic receptor (α-adrenoceptor)",
-   "Receptor on smooth muscle mediating catecholamine response; spare α-adrenoceptors exist in many smooth muscle types.",
-   "S24, S26",
+   "Smooth muscle receptor for catecholamines; many SPARE α-adrenoceptors in smooth muscle.",
+   "S24, S26; transcript",
    false
   ],
   [
    "Phenoxybenzamine",
-   "Irreversible, non-competitive alpha-adrenergic antagonist given preoperatively for pheochromocytoma resection.",
-   "S2, S25",
+   "Irreversible, non-competitive α-adrenoceptor antagonist given pre-op; low doses look competitive (spare receptors); high doses toxic (narrow TI) → still used to \"take the edge off.\"",
+   "S2, S25–S27; transcript",
    false
   ],
   [
@@ -345,20 +399,21 @@
  "traps": [
   "<b>PK vs PD</b>: pharmacokinetics = what the <b>body</b> does to the <b>drug</b> (ADME); pharmacodynamics = what the <b>drug</b> does to the <b>body</b> (binding, activation, systemic response). Don't flip them.",
   "<b>KD is a RATIO, not a difference</b>: KD = <b>k-1 / k1</b> (koff over kon). Off-rate on top.",
-  "<b>Low KD = HIGH affinity</b>; high KD = low affinity. Low KD means k-1 low and k1 high.",
-  "<b>KD = binding (receptors bound)</b> vs <b>EC50 = response (50% of maximal response)</b>. Both in vitro, both units M.",
-  "<b>Units trap</b>: KD and EC50 are concentrations in <b>M</b> (in vitro); ED50 is a dose in <b>μg/m2</b> (in vivo).",
-  "<b>Concentration response = in vitro</b> (binding + signaling); <b>dose response = in vivo</b> (binding + signaling + <b>PK</b>).",
-  "<b>TI = LD50 / ED50</b> (lethal on top). Bigger TI = safer. Cisplatin 1.5:1 is the narrowest on the slide; amoxicillin/penicillin >>100:1 the widest.",
-  "<b>EC50 = KD</b> → no spare receptors, <b>binding</b> is limiting. <b>EC50 &lt; KD</b> → spare receptors, <b>signaling</b> is limiting. Not EC50 &gt; KD.",
-  "<b>Competitive raises EC50 (shifts right)</b>; <b>non-competitive lowers Emax</b>. Spare receptors make a non-competitive antagonist <b>look competitive</b>.",
-  "<b>Phenoxybenzamine</b> is <b>irreversible, non-competitive</b>; it still looks like a right shift at low doses because spare α-receptors are not depleted. Raising the dose fails because its <b>TI is too small</b>."
+  "★ <b>Low KD = HIGH affinity</b>; high KD = low affinity. Affinity is <b>not good or bad</b> on its own (transcript).",
+  "<b>KD = binding (50% receptors bound)</b> vs <b>EC50 = response (50% of maximal response)</b>. ★ Both have <b>concentration</b> units (M).",
+  "<b>Units trap</b>: KD and EC50 = <b>concentration</b> (M, in vitro); ED50/TD50/LD50 = <b>dose</b> (slides μg/m²; Basel mg/kg or mg/m²).",
+  "<b>Dose response y-axis = % of POPULATION</b> responding (not % maximal effect); x = log dose (transcript, S15).",
+  "★ <b>TI = LD50 / ED50</b> (lethal on top) unless otherwise defined; stronger version <b>LD1 / ED99</b> (want &gt; 1). Bigger = safer.",
+  "★ <b>EC50 = KD</b> → no spare receptors, <b>binding</b> limiting. <b>EC50 &lt; KD</b> → spare receptors, <b>signaling</b> limiting. Never EC50 &gt; KD for spare receptors.",
+  "★ With spare receptors, an <b>irreversible antagonist looks COMPETITIVE</b> (EC50 ↑, Emax kept) until the reserve is depleted, then Emax ↓. Opposite of LC29's \"irreversible looks non-competitive.\"",
+  "<b>Phenoxybenzamine</b>: irreversible + non-competitive; fails at low dose (spare α-receptors); higher dose fails because <b>its own TI is too small</b>.",
+  "<b>Glucuronidation = metabolism (PK)</b>, not elimination; the kidney then <b>eliminates</b> the glucuronidated drug (transcript)."
  ],
  "know": [
   {
    "title": "Terms: binding vs concentration response",
    "slide": "S12",
-   "note": "Slide's own definition table for the in vitro parameters.",
+   "note": "★ KD and EC50 always have concentration units; ideally equal (Basel, Wed 11/4).",
    "headers": [
     "Term",
     "Definition"
@@ -388,7 +443,7 @@
   {
    "title": "Terms: dose response parameters",
    "slide": "S19",
-   "note": "Slide's own definition table for the in vivo parameters.",
+   "note": "★ Basel: \"You should be able to define dose response, ED50, TD50, LD50, therapeutic index LD50/ED50 unless otherwise defined, and LD1/ED99.\" Units: slides μg/m²; Basel said mg/kg or mg/m².",
    "headers": [
     "Term",
     "Definition"
@@ -430,7 +485,7 @@
   {
    "title": "Some approximate therapeutic indexes",
    "slide": "S18",
-   "note": "Larger TI = generally safer drug (S17).",
+   "note": "Larger TI = generally safer (S17). Basel: allergy (penicillin) is a separate confounder; cocaine = cough suppressant; amphotericin = antifungal; chemotherapeutics narrowest (infusion + monitoring).",
    "headers": [
     "Category",
     "Drug",
@@ -491,7 +546,7 @@
   {
    "title": "Comparing EC50 and KD",
    "slide": "S21",
-   "note": "Slide's side-by-side comparison; S22 shows the curves (no spare vs with spare receptors).",
+   "note": "★ Basel's 4-vs-8 receptor thought experiment (Fri 11/6). EC50 < KD = SPARE RECEPTORS.",
    "headers": [
     "Feature",
     "EC50 = KD",
@@ -749,52 +804,128 @@
    "why": "Reserve keeps full signaling and masks non-competitive inhibition; once reserve is gone, Emax falls. Spare receptors give EC50 < KD and signaling is limiting.",
    "cite": "S21, S23",
    "sure": true
+  },
+  {
+   "stem": "A dog receives acetaminophen. The liver adds a glucuronide group, and the kidney then excretes the more water-soluble product. Which branch of pharmacology describes these events?",
+   "ok": "Pharmacokinetics: what the body does to the drug",
+   "bad": [
+    "Pharmacodynamics: what the drug does to the body",
+    "Pharmacodynamics: how the drug binds its receptor",
+    "Pharmacokinetics: what the drug does at its receptor"
+   ],
+   "why": "Glucuronidation (metabolism) and renal excretion (elimination) are ADME = pharmacokinetics.",
+   "cite": "S5–S6; transcript",
+   "sure": true
+  },
+  {
+   "stem": "How is LD1/ED99 defined, and what value suggests a good drug?",
+   "ok": "Dose killing 1% over dose treating 99%; above 1",
+   "bad": [
+    "Dose killing 99% over dose treating 1%; above 1",
+    "Dose killing 1% over dose treating 99%; below 1",
+    "Dose treating 1% over dose killing 99%; below 1"
+   ],
+   "why": "LD1 = 1% lethal; ED99 = 99% therapeutic. LD1/ED99 > 1 means you can treat nearly everyone before killing anyone.",
+   "cite": "S19; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Drug P has a therapeutic index (LD50/ED50) of 70. Drug Q has a therapeutic index of 4. Which statement is correct?",
+   "ok": "Drug P has the wider margin and is generally safer",
+   "bad": [
+    "Drug Q has the wider margin and is generally safer",
+    "Drug P is more potent because its index is larger",
+    "Drug Q is more efficacious because its index is smaller"
+   ],
+   "why": "Larger TI = bigger gap between effective and lethal doses = generally safer. TI says nothing about potency or efficacy.",
+   "cite": "S17–S18; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A snake toxin irreversibly blocks half of a tissue's alpha-adrenoceptors, which have a large receptor reserve. What happens to the epinephrine response curve?",
+   "ok": "EC50 shifts right while Emax is preserved",
+   "bad": [
+    "Emax falls while EC50 stays the same",
+    "EC50 shifts left while Emax is preserved",
+    "Emax falls and EC50 shifts to the left"
+   ],
+   "why": "With spare receptors, an irreversible antagonist looks competitive (right shift, full Emax) until the reserve is depleted. Basel: spare receptors let you survive toxins.",
+   "cite": "S23; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A drug fills 50% of a receptor population at 10 nM in a cell-free binding study. Which statement about this value is correct?",
+   "ok": "It is the KD, a concentration describing affinity",
+   "bad": [
+    "It is the EC50, a concentration describing potency",
+    "It is the ED50, a dose describing effectiveness",
+    "It is the KD, a rate constant describing koff"
+   ],
+   "why": "KD = concentration binding 50% of receptors (binding study, affinity), always in concentration units.",
+   "cite": "S9–S10, S12; transcript",
+   "sure": true
   }
  ],
  "flags": [
   [
    "Slide citation typos",
-   "S25–S27 citation reads \"Goodman & Gliman's The Pharmacologicalf Basis of Therapeutics\" · correct title is Goodman & Gilman's The Pharmacological Basis of Therapeutics (OUTSIDE); typo only, no content impact."
+   "S25–S27 citation reads \"Goodman & Gliman's The Pharmacologicalf Basis of Therapeutics\" · correct title is Goodman & Gilman's The Pharmacological Basis of Therapeutics (OUTSIDE); typo only."
   ],
   [
-   "Objective PK terms not defined",
-   "S4 lists half-life, area under the curve, Cmax, MEC, MAC, MIC, Tmax, therapeutic window but no slide defines them · definitions here are OUTSIDE — confirm with transcript."
+   "S4 PK terms not lectured",
+   "S4 lists half-life, area under the curve, Cmax, MEC, MAC, MIC, Tmax, therapeutic window; Basel gave only a PK \"primer\" (ADME) and said pharmacology covers PK next year · definitions here are OUTSIDE; likely low-yield for Exam 4."
   ],
   [
    "MAC meaning unclear",
-   "S4 lists \"MAC\" with no expansion · anesthesia usage = minimum alveolar concentration (OUTSIDE); confirm which meaning Dr. Basel means."
+   "S4 lists \"MAC\" with no expansion; not mentioned in lecture · anesthesia usage = minimum alveolar concentration (OUTSIDE)."
   ],
   [
-   "Michaelis-Menten equation",
-   "S8 lists it as a term but no slide shows or explains it · OUTSIDE: same saturation form as the binding curve; confirm with transcript."
+   "CLOSED by transcript (Wed 11/4): Michaelis-Menten (S8)",
+   "Basel: the binding curve is \"Michaelis-Menten dynamics again\" (fast binding with many open receptors, then fewer binding events); same shape as LC29 · no math expected."
   ],
   [
-   "\"LAST LECTURE\" on S11",
-   "S11 tags concentration response studies as last lecture · 2026 prior lecture is LC29 Signaling Dynamics; confirm it matches (possible old-numbering carryover)."
+   "CLOSED by transcript (Wed 11/4): \"LAST LECTURE\" on S11",
+   "Basel: concentration response = \"what we talked about last lecture\" (LC29 EC50/Emax) · no old-numbering issue."
   ],
   [
-   "\"KD is similar to EC50\" (S10) vs EC50 < KD (S21)",
-   "S10 says KD is similar to EC50; S21–S22 show EC50 = KD only without spare receptors · use: similar format (concentration at 50%), equal only with no spare receptors."
+   "CLOSED by transcript (Fri 11/6): \"KD is similar to EC50\" (S10) vs EC50 < KD (S21)",
+   "Basel: \"in a perfect world, KD and EC50 should be the same\"; with spare receptors EC50 < KD · similar definition format, equal only without spare receptors."
   ],
   [
    "Low KD = low k-1 AND high k1 (S10)",
-   "S10 says low KD means k-1 low and k1 high · OUTSIDE: KD is a ratio, so either change alone can lower it; use slide wording for the exam."
+   "S10 says low KD means k-1 low and k1 high; Basel only said low KD = binds efficiently · OUTSIDE: KD is a ratio, so either change alone can lower it; use slide wording."
   ],
   [
-   "Excretion (S5) vs Elimination (S4, S6)",
-   "S5 diagram labels the last PK step excretion; S4/S6 use elimination (ADME) · use elimination for ADME."
+   "CLOSED by transcript: Excretion (S5) vs Elimination (S4, S6)",
+   "Basel: \"E is elimination\" (kidney, bile, lungs, skin) · use elimination for ADME."
   ],
   [
-   "Dose units",
-   "S14 says dose = mass/weight or mass/surface area; S15/S19 give ED50 in μg/m2 · use μg/m2 as on the slide; mg/kg dosing in practice is OUTSIDE."
+   "Dose units: μg/m² (slides) vs mg/kg or mg/m² (Basel)",
+   "S15–S19 give ED50 in μg/m²; Basel said dose = mass/mass (mg/kg) or mass/surface area (mg/m², for more dangerous drugs) · keep slide units (μg/m²) for the exam; know both forms are \"dose.\""
   ],
   [
-   "Stop-and-think: does an antagonist have a KD? (S9)",
-   "Slide poses the question without answering · slide logic: both agonists and antagonists bind, so both have a KD; only agonists produce a response, so only agonists have an EC50 (OUTSIDE reasoning — confirm with transcript)."
+   "CLOSED by transcript (Wed 11/4): S9 stop-and-think — does an antagonist have a KD?",
+   "Antagonists bind → have a KD. Basel (LC29 part, Wed 11/4): antagonists have no efficacy or potency on their own → no EC50 of their own · agonist: KD + EC50; antagonist: KD only."
   ],
   [
    "Figures checked against slide images",
-   "Checked against slide image: S17 values confirmed (ED50 ~5, LD50 ~10000, TI ~2000 μg/m2); S16 order ED50 < TD50 < LD50; S22 effect curve left of % bound curve with spare receptors, overlapping without; S23 curves: spare + irreversible antagonist = right shift, full Emax; no spare ++irreversible = Emax ~35%. Nothing left in doubt."
+   "S17 values confirmed (ED50 ~5, LD50 ~10000, TI ~2000 μg/m²); S16 order ED50 < TD50 < LD50; S22 effect curve left of % bound curve with spare receptors, overlapping without; S23: spare + irreversible antagonist = right shift, full Emax; no spare ++irreversible = Emax ~35%."
+  ],
+  [
+   "Transcript slip: ADME under \"pharmacodynamics\"",
+   "Basel: \"when we talk about pharmacodynamics, we can use this little crazy word called admi\" (and \"grew up living and breathing pharmacodynamics\" re: dad in pharmacokinetics) · ADME = PHARMACOKINETICS (S4, S6)."
+  ],
+  [
+   "Transcript slip: \"no spare receptors, EC50 much less than KD\"",
+   "During the snake-toxin example Basel says \"if we have no spare receptors, our EC50 is much less than our KD\" · S21–S22: EC50 < KD = WITH spare receptors."
+  ],
+  [
+   "Transcript slip: \"ED99 over LD1\"",
+   "Basel once says \"ED 99 over LD1\" then corrects to LD1 over ED99 · use LD1/ED99 (lethal on top, like LD50/ED50)."
+  ],
+  [
+   "Acetaminophen mechanism (Basel unsure)",
+   "Basel: \"might be a COX-3 inhibitor ... we're not entirely sure\" · not testable as mechanism; the PK example (glucuronidation → kidney) is the point."
   ]
  ]
 }

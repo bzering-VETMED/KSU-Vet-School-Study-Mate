@@ -307,158 +307,182 @@
   ],
   [
    "Agonist",
-   "A ligand that ACTIVATES the receptor (a type of ligand); has measurable potency and efficacy.",
+   "Ligand that binds AND activates the receptor; has measurable potency (EC50) AND efficacy (Emax) of its own.",
    "S16, S18; transcript",
    false
   ],
   [
+   "Antagonist has no potency or efficacy of its own",
+   "★ Antagonist binds but causes no effect on its own → no efficacy → no potency. It CHANGES the agonist's efficacy and/or potency.",
+   "S16; transcript",
+   true
+  ],
+  [
+   "Endogenous ligand",
+   "The body's own ligand for a receptor: aldosterone at mineralocorticoid receptor, cortisol at glucocorticoid receptor, endorphins at mu-opioid receptor.",
+   "transcript",
+   false
+  ],
+  [
    "Full agonist",
-   "Activates maximal response equal to the endogenous ligand.",
-   "S18 · slides only, not yet lectured",
+   "Same efficacy (Emax) as the endogenous ligand; e.g. morphine at the mu-opioid receptor.",
+   "S18–S19; transcript",
    true
   ],
   [
    "Partial agonist",
-   "Activates LESS than maximal response (less efficacious); can act as an antagonist against more efficacious agonists.",
-   "S18–S19 · slides only, not yet lectured",
+   "Binds and activates but LOWER Emax than the full agonist, even at very high concentration. ★ \"A partial agonist can act as a competitive antagonist against a full agonist.\"",
+   "S18–S19; transcript",
    true
   ],
   [
    "Super agonist",
-   "Causes a response GREATER than the endogenous full agonist.",
-   "S18 · slides only, not yet lectured",
+   "Response GREATER than the endogenous full agonist (higher Emax); can overactivate then suppress (downregulate) the receptor.",
+   "S18–S19; transcript",
    true
   ],
   [
    "Inverse agonist",
-   "Causes the opposite effect of an agonist; requires receptors with basal signaling activity without agonist.",
-   "S18 · slides only, not yet lectured",
+   "Opposite effect of an agonist: turns baseline (basal) signaling BELOW the set point. Has an effect on its own → NOT an antagonist.",
+   "S18; transcript",
    true
   ],
   [
    "Morphine",
-   "Agonist at the mu-opioid receptor; residence time in the low-minute range (koff ~0.01/s).",
-   "S19, S22 · slides only, not yet lectured",
+   "Full agonist at the mu-opioid receptor; koff ~0.01/s, sits ~5–10 minutes.",
+   "S19, S22; transcript",
    false
   ],
   [
    "Buprenorphine",
-   "Partial agonist at the mu-opioid receptor.",
-   "S19 · slides only, not yet lectured",
-   false
-  ],
-  [
-   "Goserelin",
-   "Super agonist at the luteinizing hormone-releasing hormone receptor (LHRHR); downregulates LHRHR and sex hormones in prostate/breast cancer.",
-   "S19 · slides only, not yet lectured",
+   "Partial agonist at the mu-opioid receptor; pain relief with fewer side effects; used long term in opioid addiction to occupy the site and blunt stronger opioids.",
+   "S19; transcript",
    true
   ],
   [
-   "Ro15-4513",
-   "Inverse agonist at the gamma-aminobutyric acid (GABA) receptor; developed to counteract alcohol poisoning.",
-   "S19 · slides only, not yet lectured",
+   "Goserelin",
+   "Super agonist at the luteinizing hormone-releasing hormone (LHRH) receptor (Basel: GnRH receptor) → overactivation then downregulation → blocks fertility or treats sex-hormone-responsive cancers.",
+   "S19; transcript",
    false
   ],
   [
-   "GABA inverse agonist effect",
-   "Gamma-aminobutyric acid (GABA) inverse agonists can cause anxiety.",
-   "S18 · slides only, not yet lectured",
+   "Ro15-4513",
+   "Inverse agonist at the gamma-aminobutyric acid (GABA) receptor. Designed as a GABA antagonist for alcoholism; instead made people hyper-anxious and jittery.",
+   "S19; transcript",
+   false
+  ],
+  [
+   "GABA receptors are inhibitory",
+   "Gamma-aminobutyric acid (GABA) receptors inhibit neurons; alcohol activates them (relaxed); GABA inverse agonists cause anxiety. \"Dr. Schultz will very much want you to know.\"",
+   "S18; transcript",
    false
   ],
   [
    "Antagonist",
-   "Ligand that both binds the receptor and prevents its activation by an agonist.",
-   "S16 · slides only, not yet lectured",
+   "Ligand that binds the receptor and prevents its activation by an agonist; no effect on its own.",
+   "S16; transcript",
    false
   ],
   [
    "Competitive antagonist",
-   "Binds the agonist binding site, prevents agonist binding; raises EC50; overcome by more agonist.",
-   "S17, S20–S21 · slides only, not yet lectured",
+   "★ Binds the agonist binding site. Surmountable: excess agonist out-competes it → EC50 ↑ (less potent, curve shifts RIGHT), Emax unchanged.",
+   "S17, S20–S21; transcript",
    true
   ],
   [
    "Non-competitive antagonist",
-   "Binds an allosteric site away from the agonist site; inhibits response; lowers Emax.",
-   "S17, S20–S21 · slides only, not yet lectured",
+   "★ Binds a different (allosteric) site; agonist concentration irrelevant → insurmountable → Emax ↓, potency (EC50) unchanged.",
+   "S17, S20–S21; transcript",
+   true
+  ],
+  [
+   "Surmountable vs insurmountable",
+   "Competitive = overcome by raising agonist concentration; non-competitive = \"we can never overcome\" no matter how much agonist.",
+   "S21; transcript",
    false
   ],
   [
    "Allosteric site",
    "Receptor site other than the agonist binding site; where non-competitive antagonists bind.",
-   "S17, S20 · slides only, not yet lectured",
+   "S17, S20; transcript",
    false
   ],
   [
    "Lock-and-key model",
-   "Agonist = key that starts car; competitive antagonist = key blank; non-competitive antagonist = car boot.",
-   "S17 · slides only, not yet lectured",
+   "Agonist = car key; competitive antagonist = key BLANK in the ignition (blocks the site); non-competitive = K-State parking BOOT (binds elsewhere, car can't go).",
+   "S17; transcript",
    false
   ],
   [
    "Naloxone",
-   "Competitive antagonist at opioid receptors (raises EC50).",
-   "S21 · slides only, not yet lectured",
+   "Competitive antagonist at the mu-opioid receptor; given intranasally for overdose; patient wakes in instant withdrawal and may attack you.",
+   "S21; transcript",
    false
   ],
   [
    "Ketamine",
    "Non-competitive antagonist at the N-methyl-D-aspartate (NMDA) receptor (lowers Emax).",
-   "S21 · slides only, not yet lectured",
+   "S21; transcript",
    false
   ],
   [
    "k-1 (off rate) of antagonist",
-   "Ability to overcome a competitive antagonist partially depends on its off rate.",
-   "S21 · slides only, not yet lectured",
+   "★ Overcoming a competitive antagonist depends on its koff: fast koff = easy to out-compete; slow koff = long window where agonist amount doesn't matter.",
+   "S21; transcript",
    true
   ],
   [
    "Off rate (koff)",
-   "Dissociation rate of a ligand from the receptor, per second; sets residence time.",
-   "S22 · slides only, not yet lectured",
+   "Dissociation rate (per second). Depends only on bond strength (and temperature) — agonist concentration cannot change it or \"kick off\" the antagonist.",
+   "S22; transcript",
    false
   ],
   [
    "Residence time",
-   "How long a ligand stays bound to the receptor; inverse of how fast it comes off.",
-   "S22 · slides only, not yet lectured",
+   "How long a ligand stays bound; inverse of koff. Acetylcholine ~1 ms or less; morphine minutes.",
+   "S22; transcript",
    false
   ],
   [
    "Reversible",
    "Measurable koff: the ligand comes back off.",
-   "S22 · slides only, not yet lectured",
+   "S22; transcript",
    false
   ],
   [
    "Irreversible",
-   "No measurable koff: does not come off; often covalently bound to the receptor.",
-   "S22 · slides only, not yet lectured",
+   "No measurable koff: never comes off; usually a COVALENT bond (non-covalent bonds ≈ energy available, so they come apart).",
+   "S22; transcript",
    false
   ],
   [
    "Practically irreversible",
-   "Off rate so low that physiological functions cannot occur.",
-   "S22 · slides only, not yet lectured",
-   false
-  ],
-  [
-   "Irreversible antagonist looks non-competitive",
-   "Actual or practical irreversible antagonist lowers Emax regardless of binding site; agonist cannot compete for sites.",
-   "S22 · slides only, not yet lectured",
+   "★ Measurable koff, but far longer than the receptor's activity window (e.g. a 3-second block of the nicotinic receptor wipes out the millisecond acetylcholine signal).",
+   "S22; transcript",
    true
   ],
   [
+   "Irreversible antagonist looks non-competitive",
+   "★ \"Irreversible (true or practical) antagonists ALWAYS look non-competitive,\" regardless of binding site: the agonist can never compete.",
+   "S22; transcript",
+   true
+  ],
+  [
+   "Nicotinic acetylcholine receptor",
+   "Skeletal muscle receptor (non-selective cation channel); acetylcholine koff ~1000/s, ~1 ms residence; whole signal lasts a few ms.",
+   "S22; transcript",
+   false
+  ],
+  [
    "Phenoxybenzamine",
-   "Irreversible, non-competitive alpha-adrenergic inhibitor used preoperatively for pheochromocytoma resection.",
-   "S24 · slides only, not yet lectured",
+   "Irreversible (→ acts non-competitive) alpha-adrenoceptor antagonist used pre-op for pheochromocytoma; chosen because a catecholamine surge would out-compete a competitive antagonist.",
+   "S24; transcript",
    false
   ],
   [
    "Low-dose phenoxybenzamine paradox",
-   "Tolerable doses shift the curve right instead of depressing max; spare alpha-adrenoceptors are not depleted (answered LC30).",
-   "S24; LC30 · slides only, not yet lectured",
+   "\"But the dog still died\": it looked competitive (right shift, Emax kept). Answer (LC30, Fri 11/6): spare alpha-adrenoceptors not depleted; higher dose is toxic.",
+   "S24; LC30 transcript",
    false
   ]
  ],
@@ -468,17 +492,22 @@
   "<b>Competitive antagonist raises EC50</b> (curve shifts right, Emax kept); <b>non-competitive antagonist lowers Emax</b>.",
   "Competitive antagonism is overcome by more agonist because agonist <b>competes for binding sites</b>; it does <b>not kick the antagonist out</b>.",
   "<b>Desensitization = short term</b> (milliseconds–minutes); <b>tolerance = long term</b> (days–years).",
-  "<b>Partial agonist</b> = less than maximal response (can antagonize stronger agonists); <b>super agonist</b> = greater than endogenous full agonist; <b>inverse agonist</b> = opposite effect, needs basal activity.",
   "<b>Inverse agonist ≠ antagonist</b>: an antagonist blocks an agonist; an inverse agonist produces the opposite effect on its own (needs basal signaling).",
   "<b>Reversible = measurable koff</b>; irreversible = no measurable koff. An irreversible antagonist <b>looks non-competitive regardless of where it binds</b>.",
-  "<b>Naloxone</b> (competitive, opioid receptor) vs <b>ketamine</b> (non-competitive, NMDA receptor). <b>Buprenorphine</b> = partial agonist, not antagonist.",
+  "<b>Naloxone</b> (competitive, opioid receptor) vs <b>ketamine</b> (non-competitive, NMDA receptor). <b>Buprenorphine</b> = partial agonist (but can act as a competitive antagonist vs morphine).",
   "<b>Adenylyl cyclase</b> (enzyme, -ase) makes <b>cAMP</b> from ATP; <b>phosphorylase kinase</b> activates <b>glycogen phosphorylase</b> (kinase comes first).",
   "★ <b>Second messengers:</b> Gs → <b>cAMP ↑</b>; Gi → <b>NOT cAMP (↓)</b>; Gq → <b>IP3 and/or DAG</b>. <b>Steroid receptors have NO second messenger</b> (receptor = transcription factor) (transcript).",
   "★ <b>Shift directions:</b> more <b>efficacious</b> = curve shifts <b>UP</b> (higher Emax); more <b>potent</b> = shifts <b>LEFT</b> (lower EC50). Less potent = right; less efficacious = down (transcript, S12–S14).",
   "★ <b>EC50 units = CONCENTRATION</b> (not % effect, not time). Read it by tracing from ½ Emax down to the x-axis (transcript, S14).",
   "<b>Ligand ≠ agonist:</b> ligand just binds (agnostic); <b>agonist ACTIVATES</b>. Every agonist is a ligand, not vice versa (transcript).",
   "<b>Desensitization mechanisms by speed:</b> receptor <b>phosphorylation</b> and <b>arrestin</b> = seconds–minutes; <b>internalization / reduced expression</b> = hours–days (transcript).",
-  "<b>Emax is never actually reached</b> (requires infinite agonist). Receptors respond to <b>changes</b>, not absolute concentration (transcript, S7, S11)."
+  "<b>Emax is never actually reached</b> (requires infinite agonist). Receptors respond to <b>changes</b>, not absolute concentration (transcript, S7, S11).",
+  "★ <b>Antagonist has NO potency or efficacy of its own</b> (no effect alone). It <b>changes the agonist's</b> efficacy and/or potency. Agonist = has both (transcript).",
+  "★ <b>Partial agonist</b> = <b>lower Emax</b>, yet it <b>acts as a competitive antagonist</b> against a full agonist (buprenorphine vs morphine). <b>Super</b> = higher Emax; <b>inverse</b> = below baseline (transcript, S18–S19).",
+  "<b>Competitive = surmountable</b> (↑ EC50, shift <b>right</b>, Emax same). <b>Non-competitive = insurmountable</b> (↓ <b>Emax</b>, EC50 same). Don't flip which parameter moves (transcript, S21).",
+  "<b>koff depends only on bond strength</b> (and temperature), <b>not</b> on agonist concentration. Excess agonist wins only <b>when the antagonist comes off on its own</b> (transcript).",
+  "★ <b>Practically irreversible</b> = koff is <b>measurable</b> but much longer than the receptor's activity window. Not \"no koff\" (that is true irreversible) (transcript, S22).",
+  "<b>Goserelin</b> (super agonist, LHRH/GnRH) vs <b>Ro15-4513</b> (inverse agonist, GABA; designed as an antagonist but made people anxious) (transcript, S19)."
  ],
  "know": [
   {
@@ -672,33 +701,33 @@
   },
   {
    "title": "Agonist types",
-   "slide": "S18–S19",
-   "note": "NOT YET LECTURED (slides only; lecture stopped after Measurement objective). Definitions from S18; drug examples from S19.",
+   "slide": "S18–S19; transcript",
+   "note": "Lectured Wed 11/4. ★ Partial agonist can act as a competitive antagonist against a full agonist (Basel).",
    "headers": [
     "Type",
     "Definition",
-    "Example (S19)"
+    "Example (S19 + transcript)"
    ],
    "rows": [
     [
      "Full agonist",
-     "Activates maximal response equal to endogenous ligand",
-     "Morphine (slide lists it as 'Agonist'; mu-opioid receptor)"
+     "Same efficacy (Emax) as the endogenous ligand",
+     "Morphine (mu-opioid receptor); endogenous = endorphins"
     ],
     [
      "Partial agonist",
-     "Activates LESS than maximal response; can antagonize more efficacious agonists",
-     "Buprenorphine (mu-opioid receptor)"
+     "LOWER Emax than full agonist; acts as competitive antagonist vs a full agonist",
+     "Buprenorphine (mu-opioid; used in opioid addiction)"
     ],
     [
      "Super agonist",
-     "Response GREATER than endogenous full agonist",
-     "Goserelin (LHRH receptor; downregulates it)"
+     "HIGHER Emax than endogenous full agonist",
+     "Goserelin (LHRH/GnRH receptor → overactivation then downregulation)"
     ],
     [
      "Inverse agonist",
-     "Opposite effect of an agonist; needs receptor basal activity",
-     "Ro15-4513 (GABA receptor; counteracts alcohol poisoning)"
+     "Opposite effect: baseline turned below set point; has an effect, so not an antagonist",
+     "Ro15-4513 (GABA receptor; made people hyper-anxious)"
     ]
    ],
    "hide": [
@@ -708,8 +737,8 @@
   },
   {
    "title": "Antagonist types",
-   "slide": "S17, S20–S21",
-   "note": "NOT YET LECTURED (slides only; lecture stopped after Measurement objective). Lock-and-key analogy from S17.",
+   "slide": "S17, S20–S21; transcript",
+   "note": "Lectured Wed 11/4. Lock-and-key from S17 + Basel (key blank; K-State parking boot).",
    "headers": [
     "Type",
     "Binding site",
@@ -721,15 +750,15 @@
     [
      "Competitive",
      "Agonist binding site",
-     "Key blank: fits, does not turn, blocks real key",
-     "Raises EC50; overcome by more agonist",
-     "Naloxone (opioid receptor)"
+     "Key blank in the ignition: fits, blocks the real key",
+     "Raises EC50 (less potent); Emax unchanged; surmountable",
+     "Naloxone (mu-opioid receptor)"
     ],
     [
      "Non-competitive",
-     "Allosteric site, away from agonist site",
-     "Car boot: car cannot go, key or not",
-     "Lowers Emax",
+     "Different (allosteric) site",
+     "K-State parking boot: key goes in, car can't go",
+     "Lowers Emax; potency unchanged; insurmountable",
      "Ketamine (NMDA receptor)"
     ]
    ],
@@ -742,8 +771,8 @@
   },
   {
    "title": "Off rates (koff) and residence times",
-   "slide": "S22",
-   "note": "NOT YET LECTURED (slides only; lecture stopped after Measurement objective). Numbers are on the slide; reading only.",
+   "slide": "S22; transcript",
+   "note": "Lectured Wed 11/4. Slide numbers; Basel added ~1 ms (acetylcholine) and ~5–10 min (morphine). Reading only.",
    "headers": [
     "Ligand",
     "Residence time",
@@ -751,18 +780,18 @@
    ],
    "rows": [
     [
-     "Acetylcholine",
-     "Low / sub-millisecond",
+     "Acetylcholine (nicotinic receptor)",
+     "Low / sub-millisecond (~1 ms or less; whole signal a few ms)",
      "~1000/s"
     ],
     [
      "Morphine (mu-opioid receptor)",
-     "Low-minute range",
+     "Low-minute range (~5–10 min)",
      "~0.01/s"
     ],
     [
      "Antibodies",
-     "Minutes to months",
+     "Minutes to months (\"practically forever\")",
      "~0.001/s – 0.000000001/s"
     ],
     [
@@ -876,14 +905,14 @@
   },
   {
    "stem": "A dog receiving high-dose morphine is given buprenorphine. Based on the slide, what happens to the mu-opioid receptor response?",
-   "ok": "It falls; buprenorphine acts as an antagonist",
+   "ok": "It falls; buprenorphine acts as a competitive antagonist",
    "bad": [
-    "It rises; buprenorphine acts as a super agonist",
+    "It rises; buprenorphine acts as a super agonist at the site",
     "It reverses; buprenorphine acts as an inverse agonist",
-    "It is unchanged; they bind different sites"
+    "It is unchanged; the two bind different receptor sites"
    ],
-   "why": "S19: buprenorphine is a partial agonist; partial agonists can act as antagonists against more efficacious agonists.",
-   "cite": "S19 (slides only, not yet lectured)",
+   "why": "S19 + Basel: a partial agonist can act as a competitive antagonist against a full agonist (lower Emax, same binding site).",
+   "cite": "S19; transcript",
    "sure": true
   },
   {
@@ -895,7 +924,7 @@
     "Inverse agonist that silences basal activity"
    ],
    "why": "S19: goserelin is an LHRHR super agonist used to downregulate LHRHR and sex hormone production.",
-   "cite": "S19 (slides only, not yet lectured)",
+   "cite": "S19; transcript",
    "sure": true
   },
   {
@@ -907,7 +936,7 @@
     "A covalent bond to an irreversible ligand"
    ],
    "why": "S18: inverse agonism is often caused by receptors that have basal signaling activity with no agonist.",
-   "cite": "S18 (slides only, not yet lectured)",
+   "cite": "S18; transcript",
    "sure": true
   },
   {
@@ -919,7 +948,7 @@
     "Ro15-4513 at the GABA receptor"
    ],
    "why": "S21: competitive antagonist (naloxone) raises EC50 and is overcome by more agonist. Ketamine lowers Emax; buprenorphine (partial agonist) caps the max; Ro15-4513 is an inverse agonist. NMDA = N-methyl-D-aspartate; GABA = gamma-aminobutyric acid.",
-   "cite": "S21 (slides only, not yet lectured)",
+   "cite": "S21; transcript",
    "sure": true
   },
   {
@@ -931,7 +960,7 @@
     "Inverse agonist"
    ],
    "why": "S17: car boot = non-competitive antagonist binding an allosteric site; key blank = competitive antagonist.",
-   "cite": "S17 (slides only, not yet lectured)",
+   "cite": "S17; transcript",
    "sure": true
   },
   {
@@ -943,7 +972,7 @@
     "Lowering the antagonist's off rate"
    ],
    "why": "S21: more agonist does not kick out the antagonist but competes for binding sites; ability depends partly on antagonist k-1.",
-   "cite": "S21 (slides only, not yet lectured)",
+   "cite": "S21; transcript",
    "sure": true
   },
   {
@@ -955,7 +984,7 @@
     "An inverse agonist, reversing the effect"
    ],
    "why": "S22: an irreversible antagonist (actual or practical) looks non-competitive regardless of where it binds.",
-   "cite": "S22 (slides only, not yet lectured)",
+   "cite": "S22; transcript",
    "sure": true
   },
   {
@@ -967,7 +996,7 @@
     "Irreversible inhibitor, koff ~1/s"
    ],
    "why": "S22: acetylcholine has low/sub-millisecond residence times (koff ~1000/s), the fastest off rate listed.",
-   "cite": "S22 (slides only, not yet lectured)",
+   "cite": "S22; transcript",
    "sure": true
   },
   {
@@ -976,10 +1005,10 @@
    "bad": [
     "Competitive alpha blockade raises the EC50",
     "Partial alpha agonism lowers the EC50",
-    "Inverse alpha agonism silences basal activity"
+    "Inverse alpha agonism silences basal receptor activity fully"
    ],
    "why": "S24: a non-competitive inhibitor should reduce maximum epinephrine response no matter the dose; phenoxybenzamine is an irreversible, non-competitive alpha-adrenergic inhibitor.",
-   "cite": "S23–S24 (slides only, not yet lectured)",
+   "cite": "S23–S24; transcript",
    "sure": true
   },
   {
@@ -1041,6 +1070,78 @@
    "why": "EC50 is the concentration giving half-maximal effect, so it always has concentration units.",
    "cite": "S11, S14; transcript",
    "sure": true
+  },
+  {
+   "stem": "A new drug binds the mu-opioid receptor with high affinity but produces no effect on its own. It reduces the response to morphine. Which statement about this drug is correct?",
+   "ok": "It has no potency or efficacy of its own",
+   "bad": [
+    "It has potency but no efficacy of its own",
+    "It has efficacy but no potency of its own",
+    "It has lower potency and efficacy than morphine"
+   ],
+   "why": "Basel: an antagonist causes no effect, so no efficacy, and without efficacy no potency; it changes the agonist's efficacy and/or potency.",
+   "cite": "S16; transcript",
+   "sure": true
+  },
+  {
+   "stem": "An agonist curve is repeated with an antagonist present. The EC50 rises tenfold but very high agonist concentrations still reach the original Emax. Which antagonist type fits?",
+   "ok": "Competitive, surmountable by more agonist",
+   "bad": [
+    "Non-competitive, insurmountable by agonist",
+    "Irreversible, covalently bound to receptor",
+    "Practically irreversible, very slow koff"
+   ],
+   "why": "Competitive = surmountable: excess agonist wins the site whenever the antagonist comes off → EC50 up, Emax unchanged. Irreversible (true or practical) antagonists look non-competitive.",
+   "cite": "S21; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A competitive antagonist is bound to a receptor. The agonist concentration is raised 1000-fold. What determines when the antagonist leaves the binding site?",
+   "ok": "Its koff, set by bond strength and temperature",
+   "bad": [
+    "The agonist concentration, which displaces it",
+    "Its KD, which falls as agonist concentration rises",
+    "The agonist's koff, which speeds antagonist release"
+   ],
+   "why": "Basel: koff depends only on bond strength (and temperature); agonist cannot kick the antagonist off, only win the site after it leaves.",
+   "cite": "S21–S22; transcript",
+   "sure": true
+  },
+  {
+   "stem": "An antagonist of the skeletal muscle nicotinic acetylcholine receptor has a measurable koff and stays bound about 3 seconds. Acetylcholine signaling lasts a few milliseconds. How is this antagonist classified?",
+   "ok": "Practically irreversible; it behaves non-competitively",
+   "bad": [
+    "Reversible; it behaves as a competitive antagonist",
+    "Truly irreversible; it forms a covalent bond",
+    "Inverse agonist; it lowers baseline receptor signaling"
+   ],
+   "why": "Measurable koff but far longer than the receptor's activity window = practically irreversible; irreversible (true or practical) antagonists always look non-competitive.",
+   "cite": "S22; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A dog with a pheochromocytoma will release a massive catecholamine surge when the tumor is handled. Why did Basel favor a non-competitive alpha-adrenoceptor antagonist?",
+   "ok": "The surge would out-compete a competitive antagonist",
+   "bad": [
+    "The surge would irreversibly bind the alpha receptors",
+    "A competitive antagonist would lower the Emax too far",
+    "A non-competitive antagonist would lower the EC50 instead"
+   ],
+   "why": "Huge epinephrine/norepinephrine levels overcome competitive (surmountable) antagonism; non-competitive lowers Emax regardless of agonist concentration.",
+   "cite": "S23–S24; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Ro15-4513 was designed to block gamma-aminobutyric acid (GABA) receptors in alcoholics, but subjects became hyper-anxious. Why is it not classified as an antagonist?",
+   "ok": "It produces an opposite effect on its own",
+   "bad": [
+    "It produces no effect when given on its own",
+    "It produces a greater effect than endogenous GABA",
+    "It binds an allosteric site on the GABA receptor"
+   ],
+   "why": "An antagonist has no effect on its own; Ro15-4513 drives signaling below baseline (opposite effect) = inverse agonist.",
+   "cite": "S18–S19; transcript",
+   "sure": true
   }
  ],
  "flags": [
@@ -1054,7 +1155,7 @@
   ],
   [
    "Checked against slide image + transcript: S6 step multipliers",
-   "Image confirms: activated receptor → Gs ×100; adenylyl cyclase ATP → cAMP ×100; PKA → phosphorylase kinase ×10; phosphorylase kinase → glycogen phosphorylase ×10; glycogen → glucose-1-phosphate ×100 (no multiplier on cAMP → PKA); total ~100,000,000-fold. Transcript matches (groups cAMP → PKA without a multiplier; says \"glucose residues\" = glucose-1-phosphate). \"Other signals\" enter at PKA, phosphorylase kinase, glycogen phosphorylase."
+   "Image confirms: activated receptor → Gs ×100; adenylyl cyclase ATP → cAMP ×100; PKA → phosphorylase kinase ×10; phosphorylase kinase → glycogen phosphorylase ×10; glycogen → glucose-1-phosphate ×100 (no multiplier on cAMP → PKA); total ~100,000,000-fold. Transcript matches."
   ],
   [
    "CLOSED by transcript: S13 EC50 wording",
@@ -1065,44 +1166,44 @@
    "S19 heading says \"μ-opiod receptor acting drugs\" (typo: opioid) but goserelin acts at the LHRH receptor and Ro15-4513 at the GABA receptor · Only morphine and buprenorphine are mu-opioid drugs."
   ],
   [
-   "Ro15-4513: inverse agonist vs \"GABA antagonist\"",
-   "S19 lists Ro15-4513 under Inverse Agonist; its parenthetical calls it a \"GABA antagonist\" (\"antagonist\" in red on the image) · Use inverse agonist (the slide's category). OUTSIDE — confirm: it acts at the benzodiazepine site of the GABA-A receptor."
+   "CLOSED by transcript (Wed 11/4): Ro15-4513 inverse agonist vs \"GABA antagonist\"",
+   "Basel: it was DESIGNED as a GABA antagonist for alcoholism, but it made people hyper-anxious = opposite effect = inverse agonist · use inverse agonist. \"GABA antagonist\" on S19 = design intent. (OUTSIDE — confirm: benzodiazepine site of GABA-A receptor; not needed.)"
   ],
   [
    "k-1 vs koff notation",
-   "S21 says \"k-1 of antagonist\"; S22 uses koff · Same quantity (dissociation/off rate). Treat as identical."
+   "S21 says \"k-1 of antagonist\"; S22 uses koff · Same quantity (dissociation/off rate). Basel uses koff (\"Koff\"). Treat as identical."
   ],
   [
-   "S22 practically irreversible koff overlaps morphine",
-   "Practically irreversible acetylcholine receptor inhibitor koff ~1/s–0.01/s overlaps morphine's ~0.01/s, which is reversible · \"Practically irreversible\" is relative to the endogenous ligand's speed (acetylcholine ~1000/s). Not yet lectured — confirm when covered."
+   "CLOSED by transcript (Wed 11/4): S22 practically irreversible koff overlaps morphine",
+   "Basel: \"practically irreversible\" = measurable koff but much longer than the receptor's activity window (3-s block of a millisecond acetylcholine signal). It is relative to the receptor system, not an absolute koff cutoff · overlap with morphine is not a contradiction."
   ],
   [
    "Phenoxybenzamine binding site (OUTSIDE — confirm)",
-   "S24 calls it irreversible, non-competitive · Standard pharmacology: it alkylates (covalently binds) the alpha receptor; per S22 any irreversible antagonist behaves non-competitively regardless of site. Use slide wording."
+   "S24 + Basel: irreversible → always acts non-competitive · Standard pharmacology (OUTSIDE): it covalently alkylates the alpha receptor. Use slide/Basel wording: irreversible, non-competitive."
   ],
   [
-   "Answered in LC30 (Wed 11/4): spare receptors",
-   "S24 asks why low-dose phenoxybenzamine shifts the curve right instead of depressing max · LC30 S26: there are spare alpha-adrenoceptors in many smooth muscles; low (tolerated) doses of the irreversible antagonist do not completely deplete the receptor reserve, so massive epinephrine can still cause hypertensive crisis. LC30 S27: the dose cannot just be raised because the therapeutic index is too small (full blockade is itself toxic)."
+   "CLOSED by LC30 transcript (Fri 11/6): spare receptors",
+   "S24 \"WHY?\" low-dose phenoxybenzamine shifts the curve right: spare alpha-adrenoceptors in smooth muscle; tolerated doses don't deplete the reserve, so massive epinephrine still reaches max. Raising the dose hits phenoxybenzamine toxicity (narrow therapeutic index). Clinically: still use it to \"take the edge off\" + supportive care."
   ],
   [
    "S9 timeline vs transcript time scales",
-   "S9 figure: G-protein signal (<~1 s) → GRK phosphorylation → beta-arrestin-2 → endocytosis (~10 min–1 hr). S7: desensitization (ms–min) vs tolerance (days–years). Transcript: phosphorylation + arrestin seconds–minutes; internalization/reduced expression hours–days; \"short term we call desensitization, long term we call tolerance\" · use S7 two-term framing; for endocytosis timing, S9 (slides win), but know Basel grouped it with hours–days."
+   "S9 figure: G-protein signal (<~1 s) → GRK phosphorylation → beta-arrestin-2 → endocytosis (~10 min–1 hr). Transcript: phosphorylation + arrestin seconds–minutes; internalization/reduced expression hours–days · use S7 two-term framing; for endocytosis timing, S9 (slides win), but know Basel grouped it with hours–days."
   ],
   [
    "S24 citation typo",
    "\"Goodman & Gliman's\" should be Goodman & Gilman's · Cosmetic only."
   ],
   [
-   "S15–S24 not yet lectured",
-   "Lecture stopped at 11:47 after the Measurement objective. Agonist/antagonist types, reversible/irreversible, and the pheochromocytoma resolution (S15–S24) are slides only · study from slides; Basel said this gets \"more complicated\" Wednesday."
+   "CLOSED by transcript (Wed 11/4): S15–S24 lectured",
+   "Basel finished agonist/antagonist types, reversible/irreversible, and the pheochromocytoma case on Wed 11/4 before starting LC30 · whole lecture now woven in."
   ],
   [
    "Insulin desensitization kinetics (Basel unsure)",
    "Student question: Basel said he would have to look up insulin specifically; long-term receptor deactivation can lead toward type 2 diabetes · do not rely on specific insulin kinetics."
   ],
   [
-   "Transcript slip: \"give an agonist\" for pheochromocytoma",
-   "Student answered \"antagonist\"; Basel then says \"maybe we could give an agonist of some sort\" right after saying we want to BLOCK adrenoreceptors · use antagonist (block adrenoreceptors); resolution not yet lectured."
+   "CLOSED by transcript (Wed 11/4): \"give an agonist\" slip",
+   "Mon 11/2 slip resolved: Wed 11/4 class answer = \"give an antagonist,\" specifically NON-competitive (surge would out-compete a competitive one) → phenoxybenzamine."
   ],
   [
    "\"Alpha 3\" adrenoreceptor (OUTSIDE — confirm)",
@@ -1111,6 +1212,14 @@
   [
    "Transcript slip: adenylyl cyclase \"increase ATP\"",
    "Basel says αs increases adenylyl cyclase rate \"and increase ATP\" · S6: adenylyl cyclase converts ATP → cAMP (↑ cAMP). Use S6."
+  ],
+  [
+   "Transcript slips (Wed 11/4): agonist/antagonist word swaps",
+   "Basel says \"another type of competitive antagonist\" (boot = NON-competitive), \"competitive agonist\" (= antagonist), \"irreversible agonists ... look like non-competitive antagonists\" (= antagonists), and \"non-competitive antagonist that stays on a long time\" while discussing koff of COMPETITIVE antagonists · use S17/S21/S22 wording."
+  ],
+  [
+   "Goserelin receptor name",
+   "S19: luteinizing hormone-releasing hormone receptor (LHRHR); Basel: \"GnRH receptor\" / \"luteinizing hormone receptor hormone receptor\" · same receptor (LHRH = gonadotropin-releasing hormone, GnRH; OUTSIDE — confirm). Use slide name; know both."
   ]
  ]
 }
