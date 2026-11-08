@@ -15,6 +15,10 @@ if lab==28:
 import p4guide
 GPDF={28:'/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/f954b1d8-Lab_28.pdf',29:'/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/288bd0ef-Lab_29.pdf'}
 if lab in GPDF and os.path.exists(GPDF[lab]): best,extra=p4guide.fill(best,p4guide.cards(GPDF[lab],lab,f'p4g{lab}'))
+if lab in (29,):                                   # Dr. Wilhite head + eye deck fills gaps (Nov 7)
+    import p4wil; wb,_=p4wil.cards(lab); have={t for c in best for t in c['terms'] if '🧠' not in c['html'][:300]}
+    for c in sorted(wb,key=lambda c:-len(set(c['terms'])-have)):
+        new=set(c['terms'])-have; (best if new else extra).append(c); have|=new
 B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best,extra,'photos first, lab-guide drawings fill the gaps' if best else '')
 print(lab,n,'terms')
 h=open(f'gross-anatomy-lab{lab}-images.html').read()
