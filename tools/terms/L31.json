@@ -1,0 +1,459 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Mon 11/9) — stars and corrections update when the transcript arrives.",
+  "EXTERNAL acoustic meatus (ear canal, part of the external ear, slide 4) vs INTERNAL acoustic meatus (opening in the petrous temporal bone carrying the cochlear/vestibular nerves, slides 8, 13). Same word, opposite ends.",
+  "Vestibular window = OVAL = DORSAL = covered by the STAPES → vestibule. Cochlear window = ROUND = VENTRAL = closed by the SECONDARY tympanic membrane → cochlea (slide 7). Don't flip dorsal/ventral.",
+  "Ossicle order from the eardrum inward: Malleus → Incus → Stapes (M-I-S). Malleus MANUBRIUM sits on the tympanic membrane; stapes BASE sits in the vestibular window (slides 10, 12).",
+  "Muscle ↔ ossicle pairing: tensor tympani = MALLEUS; stapedius = STAPES (slide 10). The incus has no muscle on the slides.",
+  "Tensor TYMPANI (middle ear, on the malleus) vs tensor VELI PALATINI (soft palate muscle near the auditory tube) — both labeled on slide 11.",
+  "Membranous labyrinth = ENDOLYMPH (utricle, saccule, semicircular DUCTS, cochlear DUCT). Bony labyrinth = PERILYMPH (vestibule, semicircular CANALS, cochlea) (slide 12). Duct = membranous; canal = bony.",
+  "Pairings inside the membranous labyrinth: UTRICLE goes with the semicircular ducts; SACCULE goes with the cochlear duct (slide 12).",
+  "Promontory = bulge of the medial wall over the cochlea, VENTRAL to BOTH windows (slide 7) — not between them.",
+  "Scala VESTIBULI vs scala TYMPANI vs cochlear DUCT (scala media): three spaces in the cochlea, labeled on slides 8 and 12. Cochlear duct = membranous (endolymph); the scalae = perilymph (outside knowledge — confirm).",
+  "Tympanic CAVITY (air space of the middle ear) vs tympanic BULLA (the bony bulge that houses its ventral part, slides 8, 12) vs tympanic MEMBRANE (eardrum).",
+  "Vertical vs horizontal ear canal — NOT on the slides (outside knowledge — confirm whether it's in scope when the transcript arrives).",
+  "⚠️ FLAG (slides 4 vs 5): slide 4 numbers the tragus (2) and marginal cutaneous sac (5), but slide 5 uses a DIFFERENT numbering (1–9) with NO legend — on slide 5, '2' sits at the apex of the auricle. Don't carry slide 4's numbers onto slide 5. Labels 1, 3, 4 on slide 4 are also unexplained.",
+  "⚠️ FLAG (slide 10): the tympanic membrane / malleus figure has numbers 1–8 with NO legend on the slide. Wait for the transcript before memorizing any number.",
+  "⚠️ FLAG (slide 8): label reads 'Margin of cochlear' — cut off on the slide (likely 'margin of cochlear window', outside knowledge — confirm)."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "Learning objectives for Lecture 31, Anatomy of the Ear (slide 2)…",
+     "a": "1. Describe the EXTERNAL ear; 2. Describe the MIDDLE ear; 3. Describe the INNER ear",
+     "star": true,
+     "why": "LO slide, bold (slide 2)"
+    },
+    {
+     "q": "Three divisions of the ear, outside → in (slides 3, 6)?",
+     "a": "Outer (external) ear → middle ear → inner ear",
+     "star": true,
+     "why": "Overview figure Fig. 10.15, shown twice (slides 3, 6)"
+    },
+    {
+     "q": "Kahoot (in-class quiz) break in this deck — which slide?",
+     "a": "Slide 9 (after the middle ear walls, before the ossicles)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which slides repeat the same overview figure (Fig. 10.15, 'The canine ear')?",
+     "a": "Slides 3 and 6 (and a small copy on slides 7 and 8)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sources of the figures on the slides…",
+     "a": "Veterinary Neuroanatomy: A Clinical Approach (2012); Textbook of Veterinary Anatomy 4th ed.; Miller's Anatomy of the Dog 4th ed.",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧭 LO1 · Overview figure & sound path (slides 3, 6)",
+   "items": [
+    {
+     "q": "Path of sound from outside to the inner ear, using the structures labeled on slide 3…",
+     "a": "Pinna → external ear canal → tympanic membrane → malleus → incus → stapes → vestibular window → vestibule/cochlea (inner ear) → cochlear nerve (the order is outside knowledge built on slide 3's labels — confirm)",
+     "star": true,
+     "why": "Labeled overview figure (slides 3, 6)"
+    },
+    {
+     "q": "Fluid wave route through the cochlea after the stapes pushes the vestibular window…",
+     "a": "Perilymph of the vestibule → scala vestibuli → (across the cochlear duct) → scala tympani → released at the cochlear window (secondary tympanic membrane) (outside knowledge — confirm; scalae labeled on slides 8, 12)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Name the labels on the RIGHT side of Fig. 10.15, top → bottom (slide 3)…",
+     "a": "Pinna, external ear canal, vestibular window, incus, stapes, malleus, cochlear window, tympanic membrane",
+     "star": true,
+     "why": "Figure for ID (slides 3, 6)"
+    },
+    {
+     "q": "Name the labels on the LEFT side of Fig. 10.15, top → bottom (slide 3)…",
+     "a": "Vestibular apparatus, vestibular nerve, cochlear nerve, cochlea, auditory tube opening, tympanic cavity",
+     "star": true,
+     "why": "Figure for ID (slides 3, 6)"
+    },
+    {
+     "q": "Which two nerves leave the inner ear on Fig. 10.15 (slide 3)?",
+     "a": "Vestibular nerve (from the vestibular apparatus) and cochlear nerve (from the cochlea)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which middle ear structure opens into the tympanic cavity and leads to the pharynx (slides 3, 11)?",
+     "a": "Auditory tube (auditory tube opening on slide 3; connects to the nasopharynx — outside knowledge, confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What is the yellow space in Fig. 10.15 (slide 3)?",
+     "a": "Tympanic cavity (middle ear air space)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👂 LO1 · External ear (slides 4–5)",
+   "items": [
+    {
+     "q": "Three components of the external ear listed on slide 4…",
+     "a": "Auricle (pinna), external acoustic meatus (ear canal), cartilages",
+     "star": true,
+     "why": "LO1 list (slides 4–5)"
+    },
+    {
+     "q": "Two named features of the auricle (pinna) (slide 4)?",
+     "a": "Marginal cutaneous sac (5) and tragus (2)",
+     "star": true,
+     "why": "Numbered for figure ID (slide 4)"
+    },
+    {
+     "q": "Number of the marginal cutaneous sac on slide 4's figure, and where it sits?",
+     "a": "(5) — a skin pocket on the caudolateral margin of the auricle near its base",
+     "star": true,
+     "why": "Numbered for figure ID (slide 4)"
+    },
+    {
+     "q": "Number of the tragus on slide 4's figure?",
+     "a": "(2) — at the rostral edge of the opening of the ear canal",
+     "star": true,
+     "why": "Numbered for figure ID (slide 4)"
+    },
+    {
+     "q": "Other name for the external acoustic meatus (slide 4)?",
+     "a": "Ear canal (labeled 'external ear canal' on slide 3)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three cartilages of the external ear (slide 4)…",
+     "a": "Auricular cartilage, annular cartilage, scutiform cartilage",
+     "star": true,
+     "why": "LO1 list (slides 4–5)"
+    },
+    {
+     "q": "Which ear cartilage is interposed in the auricular muscles (slide 4)?",
+     "a": "Scutiform cartilage",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which cartilage forms the shape of the auricle/pinna?",
+     "a": "Auricular cartilage (slides 4–5; the funnel-shaped cartilage on slide 5's figure)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Annular cartilage — what is it (slide 4)?",
+     "a": "A ring-shaped cartilage of the ear canal, between the auricular cartilage and the bony external acoustic meatus (location is outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What is the small separate cartilage labeled 9 on slide 5?",
+     "a": "No legend on slide 5 — likely the scutiform cartilage (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What is shown at the right of slide 5's figure next to the dog's auricular cartilage?",
+     "a": "A human ear for comparison (numbers 5–8 match labels on the dog cartilage; no legend on the slide)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🥁 LO2 · Middle ear — walls & windows (slides 7–8)",
+   "items": [
+    {
+     "q": "Middle ear parts listed in bold on slide 7…",
+     "a": "Tympanic membrane (eardrum), tympanic cavity; medial wall = petrous temporal bone",
+     "star": true,
+     "why": "Bold (slide 7)"
+    },
+    {
+     "q": "Medial wall of the tympanic cavity is formed by… (slide 7)",
+     "a": "Petrous temporal bone (petrous part of the temporal bone)",
+     "star": true,
+     "why": "Bold (slide 7)"
+    },
+    {
+     "q": "Vestibular window — other name, position, connects to, covered by (slide 7)?",
+     "a": "OVAL window; DORSAL; connects to the vestibule; covered by the stapes",
+     "star": true,
+     "why": "Bold (slide 7)"
+    },
+    {
+     "q": "Cochlear window — other name, position, connects to, closed by (slide 7)?",
+     "a": "ROUND window; VENTRAL; connects to the cavity of the cochlea; closed by the secondary tympanic membrane",
+     "star": true,
+     "why": "Bold (slide 7)"
+    },
+    {
+     "q": "Promontory (slide 7)?",
+     "a": "Where the medial wall bulges over the cochlea, ventral to BOTH windows",
+     "star": true,
+     "why": "Bold (slide 7)"
+    },
+    {
+     "q": "Tympanic membrane — other name (slide 7)?",
+     "a": "Eardrum",
+     "star": true,
+     "why": "Bold (slide 7)"
+    },
+    {
+     "q": "Which bony structure houses the ventral part of the tympanic cavity (slides 8, 12)?",
+     "a": "Tympanic bulla",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Limbus of the tympanic membrane (slide 8)?",
+     "a": "The thickened rim where the eardrum attaches to the bone",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which part of the malleus is visible through/attached to the tympanic membrane on slide 8?",
+     "a": "Manubrium of the malleus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which nerve crosses the medial surface of the tympanic membrane on slides 8 and 11?",
+     "a": "Chorda tympani",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Structures labeled on the cochlea cut-away of slide 8…",
+     "a": "Scala tympani, osseous spiral lamina, secondary spiral lamina, scala vestibuli, lamina of modiolus, modiolus, cupula, cut edge of promontory",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Modiolus (slide 8)?",
+     "a": "The bony central core of the cochlea that the spiral wraps around",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cupula (slide 8)?",
+     "a": "The apex (dome) of the cochlea",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nerves in the internal acoustic meatus on slide 8…",
+     "a": "Facial nerve, vestibular nerve, cochlear nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bony landmark labeled at the bottom left of slide 8?",
+     "a": "Retroarticular process (of the temporal bone)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔨 LO2 · Auditory ossicles & muscles (slides 10–11)",
+   "items": [
+    {
+     "q": "Order of the auditory ossicles from tympanic membrane to vestibular window (slide 10)…",
+     "a": "Malleus (hammer) → incus (anvil) → stapes (stirrup)",
+     "star": true,
+     "why": "Red ossicle names under bold 'Auditory ossicles' (slide 10)"
+    },
+    {
+     "q": "Malleus — common name, and its 3 bullet points (slide 10)?",
+     "a": "Hammer; manubrium attaches to the tympanic membrane; head articulates with the incus; tensor tympani muscle",
+     "star": true,
+     "why": "Red (slide 10)"
+    },
+    {
+     "q": "Incus — common name and role (slide 10)?",
+     "a": "Anvil; connects the malleus to the stapes",
+     "star": true,
+     "why": "Red (slide 10)"
+    },
+    {
+     "q": "Stapes — common name and its 3 bullet points (slide 10)?",
+     "a": "Stirrup; articulates with the incus; attaches to the vestibular window; stapedius muscle",
+     "star": true,
+     "why": "Red (slide 10)"
+    },
+    {
+     "q": "Which part of the malleus attaches to the tympanic membrane (slide 10)?",
+     "a": "Manubrium",
+     "star": true,
+     "why": "Red-heading bullet (slide 10)"
+    },
+    {
+     "q": "Which muscle acts on the malleus? Which on the stapes? (slide 10)",
+     "a": "Malleus → tensor tympani muscle; stapes → stapedius muscle",
+     "star": true,
+     "why": "Red-heading bullets (slide 10)"
+    },
+    {
+     "q": "Innervation of the tensor tympani and stapedius?",
+     "a": "Tensor tympani → mandibular nerve (trigeminal); stapedius → facial nerve (outside knowledge — confirm; slide 11 labels 'nerve to tensor tympani' and the facial nerve beside the stapedius)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Middle ear structures labeled on slide 11 (left side)…",
+     "a": "Lateral wall of vestibule, facial nerve, base of stapes, long crus of incus, tensor tympani muscle, major petrosal nerve, nerve to tensor tympani muscle, rostral ligament of malleus, chorda tympani, tensor veli palatini muscle, auditory tube",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Structures labeled on slide 11 (right side)…",
+     "a": "Anterior semicircular canal, floccular fossa, lateral semicircular canal, stapedius muscle, facial nerve, tympanohyoid cartilage, jugulohyoideus muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which part of the incus is labeled on slide 11?",
+     "a": "Long crus of the incus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which ligament of the malleus is labeled on slide 11?",
+     "a": "Rostral ligament of the malleus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does the tympanohyoid cartilage connect (slide 11)?",
+     "a": "Hyoid apparatus to the skull near the middle ear (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What do numbers 1–8 on slide 10's figure mark?",
+     "a": "No legend on the slide — figure shows the tympanic membrane with the manubrium (4) running into it; red muscle (6) = likely tensor tympani; 5 = likely chorda tympani (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌀 LO3 · Inner ear — labyrinths (slides 12–13)",
+   "items": [
+    {
+     "q": "Two labyrinths of the inner ear and their fluids (slide 12)…",
+     "a": "Membranous labyrinth = endolymph; bony labyrinth = perilymph",
+     "star": true,
+     "why": "LO3 list, repeated on slides 12–13"
+    },
+    {
+     "q": "Parts of the membranous labyrinth (slide 12)…",
+     "a": "Utricle and semicircular ducts; saccule and cochlear duct",
+     "star": true,
+     "why": "LO3 list (slides 12–13)"
+    },
+    {
+     "q": "Parts of the bony labyrinth (slide 12)…",
+     "a": "Vestibule, semicircular canals, cochlea",
+     "star": true,
+     "why": "LO3 list (slides 12–13)"
+    },
+    {
+     "q": "Which membranous part pairs with the semicircular ducts? With the cochlear duct? (slide 12)",
+     "a": "Utricle ↔ semicircular ducts; saccule ↔ cochlear duct",
+     "star": true,
+     "why": "LO3 list (slides 12–13)"
+    },
+    {
+     "q": "Fluid in the membranous labyrinth (slide 12)?",
+     "a": "Endolymph",
+     "star": true,
+     "why": "LO3 list (slides 12–13)"
+    },
+    {
+     "q": "Fluid in the bony labyrinth (slide 12)?",
+     "a": "Perilymph",
+     "star": true,
+     "why": "LO3 list (slides 12–13)"
+    },
+    {
+     "q": "Membranous labyrinth structures labeled on slide 12…",
+     "a": "Semicircular ducts, utricle, saccule, endolymphatic duct, endolymphatic sac, cochlear duct",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Endolymphatic duct leads to… (slide 12)",
+     "a": "Endolymphatic sac (beside the dura mater)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spaces of the cochlea on slide 12, around the cochlear duct…",
+     "a": "Scala vestibuli and scala tympani",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other labels on slide 12 (right side)…",
+     "a": "Semicircular canals, petrous part of temporal bone, perilymphatic space of vestibule, base of stapes in vestibular window, stapes, incus, malleus, external acoustic meatus, cochlear window, tympanic membrane, auditory tube, tympanic cavity, tympanic bulla",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cochlear canaliculus (slides 12–13)?",
+     "a": "Small channel from the cochlea's perilymph space through the petrous bone (labeled on both slides)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three semicircular canals named on slide 13…",
+     "a": "Anterior, lateral, posterior semicircular canals",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Openings/channels labeled on the petrous bone on slide 13…",
+     "a": "Internal acoustic meatus, cochlear canaliculus, vestibular aqueduct",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which nerve exits through the internal acoustic meatus on slide 13?",
+     "a": "Cochlear nerve (vestibular and facial nerves also on slide 8)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Bone that houses the inner ear (slides 12–13)?",
+     "a": "Petrous part of the temporal bone",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other bony landmark labeled on slide 13?",
+     "a": "Zygomatic process of the temporal bone",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Function of the vestibular apparatus vs the cochlea?",
+     "a": "Vestibular apparatus (utricle, saccule, semicircular ducts) = balance; cochlea = hearing (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}
