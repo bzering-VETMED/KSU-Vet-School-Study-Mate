@@ -13,7 +13,8 @@ from p4bold import P4BOLD
 E=html.escape
 BAKED={31:{18,20,97,102,103,104,105}}          # labels printed inside the photo
 SKIP={'antihelix','removing the zygomatic arch','dissection','extrinsic muscles of the eye'}
-FIX={'rima glottis':'rima glottidis','cricoartenoideus dorsalis':'cricoarytenoideus dorsalis','cricoartenoideus lateralis':'cricoarytenoideus lateralis',
+FIX={'plica semilunaris/third eyelid':'plica semilunaris / third eyelid','fornix':'conjunctival fornix','lacrimal duct/canaliculus':'lacrimal canaliculus',
+     'ducts of the zygomatic salivary gland':'ducts of the zygomatic gland','temporomandibular articulation':'temporomandibular joint','rima glottis':'rima glottidis','cricoartenoideus dorsalis':'cricoarytenoideus dorsalis','cricoartenoideus lateralis':'cricoarytenoideus lateralis',
      'thyroartenoideus':'thyroarytenoideus','auricolotemporal nerve':'auriculotemporal nerve','pharyngoesophage al limen':'pharyngoesophageal limen'}
 def is_hl(p):
     return any(x.get('fill') and tuple(round(c,2) for c in x['fill'])!=(1.0,1.0,1.0) and x['fill']!=(1.0,1.0,0.0) for x in p.get_drawings())
