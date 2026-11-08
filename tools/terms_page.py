@@ -49,7 +49,8 @@ PAGES = [("L17", "gross-anatomy-lc17-cards.html", "L17 Terms · Nervous System 1
          ("L30", "gross-anatomy-lc30-cards.html", "L30 Terms · Eye (lecture 11/4 through the iris · rest continues Mon 11/9)", "gross-anatomy-exam4.html"),
          ("L32", "gross-anatomy-lc32-cards.html", "L32 Terms · Head Vessels (slides · lecture Wed 11/11)", "gross-anatomy-exam4.html"),
          ("L34", "gross-anatomy-lc34-cards.html", "L34 Terms · Brain & Meninges (slides · lecture Mon 11/16)", "gross-anatomy-exam4.html"),
-         ("L35", "gross-anatomy-lc35-cards.html", "L35 Terms · Cranial Nerves (slides · lecture Wed 11/18)", "gross-anatomy-exam4.html")]
+         ("L35", "gross-anatomy-lc35-cards.html", "L35 Terms · Cranial Nerves (slides · lecture Wed 11/18)", "gross-anatomy-exam4.html"),
+         ("L36", "gross-anatomy-lc36-cards.html", "L36 Terms · Spinal Cord & Vertebral Ligaments (slides · lecture Thu 11/19)", "gross-anatomy-exam4.html")]
 
 def build(key, out, title, V, back="gross-anatomy-exam3.html"):
     d = json.load(open(os.path.join(HERE, "terms", key + ".json")))

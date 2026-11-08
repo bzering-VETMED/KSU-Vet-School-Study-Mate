@@ -1,0 +1,1073 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Thu 11/19) — stars and corrections update when the transcript arrives.",
+  "Spinal nerve ROOTS vs BRANCHES (rami): DORSAL ROOT = sensory only (cell bodies in the dorsal root ganglion) · VENTRAL ROOT = motor only (cell bodies in the spinal cord). After the roots join, the DORSAL BRANCH and VENTRAL BRANCH are both MIXED (slides 8, 10). Dorsal root ≠ dorsal ramus.",
+  "Gray matter map (slide 9): SOMATIC afferent = MEDIAL dorsal horn · VISCERAL afferent = LATERAL dorsal horn · VISCERAL efferent = LATERAL horn (specific regions only) · SOMATIC efferent = VENTRAL horn.",
+  "Cord SEGMENT ≠ VERTEBRA: segments are shorter than their vertebrae, so the cord ends before the vertebral canal does and the caudal roots run caudally to reach their foramen (cauda equina) (slides 15–16). Dog cord ends far more caudally than the human cord (L1/L2, slide 18).",
+  "Caudal cord, cranial → caudal: CONUS MEDULLARIS (tapering cord) → FILUM TERMINALE (fibrous band to periosteum of the caudal vertebrae). CAUDA EQUINA = the NERVES (last lumbar, sacral, caudal), not part of the cord itself (slide 16).",
+  "Spaces, outside → in: EPIDURAL (outside dura) → SUBDURAL → SUBARACHNOID (CSF; where myelogram contrast goes) (slides 16, 26, 42). Epidural = anesthesia space; subarachnoid = CSF tap / contrast space.",
+  "CSF tap sites: CEREBELLOMEDULLARY cistern = needle through the ATLANTO-OCCIPITAL membrane (slide 29) vs LUMBOSACRAL interarcuate space (slides 16–17). Don't mix the membrane (atlanto-occipital, skull–atlas) with the dorsal ATLANTOAXIAL ligament (atlas–axis).",
+  "Long ligaments: SUPRASPINOUS (tips of spinous processes, thoracic + lumbar) · DORSAL LONGITUDINAL (floor of the vertebral canal, AXIS → SACRUM) · VENTRAL LONGITUDINAL (ventral surface of bodies, MID-THORAX → SACRUM) (slide 34). Dorsal longitudinal is INSIDE the canal — directly between disk and cord.",
+  "Short ligaments: INTERSPINOUS = between spinous processes · INTERARCUATE = between vertebral arches (= ligamentum flavum on the human figure, slide 18 — outside knowledge, confirm) · INTERTRANSVERSE = between transverse processes (slides 35–36). Supraspinous (long, along the tips) ≠ interspinous (short, between processes).",
+  "NUCHAL ligament (axis spine → T1 spine in the dog figure, slide 33) is NOT the ligamentum flavum/interarcuate ligament (between arches, roof of the canal).",
+  "Disk: ANNULUS FIBROSUS = OUTER fibrocartilage · NUCLEUS PULPOSUS = INNER soft part that HERNIATES when the annulus ruptures (slide 39).",
+  "Thoracic disks herniate dorsally less often → the INTERCAPITAL ligament (rib head to rib head, dorsal to the disk, ventral to the dorsal longitudinal ligament) (slides 37, 39C, 44 — answer not printed on slide; confirm).",
+  "Horner's: preganglionic sympathetics for the eye leave at T1 and pass THROUGH the cervicothoracic and middle cervical ganglia WITHOUT synapsing; synapse = CRANIAL CERVICAL ganglion. T1 avulsion (proximal to the communicating branch) = Horner's; lesion of the ventral branch DISTAL to the communicating branch = NO Horner's (slide 57).",
+  "⚠️ FLAG (slide 6 clicker, no answer key on slide): 'Which region has a different number of segments than vertebrae?' Outside knowledge (confirm): dog has 8 cervical segments vs 7 cervical vertebrae, and ~5 caudal segments vs ~20 caudal vertebrae — so both A (cervical) and E (caudal) differ; cervical is the classic answer. Confirm with transcript.",
+  "⚠️ FLAG (segments for eye sympathetics): slide 57 says T1 '(maybe T2 as well)'; the figure caption on slide 54 says the first 3 thoracic segments (T1, T2, T3); slide 8 marks preganglionic sympathetic cell bodies as T1–L4(5). Use T1 (± T2) per the professor's bullet until the transcript confirms.",
+  "⚠️ FLAG (spelling for Canvas): slide 15 bullet writes 'intumescense' (singular) and the figure writes 'intumescence'; slide 17 title says 'Cauda equine'; slide 58 says 'nasocilliary'. Standard spellings (outside knowledge): intumescentia / intumescence, cauda equina, nasociliary nerve.",
+  "⚠️ FLAG (ptosis mechanism, slide 60): slide says ptosis comes from loss of sympathetic tone in eyelid smooth muscle, but also notes some argue that muscle is minor in veterinary species and ptosis is secondary to enophthalmos. Both versions on the slide — confirm which the professor wants."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "LO1 (slide 7)…",
+     "a": "Review the components of a spinal nerve, and the connections with the sympathetic trunk.",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 7)"
+    },
+    {
+     "q": "LO2 (slide 12)…",
+     "a": "Review the structure of the spinal cord, and know the position and significance of the cervical and lumbar intumescentia, and of the cauda equina in the dog.",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 12)"
+    },
+    {
+     "q": "LO3 (slide 20)…",
+     "a": "Summarize the components of a spinal reflex (monosynaptic and polysynaptic).",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 20)"
+    },
+    {
+     "q": "LO4 (slide 24)…",
+     "a": "Review the spinal cord meninges and associated spaces.",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 24)"
+    },
+    {
+     "q": "LO5 (slide 28)…",
+     "a": "Understand the ligaments and intervertebral disks that hold the vertebrae together, and to other trunk structures.",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 28)"
+    },
+    {
+     "q": "LO6 (slide 45)…",
+     "a": "Review the autonomic nervous system.",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 45)"
+    },
+    {
+     "q": "LO7 (slide 52)…",
+     "a": "Applied anatomy: Horner's syndrome (time permitting).",
+     "star": true,
+     "why": "Learning objective spine (bold on slide 52)"
+    },
+    {
+     "q": "In-class (clicker) questions on the slides (slides 2–6, 32, 43, 44)?",
+     "a": "Wing of the atlas (2) · palpate the ventral lamina of C6 (3) · T13–L1 disk location (4) · click the lamina (5) · which region has different segment vs vertebra numbers (6) · click the dens (32) · where is the ventral longitudinal ligament (43) · why thoracic dorsal disk herniations are less common (44)",
+     "star": true,
+     "why": "Clicker questions shown in lecture"
+    },
+    {
+     "q": "Is spinal cord blood supply or the vertebral venous plexus shown in this deck?",
+     "a": "No — not on any slide (scope: don't expect it from this lecture unless the transcript adds it)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🗺️ Palpation & vertebral landmarks (slides 2–6)",
+   "items": [
+    {
+     "q": "Where is the wing of the atlas (slide 2)?",
+     "a": "Lateral projection of the first cervical vertebra, palpable just caudal to the skull behind the ear (circled at the cranial neck)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where could you palpate the ventral lamina of C6 (slide 3)?",
+     "a": "Ventrolateral neck, cranial to the shoulder (circled on the skeleton) — the ventral lamina is the plate on the transverse process of C6 (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is the T13–L1 disk (slide 4)?",
+     "a": "Thoracolumbar junction — between the last thoracic and first lumbar vertebra, at the caudal end of the rib cage (circled)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Click on the lamina (slide 5)…",
+     "a": "Number 1 on the transverse vertebral section (same figure as slide 37: 1 = lamina of vertebra)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which spinal cord region has a different number of segments than vertebrae (slide 6)?",
+     "a": "No key on slide. Outside knowledge (confirm): cervical — 8 segments vs 7 vertebrae (caudal also differs; see ⚠️ flag)",
+     "star": true,
+     "why": "Clicker question (slide 6)"
+    }
+   ]
+  },
+  {
+   "title": "🔌 LO1 · Spinal nerve components & sympathetic trunk",
+   "items": [
+    {
+     "q": "Order: spinal cord → … → branches (slides 8, 10)?",
+     "a": "Dorsal + ventral rootlets → dorsal root (with dorsal root ganglion) + ventral root → spinal nerve → dorsal branch, ventral branch, communicating branch (to sympathetic trunk)",
+     "star": true,
+     "why": "Bold 'roots' → 'nerve' → 'branches' chain (slide 8)"
+    },
+    {
+     "q": "Dorsal root: function and cell body location (slide 8)?",
+     "a": "Sensory only; cell bodies in the dorsal root ganglion; includes both somatic and visceral afferents",
+     "star": true,
+     "why": "Bold bullet slide 8"
+    },
+    {
+     "q": "Ventral root: function and cell body location (slide 8)?",
+     "a": "Motor only; cell bodies in the spinal cord",
+     "star": true,
+     "why": "Bold bullet slide 8"
+    },
+    {
+     "q": "Branches of the spinal nerve (slides 8, 10)?",
+     "a": "Dorsal branch (ramus), ventral branch (ramus), communicating branch (ramus communicans) to the sympathetic trunk",
+     "star": true,
+     "why": "Bold 'branches' (slide 8)"
+    },
+    {
+     "q": "Dorsal branch and ventral branch are sensory, motor, or mixed (slide 8)?",
+     "a": "Mixed nerves (figure labels 'mixed nerve')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fiber types in every spinal nerve's branches (slide 8)?",
+     "a": "General somatic afferent (GSA), general visceral afferent (GVA), general visceral efferent (GVE), general somatic efferent (GSE)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Do spinal nerves communicate with the sympathetic trunk at every level (slide 8)?",
+     "a": "Yes — at EVERY level",
+     "star": true,
+     "why": "Bold 'every' (slide 8)"
+    },
+    {
+     "q": "Where are preganglionic sympathetic cell bodies vs where are postganglionic sympathetic fibers (slide 8)?",
+     "a": "Preganglionic cell bodies only in thoracolumbar segments (figure: T1–L4(5)); but every spinal nerve carries postganglionic sympathetic fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic trunk ganglia are also called… (slide 8)",
+     "a": "Paravertebral ganglia",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do the roots join to form the spinal nerve (slide 10)?",
+     "a": "Just distal to the dorsal root ganglion, often at the intervertebral foramen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the 3-D spinal nerve figure (slide 10)?",
+     "a": "White matter, gray matter, dorsal and ventral rootlets, dorsal root, ventral root, dorsal root ganglion, dorsal ramus, ventral ramus, spinal nerve, rami communicantes, sympathetic trunk ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Direction of impulses in communicating branches (slide 11)?",
+     "a": "Both from and toward the spinal nerve; the branches may be fused",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "White vs gray communicating branch (slide 11, Fig 08-53 #5–6)?",
+     "a": "White = preganglionic · gray = postganglionic; often fused",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does a sympathetic fiber synapse (slide 11)?",
+     "a": "Depends on destination — as close as possible to the destination (chain ganglion vs prevertebral ganglion)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Prevertebral ganglia named on slide 11?",
+     "a": "Celiac, cranial mesenteric, or caudal mesenteric ganglion — reached via splanchnic nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-53 numbers 1–9 (slide 11)?",
+     "a": "1 dorsal root ganglion · 2 ventral root · 3 dorsal branch · 4 ventral branch · 5/6 white/gray communicating branches · 7 sympathetic trunk with ganglia · 8 prevertebral ganglion · 9 gut",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-53 letters a–f (slide 11)?",
+     "a": "a somatic afferent · b visceral afferent · c somatic efferent · d visceral efferent (preganglionic sympathetic) · e postganglionic sympathetic to peripheral structures · f postganglionic sympathetic to abdominal organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-53 line code (slide 11)?",
+     "a": "Visceral = black, somatic = red; afferent = interrupted lines, efferent = solid; postganglionic sympathetic = alternating black/stippled",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Human spinal nerve figure labels (slide 41)?",
+     "a": "Anterior (ventral) root, posterior (dorsal) root, paravertebral ganglion, spinal nerve, sympathetic trunk, grey ramus, white ramus, pia mater, arachnoid mater, dura mater, transverse process, intervertebral foramen, body of vertebra",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🧱 LO2 · Gray & white matter, tracts",
+   "items": [
+    {
+     "q": "Somatic vs visceral afferent position in the dorsal horn (slide 9)?",
+     "a": "Somatic afferent synapse more MEDIALLY; visceral afferent more LATERALLY",
+     "star": true,
+     "why": "Bold bullet slide 9"
+    },
+    {
+     "q": "Visceral vs somatic efferent cell bodies (slide 9)?",
+     "a": "Visceral efferent = lateral gray horn, in specific regions of the cord only · somatic efferent = ventral gray horn",
+     "star": true,
+     "why": "Bold bullet slide 9"
+    },
+    {
+     "q": "Fig 08-17 numbers 1–5 (slide 9)?",
+     "a": "1 somatic afferent input · 2 visceral afferent input (1+2 = dorsal horn) · 3 visceral efferent · 4 somatic efferent (3+4 = ventral horn) · 5 dorsal root ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-13 numbers 1–10 (slide 9)?",
+     "a": "1 central canal · 2 dorsal root fibers · 3 ventral root fibers · 4 ventral median fissure · 5 dorsal horn · 6 ventral horn · 7 dorsal funiculus · 8 lateral funiculus · 9 ventral funiculus · 10 dorsal root ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three funiculi of white matter (slides 9, 14)?",
+     "a": "Dorsal, lateral, ventral funiculus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Midline landmarks of the cord, dorsal vs ventral (slides 9, 14)?",
+     "a": "Dorsal median sulcus (dorsal) · ventral median fissure (ventral)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does white matter contain and how is it organized (slide 13)?",
+     "a": "Axons to/from cord and brain or to another cord region; organized as tracts (not visible) within the funiculi",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ascending vs descending impulses (slide 13)?",
+     "a": "Ascending = toward the brainstem · descending = away from the brainstem",
+     "star": true,
+     "why": "Bold ascending/descending (slide 13)"
+    },
+    {
+     "q": "Fig 08-07 pathways 1–4 (slide 13)?",
+     "a": "1 afferent fibers in the dorsal funiculus go directly to the brain · 2 interneuron → efferent neuron · 3 interneurons carrying impulses cranially/caudally in the cord · 4 some extending to the brain",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How do tract names tell direction (slide 14)?",
+     "a": "Origin first, destination second — corticospinal = cortex → cord (descending); spinothalamic = cord → thalamus (ascending)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Corticospinal vs spinothalamic color on slide 14?",
+     "a": "Corticospinal = orange · spinothalamic = blue",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tracts in the dorsal funiculus (slide 14)?",
+     "a": "Fasciculus gracilis (1) and fasciculus cuneatus (2)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-18B tracts 3–11 (slide 14)?",
+     "a": "3 lateral corticospinal · 4 rubrospinal · 5 dorsal spinocerebellar · 6 ventral spinocerebellar · 7 spino-olivary and olivospinal · 8 propriospinal system (fasciculi proprii) · 9 spinothalamic · 10 ventral corticospinal · 11 vestibulospinal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do the pyramidal tracts cross (slide 14)?",
+     "a": "At the junction of the brain and spinal cord (curved dotted arrows)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🐴 LO2 · Intumescentiae, cord end & cauda equina",
+   "items": [
+    {
+     "q": "What are the intumescentiae (slide 15)?",
+     "a": "Two enlarged areas of the spinal cord where the nerves for the limbs arise",
+     "star": true,
+     "why": "Bold term + LO2 'position and significance'"
+    },
+    {
+     "q": "Name the two intumescentiae and which limb each serves (slide 15)?",
+     "a": "Cervical intumescence (thoracic limb / brachial plexus) · lumbar intumescence (pelvic limb / lumbosacral plexus) (plexus names = outside knowledge — confirm)",
+     "star": true,
+     "why": "LO2 spine (bold on slide 15 figure)"
+    },
+    {
+     "q": "Fig 08-15 numbers 1–6 (horse, slide 15)?",
+     "a": "1 atlas · 2 ilium · 3 sacrum · 4 cervical intumescence · 5 lumbar intumescence · 6 cauda equina",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cord cross-section series on slide 15 — which levels look largest?",
+     "a": "C8 and L6 (intumescentiae) vs small T2, T7 (series: C1, C5, C8, T2, T7, L1, L6, S1)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Term for the cord being shorter than the vertebral canal (slide 15)?",
+     "a": "Ascensus medullae spinalis",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is the cord shorter than the vertebral column (slide 16)?",
+     "a": "Cord segments are usually shorter than the corresponding vertebrae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Consequence for the spinal nerve roots caudally (slide 16)?",
+     "a": "Roots run more and more caudally to reach their corresponding intervertebral foramen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Conus medullaris (slide 16)?",
+     "a": "The caudal taper of the spinal cord",
+     "star": true,
+     "why": "Bold on slide 16"
+    },
+    {
+     "q": "Filum terminale (slide 16)?",
+     "a": "Fibrous band from the conus medullaris to the periosteum of the caudal vertebrae",
+     "star": true,
+     "why": "Bold on slide 16"
+    },
+    {
+     "q": "Cauda equina (slide 16)?",
+     "a": "The group of last lumbar, sacral and caudal spinal nerves",
+     "star": true,
+     "why": "Bold on slide 16 + LO2"
+    },
+    {
+     "q": "Fig 08-59 numbers 1–8 (slides 16, 18)?",
+     "a": "1 lumbar vertebra · 2 sacrum · 3 caudal vertebra · 4 conus medullaris · 5 filum terminale · 6 epidural space · 7 dura mater · 8 subarachnoid space with cerebrospinal fluid",
+     "star": true,
+     "why": "Bold labels in caption (slide 16)"
+    },
+    {
+     "q": "Where does the needle point in Fig 08-59 (slide 16)?",
+     "a": "Lumbosacral interarcuate space",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 12-09 numbers 1–9 (dog, slide 16)?",
+     "a": "1 L3 vertebra · 2 L7 · 3 sacrum · 4 first caudal vertebra · 5 dura mater · 6 dorsal root ganglion · 7 approximate level of L7 cord segment · 8 end of spinal cord · 9 cauda equina",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the dog spinal cord end (slide 16 figure)?",
+     "a": "In the caudal lumbar region — the end (8) lies cranial to the L7 vertebra in Fig 12-09 (outside knowledge: about L6–L7 vertebrae in the dog — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Species variation in cord end (slide 17)?",
+     "a": "Caudal extent of the cord differs among cat, dog, pig, cattle, horse; the lumbosacral interarcuate space (arrow) is the reference",
+     "star": true,
+     "why": "Clinical question on slide 17"
+    },
+    {
+     "q": "What is done clinically at the lumbosacral arrows and why does cord length matter (slide 17)?",
+     "a": "Not answered on slide. Lumbosacral epidural injection / cerebrospinal fluid collection (L34 slides 67–69); where the cord and dural sac end decides which space the needle enters (outside knowledge — confirm)",
+     "star": true,
+     "why": "Question posed on slide 17"
+    },
+    {
+     "q": "Human spinal cord ends at (slide 18)?",
+     "a": "L1/L2 vertebral level",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on the human lumbar puncture figure (slide 18)?",
+     "a": "Spinous process, interspinous ligament, conus medullaris, cauda equina, subarachnoid space, needle, ligamentum flavum, dura mater, vertebra L1–L5",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the curved spine on the cat radiograph abnormal (slide 19)?",
+     "a": "No — the curvature is normal in cats",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 12-04 labels (slide 19)?",
+     "a": "1 scapular spines · 2 spinous process of T5 · 3 anticlinal vertebra (T11) · 4 spinous process of L1 · 5 rudimentary rib · 6 sublumbar muscles; canine radiograph A has contrast in the subarachnoid space",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "⚡ LO3 · Spinal reflexes",
+   "items": [
+    {
+     "q": "Spinal reflexes are… (slide 21)",
+     "a": "Local and involuntary (not under conscious control in most cases)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Functions of reflexes (slide 21)?",
+     "a": "Regulate muscle activity and tension, smooth coordinated movement, maintain posture, rapid protective response",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Monosynaptic patellar reflex chain (Fig 08-05, slide 21)?",
+     "a": "1 tendon stretched → 2 muscle spindles → 3 afferent neuron → spinal cord → 4 efferent neuron → 5 axon → 6 quadriceps contracts",
+     "star": true,
+     "why": "Bold 'monosynaptic' example (slide 21)"
+    },
+    {
+     "q": "What else happens in the monosynaptic example besides contraction (slide 21)?",
+     "a": "Inhibition of the opposing muscles (reciprocal inhibition, slide 23)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How common are monosynaptic reflexes (slide 21)?",
+     "a": "Uncommon",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most common reflex type (slide 22)?",
+     "a": "Reflex involving an interneuron (polysynaptic)",
+     "star": true,
+     "why": "'Most common type' on slide 22"
+    },
+    {
+     "q": "Interneuron reflex chain (Fig 08-06, slide 22)?",
+     "a": "1 skin receptor → 2 afferent neuron → 3 synapse on interneuron → 4 synapse at efferent neuron → 5 muscle (6 = spinal cord)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hot-stove example result (slide 22)?",
+     "a": "Biceps brachii and other flexors contract, extensors inhibited — before you are aware",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Does a spinal reflex need the brain (slide 23)?",
+     "a": "No — happens locally; collateral branches inform the brain",
+     "star": true,
+     "why": "Bold 'locally' (slide 23)"
+    },
+    {
+     "q": "Why reflexes are clinically useful (slide 23)?",
+     "a": "They test the integrity of a section of spinal cord; works whether or not the animal is aware",
+     "star": true,
+     "why": "Bold 'section of spinal cord' (slide 23)"
+    }
+   ]
+  },
+  {
+   "title": "🛡️ LO4 · Spinal meninges & spaces",
+   "items": [
+    {
+     "q": "Meninges = ? (slide 25)",
+     "a": "Connective tissue sheaths for the central nervous system (CNS)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Spinal meninges outside → in (slide 26)?",
+     "a": "Dura mater (outermost) → arachnoid (middle) → pia mater (innermost)",
+     "star": true,
+     "why": "LO4 spine (slide 26)"
+    },
+    {
+     "q": "Spaces of the spinal cord outside → in (slides 26, 39)?",
+     "a": "Epidural space (outside dura) → subdural space → subarachnoid space (deep to arachnoid)",
+     "star": true,
+     "why": "LO4 spine (slide 26)"
+    },
+    {
+     "q": "Fig 08-55 numbers 1–10 (slide 25)?",
+     "a": "1 spinal cord · 2 dorsal root · 3 spinal ganglion · 4 ventral root · 5 spinal nerve · 6 dorsal branch · 7 ventral branch · 8 body of vertebra · 9 sympathetic trunk · 10 epaxial muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-58 numbers 1–4 (slides 25, 27)?",
+     "a": "1 dura mater (reflected) · 2 dorsal rootlets · 3 spinal cord covered by pia mater · 4 denticulate ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Denticulate ligaments function (slide 27)?",
+     "a": "Anchor the spinal cord within the meninges",
+     "star": true,
+     "why": "Slide title + bold label (slide 27)"
+    },
+    {
+     "q": "Denticulate ligament is a thickening of which meninx? (slide 27)",
+     "a": "Not stated on slide — pia mater (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is myelogram contrast placed (slides 19, 42)?",
+     "a": "Subarachnoid space",
+     "star": true,
+     "why": "Repeated bullet + caption (slide 42)"
+    },
+    {
+     "q": "Labels on the IVD figure showing spaces (slide 39A)?",
+     "a": "Epidural space, subarachnoid space, spinal cord, dura mater and arachnoid, dorsal longitudinal ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which space does the needle enter through the atlanto-occipital membrane (slide 29)?",
+     "a": "Subarachnoid cerebellomedullary cistern",
+     "star": true,
+     "why": "Bold label in caption (slide 29)"
+    },
+    {
+     "q": "Which space is labeled at the lumbosacral needle site on Fig 08-59 (slide 16)?",
+     "a": "Epidural space (6) lies outside the dura (7); subarachnoid space with CSF (8) inside",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🦴 LO5 · Atlanto-occipital & atlantoaxial ligaments, dens",
+   "items": [
+    {
+     "q": "Dorsal and ventral atlanto-occipital membranes (slide 29)?",
+     "a": "Strengthen the synovial joint between atlas and skull (arrows)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dorsal atlantoaxial ligament (slide 29)?",
+     "a": "Between the atlas and axis (label 3)",
+     "star": true,
+     "why": "Bold caption label (slide 29)"
+    },
+    {
+     "q": "Fig 12-06 numbers (slide 29)?",
+     "a": "1 dorsal arch of atlas · 2 spinous process of axis · 2′ dens · 3 dorsal atlantoaxial ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Clinical use of the atlanto-occipital membrane (slide 29)?",
+     "a": "Needle penetrates it to enter the subarachnoid cerebellomedullary cistern (cerebrospinal fluid tap)",
+     "star": true,
+     "why": "Bold 'atlanto-occipital membrane' (slide 29)"
+    },
+    {
+     "q": "Ligaments that hold the dens (slide 30)?",
+     "a": "1 apical ligament of the dens, 2 alar ligaments, 1 transverse ligament of the atlas",
+     "star": true,
+     "why": "Bold labels + bullet (slide 30)"
+    },
+    {
+     "q": "Fig 02-13 numbers 1–10 (slide 30)?",
+     "a": "1 skull · 2 atlanto-occipital joint capsule · 3 wing of atlas · 3′ dorsal arch of atlas (resected) · 4 atlantoaxial joint capsule · 5 axis · 5′ spine of axis · 6 dens · 7 transverse ligament of atlas · 8 alar ligaments · 9 apical ligament of dens · 10 dorsal margin of foramen magnum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three ways the dens compresses the cervical cord (slide 31)?",
+     "a": "Dens fails to develop properly, dens fractures, or the transverse ligament of the atlas ruptures",
+     "star": true,
+     "why": "Clinical slide 31"
+    },
+    {
+     "q": "Labels on the transverse head section at the dens (slide 31)?",
+     "a": "Spinal cord, wing of atlas, dens, glottis, thyroid cartilage",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Click on the dens (slide 32)?",
+     "a": "Cranial projection of the axis, lying ventral to the cord inside the atlas on the lateral radiograph (axis figure label 6)",
+     "star": true,
+     "why": "Clicker question (slide 32)"
+    }
+   ]
+  },
+  {
+   "title": "🪢 LO5 · Vertebral & trunk ligaments",
+   "items": [
+    {
+     "q": "Dorsal → ventral order of vertebral ligaments, lumbar paramedian section (slides 34–35)?",
+     "a": "Supraspinous → interspinous → interarcuate → [vertebral canal / spinal cord] → dorsal longitudinal → [vertebral body + disk] → ventral longitudinal (order assembled from figure positions)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Three LONG ligaments between vertebrae (slide 34)?",
+     "a": "Supraspinous ligament, dorsal longitudinal ligament, ventral longitudinal ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Supraspinous ligament: location and region (slide 34)?",
+     "a": "Over the tips of the spinous processes; thoracic and lumbar (label 1)",
+     "star": true,
+     "why": "Bold caption + list (slide 34)"
+    },
+    {
+     "q": "Dorsal longitudinal ligament: location and extent (slide 34)?",
+     "a": "Floor of the vertebral canal (dorsal surface of the bodies/disks, ventral to the cord); axis to sacrum (label 7)",
+     "star": true,
+     "why": "Bold caption + list (slide 34)"
+    },
+    {
+     "q": "Ventral longitudinal ligament: location and extent (slide 34)?",
+     "a": "Ventral surface of the vertebral bodies; mid-thorax to sacrum (label 8)",
+     "star": true,
+     "why": "Bold caption + list (slide 34)"
+    },
+    {
+     "q": "Three SHORT ligaments between vertebrae (slide 35)?",
+     "a": "Interspinous ligaments, interarcuate ligaments, intertransverse ligaments (not shown)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Interspinous ligament (slide 35)?",
+     "a": "Between adjacent spinous processes (label 3)",
+     "star": true,
+     "why": "Bold caption (slide 35)"
+    },
+    {
+     "q": "Interarcuate ligament (slide 35)?",
+     "a": "Between adjacent vertebral arches (label 5); human figure equivalent = ligamentum flavum (slide 18; outside knowledge — confirm)",
+     "star": true,
+     "why": "Bold caption (slide 35)"
+    },
+    {
+     "q": "Intertransverse ligament (slides 35–36)?",
+     "a": "Between transverse processes; shown on the horse lumbar transverse processes (2–5)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 02-15 numbers 1–9 (slides 34–35)?",
+     "a": "1 supraspinous lig. · 2 spinous process · 3 interspinous lig. · 4 arch of vertebra · 5 interarcuate lig. · 6 intervertebral foramen · 7 dorsal longitudinal lig. · 8 ventral longitudinal lig. · 9 intervertebral disk",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nuchal ligament in the dog: attachments per figure (slide 33)?",
+     "a": "Spinous process of the axis (2) to the spinous process of T1 (4) — label 3; the slide says it differs in large animals",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other labels on the horse pelvis figure (slide 36)?",
+     "a": "Interspinous ligament, dorsal sacroiliac ligament (short funicular part, long membranous part), sacrosciatic (sacrotuberous) ligament, ventral sacroiliac ligament, greater and lesser sciatic foramina, tuber coxae, tuber sacrale, tuber ischiadicum",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Two ligaments associated with ribs (slide 37)?",
+     "a": "Intercapital ligaments (2) and costotransverse ligaments (8)",
+     "star": true,
+     "why": "Bold caption labels (slide 37)"
+    },
+    {
+     "q": "Intercapital ligament: location (slides 37, 39C)?",
+     "a": "Connects the heads of a rib pair across the floor of the vertebral canal — dorsal to the intervertebral disk, ventral to the dorsal longitudinal ligament (position read from figures)",
+     "star": true,
+     "why": "Bold label + clicker answer (slide 44)"
+    },
+    {
+     "q": "Costotransverse ligament (slide 37)?",
+     "a": "Covers the costotransverse joint (tubercle of rib ↔ transverse process)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 02-18 numbers 1–8 (slide 37)?",
+     "a": "1 lamina · 2 intercapital ligament · 3 tubercle of rib · 4 head of rib · 5 intervertebral disk · 6 dorsal longitudinal ligament · 7 costovertebral joint · 8 costotransverse joint/ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dog sacrotuberous ligament: attachments (slide 38)?",
+     "a": "Sacrum / first caudal vertebra to the ischial tuber (label 4)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Large-animal (bovine) equivalent of the sacrotuberous ligament (slide 38)?",
+     "a": "Sacrosciatic ligament (broad sheet)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 02-20A numbers 1–7 (slide 38)?",
+     "a": "1 ilium · 2 sacrum · 3 caudal vertebra · 4 sacrotuberous ligament · 5 ischial spine · 6 acetabulum · 7 ischial tuber",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is the ventral longitudinal ligament on the T8 section (slide 43)?",
+     "a": "Ventral midline of the disk/vertebral body (on the ventral surface, below label 5) — not drawn because the section passes through a disk",
+     "star": true,
+     "why": "Clicker question (slide 43)"
+    }
+   ]
+  },
+  {
+   "title": "💿 LO5 · Intervertebral disks & herniation",
+   "items": [
+    {
+     "q": "Annulus fibrosus (slide 39)?",
+     "a": "Outer part of the disk; fibrocartilage",
+     "star": true,
+     "why": "Key disk bullet (slide 39)"
+    },
+    {
+     "q": "Nucleus pulposus (slide 39)?",
+     "a": "Inner, softer part; herniates if the annulus ruptures",
+     "star": true,
+     "why": "Key disk bullet (slide 39)"
+    },
+    {
+     "q": "Source of pain in disk herniation (slide 39)?",
+     "a": "Inflammation caused by the herniated material",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Main problem in disk herniation (slide 39)?",
+     "a": "Trapping nervous structures against bone; enough pressure → loss of nerve function",
+     "star": true,
+     "why": "Key clinical bullet (slide 39)"
+    },
+    {
+     "q": "Labels on IVD sagittal figure B (slide 39)?",
+     "a": "Vertebral epiphysis, nucleus pulposus, cartilaginous end-plate, vertebral body, annulus fibrosus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Labels on IVD figure C (slide 39)?",
+     "a": "Dorsal longitudinal ligament, rib head, intercapital ligament, ventral longitudinal ligament",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does slide 40 show?",
+     "a": "Collagen fiber layers of the intervertebral disks (adult lion)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Herniation can press on what, depending on direction (slide 41)?",
+     "a": "The spinal cord or the nerve roots",
+     "star": true,
+     "why": "Highlighted note box (slide 41)"
+    },
+    {
+     "q": "Caveat on slide 41 figure?",
+     "a": "It is a human spinal cord",
+     "star": true,
+     "why": "Highlighted note box (slide 41)"
+    },
+    {
+     "q": "Myelogram finding on slide 42 (dog)?",
+     "a": "Cord compression from a disk herniation between T12 and T13 (contrast in subarachnoid space)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why are dorsal thoracic disk herniations less common (slide 44)?",
+     "a": "No key on slide — intercapital ligament (B) reinforces the disk dorsally from T2 to T10 approx. (outside knowledge — confirm)",
+     "star": true,
+     "why": "Clicker; 'in the thoracic region' in red (slide 44)"
+    }
+   ]
+  },
+  {
+   "title": "🌙 LO6 · Autonomic nervous system review",
+   "items": [
+    {
+     "q": "Why does every spinal nerve get sympathetic postganglionic fibers (slide 46)?",
+     "a": "Skin is primarily innervated by sympathetic fibers",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which nerves carry parasympathetic fibers (slides 46, 50)?",
+     "a": "4 cranial nerves (III, VII, IX, X) and sacral spinal nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Parasympathetics in skin (slide 46)?",
+     "a": "Small number, especially in the face; regulate blood flow and perspiration",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Autonomic targets in the head (slide 47)?",
+     "a": "Smooth muscle: pupil, ciliary body, piloerector, vascular · glands: salivary, lacrimal, nasal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fig 08-71 numbers 1–5 (slide 47)?",
+     "a": "1–4 parasympathetic nuclei of III (oculomotor), VII (facial), IX (glossopharyngeal), X (vagus) · 5 cranial cervical ganglion (sympathetic trunk)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Parasympathetic ganglia of the head (Fig 08-71, slide 47)?",
+     "a": "6 ciliary · 7 pterygopalatine · 8 mandibular · 9 otic (very small)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nerves 10–14 on Fig 08-71 (slide 47)?",
+     "a": "10 short ciliary nerves · 11 greater petrosal · 12 deep petrosal · 13 chorda tympani · 14 tympanic plexus/short petrosal nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cervical sympathetic chain, cranial → caudal (slide 48)?",
+     "a": "Cranial cervical ganglion ← vagosympathetic trunk ← middle cervical ganglion ← cervicothoracic ganglion ← sympathetic chain (thorax, rami communicantes)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Other labels on the vagosympathetic schematic (slide 48)?",
+     "a": "Vertebral nerve (from cervicothoracic ganglion), rami communicantes, vagus nerve, sympathetic chain; red circle = loop around the subclavian artery (ansa subclavia — outside knowledge, confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Most cranial sympathetic ganglion (slide 49)?",
+     "a": "Cranial cervical ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which sympathetics synapse in the cranial cervical ganglion (slide 49)?",
+     "a": "All sympathetics to the head (and some to the neck)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "How do postganglionic sympathetics reach head targets (slide 49)?",
+     "a": "Follow vessels or join cranial or spinal nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Color code in the Nickel figure (slides 49–50)?",
+     "a": "Sympathetic = blue · parasympathetic = red",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic vs parasympathetic: pupil, heart, bronchioles (slide 51)?",
+     "a": "Pupil dilation vs constriction · heart ↑ rate and force vs ↓ rate · bronchioles dilation vs constriction",
+     "star": true,
+     "why": "Summary table (slide 51)"
+    },
+    {
+     "q": "Sympathetic vs parasympathetic: gut wall, gut sphincter (slide 51)?",
+     "a": "↓ motility vs ↑ motility · sphincter constrict vs relax",
+     "star": true,
+     "why": "Summary table (slide 51)"
+    },
+    {
+     "q": "Sympathetic vs parasympathetic: bladder detrusor, bladder-urethra sphincter (slide 51)?",
+     "a": "Detrusor relax vs contract · sphincter constrict vs relax",
+     "star": true,
+     "why": "Summary table (slide 51)"
+    },
+    {
+     "q": "Sympathetic vs parasympathetic: penis, gallbladder (slide 51)?",
+     "a": "Ejaculation vs erection · gallbladder relax vs contract",
+     "star": true,
+     "why": "Summary table (slide 51)"
+    },
+    {
+     "q": "Sympathetic vs parasympathetic: salivary, nasal and lacrimal glands (slide 51)?",
+     "a": "Concentrated viscous saliva vs abundant watery saliva · vasoconstriction vs abundant secretion",
+     "star": true,
+     "why": "Summary table (slide 51)"
+    },
+    {
+     "q": "Sympathetic-only effects (slide 51)?",
+     "a": "Liver glucose production · kidney renin secretion · muscle vessels dilation · cutaneous and visceral vessels constriction · piloerector contraction · sweat glands (cholinergic) secretion · adipose lipolysis · adrenal medulla epinephrine secretion",
+     "star": true,
+     "why": "Summary table (slide 51)"
+    }
+   ]
+  },
+  {
+   "title": "👁️ LO7 · Horner's syndrome",
+   "items": [
+    {
+     "q": "Sympathetic pathway to the eye, 3 neurons (slides 53–54)?",
+     "a": "Hypothalamus (upper motor neuron, tract in the lateral funiculus) → preganglionic from T1 cord via communicating branch → cervicothoracic + middle cervical ganglia (no synapse) → cervical sympathetic trunk → cranial cervical ganglion (synapse) → postganglionic to iris dilator",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where do upper motor neurons for sympathetic output originate and go (slide 53)?",
+     "a": "Hypothalamus → thoracolumbar spinal cord (not shown)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which nerves carry preganglionic sympathetics for the head to the trunk (slide 53)?",
+     "a": "Brachial plexus nerves at the cervicothoracic junction (circled, ~T1)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Red / yellow / green pathways on slide 54?",
+     "a": "Red = hypothalamic higher control (lateral funiculus) · yellow = preganglionic to cranial cervical ganglion · green = postganglionic route to the dilator of the eye",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Horner's syndrome definition (slide 55)?",
+     "a": "Disruption anywhere along the cervical sympathetic pathway from the hypothalamus to the eye",
+     "star": true,
+     "why": "Bold 'sympathetic pathway', 'hypothalamus to the eye' (slide 55)"
+    },
+    {
+     "q": "Lesion sites that cause Horner's (slide 55)?",
+     "a": "Upper motor neurons, roots of the first thoracic nerves, communicating branch, cervicothoracic and/or middle cervical ganglion, cervical sympathetic trunk, cranial cervical ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Lesion types (slide 55)?",
+     "a": "Central or peripheral; peripheral may be preganglionic or postganglionic",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Four signs of Horner's (slide 56)?",
+     "a": "Ptosis (drooping lid), miosis (constricted pupil, less obvious in bright light), enophthalmos, protrusion of the third eyelid — affected side",
+     "star": true,
+     "why": "Signs list (slide 56)"
+    },
+    {
+     "q": "Cord level of preganglionic sympathetics for the eye (slide 57)?",
+     "a": "T1 (maybe T2 as well) — see ⚠️ flag",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "T1 nerve avulsion (red X, slide 57) → Horner's?",
+     "a": "YES — injury proximal to the communicating branch interrupts sympathetics to the eye on that side",
+     "star": true,
+     "why": "Caps 'WOULD' (slide 57)"
+    },
+    {
+     "q": "Lesion of T1 ventral branch distal to the communicating branch (yellow X, slide 57) → Horner's?",
+     "a": "NO — sympathetic fibers have already left via the communicating branch",
+     "star": true,
+     "why": "Caps 'NOT' (slide 57)"
+    },
+    {
+     "q": "Postganglionic route into the orbit (slide 58)?",
+     "a": "Enter calvarium → ventral to trigeminal ganglion → exit with the ophthalmic nerve (trigeminal) through the orbital fissure → nasociliary nerve → long ciliary nerve",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does the long ciliary nerve supply (slide 58)?",
+     "a": "Iris dilator muscle and blood vessels of the uveal tract",
+     "star": true,
+     "why": "Bold 'iris dilator muscle' (slide 58)"
+    },
+    {
+     "q": "Other sympathetic smooth-muscle targets around the eye (slide 58)?",
+     "a": "Smooth muscles of the periorbita and the eyelids (upper eyelid smooth muscle with levator palpebrae superioris)",
+     "star": true,
+     "why": "Bold on slide 58"
+    },
+    {
+     "q": "Mechanism of enophthalmos (slide 59)?",
+     "a": "Circular periorbital smooth muscle relaxes (loss of sympathetic input) → retractor bulbi unopposed → globe retracted",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Third eyelid protrusion: dog vs cat (slide 60)?",
+     "a": "Dog = passive, secondary to enophthalmos · cat = also active component (sympathetic smooth muscle in third eyelid); 2nd most common sign in cats",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Ptosis mechanism (slide 60)?",
+     "a": "Loss of sympathetic tone in eyelid smooth muscle (some argue secondary to enophthalmos — see ⚠️ flag)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vascular sign of Horner's (slide 61)?",
+     "a": "Ipsilateral peripheral vasodilation — warm pinna, hyperemia of nasal planum and/or conjunctiva",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}
