@@ -163,4 +163,128 @@ LABS[29]={'title':'Lab 29 · Nose, face, eye, mouth + pharynx','src':'Pre-lab vi
    ('Pharyngeal constrictors (rostral → caudal)','Hyopharyngeus → thyropharyngeus → cricopharyngeus (HTC); cricopharyngeus continues into the esophagus',1),
    ('Cranial laryngeal nerve','Passes between the hyopharyngeus (cranial) + thyropharyngeus (caudal)',1)])]}
 
+LABS[30]={'title':'Lab 30 · Larynx, ear, tongue + hyoid muscles','src':'Pre-lab video · Lab 30 notes · Dr. Stueve lab slides','traps':[],'flags':[],
+ 'secs':[
+  ('🦴 Laryngeal cartilages',[
+   ('4 main laryngeal cartilages','Epiglottic · arytenoid · cricoid · thyroid (the first three sit in the thyroid "trough")',1),
+   ('Epiglottic cartilage','Most rostral, triangular',0),
+   ('Cricoid cartilage','"Graduation ring": narrow ventral rim, WIDE dorsum',1),
+   ('Thyroid cartilage','Open trough ("boat without a roof"); rostral cornu + caudal cornu; caudal thyroid incisure ventrally',1),
+   ('Cricothyroid ligament','Ventral; spans the gap between the thyroid + cricoid cartilages',0),
+   ('Aryepiglottic fold','Fold between the epiglottic cartilage and the arytenoid (cuneiform process)',0),
+   ('Arytenoid cartilage — 4 processes','Cuneiform (rostral, in the aryepiglottic fold) · corniculate (caudodorsal) · vocal (medial/ventral, vocal fold attaches) · muscular (LATERAL, muscles attach)',1)]),
+  ('🎤 Folds + cavity',[
+   ('Vocal fold','Vocalis muscle + vocal ligament; attaches to the vocal process (caudal fold)',1),
+   ('Vestibular (ventricular) fold','Rostral fold; contains the ventricularis muscle',1),
+   ('Laryngeal ventricle','Depression BETWEEN the vestibular fold (rostral) and vocal fold (caudal)',1),
+   ('Glottis','Vocal fold + vocal process (each side)',1),
+   ('Rima glottidis (glottic cleft)','The opening between the left + right glottis → infraglottic cavity → trachea',1)]),
+  ('💪 Laryngeal muscles',[
+   ('Cricoarytenoideus dorsalis','Dorsal cricoid lamina → muscular process of the arytenoid',1),
+   ('Cricoarytenoideus lateralis','Lateral cricoid → muscular process of the arytenoid',0),
+   ('Thyroarytenoideus','Thyroid cartilage → arytenoid; = vocalis (in the vocal fold) + ventricularis (in the vestibular fold)',1),
+   ('Cricothyroid muscle','Cricoid → thyroid cartilage (ventrolateral)',0)]),
+  ('👂 Ear',[
+   ('Auricular cartilage','Pinna (hyaline per video); helix = border (lateral + medial)',0),
+   ('Antihelix','Tick-like bump in the canal opening — often mistaken for a tick',1),
+   ('Tragus','Cartilage lateral to/in front of the antihelix, hair-covered',1),
+   ('Marginal cutaneous sac (pouch)','Pouch at the caudal margin of the pinna by the antitragus — check for ticks on ear exams',1),
+   ('Annular cartilage','Ring around the external acoustic meatus (seen after cutting the pretragic + intertragic incisures)',0),
+   ('Tympanic membrane','Deep in the canal; hard to find in lab',0)]),
+  ('🦷 Mastication',[
+   ('Masseter muscle','Lateral to the mandible; transect off the zygomatic arch',0),
+   ('Temporalis muscle','Temporal fossa → coronoid process; medial attachment to the zygomatic arch',0),
+   ('Zygomatic salivary gland','Ventral to the orbital ligament, seen after reflecting masseter + temporalis',1),
+   ('Medial + lateral pterygoid muscles','Shiny muscle deep in the pterygopalatine fossa; NOT separated on the exam ("pterygoid muscles")',1),
+   ('Digastricus','Curves along the ventral angle of the mandible; rostral + caudal bellies',0)]),
+  ('👅 Tongue + hyoid muscles',[
+   ('Styloglossus','Stylohyoid bone → tongue',1),
+   ('Hyoglossus','Basihyoid → tongue',1),
+   ('Genioglossus','Chin ("genio") → tongue; fan-shaped',1),
+   ('Sternohyoideus','Sternum → hyoid (basihyoid)',1),
+   ('Sternothyroideus','Sternum → thyroid cartilage (splits from sternohyoideus)',0),
+   ('Thyrohyoideus','Thyroid cartilage → hyoid',1),
+   ('Mylohyoideus','Transverse sling between the mandibles ("mylo" = molar) → hyoid; ventral, superficial',1),
+   ('Geniohyoideus','Chin → hyoid; DEEP to the mylohyoideus',1)])]}
+LABS[31]={'title':'Lab 31 · Eye + superficial head','src':'Pre-lab video · Lab 31 notes · Dr. Stueve lab slides','traps':[],'flags':[],
+ 'secs':[
+  ('👁️ Extraocular muscles',[
+   ('Periorbita','Fibrous CT + smooth muscle cone around the eyeball + its muscles; incise lengthwise',1),
+   ('Rectus muscles (4)','Dorsal · ventral · lateral · medial (medial is deepest)',1),
+   ('Obliquus muscles (2)','Dorsal oblique + ventral oblique',1),
+   ('Dorsal oblique','Dorsomedial; tendon runs through the trochlea, inserts dorsally + obliquely on the sclera',1),
+   ('Trochlea','Cartilage at the medial angle of the eye; pulley for the dorsal oblique tendon',1),
+   ('Ventral oblique','Fibers run obliquely across the ventral eyeball; ventral to the ventral rectus',0),
+   ('Levator palpebrae superioris','Very thin, ON TOP of the dorsal rectus; elevates the upper eyelid',1),
+   ('Retractor bulbi','4 small muscles surrounding the optic nerve',1)]),
+  ('💧 Glands',[
+   ('Lacrimal gland','Under the orbital ligament (cut it); produces tears',1),
+   ('Superficial gland of the third eyelid','Glandular tissue on the medial (bulbar) side of the third eyelid',0)]),
+  ('🔵 Eyeball — 3 coats',[
+   ('External fibrous coat','Cornea + sclera + limbus',1),
+   ('Limbus','Corneoscleral junction',1),
+   ('Middle vascular coat = uvea','Iris + ciliary body + ciliary processes + choroid (black layer)',1),
+   ('Pupil','Opening in the iris; controls light reaching the lens',0),
+   ('Ciliary processes','Finger-like folds off the ciliary body',0),
+   ('Internal coat = retina','Nervous layer: pars optica (over choroid) · pars ciliaris (over ciliary body) · pars iridica (back of iris)',1),
+   ('Ora serrata','Line where the thick pars optica meets the thin pars ciliaris retinae',1),
+   ('Tapetum lucidum','Shiny reflective layer of the choroid (eye shine); seen in the fundus',1),
+   ('Fundus','What you see through an ophthalmoscope',1),
+   ('Optic disk','Where the optic nerve starts; retina will not peel off here',1)]),
+  ('🫧 Chambers + lens',[
+   ('Anterior chamber','Between the cornea and iris — aqueous humor',1),
+   ('Posterior chamber','Behind the iris, in front of the lens/ciliary processes — aqueous humor',1),
+   ('Vitreous chamber','Behind the lens — vitreous body (jelly)',1),
+   ('Zonule','Suspends the lens: ciliary body + zonular fibers',0)]),
+  ('🩸 Superficial veins (drainage order)',[
+   ('Dorsal nasal vein + angularis oculi vein','Join at the medial canthus → facial vein',1),
+   ('Facial vein + lingual vein','→ linguofacial vein',1),
+   ('Linguofacial vein + maxillary vein','→ external jugular vein',1)]),
+  ('⚡ Superficial nerves',[
+   ('Facial (seventh cranial) nerve','MOTOR; root found rostral to the mandibular gland, under the parotid',1),
+   ('Auriculopalpebral nerve','Facial branch, dorsal → rostral auricular branches + palpebral branches',1),
+   ('Dorsal buccal branch','Facial branch on the masseter, DORSAL to the parotid duct',1),
+   ('Ventral buccal branch','Facial branch along the mandible, VENTRAL to the parotid duct',1),
+   ('Auriculotemporal nerve','SENSORY; mandibular branch of the trigeminal (fifth cranial) nerve; piggybacks on the dorsal buccal branch',1)]),
+  ('🦋 Neck viscera',[
+   ('Thyroid gland','Left + right lobes ventrolateral to the trachea/larynx, joined by an isthmus',0),
+   ('Parathyroid glands','2 per thyroid: external (visible, lighter) + internal (not seen)',1),
+   ('Tracheal cartilages','C-shaped, open dorsally; gap bridged by the trachealis muscle (smooth)',1),
+   ('Pharyngoesophageal limen','Ridge marking pharynx → esophagus transition',1)])]}
+LABS[32]={'title':'Lab 32 · Arteries + nerves of the head','src':'Pre-lab video · Lab 32 notes · Dr. Stueve lab slides','traps':[],'flags':[],
+ 'secs':[
+  ('🔴 Common carotid',[
+   ('Common carotid artery','Gives cranial thyroid (+ variable caudal thyroid) → splits into internal + external carotid',1),
+   ('Cranial thyroid artery','Ventral surface of the common carotid at the larynx → thyroid',0),
+   ('Caudal thyroid artery','Variable origin; often absent; meets the cranial thyroid',0),
+   ('Medial retropharyngeal lymph node','Single terminal lymph center of the head; in the atlantal fossa (wing of atlas)',1),
+   ('Internal carotid artery','To the brain; ID by the carotid sinus at its base',1),
+   ('Carotid sinus','Bulge at the internal carotid origin; baroreceptor',1)]),
+  ('🔴 External carotid branches (in order)',[
+   ('Occipital artery','First branch of the external carotid',1),
+   ('Cranial laryngeal artery','Small, inconsistent → larynx',0),
+   ('Lingual artery','External carotid → tongue; runs with the hypoglossal nerve',1),
+   ('Facial artery','Across the face; gives the sublingual artery',1),
+   ('Sublingual artery','Branch of the FACIAL (lingual is from the external carotid)',1),
+   ('Caudal auricular artery','→ base of the ear; last branch before termination',0),
+   ('Terminal branches','Superficial temporal (Y-shaped trunk) + maxillary (goes deep to the masseter)',1)]),
+  ('🔴 Maxillary artery',[
+   ('Maxillary artery','Emerges from the rostral alar foramen',1),
+   ('Inferior alveolar artery','Mandibular foramen → mandibular canal → lower teeth',1),
+   ('Caudal deep temporal artery','→ temporalis (usually cut)',0),
+   ('External ophthalmic artery','→ periorbita / orbit',0),
+   ('Buccal artery','→ buccinator',0),
+   ('Minor palatine artery','From the maxillary/descending palatine',0),
+   ('Descending palatine artery','Short trunk → major palatine + sphenopalatine',1),
+   ('Major palatine artery','Caudal palatine foramen → major palatine canal → hard palate',0),
+   ('Sphenopalatine artery','Sphenopalatine foramen → nasal cavity',0),
+   ('Infraorbital artery','Maxillary continues as this after the descending palatine; maxillary foramen → infraorbital canal → infraorbital foramen; upper teeth',1)]),
+  ('⚡ Trigeminal (fifth cranial) nerve',[
+   ('Divisions','Ophthalmic (V1) · maxillary (V2) · mandibular (V3)',1),
+   ('Lingual nerve','Mandibular branch; rostral-most of the trident on the medial pterygoid; sensory to the rostral 2/3 of the tongue',1),
+   ('Mylohyoid nerve','Middle branch → mylohyoideus',1),
+   ('Inferior alveolar nerve','Caudal branch; with the inferior alveolar artery into the mandibular foramen',1),
+   ('Auriculotemporal nerve','Mandibular branch; piggybacks on the dorsal buccal (facial) for facial sensation',1),
+   ('Buccal nerve (not bold)','Mandibular branch with the buccal artery → buccinator; ≠ dorsal buccal branch of the facial',1)])]}
+
 def build_rest(): return {}

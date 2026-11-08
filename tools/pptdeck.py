@@ -62,7 +62,7 @@ def analyze(path):
             elif sh.shape_type in (T.FREEFORM,T.AUTO_SHAPE,T.LINE) or 'Connector' in sh.name: d['hl']+=1
         out.append(d)
     return out
-def make_versions(path,outdir,numbering):
+def make_versions(path,outdir,numbering,keep=False):
     """numbering: {slide_idx: {(shape_id,first_para): n}}; writes q.pptx + a.pptx"""
     for ver in ('q','a'):
         prs=Presentation(path)
@@ -73,9 +73,16 @@ def make_versions(path,outdir,numbering):
                 if k in('title','note') or (k=='desc' and ver=='q'):
                     sh._element.getparent().remove(sh._element); continue
                 if k=='label' and ver=='q':
+                    if keep:                                   # WordArt warp/rotation blows a number up to giant glyphs
+                        bp=sh.text_frame._txBody.find('{http://schemas.openxmlformats.org/drawingml/2006/main}bodyPr')
+                        for c in list(bp):
+                            if c.tag.endswith('prstTxWarp'): bp.remove(c)
+                        try: sh.rotation=0
+                        except Exception: pass
                     nums=numbering.get(si,{})
                     for g in groups(sh.text_frame):
                         n=nums.get((sh.shape_id,g[0]))
+                        if keep and n is None: continue   # caption ('Canine right eye') stays as text
                         for j,pi in enumerate(g):
                             p=sh.text_frame.paragraphs[pi]; runs=p.runs
                             for r in runs[1:]: r._r.getparent().remove(r._r)
@@ -84,7 +91,8 @@ def make_versions(path,outdir,numbering):
                                 runs[0].font.bold=True
                                 if j==0 and n is not None:
                                     from pptx.util import Pt
-                                    if (runs[0].font.size or Pt(12))<Pt(16): runs[0].font.size=Pt(16)
+                                    if keep: runs[0].font.size=Pt(16); runs[0].font.name='Arial'
+                                    elif (runs[0].font.size or Pt(12))<Pt(16): runs[0].font.size=Pt(16)
         prs.save(f'{outdir}/{ver}.pptx')
         subprocess.run(['python3','/mnt/skills/public/pptx/scripts/office/soffice.py','--headless','--convert-to','pdf:impress_pdf_Export:{"ReduceImageResolution":{"type":"boolean","value":"false"},"Quality":{"type":"long","value":"95"}}','--outdir',outdir,f'{outdir}/{ver}.pptx'],capture_output=True,timeout=280)
 def crop_render(pdf,si,d,out,pad=0.05):
