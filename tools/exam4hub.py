@@ -38,7 +38,10 @@ page = f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport
 <li><b>L26 pelvic limb vessels & nerves is NOT on Exam 3</b>, not on Wednesday's Quiz 7, and excluded from Lab Exam 3 → it starts Exam 4.</li>
 <li>Exam 4 = 100 pt written + 100 pt practical; up to <b>20% review</b> of earlier material.</li>
 <li><b>Lab Exam 4 is a group exam</b> (format explained after Exam 3). Dissection Checkoff 4 + review = Wed 12/2.</li>
-<li>Lecture Exam 4 time not posted yet (Exam 3 was 8:00 AM). Blueprint comes ~1 week before.</li></ul></div>
+<li>Lecture Exam 4 time not posted yet (Exam 3 was 8:00 AM). Blueprint comes ~1 week before.</li>
+<li><b>Week 12 (Canvas 11/6):</b> Mon 11/9 quiz → Dr. Malreddy finishes the EYE + covers the EAR · Wed 11/11 Dr. Klimek head vessels (no skulls in lecture hall) · Thu 11/12 respiratory components of the head = his LAST new-material lecture.</li>
+<li><b>Sun 11/8, 5 PM:</b> optional lab review — pelvic limb nerves, skull foramina, superficial head structures.</li>
+<li><b>Canvas review Qs:</b> infraorbital nerve route (maxillary foramen → infraorbital canal → infraorbital foramen); parotid duct endpoints (parotid gland → buccal vestibule at upper premolar 4).</li></ul></div>
 <div class="grid">{tiles}</div>
 <h2 style="color:#70428f;margin:22px 0 8px">🗓️ Lecture tracker</h2>
 <table><tr><th>Date</th><th>#</th><th>Topic</th><th>Instructor</th><th>Pages</th></tr>{rows}</table>
