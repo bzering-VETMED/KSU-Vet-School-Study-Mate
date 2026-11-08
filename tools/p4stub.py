@@ -19,7 +19,8 @@ if lab in (29,):                                   # Dr. Wilhite head + eye deck
     import p4wil; wb,_=p4wil.cards(lab); have={t for c in best for t in c['terms'] if '🧠' not in c['html'][:300]}
     for c in sorted(wb,key=lambda c:-len(set(c['terms'])-have)):
         new=set(c['terms'])-have; (best if new else extra).append(c); have|=new
-B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best,extra,'photos first, lab-guide drawings fill the gaps' if best else '')
+import p4umn; best,extra,nu=p4umn.merge(lab,best,extra)
+B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best,extra,(f'{nu} UMN cadaver photos first, then ' if nu else '')+'your photos + lab-guide drawings fill the gaps' if best else '')
 print(lab,n,'terms')
 h=open(f'gross-anatomy-lab{lab}-images.html').read()
 h=h.replace('</div></body></html>',f'<!--fn--><div class="sec terms" style="padding:8px 14px"><p style="margin:4px 0 0">📄 Study pages (no photos)</p><a href="{tf}?v={V}">⚡ Bold-term definitions page<span>{n} terms</span></a></div><!--/fn--></div></body></html>',1)

@@ -33,6 +33,8 @@ SPEC=[
  ('4926','UMN Lab 21 · sciatic division (cat)',1091,{'1':'Biceps femoris muscle (reflected)','2':'Sciatic nerve','3':'Branches of the sciatic nerve to the hamstrings','4':'Common fibular nerve','5':'Tibial nerve','6':'Soleus + lateral head of the gastrocnemius (reflected)','7':'Tibial nerve branches to the caudal crus muscles','8':'Quadriceps femoris muscle','9':'Adductor muscle','10':'Semimembranosus muscle','11':'Semitendinosus muscle','12':'Popliteal artery'},[]),
  ('4927','UMN Lab 21 · caudal thigh (dog)',798,{'1':'Biceps femoris muscle (reflected)','2':'Semitendinosus muscle (reflected)','3':'Sciatic nerve','4':'Caudal gluteal artery','5':'Greater trochanter','6':'Branches of the sciatic nerve to the hamstrings','7':'Common fibular nerve','8':'Tibial nerve','9':'Caudal cutaneous sural nerve','10':'Tensor fasciae latae muscle','11':'Quadriceps femoris muscle','12':'Semimembranosus muscle','13':'Lateral head of the gastrocnemius muscle'},[]),
 ]
+from p4umn2 import SPEC2
+SPEC+=SPEC2
 CASTS={'4906','4915','4928'}   # corrosion casts (plastic, not a cadaver) → 📚 Extra only, never ⭐ (Bethany, Nov 3)
 TOP={'4928':110}   # Safari status bar overlaid on the photo
 NOT_BOLD={'Femoral artery and vein':'femoral artery'}   # label → bold term it still counts for
@@ -64,11 +66,11 @@ def cards_for(lab):
         vterms=[t for t in view if t in [x for x,_,_ in P4BOLD[lab]]]
         if not bold and not vterms: continue
         img=crop(img_id,captop)
-        LBL=lambda n:'#'+n if n[0].isdigit() else ('the asterisk (*)' if n=='*' else 'the unnumbered arrow')
+        LBL=lambda n:'#'+n if n[0].isdigit() else ('the asterisk (*)' if n=='*' else 'the unnumbered arrow' if n=='→' else n)
         nums=', '.join(LBL(n) for n,_,_ in bold)
         q=(f'Which region/plexus is this? Then name {nums}' if vterms and bold else f'Name {nums}' if bold else 'Which region/plexus is this?')
         nm=''.join(f'<div class="nm">{E(v[0].upper()+v[1:])}</div>' for v in vterms)
-        nm+=''.join(f'<div class="nm">{"#"+n if n[0].isdigit() else n} · {E(name)}</div>' for n,name,_ in bold)
+        nm+=''.join(f'<div class="nm">{LBL(n).replace("the ","")} · {E(name)}</div>' for n,name,_ in bold)
         facts=[('Also labeled (not your bold terms):',' · '.join(f'{"#"+n if n[0].isdigit() else n} {name}' for n,name,_ in other))] if other else []
         terms=vterms+[t for _,_,ts in bold for t in ts]
         out.append(dict(name=' | '.join(name for _,name,_ in bold) or vterms[0],terms=list(dict.fromkeys(terms)),umn=True,cast=img_id in CASTS,
@@ -81,7 +83,8 @@ def merge(lab,school,extra):
     covered={t for c in umn for t in c['terms']}
     best=list(umn); moved=list(casts)
     for c in school:
-        (best if (not c['terms'] or set(c['terms'])-covered) else moved).append(c)
+        if set(c['terms'])-covered or not c['terms']: best.append(c)
+        elif '🧠' not in c['html'][:300]: moved.append(c)      # concept card now covered by a UMN photo → dropped
     return best,moved+extra,len(umn)
 
 def per_term(lab,school,extra):

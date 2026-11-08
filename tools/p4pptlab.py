@@ -94,7 +94,9 @@ if __name__=='__main__':
             html=B.card('📖 Labeled slide — cover the labels, name them. Which one is a trigeminal branch?','📚 course slide · Lab 31 slides #104 (NCSU image)','assets/p4_l31s_104.jpg',ans)))
         have.add('trigeminal (fifth cranial) nerve')
     concept=[c for c in concept if set(c['terms'])-have]
-    got=B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best+concept,extra,'lab slides, in your list order')
+    import p4umn                                  # Bethany (Nov 7): UMN cadaver photos first, lab slides fill the gaps
+    best,extra,nu=p4umn.merge(lab,best+concept,extra)
+    got=B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best,extra,f'{nu} UMN cadaver photos first, then lab slides for the rest')
     print(lab,'best',len(best),'extra',len(extra),'concept',len(concept),'covered',got,'/',len(P4BOLD[lab]))
     miss=[t for t,_,_ in P4BOLD[lab] if t not in {x for c in best+extra for x in c['terms']}]
     print('no photo:',miss)
