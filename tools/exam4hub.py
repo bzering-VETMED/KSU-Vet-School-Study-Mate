@@ -11,6 +11,7 @@ TILES = [  # (emoji, href, title, blurb)
     ("⚡", "gross-anatomy-lc30-cards.html", "L30 Terms", "Eye · 155 terms · ★ 77 · lecture 11/4 woven in through the iris; rest slide-only until Mon 11/9"),
     ("⚡", "gross-anatomy-lc32-cards.html", "L32 Terms", "Head Vessels · 120 terms · ★ 52 · slides only (lecture Wed 11/11) · arterial branches + venous drainage"),
     ("⚡", "gross-anatomy-lc34-cards.html", "L34 Terms", "Brain & Meninges · 138 terms · ★ 52 · slides only (lecture Mon 11/16)"),
+    ("⚡", "gross-anatomy-lc35-cards.html", "L35 Terms", "Cranial Nerves · 160 terms · ★ 70 · slides only (lecture Wed 11/18)"),
 ]
 LECTURES = [  # from the Canvas lecture schedule
     ("Mon 10/26", "L26", "Pelvic limb vessels & nerves", "Dr. Malreddy", "built (slides + transcript)"),
@@ -21,7 +22,7 @@ LECTURES = [  # from the Canvas lecture schedule
     ("Wed 11/11", "L32", "Head vessels · Quiz 8", "Dr. Klimek", "built (slides)"),
     ("Thu 11/12", "L33", "Respiratory components of head", "Dr. Malreddy", ""),
     ("Mon 11/16", "L34", "Meninges & brain · Quiz 9", "Dr. Klimek", "built (slides)"),
-    ("Wed 11/18", "L35", "Cranial nerves", "Dr. Klimek", ""),
+    ("Wed 11/18", "L35", "Cranial nerves", "Dr. Klimek", "built (slides)"),
     ("Thu 11/19", "L36", "Spinal cord & ligaments", "Dr. Klimek", ""),
     ("Mon 11/30", "L37", "Radiology: head", "Dr. Cassel", ""),
     ("Wed 12/2", "L38", "Game-based learning 4 · Quiz 10", "Dr. Malreddy", "review"),

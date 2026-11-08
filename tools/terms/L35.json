@@ -1,0 +1,1086 @@
+{
+ "traps": [
+  "📄 Built from the SLIDES only (lecture Wed 11/18) — stars and corrections update when the transcript arrives.",
+  "TROCHLEAR (IV) ≠ TRIGEMINAL (V). Trochlear = motor to the DORSAL OBLIQUE only, the ONLY nerve with a DORSAL origin (mesencephalon), decussates; lesion = EXTORSION. Trigeminal = 3 divisions (ophthalmic, maxillary, mandibular), sensory to face + motor to muscles of mastication (slides 21–26).",
+  "ABDUCENT (VI) ≠ ACCESSORY (XI). Abducent = lateral rectus + retractor bulbi, orbital fissure, lesion = MEDIAL strabismus. Accessory = trapezius (sole), sternocephalicus, brachiocephalicus, omotransversarius; enters via foramen magnum, exits jugular foramen / tympanooccipital fissure (slides 28–29, 44).",
+  "GLOSSOPHARYNGEAL (IX) ≠ HYPOGLOSSAL (XII). IX = taste + general sensation CAUDAL 1/3 of tongue, pharyngeal muscles, parotid + zygomatic glands; passes MEDIAL to external carotid; jugular foramen / tympanooccipital fissure. XII = MOTOR to tongue + geniohyoideus; passes LATERAL to external carotid; its OWN hypoglossal canal (slides 40, 46).",
+  "FACE: FACIAL (VII) = MOTOR to muscles of facial expression (+ caudal belly of digastricus). TRIGEMINAL (V) = SENSATION of the face + motor to muscles of MASTICATION (except caudal belly of digastricus). Digastricus is split: rostral belly = V3, caudal belly = VII (slides 26, 30).",
+  "OPTIC CANAL = CN II only. ORBITAL FISSURE = CN III, IV, V1 (ophthalmic), VI. Maxillary (V2) = ROUND foramen → alar canal → rostral alar foramen. Mandibular (V3) = OVAL foramen. Ophthalmic and maxillary do NOT share a foramen (slides 25–26).",
+  "INTERNAL ACOUSTIC MEATUS = VII + VIII. VII then runs the facial canal and exits the STYLOMASTOID foramen (caudodorsal to tympanic bulla); VIII ends in the membranous labyrinth and does NOT emerge from the skull (slides 30, 35, 64).",
+  "JUGULAR FORAMEN (internal opening) / TYMPANOOCCIPITAL FISSURE (external opening) = IX, X, XI. XII has its own HYPOGLOSSAL CANAL, just caudomedial to the tympanooccipital fissure (slides 39, 46).",
+  "Strabismus direction = the side of the WORKING muscle: III lesion → LATERAL strabismus (lateral rectus unopposed); VI lesion → MEDIAL strabismus (medial rectus unopposed); IV lesion → EXTORSION (ventral oblique unopposed) (slides 19, 22, 29). Those eye figures are HUMAN (superior/inferior) — in the dog say DORSAL/VENTRAL rectus and oblique.",
+  "PUPIL size flip: CN III (parasympathetic) loss → MYDRIASIS (dilated) + ptosis + lateral strabismus. HORNER'S (sympathetic) loss → MIOSIS (constricted) + ptosis + enophthalmos + third-eyelid protrusion. Both have ptosis (slides 19, 56).",
+  "⚠️ FLAG — Horner's numbering: slide 56 says lesions can involve '7 and 8 (mesencephalon, upper motor neurons for CNS), 10 (thoracolumbar spinal cord), or 11 (spinal nerves of thoracolumbar region, or sympathetic trunk)'. The same figure's key on slide 53 lists 7 = rostral colliculus and pretectal nuclei, 8 = oculomotor nucleus, 10 = lateral visceral efferent column (thoracic spinal cord), 11 = CRANIAL CERVICAL GANGLION. Use slide 53's labels for the numbers; ask which interpretation of 7/8/11 she wants for Horner's.",
+  "⚠️ FLAG — sympathetic source of the pupil: slide 54 (primate caption) says preganglionic neurons are at C8–T1 and synapse in the 'superior cervical ganglion'; slide 56 says 'thoracolumbar'. Superior cervical ganglion (human) = cranial cervical ganglion (dog), which slides 52–53 use. Use 'cranial cervical ganglion'; confirm the segment level in lecture.",
+  "⚠️ FLAG — hypoglossal (XII) scope: slide 60 says XII is motor to all tongue skeletal muscles 'with the exception of the palatoglossus'; slide 46 says intrinsic + extrinsic tongue muscles + geniohyoideus; L28 said XII is the ONLY motor nerve to the tongue. The palatoglossus exception is new in L35 — confirm with Dr. Klimek which phrasing to use. Same slide 60 marks vagus (X) tongue taste/general sensory with '?; some discrepancy in the literature' (slide 43 gives vagal taste from the PHARYNX only).",
+  "⚠️ FLAG — auriculotemporal: slide 26 note says the auriculotemporal nerve joins the 'dorsal buccal branch of TRIGEMINAL'; the dorsal buccal branch is normally a FACIAL nerve branch (outside knowledge — confirm), and slide 34 says V and VII superficial branches run together. ⚠️ FLAG — gland names: slide 30 says facial parasympathetics go to 'mandibular & sublingual' salivary glands; slide 58 says 'submandibular and sublingual' (figure: 'submaxillary'). Same gland, human vs veterinary name. Use MANDIBULAR salivary gland for the dog.",
+  "⚠️ FLAG — origins: slide 23 says V, VI, VII, VIII all originate from the METENCEPHALON but notes its own figure makes VI, VII, VIII look like they come from the myelencephalon (VIII sits on the junction). Slide 9's figure is also miscolored ('This should be blue…' = metencephalon). Go with the slide TEXT."
+ ],
+ "sections": [
+  {
+   "title": "📋 Learning objectives & scope (slides)",
+   "items": [
+    {
+     "q": "L35 learning objective 1 (slides 2, 8, 50, 57, 61)?",
+     "a": "Review bones, prominences and foramina",
+     "star": true,
+     "why": "Bolded LO on slide 2"
+    },
+    {
+     "q": "L35 learning objective 2?",
+     "a": "Know the names, major functions, and origins of the cranial nerves",
+     "star": true,
+     "why": "Bolded LO on slide 8"
+    },
+    {
+     "q": "L35 learning objective 3?",
+     "a": "Understand the innervation of the eye and orbit, and the pupillary light reflex",
+     "star": true,
+     "why": "Bolded LO on slide 50"
+    },
+    {
+     "q": "L35 learning objective 4?",
+     "a": "Understand innervation of the tongue",
+     "star": true,
+     "why": "Bolded LO on slide 57"
+    },
+    {
+     "q": "L35 learning objective 5?",
+     "a": "Know the foramina associated with each cranial nerve",
+     "star": true,
+     "why": "Bolded LO on slide 61"
+    },
+    {
+     "q": "How does the deck signal which LO each section covers (slides 2, 8, 50, 57, 61)?",
+     "a": "The same LO slide repeats with the current objective in bold — the deck runs LO1 → LO2 (nerves I–XII) → LO3 (eye/orbit/pupillary light reflex) → LO4 (tongue) → LO5 (foramina)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What does slide 66 tell you to do while dissecting the cranial nerves?",
+     "a": "Discuss how and where each nerve exits the skull, and how you can locate it externally",
+     "star": true,
+     "why": "Explicit dissection instruction (slide 66)"
+    }
+   ]
+  },
+  {
+   "title": "🦴 Skull review: in-class questions (slides 3–7)",
+   "items": [
+    {
+     "q": "Slide 3 clicker: 'Which is the optic canal?' — openings A–D in the orbit of a lateral dog skull. What's the order of those openings (rostrodorsal → caudoventral)?",
+     "a": "Answer letter not shown on the slide. Order in the orbit (outside knowledge — confirm): ethmoidal foramen → optic canal → orbital fissure → rostral alar foramen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 4 clicker: click on the oval foramen. Which nerve uses it?",
+     "a": "Mandibular nerve (V3) — oval foramen (slides 24–25)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 5 clicker: an arrow passes from caudoventral to rostrodorsal through a canal ventral to the orbit. What passageway is this?",
+     "a": "Answer not shown on the slide. Likely the alar canal (caudal alar foramen → rostral alar foramen), the path of the maxillary nerve (V2) (outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 6 clicker: click on the tympanooccipital fissure (ventral skull view). What exits there?",
+     "a": "Glossopharyngeal (IX), vagus (X), accessory (XI) — external opening of the jugular foramen (slide 39)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where is the zygomatic arch relative to the eye, and can you feel it (slide 7)?",
+     "a": "Easily palpable; generally ventral and caudal to the eye in dogs and cats",
+     "star": true,
+     "why": "Slide 7 take-home text; relevant to the auriculopalpebral nerve crossing it (slide 32)"
+    }
+   ]
+  },
+  {
+   "title": "🧠 Cranial nerve basics & fiber types (slides 9–11)",
+   "items": [
+    {
+     "q": "How are cranial nerves numbered (slide 9)?",
+     "a": "Rostral to caudal; the names tell you something about structure or function",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Cranial nerves are connected to the brain stem — which are the exceptions (slide 10)?",
+     "a": "CN I (olfactory) and part of CN XI (accessory)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "4 ways cranial nerves differ from spinal nerves (slide 10)?",
+     "a": "① Some are only motor or only sensory (spinal nerves are all mixed) · ② some carry special sensory information (no spinal nerve does) · ③ only SOME carry autonomic fibers (all spinal nerves do) · ④ some innervate muscles that develop in the branchial (pharyngeal) arches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General somatic afferent (GSA) = (slide 11)?",
+     "a": "Sensory from the body surface: touch, pressure, heat, noxious stimuli, proprioception",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General visceral afferent (GVA) = (slide 11)?",
+     "a": "Sensory impulses like pain or reflex sensations from internal organs, glands, and blood vessels",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General somatic efferent (GSE) = (slide 11)?",
+     "a": "Motor to skeletal muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "General visceral efferent (GVE) = (slide 11)?",
+     "a": "Motor to smooth muscle, cardiac muscle, and glands (autonomic)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which 4 fiber types are in ALL spinal nerves and some cranial nerves (slide 11)?",
+     "a": "General somatic afferent (GSA), general visceral afferent (GVA), general somatic efferent (GSE), general visceral efferent (GVE)",
+     "star": true,
+     "why": "Bold column heading (slide 11)"
+    },
+    {
+     "q": "Special somatic afferent (SSA) = (slide 11)?",
+     "a": "Vision, balance, hearing — 'How is my BODY placed in the environment?'",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Special visceral afferent (SVA) = (slide 11)?",
+     "a": "Taste and smell — 'visceral' functions",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Special visceral efferent (SVE) = (slide 11)?",
+     "a": "Motor to striated muscle that develops in the pharyngeal arches: muscles of mastication, facial expression, and those innervated by the accessory nerve. Slide notes this classification has little value in real applications",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which fiber types exist ONLY in some cranial nerves, never all in the same nerve (slide 11)?",
+     "a": "Special somatic afferent (SSA), special visceral afferent (SVA), special visceral efferent (SVE)",
+     "star": true,
+     "why": "Bold column heading (slide 11)"
+    }
+   ]
+  },
+  {
+   "title": "🧩 Mnemonics & summary table (slide 12)",
+   "items": [
+    {
+     "q": "Name mnemonic, I → XII (slide 12)?",
+     "a": "On Old Olympus Towering Top A Fat Vicious Goat Vandalized A Hat → Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducent, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal",
+     "star": true,
+     "why": "Summary table (slide 12)"
+    },
+    {
+     "q": "Function mnemonic, I → XII (slide 12)?",
+     "a": "Some Say Marry Money But My Brother Says Big Brains Matter More → S S M M B M B S B B M M (S = sensory, M = motor, B = both)",
+     "star": true,
+     "why": "Summary table (slide 12)"
+    },
+    {
+     "q": "Which cranial nerves are purely SENSORY by the mnemonic (slide 12)?",
+     "a": "I olfactory, II optic, VIII vestibulocochlear",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which cranial nerves are purely MOTOR by the mnemonic (slide 12)?",
+     "a": "III oculomotor, IV trochlear, VI abducent, XI accessory, XII hypoglossal",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which cranial nerves are BOTH sensory and motor by the mnemonic (slide 12)?",
+     "a": "V trigeminal, VII facial, IX glossopharyngeal, X vagus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Alternate names given on slide 12 for VIII and XI?",
+     "a": "VIII = (acoustic) vestibulocochlear; XI = (spinal) accessory",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👃 CN I · Olfactory nerve (slides 13–14)",
+   "items": [
+    {
+     "q": "Olfactory nerve (I): pathway from nose to brain (slide 13)?",
+     "a": "Cell bodies in the olfactory epithelium (nasal mucosa) → nonmyelinated axons → foramina of the CRIBRIFORM PLATE of the ETHMOID bone → olfactory bulb",
+     "star": true,
+     "why": "Foramen = boxed label on slide 13 figure"
+    },
+    {
+     "q": "Olfactory nerve (I) function and fiber type (slides 11, 13)?",
+     "a": "Olfaction (smell) — special visceral afferent (SVA)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is the olfactory nerve a single nerve (slide 13)?",
+     "a": "No — numerous small nonmyelinated fibers, distributed to the nasal mucosa",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Olfactory nerve origin: brain division (slide 14)?",
+     "a": "Telencephalon (olfactory bulb → olfactory peduncle → piriform lobe)",
+     "star": true,
+     "why": "Slide title"
+    },
+    {
+     "q": "Fun fact, slide 13: how does Naegleria fowleri reach the brain?",
+     "a": "Adheres to the olfactory nerve in the nasal cavity → migrates along it to the olfactory bulb → crosses the cribriform plate into the brain (attracted to chemicals released by the fibers)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👁️ CN II · Optic nerve (slides 15, 20)",
+   "items": [
+    {
+     "q": "Optic nerve (II): pathway (slide 15)?",
+     "a": "Retina → optic nerve within the periorbita, wrapped in meninges, surrounded by retractor bulbi muscles → OPTIC CANAL → diencephalon",
+     "star": true,
+     "why": "Exit foramen = LO5"
+    },
+    {
+     "q": "Optic nerve (II) function and fiber type (slides 11, 15)?",
+     "a": "Vision — special somatic afferent (SSA)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is the optic nerve 'technically a tract, not a nerve' (slide 15)?",
+     "a": "It is an extension of the DIENCEPHALON connecting the retina with the diencephalon",
+     "star": true,
+     "why": "Underlined on slide 15"
+    },
+    {
+     "q": "What's around the optic nerve in the orbit (slide 15)?",
+     "a": "Periorbita, an extension of the meninges, and the retractor bulbi muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why does papilledema (optic disc swelling) indicate increased intracranial pressure (slide 15)?",
+     "a": "The optic nerve's meningeal sheath is continuous with the brain's meninges",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "In the orbit, which two nerves are very closely associated (slide 20)?",
+     "a": "Optic nerve (II) and oculomotor nerve (III)",
+     "star": true,
+     "why": "Dissection slide take-home (slide 20)"
+    }
+   ]
+  },
+  {
+   "title": "👁️ CN III · Oculomotor nerve (slides 16–20)",
+   "items": [
+    {
+     "q": "Oculomotor nerve (III): origin and exit (slide 17)?",
+     "a": "Ventral aspect of the MESENCEPHALON → exits the cranial cavity via the ORBITAL FISSURE",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Oculomotor (III) skeletal muscle targets (slide 17)?",
+     "a": "Many extrinsic ocular muscles: ventral oblique; dorsal, ventral, and medial rectus — plus levator palpebrae superioris",
+     "star": true,
+     "why": "Bold on slide 17"
+    },
+    {
+     "q": "Oculomotor (III) parasympathetic pathway (slide 18)?",
+     "a": "Preganglionic parasympathetic fibers in III → synapse in the CILIARY GANGLION → postganglionic fibers in the SHORT CILIARY NERVES → ciliary muscle + constrictor pupillae muscle",
+     "star": true,
+     "why": "Bold on slide 18 (ciliary ganglion; ciliary and constrictor pupillae muscles)"
+    },
+    {
+     "q": "What other fibers travel in the short ciliary nerves (slide 18)?",
+     "a": "Sympathetic postganglionic fibers too",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Oculomotor (III) dysfunction — 3 signs (slide 19)?",
+     "a": "Lateral strabismus, ptosis of the upper (superior) eyelid, mydriasis",
+     "star": true,
+     "why": "Clinical dysfunction slide; reasons boxed in color"
+    },
+    {
+     "q": "Why lateral strabismus with a CN III lesion (slide 19)?",
+     "a": "Lateral rectus (VI) still works but medial rectus (III) doesn't → eye pulled outward (exotropia)",
+     "star": true,
+     "why": "Colored 'because' text (slide 19)"
+    },
+    {
+     "q": "Why ptosis with a CN III lesion (slide 19)?",
+     "a": "Levator palpebrae superioris isn't working",
+     "star": true,
+     "why": "Colored 'because' text (slide 19)"
+    },
+    {
+     "q": "Why mydriasis with a CN III lesion (slide 19)?",
+     "a": "Constrictor pupillae isn't working (lost parasympathetic)",
+     "star": true,
+     "why": "Colored 'because' text (slide 19)"
+    },
+    {
+     "q": "Define strabismus, esotropia, exotropia (slide 19)?",
+     "a": "Strabismus = misalignment of the eyes; esotropia = deviates inward toward the nose; exotropia = deviates outward",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Oculomotor (III) fiber types (outside the slide wording)?",
+     "a": "Slides list motor (somatic, to extraocular muscles) + parasympathetic (to ciliary and constrictor pupillae) — i.e., general somatic efferent (GSE) + general visceral efferent (GVE) (fiber-type labels: outside knowledge — confirm)",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🔄 CN IV · Trochlear nerve (slides 16, 21–22)",
+   "items": [
+    {
+     "q": "Trochlear nerve (IV): origin and exit (slides 16, 21)?",
+     "a": "DORSAL aspect of the MESENCEPHALON → decussates over the midline → exits the cranial cavity via the ORBITAL FISSURE (ventrally)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "What is unique about the trochlear nerve's origin (slide 21)?",
+     "a": "The ONLY cranial nerve to originate from the dorsal aspect of the brain stem",
+     "star": true,
+     "why": "'ONLY' in caps on slide 21"
+    },
+    {
+     "q": "Trochlear (IV) innervates which side's muscle (slide 16)?",
+     "a": "The OPPOSITE side — it decussates over the midline",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Trochlear (IV) function (slide 21)?",
+     "a": "Motor to the DORSAL OBLIQUE muscle of the eye",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Trochlear (IV) dysfunction sign (slide 22)?",
+     "a": "Extorsion of the eye (dorsal oblique not working)",
+     "star": true,
+     "why": "Clinical dysfunction slide (slide 22)"
+    },
+    {
+     "q": "Define extorsion and why it happens with a IV lesion (slide 22)?",
+     "a": "Outward rotation where the top of the eyeball twists away from the nose — the ventral oblique works unopposed",
+     "star": true,
+     "why": "Colored 'because' text (slide 22)"
+    }
+   ]
+  },
+  {
+   "title": "😬 CN V · Trigeminal nerve (slides 23–27, 34)",
+   "items": [
+    {
+     "q": "Which cranial nerves originate from the metencephalon (slide 23)?",
+     "a": "V, VI, VII, VIII (VIII sits right on the junction with the medulla)",
+     "star": true,
+     "why": "Slide 23 bullet"
+    },
+    {
+     "q": "What does 'trigeminal' mean (slide 24)?",
+     "a": "Tri- + geminus = 'born in threes' — it splits into 3 nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Where does the trigeminal divide into its 3 nerves (slides 24–25)?",
+     "a": "As it emerges from the TRIGEMINAL CANAL (in the petrous temporal bone)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "V1 ophthalmic nerve: exit (slide 25)?",
+     "a": "ORBITAL FISSURE",
+     "star": true,
+     "why": "Bold on slide 25"
+    },
+    {
+     "q": "V2 maxillary nerve: exit pathway (slide 25)?",
+     "a": "ROUND foramen → ALAR CANAL → ROSTRAL ALAR FORAMEN",
+     "star": true,
+     "why": "Bold on slide 25"
+    },
+    {
+     "q": "V3 mandibular nerve: exit (slide 25)?",
+     "a": "OVAL foramen",
+     "star": true,
+     "why": "Bold on slide 25"
+    },
+    {
+     "q": "Which 4 nerves pass through the orbital fissure (slide 25)?",
+     "a": "III oculomotor, IV trochlear, V1 ophthalmic, VI abducent",
+     "star": true,
+     "why": "Colored note on slide 25"
+    },
+    {
+     "q": "Do the ophthalmic and maxillary nerves share a foramen (slide 26)?",
+     "a": "No — ophthalmic = orbital fissure; maxillary = round foramen",
+     "star": true,
+     "why": "Parenthetical note 'do NOT' on slide 26"
+    },
+    {
+     "q": "Ophthalmic nerve (V1) function (slide 26)?",
+     "a": "Sensory (general somatic afferent, GSA) to and around the eye, especially dorsomedially",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Maxillary nerve (V2) function (slide 26)?",
+     "a": "Sensory (GSA) to and around the upper (superior) dental arcade and lip, plus the lateral canthus area",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mandibular nerve (V3) sensory function (slide 26)?",
+     "a": "Sensory (GSA) to and around the lower (inferior) dental arcade, lip, tongue, and skin of the cheek",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Mandibular nerve (V3) motor function and fiber type (slide 26)?",
+     "a": "Motor to the muscles of MASTICATION EXCEPT the CAUDAL belly of the digastricus — special visceral efferent (SVE)",
+     "star": true,
+     "why": "Function slide; digastricus exception"
+    },
+    {
+     "q": "How does the mandibular nerve reach the skin of the cheek (slide 26)?",
+     "a": "The AURICULOTEMPORAL nerve (V3) joins the DORSAL BUCCAL branch — slide says 'of trigeminal'; normally a facial (VII) branch (outside knowledge — confirm; see ⚠️ FLAG)",
+     "star": true,
+     "why": "Colored note on slide 26"
+    },
+    {
+     "q": "Trigeminal (V) is sensory/motor/both per the mnemonic (slide 12)?",
+     "a": "Both ('But')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 27 discussion: cutaneous zone vs autonomous zone?",
+     "a": "Cutaneous zone = the whole skin area a nerve supplies (overlaps neighbors); autonomous zone = the area supplied ONLY by that nerve, so it's the one you test for that nerve's deficit (outside knowledge — confirm)",
+     "star": true,
+     "why": "'Turn to your neighbor' prompt (slide 27)"
+    },
+    {
+     "q": "Autonomous zones of the head shown on slide 27 (dog figure)?",
+     "a": "Ophthalmic, maxillary, and mandibular nerve (V) zones, plus facial nerve and dorsal/ventral cutaneous branches of C2–C3",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Dissection note: which 2 cranial nerves both have superficial facial branches, and which pair sits in the same area (slide 34)?",
+     "a": "Trigeminal (V) and facial (VII); their branches run together in places. Auriculotemporal (V) lies in the same area as auriculopalpebral (VII)",
+     "star": true,
+     "why": "Dissection note slide (slide 34)"
+    },
+    {
+     "q": "L28 cross-check: L28 listed maxillary → major + minor palatine nerves and mandibular → nerve to tensor veli palatini. Does L35 repeat this?",
+     "a": "Not shown in L35 — no conflict; L35 only gives the 3 divisions, exits, and sensory/motor fields",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "↔️ CN VI · Abducent nerve (slides 28–29)",
+   "items": [
+    {
+     "q": "Abducent nerve (VI): origin and exit (slides 23, 28)?",
+     "a": "Metencephalon → exits the cranial cavity via the ORBITAL FISSURE",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Abducent (VI) function and fiber type (slide 28)?",
+     "a": "General somatic efferent (GSE) to the LATERAL RECTUS and RETRACTOR BULBI muscles",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Fun fact (slide 28): which species lacks a retractor bulbi?",
+     "a": "Humans",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Abducent (VI) dysfunction (slide 29)?",
+     "a": "MEDIAL strabismus — the lateral rectus isn't working",
+     "star": true,
+     "why": "Clinical dysfunction slide (slide 29)"
+    }
+   ]
+  },
+  {
+   "title": "🙂 CN VII · Facial nerve (slides 30–34)",
+   "items": [
+    {
+     "q": "Facial nerve (VII): pathway through the skull (slide 30)?",
+     "a": "Metencephalon → INTERNAL ACOUSTIC MEATUS → FACIAL CANAL → emerges at the STYLOMASTOID FORAMEN",
+     "star": true,
+     "why": "Foramen pathway (LO5)"
+    },
+    {
+     "q": "Facial (VII): motor targets (slide 30)?",
+     "a": "Muscles of facial expression + the CAUDAL belly of the digastricus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Facial (VII) parasympathetic route 1 (slide 30)?",
+     "a": "Facial → pterygopalatine ganglion → lacrimal, nasal, and palatine glands",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Facial (VII) parasympathetic route 2 (slides 30, 58)?",
+     "a": "Facial → chorda tympani → lingual nerve → mandibular (submandibular) and sublingual salivary glands",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Facial (VII) taste (slide 30)?",
+     "a": "Taste from the ROSTRAL 2/3 of the tongue via the CHORDA TYMPANI joining the lingual nerve (V3)",
+     "star": true,
+     "why": "Bold 'chorda tympani' on slide 30"
+    },
+    {
+     "q": "Facial (VII) is sensory/motor/both (slides 12, 30)?",
+     "a": "Both ('Brother')",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Slide 31 clicker: 'Which side is normal?' — what condition is being shown?",
+     "a": "Facial nerve paralysis (drooping lip/ear/eyelid on the affected side). The answer letter isn't shown on the slide",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Facial nerve clinical significance — 3 points (slide 32)?",
+     "a": "① Close to the EXTERNAL ACOUSTIC MEATUS (ear disease/surgery risk) · ② branches are superficial and vulnerable · ③ the AURICULOPALPEBRAL nerve crosses the ZYGOMATIC ARCH to the eyelid and ear muscles",
+     "star": true,
+     "why": "Clinical significance slide (slide 32)"
+    },
+    {
+     "q": "Slide 33 discussion: why block the auriculopalpebral nerve?",
+     "a": "To paralyze eyelid closure (orbicularis oculi) so you can examine/treat the eye — horse eye exam shown (outside knowledge — confirm)",
+     "star": true,
+     "why": "Discussion prompt (slide 33)"
+    },
+    {
+     "q": "Inner ear infections can affect which cranial nerves (slide 36)?",
+     "a": "CN VII OR CN VIII",
+     "star": true,
+     "why": "Bold 'or' on slide 36"
+    }
+   ]
+  },
+  {
+   "title": "👂 CN VIII · Vestibulocochlear nerve (slides 35–37)",
+   "items": [
+    {
+     "q": "Vestibulocochlear nerve (VIII): pathway (slide 35)?",
+     "a": "Metencephalon (near facial) → INTERNAL ACOUSTIC MEATUS → ends in the membranous labyrinth of the inner ear — does NOT emerge from the skull",
+     "star": true,
+     "why": "Bold on slide 35"
+    },
+    {
+     "q": "Vestibulocochlear (VIII) functions and fiber type (slide 35)?",
+     "a": "Balance and hearing — special somatic afferent (SSA)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vestibulocochlear (VIII) dysfunction signs (slide 37)?",
+     "a": "Ataxia, head tilt (usually toward the affected side), circling (toward the lesion), nystagmus, strabismus (ventral deviation when the head moves), nausea/vomiting, disorientation, reluctance to stand/walk, hearing loss",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Head tilt and circling go which way with vestibular disease (slide 37)?",
+     "a": "Usually TOWARD the affected side",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Nystagmus directions, and which suggests a central lesion (slide 37)?",
+     "a": "Horizontal, rotary, or (in severe central cases) VERTICAL",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which part of VIII causes hearing loss when damaged (slide 37)?",
+     "a": "Cochlear portion",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🗝️ CN IX–XII · Origin, emergence & dissection (slides 38–39, 47–48)",
+   "items": [
+    {
+     "q": "Origin of IX, X, XII (slide 38)?",
+     "a": "Entirely from the MYELENCEPHALON",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Why is XI 'odd' in origin (slide 38)?",
+     "a": "Small part from the myelencephalon; the majority from the spinal cord",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Exit of IX, X, XI (slide 39)?",
+     "a": "Leave the cranial cavity via the JUGULAR FORAMEN (internal opening) → emerge via the TYMPANOOCCIPITAL FISSURE (external opening)",
+     "star": true,
+     "why": "Summary slide (slide 39)"
+    },
+    {
+     "q": "Exit of XII (slide 39)?",
+     "a": "Its own canal — the HYPOGLOSSAL CANAL",
+     "star": true,
+     "why": "Summary slide (slide 39)"
+    },
+    {
+     "q": "Lateral dissection near the tympanooccipital fissure — boxed structures (slide 47)?",
+     "a": "Hypoglossal nerve (XII), vagus nerve (X), distal ganglion of X, accessory nerve (XI), glossopharyngeal nerve (IX), cranial cervical ganglion, vagosympathetic trunk",
+     "star": true,
+     "why": "Boxed labels (slide 47)"
+    },
+    {
+     "q": "Why is the hypoglossal cut in the lateral dissection figure (slide 47)?",
+     "a": "To see the other nerves",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Best approach to the tympanooccipital fissure nerves, and what must you remove (slide 48)?",
+     "a": "MEDIAL view is easier than lateral; remove the LONGUS CAPITIS muscle",
+     "star": true,
+     "why": "Dissection instruction (slide 48)"
+    },
+    {
+     "q": "Structures labeled in the medial dissection (slide 48)?",
+     "a": "Cranial cervical ganglion, distal ganglion of the vagus, glossopharyngeal nerve, accessory nerve, internal carotid artery, hypoglossal nerve + lingual artery, external carotid artery, vagosympathetic nerve trunk + common carotid artery",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👅 CN IX · Glossopharyngeal nerve (slide 40)",
+   "items": [
+    {
+     "q": "Glossopharyngeal (IX): pathway (slide 40)?",
+     "a": "Myelencephalon → JUGULAR FORAMEN → TYMPANOOCCIPITAL FISSURE → short course ventrally to the pharynx, MEDIAL to the external carotid artery",
+     "star": true,
+     "why": "Bold 'medial' on slide 40"
+    },
+    {
+     "q": "Glossopharyngeal (IX) motor (slide 40)?",
+     "a": "Pharyngeal muscles — special visceral efferent (SVE)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Glossopharyngeal (IX) tongue sensation (slide 40)?",
+     "a": "CAUDAL 1/3 of the tongue: taste (special visceral afferent, SVA) and non-taste (general somatic afferent, GSA)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Glossopharyngeal (IX) visceral sensory (slide 40)?",
+     "a": "Pharynx and CAROTID SINUS — general visceral afferent (GVA)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Glossopharyngeal (IX) parasympathetic (slide 40)?",
+     "a": "PAROTID and ZYGOMATIC salivary glands — general visceral efferent (GVE)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "IX branches labeled on the lateral dissection (slide 47)?",
+     "a": "Pharyngeal branch, lingual branch, branch to the carotid sinus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "L28 cross-check: pharyngeal plexus = vagus (X) + glossopharyngeal (IX). Consistent with L35?",
+     "a": "Yes — slide 40: IX motor to pharyngeal muscles; slide 43: X motor to pharynx and larynx",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🌀 CN X · Vagus nerve (slides 41–43)",
+   "items": [
+    {
+     "q": "Vagus (X): meaning and overall role (slide 41)?",
+     "a": "'The wanderer' — innervates parts of the pharynx and larynx; the major visceral motor and sensory nerve for most body organs",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus (X): origin and exit (slide 42)?",
+     "a": "Arises in line with IX (myelencephalon) → JUGULAR FORAMEN → TYMPANOOCCIPITAL FISSURE",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus (X) 2 sensory ganglia and locations (slide 42)?",
+     "a": "PROXIMAL ganglion — inside the jugular foramen, can't be seen · DISTAL ganglion — caudal to the cranial cervical ganglion",
+     "star": true,
+     "why": "Bold 'in' on slide 42"
+    },
+    {
+     "q": "Vagus (X) general visceral efferent (GVE) (slide 43)?",
+     "a": "Visceral motor to the heart + smooth muscle and glands of the digestive and respiratory systems",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus (X) general visceral afferent (GVA) (slide 43)?",
+     "a": "Sensory from the digestive and respiratory systems",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus (X) special visceral efferent (SVE) and why 'special' (slide 43)?",
+     "a": "Motor to skeletal muscles of the pharynx and larynx — 'special' because they develop in the branchial arches",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus (X) general somatic afferent (GSA) (slide 43)?",
+     "a": "External auditory canal (via the AURICULAR branch) + laryngopharynx",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Vagus (X) special visceral afferent (SVA) (slide 43)?",
+     "a": "Taste from the pharynx",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "💪 CN XI · Accessory nerve (slides 44–45)",
+   "items": [
+    {
+     "q": "Accessory (XI): 2 origins (slide 44)?",
+     "a": "Myelencephalon (cranial roots) + cervical spinal cord (spinal roots) — hence 'spinal accessory'",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accessory (XI): ENTERS the cranial cavity via… and EXITS via… (slide 44)?",
+     "a": "Enters via the FORAMEN MAGNUM; exits via the JUGULAR FORAMEN → TYMPANOOCCIPITAL FISSURE",
+     "star": true,
+     "why": "Underlined 'Enters'/'Exits' on slide 44"
+    },
+    {
+     "q": "Accessory (XI) muscles (slide 44)?",
+     "a": "Sternocephalicus, brachiocephalicus, omotransversarius, and SOLE innervation to the TRAPEZIUS — special visceral efferent (SVE)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Accessory (XI) branches (slide 45)?",
+     "a": "INTERNAL branch → joins the vagus · EXTERNAL branch → the one seen in dissection",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👅 CN XII · Hypoglossal nerve (slide 46)",
+   "items": [
+    {
+     "q": "Hypoglossal (XII): exit (slide 46)?",
+     "a": "HYPOGLOSSAL CANAL, just caudomedial to the tympanooccipital fissure",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hypoglossal (XII) course relative to vessels (slide 46)?",
+     "a": "Passes LATERAL to the external carotid artery; runs with the LINGUAL artery until the caudal edge of the hyoglossus muscle",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Hypoglossal (XII) function and fiber type (slide 46)?",
+     "a": "Motor (general somatic efferent, GSE) to the intrinsic and extrinsic tongue muscles + the geniohyoideus",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "IX vs XII relative to the external carotid artery (slides 40, 46)?",
+     "a": "IX = MEDIAL; XII = LATERAL",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🏥 Central vs peripheral deficits (slide 49)",
+   "items": [
+    {
+     "q": "Is a CENTRAL lesion (brain or brain stem) likely to affect only one cranial nerve (slide 49)?",
+     "a": "No — the nerves are close together and interconnected, so central lesions usually affect several",
+     "star": true,
+     "why": "Bold 'central' (slide 49)"
+    },
+    {
+     "q": "A deficit limited to one nerve, especially unilateral, suggests (slide 49)?",
+     "a": "A PERIPHERAL lesion",
+     "star": true,
+     "why": "Bold 'peripheral' (slide 49)"
+    }
+   ]
+  },
+  {
+   "title": "👁️ Eye, orbit & pupillary light reflex (slides 50–56)",
+   "items": [
+    {
+     "q": "Eye muscle innervation formula (slide 51)?",
+     "a": "(LR6 DO4)3 — Lateral rectus + Retractor bulbi = CN VI; Dorsal Oblique = CN IV; all others = CN III (plus levator palpebrae superioris)",
+     "star": true,
+     "why": "Summary formula slide (slide 51); matches L30"
+    },
+    {
+     "q": "Which eye muscles does CN III supply (slides 17, 51)?",
+     "a": "Dorsal, ventral, medial rectus; ventral oblique; levator palpebrae superioris",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Muscles of the pupil and ciliary body: tissue type and nerve (slide 52)?",
+     "a": "SMOOTH muscle — oculomotor nerve (mainly)",
+     "star": true,
+     "why": "Underlined 'smooth muscles' (slide 52)"
+    },
+    {
+     "q": "Extraocular and eyelid muscles: tissue type and nerve (slide 52)?",
+     "a": "SKELETAL muscle — various nerves",
+     "star": true,
+     "why": "Underlined 'skeletal muscles' (slide 52)"
+    },
+    {
+     "q": "Where do parasympathetic vs sympathetic eye fibers synapse (slide 52)?",
+     "a": "Parasympathetic → CILIARY ganglion; sympathetic → CRANIAL CERVICAL ganglion, then join various nerves (including oculomotor)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Example of a skeletal muscle reflex vs a smooth muscle reflex of the eye (slide 52)?",
+     "a": "Skeletal = blink reflex; smooth = pupillary light reflex",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Visual + pupillary pathway, 11 numbered steps (slide 53)?",
+     "a": "1 retina → 2 prechiasmatic optic tract (optic nerve) → 3 optic chiasm → 4 optic tract → 5 lateral geniculate nucleus → 6 optic radiation (internal capsule) → [visual cortex]; reflex: 7 rostral colliculus + pretectal nuclei → 8 oculomotor nucleus → 9 ciliary ganglion; sympathetic: 10 lateral visceral efferent column (thoracic spinal cord) → 11 cranial cervical ganglion (near tympanic bulla)",
+     "star": true,
+     "why": "Numbered pathway list (slide 53)"
+    },
+    {
+     "q": "Which numbered stations are vision vs pupillary light reflex (slide 53)?",
+     "a": "Vision: 1–6 → visual cortex (via lateral geniculate nucleus, metathalamus). Pupillary light reflex: 1–4 → 7 rostral colliculus/pretectal nuclei (mesencephalon) → 8 oculomotor nucleus → 9 ciliary ganglion",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Is vision the same as the pupillary light reflex (slide 53)?",
+     "a": "No — separate. The retina must work for the reflex, but the animal can still be blind",
+     "star": true,
+     "why": "Colored note (slide 53)"
+    },
+    {
+     "q": "Parasympathetic pupil pathway (slide 54, primate)?",
+     "a": "Pretectal olivary nucleus → bilateral to Edinger–Westphal nucleus → preganglionic fibers in CN III → ciliary ganglion → short ciliary nerves → constrictor (sphincter) pupillae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Sympathetic pupil pathway (slide 54, primate)?",
+     "a": "Preganglionic neurons at C8–T1 → sympathetic trunk → cranial (superior) cervical ganglion → postganglionic through neck/carotid plexus → orbit → through ciliary ganglion + short ciliary nerves OR long ciliary nerves → dilator pupillae",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Which pupil muscle does each division supply (slides 18, 54)?",
+     "a": "Parasympathetic (III) → constrictor pupillae (constricts); sympathetic → dilator pupillae (dilates)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Pupillary light reflex basics (slide 55)?",
+     "a": "Pupils should be symmetrical; signal travels retina → CNS via the PRECHIASMATIC OPTIC TRACT; light in one eye → BOTH pupils constrict",
+     "star": true,
+     "why": "Underlined terms (slide 55)"
+    },
+    {
+     "q": "Direct vs consensual response (slide 55)?",
+     "a": "Direct = the eye receiving light; consensual = the opposite eye",
+     "star": true,
+     "why": "Underlined 'direct'/'consensual' (slide 55)"
+    },
+    {
+     "q": "Why is there a consensual response (slide 55)?",
+     "a": "SOME prechiasmatic optic tract fibers (from the NASAL retina) cross at the optic chiasm; amount varies by species",
+     "star": true,
+     "why": "Underlined 'some' (slide 55)"
+    },
+    {
+     "q": "Horner's syndrome = (slide 56)?",
+     "a": "Interruption of the sympathetic innervation (to the eye)",
+     "star": true,
+     "why": "Clinical slide (slide 56)"
+    },
+    {
+     "q": "Horner's syndrome: 4 signs (slide 56)?",
+     "a": "MIOSIS (dilator lost) · PTOSIS (upper eyelid tone lost) · ENOPHTHALMOS (periorbital muscles relax) · PROTRUSION of the third eyelid (passive, eye sinks)",
+     "star": true,
+     "why": "Clinical symptom table (slide 56)"
+    },
+    {
+     "q": "Where can a Horner's lesion be, per slide 56 (numbers from slide 53 figure)?",
+     "a": "Slide text: 7 and 8 (mesencephalon, upper motor neurons), 10 (thoracolumbar spinal cord), 11 (spinal nerves of thoracolumbar region or sympathetic trunk) — see ⚠️ FLAG on numbering",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "👅 Tongue innervation (slides 57–60)",
+   "items": [
+    {
+     "q": "Chorda tympani pathway (slides 58–59)?",
+     "a": "Leaves the FACIAL nerve → passes through the ear (petrous temporal bone, near the tympanic cavity) → joins the LINGUAL nerve (V3, mandibular)",
+     "star": true,
+     "why": "Bold on slide 58; boxed label on slide 59"
+    },
+    {
+     "q": "Chorda tympani functions (slide 58)?",
+     "a": "Taste from the rostral (anterior) 2/3 of the tongue + parasympathetic efferents to the mandibular (submandibular) and sublingual glands",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Tongue sensory map (slide 60)?",
+     "a": "Lingual nerve (V) = general sensory, rostral 2/3 · chorda tympani (VII) = taste, rostral 2/3 · glossopharyngeal (IX) = taste + general sensory, caudal 1/3 · vagus (X) = taste/general sensory (? — literature discrepancy) at the root",
+     "star": true,
+     "why": "Summary figure (slide 60)"
+    },
+    {
+     "q": "Motor to the tongue (slide 60)?",
+     "a": "Hypoglossal (XII) to all tongue skeletal muscles EXCEPT the PALATOGLOSSUS",
+     "star": true,
+     "why": "Boxed text (slide 60); see ⚠️ FLAG"
+    },
+    {
+     "q": "Which 4 cranial nerves give tongue sensation (slide 60 title)?",
+     "a": "V, VII, IX, X (XII for motor)",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Chorda tympani figure color code (slide 58)?",
+     "a": "Red = sympathetic, blue = parasympathetic, green = special sensory taste",
+     "star": false,
+     "why": ""
+    }
+   ]
+  },
+  {
+   "title": "🗺️ Foramina summary (slides 61–66)",
+   "items": [
+    {
+     "q": "Foramina visible inside the cranial cavity (slide 62)?",
+     "a": "Cribriform plate, optic canal (in chiasmatic sulcus), orbital fissure, round foramen, oval foramen, internal acoustic meatus, jugular foramen",
+     "star": false,
+     "why": ""
+    },
+    {
+     "q": "Stylomastoid foramen location and nerve (slide 64)?",
+     "a": "CAUDODORSAL to the tympanic bulla — facial nerve (VII)",
+     "star": true,
+     "why": "Slide title (slide 64)"
+    },
+    {
+     "q": "Budras schematic: A, B, C/C', D (slide 65)?",
+     "a": "A cribriform plate · B optic canal · C maxillary foramen · C' infraorbital foramen · D ethmoidal foramen",
+     "star": true,
+     "why": "Schematic key (slide 65)"
+    },
+    {
+     "q": "Budras schematic: E, F, G, G' (slide 65)?",
+     "a": "E orbital fissure · F round foramen / rostral alar foramen · G oval foramen · G' jugular foramen / tympanooccipital fissure",
+     "star": true,
+     "why": "Schematic key (slide 65)"
+    },
+    {
+     "q": "Budras schematic: H, I, J, K (slide 65)?",
+     "a": "H stylomastoid foramen · I internal acoustic meatus · J foramen magnum · K hypoglossal canal",
+     "star": true,
+     "why": "Schematic key (slide 65)"
+    },
+    {
+     "q": "Exit for each cranial nerve I → XII (slides 13–46, 65)?",
+     "a": "I cribriform plate · II optic canal · III, IV, V1, VI orbital fissure · V2 round foramen → alar canal → rostral alar foramen · V3 oval foramen · VII internal acoustic meatus → stylomastoid foramen · VIII internal acoustic meatus (no exit) · IX, X, XI jugular foramen → tympanooccipital fissure (XI enters via foramen magnum) · XII hypoglossal canal",
+     "star": true,
+     "why": "LO5 spine"
+    },
+    {
+     "q": "Origin of each cranial nerve by brain division (slides 14–44)?",
+     "a": "I telencephalon · II diencephalon · III, IV mesencephalon · V–VIII metencephalon · IX, X, XII myelencephalon · XI myelencephalon + cervical spinal cord",
+     "star": true,
+     "why": "LO2 spine (origins)"
+    },
+    {
+     "q": "Ventrolateral skull view: openings, rostral → caudal (slides 63–64)?",
+     "a": "Ethmoidal foramina, optic canal, orbital fissure, rostral alar foramen, caudal alar foramen, oval foramen, stylomastoid foramen, tympanic bulla, tympanooccipital fissure, hypoglossal canal",
+     "star": false,
+     "why": ""
+    }
+   ]
+  }
+ ]
+}
