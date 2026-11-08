@@ -35,8 +35,8 @@ def cards(lab):
         for d in _all():
             names=[(n,full((l['name']+' '+l['more']).strip())) for n,l in d['num']]
             hits={L:sorted({t for _,nm in names for t in B.terms_in(nm,L)},key=[t for t,_,_ in P4BOLD[L]].index) for L in (29,30,31,32)}
-            home=max(hits,key=lambda L:(len(hits[L]),-L))
-            if not hits[home]: continue
+            homes=[L for L in hits if hits[L]]            # Nov 7: a slide goes to EVERY lab whose bold terms it labels
+            if not homes: continue
             q=f'assets/p4w_{d["i"]+1}q.jpg'; a=f'assets/p4w_{d["i"]+1}a.jpg'
             P.crop_render(f'{WD}/q.pdf',d['i'],d,q); P.crop_render(f'{WD}/a.pdf',d['i'],d,a)
             ans=''.join(f'<div class="fx"><b>#{n}</b> {E(nm)}</div>' for n,nm in names)
@@ -44,6 +44,6 @@ def cards(lab):
             h=(f'<section class="card"><div class="q">{E(qq)}<span class="tagline">📚 course slide · Dr. Wilhite head + eye deck #{d["i"]+1}</span></div>'
                f'<div class="pic"><img src="{q}?v={V}" loading="lazy"></div><div class="stg ans"><div class="pr">❓ Name every number (complete + specific)</div>'
                f'<div class="an">{ans}<img src="{a}?v={V}" loading="lazy"></div></div><div class="rev">💗 TAP TO REVEAL</div></section>')
-            _C.setdefault(home,[]).append(dict(name=' · '.join(nm for _,nm in names),terms=hits[home],html=h))
+            for home in homes: _C.setdefault(home,[]).append(dict(name=' · '.join(nm for _,nm in names),terms=hits[home],html=h))
     cs=_C.get(lab,[])
     return cs,[]
