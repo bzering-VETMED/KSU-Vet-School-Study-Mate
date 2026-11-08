@@ -85,6 +85,14 @@ if __name__=='__main__':
     # labeled-reference slides fill a gap only if nothing else shows the term
     for c in list(extra):
         if '📖 Labeled slide' in c['html'][:200] and set(c['terms'])-have: pass
+    if lab==32 and os.path.exists('assets/p4_l31s_104.jpg'):   # Bethany (Nov 7): use the Lab 31 'Trigeminal nerve CN V' slide here too
+        ans=('<div class="nm">Trigeminal (fifth cranial) nerve slide</div>'
+             '<div class="fx"><b>CN V shown:</b> auriculotemporal nerve (mandibular nerve branch of the trigeminal) — sensory, piggybacks on the dorsal buccal branch</div>'
+             '<div class="fx"><b>CN VII (facial) also labeled:</b> auriculopalpebral, dorsal buccal + ventral buccal branches</div>'
+             '<div class="fx"><b>Also:</b> great auricular nerve, C2, mandibular salivary gland. The trigeminal trunk itself is inside the skull.</div>')
+        best.append(dict(name='Trigeminal (fifth cranial) nerve',terms=['trigeminal (fifth cranial) nerve','auriculotemporal nerve'],
+            html=B.card('📖 Labeled slide — cover the labels, name them. Which one is a trigeminal branch?','📚 course slide · Lab 31 slides #104 (NCSU image)','assets/p4_l31s_104.jpg',ans)))
+        have.add('trigeminal (fifth cranial) nerve')
     concept=[c for c in concept if set(c['terms'])-have]
     got=B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best+concept,extra,'lab slides, in your list order')
     print(lab,'best',len(best),'extra',len(extra),'concept',len(concept),'covered',got,'/',len(P4BOLD[lab]))
