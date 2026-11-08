@@ -45,7 +45,7 @@ for n,L in sorted(ALL.items()):
             open(tf,'w').write(pg); tlink=f'<a href="{tf}?v={V}">⚡ Terms page<span>{tn} terms · ★{ts}</span></a>'
         h=open(hf).read(); h=re.sub(r'<!--fn-->.*?<!--/fn-->','',h,flags=re.S)
         sec=f'<!--fn--><div class="sec terms" style="padding:8px 14px"><p style="margin:4px 0 0">📄 Study pages (no photos)</p>{tlink}<a href="{fn}?v={V}">🧠 Functions page<span>{rows} items · ★{stars}</span></a></div><!--/fn-->'
-        h=h.replace('</div></body></html>',sec+'</div></body></html>',1)
+        h=h.replace('</details></div>','</details>'+sec+'</div>',1) if '</details></div>' in h else h.replace('</body>',sec+'</body>',1)
         open(hf,'w').write(h)
     except FileNotFoundError: pass
 p=open('gross-anatomy-practical4.html').read()
