@@ -143,3 +143,17 @@ def eye(lab):
         out.append(dict(name='Pupillary muscles',terms=['dilator pupillae'],html=B.card('Name muscle #1 (radial) and #2 (circular).','📚 lecture slide · Dr. Malreddy eye lecture, slide 38',fn,
           '<div class="nm">#1 · Dilator pupillae (radial) · sympathetic → dilates (mydriasis)</div><div class="nm">#2 · Constrictor (sphincter) pupillae (circular) · oculomotor nerve, parasympathetic → constricts (miosis)</div>',[])))
     return out
+
+# ---- Nov 8: Bethany's pre-lab VIDEO screenshots (Lab 28 skull interior). Label box + subtitle cropped off; probe = pointer ----
+VID=[('3d739024','foramen for the dorsal sagittal sinus','Foramen for the dorsal sagittal sinus',[('Where:','midline at the top of the occipital region, on the inside of the dorsal sagittal crest'),('Leads to:','the transverse canals in the transverse groove')]),
+     ('5a93c20f','tentorium cerebelli','Tentorium cerebelli',[('What it is:','the DURA MATER fold that attaches to the tentorium osseum'),('Job:','separates the cerebrum from the cerebellum')]),
+     ('50a627d0','tentorium osseum','Tentorium osseum',[('What it is:','the BONY part (shelf) the tentorium cerebelli attaches to'),('Trap:','osseum = bone · cerebelli = dura')]),
+     ('a88b0d2b','transverse groove','Transverse groove',[('Holds:','the transverse sinus; the transverse canals open in it')]),
+     ('bd7054d0','transverse canals','Transverse canals',[('Where:','in the transverse groove; continue from the foramen for the dorsal sagittal sinus')])]
+def video(lab=28):
+    out=[]
+    for fid,term,name,facts in VID:
+        im=Image.open(f'tools/vid_src_p4/{fid}-image.jpg').convert('RGB'); w,h=im.size
+        fn=f'assets/p4vid_{fid}.jpg'; im.crop((0,int(h*0.02),w,int(h*0.775))).save(fn,quality=90)
+        out.append(dict(name=name,terms=[term],html=B.card('Identify the structure at the probe tip.','🎥 pre-lab video · skull interior',fn,f'<div class="nm">{E(name)}</div>',facts)))
+    return out

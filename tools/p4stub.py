@@ -12,7 +12,7 @@ open(tf,'w').write(pg.replace('← Back to Exam 4','← Back to Lab hub'))
 best=[];extra=[]
 if lab==28:                                        # Nov 8: Dr. Sparks skull-quiz photos (real skulls, yellow highlight) + Dr. Diehl teeth slides FIRST
     import p4skull,p4find,p4lec
-    lec=p4lec.skull_quiz()+p4lec.al_quiz()+p4lec.teeth()+p4lec.eye(28); have28=set()
+    lec=p4lec.video()+p4lec.skull_quiz()+p4lec.al_quiz()+p4lec.teeth()+p4lec.eye(28); have28=set()
     for c in lec:
         new=set(c['terms'])-have28
         (best if new else extra).append(c); have28|=new
