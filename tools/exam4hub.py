@@ -7,6 +7,7 @@ TILES = [  # (emoji, href, title, blurb)
     ("🧭", "gross-anatomy-l26-trace.html", "L26 Trace It", "Arteries aorta → paw, deep + superficial veins, lymph nodes, lumbosacral plexus, testing sites · names pop up in order"),
     ("⚡", "gross-anatomy-lc28-cards.html", "L28 Terms", "Digestive Components of the Head 1 · 112 terms · ★ 51 · slides + lecture 11/2 · oral cavity, palate, tongue, salivary glands"),
     ("⚡", "gross-anatomy-lc29-cards.html", "L29 Terms", "Digestive Components of the Head 2 · 149 terms · ★ 61 · slides + lecture 11/5 · teeth, dental formulae, Triadan, pharynx"),
+    ("👁️", "gross-anatomy-l30-eyemuscles.html", "L30 Eye Muscles · Tap to Reveal ★", "Slides 41–42: which muscle moves the eye which way + LR6 Do4 Rest3 (professor: will be tested)"),
     ("🦷", "gross-anatomy-l29-teeth.html", "L29 Teeth · Tap to Reveal", "Your lecture photos (tooth types, parts of a tooth) + Triadan quadrants & tables, roots, dental formulae, eruption times"),
     ("⚡", "gross-anatomy-lc30-cards.html", "L30 Terms", "Eye · 155 terms · ★ 77 · lecture 11/4 woven in through the iris; rest slide-only until Mon 11/9"),
     ("⚡", "gross-anatomy-lc32-cards.html", "L32 Terms", "Head Vessels · 120 terms · ★ 52 · slides only (lecture Wed 11/11) · arterial branches + venous drainage"),
