@@ -3,7 +3,7 @@
  "prof": "Basel",
  "title": "Signaling and Cell Cycle",
  "emoji": "🔄",
- "date": "Fri 11/6",
+ "date": "Fri 11/6 + Mon 11/9",
  "terms": [
   [
    "Cell cycle",
@@ -283,176 +283,212 @@
   ],
   [
    "E2F",
-   "★ Increased by the MAPK pathway; \"super important, we're gonna come back to it.\" Slides: transcription factor for DNA replication genes.",
+   "★ Transcription factor for S-phase genes (DNA polymerase, helicase, topoisomerase); held by pRb. Freeing E2F = \"final decision point.\"",
    "S11, S15; transcript",
    true
   ],
   [
    "G1-CDK–cyclin",
-   "Complex activated by growth/environment signals; phosphorylates pRb.",
-   "S15 · slides only, not yet lectured",
+   "Activated by cyclin D + cyclin E + dephosphorylation + phosphorylation; integrates Wnt and growth factor inputs; main target = pRb.",
+   "S15; transcript",
    false
   ],
   [
    "PI3-K (phosphoinositide 3-kinase)",
-   "Recruited to phosphorylated EGFR; converts PIP2 → PIP3, which activates PDPK1 and Akt.",
-   "S12 · slides only, not yet lectured",
+   "Second arm off the receptor tyrosine kinase (Schultz plug-and-play): recruited to EGFR, converts PIP2 → PIP3.",
+   "S12; transcript",
    false
   ],
   [
    "PIP2 → PIP3",
-   "Phosphatidylinositol bisphosphate converted to trisphosphate by PI3-K; PIP3 recruits PDPK1 and Akt.",
-   "S12 · slides only, not yet lectured",
+   "Phosphatidylinositol bisphosphate → trisphosphate (made by PI3-K); rising PIP3 activates PDPK1.",
+   "S12; transcript",
    false
   ],
   [
-   "PDPK1",
-   "Phosphoinositide-dependent kinase 1; activates Akt.",
-   "S12 · slides only, not yet lectured",
+   "PDPK1 (PIP3-dependent protein kinase 1)",
+   "\"Tells you exactly what it does\": active when PIP3 rises; activates AKT.",
+   "S12; transcript",
    false
   ],
   [
-   "Akt (PKB, protein kinase B)",
-   "Kinase downstream of PI3-K/PDPK1; INHIBITS apoptosis and cell cycle arrest (T-bars on S12); a G1/S checkpoint protein.",
-   "S12 · slides only, not yet lectured",
-   false
+   "AKT (protein kinase B, PKB)",
+   "★ Historical name protein kinase B. Blocks apoptosis + prevents cell cycle arrest = \"removing the brakes.\"",
+   "S12; transcript",
+   true
+  ],
+  [
+   "Brakes vs gas",
+   "★ AKT arm = REMOVES THE BRAKES (blocks apoptosis/arrest); Ras/MAPK arm = PUTS ON THE GAS. EGF does both.",
+   "S11–S12; transcript",
+   true
   ],
   [
    "Wnt",
-   "Growth signal that binds Frizzled + LRP and leads to cyclin D transcription.",
-   "S13 · slides only, not yet lectured",
+   "★★ Growth factor (\"wingless,\" Drosophila naming), highly conserved; binds Frizzled + LRP. \"Super important pathway. Expect me to ask questions about it.\"",
+   "S13; transcript",
+   true
+  ],
+  [
+   "Frizzled",
+   "★ Wnt receptor (mutant flies look \"frizzled\"); with co-receptor LRP recruits Dishevelled.",
+   "S13; transcript",
+   true
+  ],
+  [
+   "LRP",
+   "Co-receptor (cofactor) recruited with Frizzled when Wnt binds. Expansion not given (OUTSIDE: low-density lipoprotein receptor-related protein — confirm).",
+   "S13; transcript",
    false
   ],
   [
-   "Frizzled / LRP",
-   "Wnt receptor (Frizzled) and co-receptor (LRP).",
-   "S13 · slides only, not yet lectured",
-   false
+   "Dishevelled (DVL)",
+   "★ Recruited to Frizzled/LRP; binds Axin/GSK3 MORE STRONGLY than APC does → pulls APC off the complex.",
+   "S13; transcript",
+   true
   ],
   [
-   "Disheveled (DVL)",
-   "Phosphorylated after Wnt binding; blocks Axin/GSK3/APC phosphorylation of beta-catenin.",
-   "S13 · slides only, not yet lectured",
-   false
-  ],
-  [
-   "Axin / GSK3 / APC",
-   "Complex that phosphorylates beta-catenin and sends it to the proteasome when Wnt is absent.",
-   "S13 · slides only, not yet lectured",
-   false
+   "Axin / GSK3 / APC complex",
+   "★ A kinase ONLY when all bound together; phosphorylates beta-catenin → proteasome. APC alone is not a kinase.",
+   "S13; transcript",
+   true
   ],
   [
    "Proteasome",
-   "Degrades phosphorylated beta-catenin.",
-   "S13 · slides only, not yet lectured",
+   "Degrades phosphorylated beta-catenin (and phosphorylated cyclins).",
+   "S13–S14; transcript",
    false
   ],
   [
    "Beta-catenin (β-catenin)",
-   "Spared from degradation with Wnt; pairs with LEF/TCF to transcribe cell cycling proteins including cyclin D.",
-   "S13 · slides only, not yet lectured",
+   "★ Spared when Wnt is on → enters nucleus as transcription factor (with LEF/TCF) → cyclin D → push through G1/S.",
+   "S13; transcript",
+   true
+  ],
+  [
+   "Beta-catenin: adherens junction role",
+   "Catenins are also adapter proteins for adherens junctions (adhesion belts) — second job of beta-catenin.",
+   "transcript",
    false
   ],
   [
    "LEF/TCF",
-   "Transcription factors that beta-catenin partners with to transcribe cyclin D.",
-   "S13 · slides only, not yet lectured",
+   "Transcription factor partners of beta-catenin on S13 (figure label; Basel did not name them).",
+   "S13",
    false
   ],
   [
+   "Cyclins rise and fall",
+   "★ Named because they cycle: go up, then sharply down, at set points in the cycle.",
+   "S14; transcript",
+   true
+  ],
+  [
    "Cyclin D",
-   "Broad curve: rises in G1 and stays up across the cycle; output of Wnt/beta-catenin signaling.",
-   "S14 · slides only, not yet lectured",
+   "General/master regulator: rises to START the cycle, falls at the END; Wnt/beta-catenin output.",
+   "S14; transcript",
    false
   ],
   [
    "Cyclin E",
-   "Sharp peak at the G1/S boundary.",
-   "S14 · slides only, not yet lectured",
+   "Gets really high right about the G1/S checkpoint.",
+   "S14; transcript",
    false
   ],
   [
    "Cyclin A",
-   "Rises during S, peaks around the S/G2 boundary.",
-   "S14 · slides only, not yet lectured",
+   "Basel: gets really high right about the G2/M checkpoint (S14 figure reads near S/G2 — see flag).",
+   "S14; transcript",
    false
   ],
   [
    "Cyclin B",
-   "Peaks at the G2/M boundary, drops in M; with CDK forms mitosis promoting factor.",
-   "S14 · slides only, not yet lectured",
+   "The M-checkpoint cyclin: rises through interphase, peaks at metaphase, then drops sharply.",
+   "S14; transcript",
    false
   ],
   [
    "Mitosis promoting factor (MPF)",
-   "CDK–cyclin B complex; activity spikes at M each cycle, then falls as cyclin B is degraded.",
-   "S14 · slides only, not yet lectured",
+   "CDK–cyclin B complex; activity rises exponentially, peaks at metaphase, then drops dramatically.",
+   "S14; transcript",
    false
   ],
   [
-   "Cyclin 'clock'",
-   "Active cyclin-CDK triggers the next step AND degradation of the current cyclin, preventing reversal.",
-   "S14 · slides only, not yet lectured",
-   false
-  ],
-  [
-   "pRb (retinoblastoma protein)",
-   "Critical control component: binds and inactivates E2F; phosphorylation by G1-CDK–cyclin releases E2F.",
-   "S15 · slides only, not yet lectured",
+   "Cyclin 'clock' (prevents reversal)",
+   "★ Active CDK phosphorylates its OWN cyclin → proteasome → sharp drop: \"close the door behind us\" so the cycle can't go back.",
+   "S14; transcript",
    true
   ],
   [
-   "p53",
-   "Critical control component: phosphorylated by ATM after DNA damage; transcribes p21, which inhibits CDK.",
-   "S15 · slides only, not yet lectured",
+   "pRb (retinoblastoma protein)",
+   "★ Critical control component: main target of G1-CDK; binds E2F (\"not today\"); phosphorylated pRb releases E2F.",
+   "S15; transcript",
+   true
+  ],
+  [
+   "Final decision point",
+   "★ Phosphorylate pRb or not: once pRb is phosphorylated and E2F released, the cell moves into S phase.",
+   "S15; transcript",
    true
   ],
   [
    "ATM",
-   "Kinase activated by DNA damage (S15 figure); phosphorylates p53 at the G1/S checkpoint.",
-   "S15 · slides only, not yet lectured",
+   "Senses many types of DNA damage; phosphorylates p53. Expansion not given (OUTSIDE: ataxia-telangiectasia mutated — confirm).",
+   "S15; transcript",
    false
   ],
   [
+   "p53",
+   "★ Critical control component; \"guardian of the genome,\" strong tumor suppressor; phosphorylated by ATM → transcription factor → p21.",
+   "S15; transcript",
+   true
+  ],
+  [
    "p21",
-   "CDK inhibitor transcribed by phosphorylated p53; blocks G1-CDK–cyclin.",
-   "S15 · slides only, not yet lectured",
+   "Made by p53 (transcription); INHIBITS cyclin-dependent kinase (CDK) → no pRb phosphorylation.",
+   "S15; transcript",
    false
   ],
   [
    "Retinoblastoma",
-   "Early childhood eye tumor where pRb was discovered (source of its name).",
-   "S18 · slides only, not yet lectured",
+   "Aggressive childhood eye tumor (\"retina\" + \"blastoma\"); most had pRb mutations → source of the name.",
+   "S18; transcript",
    false
   ],
   [
    "Mutated Rb",
-   "Cannot bind E2F → E2F constitutively active → runaway cell division independent of growth signals.",
-   "S18 · slides only, not yet lectured",
-   false
+   "★ Cannot bind E2F → E2F always free → cell always moves into S phase regardless of other signals → tumor.",
+   "S18; transcript",
+   true
   ],
   [
    "Constitutively active",
-   "Always on, regardless of upstream signals (here: E2F).",
-   "S18 · slides only, not yet lectured",
+   "Always on, regardless of upstream signals (here: E2F); \"permanently on\" in S16 = this.",
+   "S16, S18; transcript",
    false
   ],
   [
    "Canine osteosarcoma",
-   "Bone tumor; some carry pRb mutations.",
-   "S18 · slides only, not yet lectured",
+   "pRb mutation = one of the main drivers in many (NOT all) canine osteosarcomas; ↑ osteoblast cell cycling.",
+   "S18; transcript",
+   false
+  ],
+  [
+   "pRb-mutant tumors",
+   "Usually faster-growing; whether aggressive depends on other mutations (student question).",
+   "transcript",
    false
   ],
   [
    "Greyhound clinical case",
    "7-yr-old greyhound, left front lameness, distal radius swelling, reduced cortical bone, periosteal proliferation, palisading; malignant cells with osteoid matrix.",
-   "S3; transcript",
+   "S3, S17; transcript",
    false
   ],
   [
    "Osteosarcoma",
-   "Diagnosis of the greyhound case (\"super easy to identify\"). Why: cell signaling out of control — osteoblasts lose the \"settle down\" signals (detail pending Mon 11/9).",
-   "S3; transcript",
+   "Diagnosis of the greyhound case. Etiology: likely pRb mutation → E2F always free → osteoblasts keep cycling.",
+   "S3, S17–S18; transcript",
    false
   ],
   [
@@ -478,8 +514,15 @@
   "Nuclear envelope <b>dissolves in prometaphase</b>, <b>reforms in telophase</b>. Prophase = condense (S6, transcript).",
   "<b>G1/S checks growth signals</b>; <b>G2/M checks DNA replication quality</b> (breaks, chromosome number); <b>M checks spindle attachment</b> before anaphase. Size checked at both G1/S and G2/M (S8, transcript).",
   "<b>EGF</b>: slide and Basel say <b>\"epithelial\"</b>; standard = <b>epidermal</b> (OUTSIDE). Accept the slide wording.",
-  "(Not yet lectured) <b>pRb binds E2F</b>; p53 acts through <b>p21</b> on CDK. <b>Phosphorylating pRb RELEASES E2F</b>. \"Permanently on\" = go signal always on (S15–S18).",
-  "(Not yet lectured) <b>Cyclin B</b> + CDK = mitosis promoting factor; <b>cyclin D</b> = Wnt output. PI3-K makes <b>PIP2 → PIP3</b> (S12–S14)."
+  "★ <b>pRb binds E2F</b> (not p53). <b>Phosphorylating pRb RELEASES E2F</b> = go. p53 acts through <b>p21</b>, which <b>inhibits CDK</b> (S15, transcript).",
+  "\"Checkpoint <b>permanently on</b>\" (S16) = <b>E2F always free</b> → always into S phase. NOT permanent arrest (S18, transcript).",
+  "★ <b>AKT = removing the BRAKES</b> (blocks apoptosis + cell cycle arrest); <b>Ras/MAPK = putting on the GAS</b>. Don't flip them. EGF does both (S11–S12, transcript).",
+  "★★ <b>Wnt ON → beta-catenin NOT phosphorylated</b> → nucleus → cyclin D. <b>Wnt OFF → Axin/GSK3/APC phosphorylates</b> beta-catenin → proteasome (S13, transcript).",
+  "<b>Dishevelled binds Axin/GSK3 more strongly than APC</b>. APC is a kinase <b>only when bound</b> to Axin/GSK3 (transcript).",
+  "<b>CDK phosphorylates its OWN cyclin</b> → proteasome → sharp drop. Phosphorylation here = <b>degradation</b>, not activation (S14, transcript).",
+  "Cyclin peaks (Basel): <b>E = G1/S</b>, <b>A = G2/M</b>, <b>B = M (metaphase)</b>; <b>D = master</b> (up to start, down at end). S14 figure puts A near S/G2 — use transcript (S14).",
+  "<b>PDPK1 = PIP3-dependent</b> protein kinase 1; <b>AKT = protein kinase B</b> (not A, C, or G) (transcript).",
+  "pRb mutation drives <b>many, not all</b>, canine osteosarcomas (transcript)."
  ],
  "know": [
   {
@@ -567,7 +610,7 @@
   {
    "title": "The three checkpoints",
    "slide": "S8; transcript",
-   "note": "Lectured Fri 11/6. ★ G1/S = \"probably the most important decision point\" (divide or die). Protein details (pRb, p53, E2F, AKT) not yet lectured.",
+   "note": "★ G1/S = \"probably the most important decision point\" (divide or die). Proteins pRb, p53, E2F, AKT — all lectured Mon 11/9.",
    "headers": [
     "Checkpoint",
     "Checks for",
@@ -597,33 +640,74 @@
   },
   {
    "title": "Cyclins by phase",
-   "slide": "S14",
-   "note": "NOT YET LECTURED (slides only; pending Mon 11/9). Read from the S14 figure (adapted from Becker).",
+   "slide": "S14; transcript",
+   "note": "Lectured Mon 11/9. ★ Cyclins rise and fall; CDK phosphorylates its own cyclin → proteasome → \"close the door behind us.\" Cyclin A: Basel = G2/M; S14 figure reads near S/G2 (flag).",
    "headers": [
     "Cyclin",
-    "When it peaks (S14 curve)",
-    "Note"
+    "When it gets really high (Basel)",
+    "Role"
    ],
    "rows": [
     [
      "Cyclin D",
-     "Rises in G1; broad, stays up all cycle",
-     "Made via Wnt/beta-catenin (S13)"
+     "Rises to start the cycle; falls at the end",
+     "General / master regulator; Wnt → beta-catenin output"
     ],
     [
      "Cyclin E",
-     "Sharp peak at G1/S boundary",
-     "Activates CDK for the next step"
+     "G1/S checkpoint",
+     "With cyclin D activates G1-CDK"
     ],
     [
      "Cyclin A",
-     "Rises in S; peaks at S/G2",
-     "Activates CDK for the next step"
+     "G2/M checkpoint",
+     "Checkpoint-specific cyclin"
     ],
     [
      "Cyclin B",
-     "Peaks at G2/M; drops in M",
+     "M checkpoint (metaphase), then sharp drop",
      "CDK–cyclin B = mitosis promoting factor"
+    ]
+   ],
+   "hide": [
+    1,
+    2
+   ]
+  },
+  {
+   "title": "Wnt OFF vs Wnt ON",
+   "slide": "S13; transcript",
+   "note": "★★ \"Super important pathway. Expect me to ask questions about it.\"",
+   "headers": [
+    "Step",
+    "No Wnt",
+    "Wnt bound"
+   ],
+   "rows": [
+    [
+     "Receptor",
+     "Frizzled + LRP empty",
+     "Wnt binds Frizzled + co-receptor LRP"
+    ],
+    [
+     "Dishevelled",
+     "Not recruited",
+     "Recruited; binds Axin/GSK3 more strongly than APC"
+    ],
+    [
+     "Axin/GSK3/APC",
+     "Intact complex = kinase",
+     "APC pulled off → no kinase activity"
+    ],
+    [
+     "Beta-catenin",
+     "Phosphorylated → proteasome",
+     "Not phosphorylated → stable"
+    ],
+    [
+     "Nucleus",
+     "No beta-catenin signal",
+     "Beta-catenin (+ LEF/TCF) → cyclin D → through G1/S"
     ]
    ],
    "hide": [
@@ -737,8 +821,8 @@
     "APC sends beta-catenin to the proteasome",
     "Disheveled releases E2F from pRb"
    ],
-   "why": "Disheveled shuts down Axin/GSK3/APC, so beta-catenin survives, partners with LEF/TCF, and transcribes cyclin D.",
-   "cite": "S13 (slides only, not yet lectured)",
+   "why": "Dishevelled binds Axin/GSK3 more strongly than APC, so the complex loses kinase activity; beta-catenin is not phosphorylated, survives, enters the nucleus, and transcribes cyclin D.",
+   "cite": "S13; transcript",
    "sure": true
   },
   {
@@ -750,7 +834,7 @@
     "Cyclin E"
    ],
    "why": "The slide labels MPF as the CDK–cyclin B complex.",
-   "cite": "S14 (slides only, not yet lectured)",
+   "cite": "S14; transcript",
    "sure": true
   },
   {
@@ -762,7 +846,7 @@
     "pRb binds and sequesters the earlier cyclins"
    ],
    "why": "Activated cyclin–cyclin-dependent kinase (CDK) complexes trigger the next step and degradation of the current cyclin, so cyclins act as a one-way clock.",
-   "cite": "S14 (slides only, not yet lectured)",
+   "cite": "S14; transcript",
    "sure": true
   },
   {
@@ -774,7 +858,7 @@
     "p21 is released and inhibits CDK"
    ],
    "why": "Phosphorylated pRb lets go of E2F; E2F travels to the nucleus and transcribes DNA replication genes.",
-   "cite": "S15 (slides only, not yet lectured)",
+   "cite": "S15; transcript",
    "sure": true
   },
   {
@@ -786,7 +870,7 @@
     "ATM → pRb → p21 → CDK inhibited"
    ],
    "why": "S15 figure: DNA damage → ATM phosphorylates p53 → p53 transcribes p21 → p21 inhibits G1-CDK–cyclin.",
-   "cite": "S15 (slides only, not yet lectured)",
+   "cite": "S15; transcript",
    "sure": true
   },
   {
@@ -798,7 +882,7 @@
     "Akt (PKB)"
    ],
    "why": "pRb binds and inactivates E2F, a transcription factor for DNA replication genes.",
-   "cite": "S15 (slides only, not yet lectured)",
+   "cite": "S15; transcript",
    "sure": true
   },
   {
@@ -809,8 +893,8 @@
     "p53 stays active and arrests the cycle",
     "CDK fails to phosphorylate pRb, causing arrest"
    ],
-   "why": "Mutated Rb cannot bind E2F, so E2F is constitutively active and drives runaway division independent of growth signals.",
-   "cite": "S18 (slides only, not yet lectured)",
+   "why": "Mutated pRb cannot bind E2F, so E2F is always free; the cell enters S phase regardless of other signals. Basel: pRb mutation drives many (not all) canine osteosarcomas.",
+   "cite": "S18; transcript",
    "sure": true
   },
   {
@@ -821,8 +905,8 @@
     "Growth signals are permanently blocked at G1/S",
     "p53 is permanently activated at G1/S"
    ],
-   "why": "'On' means the go signal: E2F is constitutively active, the brake is gone, and the checkpoint is bypassed.",
-   "cite": "S16 (slides only, not yet lectured)",
+   "why": "Basel: if pRb cannot bind E2F, the cell is always moving into S phase. \"On\" = the go signal (E2F) always on, not arrest.",
+   "cite": "S16, S18; transcript",
    "sure": true
   },
   {
@@ -845,8 +929,8 @@
     "Converts PIP3 back into PIP2",
     "Phosphorylates pRb to release E2F"
    ],
-   "why": "S12 shows inhibitory T-bars from Akt to apoptosis and to cell cycle arrest: Akt is a pro-growth survival signal.",
-   "cite": "S12 (slides only, not yet lectured)",
+   "why": "Basel: AKT blocks apoptosis and prevents cell cycle arrest = \"removing the brakes\" (S12 T-bars).",
+   "cite": "S12; transcript",
    "sure": true
   },
   {
@@ -908,6 +992,90 @@
    "why": "SOS is a guanine nucleotide exchange factor for the monomeric GTPase Ras: GDP out, GTP in = active. Ras has no beta-gamma (that's heterotrimeric G proteins).",
    "cite": "S11; transcript",
    "sure": true
+  },
+  {
+   "stem": "Wnt binds Frizzled and its co-receptor LRP. Which event comes next in the pathway?",
+   "ok": "Dishevelled is recruited and binds Axin/GSK3",
+   "bad": [
+    "APC is recruited and binds Axin/GSK3 tightly",
+    "Beta-catenin is phosphorylated by Dishevelled",
+    "Cyclin D is phosphorylated and then degraded"
+   ],
+   "why": "Wnt + Frizzled + LRP recruit Dishevelled, which binds Axin/GSK3 more strongly than APC does.",
+   "cite": "S13; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Per Dr. Basel, why does Dishevelled binding to Axin/GSK3 stop beta-catenin phosphorylation?",
+   "ok": "APC is a kinase only when bound to Axin/GSK3",
+   "bad": [
+    "Dishevelled dephosphorylates beta-catenin in the cytoplasm",
+    "LRP carries beta-catenin directly into the nucleus",
+    "Frizzled sends APC to the proteasome for degradation"
+   ],
+   "why": "Dishevelled outcompetes APC for Axin/GSK3; unbound APC loses kinase function, so beta-catenin is not phosphorylated.",
+   "cite": "S13; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Epithelial growth factor (EGF) activates both arms of its receptor tyrosine kinase. Per Basel, which pairing is correct?",
+   "ok": "PI3-K/AKT removes brakes; Ras/MAPK presses gas",
+   "bad": [
+    "Ras/MAPK removes brakes; PI3-K/AKT presses gas",
+    "PI3-K/AKT presses gas; Wnt/catenin removes brakes",
+    "Ras/MAPK removes brakes; Wnt/catenin presses gas"
+   ],
+   "why": "AKT blocks apoptosis and cell cycle arrest (brakes off); Ras → MAPK drives G1 cyclin, E2F, G1-CDK (gas on). EGF does both.",
+   "cite": "S11–S12; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Per Dr. Basel, which event is the final decision point for entering S phase?",
+   "ok": "Whether G1-CDK phosphorylates pRb",
+   "bad": [
+    "Whether ATM phosphorylates p53",
+    "Whether CDK phosphorylates cyclin B",
+    "Whether Dishevelled binds Axin/GSK3"
+   ],
+   "why": "\"This is the final decision point: do we phosphorylate retinoblastoma protein or not?\" Phosphorylated pRb releases E2F → S-phase genes.",
+   "cite": "S15; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Mitosis promoting factor activity peaks at metaphase, then drops sharply. What causes the sharp drop?",
+   "ok": "CDK phosphorylates its cyclin, sending it to the proteasome",
+   "bad": [
+    "p21 binds cyclin B and blocks the kinase active site",
+    "pRb binds cyclin B and holds it in the cytoplasm",
+    "ATM phosphorylates CDK, sending it to the proteasome"
+   ],
+   "why": "One CDK target is its own cyclin; phosphorylated cyclin is degraded → \"close the door behind us,\" preventing reversal.",
+   "cite": "S14; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Per Dr. Basel, which cyclin gets really high right at the G1/S checkpoint?",
+   "ok": "Cyclin E",
+   "bad": [
+    "Cyclin A",
+    "Cyclin B",
+    "Cyclin D"
+   ],
+   "why": "E = G1/S; A = G2/M (Basel); B = M checkpoint (metaphase); D = general/master regulator across the cycle.",
+   "cite": "S14; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A G1 cell with DNA damage activates ATM, which phosphorylates p53. What does p53 do next?",
+   "ok": "Acts as a transcription factor to raise p21",
+   "bad": [
+    "Binds E2F directly to block its transcription",
+    "Phosphorylates pRb so that E2F is released",
+    "Sends cyclin D to the proteasome for removal"
+   ],
+   "why": "Phosphorylated p53 goes to the nucleus, transcribes p21; p21 inhibits the cyclin-dependent kinase so pRb stays unphosphorylated.",
+   "cite": "S15; transcript",
+   "sure": true
   }
  ],
  "flags": [
@@ -920,36 +1088,56 @@
    "S10 AND Basel say \"epithelial growth factor\"; standard name is epidermal growth factor (OUTSIDE — confirm) · accept the slide wording on the exam; know both."
   ],
   [
-   "'Permanently on' wording (not yet lectured)",
-   "S16 objective: pRb mutations 'turn the G1/S checkpoint permanently on'. S18: mutated Rb cannot bind E2F, so E2F is constitutively active · read 'on' as the GO signal always on / checkpoint bypassed, not permanent arrest. Confirm Mon 11/9."
-  ],
-  [
    "Mitosis stages: centrosome duplication",
    "Checked against slide image (S6): slide places 'centrosomes duplicate' under prophase; Basel did not mention duplication (only prometaphase: centrosomes to opposite sides); textbooks place duplication in S phase/interphase (OUTSIDE) · use slide wording."
-  ],
-  [
-   "Cyclin curves (S14) — not yet lectured",
-   "Checked against slide image (S14): D = broad curve rising in G1, E = sharp peak at G1/S, A = peaks at S/G2, B = peaks at G2/M; CDK–cyclin B (MPF) activity spikes at M · confirm emphasis Mon 11/9."
-  ],
-  [
-   "CLOSED by transcript (Fri 11/6): case diagnosis",
-   "Basel: \"this is osteosarcoma, not challenging at all\"; why = cell signaling out of whack (osteoblasts lose the \"settle down\" signals). pRb link (S18) not yet lectured."
   ],
   [
    "CLOSED by transcript (Fri 11/6): interphase grouping",
    "Basel: G1, S, and G2 \"are called interphase because they're between the steps of mitosis\"; most of the cell cycle · interphase is NOT part of M phase."
   ],
   [
-   "Abbreviation spell-outs",
-   "CLOSED by transcript: SOS = son of sevenless (guanine nucleotide exchange factor); MAPK = mitogen-activated protein kinase. Still OUTSIDE — confirm: LRP, GSK3, APC, LEF/TCF, PDPK1, ATM, PI3-K (not yet lectured)."
-  ],
-  [
-   "S12–S18 not yet lectured",
-   "Lecture stopped at 1:50 after EGF → MAPK → jun/myc/fos → G1 cyclin, E2F, G1-CDK (S11). PI3-K/Akt (S12), Wnt (S13), cyclins (S14), pRb/E2F/p53/p21 (S15), mis-regulation + greyhound resolution (S16–S18) = slides only · pending Mon 11/9 (\"the other side of the tyrosine kinase pathway\")."
-  ],
-  [
    "Transcript slips (Fri 11/6)",
    "\"During interphase, we're gonna start pulling the chromosomes\" = ANAPHASE; SOS makes Ras \"bind to GDP\" = GTP; \"steroid tyrosine kinase receptors\" = steroid hormone receptors; \"basal bodies or the centrosomes\" = centrosomes (basal bodies anchor cilia; OUTSIDE) · use S6/S11 wording."
+  ],
+  [
+   "CLOSED by transcript (Mon 11/9): S12–S18 lectured",
+   "All slides now lectured: PI3-K/AKT, Wnt/beta-catenin, cyclins, pRb/E2F, p53/p21, pRb and cancer, greyhound resolution. \"Not yet lectured\" marks removed."
+  ],
+  [
+   "CLOSED by transcript (Mon 11/9): AKT arrows (S12)",
+   "Basel: AKT \"is going to block apoptosis and prevent cell cycle arrest\" = removing the brakes; Ras/MAPK = putting on the gas · S12 T-bars confirmed."
+  ],
+  [
+   "CLOSED by transcript (Mon 11/9): 'permanently on' wording",
+   "Basel: if pRb can't bind E2F, \"the cell would always be moving into S phase\" · 'on' = E2F (go signal) always free, NOT arrest."
+  ],
+  [
+   "CLOSED by transcript (Mon 11/9): case etiology",
+   "Greyhound osteosarcoma: pRb mutation is \"one of the main mutations that drives not all, but a lot of\" canine osteosarcomas → E2F always free → osteoblasts keep cycling."
+  ],
+  [
+   "Cyclin A timing (S14 figure vs transcript)",
+   "S14 figure: cyclin A peaks near S/G2. Basel: \"Cyclin A gets really high right about the time we get the G2/M checkpoint.\" · use transcript (A ≈ G2/M) for now; confirm."
+  ],
+  [
+   "Cyclin B timing wording",
+   "S14 figure: B peaks at G2/M, drops in M. Basel: B \"gets really high right about the time we get the M checkpoint\" (metaphase), MPF peaks at metaphase · same event; use \"peaks at metaphase/M checkpoint, then drops.\""
+  ],
+  [
+   "Transcript slip: \"decrease in cyclin D\"",
+   "Basel, describing MPF/cyclin B degradation: \"sharp decrease in cycling D concentration\" · context is cyclin B; use cyclin B."
+  ],
+  [
+   "Who phosphorylates beta-catenin",
+   "Basel: the Axin–GSK3–APC complex \"when bound to each other are a kinase\"; APC is a kinase only when bound. LC32 S24 says APC \"ubiquitinates\" beta-catenin · use: complex PHOSPHORYLATES → proteasome; recognize the S24 wording."
+  ],
+  [
+   "Abbreviation spell-outs",
+   "CLOSED: PDPK1 = PIP3-dependent protein kinase 1 (Basel); AKT = protein kinase B; SOS, MAPK (Fri). Still OUTSIDE — confirm (never expanded): LRP, GSK3, APC, LEF/TCF, ATM."
+  ],
+  [
+   "Transcript slips (Mon 11/9)",
+   "\"PCL2/BCL new\" = Bcl-2; \"U2F\" = E2F; \"GRASS map K\" = Ras/MAPK; \"epithelial\" growth factor kept as slide wording."
   ]
  ]
 }

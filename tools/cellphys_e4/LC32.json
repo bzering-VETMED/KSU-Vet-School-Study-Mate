@@ -6,225 +6,285 @@
  "date": "Mon 11/9",
  "terms": [
   [
+   "Tissue cell number",
+   "Depends on two things, like birth vs death rate: cells going through the cell cycle vs cells dying.",
+   "transcript",
+   false
+  ],
+  [
    "Apoptosis",
-   "Programmed cell death: DNA fragmented, cytoplasm blebs, contents NOT spilled into extracellular matrix (ECM), so no inflammation.",
-   "S5",
+   "Programmed cell death; most common form (~12 types now described). Controlled, signaled; DNA fragmented, contents not spilled.",
+   "S5; transcript",
+   false
+  ],
+  [
+   "Programmed cell death",
+   "Cells told to die (vs cells dying unbidden); apoptosis principles apply to most of its ~12 types.",
+   "transcript",
    false
   ],
   [
    "Blebs",
-   "Bubble-like pieces the cytoplasm splits into during apoptosis, after DNA is catalytically fragmented.",
-   "S5",
+   "Membrane-wrapped bubbles of cytoplasm the apoptotic cell packages itself into, after DNA is catalytically fragmented.",
+   "S5; transcript",
    false
   ],
   [
    "No inflammation (apoptosis)",
-   "Apoptotic cell contents are not spilled into the extracellular matrix, so no inflammatory response.",
-   "S5",
+   "★ Contents wrapped in membrane, not spilled into the extracellular matrix (ECM) → immune system not triggered: \"non-inflammatory form of cell death.\"",
+   "S5; transcript",
    true
   ],
   [
    "Development (apoptosis role)",
-   "Normal apoptosis that shapes the body, e.g. formation of digits and neuron pruning.",
-   "S5",
+   "Normal apoptosis shaping the body: digit formation (absent → webbed or joined fingers) and neuron pruning (brain/spinal circuits).",
+   "S5; transcript",
    false
   ],
   [
    "Surveillance (apoptosis role)",
    "Normal apoptosis removing damaged or diseased cells.",
-   "S5",
+   "S5; transcript",
    false
   ],
   [
    "Maintenance (apoptosis role)",
-   "Normal apoptosis removing old cells, e.g. old liver cells.",
-   "S5",
+   "Normal apoptosis retiring cells, e.g. liver cells that get damaged detoxifying are replaced every few months.",
+   "S5; transcript",
    false
   ],
   [
    "Regulation (apoptosis role)",
-   "Normal apoptosis removing excess cells, e.g. excessive CD8+ (cluster of differentiation 8) T cells.",
-   "S5",
+   "Normal apoptosis removing immune cells after a response, e.g. excess CD8+ (cluster of differentiation 8) T cells.",
+   "S5; transcript",
    false
   ],
   [
    "Necrosis",
-   "Uncontrolled cell death from acute stress; cell ruptures, contents spill into ECM, inflammatory. 'Messy.'",
-   "S6",
+   "★ Uncontrolled death from acute/severe stress; cell ruptures, cytoplasm leaks → damage signals → inflammation.",
+   "S6; transcript",
+   true
+  ],
+  [
+   "DAMPs (damage-associated molecular patterns)",
+   "Released intracellular contents from ruptured cells that signal \"something is wrong\" → immune activation, inflammation.",
+   "transcript",
    false
   ],
   [
    "Homeostasis",
-   "Mitosis and apoptosis balanced; tissue size stays stable.",
-   "S7",
+   "Mitosis and apoptosis balanced; tissue cell number stable.",
+   "S7; transcript",
    false
   ],
   [
    "Neoplasia",
-   "Mitosis outweighs apoptosis; new abnormal growth, e.g. cancers.",
-   "S7",
+   "Mitosis ↑ and/or apoptosis ↓: more cells than the tissue needs (pathology term), e.g. cancers.",
+   "S7; transcript",
    false
   ],
   [
    "Degeneration",
-   "Apoptosis outweighs mitosis; tissue loss, e.g. Parkinson's disease.",
-   "S7",
+   "Mitosis ↓ and/or apoptosis ↑, when pathological = degenerative disease, e.g. neuron loss in Parkinson's.",
+   "S7; transcript",
+   false
+  ],
+  [
+   "Apoptosis triggers",
+   "Cell fate (embryology), removal of trophic/growth factors, DNA damage, immune death signals, extreme Ca2+ release → all converge on caspases.",
+   "S8; transcript",
+   false
+  ],
+  [
+   "Caspases",
+   "Intracellular proteases made as inactive procaspases (zymogens); once activated, cut up DNA and package the cell.",
+   "S8; transcript",
+   false
+  ],
+  [
+   "Zymogen",
+   "Inactive enzyme precursor that must be activated (here: procaspase → caspase).",
+   "transcript",
    false
   ],
   [
    "Initiator caspases",
-   "Caspase 8 or 9; every apoptosis trigger activates one, which then activates the effector caspases.",
-   "S8",
-   false
+   "★ Caspase 8 or 9 — two initiators = two pathways (9 = internal, 8 = external); activate the effectors.",
+   "S8; transcript",
+   true
   ],
   [
    "Effector caspases",
-   "Caspase 3, 6, 7; activated by initiator caspases; carry out apoptosis.",
-   "S8",
+   "Caspase 3, 6, 7; take apart the nucleus and cell, package it for removal.",
+   "S8; transcript",
    false
   ],
   [
-   "Apoptosis triggers (S8 figure)",
-   "Cell fate (embryology), removal of survival factors, DNA damage, death signal, calcium (Ca2+) release; all converge on initiator caspases.",
-   "S8",
-   false
+   "Internal pathway",
+   "★ Cell monitors itself (\"is everything okay?\"): Bax vs Bcl-2 → cytochrome C → caspase 9.",
+   "S9–S10; transcript",
+   true
   ],
   [
-   "Caspase 9",
-   "Initiator caspase of the INTERNAL (Bax/mitochondrial) pathway; activated from procaspase 9 by the apoptosome.",
-   "S9",
-   false
-  ],
-  [
-   "Caspase 8",
-   "Initiator caspase of the EXTERNAL (Fas/FasL) pathway; activated from procaspase 8 by FADD.",
-   "S12",
-   false
+   "External pathway",
+   "★ Outside signal (immune system: \"you have become dangerous\"): FasL → Fas → FADD → caspase 8.",
+   "S12–S13; transcript",
+   true
   ],
   [
    "Bax",
-   "Pro-apoptotic protein that OPENS mitochondrial membrane pores, releasing cytochrome C.",
-   "S10",
-   false
+   "★ \"Bax is bad\": in the mitochondrial membrane, OPENS pores → cytochrome C escapes → death. ↑ by p53 (DNA damage).",
+   "S10; transcript",
+   true
+  ],
+  [
+   "Bcl-2",
+   "★ Opposite of Bax (\"live\"): in the mitochondrial membrane, CLOSES pores. ↑ by growth/trophic factors (and AKT).",
+   "S10; transcript",
+   true
   ],
   [
    "Cytochrome C (Cyt-C)",
-   "Mitochondrial protein released through Bax pores; combines with Apaf-1 to form the apoptosome.",
-   "S10",
+   "Normally in the mitochondrial intermembrane space carrying electrons complex III → IV; in the cytoplasm = \"something is really wrong.\"",
+   "S10; transcript",
    false
   ],
   [
    "Apaf-1",
-   "Partner that combines with cytochrome C to form the apoptosome. OUTSIDE (confirm): apoptotic protease activating factor 1.",
-   "S10",
+   "Binds released cytochrome C to build the apoptosome. Expansion not given (OUTSIDE: apoptotic protease activating factor 1 — confirm).",
+   "S10; transcript",
    false
   ],
   [
    "Apoptosome",
-   "Cytochrome C + Apaf-1 complex; activates procaspase 9 into caspase 9.",
-   "S10",
+   "Large cytochrome C + Apaf-1 complex; cleaves procaspase 9 → caspase 9.",
+   "S9–S10; transcript",
    false
   ],
   [
-   "Procaspase 9",
-   "Inactive precursor of caspase 9; activated by the apoptosome.",
-   "S10",
-   false
-  ],
-  [
-   "Bcl-2",
-   "Anti-apoptotic protein that CLOSES mitochondrial pores, so no cytochrome C release; opposes Bax.",
-   "S10",
+   "Procaspase 9 / caspase 9",
+   "Internal-pathway initiator; procaspase 9 cleaved by the apoptosome → caspase 9 → caspases 3, 6, 7.",
+   "S9–S10; transcript",
    false
   ],
   [
    "Trophic (survival) factors",
-   "Survival signals that increase Bcl-2 transcription; their REMOVAL triggers the Bax pathway.",
-   "S9",
+   "Growth/survival signals that ↑ Bcl-2; their REMOVAL (\"I must not be needed\") triggers apoptosis.",
+   "S8–S10; transcript",
    false
   ],
   [
    "Bax pathway triggers",
-   "Listed: damage sensing (DNA damage via p53) and removal of trophic factors; figure also shows oxidative stress + calcium (Ca2+) overload at mitochondria.",
-   "S9",
+   "Damage sensing (DNA damage → p53 → ↑ Bax), removal of trophic factors; figure also: oxidative stress + Ca2+ overload.",
+   "S9; transcript",
    false
   ],
   [
+   "Tug of war (Bax vs Bcl-2)",
+   "★ Constant tug of war; the RATIO decides how close the cell is to apoptosis. Many signals integrate here.",
+   "S11; transcript",
+   true
+  ],
+  [
    "Bax:Bcl-2 balance",
-   "More Bax → degeneration; balanced → homeostasis; more Bcl-2 → proliferation.",
-   "S11",
+   "↑ Bcl-2/↓ Bax → tissue grows (proliferation); balanced → homeostasis; ↑ Bax/↓ Bcl-2 → regression/degeneration. Not always pathological.",
+   "S11; transcript",
+   false
+  ],
+  [
+   "Superoxide (student question)",
+   "Not the internal-pathway trigger — it crosses membranes anyway; CYTOCHROME C release is what triggers it.",
+   "transcript",
    false
   ],
   [
    "Fas",
-   "Membrane death receptor; activated by FasL, trimerizes, recruits FADD.",
-   "S13",
+   "Death receptor expressed by almost all cells; FasL binding → Fas HOMOtrimerizes → binds FADD.",
+   "S12–S13; transcript",
    false
   ],
   [
    "FasL (Fas ligand)",
-   "Ligand that binds Fas and triggers the external apoptosis pathway.",
-   "S13",
+   "Agonist for Fas; expressed by cytotoxic T cells (and some tumors).",
+   "S12–S13; transcript",
    false
   ],
   [
    "FADD",
-   "Fas-associated death domain (slide wording); recruited by trimerized Fas; activates procaspase 8.",
-   "S13",
+   "Fas-associated death domain; recruited by trimerized Fas; activates procaspase 8.",
+   "S13; transcript",
    false
   ],
   [
-   "Procaspase 8",
-   "Inactive precursor of caspase 8; activated by FADD.",
-   "S13",
+   "\"DD\" = death domain",
+   "★ Any protein ending in DD (FADD, TRADD) probably triggers an apoptotic pathway.",
+   "transcript",
+   true
+  ],
+  [
+   "TRADD",
+   "TNF-alpha (tumor necrosis factor alpha) receptor-associated death domain; another DD protein.",
+   "transcript",
+   false
+  ],
+  [
+   "Procaspase 8 / caspase 8",
+   "External initiator; FADD → caspase 8, which cleaves MORE procaspase 8 (self-amplifying loop) → 3, 6, 7.",
+   "S12–S13; transcript",
    false
   ],
   [
    "T-cell cytotoxicity",
-   "Cytotoxic CD8+ T cell recognizes foreign antigen on major histocompatibility complex class I (MHC I) and uses FasL to kill the cell.",
-   "S14",
+   "Cytotoxic CD8+ T cell recognizes a bad cell (via MHC I, major histocompatibility complex class I), expresses FasL → target dies. One of several weapons.",
+   "S14; transcript",
    false
   ],
   [
    "T-cell homeostasis",
-   "During clonal expansion T cells show FasL but no Fas (no signal); old T cells express both Fas and FasL and kill each other.",
-   "S14",
-   false
+   "★ Newly activated CD8+ T cells DON'T express Fas → expand freely; as they mature they express Fas → kill each other → contraction.",
+   "S14; transcript",
+   true
   ],
   [
    "Tumor anti-immunity",
-   "Tumor cell expresses FasL; it binds Fas/FADD on the attacking cytotoxic CD8+ T cell, so the T cell undergoes apoptosis.",
-   "S14",
+   "Tumor gains a mutation to express FasL → triggers Fas on CD8+ T cells → kills them faster than they kill it.",
+   "S14; transcript",
    false
   ],
   [
    "Oncogene",
-   "Mutated/overexpressed gene that can cause cancer.",
-   "S16",
-   false
+   "★ Mutated or overexpressed gene that can cause cancer (the already-mutated form).",
+   "S16; transcript",
+   true
   ],
   [
-   "Protooncogene",
-   "Normal gene in apoptosis or cell cycle that mis-regulation or mutation could turn into an oncogene.",
-   "S16",
-   false
+   "Proto-oncogene",
+   "★ Normal gene (signaling, cell cycle, apoptosis) that becomes an oncogene when it GAINS activity (mutated, misregulated, overexpressed).",
+   "S16; transcript",
+   true
   ],
   [
    "Tumor-suppressor gene",
-   "Gene for damage surveillance and negative cell cycle regulation.",
-   "S16",
-   false
+   "★ Gene (damage surveillance, negative cell cycle regulation) that causes cancer when it LOSES activity.",
+   "S16; transcript",
+   true
+  ],
+  [
+   "Gain vs loss rule",
+   "★ \"Look at these pathways and decide\": gain of activity → cancer = proto-oncogene; loss of activity → cancer = tumor suppressor.",
+   "transcript",
+   true
   ],
   [
    "Ras",
-   "Protooncogene GTPase; mutated Ras cannot hydrolyze guanosine triphosphate (GTP), so it stays active without growth signal.",
-   "S18",
+   "Proto-oncogene, monomeric GTPase; its GTPase activity is the natural off switch. Mutated Ras can't hydrolyze GTP → always on.",
+   "S17–S18; transcript",
    false
   ],
   [
    "MAPK pathway",
-   "Mitogen-activated protein kinase cascade downstream of Ras; activates Myc/Jun/Fos.",
-   "S18",
+   "Mitogen-activated protein kinase cascade downstream of Ras; activates Myc/Jun/Fos → G1/S.",
+   "S17–S18; transcript",
    false
   ],
   [
@@ -234,33 +294,33 @@
    false
   ],
   [
-   "AKT (PKB)",
-   "Protooncogene kinase (protein kinase B) downstream of PI3-K; mutated AKT is constantly active → overproduces Bcl-2; figure: also blocks apoptosis and cell cycle arrest.",
-   "S20",
+   "AKT (protein kinase B, PKB)",
+   "Proto-oncogene; normally on only when PDPK1 activates it; ↑ Bcl-2. Mutated AKT always on → ↑ Bcl-2 → blocks apoptosis.",
+   "S19–S20; transcript",
    false
   ],
   [
    "PI3-K / PIP2 → PIP3 / PDPK1",
-   "Upstream of AKT on figure: phosphoinositide 3-kinase converts PIP2 to PIP3; PDPK1 activates AKT (figure labels).",
-   "S19",
+   "Upstream of AKT: phosphoinositide 3-kinase makes PIP3; PDPK1 (PIP3-dependent protein kinase 1) activates AKT (LC31).",
+   "S19; transcript",
    false
   ],
   [
    "p53",
-   "Tumor-suppressor; critical control component of cell cycle regulation. Mutated p53 cannot be phosphorylated → no p21.",
-   "S21",
+   "★ Tumor suppressor; critical control component. Normally stops the cycle (p21) AND potentiates apoptosis (↑ Bax). Mutated = can't be activated.",
+   "S21–S22; transcript",
    true
   ],
   [
    "ATM",
-   "Damage-sensing kinase that phosphorylates (activates) p53 on the figure.",
-   "S21",
+   "DNA damage-sensing kinase that phosphorylates (activates) p53.",
+   "S21; transcript",
    false
   ],
   [
    "p21",
-   "Made by active p53; inhibits CDK (cyclin-dependent kinase) so the damaged cell cannot advance.",
-   "S22",
+   "Made by active p53; inhibits cyclin-dependent kinase (CDK) so the damaged cell can't advance.",
+   "S21–S22",
    false
   ],
   [
@@ -277,20 +337,20 @@
   ],
   [
    "APC",
-   "Tumor-suppressor; with Axin/GSK3 targets beta-catenin for destruction. Mutated APC cannot bind Axin/GSK3.",
-   "S24",
+   "Tumor suppressor; a kinase only when bound to Axin/GSK3 → phosphorylates beta-catenin. Mutated APC can't bind → no kinase.",
+   "S23–S24; transcript",
    false
   ],
   [
    "Axin / GSK3",
-   "Partners APC binds to ubiquitinate beta-catenin. OUTSIDE (confirm): GSK3 = glycogen synthase kinase 3.",
-   "S24",
+   "Partners APC must bind to act as a kinase on beta-catenin. OUTSIDE (confirm): GSK3 = glycogen synthase kinase 3.",
+   "S23–S24; transcript",
    false
   ],
   [
    "Beta-catenin (Catenin B)",
-   "Wnt-pathway protein; high when APC is mutated → LEF/TCF transcription of cyclin D.",
-   "S24",
+   "Never phosphorylated when APC is mutated → always to nucleus → way too much cyclin D.",
+   "S23–S24; transcript",
    false
   ],
   [
@@ -302,55 +362,43 @@
   [
    "Cyclin D",
    "Cell cycle regulator transcribed by beta-catenin; constant production pushes the cell through the cycle.",
-   "S24",
+   "S24; transcript",
    false
   ],
   [
    "Viral oncogene",
-   "Oncogene delivered by a virus that causes tumorigenesis.",
+   "Oncogene delivered by a virus that causes tumorigenesis (NOT TESTED — Basel cut the Viral Oncogenes objective).",
    "S25",
    false
   ],
   [
    "vRas",
-   "Viral Ras: mutated, constitutively active Ras; cannot hydrolyze GTP; signals through MAPK without growth signal.",
+   "Viral Ras: constitutively active, cannot hydrolyze GTP (NOT TESTED — Basel cut the Viral Oncogenes objective).",
    "S27",
    false
   ],
   [
    "HPV (human papilloma virus)",
-   "Carries two viral oncogenes, E6 and E7; a significant cause of cervical and other cancers.",
+   "Carries viral oncogenes E6 and E7; cause of cervical and other cancers (NOT TESTED — Basel cut the Viral Oncogenes objective).",
    "S25",
    false
   ],
   [
    "E6",
-   "HPV protein that causes ubiquitination of p53 → proteasome degradation; cell loses damage control.",
+   "HPV protein → ubiquitination and degradation of p53 (NOT TESTED — Basel cut the Viral Oncogenes objective).",
    "S29",
    false
   ],
   [
    "E7",
-   "HPV protein that binds Rb so Rb cannot inhibit E2F; E2F pushes the cell into the cycle.",
+   "HPV protein that binds Rb so it cannot inhibit E2F (NOT TESTED — Basel cut the Viral Oncogenes objective).",
    "S29",
    false
   ],
   [
-   "Colon cancer stepwise mutations",
-   "Normal epithelium → APC → Ras (adenoma) → p53 (carcinoma) → further mutations → metastasis.",
-   "S32",
-   false
-  ],
-  [
-   "Multiple-mutation principle",
-   "Because cell cycle regulation is redundant, cancers rarely come from a single mutation; they build up multiple.",
-   "S32",
-   false
-  ],
-  [
    "German Shepherd clinical case",
-   "9-year-old dog: weight loss, diarrhea, anorexia, nodular colon masses, neoplastic cells on biopsy.",
-   "S2",
+   "9-year-old dog: weight loss, diarrhea, anorexia, nodular colon masses, high mitotic index. Basel: \"she has colon cancer ... that's easy.\"",
+   "S2, S31; transcript",
    false
   ],
   [
@@ -358,19 +406,32 @@
    "Variation in cell size / nucleus size; biopsy signs of neoplasia in the case.",
    "S2",
    false
+  ],
+  [
+   "Colon cancer stepwise mutations",
+   "Normal epithelium → APC → Ras (adenoma) → p53 (carcinoma) → metastasis. Slides only; not walked through — likely low priority.",
+   "S32 · slides only",
+   false
+  ],
+  [
+   "Multiple-mutation principle",
+   "Because cell cycle regulation is redundant, cancers rarely come from a single mutation (slides only).",
+   "S32 · slides only",
+   false
   ]
  ],
  "traps": [
-  "<b>Bax OPENS</b> mitochondrial pores (pro-apoptotic); <b>Bcl-2 CLOSES</b> them (anti-apoptotic). Don't flip them. (S10)",
-  "<b>Internal (Bax) pathway → caspase 9</b>; <b>external (Fas/FasL) pathway → caspase 8</b>. Both converge on <b>effector caspases 3, 6, 7</b>. (S8, S9, S12)",
-  "<b>Initiator</b> caspases = <b>8 or 9</b>; <b>effector</b> caspases = <b>3, 6, 7</b>. Initiator activates effector, never the reverse. (S8)",
-  "<b>Cytochrome C + Apaf-1</b> = apoptosome. The apoptosome activates <b>procaspase 9</b>, not procaspase 8. (S10)",
-  "<b>Trophic factors ↑ Bcl-2</b> (survival). <b>Removal</b> of trophic factors triggers Bax. <b>DNA damage → p53 → ↑ Bax</b>. (S9, S10)",
-  "<b>More Bax → degeneration</b>; <b>more Bcl-2 → proliferation</b>. Mitosis &gt; apoptosis = <b>neoplasia</b>; apoptosis &gt; mitosis = <b>degeneration</b> (Parkinson's). (S7, S11)",
-  "<b>Protooncogene</b> = NORMAL gene (Ras, AKT); <b>oncogene</b> = MUTATED version; <b>tumor-suppressor</b> = p53, APC. Ras and AKT are protooncogenes, NOT tumor suppressors. (S16–S24)",
-  "Mutated Ras <b>cannot HYDROLYZE GTP</b> (stuck ON). It is not 'cannot bind GTP'. Mutated p53 <b>cannot be PHOSPHORYLATED</b>. Mutated APC <b>cannot BIND Axin/GSK3</b>. (S18, S22, S24)",
-  "<b>E6 → p53</b> (ubiquitination, degradation); <b>E7 → Rb</b> (binds, frees E2F). Easy pair to flip. (S29)",
-  "Colon cancer order: <b>APC → Ras → p53</b> (adenoma after Ras, carcinoma after p53). Mnemonic: <b>A-R-P</b>, alphabetical. (S32)"
+  "★ <b>\"Bax is bad\"</b>: Bax <b>OPENS</b> mitochondrial pores (death); <b>Bcl-2 CLOSES</b> them (live). Don't flip them. (S10, transcript)",
+  "<b>Internal (Bax) → caspase 9</b>; <b>external (Fas/FasL) → caspase 8</b>. Both → <b>effector caspases 3, 6, 7</b>. (S8–S13)",
+  "<b>Initiator</b> = <b>8 or 9</b>; <b>effector</b> = <b>3, 6, 7</b>. Initiator activates effector, never the reverse. (S8)",
+  "<b>Cytochrome C + Apaf-1</b> = apoptosome → <b>procaspase 9</b>, not 8. The trigger is <b>cytochrome C</b> release, not superoxide. (S10, transcript)",
+  "<b>p53 ↑ Bax</b> (DNA damage → death); <b>growth/trophic factors ↑ Bcl-2</b> (survival). AKT also ↑ Bcl-2. (S10, S20, transcript)",
+  "★ <b>Apoptosis = NON-inflammatory</b> (membrane blebs, contents not spilled); <b>necrosis = inflammatory</b> (rupture → DAMPs). (S5–S6, transcript)",
+  "Fas <b>HOMO</b>trimerizes (Basel corrected himself from \"hetero\"). Caspase 8 cleaves <b>more procaspase 8</b> = self-amplifying loop. (transcript)",
+  "★ T-cell homeostasis: <b>new</b> CD8+ T cells <b>lack Fas</b> (expand); <b>mature</b> ones <b>express Fas</b> (kill each other). Tumor anti-immunity: the <b>tumor</b> expresses <b>FasL</b>. (S14, transcript)",
+  "★ <b>Proto-oncogene → cancer when it GAINS activity</b> (Ras, AKT); <b>tumor suppressor → cancer when it LOSES activity</b> (p53, APC). Oncogene = the already-mutated form. (S16, transcript)",
+  "Exact mutation verbs: Ras <b>cannot HYDROLYZE GTP</b> (still binds it); AKT <b>always on</b>; p53 <b>cannot be activated/phosphorylated</b>; APC <b>cannot BIND Axin/GSK3</b> → not a kinase. (S18–S24, transcript)",
+  "↑ Bcl-2/↓ Bax → tissue <b>grows</b>; ↑ Bax/↓ Bcl-2 → tissue <b>regresses</b> — <b>not always pathological</b>. Neoplasia/degeneration are the pathological names. (S7, S11, transcript)"
  ],
  "know": [
   {
@@ -415,9 +476,9 @@
    ]
   },
   {
-   "title": "Bax vs Bcl-2",
-   "slide": "S10–S11",
-   "note": "Opposing pair that controls the internal pathway; ratio sets tissue outcome (S11).",
+   "title": "Bax vs Bcl-2 (tug of war)",
+   "slide": "S10–S11; transcript",
+   "note": "★ \"Bax is bad\"; the ratio decides how close the cell is to apoptosis.",
    "headers": [
     "Step",
     "Bax",
@@ -425,14 +486,19 @@
    ],
    "rows": [
     [
+     "Location",
+     "Mitochondrial membrane",
+     "Mitochondrial membrane"
+    ],
+    [
      "Mitochondrial pores",
      "Opens pores",
      "Closes pores"
     ],
     [
      "Cytochrome C",
-     "Released from mitochondria",
-     "Not released"
+     "Released into cytoplasm",
+     "Stays in intermembrane space"
     ],
     [
      "Apoptosome",
@@ -445,14 +511,14 @@
      "Not activated → apoptosis inhibited"
     ],
     [
-     "Increased transcription by",
+     "Increased by",
      "DNA damage via p53",
-     "Trophic factors"
+     "Growth/trophic factors (and AKT)"
     ],
     [
-     "If dominant (S11)",
-     "Degeneration",
-     "Proliferation"
+     "If winning (S11)",
+     "Regression / degeneration",
+     "Growth / proliferation"
     ]
    ],
    "hide": [
@@ -461,39 +527,33 @@
    ]
   },
   {
-   "title": "Protooncogenes and tumor-suppressor genes",
-   "slide": "S16–S24",
-   "note": "Classify each and know what the mutation does.",
+   "title": "FasL and CD8+ T cells",
+   "slide": "S14; transcript",
+   "note": "Three uses of the external pathway (not exhaustive).",
    "headers": [
-    "Gene",
-    "Class",
-    "What the mutation does",
-    "Result"
+    "Use",
+    "Who expresses FasL",
+    "Who dies",
+    "Key point"
    ],
    "rows": [
     [
-     "Ras",
-     "Protooncogene",
-     "Cannot hydrolyze GTP; active without growth signal",
-     "Constant MAPK → Myc/Jun/Fos → repeated cell cycle entry"
+     "T-cell cytotoxicity",
+     "Cytotoxic CD8+ T cell",
+     "Cell with 'foreign' antigen on MHC I",
+     "One of several T-cell weapons"
     ],
     [
-     "AKT (PKB)",
-     "Protooncogene",
-     "Constantly active; overproduces Bcl-2",
-     "Internal apoptosis inhibited → overpopulation, tumorigenesis"
+     "T-cell homeostasis",
+     "CD8+ T cells",
+     "Old (mature) T cells kill each other",
+     "New cells lack Fas → expand; mature cells express Fas → contraction"
     ],
     [
-     "p53",
-     "Tumor-suppressor gene",
-     "Cannot be phosphorylated/activated; no response to ATM; no p21",
-     "CDK pushes cell through cycle despite damage"
-    ],
-    [
-     "APC",
-     "Tumor-suppressor gene",
-     "Cannot bind Axin/GSK3; cannot ubiquitinate beta-catenin",
-     "High beta-catenin → cyclin D → repeated cycling"
+     "Tumor anti-immunity",
+     "Tumor cell (mutation)",
+     "The cytotoxic CD8+ T cell",
+     "Tumor kills the T cell first"
     ]
    ],
    "hide": [
@@ -503,40 +563,48 @@
    ]
   },
   {
-   "title": "Viral oncogenes",
-   "slide": "S25–S29",
-   "note": "vRas copies a protooncogene; HPV E6/E7 knock out tumor suppressors.",
+   "title": "Proto-oncogenes and tumor-suppressor genes",
+   "slide": "S16–S24; transcript",
+   "note": "★ \"Look at these pathways and decide which might be tumor suppressor genes vs proto-oncogenes.\"",
    "headers": [
-    "Viral oncogene",
-    "Virus",
-    "Target",
-    "Mechanism",
+    "Gene",
+    "Class",
+    "Gain or loss?",
+    "What the mutation does",
     "Result"
    ],
    "rows": [
     [
-     "vRas",
-     "Some viruses",
-     "Ras/MAPK pathway (acts as Ras)",
-     "Mutated Ras; cannot hydrolyze GTP; constitutively active",
-     "Constant Myc/Jun/Fos → repeated cell cycle entry"
+     "Ras",
+     "Proto-oncogene",
+     "Gain",
+     "Cannot hydrolyze GTP → always on",
+     "Constant MAPK → Myc/Jun/Fos → G1/S"
     ],
     [
-     "E6",
-     "HPV",
+     "AKT (PKB)",
+     "Proto-oncogene",
+     "Gain",
+     "Always on, even without PDPK1",
+     "↑ Bcl-2 → apoptosis blocked → more cells"
+    ],
+    [
      "p53",
-     "Causes ubiquitination of p53 → degradation",
-     "Cell loses damage control"
+     "Tumor-suppressor gene",
+     "Loss",
+     "Cannot be activated (no ATM response, no p21)",
+     "DNA damage can't stop the cycle"
     ],
     [
-     "E7",
-     "HPV",
-     "Rb",
-     "Binds Rb so it cannot inhibit E2F",
-     "E2F pushes cell into cycle"
+     "APC",
+     "Tumor-suppressor gene",
+     "Loss",
+     "Cannot bind Axin/GSK3 → not a kinase",
+     "Beta-catenin always to nucleus → too much cyclin D"
     ]
    ],
    "hide": [
+    1,
     2,
     3,
     4
@@ -673,10 +741,10 @@
    "bad": [
     "Bcl-2 that closes T-cell pores",
     "Fas that binds the T-cell FasL",
-    "E7 that binds the T-cell Rb"
+    "Bax that opens T-cell pores"
    ],
    "why": "Tumor anti-immunity: tumor cell expresses FasL, activating Fas/FADD on the T cell → T-cell apoptosis.",
-   "cite": "S14",
+   "cite": "S14; transcript",
    "sure": true
   },
   {
@@ -711,8 +779,8 @@
     "AKT, APC protooncogenes; Ras, p53 suppressors",
     "Ras, APC protooncogenes; AKT, p53 suppressors"
    ],
-   "why": "Ras and AKT = protooncogenes (S17, S19); p53 and APC = tumor-suppressor genes (S21, S23).",
-   "cite": "S17–S24",
+   "why": "Ras and AKT cause cancer when they GAIN activity (proto-oncogenes); p53 and APC when they LOSE activity (tumor suppressors).",
+   "cite": "S17–S24; transcript",
    "sure": true
   },
   {
@@ -740,18 +808,6 @@
    "sure": true
   },
   {
-   "stem": "Which human papilloma virus (HPV) protein inactivates its target by causing that target's ubiquitination and degradation?",
-   "ok": "E6, which targets p53",
-   "bad": [
-    "E7, which targets p53",
-    "E6, which targets Rb protein",
-    "E7, which targets Rb protein"
-   ],
-   "why": "E6 → p53 ubiquitination/degradation; E7 binds Rb, freeing E2F.",
-   "cite": "S29",
-   "sure": true
-  },
-  {
    "stem": "A 9-year-old German Shepherd has nodular colon masses and neoplastic biopsy cells. Which mutation order fits the colon carcinoma slide?",
    "ok": "APC, then Ras, then p53",
    "bad": [
@@ -759,43 +815,131 @@
     "p53, then Ras, then APC",
     "APC, then p53, then Ras"
    ],
-   "why": "Normal epithelium → APC → Ras (adenoma) → p53 (carcinoma) → further mutations → metastasis.",
-   "cite": "S31, S32",
+   "why": "Normal epithelium → APC → Ras (adenoma) → p53 (carcinoma) → further mutations → metastasis. Slides only: Basel used the case as the intro and did not walk through S32.",
+   "cite": "S31, S32 (slides only — likely low priority, confirm)",
+   "sure": true
+  },
+  {
+   "stem": "Apoptotic cells die without triggering inflammation. Per Dr. Basel, what is the main reason?",
+   "ok": "Cytoplasm is packaged in membrane-wrapped blebs",
+   "bad": [
+    "Cytoplasm is released as damage-associated patterns",
+    "Caspases digest the immune cells that arrive nearby",
+    "Cytochrome C stays sealed inside the mitochondria"
+   ],
+   "why": "Contents stay wrapped in membrane, so nothing spills into the ECM and no damage signals reach immune cells; necrosis ruptures and releases DAMPs.",
+   "cite": "S5–S6; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A growing tissue receives strong growth factor signaling. Which change pushes its cells away from apoptosis?",
+   "ok": "Increased Bcl-2, closing mitochondrial pores",
+   "bad": [
+    "Increased Bax, closing mitochondrial pores",
+    "Increased Bcl-2, opening mitochondrial pores",
+    "Increased Bax, opening mitochondrial pores"
+   ],
+   "why": "Growth factors ↑ Bcl-2, which closes pores; \"Bax is bad\" and opens pores. p53 (DNA damage) ↑ Bax.",
+   "cite": "S10; transcript",
+   "sure": true
+  },
+  {
+   "stem": "Cytochrome C has escaped from the mitochondria into the cytoplasm. Which event follows?",
+   "ok": "It binds Apaf-1, forming the apoptosome that activates caspase 9",
+   "bad": [
+    "It binds FADD, forming the death complex that activates caspase 8",
+    "It binds Bcl-2, forming the pore complex that activates caspase 3",
+    "It binds Fas, forming the trimer complex that activates caspase 9"
+   ],
+   "why": "Cytochrome C + Apaf-1 = apoptosome → procaspase 9 → caspase 9 → caspases 3, 6, 7 (internal pathway).",
+   "cite": "S10; transcript",
+   "sure": true
+  },
+  {
+   "stem": "After FasL binds Fas and FADD activates the first caspase 8, why does caspase 8 rise exponentially?",
+   "ok": "Caspase 8 cleaves more procaspase 8 in a loop",
+   "bad": [
+    "Caspase 9 cleaves more procaspase 8 in a loop",
+    "Caspase 3 cleaves more procaspase 8 in a loop",
+    "Apoptosome cleaves more procaspase 8 in a loop"
+   ],
+   "why": "Basel: caspase 8 cleaves more procaspase 8, so we get an exponential increase before activating caspases 3, 6, 7.",
+   "cite": "S12–S13; transcript",
+   "sure": true
+  },
+  {
+   "stem": "A newly described gene causes cancer only when a mutation destroys its normal activity. How should it be classified?",
+   "ok": "Tumor-suppressor gene, like p53",
+   "bad": [
+    "Proto-oncogene, like the Ras gene",
+    "Oncogene, like the mutated AKT",
+    "Proto-oncogene, like the AKT gene"
+   ],
+   "why": "Loss of activity → cancer = tumor suppressor (p53, APC). Gain of activity → cancer = proto-oncogene (Ras, AKT).",
+   "cite": "S16; transcript",
+   "sure": true
+  },
+  {
+   "stem": "During an infection, newly activated CD8+ T cells expand rapidly without killing each other. Why?",
+   "ok": "Newly activated T cells do not yet express Fas",
+   "bad": [
+    "Newly activated T cells do not yet express Bax",
+    "Newly activated T cells already overexpress Bcl-2",
+    "Newly activated T cells do not yet express FADD"
+   ],
+   "why": "New CD8+ cells lack Fas, so no death signal; as they mature they express Fas and kill each other → contraction.",
+   "cite": "S14; transcript",
    "sure": true
   }
  ],
  "flags": [
   [
+   "★★ SCOPE CUT: Viral Oncogenes NOT TESTED (S25–S30)",
+   "Basel: \"I've got three objectives ... cross this one off. Nothing in this objective will be tested on and I will not be covering it.\" = Viral Oncogenes (vRas, HPV, E6, E7, Stop and Think). Viral quiz items removed; viral terms kept but marked not tested."
+  ],
+  [
+   "Colon cancer stepwise slide (S31–S32) — slides only",
+   "Basel used the German Shepherd case as the intro (\"she has colon cancer ... the question is why did the colon go rogue\") but did not walk through S32 (APC → Ras → p53). He did teach Ras, AKT, p53, APC individually · slides only, likely low priority — confirm."
+  ],
+  [
+   "CLOSED by transcript: Stop and Think (S30)",
+   "Inside the cut Viral Oncogenes objective → NOT TESTED. Reasoning removed."
+  ],
+  [
+   "CLOSED by transcript: German Shepherd diagnosis",
+   "Basel: \"she has colon cancer, I gave you all that. That's easy.\" Etiology = mitosis/apoptosis imbalance via oncogenes (APC, Ras, p53 on S32 — slides only)."
+  ],
+  [
+   "CLOSED by transcript: Neoplasia vs proliferation",
+   "Basel: ↑ Bcl-2/↓ Bax → tissue grows; ↑ Bax/↓ Bcl-2 → regresses — \"those aren't always pathological.\" Neoplasia (S7) = the pathology term for too much growth · use each slide's word."
+  ],
+  [
+   "CLOSED by transcript: T-cell homeostasis direction (S14)",
+   "Basel: newly activated CD8+ T cells DON'T express Fas → expand; as they mature they express Fas → kill each other. Matches the S14 image reading."
+  ],
+  [
+   "FADD expansion",
+   "S13 and Basel: \"Fas-associated death domain.\" OUTSIDE — confirm: textbooks say \"Fas-associated protein with death domain.\" Use slide/Basel wording. Basel adds TRADD (TNF-alpha receptor-associated death domain)."
+  ],
+  [
+   "Who phosphorylates/ubiquitinates beta-catenin",
+   "S24 text: mutated APC \"cannot ubiquitinate Catenin B.\" Basel (LC31 + here): APC bound to Axin/GSK3 is a KINASE that PHOSPHORYLATES beta-catenin → proteasome · use phosphorylate; recognize S24 wording."
+  ],
+  [
+   "'Catenin B' vs beta-catenin (S23–S24)",
+   "S23 figure shows 'β-Catenin'; S24 text writes 'Catenin B'. Same protein: beta-catenin."
+  ],
+  [
    "CDK1 vs G1-CDK (p53 slide)",
-   "S22 says 'No p21 means no inhibition of CDK1'; S21 figure (and S17, LC31) label it G1-CDK-Cyclin. OUTSIDE — confirm: G1/S CDKs are CDK2/4/6, CDK1 is the mitotic CDK. Use slide wording 'CDK' for now."
+   "S22 says 'No p21 means no inhibition of CDK1'; S21 figure labels G1-CDK-Cyclin; Basel says only \"cyclin-dependent kinase.\" OUTSIDE — confirm: G1/S CDKs are CDK2/4/6. Use 'CDK'."
+  ],
+  [
+   "Fas trimerization wording",
+   "S13: 'trimerizes'. Basel: \"heterotrimerizes, I'm sorry, homotrimerizes\" · use HOMOtrimerizes."
   ],
   [
    "Typo 'inhbiting' (S10)",
    "S10 step 3 reads 'inhbiting apoptosis' = inhibiting. No content change."
-  ],
-  [
-   "'Catenin B' vs beta-catenin (S23–S24)",
-   "Checked against slide image: S23 figure shows 'β-Catenin'; S24 text writes 'Catenin B'. Same protein: beta-catenin. Spell it 'beta-catenin'."
-  ],
-  [
-   "Stop and Think has no slide answer (S30)",
-   "S30 asks whether mutated protooncogenes / tumor suppressor genes can be viral oncogenes; no answer on slides. Doc gives labeled reasoning from slide logic only. Confirm with transcript."
-  ],
-  [
-   "Neoplasia vs proliferation label",
-   "S7 calls mitosis > apoptosis 'Neoplasia (e.g. cancers)'; S11 calls the high-Bcl-2 state 'Proliferation'. Treat as the same direction; use each slide's own word in its context."
-  ],
-  [
-   "FADD expansion",
-   "S13 expands FADD as 'Fas-associated death domain'. OUTSIDE — confirm: textbooks say 'Fas-associated protein with death domain'. Use slide wording."
-  ],
-  [
-   "Who ubiquitinates beta-catenin",
-   "S24 text says mutated APC 'cannot ubiquitinate Catenin B'. S23 figure shows beta-catenin phosphorylated (P) by the APC/Axin/GSK3 complex before the proteasome. OUTSIDE — confirm: textbooks say GSK3 phosphorylation tags it for ubiquitination. Use slide wording."
-  ],
-  [
-   "Scrambled figure labels (S7, S9, S11, S14, S19, S21, S28)",
-   "Checked against slide images: arrow charts and tables match the figures. Fixes made: S14 T-cell homeostasis row (clonal expansion = FasL, no signal; old T cells kill each other); S8 trigger list added (lost in text export); S19 AKT also blocks cell cycle arrest; S23 shows phosphorylated beta-catenin."
   ]
  ]
 }
