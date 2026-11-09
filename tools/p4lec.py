@@ -149,7 +149,23 @@ VID=[('3d739024','foramen for the dorsal sagittal sinus','Foramen for the dorsal
      ('5a93c20f','tentorium cerebelli','Tentorium cerebelli',[('What it is:','the DURA MATER fold that attaches to the tentorium osseum'),('Job:','separates the cerebrum from the cerebellum')]),
      ('50a627d0','tentorium osseum','Tentorium osseum',[('What it is:','the BONY part (shelf) the tentorium cerebelli attaches to'),('Trap:','osseum = bone · cerebelli = dura')]),
      ('a88b0d2b','transverse groove','Transverse groove',[('Holds:','the transverse sinus; the transverse canals open in it')]),
-     ('bd7054d0','transverse canals','Transverse canals',[('Where:','in the transverse groove; continue from the foramen for the dorsal sagittal sinus')])]
+     ('bd7054d0','transverse canals','Transverse canals',[('Where:','in the transverse groove; continue from the foramen for the dorsal sagittal sinus')]),
+     ('6b811dad','rostral cranial fossa','Rostral cranial fossa',[('Extent:','from the cribriform plate back to the optic canal'),('Holds:','olfactory bulbs + frontal lobes')]),
+     ('666589af','middle cranial fossa','Middle cranial fossa',[('Extent:','from the orbital fissure/optic canal back to the dorsum sellae'),('Holds:','pituitary (in the sella turcica), temporal lobes')]),
+     ('976b90c7','caudal cranial fossa','Caudal cranial fossa',[('Extent:','from the dorsum sellae back to the foramen magnum'),('Holds:','cerebellum, pons, medulla')]),
+     ('9e516b5c','sella turcica','Sella turcica',[('What it is:','hypophyseal fossa + dorsum sellae together ("Turkish saddle")')]),
+     ('c1dc3d4c','hypophyseal fossa','Hypophyseal fossa',[('Holds:','the pituitary gland (hypophysis)')]),
+     ('b58597aa','dorsum sellae','Dorsum sellae',[('What it is:','the ELEVATED back of the sella turcica; border between middle + caudal cranial fossae')]),
+     ('9fc63fdf','canal for the trigeminal nerve','Canal for the trigeminal nerve',[('Carries:','trigeminal nerve (CN V)')]),
+     ('be6d89a0','internal acoustic meatus','Internal acoustic meatus',[('Carries:','facial (VII) + vestibulocochlear (VIII) nerves')]),
+     ('dd7dcb79','cerebellar fossa','Cerebellar fossa',[('Holds:','the cerebellum (caudal cranial fossa)')]),
+     ('e3210512','jugular foramen','Jugular foramen',[('Carries:','glossopharyngeal (IX), vagus (X), accessory (XI) nerves')]),
+     ('3d98e1b2','hypoglossal canal','Hypoglossal canal',[('Carries:','hypoglossal nerve (XII)')]),
+     ('a54d2b52','condyloid canal','Condyloid canal',[('Carries:','a vein (venous connection), near the occipital condyle')]),
+     ('474fffe4','tentorium osseum','Tentorium osseum (caudal view)',[('What it is:','bony shelf between cerebrum + cerebellum')]),
+     ('40c709dc','cribriform plate','Cribriform plate',[('Carries:','olfactory nerve (I) fibers; rostral end of the rostral cranial fossa')]),
+     ('90c064f5','optic canal','Optic canal',[('Carries:','optic nerve (II)')]),
+]
 def video(lab=28):
     out=[]
     for fid,term,name,facts in VID:
