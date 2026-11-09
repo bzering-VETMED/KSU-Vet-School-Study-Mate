@@ -27,6 +27,24 @@
    "title": "📣 Exam signals & scope (11/2)",
    "items": [
     {
+     "q": "Quiz 8 Q1: touch (non-taste) from the APEX of the tongue reaches the brain stem in which cranial nerve?",
+     "a": "Trigeminal (cranial nerve V) — via the lingual nerve of the mandibular branch (V3). Taste = facial (VII, chorda tympani, rostral 2/3) + glossopharyngeal (IX, caudal 1/3)",
+     "star": true,
+     "why": "In-class Quiz 8 (11/9) — he reuses quiz items on exams"
+    },
+    {
+     "q": "Quiz 8 Q2: which artery passes through the palatine canal?",
+     "a": "Major palatine artery (not minor palatine, not sphenopalatine)",
+     "star": true,
+     "why": "In-class Quiz 8 (11/9) — he reuses quiz items on exams"
+    },
+    {
+     "q": "Quiz 8 Q4: the laryngopharynx extends from…",
+     "a": "Epiglottis → pharyngoesophageal limen (oropharynx = palatoglossal fold → base of epiglottis; nasopharynx = choanae → intrapharyngeal opening)",
+     "star": true,
+     "why": "In-class Quiz 8 (11/9) — he reuses quiz items on exams"
+    },
+    {
      "q": "Canvas review Q: a slender structure crosses the masseter. If it's the parotid DUCT, what two endpoints prove it?",
      "a": "Starts at the parotid salivary gland (ventral to the ear) → opens into the buccal vestibule opposite upper premolar 4 (parotid papilla)",
      "star": true,
@@ -643,9 +661,9 @@
    "items": [
     {
      "q": "General sensation to the rostral 2/3 of the tongue?",
-     "a": "Lingual n.",
+     "a": "Lingual n. — a branch of the MANDIBULAR nerve (V3) of the TRIGEMINAL (cranial nerve V). Touch, NOT taste",
      "star": true,
-     "why": "Four-nerve split"
+     "why": "Four-nerve split · Quiz 8 Q1: \"touch from the apex of the tongue\" = trigeminal (CN V) · confirmed in quiz review 11/9"
     },
     {
      "q": "Taste from the rostral 2/3 of the tongue?",

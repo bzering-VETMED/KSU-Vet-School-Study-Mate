@@ -1,8 +1,8 @@
 {
  "traps": [
-  "📄 Lecture 11/4 (Dr. Malreddy) covered slides 1–29 (through the iris). Sections marked '(slides · lecture continues Mon 11/9)' are slide-only until that transcript arrives.",
+  "📄 Dr. Malreddy: 11/4 = slides 1–29 (through the iris); 11/9 = quiz review + slides 29–44 (retina → compartments → intrinsic + extrinsic muscles → innervation). He took a break and said he'd 'finish it here' — the post-break part is not in this transcript.",
   "✅ CLOSED (slide 23 flag): lecture — the extrinsic eye muscles attach at the LIMBUS region, on the SCLERA. Limbus = 'excellent site' for their attachment.",
-  "🎯 Monday 11/9 quiz covers only what he finished (through the iris) — not the rest of the slides.",
+  "🎯 ★★ 'I cannot emphasize this enough — you will have a couple of questions on this': LR6 Do4 Rest3. Question style: INJURY to the abducent nerve → lateral rectus can't work → eye stuck at the MEDIAL canthus (11/9).",
   "Palpebral conjunctiva (lines INNER surface of eyelids) vs bulbar conjunctiva (covers SCLERA) — the fornix is the angle where they meet; conjunctival sac = potential space when the eye is closed (slides 15–16).",
   "Lacrimal GLAND (~70% of tears, dorsolateral) vs gland of the THIRD EYELID (~30%, medial, surrounds the cartilage stem) — and don't confuse the lacrimal gland with the lacrimal SAC (a drainage step, slides 20–21).",
   "Tear drainage order: puncta → canaliculi → lacrimal SAC → nasolacrimal DUCT → nasal vestibule. Sac comes BEFORE duct (slide 20).",
@@ -13,7 +13,7 @@
   "Ciliary muscle CONTRACTION RELAXES zonular fiber tension → lens FATTENS (accommodation) — the inverted relationship (slide 38).",
   "Constrictor pupillae (CIRCULAR, parasympathetic via oculomotor nerve, miosis) vs dilator pupillae (RADIAL, sympathetic from cranial cervical ganglion, mydriasis) (slide 38).",
   "Dorsal oblique vs ventral oblique: only the DORSAL oblique is cranial nerve IV (trochlear); the ventral oblique is cranial nerve III (oculomotor) (slide 42).",
-  "LR6 Do4 Rest3 — but retractor bulbi is colored RED on slide 42 (same color as lateral rectus = cranial nerve VI, abducent). It is an exception to 'Rest3' (outside knowledge — confirm: retractor bulbi = abducent nerve).",
+  "✅ CLOSED (lecture 11/9): retractor bulbi = cranial nerve VI (abducent). 'LR6 means your lateral rectus AS WELL AS your retractor bulbi… those are in the red.'",
   "Retractor bulbi (muscle of the GLOBE) vs retractor anguli oculi lateralis (muscle of the EYELIDS) vs levator anguli oculi medialis vs levator palpebrae superioris — look-alike names (slide 39).",
   "⚠️ FLAG (slides 4–5): slide 4 lists 'Meridional and sagittal planes' but slide 5 defines only the meridional plane; sagittal is never defined on the slides.",
   "ORBIT = the cone-shaped SPACE · ORBITAL MARGIN = its rim (frontal, lacrimal, zygomatic bones + orbital ligament) · PERIORBITA = connective tissue + smooth muscle sheath INSIDE the orbit around the contents.",
@@ -21,12 +21,47 @@
   "Third eyelid: BOTH surfaces (bulbar and palpebral) are lined by PALPEBRAL conjunctiva. Bulbar conjunctiva = only on the sclera.",
   "Nictitating membrane = non-mammal term (no cartilage); mammals have a T-shaped cartilage → call it third eyelid / plica semilunaris.",
   "Aqueous humor (ciliary body, inside the eye) ≠ tears (lacrimal gland + gland of third eyelid, conjunctival sac).",
-  "Pupil is a SPACE, not a structure — the iris makes it."
+  "Pupil is a SPACE, not a structure — the iris makes it.",
+  "Ciliary muscle CONTRACTS → zonular fibers RELAX → lens rounds (near). Ciliary muscle RELAXES → fibers TAUT → lens FLATTENS. Both = accommodation (11/9).",
+  "Ciliary muscle + constrictor pupillae = PARASYMPATHETIC (oculomotor, cranial nerve III). Dilator pupillae = SYMPATHETIC. 'Very important to remember' (11/9).",
+  "LENS separates vitreous chamber from posterior chamber · IRIS separates posterior from anterior chamber (11/9).",
+  "Aqueous humor is made by the ciliary PROCESSES (epithelial lining) — not tears, not the vitreous (11/9).",
+  "Levator palpebrae superioris lifts the UPPER eyelid only — no muscle moves the lower eyelid (11/9)."
  ],
  "sections": [
   {
-   "title": "📣 Exam signals & scope (lecture 11/4)",
+   "title": "📣 Exam signals & scope (lectures 11/4 + 11/9)",
    "items": [
+    {
+     "q": "★★ Eye muscle innervation — how much will be tested?",
+     "a": "'This is probably another important slide. You can expect a couple of questions… I cannot emphasize this enough.' LR6 Do4 Rest3 (slide 42)",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Sample question he described: injury to the abducent nerve → ?",
+     "a": "Lateral rectus can't abduct the eye → eye stuck at the MEDIAL canthus (medial strabismus)",
+     "star": true,
+     "why": "Lecture 11/9 — 'that is how we would present' the question"
+    },
+    {
+     "q": "Quiz 8 Q5: tears go where immediately after the superior and inferior lacrimal puncta?",
+     "a": "Lacrimal canaliculi (then sac → nasolacrimal duct → nasal vestibule)",
+     "star": true,
+     "why": "In-class Quiz 8 (11/9) — he reuses quiz items on exams"
+    },
+    {
+     "q": "Ciliary muscle fiber types (meridional, radial, circular) — tested?",
+     "a": "NO: 'we did not identify those, so don't worry about those'",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Lab this week?",
+     "a": "Cow eyes for dissection on Wednesday — section them to see the structures",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
     {
      "q": "Tear drainage sequence — how important?",
      "a": "'That is important to know that sequence': glands → conjunctival sac → puncta → canaliculi → lacrimal sac → nasolacrimal duct → nasal vestibule",
@@ -633,7 +668,7 @@
    ]
   },
   {
-   "title": "🔬 LO4 · Anterior segment figure (Figure 9-5) (slides · lecture continues Mon 11/9)",
+   "title": "🔬 LO4 · Anterior segment figure (Figure 9-5) · lecture 11/9",
    "items": [
     {
      "q": "Figure 9-5 key, 1–5 (slide 30)…",
@@ -656,7 +691,7 @@
    ]
   },
   {
-   "title": "🧠 LO4 · Internal nervous tunic (retina) (slides · lecture continues Mon 11/9)",
+   "title": "🧠 LO4 · Internal nervous tunic (retina) · lecture 11/9",
    "items": [
     {
      "q": "Internal nervous coat = ? (slide 31)",
@@ -667,14 +702,14 @@
     {
      "q": "Three parts of the retina (slide 31)…",
      "a": "Pars optica, pars ciliaris, pars iridica",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Lecture 11/9"
     },
     {
      "q": "Where does each part of the retina lie (slide 31 figure)?",
-     "a": "Pars optica = lines the posterior eyeball (light-sensitive part); pars ciliaris = over the ciliary body; pars iridica = over the back of the iris",
-     "star": false,
-     "why": ""
+     "a": "Pars IRIDICA = posterior to the iris · pars CILIARIS = posterior to the ciliary body · pars OPTICA = posterior to the choroid (lines the back of the eye; has the ganglion neurons)",
+     "star": true,
+     "why": "Lecture 11/9"
     },
     {
      "q": "In an embalmed specimen, what happens to the retina (slide 32)?",
@@ -717,11 +752,23 @@
      "a": "Fascial sheath around the eyeball (outside knowledge for the definition — confirm)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Optic disc — what is it and why is it the blind spot?",
+     "a": "Where the axons of the retinal ganglion neurons exit as the OPTIC NERVE; no pars optica lines it → no vision there",
+     "star": true,
+     "why": "Lecture 11/9 (slides 29, 33 #17)"
+    },
+    {
+     "q": "In a posterior eyeball section: white outer layer, black middle layer, flaky whitish inner layer?",
+     "a": "Sclera → choroid (lots of blood vessels) → retina (pars optica; peels off easily)",
+     "star": false,
+     "why": "Lecture 11/9 (cow-eye style photo)"
     }
    ]
   },
   {
-   "title": "🫧 LO4 · Compartments & aqueous humor (slides · lecture continues Mon 11/9)",
+   "title": "🫧 LO4 · Compartments & aqueous humor · lecture 11/9",
    "items": [
     {
      "q": "Compartments of the eye, posterior to anterior (slide 34)…",
@@ -779,9 +826,9 @@
     },
     {
      "q": "Aqueous humor: where is it produced and where is it resorbed (slide 36)?",
-     "a": "Produced by the ciliary body; resorbed through the iridocorneal angle into the scleral venous plexus",
+     "a": "Produced by the ciliary PROCESSES (finger-like projections of the ciliary body, lined by secretory epithelium) → posterior chamber first; drained at the iridocorneal angle into the scleral venous plexus ('canal of Schlemm' — he doesn't care for eponyms)",
      "star": true,
-     "why": "Boxed flow chart (slide 36)"
+     "why": "Lecture 11/9"
     },
     {
      "q": "Aqueous flow: what does it pass through to go from the posterior to the anterior chamber (slide 36)?",
@@ -791,14 +838,32 @@
     },
     {
      "q": "Clinical: if drainage at the iridocorneal angle is blocked while production continues…",
-     "a": "Aqueous builds up and intraocular pressure rises (glaucoma) (outside knowledge — confirm; not on slides)",
-     "star": false,
-     "why": ""
+     "a": "Intraocular pressure rises = GLAUCOMA (blockade or overproduction). Measured with a tonometer (the air puff at the eye doctor)",
+     "star": true,
+     "why": "Lecture 11/9 — asked the class"
+    },
+    {
+     "q": "What separates the vitreous chamber from the posterior chamber? The posterior from the anterior?",
+     "a": "LENS separates vitreous | posterior · IRIS separates posterior | anterior",
+     "star": true,
+     "why": "Lecture 11/9 — said twice"
+    },
+    {
+     "q": "Vitreous vs aqueous humor: consistency and job?",
+     "a": "Vitreous = jelly-like; structural integrity, holds the lens in place, shock absorber · Aqueous = watery, constantly made; nourishes the AVASCULAR cornea by diffusion + carries its waste to the scleral venous plexus",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Is aqueous humor the same in the posterior and anterior chambers? Same as tears?",
+     "a": "Same fluid in both chambers (plasma-derived, like cerebrospinal fluid). NOT tears — tears come from the lacrimal gland + superficial gland of the third eyelid",
+     "star": true,
+     "why": "Lecture 11/9 (student question)"
     }
    ]
   },
   {
-   "title": "⚙️ LO5 · Intrinsic muscles (slides · lecture continues Mon 11/9)",
+   "title": "⚙️ LO5 · Intrinsic muscles · lecture 11/9",
    "items": [
     {
      "q": "Intrinsic muscles of the eye (slide 38)…",
@@ -827,12 +892,12 @@
     {
      "q": "Innervation of the ciliary muscle (slide 38)?",
      "a": "Oculomotor nerve (cranial nerve III), parasympathetic nervous system",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Lecture 11/9: 'accommodation of the eye is under parasympathetic control' — CN III carries parasympathetic fibers (3, 7, 9, 10)"
     },
     {
      "q": "Fiber types of the ciliary muscle in the slide 38 diagram…",
-     "a": "Meridional, radial and circular fibers",
+     "a": "Meridional, radial and circular fibers — NOT tested ('don't worry about those')",
      "star": false,
      "why": ""
     },
@@ -865,11 +930,29 @@
      "a": "Mydriasis = pupil dilation (sympathetic); miosis = pupil constriction (parasympathetic) (slide 38)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Ciliary muscle RELAXES → ?",
+     "a": "Zonular fibers become taut → pull on the lens → lens FLATTENS (far vision)",
+     "star": true,
+     "why": "Lecture 11/9 — the opposite half of accommodation"
+    },
+    {
+     "q": "Constrictor pupillae works like…?",
+     "a": "A purse string: circular fibers contract → pupil closes",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Hunting cat with huge pupils = which system?",
+     "a": "Sympathetic (dilator pupillae)",
+     "star": false,
+     "why": "Lecture 11/9 — his cat photo A vs B"
     }
    ]
   },
   {
-   "title": "🎯 LO5 · Extrinsic muscles (slides · lecture continues Mon 11/9)",
+   "title": "🎯 LO5 · Extrinsic muscles · lecture 11/9",
    "items": [
     {
      "q": "Seven extrinsic muscles of the globe (slide 39)…",
@@ -891,9 +974,9 @@
     },
     {
      "q": "What structure does the dorsal oblique pass around (slide 39 figure A)?",
-     "a": "The trochlea (pulley) at the dorsomedial orbit",
-     "star": false,
-     "why": ""
+     "a": "The TROCHLEA — a cartilage pulley; its long tendon wraps around it and inserts obliquely on the dorsal globe → that's why its nerve is the TROCHLEAR (cranial nerve IV)",
+     "star": true,
+     "why": "Lecture 11/9"
     },
     {
      "q": "Labels on slide 39 figure B (isolated globe and muscles)?",
@@ -963,20 +1046,56 @@
     },
     {
      "q": "Action: retractor bulbi?",
-     "a": "Retracts the globe into the orbit (outside knowledge — confirm; no action written on slides)",
+     "a": "Pulls the eyeball POSTERIORLY into the orbit. Not present in humans. (Exophthalmos = bulging out; enophthalmos = sunk into the orbit)",
      "star": false,
-     "why": ""
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Muscle types of the globe and how many?",
+     "a": "4 recti (straight, fibers parallel to the long axis) + 2 obliques + retractor bulbi (a set of 4 bundles, covered by the recti)",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Levator palpebrae superioris?",
+     "a": "Elevates the UPPER eyelid only (no muscle moves the lower eyelid); sits on top of the dorsal rectus",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Orbicularis oculi?",
+     "a": "Around the eye; closes the eyelids (blinking)",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Retractor anguli oculi lateralis vs levator anguli oculi medialis — where?",
+     "a": "Lateralis at the LATERAL canthus; medialis at the MEDIAL canthus; each sits on its canthal ligament",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Which muscle makes 'puppy eyes'? Do wolves have it?",
+     "a": "Levator anguli oculi medialis. Wolves do NOT — domestic dogs evolved it",
+     "star": true,
+     "why": "Lecture 11/9 — 'cool anatomy random fact' (his dog Kiki)"
     }
    ]
   },
   {
-   "title": "⚡ LO5 · Innervation & cranial nerve deficits (slides · lecture continues Mon 11/9)",
+   "title": "⚡ LO5 · Innervation & cranial nerve deficits · lecture 11/9",
    "items": [
     {
      "q": "Mnemonic for extrinsic eye muscle innervation (slide 42)?",
      "a": "LR6 Do4 Rest3: lateral rectus = cranial nerve VI (abducent); dorsal oblique = cranial nerve IV (trochlear); the rest = cranial nerve III (oculomotor)",
      "star": true,
      "why": "Red/blue mnemonic, large type (slide 42)"
+    },
+    {
+     "q": "Why is cranial nerve VI called the abducent (abducens)?",
+     "a": "It ABDUCTS the eyeball — takes it laterally, away from the median plane (lateral rectus)",
+     "star": true,
+     "why": "Lecture 11/9"
     },
     {
      "q": "Lateral rectus is innervated by… (slide 42)",
@@ -998,7 +1117,7 @@
     },
     {
      "q": "Retractor bulbi innervation (slide 42)?",
-     "a": "Shown in red with the lateral rectus: cranial nerve VI (abducent). It is the exception to 'Rest3' (outside knowledge — confirm)",
+     "a": "Cranial nerve VI (abducent) — red on slide 42 with the lateral rectus. CONFIRMED in lecture 11/9",
      "star": true,
      "why": "Red highlight (slide 42)"
     },
@@ -1022,9 +1141,9 @@
     },
     {
      "q": "Slide 44: cat with cranial nerve VI (abducent) deficit looks like…",
-     "a": "Eye deviated medially (medial strabismus; lateral rectus lost)",
+     "a": "Eye stuck at the MEDIAL canthus (medial strabismus) — lateral rectus can't abduct",
      "star": true,
-     "why": "Color-coded clinical panel (slide 44)"
+     "why": "★★ Lecture 11/9: his example exam question"
     },
     {
      "q": "Why do slide 44 deficits mirror slide 41 actions?",
