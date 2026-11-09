@@ -1,25 +1,59 @@
 {
  "traps": [
-  "📄 Built from the SLIDES only (lecture Mon 11/9) — stars and corrections update when the transcript arrives.",
+  "📄 Slides + lecture 11/9 transcript (Dr. Malreddy). He covered the external → middle → inner ear and said 'that's all I want you to know' for the middle and inner ear.",
   "EXTERNAL acoustic meatus (ear canal, part of the external ear, slide 4) vs INTERNAL acoustic meatus (opening in the petrous temporal bone carrying the cochlear/vestibular nerves, slides 8, 13). Same word, opposite ends.",
   "Vestibular window = OVAL = DORSAL = covered by the STAPES → vestibule. Cochlear window = ROUND = VENTRAL = closed by the SECONDARY tympanic membrane → cochlea (slide 7). Don't flip dorsal/ventral.",
   "Ossicle order from the eardrum inward: Malleus → Incus → Stapes (M-I-S). Malleus MANUBRIUM sits on the tympanic membrane; stapes BASE sits in the vestibular window (slides 10, 12).",
-  "Muscle ↔ ossicle pairing: tensor tympani = MALLEUS; stapedius = STAPES (slide 10). The incus has no muscle on the slides.",
+  "Muscle ↔ ossicle pairing on slide 10: tensor tympani = MALLEUS; stapedius = STAPES. ⬇️ Lecture: 'super tiny… we will not be able to identify those muscles' — low yield.",
   "Tensor TYMPANI (middle ear, on the malleus) vs tensor VELI PALATINI (soft palate muscle near the auditory tube) — both labeled on slide 11.",
   "Membranous labyrinth = ENDOLYMPH (utricle, saccule, semicircular DUCTS, cochlear DUCT). Bony labyrinth = PERILYMPH (vestibule, semicircular CANALS, cochlea) (slide 12). Duct = membranous; canal = bony.",
   "Pairings inside the membranous labyrinth: UTRICLE goes with the semicircular ducts; SACCULE goes with the cochlear duct (slide 12).",
   "Promontory = bulge of the medial wall over the cochlea, VENTRAL to BOTH windows (slide 7) — not between them.",
   "Scala VESTIBULI vs scala TYMPANI vs cochlear DUCT (scala media): three spaces in the cochlea, labeled on slides 8 and 12. Cochlear duct = membranous (endolymph); the scalae = perilymph (outside knowledge — confirm).",
   "Tympanic CAVITY (air space of the middle ear) vs tympanic BULLA (the bony bulge that houses its ventral part, slides 8, 12) vs tympanic MEMBRANE (eardrum).",
-  "Vertical vs horizontal ear canal — NOT on the slides (outside knowledge — confirm whether it's in scope when the transcript arrives).",
-  "⚠️ FLAG (slides 4 vs 5): slide 4 numbers the tragus (2) and marginal cutaneous sac (5), but slide 5 uses a DIFFERENT numbering (1–9) with NO legend — on slide 5, '2' sits at the apex of the auricle. Don't carry slide 4's numbers onto slide 5. Labels 1, 3, 4 on slide 4 are also unexplained.",
-  "⚠️ FLAG (slide 10): the tympanic membrane / malleus figure has numbers 1–8 with NO legend on the slide. Wait for the transcript before memorizing any number.",
-  "⚠️ FLAG (slide 8): label reads 'Margin of cochlear' — cut off on the slide (likely 'margin of cochlear window', outside knowledge — confirm)."
+  "Vertical vs horizontal ear canal — NOT on the slides and NOT in lecture 11/9 → out of scope.",
+  "⚠️ FLAG (slides 4 vs 5) — mostly moot: in lecture he named only the marginal cutaneous sac and tragus, and said 'I will not worry about' the helix, antihelix and antitragus.",
+  "⚠️ FLAG (slide 10): numbers 1–8 still have no legend; lecture only pointed out that the malleus handle (manubrium) attaches to the tympanic membrane. Open — ask if it matters.",
+  "⚠️ FLAG (slide 8): label reads 'Margin of cochlear' — cut off on the slide (likely 'margin of cochlear window', outside knowledge — confirm).",
+  "COCHLEA = BONY (houses the cochlear DUCT). Cochlear DUCT = soft tissue. Canals = bone; ducts = soft tissue (lecture 11/9 — he stressed this).",
+  "Ossicles are in the MIDDLE ear, NOT the inner ear (lecture 11/9).",
+  "Vestibule houses BOTH the utricle AND the saccule ('both of the Ls'); semicircular canals → semicircular ducts; cochlea → cochlear duct (lecture 11/9).",
+  "Scutiform cartilage = where the rostral and caudal auricular muscles attach → moves the ear (lecture 11/9)."
  ],
  "sections": [
   {
-   "title": "📋 Learning objectives & scope (slides)",
+   "title": "📣 Exam signals & scope (lecture 11/9) + objectives",
    "items": [
+    {
+     "q": "Clinically useful external-ear feature he stressed?",
+     "a": "Marginal cutaneous sac (pouch) — check it on every physical exam; ticks and other things get lodged there",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Helix, antihelix, antitragus — tested?",
+     "a": "NO: 'I will not worry about those things.' Know the marginal cutaneous sac and tragus",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Middle-ear muscles (tensor tympani, stapedius) — tested?",
+     "a": "Low yield: 'super tiny… we will not be able to identify those muscles.' 'That's all I want you to know for this part'",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Inner ear depth?",
+     "a": "Membranous vs bony labyrinth, which bony part houses which soft part, endolymph vs perilymph — 'that's all I want you to know.' No dissection; beyond that is systems",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Ear ablation incisions in the lab guide — doing them?",
+     "a": "No. (Made along the tragus/antitragus at the annular cartilage — just context)",
+     "star": false,
+     "why": "Lecture 11/9"
+    },
     {
      "q": "Learning objectives for Lecture 31, Anatomy of the Ear (slide 2)…",
      "a": "1. Describe the EXTERNAL ear; 2. Describe the MIDDLE ear; 3. Describe the INNER ear",
@@ -112,7 +146,7 @@
      "q": "Two named features of the auricle (pinna) (slide 4)?",
      "a": "Marginal cutaneous sac (5) and tragus (2)",
      "star": true,
-     "why": "Numbered for figure ID (slide 4)"
+     "why": "Lecture 11/9: marginal cutaneous sac = clinical (ticks); tragus = the bump you can feel on your own ear"
     },
     {
      "q": "Number of the marginal cutaneous sac on slide 4's figure, and where it sits?",
@@ -140,21 +174,21 @@
     },
     {
      "q": "Which ear cartilage is interposed in the auricular muscles (slide 4)?",
-     "a": "Scutiform cartilage",
-     "star": false,
-     "why": ""
+     "a": "Scutiform cartilage — the rostral and caudal auricular muscles attach here → move the ear",
+     "star": true,
+     "why": "Lecture 11/9 (identified in lab)"
     },
     {
      "q": "Which cartilage forms the shape of the auricle/pinna?",
-     "a": "Auricular cartilage (slides 4–5; the funnel-shaped cartilage on slide 5's figure)",
-     "star": false,
-     "why": ""
+     "a": "Auricular cartilage — forms the BULK of the pinna",
+     "star": true,
+     "why": "Lecture 11/9"
     },
     {
      "q": "Annular cartilage — what is it (slide 4)?",
-     "a": "A ring-shaped cartilage of the ear canal, between the auricular cartilage and the bony external acoustic meatus (location is outside knowledge — confirm)",
-     "star": false,
-     "why": ""
+     "a": "Ring-like cartilage at the BASE of the ear canal, below the auricular cartilage",
+     "star": true,
+     "why": "Lecture 11/9"
     },
     {
      "q": "What is the small separate cartilage labeled 9 on slide 5?",
@@ -167,6 +201,12 @@
      "a": "A human ear for comparison (numbers 5–8 match labels on the dog cartilage; no legend on the slide)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Job of the external ear (pinna)?",
+     "a": "Acoustics: concentrates sound waves into the ear canal (external acoustic meatus)",
+     "star": true,
+     "why": "Lecture 11/9"
     }
    ]
   },
@@ -183,7 +223,7 @@
      "q": "Medial wall of the tympanic cavity is formed by… (slide 7)",
      "a": "Petrous temporal bone (petrous part of the temporal bone)",
      "star": true,
-     "why": "Bold (slide 7)"
+     "why": "Lecture 11/9: temporal bone has 3 parts — squamous, tympanic, PETROUS"
     },
     {
      "q": "Vestibular window — other name, position, connects to, covered by (slide 7)?",
@@ -201,7 +241,7 @@
      "q": "Promontory (slide 7)?",
      "a": "Where the medial wall bulges over the cochlea, ventral to BOTH windows",
      "star": true,
-     "why": "Bold (slide 7)"
+     "why": "Lecture 11/9 — 'the bulge over the cochlea'"
     },
     {
      "q": "Tympanic membrane — other name (slide 7)?",
@@ -212,8 +252,8 @@
     {
      "q": "Which bony structure houses the ventral part of the tympanic cavity (slides 8, 12)?",
      "a": "Tympanic bulla",
-     "star": false,
-     "why": ""
+     "star": true,
+     "why": "Lecture 11/9: 'externally, what is this called? Tympanic bulla' (seen on the skull)"
     },
     {
      "q": "Limbus of the tympanic membrane (slide 8)?",
@@ -262,12 +302,24 @@
      "a": "Retroarticular process (of the temporal bone)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Three parts of the temporal bone?",
+     "a": "Squamous, tympanic, petrous (petrous = medial wall of the tympanic cavity + houses the inner ear)",
+     "star": true,
+     "why": "Lecture 11/9"
     }
    ]
   },
   {
    "title": "🔨 LO2 · Auditory ossicles & muscles (slides 10–11)",
    "items": [
+    {
+     "q": "Sound path he walked through in lecture…",
+     "a": "Pinna concentrates sound → ear canal → tympanic membrane vibrates → malleus → incus → stapes → vestibular (oval) window → inner ear",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
     {
      "q": "Order of the auditory ossicles from tympanic membrane to vestibular window (slide 10)…",
      "a": "Malleus (hammer) → incus (anvil) → stapes (stirrup)",
@@ -301,8 +353,8 @@
     {
      "q": "Which muscle acts on the malleus? Which on the stapes? (slide 10)",
      "a": "Malleus → tensor tympani muscle; stapes → stapedius muscle",
-     "star": true,
-     "why": "Red-heading bullets (slide 10)"
+     "star": false,
+     "why": "Slide only — lecture: can't identify them, low yield"
     },
     {
      "q": "Innervation of the tensor tympani and stapedius?",
@@ -351,6 +403,30 @@
   {
    "title": "🌀 LO3 · Inner ear — labyrinths (slides 12–13)",
    "items": [
+    {
+     "q": "Which bony part houses which soft-tissue part?",
+     "a": "VESTIBULE → utricle + saccule · SEMICIRCULAR CANALS → semicircular ducts · COCHLEA → cochlear duct",
+     "star": true,
+     "why": "Lecture 11/9 — 'cochlea is not the soft tissue structure'"
+    },
+    {
+     "q": "Is the 'cochlea' soft tissue or bone?",
+     "a": "BONE (part of the bony labyrinth). The soft tissue inside it is the cochlear DUCT",
+     "star": true,
+     "why": "Lecture 11/9 — he stressed this"
+    },
+    {
+     "q": "Job of the perilymph?",
+     "a": "Suspends the membranous labyrinth in the bony excavations — acts like a shock absorber",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
+    {
+     "q": "Where are the bony labyrinth excavations?",
+     "a": "In the PETROUS part of the temporal bone, carved to the exact shape of the soft structures (like the cranium housing the brain)",
+     "star": true,
+     "why": "Lecture 11/9"
+    },
     {
      "q": "Two labyrinths of the inner ear and their fluids (slide 12)…",
      "a": "Membranous labyrinth = endolymph; bony labyrinth = perilymph",

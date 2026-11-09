@@ -14,7 +14,7 @@ TILES = [  # (emoji, href, title, blurb)
     ("⚡", "gross-anatomy-lc34-cards.html", "L34 Terms", "Brain & Meninges · 138 terms · ★ 52 · slides only (lecture Mon 11/16)"),
     ("⚡", "gross-anatomy-lc35-cards.html", "L35 Terms", "Cranial Nerves · 160 terms · ★ 70 · slides only (lecture Wed 11/18)"),
     ("⚡", "gross-anatomy-lc36-cards.html", "L36 Terms", "Spinal Cord & Vertebral Ligaments · 165 terms · ★ 65 · slides only (lecture Thu 11/19)"),
-    ("⚡", "gross-anatomy-lc31-cards.html", "L31 Terms", "Ear · 68 terms · ★ 28 · slides only (lecture Mon 11/9)"),
+    ("⚡", "gross-anatomy-lc31-cards.html", "L31 Terms", "Ear · 80 terms · ★ 40 · lecture 11/9 woven in"),
     ("⚡", "gross-anatomy-lc33-cards.html", "L33 Terms", "Respiratory Components of the Head · 123 terms · ★ 83 · slides only (lecture Thu 11/12)"),
 ]
 LECTURES = [  # from the Canvas lecture schedule
@@ -22,7 +22,7 @@ LECTURES = [  # from the Canvas lecture schedule
     ("Mon 11/2", "L28", "Digestive components of head 1", "Dr. Diehl", "built (slides + transcript)"),
     ("Wed 11/4", "L30", "Eye", "Dr. Malreddy", "built (slides + 11/4 + 11/9 transcripts)"),
     ("Thu 11/5", "L29", "Digestive components of head 2", "Dr. Diehl", "built (slides + transcript)"),
-    ("Mon 11/9", "L31", "Ear", "Dr. Malreddy", "built (slides)"),
+    ("Mon 11/9", "L31", "Ear", "Dr. Malreddy", "built (slides + transcript)"),
     ("Wed 11/11", "L32", "Head vessels · Quiz 8", "Dr. Klimek", "built (slides)"),
     ("Thu 11/12", "L33", "Respiratory components of head", "Dr. Malreddy", "built (slides)"),
     ("Mon 11/16", "L34", "Meninges & brain · Quiz 9", "Dr. Klimek", "built (slides)"),
