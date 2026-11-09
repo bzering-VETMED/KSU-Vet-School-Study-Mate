@@ -12,7 +12,7 @@ open(tf,'w').write(pg.replace('← Back to Exam 4','← Back to Lab hub'))
 best=[];extra=[]
 if lab==28:                                        # Nov 8: Dr. Sparks skull-quiz photos (real skulls, yellow highlight) + Dr. Diehl teeth slides FIRST
     import p4skull,p4find,p4lec
-    lec=p4lec.skull_quiz()+p4lec.al_quiz()+p4lec.teeth(); have28=set()
+    lec=p4lec.skull_quiz()+p4lec.al_quiz()+p4lec.teeth()+p4lec.eye(28); have28=set()
     for c in lec:
         new=set(c['terms'])-have28
         (best if new else extra).append(c); have28|=new
@@ -40,7 +40,7 @@ if lab==29:                                        # Nov 8: Bethany's Lab 29 Hea
         for c in p4pptlab.build(31,'/home/claude/p4w/l31.pdf')[0]:
             ts=B.terms_in(c['name'],29)
             if ts: c=dict(c); c['terms']=ts; l31.append(c)
-    add(l31,False); add(guide,False); add(p4find.build29()+p4find.build29b(),False)
+    add(l31,False); add(guide,False); add(p4guide.cards(GPDF[28],29,'p4g28b'),False); add(p4find.build29()+p4find.build29b(),False)
     best+=[c for c in concept if set(c['terms'])-have]
     for src,wd,tag,pre in (('/home/claude/new/eye.pptx','/home/claude/p4eye','Dr. Malreddy eye lecture','p4eye'),('/home/claude/new/diehl1.pptx','/home/claude/p4dh1','Dr. Diehl Digestive Head 1','p4dh1')):
         if os.path.exists(src): extra+=p4wil.deck(src,wd,tag,pre).get(lab,[])          # Nov 8: lecture slides → 📚 Extra

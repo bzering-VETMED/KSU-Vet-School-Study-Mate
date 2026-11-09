@@ -14,7 +14,10 @@ SYN={'nasal':'nasal bone','frontal':'frontal bone','parietal':'parietal bone','o
      'base of stapes in vestibular window':'vestibular window','mandible':'mandibles','zygomatic process of temporal':'zygomatic process (temporal bone)',
      'tympanohyoid cartilage':'tympanohyoid cartilage','dorsal nasal concha':'dorsal nasal concha','ventral nasal concha':'ventral nasal concha',
      'lingual surface of crown':'lingual surface','hard palate':'hard palate','sublingual gland':'sublingual gland','mandibular gland':'mandibular salivary gland',
-     'parotid gland':'parotid salivary gland','zygomatic gland':'zygomatic salivary gland','lacrimal gland':'lacrimal gland','frenulum':'lingual frenulum'}
+     'parotid gland':'parotid salivary gland','zygomatic gland':'zygomatic salivary gland','lacrimal gland':'lacrimal gland','frenulum':'lingual frenulum',
+     'duct of lateral nasal gland':'lateral nasal gland','deep facial':'deep facial vein','entrance to maxillary recess':'maxillary recess',
+     'semicircular canals':'inner ear','cochlear duct':'inner ear'}
+DERIVE=[({'malleus','incus','stapes'},'ossicles'),({'tympanic bulla'},'tympanic part (temporal bone)'),({'hypophyseal fossa','dorsum sellae'},'sella turcica')]   # Nov 8
 def term_for(label,lab):
     L=B.norm(re.sub(r'\(.*?\)','',label)); L=B.norm(SYN.get(L,L)) if L in SYN else L
     for t,al,_ in P4BOLD[lab]:
@@ -29,11 +32,12 @@ def cards(pdf,lab,prefix):
             t=term_for(l['text'],lab)
             if t and t not in seen: seen.add(t); nums.append((len(nums)+1,i,t))
         if not nums: continue
+        names={t for *_,t in nums}; extra=[d for need,d in DERIVE if need&names and d in [x for x,_,_ in P4BOLD[lab]] and d not in names]
         q=f'assets/{prefix}_{k}q.jpg'; a=f'assets/{prefix}_{k}a.jpg'
         G.render(pdf,f,q,a,[(n,i) for n,i,_ in nums],dpi=220)
         fig=re.match(r'(Fig\.\s*[\d-]+[A-Z]?)',f['caption']); fig=fig.group(1) if fig else 'Figure'
-        nm=''.join(f'<div class="nm">#{n} · {E(t[0].upper()+t[1:])}</div>' for n,_,t in nums)
-        out.append(dict(name=fig,terms=[t for *_,t in nums],html=B.card(f'Name #1–#{len(nums)}' if len(nums)>1 else 'Name #1',
+        nm=''.join(f'<div class="nm">#{n} · {E(t[0].upper()+t[1:])}</div>' for n,_,t in nums)+''.join(f'<div class="fx"><b>Also shows:</b> {E(d)}</div>' for d in extra)
+        out.append(dict(name=fig,terms=[t for *_,t in nums]+extra,html=B.card(f'Name #1–#{len(nums)}' if len(nums)>1 else 'Name #1',
             f'📖 lab guide · {f["caption"][:70]}',q,nm,[],a)))
     return out
 def fill(best,diagrams):

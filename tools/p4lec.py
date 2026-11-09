@@ -104,3 +104,42 @@ def teeth(lab=28):
     out.append(dict(name='Parts of a tooth',terms=['crown','root','neck of tooth'],
         html=B.card('Name every number.','📚 lecture slide · Dr. Diehl Digestive Head 2, slide 11',fn,''.join(f'<div class="fx"><b>#{k}</b> {E(t)}</div>' for k,t in labs),[])))
     return out
+
+# ---- Nov 8: Dr. Malreddy eye lecture slides for terms nothing else shows ----
+def _redact(p,pat,keep=None):
+    for t,b in _blocks(p):
+        if re.search(pat,t,re.I) and not (keep and re.search(keep,t,re.I)): p.add_redact_annot(fz.Rect(b[:4]),fill=(1,1,1))
+    p.apply_redactions(images=fz.PDF_REDACT_IMAGE_NONE,graphics=fz.PDF_REDACT_LINE_ART_NONE)
+def _shot(p,clip,out,dpi=220):
+    pm=p.get_pixmap(clip=clip,dpi=dpi); Image.frombytes('RGB',(pm.width,pm.height),pm.samples).save(out,quality=90); return out
+def eye(lab):
+    d=fz.open(W+'eye.pdf'); out=[]; R=d[0].rect
+    if lab==28:
+        p=d[10]; _redact(p,r'LO2|Osseous|Image from|Margin')
+        fn=_shot(p,fz.Rect(R.width*0.13,0,R.width*0.98,R.height*0.48),'assets/p4eye_orbit.jpg')
+        out.append(dict(name='Orbital margin',terms=['orbital margin','orbital ligament'],html=B.card('Name the colored rim of the orbit (be specific).','📚 lecture slide · Dr. Malreddy eye lecture, slide 11',fn,
+          '<div class="nm">Orbital margin</div>',[('Formed by:','frontal (yellow) + lacrimal (blue) + zygomatic (green) bones'),('Dorsolateral gap:','closed by the orbital ligament (orange)')])))
+    if lab==31:
+        p=d[28]; _redact(p,r'Pupil|Iris|Choroid|Tapetum|Optic|Fundus|retina|View|LO4|lucidum')
+        fn=_shot(p,fz.Rect(R.width*0.1,R.height*0.08,R.width*0.9,R.height*0.82),'assets/p4eye_fundus.jpg')
+        out.append(dict(name='Fundus',terms=['fundus','pupil','iris','choroid','tapetum lucidum','optic disk'],html=B.card('Name #1–#5. What is the right-hand view called?','📚 lecture slide · Dr. Malreddy eye lecture, slide 29',fn,
+          '<div class="nm">Right view = FUNDUS of the eye (retina removed)</div><div class="fx"><b>#1</b> Pupil</div><div class="fx"><b>#2</b> Iris</div><div class="fx"><b>#3</b> Choroid</div><div class="fx"><b>#4</b> Tapetum lucidum</div><div class="fx"><b>#5</b> Optic disk</div>',[])))
+        p=d[37]; mid=fz.Rect(R.width*0.63,R.height*0.44,R.width*0.98,R.height*0.76)   # middle diagram: dilator vs constrictor pupillae
+        raw=_shot(p,mid,'/home/claude/new/dil_raw.png',300)
+        im=Image.open(raw).convert('RGB'); w,h=im.size; dr=ImageDraw.Draw(im); F=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',max(16,int(h*0.06)))
+        tsv=subprocess.run(['tesseract',raw,'-','--psm','11','tsv'],capture_output=True,text=True).stdout.splitlines()[1:]
+        groups={'1':[],'2':[]}
+        for l in tsv:
+            f=l.split('\t')
+            if len(f)<12 or not f[11].strip(): continue
+            x,y,ww,hh=map(int,f[6:10]); t=f[11].strip().lower()
+            if re.search(r'dilat|pupil|muscl|sympath|constrict|parasym|\(',t):
+                dr.rectangle([x-3,y-3,x+ww+3,y+hh+3],fill='white'); groups['1' if x<w/2 else '2'].append((x,y,ww,hh))
+        for k,g in groups.items():
+            if not g: continue
+            cx=min(a[0] for a in g)+20; cy=min(a[1] for a in g)+15; r=int(h*0.045)
+            dr.ellipse([cx-r,cy-r,cx+r,cy+r],fill='#D94F7F'); dr.text((cx,cy),k,fill='white',font=F,anchor='mm')
+        fn='assets/p4eye_pupil.jpg'; im.save(fn,quality=92)
+        out.append(dict(name='Pupillary muscles',terms=['dilator pupillae'],html=B.card('Name muscle #1 (radial) and #2 (circular).','📚 lecture slide · Dr. Malreddy eye lecture, slide 38',fn,
+          '<div class="nm">#1 · Dilator pupillae (radial) · sympathetic → dilates (mydriasis)</div><div class="nm">#2 · Constrictor (sphincter) pupillae (circular) · oculomotor nerve, parasympathetic → constricts (miosis)</div>',[])))
+    return out

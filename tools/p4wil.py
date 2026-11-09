@@ -72,6 +72,7 @@ def deck(src,wd,tag,prefix,labs=(29,30,31,32)):
     for d in keep:
         names=[(n,full((l['name']+' '+l['more']).strip())) for n,l in d['num']]
         hits={L:[t for t,_,_ in P4BOLD[L] if t in {x for _,nm in names for x in B.terms_in(nm,L)}] for L in labs}
+        if 31 in hits and {'Iridocorneal angle','Anterior chamber'}<={nm for _,nm in names}: hits[31].append('aqueous humor')   # aqueous-humor flow slide
         homes=[L for L in hits if hits[L]]
         if not homes: continue
         q=f'assets/{prefix}_{d["i"]+1}q.jpg'; a=f'assets/{prefix}_{d["i"]+1}a.jpg'

@@ -96,17 +96,19 @@ if __name__=='__main__':
         have.add('trigeminal (fifth cranial) nerve')
     concept=[c for c in concept if set(c['terms'])-have]
     if lab==31:
-        import p4find; best+=p4find.build31()
+        import p4lec; best+=p4lec.eye(31)
     import p4guide                                # lab-guide drawings (notes PDF) fill terms no photo shows
     A='/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/'
     GP={30:A+'4999cb83-Lab_30.pdf',31:A+'f22d97f5-Lab_31.pdf',32:A+'f870d29f-Lab_32.pdf'}
     if lab in GP and os.path.exists(GP[lab]):
-        have={t for c in best for t in c['terms']}; gc=p4guide.cards(GP[lab],lab,f'p4g{lab}')
+        have={t for c in best for t in c['terms']}; gc=p4guide.cards(GP[lab],lab,f'p4g{lab}')+(p4guide.cards(A+'288bd0ef-Lab_29.pdf',31,'p4g29x') if lab==31 else [])
         best2,gx=p4guide.fill([c for c in best],gc); best=best2; extra+=gx
         best=[c for c in best]; concept=[c for c in concept if set(c['terms'])-{t for c in best for t in c['terms']}]
     import p4wil
     for src,wd,tag,pre in (('/home/claude/new/eye.pptx','/home/claude/p4eye','Dr. Malreddy eye lecture','p4eye'),('/home/claude/new/diehl1.pptx','/home/claude/p4dh1','Dr. Diehl Digestive Head 1','p4dh1')):
-        if os.path.exists(src): extra+=p4wil.deck(src,wd,tag,pre).get(lab,[])          # Nov 8: lecture slides → 📚 Extra
+        if os.path.exists(src):                      # Nov 8: lecture slides → ⭐ only for terms nothing else shows, else 📚 Extra
+            hv={t for c in best for t in c['terms'] if '🧠' not in c['html'][:300]}
+            for c in p4wil.deck(src,wd,tag,pre).get(lab,[]): (best if set(c['terms'])-hv else extra).append(c)
     import p4umn                                  # Bethany (Nov 7): UMN cadaver photos first, lab slides fill the gaps
     best,extra,nu=p4umn.merge(lab,best+concept,extra)
     got=B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best,extra,f'{nu} UMN cadaver photos first, then lab slides for the rest')
