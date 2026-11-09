@@ -96,7 +96,7 @@ if __name__=='__main__':
         have.add('trigeminal (fifth cranial) nerve')
     concept=[c for c in concept if set(c['terms'])-have]
     if lab==31:
-        import p4lec; best+=p4lec.eye(31)
+        import p4lec; best+=p4lec.eye(31); extra+=p4lec.eye_tagged()
     import p4guide                                # lab-guide drawings (notes PDF) fill terms no photo shows
     A='/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/'
     GP={30:A+'4999cb83-Lab_30.pdf',31:A+'f22d97f5-Lab_31.pdf',32:A+'f870d29f-Lab_32.pdf'}

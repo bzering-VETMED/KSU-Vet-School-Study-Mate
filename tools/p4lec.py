@@ -174,3 +174,19 @@ def video(lab=28):
         fn=f'assets/p4vid_{fid}.jpg'; im.crop((int(w*x0),int(h*y0),int(w*x1),int(h*y1))).save(fn,quality=92)
         out.append(dict(name=name,terms=[term],html=B.card('Identify the structure at the probe tip.','🎥 pre-lab video · skull interior',fn,f'<div class="nm">{E(name)}</div>',facts)))
     return out
+
+# ---- Nov 9: 'Lecture 30 Eye - Tagged' PDF (same lecture) → extra real-photo cards for Lab 31 ----
+TAG='/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/3a3afce7-Lecture_30_Eye_-_Tagged.pdf'
+def eye_tagged():
+    import os
+    if not os.path.exists(TAG): return []
+    d=fz.open(TAG); R=d[0].rect; out=[]
+    p=d[12]; ims=[fz.Rect(m['bbox'])&R for m in p.get_image_info()]; big=max(ims,key=lambda x:x.width*x.height)
+    fn=_shot(p,big,'assets/p4tag_periorbita.jpg')
+    out.append(dict(name='Periorbita',terms=['periorbita'],html=B.card('Identify the structure at the star.','📚 lecture slide · Eye lecture (tagged), slide 13',fn,
+        '<div class="nm">Periorbita</div>',[('What it is:','cone-shaped sheath of connective tissue + smooth muscle enclosing the orbital contents')])))
+    p=d[31]; ims=[fz.Rect(m['bbox'])&R for m in p.get_image_info()]; big=max(ims,key=lambda x:x.width*x.height)
+    fn=_shot(p,big,'assets/p4tag_retina.jpg')
+    out.append(dict(name='Retina',terms=['retina','pars optica retinae'],html=B.card('Name the gray sheet peeling off inside this opened eye.','📚 lecture slide · Eye lecture (tagged), slide 32',fn,
+        '<div class="nm">Retina (pars optica retinae)</div>',[('Why it peels:','in embalmed eyes the nervous layer separates from the pigmented epithelium, which stays on the choroid')])))
+    return out
