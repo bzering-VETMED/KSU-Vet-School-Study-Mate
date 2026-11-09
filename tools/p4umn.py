@@ -35,6 +35,8 @@ SPEC=[
 ]
 from p4umn2 import SPEC2
 SPEC+=SPEC2
+SKIP={'5463'}   # Bethany (Nov 8): don't use the head transection
+SPEC=[x for x in SPEC if x[0] not in SKIP]
 CASTS={'4906','4915','4928'}   # corrosion casts (plastic, not a cadaver) → 📚 Extra only, never ⭐ (Bethany, Nov 3)
 TOP={'4928':110}   # Safari status bar overlaid on the photo
 NOT_BOLD={'Femoral artery and vein':'femoral artery'}   # label → bold term it still counts for
