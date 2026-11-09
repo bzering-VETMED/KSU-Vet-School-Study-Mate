@@ -103,9 +103,4 @@ def teeth(lab=28):
     fn='assets/p4teeth_tooth.jpg'; labs=_ocr_number(raw,fn,None)
     out.append(dict(name='Parts of a tooth',terms=['crown','root','neck of tooth'],
         html=B.card('Name every number.','📚 lecture slide · Dr. Diehl Digestive Head 2, slide 11',fn,''.join(f'<div class="fx"><b>#{k}</b> {E(t)}</div>' for k,t in labs),[])))
-    # alveolar bone drawing (slide 20)
-    p=d[19]; fn='assets/p4teeth_alv.jpg'; _crop(p,fn,False,False)
-    out.append(dict(name='Alveolar bone',terms=['interalveolar septa','interradicular septa','alveolar border'],
-        html=B.card('📍 Find + point to: interalveolar septa · interradicular septa · alveolar border','📚 lecture slide · Dr. Diehl Digestive Head 2, slide 20',fn,
-        '<div class="fx"><b>Interalveolar septa:</b> bone BETWEEN sockets of neighboring teeth</div><div class="fx"><b>Interradicular septa:</b> bone BETWEEN the roots of ONE tooth</div><div class="fx"><b>Alveolar border:</b> the bony rim holding the teeth</div><div class="fx"><b>Also:</b> alveolar juga = bony bulges over the roots; lamina dura = dense bone lining the socket</div>',[])))
     return out

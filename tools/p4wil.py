@@ -57,8 +57,11 @@ def deck(src,wd,tag,prefix,labs=(29,30,31,32)):
     info=P.analyze(src); keep=[]; numbering={}
     for d in info:
         if not d['pics']: continue
-        L=[l for l in d['labels'] if not CAP.match(l['name'].strip()) and not CAP2.match(l['name'].strip()) and len(l['name'].strip())>1]
+        def near(b):                                 # Nov 8: only text boxes ON/next to the picture count as labels (not bullet text)
+            return any(b[0]<p['box'][2]+0.15 and b[2]>p['box'][0]-0.15 and b[1]<p['box'][3]+0.15 and b[3]>p['box'][1]-0.15 for p in d['pics'])
+        L=[l for l in d['labels'] if not CAP.match(l['name'].strip()) and not CAP2.match(l['name'].strip()) and len(l['name'].strip())>1 and len(l['name'])<45 and len(l['more'])<30 and near(l['box'])]
         if len(L)<2: continue
+        d['labels']=L
         L=sorted(L,key=lambda l:(round(l['box'][1]/0.35),l['box'][0]))
         d['num']=[(k+1,l) for k,l in enumerate(L)]
         numbering[d['i']]={(l['shape'],l['paras'][0]):k for k,l in d['num']}

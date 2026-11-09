@@ -12,10 +12,12 @@ def crop(pg,y0,y1,out,x0=0,x1=1):
     p=fz.open(PDF)[pg-1]; r=p.rect
     pm=p.get_pixmap(dpi=200,clip=fz.Rect(r.width*x0,r.height*y0,r.width*x1,r.height*y1))
     Image.frombytes('RGB',(pm.width,pm.height),pm.samples).save(out,quality=90); return out
+NOFIND=True     # Nov 8: Bethany doesn't want "find + point to" cards anywhere
 def fcard(q,img,rows,terms,src):
     ans=''.join(f'<div class="fx"><b>{E(k)}:</b> {E(v)}</div>' for k,v in rows)
     return dict(name=q,terms=terms,html=B.card('📍 Find + point to: '+q,f'📖 lab guide drawing · {src}',img,ans))
 def build():
+    if NOFIND: return []
     d=crop(11,0.06,0.58,'assets/p4find_58.jpg'); e=crop(5,0.36,0.78,'assets/p4find_53.jpg')
     a=crop(16,0.06,0.57,'assets/p4find_514.jpg'); b=crop(16,0.57,0.95,'assets/p4find_515.jpg'); c=crop(13,0.06,0.62,'assets/p4find_511.jpg')
     return [
@@ -57,6 +59,7 @@ def build():
 def umn(i,captop=None):
     import p4umn; return p4umn.crop(i,p4umn.CAP[i] if hasattr(p4umn,'CAP') else dict((x[0],x[2]) for x in p4umn.SPEC)[i])
 def build29():
+    if NOFIND: return []
     import p4umn; cap=dict((x[0],x[2]) for x in p4umn.SPEC); U=lambda i:p4umn.crop(i,cap[i])
     def uc(q,i,rows,terms): 
         c=fcard(q,U(i),rows,terms,''); c['html']=c['html'].replace('📖 lab guide drawing · ',f'🌐 UMN #{i} · '); return c
@@ -83,6 +86,7 @@ def _pdf(path,pg,y0,y1,out):
     Image.frombytes('RGB',(pm.width,pm.height),pm.samples).save(out,quality=90); return out
 A='/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/'
 def build29b():
+    if NOFIND: return []
     import p4umn; cap=dict((x[0],x[2]) for x in p4umn.SPEC); U=lambda i:p4umn.crop(i,cap[i])
     def uc(q,i,rows,terms):
         c=fcard(q,U(i),rows,terms,''); c['html']=c['html'].replace('📖 lab guide drawing · ',f'🌐 UMN #{i} · '); return c
@@ -97,6 +101,7 @@ def build29b():
         ('Incisive duct','opens beside the incisive papilla just caudal to the upper incisors, rostral end of the hard palate (#7)')],['ducts of the zygomatic gland','incisive duct']),
      uc('parotid lymph node','5448',[('Parotid lymph node','small node at the ROSTRAL border of the parotid salivary gland (#1), under the gland edge near the masseter')],['parotid lymph node'])]
 def build31():
+    if NOFIND: return []
     P31=A+'f22d97f5-Lab_31.pdf'
     e=_pdf(P31,7,0.04,0.6,'assets/p4find_538.jpg'); v=_pdf(P31,11,0.06,0.5,'assets/p4find_542.jpg')
     return [
