@@ -104,6 +104,9 @@ if __name__=='__main__':
         have={t for c in best for t in c['terms']}; gc=p4guide.cards(GP[lab],lab,f'p4g{lab}')
         best2,gx=p4guide.fill([c for c in best],gc); best=best2; extra+=gx
         best=[c for c in best]; concept=[c for c in concept if set(c['terms'])-{t for c in best for t in c['terms']}]
+    import p4wil
+    for src,wd,tag,pre in (('/home/claude/new/eye.pptx','/home/claude/p4eye','Dr. Malreddy eye lecture','p4eye'),('/home/claude/new/diehl1.pptx','/home/claude/p4dh1','Dr. Diehl Digestive Head 1','p4dh1')):
+        if os.path.exists(src): extra+=p4wil.deck(src,wd,tag,pre).get(lab,[])          # Nov 8: lecture slides → 📚 Extra
     import p4umn                                  # Bethany (Nov 7): UMN cadaver photos first, lab slides fill the gaps
     best,extra,nu=p4umn.merge(lab,best+concept,extra)
     got=B.two_area_hub(lab,title,'Two decks. One tap = full answer. 🐾',best,extra,f'{nu} UMN cadaver photos first, then lab slides for the rest')

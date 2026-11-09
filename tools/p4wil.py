@@ -47,3 +47,35 @@ def cards(lab):
             for home in homes: _C.setdefault(home,[]).append(dict(name=' · '.join(nm for _,nm in names),terms=hits[home],html=h))
     cs=_C.get(lab,[])
     return cs,[]
+
+# ---- Nov 8: same numbering for other text-labeled lecture decks (Dr. Malreddy eye lecture, Dr. Diehl head 1) ----
+CAP2=re.compile(r'^(image|images|figure|fig\.|©|lo\d|www|photo|evans|könig|posterior to|anterior to|head$|normal$|cn \d)',re.I)
+_D={}
+def deck(src,wd,tag,prefix,labs=(29,30,31,32)):
+    key=(src,tuple(labs))
+    if key in _D: return _D[key]
+    info=P.analyze(src); keep=[]; numbering={}
+    for d in info:
+        if not d['pics']: continue
+        L=[l for l in d['labels'] if not CAP.match(l['name'].strip()) and not CAP2.match(l['name'].strip()) and len(l['name'].strip())>1]
+        if len(L)<2: continue
+        L=sorted(L,key=lambda l:(round(l['box'][1]/0.35),l['box'][0]))
+        d['num']=[(k+1,l) for k,l in enumerate(L)]
+        numbering[d['i']]={(l['shape'],l['paras'][0]):k for k,l in d['num']}
+        keep.append(d)
+    os.makedirs(wd,exist_ok=True)
+    if not os.path.exists(f'{wd}/q.pdf'): P.make_versions(src,wd,numbering,keep=True)
+    res={}
+    for d in keep:
+        names=[(n,full((l['name']+' '+l['more']).strip())) for n,l in d['num']]
+        hits={L:[t for t,_,_ in P4BOLD[L] if t in {x for _,nm in names for x in B.terms_in(nm,L)}] for L in labs}
+        homes=[L for L in hits if hits[L]]
+        if not homes: continue
+        q=f'assets/{prefix}_{d["i"]+1}q.jpg'; a=f'assets/{prefix}_{d["i"]+1}a.jpg'
+        P.crop_render(f'{wd}/q.pdf',d['i'],d,q); P.crop_render(f'{wd}/a.pdf',d['i'],d,a)
+        ans=''.join(f'<div class="fx"><b>#{n}</b> {E(nm)}</div>' for n,nm in names); k=len(names)
+        h=(f'<section class="card"><div class="q">Name #1–#{k}<span class="tagline">📚 lecture slide · {E(tag)} #{d["i"]+1}</span></div>'
+           f'<div class="pic"><img src="{q}?v={V}" loading="lazy"></div><div class="stg ans"><div class="pr">❓ Name every number (complete + specific)</div>'
+           f'<div class="an">{ans}<img src="{a}?v={V}" loading="lazy"></div></div><div class="rev">💗 TAP TO REVEAL</div></section>')
+        for L in homes: res.setdefault(L,[]).append(dict(name=' · '.join(nm for _,nm in names),terms=hits[L],html=h))
+    _D[key]=res; return res
