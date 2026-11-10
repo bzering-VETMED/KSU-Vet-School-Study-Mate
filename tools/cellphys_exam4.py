@@ -119,6 +119,9 @@ def build_exam4(HUB, V):
     have = {L['lc'] for L in lecs}
     pend = [f'LC{n}' for n in range(25, 34) if n not in have]
     tiles = head('📅 Exam 4 · Fri 11/13 · 8:00 AM · 61.5 pts · LC25–LC33' + (f' · coming: {", ".join(pend)}' if pend else ''))
+    from cellphys_e4_oldexams import build_e4_oldexams
+    tiles += build_e4_oldexams(HUB, V)
+    tiles += '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧭 Pathways + slide pages</div>'
     from cellphys_pathways import build_pathways_e4
     tiles += build_pathways_e4(HUB, V)
     from cellphys_e4_slides import build_slide_pages

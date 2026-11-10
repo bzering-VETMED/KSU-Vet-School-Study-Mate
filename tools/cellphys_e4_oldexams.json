@@ -1,0 +1,3410 @@
+[
+{
+"n": "1",
+"stem": "In circulation, which hormones are bound to sex hormone binding globulin (SHBG)? (select two correct responses)",
+"opts": [
+[
+"a",
+"Estradiol"
+],
+[
+"b",
+"Follicle stimulating hormone"
+],
+[
+"c",
+"Human chorionic gonadotropin"
+],
+[
+"d",
+"Luteinizing hormone"
+],
+[
+"e",
+"Testosterone"
+]
+],
+"multi": true,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"a",
+"e"
+],
+"scope": "in",
+"conf": "sure",
+"why": "Sex hormone-binding globulin carries the sex steroids: estradiol and testosterone. FSH, LH and hCG are peptide/glycoprotein hormones that travel free.",
+"cite": "LC25 S6 (carrier table)"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "2",
+"stem": "In the thyroid hormone pathway, which compound is a pro-hormone that must be modified, primarily in kidney and liver, to have activity? (select one correct response)",
+"opts": [
+[
+"a",
+"T3: Triiodothyronine"
+],
+[
+"b",
+"T4: Tetraiodothyronine"
+],
+[
+"c",
+"Transthyretin"
+],
+[
+"d",
+"TRH: Thyrotropin releasing hormone"
+],
+[
+"e",
+"TSH: Thyroid stimulating hormone"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"b"
+],
+"scope": "in",
+"conf": "sure",
+"why": "T4 (thyroxine) is the prohormone. De-iodinases, mainly in kidney and liver, remove one iodine to make active T3.",
+"cite": "LC25 S20, S22"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "3",
+"stem": "Mifepristone (RU486) was initially developed as an antagonist at glucocorticoid receptors (GR), but its development was halted when it was discovered to interact with what other component of a steroid hormone pathway, a component that is now its clinical target? (select one correct response)",
+"opts": [
+[
+"a",
+"5α reductase"
+],
+[
+"b",
+"11 beta HSD (hydroxy steroid dehydrogenase)"
+],
+[
+"c",
+"Aromatase"
+],
+[
+"d",
+"Finasteride"
+],
+[
+"e",
+"Progesterone receptor"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"e"
+],
+"scope": "in",
+"conf": "sure",
+"why": "Mifepristone (RU-486) blocks the progesterone receptor as well as the glucocorticoid receptor; the progesterone receptor became its clinical target (abortifacient).",
+"cite": "LC25 S5 + transcript"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "4",
+"stem": "What enzyme is expressed in the nephron that protects mineralocorticoid receptors from being stimulated by cortisol and permits regulation by aldosterone? (select one correct response)",
+"opts": [
+[
+"a",
+"5α reductase"
+],
+[
+"b",
+"11 beta HSD (hydroxy steroid dehydrogenase)"
+],
+[
+"c",
+"Aromatase"
+],
+[
+"d",
+"Phospholipase A2"
+],
+[
+"e",
+"Phospholipase C"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"b"
+],
+"scope": "in",
+"conf": "sure",
+"why": "11-beta HSD2 converts cortisol to inactive cortisone in nephron cells, so the mineralocorticoid receptor is left for aldosterone.",
+"cite": "LC25 S14 + transcript"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "5",
+"stem": "In the Renin-Angiotensin-Aldosterone system (RAAS), where would you have a G-protein coupled receptor (GPCR)? (select one correct response)",
+"opts": [
+[
+"a",
+"Renin-induced production of angiotensin I"
+],
+[
+"b",
+"Pulmonary endothelial generation of angiotensin II"
+],
+[
+"c",
+"Angiotensin II stimulation of aldosterone secretion"
+],
+[
+"d",
+"Aldosterone induced expression of ENaC and ROMK"
+],
+[
+"e",
+"Activation of ENaC and ROMK in the collecting duct"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"c"
+],
+"scope": "in",
+"conf": "sure",
+"why": "Angiotensin II acts on the AT1 receptor, a cell-surface GPCR (Gq/phospholipase C), on the adrenal cortex to trigger aldosterone secretion. Renin and ACE are enzymes; ENaC/ROMK expression is via the cytosolic MR.",
+"cite": "LC25 S17 + transcript"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "6",
+"stem": "Which three of the following signaling molecules are lipid soluble and have cytosolic or nuclear receptors? (select three correct responses)",
+"opts": [
+[
+"a",
+"Antidiuretic hormone (ADH)"
+],
+[
+"b",
+"Norepinephrine"
+],
+[
+"c",
+"Retinoic acid"
+],
+[
+"d",
+"Testosterone"
+],
+[
+"e",
+"Vitamin D"
+]
+],
+"multi": true,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"c",
+"d",
+"e"
+],
+"scope": "in",
+"conf": "sure",
+"why": "Retinoic acid, testosterone and vitamin D are lipid soluble with cytosolic/nuclear receptors. ADH (peptide) and norepinephrine (amine) use cell-surface GPCRs.",
+"cite": "LC25 S2–S4, S13"
+},
+"year": "2025 Exam 4",
+"rep": [
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "7",
+"stem": "Select characteristics that are common to pathways stimulated by growth factors (e.g., FGF, VEGF, NGF, EGF, PDGF, etc.) at their cognate receptors. (select all responses that are correct)",
+"opts": [
+[
+"a",
+"Activation of a monomeric G-protein (e.g., RAS)"
+],
+[
+"b",
+"Activation of mitogen-activated protein kinases (MAP kinases)"
+],
+[
+"c",
+"Association with a guanine nucleotide exchange factor (e.g., SOS)"
+],
+[
+"d",
+"Autophosphorylation of tyrosine residues in the receptors"
+],
+[
+"e",
+"Transcription of early transcription factors (e.g., myc, jun, fos)"
+]
+],
+"multi": true,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"a",
+"b",
+"c",
+"d",
+"e"
+],
+"scope": "in",
+"conf": "likely",
+"why": "Growth factor receptors are receptor tyrosine kinases: tyrosine autophosphorylation → SOS (guanine nucleotide exchange factor) → RAS (monomeric G protein) → MAP kinases → myc/jun/fos. All five are true. Read every option: select-all with all correct.",
+"cite": "LC26 S9–S13; LC31 S11",
+"flag": "Every option is a correct step, so the key is all five. Schultz select-alls can have every option correct."
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "8",
+"stem": "Cells lining the vas deferens secrete bicarbonate into the reproductive duct when exposed to norepinephrine or adenosine. When exposed to testosterone, epithelial cells lining the vas deferens express high levels of prostaglandin synthase 2 (PGS2 or COX2). Following testosterone exposure, bradykinin will stimulate prostaglandin E (PGE2) secretion and PGE2 stimulates bicarbonate secretion, an action that is inhibited by NSAIDs. Importantly, the effects of norepinephrine, adenosine, bradykinin and PGE2 are potentiated and the duration of stimulation is extended by caffeine, theophylline or indomethacin, which block phosphodiesterases that break down cAMP. What common signaling pathway is stimulated in these epithelial cells by norepinephrine, adenosine and bradykinin (via PGE2)? (select one correct response)",
+"opts": [
+[
+"a",
+"Androgen receptor pathway (steroid hormone receptor pathway)"
+],
+[
+"b",
+"Enzyme-linked receptor pathway (prostaglandin synthase)"
+],
+[
+"c",
+"G-protein coupled receptors linked via Gi"
+],
+[
+"d",
+"G-protein coupled receptors linked via Gq"
+],
+[
+"e",
+"G-protein coupled receptors linked via Gs"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"e"
+],
+"scope": "in",
+"conf": "sure",
+"why": "The tell: phosphodiesterase blockers that stop cAMP breakdown potentiate and prolong all of them. cAMP rising = Gs → adenylyl cyclase.",
+"cite": "LC27 S19–S23; LC28 S10 (PGE2 → EP2 = Gs)"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "9",
+"stem": "When activating any G-protein coupled receptor pathway, what component of the pathway is critical in limiting the duration that the cell continues to exhibit a response to activation (i.e., the ‘timer’)? (select one correct response)",
+"opts": [
+[
+"a",
+"Agonist dissociation rate"
+],
+[
+"b",
+"Alpha subunit GTPase activity"
+],
+[
+"c",
+"Generation of phosphatidic acid"
+],
+[
+"d",
+"Phosphodiesterase activity"
+],
+[
+"e",
+"Phospholipase inactivation"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"b"
+],
+"scope": "in",
+"conf": "sure",
+"why": "The α subunit's intrinsic GTPase (GTP → GDP) is the timer for every GPCR pathway. Schultz called this a critical slide.",
+"cite": "LC27 S5"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "10",
+"stem": "Which of the following are typical characteristics of G-protein coupled receptors? (select all responses that are correct)",
+"opts": [
+[
+"a",
+"Cytosolic G-protein binding site"
+],
+[
+"b",
+"Intracellular C-terminus with consensus phosphorylation sites"
+],
+[
+"c",
+"N-terminus extracellular ligand-binding domain"
+],
+[
+"d",
+"Seven transmembrane segments forming a membrane spanning domain"
+]
+],
+"multi": true,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"a",
+"b",
+"c",
+"d"
+],
+"scope": "in",
+"conf": "sure",
+"why": "All four are on the GPCR structure slide: extracellular N-terminus ligand site, 7 transmembrane segments, cytosolic G protein binding site, intracellular C-terminus with phosphorylation sites.",
+"cite": "LC27 S3 (figure: COOH + phosphorylation sites)"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "11",
+"stem": "Atrial natriuretic peptide (ANP) stimulates a pathway to cause vascular muscle relaxation. What other signaling molecule stimulates the same pathway, increasing the concentration of the same second messenger, in vascular smooth muscle cells? (select one correct response)",
+"opts": [
+[
+"a",
+"Acetylcholine"
+],
+[
+"b",
+"EPO"
+],
+[
+"c",
+"Myosin light chain phosphatase"
+],
+[
+"d",
+"NO (nitric oxide)"
+],
+[
+"e",
+"Sildenafil (Viagra)"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"d"
+],
+"scope": "in",
+"conf": "sure",
+"why": "NO stimulates (soluble) guanylyl cyclase → cGMP in vascular smooth muscle, the same second messenger as ANP. Sildenafil raises cGMP by blocking PDE5, not by stimulating the pathway; ACh acts on the endothelium.",
+"cite": "LC26 S4; LC27 S15–S18"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "12",
+"stem": "In which pathway are you likely to see the activation of a calmodulin-dependent enzyme (e.g., CAM Kinase)? (select one correct response)",
+"opts": [
+[
+"a",
+"ANP receptor"
+],
+[
+"b",
+"Gi"
+],
+[
+"c",
+"Gq"
+],
+[
+"d",
+"Gs"
+],
+[
+"e",
+"RAS & MAPK"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"c"
+],
+"scope": "in",
+"conf": "sure",
+"why": "Gq → IP3 → Ca²⁺ release → Ca²⁺-calmodulin activates calmodulin-dependent enzymes (e.g., MLCK).",
+"cite": "LC27 S9–S11"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "13",
+"stem": "The incorporation of cytosolic vesicles into the cell membrane requires signals for vesicle trafficking and exocytosis. Ca²⁺ is often a second messenger in these pathways and a local increase of ten-fold to one hundred-fold in cytosolic Ca²⁺ concentration can be required for exocytosis. At rest, what is a typical cytosolic Ca²⁺ concentration? (Indicate all that are correct)",
+"opts": [
+[
+"a",
+"10⁻⁴ mM"
+],
+[
+"b",
+"10⁻⁴ M"
+],
+[
+"c",
+"100 nM"
+],
+[
+"d",
+"10⁻⁷ M"
+],
+[
+"e",
+"100 µM"
+]
+],
+"multi": true,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"a",
+"c",
+"d"
+],
+"scope": "rep",
+"conf": "sure",
+"why": "Resting cytosolic Ca²⁺ ≈ 100 nM = 10⁻⁷ M = 10⁻⁴ mM. 10⁻⁴ M and 100 µM are 1000× too high. UNIT TRAP: convert every option.",
+"cite": "Asked on every Schultz exam (2023, 2024, 2025)"
+},
+"year": "2025 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "14",
+"stem": "After hormone binding, which portion of the steroid hormone receptor must be exposed to allow for receptor specificity to its binding site? (select one correct response)",
+"opts": [
+[
+"a",
+"Hormone binding domain"
+],
+[
+"b",
+"DNA binding domain"
+],
+[
+"c",
+"Transcription activating domain"
+],
+[
+"d",
+"Helicase coiled-coiled domain"
+],
+[
+"e",
+"Polyadenylation domain"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"b"
+],
+"scope": "in",
+"conf": "sure",
+"why": "The DNA binding domain must be exposed to find the specific DNA sequence (hormone response element).",
+"cite": "LC25 S7, S10"
+},
+"year": "2025 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "15",
+"stem": "In the mitogen activated protein kinase (MAP kinase) pathway, which cytosolic protein has intrinsic GTP binding and hydrolytic activity? (select one correct response)",
+"opts": [
+[
+"a",
+"Insulin receptor substrate 1 (IRS1)"
+],
+[
+"b",
+"Insulin receptor-specific tyrosine kinase"
+],
+[
+"c",
+"Insulin-like growth factor (ILGF)"
+],
+[
+"d",
+"Mitogen-activated protein kinase kinase kinase (MAPKKK)"
+],
+[
+"e",
+"RAS (RAt Sarcoma virus homologous protein)"
+]
+],
+"multi": false,
+"img": [],
+"sec": "Schultz 2025 Exam 4 (LC24–LC26)",
+"a": {
+"ans": [
+"e"
+],
+"scope": "in",
+"conf": "sure",
+"why": "RAS is the monomeric G protein with intrinsic GTP binding + GTPase activity, the timer of the MAPK pathway. MAPKKK is a kinase; IRS-1 is an adapter.",
+"cite": "LC26 S13"
+},
+"year": "2025 Exam 4",
+"rep": []
+},
+{
+"n": "1",
+"stem": "Which of the following is an inhibitor of 5 alpha reductase that can be used to treat prostatic hyperplasia and/or male pattern baldness? (select one correct response)",
+"opts": [
+[
+"a",
+"11 beta HSD"
+],
+[
+"b",
+"Aromatase"
+],
+[
+"c",
+"Cortisone"
+],
+[
+"d",
+"Finasteride"
+],
+[
+"e",
+"Reverse T₃"
+]
+],
+"multi": false,
+"id": "S1-1",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"d"
+],
+"why": "Finasteride inhibits 5-alpha reductase (testosterone → DHT). Aromatase makes estradiol; 11-beta HSD inactivates cortisol.",
+"cite": "LC25 S14 + transcript",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "2",
+"stem": "Which of the following is a physiological agonist for a ‘steroid hormone receptor’ but is not a steroid or a cholesterol derivative? (select one correct response)",
+"opts": [
+[
+"a",
+"Atrial Natriuretic Peptide (ANP)"
+],
+[
+"b",
+"Estradiol"
+],
+[
+"c",
+"Histamine"
+],
+[
+"d",
+"Progesterone"
+],
+[
+"e",
+"Tri-iodo-thyronine (T₃)"
+]
+],
+"multi": false,
+"id": "S1-2",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "T3 binds the thyroid hormone receptor (steroid receptor superfamily) but is an iodinated amino acid derivative, not a steroid or cholesterol derivative.",
+"cite": "LC25 S4–S5",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "3",
+"stem": "What molecule is hydrolyzed by the alpha subunits of G-proteins? (select one correct response)",
+"opts": [
+[
+"a",
+"ATP"
+],
+[
+"b",
+"Diacyl glycerol (DAG)"
+],
+[
+"c",
+"Inositol tris phosphate (IP₃)"
+],
+[
+"d",
+"Ca²⁺"
+],
+[
+"e",
+"GTP"
+]
+],
+"multi": false,
+"id": "S1-3",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "The α subunit hydrolyzes GTP → GDP (its GTPase = the timer).",
+"cite": "LC27 S5",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "4",
+"stem": "Which type of intercellular signaling is associated with selectins, integrins and glycoprotein adhesion molecules? (select one correct response)",
+"opts": [
+[
+"a",
+"Cell coupling (Gap junctions)"
+],
+[
+"b",
+"Contact-dependent"
+],
+[
+"c",
+"Neuro-endocrine"
+],
+[
+"d",
+"Paracrine"
+],
+[
+"e",
+"Endocrine"
+]
+],
+"multi": false,
+"id": "S1-4",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "Selectins, integrins and adhesion molecules require physical cell-to-cell contact: contact-dependent signaling (e.g., white blood cell adhesion to endothelium).",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "5",
+"stem": "Which of the following limits the effectiveness or timely usefulness of paracrine signaling? (select one correct response)",
+"opts": [
+[
+"a",
+"Diffusion distance to the target cell"
+],
+[
+"b",
+"Target cell receptor expression"
+],
+[
+"c",
+"Lipid solubility of signaling molecule"
+],
+[
+"d",
+"Membrane potential"
+],
+[
+"e",
+"Carrier proteins"
+]
+],
+"multi": false,
+"id": "S1-5",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "Paracrine signaling depends on diffusion, so it only works over short distances; diffusion time grows with distance squared.",
+"cite": "LC21 transcript ('diffusion limited')",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "6",
+"stem": "The incorporation of cytosolic vesicles into the cell membrane requires signals for vesicle trafficking and exocytosis. Ca²⁺ is often a second messenger in these pathways and a local increase of ten-fold to one hundred-fold in cytosolic Ca²⁺ concentration can be required for exocytosis. At rest, what is reported to be a typical cytosolic Ca²⁺ concentration? (select all that are correct)",
+"opts": [
+[
+"a",
+"10⁻⁴ millimolar"
+],
+[
+"b",
+"10⁻⁴ micromolar"
+],
+[
+"c",
+"100 nanomolar"
+],
+[
+"d",
+"10⁻⁷ molar"
+],
+[
+"e",
+"100 micromolar"
+]
+],
+"multi": true,
+"id": "S1-6",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a",
+"c",
+"d"
+],
+"why": "Resting cytosolic Ca²⁺ ≈ 100 nM = 10⁻⁷ M = 10⁻⁴ mM. \"10⁻⁴ micromolar\" = 0.1 nM (too low); 100 µM too high. UNIT TRAP.",
+"cite": "Asked on every Schultz exam (2023, 2024, 2025)",
+"conf": "sure",
+"scope": "rep"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "7",
+"stem": "Based upon their molecular masses, which of the following will likely pass through a gap junction? (select two correct responses)",
+"opts": [
+[
+"a",
+"Insulin"
+],
+[
+"b",
+"Asparagine"
+],
+[
+"c",
+"ENaC"
+],
+[
+"d",
+"cGMP"
+],
+[
+"e",
+"Phospholipase C (PLC)"
+]
+],
+"multi": true,
+"id": "S1-7",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"b",
+"d"
+],
+"why": "Gap junctions pass molecules under about 1,000 daltons: asparagine (about 132) and cyclic GMP (about 345). Insulin, epithelial sodium channel and phospholipase C are proteins, far too large.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "8",
+"stem": "Glutamate is an amino acid used by the body as a signaling molecule (neurotransmitter). Based on your knowledge of glutamate and of receptors, which of the following statements is true regarding glutamate and/or its receptor? (select one correct response)",
+"opts": [
+[
+"a",
+"Glutamate has a large positive LogP (high octanol:water partition coefficient)"
+],
+[
+"b",
+"Glutamate is carried through circulation bound to an excitatory amino acid binding globulin (EEABG)"
+],
+[
+"c",
+"Glutamate receptors are in the cell membrane (like histamine receptors)"
+],
+[
+"d",
+"Glutamate receptor are in the cytosol (like steroid hormone receptors)"
+]
+],
+"multi": false,
+"id": "S1-8",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Glutamate is charged and water-soluble (negative log P), cannot cross membranes, so its receptors sit in the cell membrane, like histamine receptors. No carrier protein is needed.",
+"cite": "LC21 transcript (log P and receptor location)",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "9",
+"stem": "After hormone binding, which portion of the steroid hormone receptor must be exposed to allow for receptor specificity to its binding site? (select one correct response)",
+"opts": [
+[
+"a",
+"Hormone binding domain"
+],
+[
+"b",
+"DNA binding domain"
+],
+[
+"c",
+"Transcription activating domain"
+],
+[
+"d",
+"Helicase coiled-coiled domain"
+],
+[
+"e",
+"Polyadenylation domain"
+]
+],
+"multi": false,
+"id": "S1-9",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "The DNA binding domain gives specificity for the hormone response element.",
+"cite": "LC25 S7, S10",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "10",
+"stem": "Thyroid stimulating hormone causes an increase in the concentration of cAMP in thyroid cells. How many transmembrane segments are present in the receptor and which G-protein is coupled with this receptor? (select one correct response)",
+"opts": [
+[
+"a",
+"1 transmembrane segment; Thyroid tyrosine kinase"
+],
+[
+"b",
+"1 transmembrane segment; G_(s)"
+],
+[
+"c",
+"7 transmembrane segments; G_(q)"
+],
+[
+"d",
+"7 transmembrane segments; Thyroid tyrosine kinase"
+],
+[
+"e",
+"7 transmembrane segments; G_(s)"
+]
+],
+"multi": false,
+"id": "S1-10",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "cAMP ↑ = Gs → adenylyl cyclase. GPCRs have 7 transmembrane segments. There is no \"thyroid tyrosine kinase.\"",
+"cite": "LC27 S3, S19–S22",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "11",
+"stem": "Prazosin interacts with and binds to the same location as norepinephrine on the alpha-1 adrenergic receptor, but causes no change in G-protein activity or in phospholipase C activity. Which of the following terms best describes prazosin? (select one correct response)",
+"opts": [
+[
+"a",
+"Ligand"
+],
+[
+"b",
+"Receptor"
+],
+[
+"c",
+"Agonist"
+],
+[
+"d",
+"Antagonist"
+],
+[
+"e",
+"Second messenger"
+]
+],
+"multi": false,
+"id": "S1-11",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"d"
+],
+"why": "Binds the agonist site but produces no G protein or PLC activity = antagonist (competitive). A ligand just binds; an agonist activates.",
+"cite": "LC27 S7; LC30 (agonist vs antagonist)",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "12",
+"stem": "In the thyroid hormone pathway, which extracellular signaling molecule provides negative feedback to reduce hormone release from the anterior pituitary? (select one correct response)",
+"opts": [
+[
+"a",
+"Thyrotropin releasing hormone (TRH)"
+],
+[
+"b",
+"Thyroid stimulating hormone (TSH)"
+],
+[
+"c",
+"Thyroxine (T₄) and/or Tri-iodo-thyronine (T₃)"
+],
+[
+"d",
+"Leptin"
+],
+[
+"e",
+"Hepatic de-iodinase"
+]
+],
+"multi": false,
+"id": "S1-12",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "T4 (and T3) feed back to inhibit TSH release from the anterior pituitary. TRH and TSH are upstream signals, not feedback.",
+"cite": "LC25 S22",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "13",
+"stem": "Which of the following enzymes is effectively a ‘timer’ that determines the duration that a cell remains in the ‘activated’ state following insulin (or growth factor) binding to its cognate receptor? (select one correct response)",
+"opts": [
+[
+"a",
+"RAS"
+],
+[
+"b",
+"G_(s)"
+],
+[
+"c",
+"G_(q)"
+],
+[
+"d",
+"Ca²⁺"
+],
+[
+"e",
+"Myosin light chain kinase (MLCK)"
+]
+],
+"multi": false,
+"id": "S1-13",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "RAS's intrinsic GTPase is the timer for insulin/growth factor (MAPK) signaling. Gs/Gq are heterotrimeric GPCR proteins; Ca²⁺ is not an enzyme.",
+"cite": "LC26 S13",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "14",
+"stem": "Caffeine is a broad-spectrum phosphodiesterase inhibitor (i.e., the enzyme that breaks down cyclic nucleotides). Which pathways will have their effects enhanced or prolonged in the presence of caffeine? (select two correct responses)",
+"opts": [
+[
+"a",
+"In heart, Norepinephrine –> β1 receptor -> G_(s) -> …"
+],
+[
+"b",
+"In heart, Acetylcholine –> M2 receptor -> G_(i) -> …"
+],
+[
+"c",
+"In vascular muscle, Norepinephrine –> α1 receptor –> G_(q) –> IP₃ -> CaM -> …"
+],
+[
+"d",
+"In vascular muscle, Norepinephrine –> α1 receptor –> G_(q) –> DAG -> PKC -> …"
+],
+[
+"e",
+"In vascular muscle, Histamine –> H1 receptor –> G_(q) –> IP₃ -> NOS -> …"
+]
+],
+"multi": true,
+"id": "S1-14",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a",
+"e"
+],
+"why": "Phosphodiesterases break down cAMP and cGMP. β1/Gs raises cAMP; H1/Gq → NOS → NO → cGMP. Blocking PDE prolongs both. Gi lowers cAMP; the α1 IP3/DAG arms use no cyclic nucleotide.",
+"cite": "LC27 S17, S23",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "15",
+"stem": "Which of the following enzymes is required to reduce the cytosolic concentration of a small molecule second messenger in the Gq (NO) pathway? (select one correct response)",
+"opts": [
+[
+"a",
+"GTPase"
+],
+[
+"b",
+"Guanylyl cyclase"
+],
+[
+"c",
+"Ca²⁺ ATPase (on the endoplasmic reticulum)"
+],
+[
+"d",
+"Nitric oxide synthase (NOS)"
+],
+[
+"e",
+"Diacyl glycerol phosphatase (DAG PPase)"
+]
+],
+"multi": false,
+"id": "S1-15",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "In the Gq/NO pathway the small-molecule messengers are IP3, Ca²⁺, NO and cGMP. Of the options, only the ER Ca²⁺ ATPase lowers one (pumps Ca²⁺ back into the ER). Guanylyl cyclase and NOS make messengers; GTPase acts on the G protein.",
+"cite": "LC27 S17 (termination)",
+"conf": "likely",
+"scope": "in",
+"flag": "Phosphodiesterase (cGMP → GMP) would also be right but is not offered."
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "16",
+"stem": "Which three of the following signaling molecules are lipid soluble and have cytosolic or nuclear receptors? (select three correct responses)",
+"opts": [
+[
+"a",
+"Testosterone"
+],
+[
+"b",
+"Antidiuretic hormone (ADH)"
+],
+[
+"c",
+"Prostaglandin D"
+],
+[
+"d",
+"Retinoic acid"
+],
+[
+"e",
+"Vitamin D"
+]
+],
+"multi": true,
+"id": "S1-16",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a",
+"d",
+"e"
+],
+"why": "Testosterone, retinoic acid and vitamin D have cytosolic/nuclear receptors. ADH (peptide) and prostaglandin D (GPCR: DP, CRTH2) act at the cell surface.",
+"cite": "LC25 S2–S4; LC28 S9",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "17",
+"stem": "Natriuretic peptides (ANP & BNP) interact with an enzyme-linked cell surface receptor. What second messenger is generated by this enzyme? (select one correct response)",
+"opts": [
+[
+"a",
+"cAMP"
+],
+[
+"b",
+"Diacyl glycerol (DAG)"
+],
+[
+"c",
+"Inositol tris phosphate (IP₃)"
+],
+[
+"d",
+"Ca²⁺"
+],
+[
+"e",
+"cGMP"
+]
+],
+"multi": false,
+"id": "S1-17",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "The natriuretic peptide receptor is a guanylyl cyclase: GTP → cGMP.",
+"cite": "LC26 S3–S4",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "18",
+"stem": "Which amino acid is critical to the activation / inactivation of insulin receptors and all of the growth factor receptors that were presented because of their autophosphorylation activities? (select one correct response)",
+"opts": [
+[
+"a",
+"Serine"
+],
+[
+"b",
+"Threonine"
+],
+[
+"c",
+"Tyrosine"
+],
+[
+"d",
+"Glutamine"
+],
+[
+"e",
+"Methionine"
+]
+],
+"multi": false,
+"id": "S1-18",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Insulin and growth factor receptors are receptor tyrosine kinases: they autophosphorylate tyrosines.",
+"cite": "LC26 S9–S11",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "19",
+"stem": "Of the receptor and second messenger pathways that have been presented in class, which receptor is associated with both the JAK/STAT pathway and the MAPK pathway? (select one correct response)",
+"opts": [
+[
+"a",
+"Insulin receptor"
+],
+[
+"b",
+"Erythropoietin receptor"
+],
+[
+"c",
+"Atrial Natriuretic Peptide (ANP) receptor"
+],
+[
+"d",
+"Histamine (H₁) receptor"
+],
+[
+"e",
+"Vasopressin (V₂) receptor"
+]
+],
+"multi": false,
+"id": "S1-19",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "EPO receptor → JAK2 → STAT5 (arm 1) and SOS → RAS → MAPK (arm 2). Insulin uses IRS-1/PI3K + MAPK, not JAK/STAT.",
+"cite": "LC26 S18–S19",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "20",
+"stem": "In an epithelial cell that expresses high amounts of active 11-β hydroxy steroid dehydrogenase 2 (11-β HSD 2), what naturally-occurring signaling molecule is used to enhance the expression of SGK1, ENaC, and ROMK? (select one correct response)",
+"opts": [
+[
+"a",
+"Angiotensin II"
+],
+[
+"b",
+"Tri-iodo-thyronine (T₃)"
+],
+[
+"c",
+"Aldosterone"
+],
+[
+"d",
+"Cortisol"
+],
+[
+"e",
+"Estradiol"
+]
+],
+"multi": false,
+"id": "S1-20",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "With 11-beta HSD2 inactivating cortisol, aldosterone drives SGK1, ENaC and ROMK.",
+"cite": "LC25 S14, S19",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "21",
+"stem": "In reference to question 20, what receptor is targeted selectively by the naturally-occurring agonist? (select one correct response)",
+"opts": [
+[
+"a",
+"Estrogen receptor"
+],
+[
+"b",
+"Glucocorticoid receptor"
+],
+[
+"c",
+"Angiotensin receptor type I (AT1R)"
+],
+[
+"d",
+"Thyroid hormone receptor"
+],
+[
+"e",
+"Mineralocorticoid receptor"
+]
+],
+"multi": false,
+"id": "S1-21",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "Aldosterone → mineralocorticoid receptor.",
+"cite": "LC25 S16",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "22",
+"stem": "If RAS is mutated so that it can bind, but not hydrolyze GTP, which two signaling pathways would appear to be overstimulated? (select two correct responses)",
+"opts": [
+[
+"a",
+"Norepinephrine (β1) acting on cardiac pacemaker cells"
+],
+[
+"b",
+"Norepinephrine (α1) acting on vascular smooth muscle cells"
+],
+[
+"c",
+"Thyroid hormone (T3) acting on adipocytes in major fat pads"
+],
+[
+"d",
+"Fibroblast growth factor (FGF) acting on parenchymal fibroblast progenitor cells"
+],
+[
+"e",
+"Erythropoietin (EPO) acting on erythrocyte progenitor cells"
+]
+],
+"multi": true,
+"id": "S1-22",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"d",
+"e"
+],
+"why": "RAS stuck \"on\" overstimulates RAS → MAPK pathways: FGF (receptor tyrosine kinase) and EPO (MAPK arm). β1 and α1 are GPCRs (heterotrimeric G proteins); T3 is a nuclear receptor.",
+"cite": "LC26 S13, S19",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "23",
+"stem": "Which of the newly discovered signaling molecules is more likely to have a receptor that is located on the surface of the target cells?",
+"opts": [
+[
+"a",
+"New α"
+],
+[
+"b",
+"New β"
+]
+],
+"multi": false,
+"ctx": "Use the following information to answer questions 23 through 26. Two new physiological signaling molecules, ‘new α’ and ‘new β’ are discovered. A biochemist begins to describe the biophysical characteristics of these novel signaling molecules. The octanol:water partition coefficients are 0.03 (logP=-1.5) and 75 (logP=1.9) for ‘new α’ and ‘new β’, respectively. (new α = 0.03; new β = 75; a larger number indicates that the solute dissolves more easily in lipid)",
+"id": "S1-23",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "Low logP (0.03) = water soluble → can't cross the membrane → receptor on the cell surface.",
+"cite": "LC25 S11; LC27 (water-soluble ligands)",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "24",
+"stem": "Both new α and new β are present in vascular circulation and appear to exhibit characteristics of endocrine signaling. Which of the newly discovered signaling molecules is more likely to be free in circulation (i.e., not associated with a carrier protein)?",
+"opts": [
+[
+"a",
+"New α"
+],
+[
+"b",
+"New β"
+]
+],
+"multi": false,
+"id": "S1-24",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "Water-soluble molecules dissolve in plasma and don't need a carrier.",
+"cite": "LC25 S11",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "25",
+"stem": "Which of the newly discovered signaling molecules will have a larger reservoir of signaling molecules in circulation and is likely to have a longer half-life in circulation?",
+"opts": [
+[
+"a",
+"New α"
+],
+[
+"b",
+"New β"
+]
+],
+"multi": false,
+"id": "S1-25",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "Lipid-soluble new β rides carrier proteins → vascular reservoir + less renal excretion → longer half-life.",
+"cite": "LC25 S10–S11, S15",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "26",
+"stem": "Based on your answers to questions 23-25, which signaling molecule in the following list is most like ‘new β’?",
+"opts": [
+[
+"a",
+"Erythropoietin (EPO)"
+],
+[
+"b",
+"Adenosine"
+],
+[
+"c",
+"Thyroxine (T₄)"
+],
+[
+"d",
+"Anti-diuretic hormone (ADH)"
+],
+[
+"e",
+"Glutamate"
+]
+],
+"multi": false,
+"id": "S1-26",
+"sec": "Schultz 2024 Exam 4 (LC23–LC27)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "T4 is lipid soluble, carried by transthyretin/thyroxine-binding globulin, with a nuclear receptor. The others are water soluble.",
+"cite": "LC25 S20",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2024 Exam 4",
+"rep": []
+},
+{
+"n": "1",
+"stem": "How many connexins must be in each of the adjoining cells to form one gap junction? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"1"
+],
+[
+"b",
+"3"
+],
+[
+"c",
+"6"
+],
+[
+"d",
+"12"
+],
+[
+"e",
+"30.2 to 45"
+]
+],
+"multi": false,
+"id": "S2-1",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Each cell contributes one connexon, a hexamer of 6 connexins; the full gap junction channel has 12. 'In each of the adjoining cells' means 6.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3",
+"flag": "Wording 'in each cell' vs total (12) is the trap."
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "2",
+"stem": "Which of the following can move, by diffusion, through a gap junction? (Select all answers that are correct.)",
+"opts": [
+[
+"a",
+"Cyclic nucleotides (cAMP, cGMP)"
+],
+[
+"b",
+"Glucose"
+],
+[
+"c",
+"Glycogen"
+],
+[
+"d",
+"Nucleotides (ATP, CTP, GTP, TTP, UTP)"
+],
+[
+"e",
+"Ribosome"
+]
+],
+"multi": true,
+"id": "S2-2",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"a",
+"b",
+"d"
+],
+"why": "Gap junctions pass molecules under about 1,000 daltons: cyclic nucleotides, glucose and nucleotides. Glycogen (a huge polymer) and ribosomes are far too large.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "3",
+"stem": "In this scenario, which component is a cytosolic second messenger? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"cAMP"
+],
+[
+"b",
+"G-protein coupled receptor (EP2)"
+],
+[
+"c",
+"PKA (cAMP-dependent protein kinase)"
+],
+[
+"d",
+"Prostaglandin E"
+],
+[
+"e",
+"Prostaglandin H synthase 2"
+]
+],
+"multi": false,
+"ctx": "For questions 3-5: Leydig cells in the testes secrete testosterone into circulation. When exposed to testosterone, epithelial cells lining the vas deferens will express high levels of prostaglandin H synthase 2 (PTGS2 or COX2). Subsequently, when these cells are exposed to locally released bradykinin, they will secrete prostaglandin D (PGD) into the lumen and secrete prostaglandin E (PGE) into the interstitial fluid bathing the epithelial basolateral cell membranes. Here, PGE can interact with a G-protein coupled receptor (EP2) on these epithelial cells to stimulate adenylyl cyclase, generate cAMP, activate protein kinase A (PKA), phosphorylate an ion channel and ultimately secrete bicarbonate into the lumen.",
+"id": "S2-3",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [
+"e25_image1"
+],
+"a": {
+"ans": [
+"a"
+],
+"why": "Cyclic AMP is the small cytosolic second messenger made by adenylyl cyclase. EP2 is the receptor, protein kinase A is the effector enzyme, prostaglandin E is the first messenger.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "4",
+"stem": "In this scenario, which component is signaling by an endocrine pathway? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"Bradykinin"
+],
+[
+"b",
+"cAMP"
+],
+[
+"c",
+"PKA (cAMP-dependent protein kinase)"
+],
+[
+"d",
+"Prostaglandin E (PGE)"
+],
+[
+"e",
+"Testosterone"
+]
+],
+"multi": false,
+"id": "S2-4",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [
+"e25_image1"
+],
+"a": {
+"ans": [
+"e"
+],
+"why": "Testosterone travels from Leydig cells through circulation to distant vas deferens epithelium: endocrine signaling.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "5",
+"stem": "In this scenario, which component is signaling by an autocrine or paracrine pathway? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"cAMP"
+],
+[
+"b",
+"PKA (cAMP-dependent protein kinase)"
+],
+[
+"c",
+"Prostaglandin E (PGE)"
+],
+[
+"d",
+"Prostaglandin H synthase 2"
+],
+[
+"e",
+"Testosterone"
+]
+],
+"multi": false,
+"id": "S2-5",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [
+"e25_image1"
+],
+"a": {
+"ans": [
+"c"
+],
+"why": "Prostaglandin E is released into interstitial fluid and acts on EP2 receptors on the same or neighboring epithelial cells: autocrine/paracrine. Testosterone is endocrine; cyclic AMP and protein kinase A are intracellular.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "6",
+"stem": "In contact-dependent cell signaling, in what part of the cell is the signaling molecule typically located? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"Cell Membrane"
+],
+[
+"b",
+"Cytoplasm"
+],
+[
+"c",
+"Extracellular fluid"
+],
+[
+"d",
+"Gap junction"
+],
+[
+"e",
+"Nucleus"
+]
+],
+"multi": false,
+"id": "S2-6",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "In contact-dependent signaling the signal (e.g., selectins, integrins, neurexin) is membrane-bound and binds a receptor on the touching cell's membrane.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "7",
+"stem": "Which of the following is an example of paracrine signaling to a cytosolic enzyme ‘receptor’? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"Acetylcholine to a nicotinic acetylcholine receptor (nAchR)"
+],
+[
+"b",
+"Histamine to an H1 receptor"
+],
+[
+"c",
+"Nitric oxide (NO) to guanylyl cyclase"
+],
+[
+"d",
+"Testosterone to sex hormone binding protein"
+],
+[
+"e",
+"Testosterone to an androgen receptor"
+]
+],
+"multi": false,
+"id": "S2-7",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "NO is a gas that diffuses to the neighboring smooth muscle cell (paracrine) and binds its cytosolic \"receptor,\" soluble guanylyl cyclase.",
+"cite": "LC27 S15–S18",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "8",
+"stem": "Which of the following has a large positive logP, associates with a carrier protein in circulation and has a cytosolic receptor? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"Angiotensin 2"
+],
+[
+"b",
+"Antidiuretic hormone (ADH)"
+],
+[
+"c",
+"17 β estradiol"
+],
+[
+"d",
+"Histamine"
+],
+[
+"e",
+"LH or FSH"
+]
+],
+"multi": false,
+"id": "S2-8",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "17-beta estradiol: steroid (large positive logP), carried by sex hormone-binding globulin, intracellular receptor. The others are peptides/amines with surface receptors.",
+"cite": "LC25 S6, S13",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "9",
+"stem": "Nuclear receptors and/or cytosolic receptors that migrate to the nucleus (e.g., mineralocorticoid receptor, MR) are associated with which type of cellular response? (Select one correct answer.)",
+"opts": [
+[
+"a",
+"Adenylyl cyclase activation, cAMP generation and PKA activity"
+],
+[
+"b",
+"Gene transcription and protein synthesis (e.g., SGK, ENaC)"
+],
+[
+"c",
+"Guanylyl cyclase activation, cGMP generation and increased PKG activity"
+],
+[
+"d",
+"Membrane depolarization"
+],
+[
+"e",
+"Phospholipase C activation, generation of IP₃ & DAG, Ca²⁺ release and PKC activation"
+]
+],
+"multi": false,
+"id": "S2-9",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "Steroid receptors are transcription factors → gene transcription and protein synthesis (aldosterone: SGK1, ENaC).",
+"cite": "LC25 S9–S10, S19",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "10",
+"stem": "Which of the following are correct values for the typical concentration of free ionized Ca²⁺ in a cell at rest? (select two correct answers)",
+"opts": [
+[
+"a",
+"10⁻⁶ M (2x10⁻⁶ Eq/l)"
+],
+[
+"b",
+"10⁻⁷ mM (2x10⁻⁷ mEq/l)"
+],
+[
+"c",
+"10⁻⁴ mM (2x10⁻⁴ mEq/l)"
+],
+[
+"d",
+"100 μM (200 μEq/l)"
+],
+[
+"e",
+"100 nM (200 nEq/l)"
+]
+],
+"multi": true,
+"id": "S2-10",
+"sec": "Schultz 2025 Exam 3 (Lectures 22–23)",
+"img": [],
+"a": {
+"ans": [
+"c",
+"e"
+],
+"why": "10⁻⁴ mM = 100 nM = resting cytosolic Ca²⁺. 10⁻⁶ M (1 µM) is 10× too high; 10⁻⁷ mM is 1000× too low; 100 µM is 1000× too high.",
+"cite": "Asked on every Schultz exam (2023, 2024, 2025)",
+"conf": "sure",
+"scope": "rep"
+},
+"year": "2025 Exam 3",
+"rep": []
+},
+{
+"n": "1",
+"stem": "Which of the following ions has the greatest concentration gradient across a typical cell membrane at rest? (select one correct response)",
+"opts": [
+[
+"a",
+"Ca²⁺"
+],
+[
+"b",
+"Cl⁻"
+],
+[
+"c",
+"H⁺"
+],
+[
+"d",
+"K⁺"
+],
+[
+"e",
+"Na⁺"
+]
+],
+"multi": false,
+"id": "S0-1",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "Calcium: about 1.2 millimolar outside vs about 100 nanomolar in cytosol, roughly a 10,000-fold gradient. Sodium, potassium and chloride gradients are only about 10- to 30-fold.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "2",
+"stem": "The membrane potential for a nerve is determined to be +30 mV (cytosol is positive). Which of the following relationships regarding membrane permeabilities is likely true? (select one correct response)",
+"opts": [
+[
+"a",
+"P_(Cl) > P_(K) > P_(Na)"
+],
+[
+"b",
+"P_(K) > P_(Na) > P_(Cl)"
+],
+[
+"c",
+"P_(Na) = P_(Cl) >> P_(K)"
+],
+[
+"d",
+"P_(Na) = P_(K) >> P_(Cl)"
+],
+[
+"e",
+"P_(Na) > P_(Cl) >> P_(K)"
+]
+],
+"multi": false,
+"id": "S0-2",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "A +30 millivolt potential sits near the sodium equilibrium potential, so sodium permeability must dominate; potassium permeability must be lowest or it would pull the potential negative.",
+"cite": "outside course materials",
+"conf": "likely",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "3",
+"stem": "Which of the following toxins is used clinically to inhibit nerve function by interacting with either T-SNAREs or V-SNAREs to block the release of acetylcholine from vesicles at nerve terminals? (select one correct response)",
+"opts": [
+[
+"a",
+"Alpha Bungarotoxin"
+],
+[
+"b",
+"Botulinum toxins (Botox)"
+],
+[
+"c",
+"Dendrotoxin and charybdotoxin"
+],
+[
+"d",
+"Omega Conotoxin"
+],
+[
+"e",
+"Tetrodotoxin (TTX)"
+]
+],
+"multi": false,
+"id": "S0-3",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "Botulinum toxins are proteases that cleave SNARE proteins (synaptobrevin, SNAP-25, syntaxin), blocking acetylcholine vesicle fusion. Alpha-bungarotoxin blocks the postsynaptic nicotinic receptor instead; tetrodotoxin blocks sodium channels.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "4",
+"stem": "In which G-protein coupled pathway does the G-protein α subunit reduce the activity of an enzyme by direct interaction? (select one correct response)",
+"opts": [
+[
+"a",
+"G_(s)"
+],
+[
+"b",
+"G_(i)"
+],
+[
+"c",
+"G_(o)"
+],
+[
+"d",
+"G_(q) (IP₃)"
+],
+[
+"e",
+"G_(q) (cGMP)"
+]
+],
+"multi": false,
+"id": "S0-4",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "Gi's α subunit directly INHIBITS adenylyl cyclase. Gs stimulates it; Gq activates PLC.",
+"cite": "LC27 S24–S26",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "5",
+"stem": "Which of the following voltage-sensitive channels is expressed in the heart and is affected by a variety of drugs, such as cisapride and sotalol, to cause arrhythmias that can lead to sudden cardiac death? (select one correct response)",
+"opts": [
+[
+"a",
+"BK (K_(Ca)1; KCNMA)"
+],
+[
+"b",
+"ERG (K_(v)11; KCNH2))"
+],
+[
+"c",
+"minK (KCNE1)"
+],
+[
+"d",
+"Shab (K_(v)2; KCNB1)"
+],
+[
+"e",
+"Shaker (K_(v)1; KCNA1)"
+]
+],
+"multi": false,
+"id": "S0-5",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"b"
+],
+"why": "hERG (human ether-a-go-go related gene, Kv11.1) carries the rapid delayed rectifier potassium current in heart; cisapride and sotalol block it, prolonging the QT interval and risking fatal arrhythmia.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "6",
+"stem": "Which of the following statements is true with respect to voltage-sensitive Na⁺ channels (Na_(v)), voltage-sensitive K⁺ channels (K_(v)) and voltage-sensitive Ca²⁺ channels (Ca_(v))? (Select ALL answers that are correct)",
+"opts": [
+[
+"a",
+"Each can be blocked by a naturally-occurring toxin (e.g., tetrodotoxin, charybdotoxin, conotoxin, etc.)"
+],
+[
+"b",
+"Each channel is highly selective for the cation from which it derives its name."
+],
+[
+"c",
+"Each type of channel has an inactivation mechanism that limits the duration in the activated or conductive state."
+],
+[
+"d",
+"Four ‘P loops’ form the selectivity filter of the ion channel of each."
+],
+[
+"e",
+"TM4 (or S4) is the voltage sensor for channel activation. There are four voltage-sensing segments in each channel."
+]
+],
+"multi": true,
+"id": "S0-6",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a",
+"b",
+"c",
+"d",
+"e"
+],
+"why": "All five hold for the course model: each has toxins, is selective, has an inactivated state (Schultz's Kv diagram shows one), four P loops form the filter, and four S4 segments sense voltage.",
+"cite": "outside course materials + exam state diagrams",
+"conf": "unsure",
+"scope": "out",
+"flag": "Many Kv channels (delayed rectifiers) lack fast inactivation, so (c) could be keyed false; Schultz's own Kv diagram shows an inactivated state, so all five chosen."
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "7",
+"stem": "Your patient suffers severe trauma to the right half of the spinal cord at T6/T7 (right spinal hemisection at thoracic vertebrae 6 and 7). Which of the following statements is true? (select one correct response)",
+"opts": [
+[
+"a",
+"The patient will exhibit reduced sensation to somatic touch in the right hind limb and reduced sensation to temperature and pain in the left hind limb."
+],
+[
+"b",
+"The patient will exhibit reduced sensation to somatic touch in the left hind limb and reduced sensation to temperature and pain in the right hind limb."
+],
+[
+"c",
+"The patient will exhibit enhanced sensation to somatic touch in the right hind limb and enhanced sensation to temperature and pain in the left hind limb."
+],
+[
+"d",
+"The patient will exhibit enhanced sensation to somatic touch in the left hind limb and enhanced sensation to temperature and pain in the right hind limb."
+],
+[
+"e",
+"The patient will exhibit reduced sensation to somatic touch and reduced sensation to temperature and pain in both hind limbs."
+]
+],
+"multi": false,
+"id": "S0-7",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "Hemisection (Brown-Sequard): dorsal columns (touch) travel uncrossed, so touch is lost on the same (right) side; spinothalamic tract (pain, temperature) crosses at entry, so loss is on the opposite (left) side.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "8",
+"stem": "Shown to the right are two cells that communicate via gap junctions. Which of the following could act as a signaling molecule to the target cell in this system? (select one correct response)",
+"opts": [
+[
+"a",
+"CD11"
+],
+[
+"b",
+"Connexin"
+],
+[
+"c",
+"Guanylyl cyclase"
+],
+[
+"d",
+"Inositol trisphosphate (IP₃)"
+],
+[
+"e",
+"SOS (Son of sevenless)"
+]
+],
+"multi": false,
+"id": "S0-8",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image2"
+],
+"a": {
+"ans": [
+"d"
+],
+"why": "Inositol trisphosphate is small (under 1,000 daltons) and passes through gap junctions. Connexin is the channel protein itself; guanylyl cyclase and SOS are proteins; CD11 is a membrane integrin.",
+"cite": "LC21 transcript (gap junction size limit)",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "9",
+"stem": "How many connexin molecules are required to form one connexon? (select one correct response)",
+"opts": [
+[
+"a",
+"2"
+],
+[
+"b",
+"4"
+],
+[
+"c",
+"6"
+],
+[
+"d",
+"12"
+],
+[
+"e",
+"A substantial number, usually numbering well into the hundreds."
+]
+],
+"multi": false,
+"id": "S0-9",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image3",
+"e23_image4"
+],
+"a": {
+"ans": [
+"c"
+],
+"why": "One connexon (hemichannel) is a hexamer of 6 connexins. Two connexons, one from each cell, dock to make one gap junction channel (12 connexins total). Trap: 12 answers a different question.",
+"cite": "LC21 transcript",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "10",
+"stem": "Which of the states are non-conductive (i.e., ions cannot flow through these channels in these states)? (select three correct responses)",
+"opts": [
+[
+"a",
+"K_(v) channel activated"
+],
+[
+"b",
+"K_(v) channel resting"
+],
+[
+"c",
+"Na_(v) channel activated"
+],
+[
+"d",
+"Na_(v) channel inactivated"
+],
+[
+"e",
+"Na_(v) channel resting"
+]
+],
+"multi": true,
+"ctx": "Shown below are state diagrams for voltage-sensitive Na⁺ channels (Na_(v)) and for voltage-sensitive K⁺ channels (K_(v)). Use these images to answer questions 10-13. [] []",
+"id": "S0-10",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image7",
+"e23_image8"
+],
+"a": {
+"ans": [
+"b",
+"d",
+"e"
+],
+"why": "Non-conductive: voltage-gated potassium channel resting, sodium channel resting (closed gate) and sodium channel inactivated (inactivation gate plugs the pore). Both 'activated' states are open and conduct.",
+"cite": "outside course materials (exam state diagrams)",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "11",
+"stem": "Which channel states are associated with the absolute refractory period? (select two correct responses)",
+"opts": [
+[
+"a",
+"K_(v) channel activated"
+],
+[
+"b",
+"K_(v) channel resting"
+],
+[
+"c",
+"Na_(v) channel activated"
+],
+[
+"d",
+"Na_(v) channel inactivated"
+],
+[
+"e",
+"Na_(v) channel resting"
+]
+],
+"multi": true,
+"id": "S0-11",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image7",
+"e23_image8"
+],
+"a": {
+"ans": [
+"c",
+"d"
+],
+"why": "Absolute refractory period: sodium channels are already open (activated) or inactivated, so no stimulus can trigger a new action potential.",
+"cite": "outside course materials",
+"conf": "likely",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "12",
+"stem": "Which channel state is associated with the relative refractory period? (select one correct response)",
+"opts": [
+[
+"a",
+"K_(v) channel activated"
+],
+[
+"b",
+"K_(v) channel resting"
+],
+[
+"c",
+"Na_(v) channel activated"
+],
+[
+"d",
+"Na_(v) channel inactivated"
+],
+[
+"e",
+"Na_(v) channel resting"
+]
+],
+"multi": false,
+"id": "S0-12",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image7",
+"e23_image8"
+],
+"a": {
+"ans": [
+"a"
+],
+"why": "Relative refractory period: potassium channels are still activated (open), hyperpolarizing the cell, so a larger-than-normal stimulus is needed while sodium channels recover from inactivation.",
+"cite": "outside course materials",
+"conf": "likely",
+"scope": "out",
+"flag": "Some texts emphasize sodium channels returning to resting as the relative refractory feature; the open potassium channel is the best single choice here."
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "13",
+"stem": "What event or condition causes activation (i.e., the transition from ‘resting state’ to ‘activated state’) for both Na_(v) and K_(v) channels? (select one correct response)",
+"opts": [
+[
+"a",
+"Activation"
+],
+[
+"b",
+"Hyperpolarization and time"
+],
+[
+"c",
+"Membrane depolarization"
+],
+[
+"d",
+"Membrane hyperpolarization"
+],
+[
+"e",
+"Time and inactivation mechanism (hinged lid or ball and chain)"
+]
+],
+"multi": false,
+"id": "S0-13",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image7",
+"e23_image8"
+],
+"a": {
+"ans": [
+"c"
+],
+"why": "Membrane depolarization moves the S4 voltage sensors outward, opening (activating) both voltage-gated sodium and potassium channels. Hyperpolarization and time return them to rest.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "14",
+"stem": "Which of the following is a signaling or receptor molecule that is involved with contact-dependent signaling following ischemia and reperfusion? (select one correct response)",
+"opts": [
+[
+"a",
+"Adenohypophysis"
+],
+[
+"b",
+"Histamine"
+],
+[
+"c",
+"Integrin (for example, CD11 or CD18)"
+],
+[
+"d",
+"Myosin phosphatase target subunit 1 (MYPT-1)"
+],
+[
+"e",
+"Phosphatidylinositol-3-kinase (PI₃-kinase)"
+]
+],
+"multi": false,
+"id": "S0-14",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "After ischemia-reperfusion, white blood cells adhere to endothelium via selectins then integrins (CD11 alpha, CD18 beta) binding intercellular adhesion molecules: contact-dependent signaling. Histamine is paracrine.",
+"cite": "LC21 transcript (leukocyte adhesion example)",
+"conf": "sure",
+"scope": "e3"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "15",
+"stem": "Which signaling molecule in the following list has the highest octanol:water partition coefficient? (select one correct response)",
+"opts": [
+[
+"a",
+"Acetylcholine"
+],
+[
+"b",
+"Aldosterone"
+],
+[
+"c",
+"Cholesterol"
+],
+[
+"d",
+"Histamine"
+],
+[
+"e",
+"Oxytocin"
+]
+],
+"multi": false,
+"id": "S0-15",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Cholesterol is the most lipid-soluble (log P around 7-8). Aldosterone is about 1.1; acetylcholine, histamine and oxytocin are water-soluble (negative log P).",
+"cite": "LC21 transcript (log P examples) + outside for cholesterol value",
+"conf": "likely",
+"scope": "e3"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "16",
+"stem": "Both nitric oxide (NO) and atrial natriuretic peptide (ANP) cause vasodilation that results from the relaxation of vascular smooth muscle. What common cytosolic second messenger is produced in vascular smooth muscle following exposure to these agonists? (select one correct response)",
+"opts": [
+[
+"a",
+"Cyclic GMP (cGMP)"
+],
+[
+"b",
+"Guanylyl cyclase"
+],
+[
+"c",
+"Janus kinase (JAK)"
+],
+[
+"d",
+"Mitogen activated protein kinase (MAPK)"
+],
+[
+"e",
+"Renin/Angiotensin"
+]
+],
+"multi": false,
+"id": "S0-16",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "NO (via soluble guanylyl cyclase) and ANP (receptor guanylyl cyclase) both make cGMP. Guanylyl cyclase is the enzyme, not the messenger.",
+"cite": "LC26 S3–S4; LC27 S15",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "17",
+"stem": "In the mitogen activated protein kinase second messenger pathway (MAPK), what protein binds to RAS and acts as a guanine nucleotide exchange factor to promote GTP binding? (select one correct response)",
+"opts": [
+[
+"a",
+"Insulin-like growth factor (ILGF)"
+],
+[
+"b",
+"Insulin receptor-specific tyrosine kinase"
+],
+[
+"c",
+"Insulin receptor substrate 1 (IRS1)"
+],
+[
+"d",
+"Mitogen-activated protein kinase kinase kinase (MAP KKK)"
+],
+[
+"e",
+"Son of Sevenless (SOS)"
+]
+],
+"multi": false,
+"id": "S0-17",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "SOS (son of sevenless) is the guanine nucleotide exchange factor for RAS.",
+"cite": "LC26 S12",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "18",
+"stem": "Which of the following is a cholesterol derivative that interacts with and binds to an intracellular steroid hormone receptor? (select one correct response)",
+"opts": [
+[
+"a",
+"Cholesterol"
+],
+[
+"b",
+"Retinoic acid"
+],
+[
+"c",
+"Testosterone"
+],
+[
+"d",
+"Thyroxine (T₄)"
+],
+[
+"e",
+"Vitamin D₃"
+]
+],
+"multi": false,
+"id": "S0-18",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Testosterone is a cholesterol-derived steroid that binds the androgen receptor. Cholesterol itself is not a hormone; retinoic acid and T4 are not cholesterol derivatives.",
+"cite": "LC25 S2–S4 + transcript",
+"conf": "likely",
+"scope": "in",
+"flag": "2026 transcript: Schultz says vitamin D3 IS a cholesterol derivative (not a steroid) that binds a steroid-family receptor, so E is also defensible. Use testosterone if forced to pick one."
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "19",
+"stem": "In circulation, which of the following signaling molecules associates with both transthyretin and thyroxine binding globulin? (select one correct response)",
+"opts": [
+[
+"a",
+"Cortisol"
+],
+[
+"b",
+"Estradiol"
+],
+[
+"c",
+"Thyroid stimulating hormone (TSH)"
+],
+[
+"d",
+"Thyrotropin releasing hormone (TRH)"
+],
+[
+"e",
+"Thyroxine (T₄)"
+]
+],
+"multi": false,
+"id": "S0-19",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "Transthyretin and thyroxine-binding globulin carry thyroid hormone (T4).",
+"cite": "LC25 S6, S20",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "20",
+"stem": "In an epithelial cell that expresses high amounts of active 11-β hydroxy steroid dehydrogenase 2 (11-β HSD2), what naturally-occurring signaling molecule enhances the expression of SGK1, ENaC, and ROMK? (select one correct response)",
+"opts": [
+[
+"a",
+"Aldosterone"
+],
+[
+"b",
+"Cortisol"
+],
+[
+"c",
+"Estradiol"
+],
+[
+"d",
+"Tri-iodo-thyronine (T₃)"
+],
+[
+"e",
+"Vasopressin"
+]
+],
+"multi": false,
+"id": "S0-20",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "With cortisol inactivated by 11-beta HSD2, aldosterone drives SGK1, ENaC and ROMK.",
+"cite": "LC25 S14, S19",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "21",
+"stem": "In reference to question 20, what receptor is targeted selectively by the naturally occurring agonist? (select one correct response)",
+"opts": [
+[
+"a",
+"Estrogen receptor"
+],
+[
+"b",
+"Glucocorticoid receptor"
+],
+[
+"c",
+"Mineralocorticoid receptor"
+],
+[
+"d",
+"Thyroid hormone receptor"
+],
+[
+"e",
+"Vasopressin receptor (V₁R or V₂R)"
+]
+],
+"multi": false,
+"id": "S0-21",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Aldosterone → mineralocorticoid receptor.",
+"cite": "LC25 S16",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "22",
+"stem": "Chili peppers (capsaicin) are used both in chemesthesis (to enhance flavor sensation) and as a topical rub (e.g., Icy-Hot). Which receptor type or channel type is targeted by capsaicin? (Select one correct response)",
+"opts": [
+[
+"a",
+"ASIC (Acid-sensitive Ion Channel)"
+],
+[
+"b",
+"ENaC (Epithelial Na⁺ Channel)"
+],
+[
+"c",
+"HCN4 (Non-stable potential membrane channel)"
+],
+[
+"d",
+"Piezo channels"
+],
+[
+"e",
+"TRP (Transient Receptor Potential)"
+]
+],
+"multi": false,
+"id": "S0-22",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "Capsaicin activates transient receptor potential vanilloid 1 (TRPV1), a heat/pain-sensing cation channel. Acid-sensing ion channels respond to protons; Piezo channels to mechanical stretch.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "23",
+"stem": "Which amino acids in a growth factor receptor are phosphorylated in response to ligand binding? (select one correct response)",
+"opts": [
+[
+"a",
+"Cysteine"
+],
+[
+"b",
+"Histidine"
+],
+[
+"c",
+"Serine"
+],
+[
+"d",
+"Threonine"
+],
+[
+"e",
+"Tyrosine"
+]
+],
+"multi": false,
+"id": "S0-23",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "Growth factor receptors are receptor TYROSINE kinases.",
+"cite": "LC26 S9–S11",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "24",
+"stem": "After hormone binding, which portion of the steroid hormone receptor must be exposed to allow for receptor specificity to its binding site? (select one correct response)",
+"opts": [
+[
+"a",
+"DNA binding domain"
+],
+[
+"b",
+"Helicase coiled-coiled domain"
+],
+[
+"c",
+"Hormone binding domain"
+],
+[
+"d",
+"Polyadenylation domain"
+],
+[
+"e",
+"Repressor domain"
+]
+],
+"multi": false,
+"id": "S0-24",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "The DNA binding domain gives specificity for the hormone response element.",
+"cite": "LC25 S7, S10",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "25",
+"stem": "In the thyroid hormone pathway, which extracellular signaling molecule provides negative feedback to reduce hormone release from the anterior pituitary? (select one correct response)",
+"opts": [
+[
+"a",
+"Hepatic de-iodinase"
+],
+[
+"b",
+"Reverse tri-iodo-thyronine (rT₃)"
+],
+[
+"c",
+"Thyroid stimulating hormone (TSH)"
+],
+[
+"d",
+"Thyrotropin releasing hormone (TRH)"
+],
+[
+"e",
+"Thyroxine (T₄)"
+]
+],
+"multi": false,
+"id": "S0-25",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "T4 inhibits TSH release (slide wording). rT3 is inactive; TRH/TSH are upstream.",
+"cite": "LC25 S22",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "26",
+"stem": "Which of the following enzymes is effectively a ‘timer’ that determines the duration that a cell remains in the ‘activated’ state following insulin (or growth factor) binding to its cognate receptor? (select one correct response)",
+"opts": [
+[
+"a",
+"Ca²⁺"
+],
+[
+"b",
+"G_(q)"
+],
+[
+"c",
+"G_(s)"
+],
+[
+"d",
+"Myosin light chain kinase (MLCK)"
+],
+[
+"e",
+"RAS"
+]
+],
+"multi": false,
+"id": "S0-26",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"e"
+],
+"why": "RAS's intrinsic GTPase is the timer for insulin/growth factor signaling.",
+"cite": "LC26 S13",
+"conf": "sure",
+"scope": "in"
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "27",
+"stem": "Caffeine is a broad-spectrum phosphodiesterase inhibitor (i.e., the enzyme that breaks down cyclic nucleotides). Which pathway will have its effect enhanced or prolonged in the presence of caffeine? (select one correct response)",
+"opts": [
+[
+"a",
+"In heart, Norepinephrine –> β1 receptor -> G_(s) -> …"
+],
+[
+"b",
+"In heart, Acetylcholine –> M2 receptor -> G_(i) -> …"
+],
+[
+"c",
+"In vascular muscle, Norepinephrine –> α1 receptor –> G_(q) –> IP₃ -> CaM -> …"
+],
+[
+"d",
+"In vascular muscle, Norepinephrine –> α1 receptor –> G_(q) –> DAG -> PKC -> …"
+],
+[
+"e",
+"In vascular muscle, Histamine –> H1 receptor –> G_(q) –> IP₃ -> NOS -> …"
+]
+],
+"multi": false,
+"id": "S0-27",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a"
+],
+"why": "Caffeine blocks phosphodiesterases → cAMP stays high → β1/Gs effect prolonged.",
+"cite": "LC27 S23",
+"conf": "likely",
+"scope": "in",
+"flag": "No single correct option: E (H1 → NOS → NO → cGMP) is also prolonged, since phosphodiesterases break down cGMP too (LC27 S17). The 2024 version of this question asked for TWO: A + E."
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4"
+]
+},
+{
+"n": "28",
+"stem": "The incorporation of cytosolic vesicles into the cell membrane requires signals for vesicle trafficking and exocytosis. Ca²⁺ is often a second messenger in these pathways and a local increase of ten-fold to one hundred-fold in cytosolic Ca²⁺ concentration can be required for exocytosis. At rest, what is reputed to be a typical cytosolic Ca²⁺ concentration? (indicate all that are correct)",
+"opts": [
+[
+"a",
+"10⁻⁴ mM"
+],
+[
+"b",
+"10⁻⁴ M"
+],
+[
+"c",
+"100 nM"
+],
+[
+"d",
+"10⁻⁷ M"
+],
+[
+"e",
+"100 µM"
+]
+],
+"multi": true,
+"id": "S0-28",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"a",
+"c",
+"d"
+],
+"why": "Resting cytosolic Ca²⁺ ≈ 100 nM = 10⁻⁷ M = 10⁻⁴ mM. UNIT TRAP.",
+"cite": "Asked on every Schultz exam (2023, 2024, 2025)",
+"conf": "sure",
+"scope": "rep"
+},
+"year": "2023 Exam 3",
+"rep": [
+"2023 Exam 3",
+"2024 Exam 4",
+"2025 Exam 4"
+]
+},
+{
+"n": "29",
+"stem": "Biogenic amines and amino acid neurotransmitters are removed from synapses by four families of cotransporters. All of the transporters move neurotransmitters against their concentration gradients. What energy source is used to directly support the transport activity? (Select one correct response)",
+"opts": [
+[
+"a",
+"ATP"
+],
+[
+"b",
+"Electrochemical gradient for Ca²⁺"
+],
+[
+"c",
+"Electrochemical gradient for Na⁺"
+],
+[
+"d",
+"Fatty acid oxidation"
+],
+[
+"e",
+"GTP"
+]
+],
+"multi": false,
+"id": "S0-29",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [],
+"a": {
+"ans": [
+"c"
+],
+"why": "Neurotransmitter reuptake transporters are secondary active symporters driven directly by the sodium electrochemical gradient (often with chloride). ATP powers the sodium-potassium pump only indirectly.",
+"cite": "outside course materials",
+"conf": "sure",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "30",
+"stem": "Shown to the right is a prototypical action potential with five labeled locations. The action potential was initiated by exposure to glutamate. Below is a GHK equation with numbers shown for the permeabilities to selected ions just below the associated conductances or concentration gradients. What point in the action potential (A, B, C, D, E) is best described by the equation with the indicated permeabilities? (Select one correct response: an arrow can be added to the action potential to indicate the point depicted by the equation) P_(K)=1 P_(Na)=0.03 P_(Cl)=0.1 P_(GlutR)=0.5 P_(Cl-R)=0.0 P_(Nav)=0.0 P_(Kv)=0.0 (Point choices: A, B, C, D, E on the action potential image.)",
+"opts": [
+[
+"a",
+"Point A"
+],
+[
+"b",
+"Point B"
+],
+[
+"c",
+"Point C"
+],
+[
+"d",
+"Point D"
+],
+[
+"e",
+"Point E"
+]
+],
+"multi": false,
+"id": "S0-30",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image9"
+],
+"a": {
+"ans": [
+"b"
+],
+"why": "Glutamate receptor permeability is on but voltage-gated sodium and potassium channels are still closed: the glutamate-driven depolarization rising toward threshold, just before the upstroke, is point B.",
+"cite": "outside course materials (exam image)",
+"conf": "likely",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+},
+{
+"n": "31",
+"stem": "Shown below is an image that includes two presynaptic nerve terminals, a postsynaptic cell and an astrocyte. Some structures are depicted, but much of the labeling has been removed. Some clues regarding the neurotransmitters, receptors and transporters are included. Label components of the cells as completely as possible. Draw and label additional components, ion gradients, drugs or toxins that enhance the image. In five sentences or less, describe the synapse and and the effects of the neurotransmitters, drugs or toxins.",
+"opts": [],
+"multi": false,
+"id": "S0-31",
+"sec": "Schultz 2023 Exam 3 (LC13–LC22)",
+"img": [
+"e23_image10"
+],
+"a": {
+"ans": [],
+"why": "Left terminal is glycinergic: serine is converted to glycine, vesicular inhibitory amino acid transporter fills vesicles, GlyT2 (3 sodium, 1 chloride) recycles glycine. Right terminal releases glutamate; excitatory amino acid transporters clear it. Astrocyte GlyT1 (2 sodium, 1 chloride) takes up glycine. Postsynaptic glycine receptors (chloride channels, anchored by gephyrin) hyperpolarize because K-Cl cotransporter 2 keeps chloride low; AMPA receptors depolarize; NMDA receptors need glutamate plus glycine co-agonist. Strychnine blocks glycine receptors; tetanus toxin blocks glycine release causing spasticity.",
+"cite": "outside course materials (exam image)",
+"conf": "likely",
+"scope": "out"
+},
+"year": "2023 Exam 3",
+"rep": []
+}
+]
