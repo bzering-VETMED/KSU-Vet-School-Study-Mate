@@ -1,4 +1,4 @@
-const CACHE='ksu-study-mate-v283-1794255507';
+const CACHE='ksu-study-mate-v284-1794291478';
 /* Always ask the server first (bypassing the phone's HTTP cache) so updates show immediately; cached copy only when offline. */
 self.addEventListener('install',e=>self.skipWaiting());
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE).map(x=>caches.delete(x))))])));

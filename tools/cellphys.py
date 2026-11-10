@@ -99,11 +99,17 @@ from cellphys_final import build_final
 from cellphys_oldexams import build_oldexams
 from cellphys_lc08exam import build_lc08exam
 from cellphys_exam4 import build_exam4
-tiles = build_exam4(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#8a6b99;margin-top:22px;border-top:2px dashed #e6d9f0;padding-top:12px">📦 Exam 3 archive (LC14–LC24) · keep for the final</div>' + '<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">🏁 Night-before review</div>' + build_final(HUB, V) + build_keyslide(HUB, V) + build_oldexams(HUB, V) + build_lc08exam(HUB, V) + build_pathways(HUB, V) + build_enzymes(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧠 Terms by lecture · tap to reveal</div>' + ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · {("★ "+str(s)) if s else "★ after transcript"} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
+e4tiles = build_exam4(HUB, V)
+tiles = '<div style="grid-column:1/-1;font-weight:900;color:#d94f7f;margin-top:8px">🏁 Night-before review</div>' + build_final(HUB, V) + build_keyslide(HUB, V) + build_oldexams(HUB, V) + build_lc08exam(HUB, V) + build_pathways(HUB, V) + build_enzymes(HUB, V) + '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧠 Terms by lecture · tap to reveal</div>' + ''.join(f'<a class="tile" href="{fn}?v={V}"><div class="emoji">{E(nm.split(" ")[0])}</div><h2>{E(nm.split(" · ")[0].split(" ", 1)[1])} terms</h2><p>{E(nm.split(" · ", 1)[1])} · {c} terms · {("★ "+str(s)) if s else "★ after transcript"} · ⚠️ traps</p></a>' for fn, nm, c, s in LEC)
 tiles += '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">🧪 Combined sheet + practice exams</div>'
 tiles += f'<a class="tile" href="cellphys-terms.html?v={V}"><div class="emoji">🧠</div><h2>All terms, one page</h2><p>{n} tap-to-reveal terms · all exam lectures + source flags</p></a>'
 for (fn, t, it), c in zip(EXAMS, counts):
     tiles += f'<a class="tile" href="{fn}?v={V}"><div class="emoji">🧪</div><h2>{E(t[2:])}</h2><p>{c} questions · quiz style · all lectures</p></a>'
+ARCH = 'cellphys-exam3.html'
+open(ARCH, 'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>📦 Cell Physiology Exam 3 archive</title>{style}</head><body><div class="wrap">'
+    f'<section class="hero"><h1>📦 Cell Physiology · Exam 3 archive</h1><p>LC14–LC24 · not on Exam 4 · keep for the final</p></section>'
+    f'<div class="nav"><a href="{HUB}?v={V}">← Back to Exam 4</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
+tiles = e4tiles + f'<div style="grid-column:1/-1;font-weight:900;color:#8a6b99;margin-top:22px;border-top:2px dashed #e6d9f0;padding-top:12px">📦 Not on Exam 4</div><a class="tile" href="{ARCH}?v={V}"><div class="emoji">📦</div><h2>Exam 3 archive</h2><p>LC14–LC24 · for the final only</p></a>'
 open(HUB, 'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>🧫 Cell Physiology</title>{style}</head><body><div class="wrap">'
     f'<section class="hero"><h1>🧫 Cell Physiology · Exam 4</h1><p>Fri 11/13 · 8:00 AM · LC25–LC33 · Quiz07 Sun 11/1 (LC25–28) · Quiz08 Sun 11/8 (LC29–31)</p></section>'
     f'<div class="nav"><a href="fall2026.html?v={V}">← Back</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div></body></html>')
