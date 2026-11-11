@@ -97,15 +97,15 @@
   ],
   [
    "Selenocysteine",
-   "Selenium-containing amino acid; 'also important!' (S7). Slides place 'selenocysteines!' at thioredoxin reductase (S15) and glutathione reductase (S16).",
+   "Basel: \"not super needing you to know\" beyond it being on thioredoxin reductase; selenium = micronutrient for antioxidant defense (transcript).",
    "S7",
-   true
+   false
   ],
   [
    "Radical chain reaction",
-   "A free-radical ROS takes one electron from a molecule, creating a new radical, which repeats; multiplies damage far beyond the initial molecule.",
+   "One radical oxidizes something and makes a NEW radical, so one radical causes hundreds–thousands of damage events until two radicals meet (transcript).",
    "S8",
-   false
+   true
   ],
   [
    "Initiation",
@@ -127,7 +127,7 @@
   ],
   [
    "Electron transport chain as ROS source",
-   "Normal metabolism: Complexes I and III leak electrons to O2, forming superoxide (slide flags 'LC20!').",
+   "Complexes I and III always leak a little superoxide (coenzyme Q gives an electron to O2). Normal; also a signal that mitochondria are working (transcript).",
    "S9",
    true
   ],
@@ -145,9 +145,9 @@
   ],
   [
    "Phagocytic respiratory burst",
-   "Phagocytes deliberately make ROS in the phagosome: NADPH oxidase → superoxide → H2O2 → hypochlorous acid.",
+   "Phagocytes \"bleach/burn\" bacteria: NADPH oxidase → superoxide → SOD → H2O2 → myeloperoxidase → HOCl (bleach); some leaks out (transcript).",
    "S10",
-   false
+   true
   ],
   [
    "NADPH oxidase",
@@ -157,9 +157,9 @@
   ],
   [
    "Superoxide dismutase (SOD)",
-   "Enzyme: 2 O2−· + 2 H+ → H2O2 + O2. Found in virtually every cell; also part of the respiratory burst.",
+   "In basically every cell: superoxide → H2O2 (\"still bad stuff\") (S14, transcript).",
    "S14",
-   false
+   true
   ],
   [
    "Myeloperoxidase",
@@ -175,9 +175,9 @@
   ],
   [
    "Fenton reaction",
-   "Iron-catalyzed (slide header Fe2+; figure Fe^x+): 2 H2O2 → H2O + HOO· + HO·. Iron intensifies ROS.",
+   "Iron turns weak ROS (H2O2) into strong radicals (HOO·, HO·). Why free iron is never allowed: transferrin (blood) and ferritin (cell) hold it (transcript).",
    "S10",
-   false
+   true
   ],
   [
    "Nitric oxide synthase (NOS)",
@@ -187,7 +187,7 @@
   ],
   [
    "Ionizing radiation",
-   "Alpha, beta, gamma radiation splits water (H–O–H → HO· + e− + H+); the electron reduces O2 to superoxide.",
+   "X-rays, gamma, high-energy electrons. Mostly hits WATER (far more water than DNA) → radicals + superoxide → oxidative stress (transcript).",
    "S10",
    false
   ],
@@ -217,15 +217,15 @@
   ],
   [
    "Acetaminophen (Tylenol) toxicity",
-   "Cat case diagnosis (S3 signs: rapid breathing, nausea, drooling, lethargy, cyanosis, edema).",
+   "Overdose overwhelms glucuronidation → oxidation route makes NAPQI → liver damage once glutathione runs out. Cats: no safe dose (transcript).",
    "S12",
-   false
+   true
   ],
   [
    "Glucuronidation",
-   "Primary non-toxic acetaminophen pathway. Cats lack the gene for it.",
+   "Main safe route: adds a sugar so acetaminophen can be excreted (bile/kidney). CATS LACK this enzyme (transcript).",
    "S12",
-   false
+   true
   ],
   [
    "Hydroxylation (acetaminophen)",
@@ -235,15 +235,15 @@
   ],
   [
    "NAPQI",
-   "N-acetyl-p-benzoquinone imine (expansion OUTSIDE). Strong oxidizer from acetaminophen; causes massive oxidative liver damage and cell death.",
+   "Strong oxidant made from acetaminophen by cytochrome P450 oxidation; neutralized by glutathione until glutathione is depleted (transcript).",
    "S12",
-   false
+   true
   ],
   [
    "N-acetylcysteine",
-   "Treatment for acetaminophen toxicity: precursor for glutathione production, restoring reduced glutathione stores.",
+   "Treatment for acetaminophen toxicity: a glutathione building block the liver takes up (glutathione itself can't cross membranes). ~50/50 prognosis (transcript).",
    "S19",
-   false
+   true
   ],
   [
    "Enzymatic antioxidants",
@@ -253,9 +253,9 @@
   ],
   [
    "Catalase",
-   "Enzyme: 2 H2O2 → 2 H2O + O2. With superoxide dismutase prevents superoxide/H2O2 build-up.",
+   "H2O2 → water + O2 (\"safe stuff\"). In bacteria, catalase can be a VIRULENCE FACTOR (resists the respiratory burst) (transcript).",
    "S14",
-   false
+   true
   ],
   [
    "Protein antioxidants",
@@ -265,9 +265,9 @@
   ],
   [
    "Thioredoxin",
-   "Protein with two cysteine thiols; reduced form (S–H H–S) reduces H2O2 to water and becomes oxidized (S–S).",
+   "Protein antioxidant with two close cysteines → S–S bond. Too expensive to be just an antioxidant; its real job is SIGNALING (hyperoxia/ASK1) (transcript).",
    "S15",
-   false
+   true
   ],
   [
    "Thioredoxin reductase (TrxR)",
@@ -289,9 +289,9 @@
   ],
   [
    "Glutathione (GSH)",
-   "Tripeptide glutamate–cysteine–glycine; reduced form neutralizes H2O2 and detoxifies NAPQI.",
+   "Glutamate–cysteine–glycine. \"Easily the MOST IMPORTANT intracellular antioxidant\"; cheap; regenerated with NADPH (transcript).",
    "S16",
-   false
+   true
   ],
   [
    "Glutathione disulfide (GS–SG)",
@@ -319,9 +319,9 @@
   ],
   [
    "Vitamin C (ascorbate)",
-   "Donates an H+ and e− to a radical (R· → R–H), becoming a relatively stable radical, then dehydroascorbate.",
+   "Main EXTRACELLULAR (blood) antioxidant; relatively stable radical; regenerates vitamin E. Water soluble → megadoses are peed out. Deficiency = scurvy (transcript).",
    "S17",
-   false
+   true
   ],
   [
    "Dehydroascorbate (DHAsc)",
@@ -331,13 +331,13 @@
   ],
   [
    "Vitamin E",
-   "Donates H+ and e− to a radical, becoming a very stable radical; regenerated by vitamin C.",
+   "Lipid (MEMBRANE) antioxidant: aliphatic tail sits in membranes; regenerated by vitamin C (transcript).",
    "S18",
-   false
+   true
   ],
   [
    "Transferrin",
-   "OUTSIDE — confirm: plasma protein that carries Fe3+, keeping free iron (Fenton catalyst) low. Listed in terms, not shown.",
+   "Carries iron in the BLOOD so free iron can't drive Fenton reactions (transcript).",
    "S13",
    false
   ],
@@ -349,7 +349,7 @@
   ],
   [
    "Ferritin",
-   "OUTSIDE — confirm: intracellular iron-storage protein that sequesters iron safely. Listed in terms, not shown.",
+   "Stores extra iron INSIDE the cell so it can't drive Fenton reactions (transcript).",
    "S13",
    false
   ],
@@ -361,7 +361,7 @@
   ],
   [
    "Central receptors",
-   "Ventrolateral surface of the medulla; stimulate breathing but sense primarily CO2 (as pH), not O2.",
+   "Brainstem; sense CO2 (pCO2) only, not O2 (transcript).",
    "S22",
    false
   ],
@@ -385,19 +385,19 @@
   ],
   [
    "Glomus cell",
-   "Peripheral O2-sensing cell: hypoxia closes K+ channels → depolarizes → Ca2+ channels open → neurotransmitter release.",
+   "Peripheral (carotid + aortic body). O2 keeps K+ channels open; low O2 → K+ closes → depolarize → voltage-gated Ca2+ in → SNARE → neurotransmitter. High O2 = low signaling (transcript).",
    "S23",
-   false
+   true
   ],
   [
    "Heme oxygenase",
-   "Glomus O2 sensor: uses O2 + NADPH to make carbon monoxide (CO) during normoxia; CO's link to the channel is not drawn.",
+   "Uses O2 to make carbon monoxide (CO), which keeps glomus K+ channels open in normoxia (transcript).",
    "S23",
    false
   ],
   [
    "AMP kinase (AMPK)",
-   "Adenosine monophosphate–activated kinase; glomus sensor: hypoxia drops ATP, raises AMP → AMP kinase inhibits the K+ channel.",
+   "Low O2 → less ATP, more AMP → AMP kinase closes glomus K+ channels (transcript).",
    "S23",
    false
   ],
@@ -409,9 +409,9 @@
   ],
   [
    "Hypoxia-inducible factors (HIF)",
-   "Transcription factors that sense low O2 in individual cells and turn on hypoxia response genes.",
+   "Transcription factors; in normal O2, prolyl hydroxylase oxidizes them → proteasome. Low O2 → survive → hypoxia-protective genes (transcript).",
    "S24",
-   false
+   true
   ],
   [
    "HIF prolyl hydroxylase",
@@ -433,9 +433,9 @@
   ],
   [
    "ASK1",
-   "Apoptosis signal-regulating kinase 1: a MAPKKK held by reduced thioredoxin; released in hyperoxia/oxidative stress.",
+   "Apoptosis signal-regulating kinase 1, a MAPKKK. Reduced thioredoxin inhibits it; hyperoxia oxidizes thioredoxin → ASK1 released → MAPK → hyperoxia genes (more glutathione) → apoptosis if severe. \"Be able to trace out that pathway\" (transcript).",
    "S25",
-   false
+   true
   ],
   [
    "MAPKKK → MAPKK → MAPK",
@@ -448,6 +448,30 @@
    "Hyperoxia response output of the ASK1–MAPK pathway.",
    "S25",
    false
+  ],
+  [
+   "Triplet vs singlet oxygen",
+   "O2 has 2 unpaired electrons (triplet); organic molecules are singlet, so O2 'can't' react with you (forbidden transition) unless activated. Chemistry NOT required (transcript).",
+   "transcript",
+   false
+  ],
+  [
+   "Methemoglobin",
+   "Hemoglobin with its iron oxidized (Fe2+ → Fe3+); cannot carry oxygen (transcript).",
+   "transcript",
+   false
+  ],
+  [
+   "Cytochrome P450",
+   "Liver oxidizing (redox) enzymes; turn excess acetaminophen into NAPQI (transcript).",
+   "S12",
+   false
+  ],
+  [
+   "Scurvy",
+   "Vitamin C deficiency: can't hydroxylate proline (hydroxyproline) properly (transcript).",
+   "transcript",
+   false
   ]
  ],
  "traps": [
@@ -459,9 +483,12 @@
   "<b>O2 sensing flips:</b> glomus hypoxia <b>closes K+</b>, <b>opens Ca2+</b>, cell <b>depolarizes</b> (normoxia = polarized). Central receptors sense <b>CO2 (as pH)</b>, NOT primarily O2; peripheral sense pO2 + pCO2 + pH (S22, S23).",
   "<b>Cat acetaminophen:</b> cats lack <b>glucuronidation</b> (the major non-toxic route), NOT hydroxylation. Hydroxylation (minor) makes NAPQI. N-acetylcysteine is a <b>GSH precursor</b>, not an enzyme (S12, S19).",
   "<b>Respiratory burst order:</b> NADPH oxidase → superoxide → superoxide dismutase → H2O2 → <b>myeloperoxidase</b> + HCl → HOCl. Myeloperoxidase acts on H2O2, not superoxide (S10).",
-  "<b>Vitamin C regenerates vitamin E</b> (not the reverse). Vitamin E radical = 'very stable'; vitamin C radical = 'relatively stable' (S17, S18).",
   "<b>Fenton = iron</b> (header 'Fe2+'), inputs <b>2 H2O2</b>, outputs HOO· + HO· (not superoxide in). NOS: arginine → <b>citrulline</b> + ·NO. Ischemia builds up <b>succinate</b> (not fumarate). Glutathione = glu<b>tamate</b> (not glutamine)–cysteine–glycine (S9, S10, S16).",
-  "<b>Selenocysteine placement (slide):</b> thioredoxin <b>reductase</b> (S15) and glutathione <b>reductase</b> (S16) — not the peroxidase on these slides. Textbooks differ (see flag)."
+  "<b>Selenocysteine placement (slide):</b> thioredoxin <b>reductase</b> (S15) and glutathione <b>reductase</b> (S16) — not the peroxidase on these slides. Textbooks differ (see flag).",
+  "<b>Vitamin C regenerates vitamin E</b> (not the reverse). Slide: E radical \"very stable\", C \"relatively stable\"; transcript called both \"relatively stable.\" C = blood (water), E = membranes (lipid), glutathione = inside the cell.",
+  "<b>Toxicity timing:</b> acetaminophen damage starts when <b>glutathione is depleted</b>, not when NAPQI first forms. Treat with <b>N-acetylcysteine</b> (glutathione itself can't cross membranes).",
+  "<b>Catalase flip:</b> protective for you, but a <b>virulence factor</b> when bacteria make it.",
+  "<b>Hyperoxia vs hypoxia sensors:</b> hypoxia → <b>HIF</b> survives · hyperoxia → <b>oxidized thioredoxin releases ASK1</b> (reduced thioredoxin holds it)."
  ],
  "know": [
   {
@@ -841,6 +868,126 @@
    "why": "S11: oxidized/cross-linked DNA, DNA adducts; lipid peroxides/adducts; oxidized amino acids, protein dimers/adducts. Glucuronide is from the acetaminophen case, not ROS damage.",
    "cite": "S11",
    "sure": true
+  },
+  {
+   "stem": "A cat is given acetaminophen. Why is there no safe dose for cats?",
+   "ok": "Cats lack glucuronidation, so all of it becomes NAPQI",
+   "bad": [
+    "Cats lack cytochrome P450, so it accumulates unchanged",
+    "Cats lack catalase, so NAPQI is not broken down",
+    "Cats lack N-acetylcysteine, so glutathione can't form"
+   ],
+   "why": "Cats lack the glucuronidation enzyme; 100% goes through oxidation to NAPQI.",
+   "cite": "S12 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "In acetaminophen toxicity, when does severe liver damage begin?",
+   "ok": "Once liver glutathione is depleted by NAPQI",
+   "bad": [
+    "As soon as the first NAPQI is formed",
+    "Once glucuronidation enzymes are induced",
+    "Once vitamin C in the blood runs out"
+   ],
+   "why": "Glutathione neutralizes NAPQI first; damage starts when it runs out.",
+   "cite": "S19 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "Why is N-acetylcysteine given instead of glutathione for acetaminophen toxicity?",
+   "ok": "Glutathione can't cross membranes; NAC is a building block",
+   "bad": [
+    "NAC is a stronger oxidant that destroys NAPQI",
+    "NAC restores glucuronidation in the cat liver",
+    "Glutathione is toxic to hepatocytes at high doses"
+   ],
+   "why": "Liver takes up N-acetylcysteine and uses it to rebuild glutathione.",
+   "cite": "S19 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "Which antioxidant did Basel call the most important INTRACELLULAR antioxidant?",
+   "ok": "Glutathione",
+   "bad": [
+    "Thioredoxin",
+    "Vitamin C",
+    "Vitamin E"
+   ],
+   "why": "Glutathione: cheap tripeptide, abundant in every cell.",
+   "cite": "S16 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "Match each antioxidant to its main location: vitamin C, vitamin E, glutathione.",
+   "ok": "Blood · membranes · inside the cell",
+   "bad": [
+    "Membranes · blood · inside the cell",
+    "Inside the cell · membranes · blood",
+    "Blood · inside the cell · membranes"
+   ],
+   "why": "Vitamin C = water-soluble, extracellular; vitamin E = lipid tail in membranes; glutathione = intracellular.",
+   "cite": "S16–S18 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "A bacterium survives inside neutrophil phagosomes. Which enzyme it makes best explains this?",
+   "ok": "Catalase, breaking down the phagocyte's H2O2",
+   "bad": [
+    "NADPH oxidase, making its own superoxide",
+    "Myeloperoxidase, converting H2O2 to bleach",
+    "Glutathione reductase, regenerating NADPH"
+   ],
+   "why": "Bacterial catalase is a virulence factor: it removes H2O2 from the respiratory burst.",
+   "cite": "S14 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "A cell is exposed to hyperoxia. Which sequence follows?",
+   "ok": "Thioredoxin oxidized → ASK1 released → MAPK → apoptosis",
+   "bad": [
+    "Thioredoxin reduced → ASK1 bound → MAPK → survival",
+    "HIF hydroxylated → ASK1 released → MAPK → apoptosis",
+    "Thioredoxin oxidized → HIF released → MAPK → apoptosis"
+   ],
+   "why": "Reduced thioredoxin holds ASK1 (a MAPKKK); oxidation releases it → MAPK → hyperoxia genes, then apoptosis.",
+   "cite": "S25 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "Why does taking megadoses of vitamin C not build up antioxidant protection?",
+   "ok": "It is water soluble, so excess is excreted in urine",
+   "bad": [
+    "It is lipid soluble, so excess is stored in fat",
+    "It is converted to vitamin E, which is then excreted",
+    "It inhibits glutathione synthesis at high doses"
+   ],
+   "why": "Water-soluble: more in, more peed out.",
+   "cite": "transcript",
+   "sure": true
+  },
+  {
+   "stem": "Why must free iron be bound by transferrin and ferritin?",
+   "ok": "Free iron drives Fenton reactions, making strong radicals",
+   "bad": [
+    "Free iron inhibits superoxide dismutase in all cells",
+    "Free iron binds glutathione and blocks regeneration",
+    "Free iron converts NAPQI back into acetaminophen"
+   ],
+   "why": "Fenton: iron turns H2O2 into HOO· and HO· radicals.",
+   "cite": "S10 + transcript",
+   "sure": true
+  },
+  {
+   "stem": "Ionizing radiation enters a cell. What is it most likely to hit first, and what results?",
+   "ok": "Water, generating radicals and superoxide",
+   "bad": [
+    "DNA, generating strand breaks only",
+    "Lipids, generating vitamin E radicals",
+    "Iron, generating ferritin and transferrin"
+   ],
+   "why": "Cells have far more water than DNA; radiolysis makes ROS.",
+   "cite": "S10 + transcript",
+   "sure": true
   }
  ],
  "flags": [
@@ -855,10 +1002,6 @@
   [
    "Slide typos",
    "'glucurorinidation' and 'Acetominophen' (S12), 'fumurate' (S9), 'Citruline' (S10), 'antixodiants' (S13), 'Stuart, Ira, and Fox' (S21; one author, Stuart Ira Fox) · correct spellings: glucuronidation, acetaminophen, fumarate, citrulline, antioxidants."
-  ],
-  [
-   "Feline acetaminophen: liver vs blood (S12, S19)",
-   "Slide frames toxicity as NAPQI oxidative liver damage/cell death. OUTSIDE — confirm: textbooks emphasize feline methemoglobinemia/Heinz bodies (fits the cyanosis and edema on S3) and also cite low sulfation capacity · use the slide's liver/GSH framing for the exam."
   ],
   [
    "'Hydroxylation' naming (S12)",
@@ -877,18 +1020,6 @@
    "Net equations show H2O2 + 2 NADPH + H+ → 2 H2O + 2 NADP+. OUTSIDE — confirm: one H2O2 needs 2 electrons = 1 NADPH · don't memorize coefficients; know NADPH powers regeneration."
   ],
   [
-   "Selenocysteine location (S15, S16)",
-   "Checked against slide image: S15 puts 'selenocysteines!' under thioredoxin reductase; S16 puts it directly under glutathione REDUCTASE. OUTSIDE — confirm: textbooks say glutathione PEROXIDASE is the selenoenzyme and glutathione reductase is not · slides win for the exam (reductase on both slides); confirm with transcript."
-  ],
-  [
-   "Transferrin, transferrin receptor, ferritin (S13)",
-   "Listed in S13 terms but on no slide · definitions are OUTSIDE — confirm with transcript (likely iron sequestration to limit Fenton chemistry)."
-  ],
-  [
-   "Glomus sensor details (S23)",
-   "Checked against slide image: NADPH oxidase superoxide (normoxia) has an arrow to the K+ channel (keeps it open); AMP kinase (hypoxia) has an inhibition bar on the K+ channel; heme oxygenase makes CO in normoxia but no CO-to-channel link is drawn; polarized cell inhibits the Ca2+ channel · how CO acts is OUTSIDE — confirm with transcript."
-  ],
-  [
    "HIF details (S24)",
    "Slide gives only prolyl hydroxylase → proteasome vs hypoxia response genes. OUTSIDE — confirm: HIF-1α, von Hippel–Lindau protein, erythropoietin/vascular endothelial growth factor targets · not responsible unless transcript adds them."
   ],
@@ -903,6 +1034,30 @@
   [
    "S10 equations — checked",
    "Checked against slide image: Fenton = iron (header 'Fe2+', ball labeled Fe^x+) + 2 H2O2 → H2O + HOO· + HO· (no superoxide input). NOS = 2 arginine + 3 NADPH + 3 H+ + 4 O2 → 2 citrulline + 4 H2O + 3 NADP+ + 3 ·NO. The NOS figure doesn't balance (2 arginine → 3 ·NO) · don't memorize coefficients; know arginine → citrulline + ·NO."
+  ],
+  [
+   "Selenocysteine location — CLOSED by transcript",
+   "Basel tied selenium to thioredoxin reductase (matches slide); not needed beyond that · use the slide."
+  ],
+  [
+   "Transferrin/ferritin — CLOSED by transcript",
+   "Transferrin carries iron in blood; ferritin stores it in cells; both block Fenton chemistry."
+  ],
+  [
+   "Glomus CO — CLOSED by transcript",
+   "Heme oxygenase makes CO, which keeps K+ channels open in normoxia; superoxide also keeps them open; AMP kinase closes them in hypoxia. Basel: 'I don't care that much about systems.'"
+  ],
+  [
+   "Feline acetaminophen — mostly closed",
+   "Transcript: liver damage from NAPQI after glutathione depletion; also mentions hemoglobin damage. Use liver/glutathione framing."
+  ],
+  [
+   "Vitamin E radical stability",
+   "Slide S18: 'very stable'; transcript: 'relatively stable' · if asked, E is the more stable of the two per slide; don't overthink."
+  ],
+  [
+   "Last slide (TrxR inhibitors)",
+   "Basel skipped it: 'Don't worry about this.'"
   ]
  ]
 }
