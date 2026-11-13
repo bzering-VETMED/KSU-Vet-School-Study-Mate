@@ -1,4 +1,4 @@
-# Cell Physiology · Exam 4 · Dr. Basel old exams (2018–2023), answered from LC28–LC33 (2026 numbering), graphs included.
+# Cell Physiology · Exam 4 · Dr. Basel old exams (2018–2025), answered from LC28–LC33 (2026 numbering), graphs included.
 # Data: tools/cellphys_e4_baselold.json (built from Bethany's "Cell Signaling Questions" doc). One page per exam + a repeats page.
 import html, json, os, re
 import deck
@@ -6,7 +6,7 @@ from cellphys_pathways import _copyjs
 from cellphys_oldexams import XCSS
 E = html.escape
 HERE = os.path.dirname(__file__)
-YEARS = ['2023', '2022', '2021', '2020', '2019', '2018']
+YEARS = ['2025', '2023', '2022', '2021', '2020', '2019', '2018']
 LABEL = {'2022': '2022 Exam 2'}
 REP = 'cellphys-basel-repeats.html'
 GCSS = '.exq img{max-width:100%;border:1px solid #e6d9f0;border-radius:10px;margin:6px 0;background:#fff}.parts{margin:6px 0 0 18px;padding:0}.parts li{margin:3px 0}'
@@ -41,7 +41,7 @@ def _write(fn, title, sub, sel, HUB, cj):
 
 def build_e4_baselold(HUB, V):
     qs = json.load(open(os.path.join(HERE, 'cellphys_e4_baselold.json'))); cj = _copyjs()
-    tiles = '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">📝 Dr. Basel old exams (2018–2023) · graphs included · tap to reveal</div>'
+    tiles = '<div style="grid-column:1/-1;font-weight:900;color:#70428f;margin-top:8px">📝 Dr. Basel old exams (2018–2025) · graphs included · tap to reveal</div>'
     seen = set(); rep = []
     for q in qs:
         if q['rep'] and q['scope'] == 'in' and q['grp'] not in seen:

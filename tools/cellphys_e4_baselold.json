@@ -1,4400 +1,5766 @@
 [
-{
-"n": 1,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of the following enzymes is required for synthesis of all eicosanoids?",
-"opts": [
-[
-"a",
-"5-leukotriene oxidase (5-LOX)"
-],
-[
-"b",
-"Phospholipase A₂"
-],
-[
-"c",
-"Prostaglandin Synthase 1 (PTGS1/COX1)"
-],
-[
-"d",
-"Prostaglandin Synthase 2 (PTGS2/COX2)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "PLA2 cuts arachidonic acid out of membrane phospholipid: the starting step for every eicosanoid.",
-"cite": "LC28 S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2020",
-"2023"
-],
-"grp": 0
-},
-{
-"n": 2,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Prostaglandin E₂ receptor EP₂ is a G_(s)-coupled receptor. What second messenger would be expected in response to PGE₂ in cells expressing EP₂?",
-"opts": [
-[
-"a",
-"Decreased cAMP"
-],
-[
-"b",
-"Increased cAMP"
-],
-[
-"c",
-"Increased DAG"
-],
-[
-"d",
-"Increased IP₃"
-],
-[
-"e",
-"Increased Ras activity"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Gs → adenylyl cyclase → ↑ cAMP.",
-"cite": "LC27; LC28 S9",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2020",
-"2023"
-],
-"grp": 11
-},
-{
-"n": 3,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of the following pharmaceutical classes is most likely to cause ulcers in the digestive epithelium?",
-"opts": [
-[
-"a",
-"Coxibs"
-],
-[
-"b",
-"Glucocorticoids"
-],
-[
-"c",
-"NSAIDs"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "NSAIDs block COX-1 → ↓ protective PGE2 + shunt to LTB4 → ulcers. Coxibs = cardiovascular; glucocorticoids = immunosuppression/catabolism.",
-"cite": "LC28 S20–S22",
-"flag": "",
-"scope": "in",
-"rep": [
-"2020",
-"2023"
-],
-"grp": 17
-},
-{
-"n": 4,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which cell-cycle checkpoint is the go/no-go decision point for cell cycle?",
-"opts": [
-[
-"a",
-"D checkpoint"
-],
-[
-"b",
-"G₁/S checkpoint"
-],
-[
-"c",
-"G₂/M checkpoint"
-],
-[
-"d",
-"M checkpoint"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "G1/S = the most important go/no-go checkpoint (\"divide or die\").",
-"cite": "LC31 S15",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 5,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Growth factor receptors (e.g. EGF receptor) activate which pathway?",
-"opts": [
-[
-"a",
-"β-catenin pathway"
-],
-[
-"b",
-"G_(s) pathway"
-],
-[
-"c",
-"G_(q) pathway"
-],
-[
-"d",
-"Ras/MAPK pathway"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Receptor tyrosine kinase → SOS → Ras → MAPK.",
-"cite": "LC31 S11",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 6,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "The G₁/S cyclin-dependent kinase phosphorylates which protein?",
-"opts": [
-[
-"a",
-"E2F"
-],
-[
-"b",
-"p21"
-],
-[
-"c",
-"p53"
-],
-[
-"d",
-"pRB"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "G1-CDK phosphorylates pRb → E2F released → S phase.",
-"cite": "LC31 S15",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022",
-"2023"
-],
-"grp": 3
-},
-{
-"n": 7,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "After a cell-cycle checkpoint is completed, what generally happens to the associated cyclin?",
-"opts": [
-[
-"a",
-"It is phosphorylated and deactivated"
-],
-[
-"b",
-"It is degraded by the proteasome"
-],
-[
-"c",
-"It binds to the cyclin-dependent kinase and inactivates it"
-],
-[
-"d",
-"It migrates into the nucleus"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "CDK phosphorylates its own cyclin → proteasome, so the cycle can't go back.",
-"cite": "LC31 S14",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 8,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of the following proteins tends to cause mitochondrial pores to remain closed and reduces the activity of the internal apoptotic pathway?",
-"opts": [
-[
-"a",
-"Axin"
-],
-[
-"b",
-"Bax"
-],
-[
-"c",
-"Bcl-2"
-],
-[
-"d",
-"p53"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Bcl-2 keeps mitochondrial pores closed → no cytochrome C release. Bax opens them.",
-"cite": "LC32 S10",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 9,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "A neoplasm that expresses high levels of Fas would likely:",
-"opts": [
-[
-"a",
-"Be very susceptible to immune destruction"
-],
-[
-"b",
-"Have reduced susceptibility to immune destruction"
-],
-[
-"c",
-"Cause apoptosis of cytotoxic T-cells"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Fas on the tumor = target for FasL on cytotoxic T cells → extrinsic apoptosis → very susceptible. Tumors that EXPRESS FasL kill T cells instead.",
-"cite": "LC32 S12–S14",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 10,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of the following proteins would be correctly identified as a protooncogene? (select ALL that apply)",
-"opts": [
-[
-"a",
-"β-catenin"
-],
-[
-"b",
-"Bcl-2"
-],
-[
-"c",
-"E2F"
-],
-[
-"d",
-"pRB"
-],
-[
-"e",
-"Ras"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "abce",
-"conf": "likely",
-"why": "Gain of activity causes cancer: β-catenin, Bcl-2, E2F, Ras = proto-oncogenes. pRb = tumor suppressor.",
-"cite": "LC32 S17–S20",
-"flag": "β-catenin, Bcl-2 and E2F classified by the gain/loss rule; confirm at review if unsure.",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 11,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of the following proteins would be correctly identified as a tumor suppressor gene? (select ALL that apply)",
-"opts": [
-[
-"a",
-"APC"
-],
-[
-"b",
-"Bax"
-],
-[
-"c",
-"p21"
-],
-[
-"d",
-"p53"
-],
-[
-"e",
-"pRB"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "abcde",
-"conf": "likely",
-"why": "Loss of activity causes cancer: APC, Bax, p21, p53, pRb are all brakes = tumor suppressors. Select-all where every option is correct.",
-"cite": "LC32 S17–S20",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 12,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of the following could produce extra oxidative stress in a cell? (select ALL that apply)",
-"opts": [
-[
-"a",
-"Chronic inflammation"
-],
-[
-"b",
-"Excess Vitamin C intake"
-],
-[
-"c",
-"Excess Vitamin E intake"
-],
-[
-"d",
-"Hemachromatosis (excess iron in the blood)"
-],
-[
-"e",
-"Reperfusion following transient infarct"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "ade",
-"conf": "sure",
-"why": "Chronic inflammation (respiratory burst), excess iron (Fenton), reperfusion (reverse electron flow) all raise ROS. Vitamins C and E are antioxidants.",
-"cite": "LC33 S9–S10",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2023"
-],
-"grp": 13
-},
-{
-"n": 13,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Some pathogenic bacteria (e.g. staphylococcal aureus) express high levels of catalase. High levels of catalase expression could cause which of the following?",
-"opts": [
-[
-"a",
-"Increased susceptibility of the bacteria to oxidative damage"
-],
-[
-"b",
-"Inability of neutrophils to recognize the bacteria"
-],
-[
-"c",
-"Reduced metabolic rate of the immune system"
-],
-[
-"d",
-"Resistance of the bacteria to lysosomal degradation by phagocytes"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Catalase destroys the phagocyte's H2O2 → bacteria survive inside phagocytes (virulence factor).",
-"cite": "LC33 S14 + transcript",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 14,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "An increase in oxidized thioredoxin will activate which signaling pathway?",
-"opts": [
-[
-"a",
-"ASK1 – MAPK pathway"
-],
-[
-"b",
-"Glomus cell depolarization – neural signaling pathway"
-],
-[
-"c",
-"HIF – hypoxia inducible genes pathway"
-],
-[
-"d",
-"Ras – MAPK pathway"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Oxidized thioredoxin releases ASK1 (a MAPKKK) → MAPK → hyperoxia genes/apoptosis.",
-"cite": "LC33 S25",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022",
-"2023"
-],
-"grp": 14
-},
-{
-"n": 15,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Which of these is an important membrane antioxidant?",
-"opts": [
-[
-"a",
-"Glutathione"
-],
-[
-"b",
-"Superoxide Dismutase"
-],
-[
-"c",
-"Vitamin C"
-],
-[
-"d",
-"Vitamin E"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Vitamin E has a lipid tail → membrane antioxidant. Glutathione = intracellular; vitamin C = blood.",
-"cite": "LC33 S18 + transcript",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 16,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "Please explain why Coxibs may potentiate clotting events.",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": true,
-"ans": "MODEL ANSWER: Coxibs block COX-2 → ↓ endothelial PGI2 (anti-clotting, Gs) while platelet COX-1 still makes TxA2 (pro-clotting, Gq) → balance tips toward clotting → cardiovascular events.",
-"conf": "sure",
-"why": "Clotting rule: block COX-2 → toward clotting.",
-"cite": "LC28 S7, S26",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 17,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the K_(d) of Compound A",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "You are exploring new treatments for reducing hypoglycemia in insulinoma patients by targeting the glucagon receptor. Compounds A and B bind the glucagon receptor. Use the graphs to answer.",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~1 µM (50% of glucagon receptors bound).",
-"conf": "sure",
-"why": "Binding graph: Compound A crosses 50% bound at 1 µM.",
-"cite": "Graph 2 · LC30 S9–S10",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 18,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the K_(d) of Compound B?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~3 µM.",
-"conf": "sure",
-"why": "Binding graph: Compound B crosses 50% bound at ~3 µM (higher KD = lower affinity than A).",
-"cite": "Graph 2",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 19,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the EC₅₀ of Compound A?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~1 µM.",
-"conf": "likely",
-"why": "Response runs from ~150 (baseline) to ~550 nM cAMP; halfway (~350) is at ~1 µM. EC50 ≈ KD → no spare receptors.",
-"cite": "Graph 1 · LC29 S12–S14",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 20,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the E_(max) of Compound A?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~550 nM cAMP (an increase of ~400 nM over the ~150 nM baseline).",
-"conf": "likely",
-"why": "Top plateau of the solid curve. Give units of the RESPONSE (nM cAMP), not drug concentration.",
-"cite": "Graph 1",
-"flag": "Whether Basel wants the plateau (550) or the rise above baseline (400) is unclear; state both.",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 21,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What type of ligand is Compound B (be as specific as possible)? Why?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: Non-competitive antagonist. It binds the receptor (binding graph) but causes no cAMP alone, and with A it LOWERS Emax (550 → ~375) without a big EC50 shift.",
-"conf": "sure",
-"why": "Lower ceiling = non-competitive; a right shift with the same ceiling would be competitive.",
-"cite": "Graphs 1–2 · LC29 S20–S22",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 22,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the ED50 of Compound A?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~3 mg/kg.",
-"conf": "sure",
-"why": "Solid (therapeutic) curve crosses 50% of the population at ~3 mg/kg.",
-"cite": "Graph 3 · LC30 S15–S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 23,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the LD50 of Compound A?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~300 mg/kg.",
-"conf": "sure",
-"why": "Dotted (life-threatening) curve crosses 50% at ~300 mg/kg.",
-"cite": "Graph 3",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 24,
-"year": "2023",
-"exam": "2023 Exam 4",
-"stem": "What is the therapeutic index of Compound A?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g1.png",
-"assets/cellphys_basel_g2.png",
-"assets/cellphys_basel_g3.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~100 (no units).",
-"conf": "sure",
-"why": "TI = LD50 / ED50 = 300 / 3 ≈ 100. Ratio = unitless.",
-"cite": "LC30 S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 25,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which compound has the higher affinity for the insulin receptor?",
-"opts": [
-[
-"a",
-"Compound 1556"
-],
-[
-"b",
-"Compound 2334"
-],
-[
-"c",
-"Not enough information to determine"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "You are investigating ligands of the insulin receptor (compounds 1556, 2334, B): binding studies, skeletal muscle activation (measured as increasing IP3), and in vivo reduction of hyperglycemic events. Use the graphs to answer.",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Binding graph: 2334 KD ≈ 3 µM vs 1556 KD ≈ 30 µM → lower KD = higher affinity.",
-"cite": "Graph 2 · LC30 S10",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 26,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which compound has the higher potency on skeletal muscle cells?",
-"opts": [
-[
-"a",
-"Compound 1556"
-],
-[
-"b",
-"Compound 2334"
-],
-[
-"c",
-"Not enough information to determine"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "EC50: 2334 ≈ 2 µM (half of 400) vs 1556 ≈ 30 µM (half of 650) → lower EC50 = more potent.",
-"cite": "Graph 1 · LC29 S13",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 27,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which compound has the higher efficacy on skeletal muscle cells?",
-"opts": [
-[
-"a",
-"Compound 1556"
-],
-[
-"b",
-"Compound 2334"
-],
-[
-"c",
-"Not enough information to determine"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Emax: 1556 ≈ 650 nM IP3 vs 2334 ≈ 400 → 1556 has higher efficacy.",
-"cite": "Graph 1 · LC29 S12",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 28,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "If insulin (the endogenous agonist) has an E_(max) on your skeletal system of approximately 500 nM IP₃, compound 1556 would best be considered a:",
-"opts": [
-[
-"a",
-"Competitive Antagonist"
-],
-[
-"b",
-"Full Agonist"
-],
-[
-"c",
-"Non-competitive Antagonist"
-],
-[
-"d",
-"Partial Agonist"
-],
-[
-"e",
-"Super Agonist"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "e",
-"conf": "sure",
-"why": "1556 Emax (~650) > insulin's 500 → super agonist.",
-"cite": "LC29 S19",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 29,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "If insulin (the endogenous agonist) has an E_(max) on your skeletal system of approximately 500 nM IP₃, compound 2334 would best be considered a:",
-"opts": [
-[
-"a",
-"Competitive Antagonist"
-],
-[
-"b",
-"Full Agonist"
-],
-[
-"c",
-"Non-competitive Antagonist"
-],
-[
-"d",
-"Partial Agonist"
-],
-[
-"e",
-"Super Agonist"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "2334 Emax (~400) < insulin's 500 → partial agonist.",
-"cite": "LC29 S19",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 30,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "You decided not to continue pursuing compound B, because though it bound to the insulin receptor, it didn’t appear to activate the insulin receptor. Based on your studies, compound B would best be considered a:",
-"opts": [
-[
-"a",
-"Competitive Antagonist"
-],
-[
-"b",
-"Full Agonist"
-],
-[
-"c",
-"Non-competitive Antagonist"
-],
-[
-"d",
-"Partial Agonist"
-],
-[
-"e",
-"Super Agonist"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "B alone does nothing, but it halves the Emax of both agonists (650 → ~325, 400 → ~200) → non-competitive antagonist.",
-"cite": "Graph 1 · LC29 S21",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 31,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Do there appear to be spare insulin receptors in skeletal muscle in the system you are using?",
-"opts": [
-[
-"a",
-"Yes"
-],
-[
-"b",
-"No"
-],
-[
-"c",
-"Impossible to determine"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "EC50 ≈ KD for both compounds (1556: ~30 vs ~30; 2334: ~2 vs ~3) → no spare receptors.",
-"cite": "LC30 S21–S23",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 32,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "What is the E_(max) of compound 1556?",
-"opts": [
-[
-"a",
-"1 mg/kg compound 1556"
-],
-[
-"b",
-"30 μM compound 1556"
-],
-[
-"c",
-"100% receptors bound"
-],
-[
-"d",
-"625 nM IP₃"
-],
-[
-"e",
-"1200 μM compound 1556"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Emax is in RESPONSE units: top of the 1556 curve ≈ 625–650 nM IP3.",
-"cite": "Graph 1",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 33,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "In your model organism, what was the ED₅₀ of compound 1556?",
-"opts": [
-[
-"a",
-"1 mg/kg compound 1556"
-],
-[
-"b",
-"30 μM compound 1556"
-],
-[
-"c",
-"125 mg/kg compound 1556"
-],
-[
-"d",
-"625 nM IP₃"
-],
-[
-"e",
-"1200 μM compound 1556"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Therapeutic curve crosses 50% at 1 mg/kg.",
-"cite": "Graph 3",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 34,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "In your model organism, what was the LD₅₀ of compound 1556?",
-"opts": [
-[
-"a",
-"1 mg/kg compound 1556"
-],
-[
-"b",
-"30 μM compound 1556"
-],
-[
-"c",
-"125 mg/kg compound 1556"
-],
-[
-"d",
-"625 nM IP₃"
-],
-[
-"e",
-"1200 μM compound 1556"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Hypoglycemia curve crosses 50% at ~125 mg/kg.",
-"cite": "Graph 3",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 35,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Estimate the therapeutic index of compound 1556.",
-"opts": [
-[
-"a",
-"10"
-],
-[
-"b",
-"10 μM"
-],
-[
-"c",
-"125"
-],
-[
-"d",
-"425 Nm"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g4.png",
-"assets/cellphys_basel_g5.png",
-"assets/cellphys_basel_g6.png"
-],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "TI = 125 / 1 = 125 (unitless; the options with units are traps).",
-"cite": "LC30 S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 36,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "During which stage of the cell cycle is DNA replicated?",
-"opts": [
-[
-"a",
-"G0"
-],
-[
-"b",
-"G1"
-],
-[
-"c",
-"G2"
-],
-[
-"d",
-"M"
-],
-[
-"e",
-"S"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "e",
-"conf": "sure",
-"why": "DNA replication = S phase.",
-"cite": "LC31 S5",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 37,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which family of proteins act to integrate cell-cycle checkpoint signals?",
-"opts": [
-[
-"a",
-"β-Catenins"
-],
-[
-"b",
-"Cyclin-dependent kinases (CDK)"
-],
-[
-"c",
-"Mitogen-activated protein kinases (MAPK)"
-],
-[
-"d",
-"Retinoblastoma proteins (pRb)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "CDKs integrate the checkpoint signals.",
-"cite": "LC31 S14",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022"
-],
-"grp": 9
-},
-{
-"n": 38,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Cyclin-dependent kinase (CDK) activity require which signal(s)? (select ALL that apply)",
-"opts": [
-[
-"a",
-"Binding to a phase dependent cyclin"
-],
-[
-"b",
-"Having a kinase add a phosphate"
-],
-[
-"c",
-"Having a phosphatase remove a phosphate"
-],
-[
-"d",
-"Having a protease cleave the CDK"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "abc",
-"conf": "sure",
-"why": "Cyclin bound + kinase adds a phosphate + phosphatase removes one. No protease cleavage.",
-"cite": "LC31 S14",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 39,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "A mutation that prevents phosphorylation of β-catenin is likely to lead to:",
-"opts": [
-[
-"a",
-"Apoptosis"
-],
-[
-"b",
-"Quiescence"
-],
-[
-"c",
-"Senescence"
-],
-[
-"d",
-"Unregulated cell division"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Unphosphorylated β-catenin is never destroyed → always transcribes cyclin D → unregulated division.",
-"cite": "LC31 S13",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022"
-],
-"grp": 16
-},
-{
-"n": 40,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which of the following proteins is important in synthesis of the leukotrienes?",
-"opts": [
-[
-"a",
-"5-lipoxygenase (5-LOX)"
-],
-[
-"b",
-"Protein Kinase A (PKA)"
-],
-[
-"c",
-"Protein Kinase B (PKB/AKT)"
-],
-[
-"d",
-"Prostaglandin-G/H-Synthase 1 (PTGS1)"
-],
-[
-"e",
-"Prostaglandin-G/H-Synthase 2 (PTGS2)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "5-LOX makes leukotrienes; PTGS1/2 make prostanoids.",
-"cite": "LC28 S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 1
-},
-{
-"n": 41,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "PGI2 production in the endothelium is dependent on which enzyme? (select ALL that apply)",
-"opts": [
-[
-"a",
-"5-lipoxygenase (5-LOX)"
-],
-[
-"b",
-"Protein Kinase A (PKA)"
-],
-[
-"c",
-"Protein Kinase B (PKB/AKT)"
-],
-[
-"d",
-"Prostaglandin-G/H-Synthase 1 (PTGS1)"
-],
-[
-"e",
-"Prostaglandin-G/H-Synthase 2 (PTGS2)"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "e",
-"conf": "likely",
-"why": "Endothelial PGI2 is made by PTGS2 (COX-2) per the lecture framing.",
-"cite": "LC28 S7, S26",
-"flag": "Select-all: Basel ties endothelial PGI2 to COX-2. Some textbooks also credit COX-1 in endothelium; slides win.",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 42,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "What class of drugs selectively inhibits PGI2 synthesis in endothelial cells?",
-"opts": [
-[
-"a",
-"Acetaminophen"
-],
-[
-"b",
-"Corticosteroids"
-],
-[
-"c",
-"Coxibs"
-],
-[
-"d",
-"NSAIDs"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Coxibs block COX-2 only → ↓ endothelial PGI2.",
-"cite": "LC28 S26",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 2
-},
-{
-"n": 43,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "G1-CDK phosphorylates which protein to move through the G1/S checkpoint?",
-"opts": [
-[
-"a",
-"E2F"
-],
-[
-"b",
-"MAPK"
-],
-[
-"c",
-"p53"
-],
-[
-"d",
-"pRB"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "G1-CDK phosphorylates pRb → E2F released.",
-"cite": "LC31 S15",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022",
-"2023"
-],
-"grp": 3
-},
-{
-"n": 44,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which of the following proteins potentiates apoptosis by causing mitochondrial membrane pores to open?",
-"opts": [
-[
-"a",
-"Bax"
-],
-[
-"b",
-"Bcl-2"
-],
-[
-"c",
-"Caspase 9"
-],
-[
-"d",
-"Fas"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Bax opens mitochondrial pores → cytochrome C → caspase 9.",
-"cite": "LC32 S10",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 4
-},
-{
-"n": 45,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Mutated AKT (PKB) that gains constitutive activity would lead to _________ __________ in the cell and would potentiate __________.",
-"opts": [
-[
-"a",
-"Decreased p53 activation, cell cycling"
-],
-[
-"b",
-"Increased Bax, apoptosis"
-],
-[
-"c",
-"Increased Bcl-2, cell survival"
-],
-[
-"d",
-"Increased MAPK signaling, cell cycling"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Always-on AKT → ↑ Bcl-2 → cell survival (brakes off).",
-"cite": "LC31 S12; LC32",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 5
-},
-{
-"n": 46,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "β-catenin can promote tumorigenesis if it is mutated in a way that prevents phosphorylation by the Axin-GSK3-APC complex. β-catenin would best be considered a(n):",
-"opts": [
-[
-"a",
-"Oncogene"
-],
-[
-"b",
-"Proto-oncogene"
-],
-[
-"c",
-"Tumor suppressor gene"
-],
-[
-"d",
-"Viral oncogene"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Wild-type β-catenin is a proto-oncogene; the mutation that blocks its destruction makes it oncogenic (gain of activity).",
-"cite": "LC32 S17",
-"flag": "",
-"scope": "in",
-"rep": [
-"2020",
-"2021",
-"2022"
-],
-"grp": 8
-},
-{
-"n": 47,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Theoretically, could this mutated β-catenin become a viral oncogene?",
-"opts": [
-[
-"a",
-"Yes"
-],
-[
-"b",
-"No"
-],
-[
-"c",
-"Impossible to determine"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "unsure",
-"why": "A gain-of-function mutant (like this β-catenin) could be carried by a virus as a viral oncogene.",
-"cite": "LC32 S25–S30",
-"flag": "Viral oncogenes are NOT tested in 2026 (Basel).",
-"scope": "out",
-"rep": [],
-"grp": null
-},
-{
-"n": 48,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Reactive oxygen species are produced in the mitochondria during (select ALL that apply):",
-"opts": [
-[
-"a",
-"Hypoglycemia"
-],
-[
-"b",
-"Normal metabolism"
-],
-[
-"c",
-"Ischemia"
-],
-[
-"d",
-"Reperfusion"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "bd",
-"conf": "likely",
-"why": "Normal metabolism (Complexes I and III leak superoxide) and reperfusion (reverse electron flow). During ischemia there is no O2 to make ROS.",
-"cite": "LC33 S9 + transcript",
-"flag": "Ischemia itself sets up the damage (succinate build-up), but the ROS burst happens at reperfusion.",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 49,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which of the following is a protein antioxidant that can activate hyperoxia signaling pathways?",
-"opts": [
-[
-"a",
-"Catalase"
-],
-[
-"b",
-"Glutathione"
-],
-[
-"c",
-"Thioredoxin"
-],
-[
-"d",
-"Vitamin C"
-],
-[
-"e",
-"Vitamin E"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Thioredoxin = protein antioxidant whose oxidation releases ASK1 (hyperoxia signaling).",
-"cite": "LC33 S15, S25",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022",
-"2023"
-],
-"grp": 14
-},
-{
-"n": 50,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which of the following pharmaceuticals is known to be metabolized to a reactive oxygen species in the liver?",
-"opts": [
-[
-"a",
-"Acetaminophen"
-],
-[
-"b",
-"Dexamethasone"
-],
-[
-"c",
-"Firocoxib"
-],
-[
-"d",
-"Ibuprofen"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Acetaminophen → cytochrome P450 → NAPQI.",
-"cite": "LC33 S12",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 6
-},
-{
-"n": 51,
-"year": "2022",
-"exam": "2022 Exam 2",
-"stem": "Which of the following would could potentially be a treatment to reduce oxidative damage in the liver?",
-"opts": [
-[
-"a",
-"Ebselen (an experimental drug that mimics GSH)"
-],
-[
-"b",
-"PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
-],
-[
-"c",
-"Q6 (an experimental drug that downregulates HIF-1α)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Ebselen mimics glutathione → neutralizes oxidants in the liver.",
-"cite": "LC33 S16, S19",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 7
-},
-{
-"n": 52,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Which of the following drug classes reduces production of both prostaglandins and leukotrienes?",
-"opts": [
-[
-"a",
-"Aminosalicylates"
-],
-[
-"b",
-"Coxibs"
-],
-[
-"c",
-"Glucocorticoids"
-],
-[
-"d",
-"Non-steroidal anti-inflammatories"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Glucocorticoids ↑ annexin A1 → block PLA2 → both prostaglandins AND leukotrienes ↓.",
-"cite": "LC28 S15–S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 53,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "You are testing a new drug candidate, Substance A. When cells are treated with substance A, signaling through the PGE₂R (EP₂) is reduced. Further examination shows that substance A increases the EC₅₀ of PGE₂ at the PGE₂R (EP₂) without significantly affecting the E_(Max). Based on this information, you would classify Substance A as:",
-"opts": [
-[
-"a",
-"An agonist of PGE₂R (EP₂)"
-],
-[
-"b",
-"An inverse agonist of PGE₂R (EP₂)"
-],
-[
-"c",
-"A competitive antagonist of PGE₂R (EP₂)"
-],
-[
-"d",
-"A non-competitive antagonist of PGE₂R (EP₂)"
-],
-[
-"e",
-"An irreversible antagonist of PGE₂R (EP₂)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "EC50 ↑ with Emax unchanged = competitive antagonist.",
-"cite": "LC29 S21",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2021"
-],
-"grp": 15
-},
-{
-"n": 54,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "You are plotting the concentration of a drug in plasma versus time after oral administration. This study would be considered a:",
-"opts": [
-[
-"a",
-"Pharmacokinetic study"
-],
-[
-"b",
-"Pharmacodynamic study"
-],
-[
-"c",
-"Not enough information to tell"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Plasma drug concentration over time = what the body does to the drug = pharmacokinetics.",
-"cite": "LC30 S5–S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2021"
-],
-"grp": 10
-},
-{
-"n": 55,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Which of the following proteins integrates cell-cycle checkpoints to make the go/no-go decision on cell cycle?",
-"opts": [
-[
-"a",
-"Cyclins"
-],
-[
-"b",
-"Cyclin Dependent Kinases"
-],
-[
-"c",
-"Growth Factor Receptors"
-],
-[
-"d",
-"p53"
-],
-[
-"e",
-"Retinoblastoma Protein"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Cyclin-dependent kinases integrate checkpoints.",
-"cite": "LC31 S14",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022"
-],
-"grp": 9
-},
-{
-"n": 56,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "In cells sensitive to Wnt, mutation of Axin so that it can no longer bind to APC would predispose to:",
-"opts": [
-[
-"a",
-"Apoptosis"
-],
-[
-"b",
-"A degenerative condition"
-],
-[
-"c",
-"A neoplastic condition"
-],
-[
-"d",
-"Metastasis"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Axin can't bind APC → no destruction complex → β-catenin always on → neoplasia.",
-"cite": "LC31 S13",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022"
-],
-"grp": 16
-},
-{
-"n": 57,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Which of the following proteins is important in connecting the DNA Damage Repair pathways to Cell Cycle pathways?",
-"opts": [
-[
-"a",
-"Cyclin B"
-],
-[
-"b",
-"Cyclin D"
-],
-[
-"c",
-"p53"
-],
-[
-"d",
-"Retinoblastoma Protein"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "p53 links DNA damage (ATM) to the cell cycle (p21 → CDK).",
-"cite": "LC31 S15",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 58,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Cytochrome C release from the mitochondria is an important step in:",
-"opts": [
-[
-"a",
-"Cell Cycle Pathway"
-],
-[
-"b",
-"External apoptotic pathway"
-],
-[
-"c",
-"Growth factor pathway"
-],
-[
-"d",
-"Internal apoptotic pathway"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Cytochrome C + Apaf-1 → caspase 9 = internal (intrinsic) pathway.",
-"cite": "LC32 S10–S11",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 59,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Based on its activity in the Wnt/Frizzled pathway, wild type β-catenin would be a(n):",
-"opts": [
-[
-"a",
-"Oncogene"
-],
-[
-"b",
-"Proto-oncogene"
-],
-[
-"c",
-"Tumor suppressor gene"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Normal β-catenin promotes division when it is regulated = proto-oncogene.",
-"cite": "LC32 S17",
-"flag": "",
-"scope": "in",
-"rep": [
-"2020",
-"2021",
-"2022"
-],
-"grp": 8
-},
-{
-"n": 60,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Could a mutated β-catenin that lacked a phosphorylation site be a viral oncogene?",
-"opts": [
-[
-"a",
-"Yes"
-],
-[
-"b",
-"No"
-],
-[
-"c",
-"Not enough information"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "unsure",
-"why": "A gain-of-function β-catenin could be a viral oncogene.",
-"cite": "LC32 S25–S30",
-"flag": "Viral oncogenes are NOT tested in 2026 (Basel).",
-"scope": "out",
-"rep": [],
-"grp": null
-},
-{
-"n": 61,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Which of the following is likely to increase oxidative stress? (select ALL that apply)",
-"opts": [
-[
-"a",
-"Chronic infection"
-],
-[
-"b",
-"Overdose of acetaminophen"
-],
-[
-"c",
-"Overdose of vitamin C"
-],
-[
-"d",
-"Space travel"
-],
-[
-"e",
-"Transient ischemia"
-]
-],
-"parts": [],
-"multi": true,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "abde",
-"conf": "sure",
-"why": "Chronic infection (respiratory burst), acetaminophen overdose (NAPQI), space travel (ionizing radiation), transient ischemia (reperfusion). Vitamin C is an antioxidant (excess is peed out).",
-"cite": "LC33 S9–S12",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2023"
-],
-"grp": 13
-},
-{
-"n": 62,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Which of the following is the most important intracellular antioxidant?",
-"opts": [
-[
-"a",
-"GSH"
-],
-[
-"b",
-"Thioredoxin"
-],
-[
-"c",
-"Vitamin C"
-],
-[
-"d",
-"Vitamin E"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "GSH (glutathione) = \"easily the most important intracellular antioxidant.\"",
-"cite": "LC33 S16 + transcript",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 63,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "Which of the following is an important signaling protein for hyperoxia?",
-"opts": [
-[
-"a",
-"GSH"
-],
-[
-"b",
-"Thioredoxin"
-],
-[
-"c",
-"Vitamin C"
-],
-[
-"d",
-"Vitamin E [A graph with a line Description automatically generated][A graph with a line Description automatically generated] [A graph with a line Description automatically generated][A graph with a line Description automatically generated] [A graph of pain reduced and death Description automatically generated]"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Thioredoxin: oxidized form releases ASK1 → hyperoxia signaling.",
-"cite": "LC33 S25",
-"flag": "",
-"scope": "in",
-"rep": [
-"2021",
-"2022",
-"2023"
-],
-"grp": 14
-},
-{
-"n": 64,
-"year": "2021",
-"exam": "2021 Exam 4",
-"stem": "You are characterizing a new NSAID drug candidate (New NSAID). You have run binding studies, efficacy studies, and dose-response studies on the new drug. Please describe the following (include correct units on all answers):",
-"opts": [],
-"parts": [
-"a. What are the K_(D) of New NSAID at the COX1/PTGS1 and COX2/PTGS2 enzymes?",
-"b. What are the EC₅₀ of New NSAID in the gastric mucosa and in endothelium?",
-"c. What is the E_(Max) of New NSAID in the gastric mucosa and in endothelium?",
-"d. What is the ED₅₀ and LD₅₀ of New NSAID?",
-"e. What is the therapeutic index of New NSAID?",
-"f. Is New NSAID a PTGS1 selective inhibitor, a PTGS2 selective inhibitor, or both equally? Explain.",
-"g. Predict a significant side effect of New NSAID. Explain your prediction."
-],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g10.png",
-"assets/cellphys_basel_g9.png",
-"assets/cellphys_basel_g7.png",
-"assets/cellphys_basel_g8.png",
-"assets/cellphys_basel_g11.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: (a) KD: COX-1 ≈ 100 ng/mL, COX-2 ≈ 1000 ng/mL. (b) EC50: gastric mucosa ≈ 10 ng/mL; endothelium ≈ 1000 ng/mL. (c) Emax: gastric ↓ PGE2 by ~35 ng/mL (45 → 10); endothelium ↓ PGI2 by ~22 ng/mL (30 → 8). (d) ED50 ≈ 0.1 mg/kg; LD50 ≈ 1000 mg/kg. (e) TI ≈ 10,000 (unitless). (f) PTGS1 (COX-1) selective: 10× lower KD at COX-1 and 100× lower EC50 in gastric mucosa (COX-1 tissue). (g) Gastric ulcers (↓ protective PGE2, shunt to LTB4); also possible bleeding (↓ platelet TxA2).",
-"conf": "likely",
-"why": "Read KD from the binding graphs (50% bound), EC50 from halfway between the top and bottom plateaus, ED50/LD50 at 50% population.",
-"cite": "LC29–LC30; LC28 S20–S26",
-"flag": "Gastric EC50 (10) < COX-1 KD (100) suggests spare enzyme capacity/amplification in gastric mucosa.",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 65,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which enzyme is common to all eicosanoid synthesis pathways?",
-"opts": [
-[
-"a",
-"5-lipoxygenase (5-LOX)"
-],
-[
-"b",
-"Phospholipase A2 (PLA2)"
-],
-[
-"c",
-"Prostaglandin-G/H-synthase 1 (PTGS1)"
-],
-[
-"d",
-"Prostaglandin-G/H-synthase 2 (PTGS2)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "PLA2 is common to all eicosanoid pathways.",
-"cite": "LC28 S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2020",
-"2023"
-],
-"grp": 0
-},
-{
-"n": 66,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Selective inhibitors of prostaglandin synthase 2 (PTGS2/COX2) can cause which of the following negative side effects?",
-"opts": [
-[
-"a",
-"Adverse cardiovascular events"
-],
-[
-"b",
-"Gastric/intestinal ulcers"
-],
-[
-"c",
-"Immunosuppression"
-],
-[
-"d",
-"Peripheral catabolism"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "COX-2 selective → ↓ endothelial PGI2 → clotting → cardiovascular events.",
-"cite": "LC28 S26",
-"flag": "",
-"scope": "in",
-"rep": [
-"2020",
-"2023"
-],
-"grp": 17
-},
-{
-"n": 67,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Prostaglandin F2α (PGF2α) signaling causes what event in the female reproductive system?",
-"opts": [
-[
-"a",
-"Implantation of the blastocyst"
-],
-[
-"b",
-"Luteolysis of the corpus luteum"
-],
-[
-"c",
-"Maintenance of the corpus luteum"
-],
-[
-"d",
-"Ovulation of the mature oocyte"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "PGF2α → luteolysis of the corpus luteum.",
-"cite": "LC28 S7",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 68,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which stage of the cell cycle represents quiescent (currently non-dividing) cells?",
-"opts": [
-[
-"a",
-"G0"
-],
-[
-"b",
-"G1"
-],
-[
-"c",
-"G2"
-],
-[
-"d",
-"M"
-],
-[
-"e",
-"S"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "G0 = quiescent (can be reactivated).",
-"cite": "LC31 S5",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 69,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "β-catenin is the effector of which growth factor pathway?",
-"opts": [
-[
-"a",
-"APC"
-],
-[
-"b",
-"EGF"
-],
-[
-"c",
-"IGF-1"
-],
-[
-"d",
-"Wnt"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "β-catenin is the effector of the Wnt pathway.",
-"cite": "LC31 S13",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 70,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which of the following proteins is a proto-oncogene?",
-"opts": [
-[
-"a",
-"APC"
-],
-[
-"b",
-"β-catenin"
-],
-[
-"c",
-"GSK-3"
-],
-[
-"d",
-"Wnt"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "β-catenin = proto-oncogene. APC and GSK-3 are part of the destruction complex (suppressors).",
-"cite": "LC32 S17",
-"flag": "",
-"scope": "in",
-"rep": [
-"2020",
-"2021",
-"2022"
-],
-"grp": 8
-},
-{
-"n": 71,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which of the following proteins is pro-apoptotic signal in the internal apoptosis pathway?",
-"opts": [
-[
-"a",
-"Bax"
-],
-[
-"b",
-"BCL-2"
-],
-[
-"c",
-"FADD"
-],
-[
-"d",
-"FASL"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Bax = pro-apoptotic (opens pores). Bcl-2 = anti-apoptotic; FADD/FasL = external pathway.",
-"cite": "LC32 S10",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 72,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which of the following proteins is a tumor suppressor gene?",
-"opts": [
-[
-"a",
-"AKT"
-],
-[
-"b",
-"Bax"
-],
-[
-"c",
-"EGF"
-],
-[
-"d",
-"Ras"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Bax = tumor suppressor (loss of apoptosis → cancer). AKT, EGF, Ras = proto-oncogene side.",
-"cite": "LC32 S17–S20",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 73,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Mutated forms of which of the following proteins could be a viral oncogene?",
-"opts": [
-[
-"a",
-"APC"
-],
-[
-"b",
-"Bax"
-],
-[
-"c",
-"GSK-3"
-],
-[
-"d",
-"Ras"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "unsure",
-"why": "Ras gain-of-function (can't hydrolyze GTP) is a classic viral oncogene.",
-"cite": "LC32 S25–S30",
-"flag": "Viral oncogenes are NOT tested in 2026 (Basel).",
-"scope": "out",
-"rep": [],
-"grp": null
-},
-{
-"n": 74,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which of the following proteins catalyzes the breakdown of hydrogen peroxide to water and oxygen?",
-"opts": [
-[
-"a",
-"Catalase"
-],
-[
-"b",
-"Glutathione"
-],
-[
-"c",
-"Superoxide dismutase"
-],
-[
-"d",
-"Thioredoxin"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Catalase: H2O2 → H2O + O2.",
-"cite": "LC33 S14",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 75,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which of the following might be a potential treatment targeted against hypoxic hepatocellular carcinomas?",
-"opts": [
-[
-"a",
-"Ebselen (an experimental drug that mimics GSH)"
-],
-[
-"b",
-"PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
-],
-[
-"c",
-"Q6 (an experimental drug that downregulates HIF-1α)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Hypoxic tumors rely on HIF → downregulating HIF-1α targets them.",
-"cite": "LC33 S24",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 76,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Which signal pathway would you expect to be upregulated during reperfusion AFTER resolution of a transient ischemic event?",
-"opts": [
-[
-"a",
-"APC"
-],
-[
-"b",
-"ASK1"
-],
-[
-"c",
-"EGF"
-],
-[
-"d",
-"HIF-1α Use the following graphs to answer questions 13-21:[C:\\Users\\mbasel\\Downloads\\Graph 1.jpg][C:\\Users\\mbasel\\Downloads\\Graph 2.jpg][C:\\Users\\mbasel\\Downloads\\Graph 3.jpg]"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Reperfusion → ROS burst → oxidized thioredoxin → ASK1 pathway.",
-"cite": "LC33 S9, S25",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2020"
-],
-"grp": 12
-},
-{
-"n": 77,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "The β2-adrenoceptor is a G-protein coupled receptor with a Gs pathway. What second messenger would you expect when the β2-adrenoceptor is activated?",
-"opts": [
-[
-"a",
-"Decreased [cAMP]"
-],
-[
-"b",
-"Increased [cAMP]"
-],
-[
-"c",
-"Increased [NO]"
-],
-[
-"d",
-"Increased [PIP3]"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Gs → ↑ cAMP.",
-"cite": "LC27",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2020",
-"2023"
-],
-"grp": 11
-},
-{
-"n": 78,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Salbutamol is a(n) _____________ of the β2-adrenoceptor.",
-"opts": [
-[
-"a",
-"Agonist"
-],
-[
-"b",
-"Competitive antagonist"
-],
-[
-"c",
-"Inverse antagonist"
-],
-[
-"d",
-"Non-competitive antagonist"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "Use the salbutamol graphs (dose response, concentration response on equine trachealis, binding) to answer.",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Salbutamol produces relaxation through the receptor = agonist.",
-"cite": "Graphs · LC29 S18",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 79,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please estimate the EC50 of salbutamol, include the correct units. What does EC50 tell us?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~1 nM. Concentration giving half-maximal response (30% relaxation) = potency.",
-"conf": "sure",
-"why": "Half of the 60% plateau = 30% → 1 nM.",
-"cite": "Graph 2 · LC29 S13",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 80,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please estimate the EMax of salbutamol, include the correct units. What does EMax tell us?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~60% relaxation. Maximum possible effect = efficacy.",
-"conf": "sure",
-"why": "Top plateau, in response units.",
-"cite": "Graph 2 · LC29 S12",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 81,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please estimate the KD of salbutamol, include the correct units. What does KD tell us?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~100 nM. Concentration binding 50% of receptors = affinity (lower = higher affinity).",
-"conf": "sure",
-"why": "Binding graph crosses 50% at 100 nM.",
-"cite": "Graph 3 · LC30 S10",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 82,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please estimate the ED50 of salbutamol, include the correct units.",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~0.03 mg/inhalation.",
-"conf": "sure",
-"why": "Improved breathing curve crosses 50% at ~0.03.",
-"cite": "Graph 1",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 83,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please estimate the LD50 of salbutamol, include the correct units. What does LD50 tell us?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~10 mg/inhalation. Dose lethal to 50% of the population.",
-"conf": "sure",
-"why": "Death curve crosses 50% at 10.",
-"cite": "Graph 1",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 84,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please estimate the therapeutic index of salbutamol, include the correct units. What does the therapeutic index tell us?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: ~300 (10 / 0.03 ≈ 333; unitless). Safety margin between effective and lethal doses; bigger = safer.",
-"conf": "sure",
-"why": "TI = LD50 / ED50.",
-"cite": "LC30 S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 85,
-"year": "2020",
-"exam": "2020 Exam 4",
-"stem": "Please compare the KD and EC50 of salbutamol. What does this suggest? Explain why.",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g12.jpeg",
-"assets/cellphys_basel_g13.jpeg",
-"assets/cellphys_basel_g14.jpeg"
-],
-"free": true,
-"ans": "MODEL ANSWER: EC50 (~1 nM) is far below KD (~100 nM) → full response with only a small fraction of receptors bound → spare receptors (receptor reserve); signaling, not binding, is limiting.",
-"conf": "sure",
-"why": "EC50 < KD = spare receptors.",
-"cite": "LC30 S21–S23",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 86,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Which of the following proteins is important in synthesis of the leukotrienes?",
-"opts": [
-[
-"a",
-"5-lipoxygenase (5-LOX)"
-],
-[
-"b",
-"Protein Kinase A (PKA)"
-],
-[
-"c",
-"Protein Kinase B (PKB/AKT)"
-],
-[
-"d",
-"Prostaglandin-G/H-Synthase 1 (PTGS1)"
-],
-[
-"e",
-"Prostaglandin-G/H-Synthase 2 (PTGS2)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "5-LOX → leukotrienes.",
-"cite": "LC28 S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 1
-},
-{
-"n": 87,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "PGI2 signaling causes what second messenger in platelets?",
-"opts": [
-[
-"a",
-"Decreased cAMP"
-],
-[
-"b",
-"Increased cAMP"
-],
-[
-"c",
-"Decreased IP3"
-],
-[
-"d",
-"Increased IP3"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "PGI2 → IP receptor (Gs) on platelets → ↑ cAMP → platelets rest.",
-"cite": "LC28 S7–S9",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 88,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "What class of drugs selectively inhibits PGI2 synthesis in endothelial cells?",
-"opts": [
-[
-"a",
-"Acetaminophen"
-],
-[
-"b",
-"Corticosteroids"
-],
-[
-"c",
-"Coxibs"
-],
-[
-"d",
-"NSAIDs"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Coxibs (COX-2 selective) → ↓ endothelial PGI2.",
-"cite": "LC28 S26",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 2
-},
-{
-"n": 89,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "G1-CDK phosphorylates which protein to move through the G1/S checkpoint?",
-"opts": [
-[
-"a",
-"E2F"
-],
-[
-"b",
-"MAPK"
-],
-[
-"c",
-"p53"
-],
-[
-"d",
-"pRB"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "G1-CDK phosphorylates pRb.",
-"cite": "LC31 S15",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022",
-"2023"
-],
-"grp": 3
-},
-{
-"n": 90,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Which of the following proteins potentiates apoptosis by causing mitochondrial membrane pores to open?",
-"opts": [
-[
-"a",
-"Bax"
-],
-[
-"b",
-"Bcl-2"
-],
-[
-"c",
-"Caspase 9"
-],
-[
-"d",
-"Fas"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Bax opens mitochondrial pores.",
-"cite": "LC32 S10",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 4
-},
-{
-"n": 91,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Mutated AKT (PKB) that gains constitutive activity would lead to _________ __________ in the cell and would potentiate __________.",
-"opts": [
-[
-"a",
-"Decreased p53 activation, cell cycling"
-],
-[
-"b",
-"Increased Bax, apoptosis"
-],
-[
-"c",
-"Increased Bcl-2, cell survival"
-],
-[
-"d",
-"Increased MAPK signaling, cell cycling"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Constitutive AKT → ↑ Bcl-2 → cell survival.",
-"cite": "LC31 S12",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 5
-},
-{
-"n": 92,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Which of the following pharmaceuticals is known to be metabolized to a reactive oxygen species in the liver?",
-"opts": [
-[
-"a",
-"Acetaminophen"
-],
-[
-"b",
-"Dexamethasone"
-],
-[
-"c",
-"Firocoxib"
-],
-[
-"d",
-"Ibuprofen"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Acetaminophen → NAPQI in the liver.",
-"cite": "LC33 S12",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 6
-},
-{
-"n": 93,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Which of the following could potentially be a treatment to reduce oxidative damage in the liver?",
-"opts": [
-[
-"a",
-"Ebselen (an experimental drug that mimics GSH)"
-],
-[
-"b",
-"PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
-],
-[
-"c",
-"Q6 (an experimental drug that downregulates HIF-1α)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Ebselen mimics glutathione.",
-"cite": "LC33 S16",
-"flag": "",
-"scope": "in",
-"rep": [
-"2019",
-"2022"
-],
-"grp": 7
-},
-{
-"n": 94,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Which of the following measurements would best be considered part of pharmacokinetics?",
-"opts": [
-[
-"a",
-"The amount of drug bound to a receptor"
-],
-[
-"b",
-"The amount of drug clearance by the kidney"
-],
-[
-"c",
-"The magnitude of effect of a drug bound to a receptor [A graph with a line Description automatically generated][A graph with a line Description automatically generated] [A graph with a line drawn on it Description automatically generated]"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Kidney clearance = elimination (ADME) = pharmacokinetics. Binding and effect = pharmacodynamics.",
-"cite": "LC30 S5–S7",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2021"
-],
-"grp": 10
-},
-{
-"n": 95,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Salbutamol activates β2-adrenergic receptors, a Gs-linked receptor. What intracellular second messenger do you expect?",
-"opts": [
-[
-"a",
-"Decreased cAMP"
-],
-[
-"b",
-"Increased cAMP"
-],
-[
-"c",
-"Increased NO"
-],
-[
-"d",
-"Increased PIP3"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Gs → ↑ cAMP.",
-"cite": "LC27",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2020",
-"2023"
-],
-"grp": 11
-},
-{
-"n": 96,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Estimate the EC50 of salbutamol on the trachealis muscle",
-"opts": [
-[
-"a",
-"30% relaxation"
-],
-[
-"b",
-"50% receptors bound"
-],
-[
-"c",
-"60% relaxation"
-],
-[
-"d",
-"5 nM"
-],
-[
-"e",
-"1000 nM"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g15.png",
-"assets/cellphys_basel_g16.png",
-"assets/cellphys_basel_g17.png"
-],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Half of the 60% plateau (30%) at 5 nM.",
-"cite": "Graph 2 · LC29 S13",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 97,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Estimate the Emax of salbutamol on the trachealis muscle",
-"opts": [
-[
-"a",
-"30% relaxation"
-],
-[
-"b",
-"50% receptors bound"
-],
-[
-"c",
-"60% relaxation"
-],
-[
-"d",
-"5 nM"
-],
-[
-"e",
-"1000 nM"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g15.png",
-"assets/cellphys_basel_g16.png",
-"assets/cellphys_basel_g17.png"
-],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Plateau = 60% relaxation (response units).",
-"cite": "Graph 2",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 98,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Estimate the KD of salbutamol",
-"opts": [
-[
-"a",
-"30% relaxation"
-],
-[
-"b",
-"50% receptors bound"
-],
-[
-"c",
-"60% relaxation"
-],
-[
-"d",
-"5 nM"
-],
-[
-"e",
-"1000 nM"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g15.png",
-"assets/cellphys_basel_g16.png",
-"assets/cellphys_basel_g17.png"
-],
-"free": false,
-"ans": "e",
-"conf": "sure",
-"why": "50% receptors bound at 1000 nM.",
-"cite": "Graph 1 · LC30 S10",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 99,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Estimate the therapeutic index of inhaled salbutamol.",
-"opts": [
-[
-"a",
-"50% of population"
-],
-[
-"b",
-"3 mg/inhalation"
-],
-[
-"c",
-"300"
-],
-[
-"d",
-"500 mg/inhalation"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g15.png",
-"assets/cellphys_basel_g16.png",
-"assets/cellphys_basel_g17.png"
-],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "ED50 ≈ 0.01, LD50 ≈ 3 mg/inhalation → TI ≈ 300 (unitless).",
-"cite": "Graph 3 · LC30 S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 100,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "You are studying a compound, Practolol, that you have determined binds to β2-adrenergic receptors but does not cause a signaling event. When you repeat the salbutamol concentration response assay in the presence of Practolol, the EC50 shifts to 50 nM. This suggests that Practolol is a _________ in this system.",
-"opts": [
-[
-"a",
-"Competitive antagonist"
-],
-[
-"b",
-"Non-competitive antagonist"
-],
-[
-"c",
-"Partial Agonist"
-],
-[
-"d",
-"Super Agonist"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g15.png",
-"assets/cellphys_basel_g16.png",
-"assets/cellphys_basel_g17.png"
-],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Binds without signaling and shifts EC50 right (5 → 50 nM) = competitive antagonist.",
-"cite": "LC29 S21",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2021"
-],
-"grp": 15
-},
-{
-"n": 101,
-"year": "2019",
-"exam": "2019 Exam 4",
-"stem": "Compare the Concentration Response Study and the Binding Study. What do the results of these two studies suggest?",
-"opts": [],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g15.png",
-"assets/cellphys_basel_g16.png",
-"assets/cellphys_basel_g17.png"
-],
-"free": true,
-"ans": "MODEL ANSWER: EC50 (~5 nM) is ~200× lower than KD (~1000 nM) → maximal relaxation with few receptors bound → spare receptors (receptor reserve); signaling is limiting.",
-"conf": "sure",
-"why": "EC50 < KD = spare receptors.",
-"cite": "LC30 S21–S23",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 102,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Which enzyme is common to all eicosanoid synthesis pathways?",
-"opts": [
-[
-"a",
-"5-lipoxygenase (5-LOX)"
-],
-[
-"b",
-"Phospholipase A2 (PLA2)"
-],
-[
-"c",
-"Prostaglandin-G/H-synthase 1 (PTGS1)"
-],
-[
-"d",
-"Prostaglandin-G/H-synthase 2 (PTGS2)"
-],
-[
-"e",
-"Thromboxane A2 (TxA2)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "PLA2 is common to all eicosanoid pathways. TxA2 isn't even an enzyme.",
-"cite": "LC28 S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2020",
-"2023"
-],
-"grp": 0
-},
-{
-"n": 103,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Eicosanoids are derived from:",
-"opts": [
-[
-"a",
-"Adenosine triphosphate"
-],
-[
-"b",
-"Arachidonic acid"
-],
-[
-"c",
-"Guanosine triphosphate"
-],
-[
-"d",
-"Palmitic acid"
-],
-[
-"e",
-"Stearic acid"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Eicosanoids come from arachidonic acid.",
-"cite": "LC28 S5–S6",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 104,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Injection of exogenous PGF2α into a pregnant cow near the point of implantation will likely induce:",
-"opts": [
-[
-"a",
-"Abortion of the embryo"
-],
-[
-"b",
-"Production of INF-τ by the embryo"
-],
-[
-"c",
-"Stability of the corpus luteum"
-],
-[
-"d",
-"Suppression of LH and FSH production by the pituitary"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "likely",
-"why": "PGF2α → luteolysis → progesterone drops → pregnancy lost (abortion).",
-"cite": "LC28 S7",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 105,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Gs proteins induce what second messenger?",
-"opts": [
-[
-"a",
-"cAMP"
-],
-[
-"b",
-"cGMP"
-],
-[
-"c",
-"IP3"
-],
-[
-"d",
-"PIP2 []"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Gs → cAMP.",
-"cite": "LC27",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2020",
-"2023"
-],
-"grp": 11
-},
-{
-"n": 106,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "What is the Emax of this norepinephrine concentration response curve?",
-"opts": [
-[
-"a",
-"8 μM cAMP"
-],
-[
-"b",
-"16 μM cAMP"
-],
-[
-"c",
-"1 nM norepinephrine"
-],
-[
-"d",
-"30 nM norepinephrine"
-],
-[
-"e",
-"10000 nM norepinephrine"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g18.png"
-],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Top plateau = 16 µM cAMP (response units).",
-"cite": "Graph",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 107,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "What is the EC50 of this norepinephrine concentration response curve?",
-"opts": [
-[
-"a",
-"8 μM cAMP"
-],
-[
-"b",
-"16 μM cAMP"
-],
-[
-"c",
-"1 nM norepinephrine"
-],
-[
-"d",
-"30 nM norepinephrine"
-],
-[
-"e",
-"1000 nM norepinephrine []"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g18.png"
-],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Half of 16 (8 µM) at ~30 nM norepinephrine.",
-"cite": "Graph",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 108,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "If curve A (solid line) is the norepinephrine response curve without any antagonists present, which of the concentration response curves suggests the presence of a competitive antagonist?",
-"opts": [
-[
-"a",
-"A (solid line)"
-],
-[
-"b",
-"B (long dashes)"
-],
-[
-"c",
-"C (short dashes)"
-],
-[
-"d",
-"D (dots)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g19.png"
-],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Short dashes: shifted right, same 16 µM ceiling = competitive. Long dashes = lower ceiling (non-competitive).",
-"cite": "Graph · LC29 S21",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2021"
-],
-"grp": 15
-},
-{
-"n": 109,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Serotonin signaling in the synaptic cleft is primarily attenuated by:",
-"opts": [
-[
-"a",
-"Serotonin degradation by serotoninase"
-],
-[
-"b",
-"Serotonin receptor ubiquitination and degradation"
-],
-[
-"c",
-"Serotonin receptor cycling"
-],
-[
-"d",
-"Serotonin reuptake by SERT"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "unsure",
-"why": "Serotonin is cleared from the synapse mainly by reuptake through SERT.",
-"cite": "Not in 2026 LC25–33 slides",
-"flag": "Signal-termination question from an older lecture; likely not on 2026 Exam 4.",
-"scope": "out",
-"rep": [],
-"grp": null
-},
-{
-"n": 110,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Which of the following measurements would be considered part of pharmacokinetics?",
-"opts": [
-[
-"a",
-"Concentration of drug that binds 50% of the receptors"
-],
-[
-"b",
-"Concentration of drug that elicits 50% maximal response"
-],
-[
-"c",
-"Effective dose of a drug to treat a disease"
-],
-[
-"d",
-"Plasma concentration of drug over time []"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "d",
-"conf": "sure",
-"why": "Plasma concentration over time = pharmacokinetics.",
-"cite": "LC30 S5–S6",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2019",
-"2021"
-],
-"grp": 10
-},
-{
-"n": 111,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Approximate the therapeutic index of the experimental anti-MRSA antibiotic MFM501",
-"opts": [
-[
-"a",
-"20"
-],
-[
-"b",
-"20 mg/kg"
-],
-[
-"c",
-"100"
-],
-[
-"d",
-"100 mg/kg"
-],
-[
-"e",
-"2000 mg/kg"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [
-"assets/cellphys_basel_g20.png"
-],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "ED50 ≈ 100 mg/kg, LD50 ≈ 2000 mg/kg → TI ≈ 20 (unitless).",
-"cite": "Graph · LC30 S17",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 112,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "During which phase of mitosis do the chromosomes first condense?",
-"opts": [
-[
-"a",
-"Anaphase"
-],
-[
-"b",
-"Metaphase"
-],
-[
-"c",
-"Prophase"
-],
-[
-"d",
-"Telophase"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "c",
-"conf": "sure",
-"why": "Chromosomes condense in prophase.",
-"cite": "LC31 S8",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 113,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "FasL is a signal that activates:",
-"opts": [
-[
-"a",
-"The Akt/BCL-2 apoptosis inhibiting pathway"
-],
-[
-"b",
-"The external apoptosis pathway"
-],
-[
-"c",
-"The frizzled growth factor receptor"
-],
-[
-"d",
-"The internal apoptosis pathway"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "FasL → Fas → FADD → caspase 8 = external pathway.",
-"cite": "LC32 S12",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 114,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "What is often the most damaging component of transient ischemia?",
-"opts": [
-[
-"a",
-"Increased succinate concentration"
-],
-[
-"b",
-"Oxidative burst at reperfusion"
-],
-[
-"c",
-"Reduced [ATP] due to loss of H+ gradient"
-],
-[
-"d",
-"Release of free iron into the cytosol"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "The oxidative burst at reperfusion causes most of the damage.",
-"cite": "LC33 S9",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": 18
-},
-{
-"n": 115,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "Which of the following might be a potential treatment for transient ischemia?",
-"opts": [
-[
-"a",
-"Ebselen (an experimental drug that mimics GSH)"
-],
-[
-"b",
-"PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
-],
-[
-"c",
-"Q6 (an experimental drug that downregulates HIF-1α)"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "a",
-"conf": "sure",
-"why": "Ebselen (glutathione mimic) quenches the reperfusion ROS.",
-"cite": "LC33 S9, S16",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": 18
-},
-{
-"n": 116,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "What signal pathway would you expect to be upregulated during reperfusion?",
-"opts": [
-[
-"a",
-"APC"
-],
-[
-"b",
-"ASK1"
-],
-[
-"c",
-"EGF"
-],
-[
-"d",
-"HIF-1α"
-]
-],
-"parts": [],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": false,
-"ans": "b",
-"conf": "sure",
-"why": "Reperfusion ROS → oxidized thioredoxin → ASK1.",
-"cite": "LC33 S25",
-"flag": "",
-"scope": "in",
-"rep": [
-"2018",
-"2020"
-],
-"grp": 12
-},
-{
-"n": 117,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "You are studying the thromboxane A2 receptor (TxA2R) in platelets. During this study you identify an extremely potent agonist called BOP. Upon further study, the potency of this agonist in concentration response studies seems to be significantly greater than its affinity in binding studies. You also identify an irreversible antagonist, I-PTA-PON3, that covalently bonds to TxA2R and inactivates it. Use this information to answer the following questions:",
-"opts": [],
-"parts": [
-"a. What effect do you expect BOP to cause in the platelets (i.e. what effect could you measure)? Please list a final effect (what will happen to the platelet) and a second messenger effect (what intracellular signals you could measure) that you could measure.",
-"b. What quantity describes potency? What quantity describes affinity? Write a mathematical formula that relates these two quantities for BOP in this situation.",
-"c. Why do you think the potency of BOP is significantly higher than the affinity for TxA2R? Propose a mechanism for the enhanced potency.",
-"d. How do you expect the BOP concentration response curve to change if you add a low concentration of I-PTA-PON3 to the solution? (Please refer to EC50 and Emax in your answer)"
-],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": true,
-"ans": "MODEL ANSWER: (a) TxA2 receptor = Gq → platelet aggregation (final effect); ↑ IP3, DAG, Ca2+ (second messengers). (b) Potency = EC50; affinity = KD; for BOP, EC50 < KD (EC50 << KD). (c) Spare receptors / signal amplification: full response with only a fraction of receptors bound. (d) A low dose of the irreversible antagonist uses up the receptor reserve: EC50 shifts RIGHT with Emax unchanged (looks competitive); at higher doses Emax falls.",
-"conf": "likely",
-"why": "Combines LC28 (TxA2 = Gq, aggregation) with LC30 spare receptors.",
-"cite": "LC28 S9; LC30 S21–S23",
-"flag": "",
-"scope": "in",
-"rep": [],
-"grp": null
-},
-{
-"n": 118,
-"year": "2018",
-"exam": "2018 Exam 4",
-"stem": "APC is a protein that binds both to β-catenin and the Axin/GSK3 complex and allows Axin/GSK3 to phosphorylate β-catenin. Use this information to answer the following questions:",
-"opts": [],
-"parts": [
-"a. What growth factor pathway is APC associated with?",
-"b. How does signaling through this pathway affect APC?",
-"c. What happens to phosphorylated β-catenin? If β-catenin is not phosphorylated, what does it do?",
-"d. Mutations in APC that prevent APC from interacting with Axin/GSK3 would cause what effect in a cell?",
-"e. Based on this information, is wild-type APC an oncogene, a proto-oncogene, or a tumor-suppressor gene?",
-"f. If a mutated APC that could not interact with Axin/GSK3 was encoded by a retrovirus, would this retrovirus be oncogenic? Why or why not?"
-],
-"multi": false,
-"ctx": "",
-"img": [],
-"free": true,
-"ans": "MODEL ANSWER: (a) Wnt. (b) Wnt → Frizzled/LRP → Dishevelled pulls APC off the Axin/GSK3 complex → no phosphorylation of β-catenin. (c) Phosphorylated β-catenin → proteasome; unphosphorylated β-catenin enters the nucleus and transcribes cyclin D → cell cycling. (d) β-catenin never phosphorylated → always on → unregulated division/neoplasia. (e) Tumor suppressor (cancer from LOSS of activity). (f) Probably not: a loss-of-function APC carried by a virus doesn't remove the cell's own working APC, so it wouldn't act as an oncogene.",
-"conf": "likely",
-"why": "Part (f) is a viral-oncogene question.",
-"cite": "LC31 S13; LC32",
-"flag": "Viral oncogenes (part f) are NOT tested in 2026.",
-"scope": "out",
-"rep": [],
-"grp": null
-}
+ {
+  "n": 1,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of the following enzymes is required for synthesis of all eicosanoids?",
+  "opts": [
+   [
+    "a",
+    "5-leukotriene oxidase (5-LOX)"
+   ],
+   [
+    "b",
+    "Phospholipase A₂"
+   ],
+   [
+    "c",
+    "Prostaglandin Synthase 1 (PTGS1/COX1)"
+   ],
+   [
+    "d",
+    "Prostaglandin Synthase 2 (PTGS2/COX2)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PLA2 cuts arachidonic acid out of membrane phospholipid: the starting step for every eicosanoid.",
+  "cite": "LC28 S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2020",
+   "2023"
+  ],
+  "grp": 0
+ },
+ {
+  "n": 2,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Prostaglandin E₂ receptor EP₂ is a G_(s)-coupled receptor. What second messenger would be expected in response to PGE₂ in cells expressing EP₂?",
+  "opts": [
+   [
+    "a",
+    "Decreased cAMP"
+   ],
+   [
+    "b",
+    "Increased cAMP"
+   ],
+   [
+    "c",
+    "Increased DAG"
+   ],
+   [
+    "d",
+    "Increased IP₃"
+   ],
+   [
+    "e",
+    "Increased Ras activity"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Gs → adenylyl cyclase → ↑ cAMP.",
+  "cite": "LC27; LC28 S9",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2020",
+   "2023"
+  ],
+  "grp": 11
+ },
+ {
+  "n": 3,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of the following pharmaceutical classes is most likely to cause ulcers in the digestive epithelium?",
+  "opts": [
+   [
+    "a",
+    "Coxibs"
+   ],
+   [
+    "b",
+    "Glucocorticoids"
+   ],
+   [
+    "c",
+    "NSAIDs"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "NSAIDs block COX-1 → ↓ protective PGE2 + shunt to LTB4 → ulcers. Coxibs = cardiovascular; glucocorticoids = immunosuppression/catabolism.",
+  "cite": "LC28 S20–S22",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2020",
+   "2023"
+  ],
+  "grp": 17
+ },
+ {
+  "n": 4,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which cell-cycle checkpoint is the go/no-go decision point for cell cycle?",
+  "opts": [
+   [
+    "a",
+    "D checkpoint"
+   ],
+   [
+    "b",
+    "G₁/S checkpoint"
+   ],
+   [
+    "c",
+    "G₂/M checkpoint"
+   ],
+   [
+    "d",
+    "M checkpoint"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "G1/S = the most important go/no-go checkpoint (\"divide or die\").",
+  "cite": "LC31 S15",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 5,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Growth factor receptors (e.g. EGF receptor) activate which pathway?",
+  "opts": [
+   [
+    "a",
+    "β-catenin pathway"
+   ],
+   [
+    "b",
+    "G_(s) pathway"
+   ],
+   [
+    "c",
+    "G_(q) pathway"
+   ],
+   [
+    "d",
+    "Ras/MAPK pathway"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Receptor tyrosine kinase → SOS → Ras → MAPK.",
+  "cite": "LC31 S11",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 6,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "The G₁/S cyclin-dependent kinase phosphorylates which protein?",
+  "opts": [
+   [
+    "a",
+    "E2F"
+   ],
+   [
+    "b",
+    "p21"
+   ],
+   [
+    "c",
+    "p53"
+   ],
+   [
+    "d",
+    "pRB"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "G1-CDK phosphorylates pRb → E2F released → S phase.",
+  "cite": "LC31 S15",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022",
+   "2023"
+  ],
+  "grp": 3
+ },
+ {
+  "n": 7,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "After a cell-cycle checkpoint is completed, what generally happens to the associated cyclin?",
+  "opts": [
+   [
+    "a",
+    "It is phosphorylated and deactivated"
+   ],
+   [
+    "b",
+    "It is degraded by the proteasome"
+   ],
+   [
+    "c",
+    "It binds to the cyclin-dependent kinase and inactivates it"
+   ],
+   [
+    "d",
+    "It migrates into the nucleus"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "CDK phosphorylates its own cyclin → proteasome, so the cycle can't go back.",
+  "cite": "LC31 S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 8,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of the following proteins tends to cause mitochondrial pores to remain closed and reduces the activity of the internal apoptotic pathway?",
+  "opts": [
+   [
+    "a",
+    "Axin"
+   ],
+   [
+    "b",
+    "Bax"
+   ],
+   [
+    "c",
+    "Bcl-2"
+   ],
+   [
+    "d",
+    "p53"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Bcl-2 keeps mitochondrial pores closed → no cytochrome C release. Bax opens them.",
+  "cite": "LC32 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 9,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "A neoplasm that expresses high levels of Fas would likely:",
+  "opts": [
+   [
+    "a",
+    "Be very susceptible to immune destruction"
+   ],
+   [
+    "b",
+    "Have reduced susceptibility to immune destruction"
+   ],
+   [
+    "c",
+    "Cause apoptosis of cytotoxic T-cells"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Fas on the tumor = target for FasL on cytotoxic T cells → extrinsic apoptosis → very susceptible. Tumors that EXPRESS FasL kill T cells instead.",
+  "cite": "LC32 S12–S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 10,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of the following proteins would be correctly identified as a protooncogene? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "β-catenin"
+   ],
+   [
+    "b",
+    "Bcl-2"
+   ],
+   [
+    "c",
+    "E2F"
+   ],
+   [
+    "d",
+    "pRB"
+   ],
+   [
+    "e",
+    "Ras"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "abce",
+  "conf": "likely",
+  "why": "Gain of activity causes cancer: β-catenin, Bcl-2, E2F, Ras = proto-oncogenes. pRb = tumor suppressor.",
+  "cite": "LC32 S17–S20",
+  "flag": "β-catenin, Bcl-2 and E2F classified by the gain/loss rule; confirm at review if unsure.",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 11,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of the following proteins would be correctly identified as a tumor suppressor gene? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "APC"
+   ],
+   [
+    "b",
+    "Bax"
+   ],
+   [
+    "c",
+    "p21"
+   ],
+   [
+    "d",
+    "p53"
+   ],
+   [
+    "e",
+    "pRB"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "abcde",
+  "conf": "likely",
+  "why": "Loss of activity causes cancer: APC, Bax, p21, p53, pRb are all brakes = tumor suppressors. Select-all where every option is correct.",
+  "cite": "LC32 S17–S20",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 12,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of the following could produce extra oxidative stress in a cell? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "Chronic inflammation"
+   ],
+   [
+    "b",
+    "Excess Vitamin C intake"
+   ],
+   [
+    "c",
+    "Excess Vitamin E intake"
+   ],
+   [
+    "d",
+    "Hemachromatosis (excess iron in the blood)"
+   ],
+   [
+    "e",
+    "Reperfusion following transient infarct"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "ade",
+  "conf": "sure",
+  "why": "Chronic inflammation (respiratory burst), excess iron (Fenton), reperfusion (reverse electron flow) all raise ROS. Vitamins C and E are antioxidants.",
+  "cite": "LC33 S9–S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2023"
+  ],
+  "grp": 13
+ },
+ {
+  "n": 13,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Some pathogenic bacteria (e.g. staphylococcal aureus) express high levels of catalase. High levels of catalase expression could cause which of the following?",
+  "opts": [
+   [
+    "a",
+    "Increased susceptibility of the bacteria to oxidative damage"
+   ],
+   [
+    "b",
+    "Inability of neutrophils to recognize the bacteria"
+   ],
+   [
+    "c",
+    "Reduced metabolic rate of the immune system"
+   ],
+   [
+    "d",
+    "Resistance of the bacteria to lysosomal degradation by phagocytes"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Catalase destroys the phagocyte's H2O2 → bacteria survive inside phagocytes (virulence factor).",
+  "cite": "LC33 S14 + transcript",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 14,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "An increase in oxidized thioredoxin will activate which signaling pathway?",
+  "opts": [
+   [
+    "a",
+    "ASK1 – MAPK pathway"
+   ],
+   [
+    "b",
+    "Glomus cell depolarization – neural signaling pathway"
+   ],
+   [
+    "c",
+    "HIF – hypoxia inducible genes pathway"
+   ],
+   [
+    "d",
+    "Ras – MAPK pathway"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Oxidized thioredoxin releases ASK1 (a MAPKKK) → MAPK → hyperoxia genes/apoptosis.",
+  "cite": "LC33 S25",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "grp": 14
+ },
+ {
+  "n": 15,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Which of these is an important membrane antioxidant?",
+  "opts": [
+   [
+    "a",
+    "Glutathione"
+   ],
+   [
+    "b",
+    "Superoxide Dismutase"
+   ],
+   [
+    "c",
+    "Vitamin C"
+   ],
+   [
+    "d",
+    "Vitamin E"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Vitamin E has a lipid tail → membrane antioxidant. Glutathione = intracellular; vitamin C = blood.",
+  "cite": "LC33 S18 + transcript",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 16,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "Please explain why Coxibs may potentiate clotting events.",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": true,
+  "ans": "MODEL ANSWER: Coxibs block COX-2 → ↓ endothelial PGI2 (anti-clotting, Gs) while platelet COX-1 still makes TxA2 (pro-clotting, Gq) → balance tips toward clotting → cardiovascular events.",
+  "conf": "sure",
+  "why": "Clotting rule: block COX-2 → toward clotting.",
+  "cite": "LC28 S7, S26",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 17,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the K_(d) of Compound A",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "You are exploring new treatments for reducing hypoglycemia in insulinoma patients by targeting the glucagon receptor. Compounds A and B bind the glucagon receptor. Use the graphs to answer.",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~1 µM (50% of glucagon receptors bound).",
+  "conf": "sure",
+  "why": "Binding graph: Compound A crosses 50% bound at 1 µM.",
+  "cite": "Graph 2 · LC30 S9–S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 18,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the K_(d) of Compound B?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~3 µM.",
+  "conf": "sure",
+  "why": "Binding graph: Compound B crosses 50% bound at ~3 µM (higher KD = lower affinity than A).",
+  "cite": "Graph 2",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 19,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the EC₅₀ of Compound A?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~1 µM.",
+  "conf": "likely",
+  "why": "Response runs from ~150 (baseline) to ~550 nM cAMP; halfway (~350) is at ~1 µM. EC50 ≈ KD → no spare receptors.",
+  "cite": "Graph 1 · LC29 S12–S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 20,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the E_(max) of Compound A?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~550 nM cAMP (an increase of ~400 nM over the ~150 nM baseline).",
+  "conf": "likely",
+  "why": "Top plateau of the solid curve. Give units of the RESPONSE (nM cAMP), not drug concentration.",
+  "cite": "Graph 1",
+  "flag": "Whether Basel wants the plateau (550) or the rise above baseline (400) is unclear; state both.",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 21,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What type of ligand is Compound B (be as specific as possible)? Why?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: Non-competitive antagonist. It binds the receptor (binding graph) but causes no cAMP alone, and with A it LOWERS Emax (550 → ~375) without a big EC50 shift.",
+  "conf": "sure",
+  "why": "Lower ceiling = non-competitive; a right shift with the same ceiling would be competitive.",
+  "cite": "Graphs 1–2 · LC29 S20–S22",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 22,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the ED50 of Compound A?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~3 mg/kg.",
+  "conf": "sure",
+  "why": "Solid (therapeutic) curve crosses 50% of the population at ~3 mg/kg.",
+  "cite": "Graph 3 · LC30 S15–S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 23,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the LD50 of Compound A?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~300 mg/kg.",
+  "conf": "sure",
+  "why": "Dotted (life-threatening) curve crosses 50% at ~300 mg/kg.",
+  "cite": "Graph 3",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 24,
+  "year": "2023",
+  "exam": "2023 Exam 4",
+  "stem": "What is the therapeutic index of Compound A?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g1.png",
+   "assets/cellphys_basel_g2.png",
+   "assets/cellphys_basel_g3.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~100 (no units).",
+  "conf": "sure",
+  "why": "TI = LD50 / ED50 = 300 / 3 ≈ 100. Ratio = unitless.",
+  "cite": "LC30 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 25,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which compound has the higher affinity for the insulin receptor?",
+  "opts": [
+   [
+    "a",
+    "Compound 1556"
+   ],
+   [
+    "b",
+    "Compound 2334"
+   ],
+   [
+    "c",
+    "Not enough information to determine"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "You are investigating ligands of the insulin receptor (compounds 1556, 2334, B): binding studies, skeletal muscle activation (measured as increasing IP3), and in vivo reduction of hyperglycemic events. Use the graphs to answer.",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Binding graph: 2334 KD ≈ 3 µM vs 1556 KD ≈ 30 µM → lower KD = higher affinity.",
+  "cite": "Graph 2 · LC30 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 26,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which compound has the higher potency on skeletal muscle cells?",
+  "opts": [
+   [
+    "a",
+    "Compound 1556"
+   ],
+   [
+    "b",
+    "Compound 2334"
+   ],
+   [
+    "c",
+    "Not enough information to determine"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "EC50: 2334 ≈ 2 µM (half of 400) vs 1556 ≈ 30 µM (half of 650) → lower EC50 = more potent.",
+  "cite": "Graph 1 · LC29 S13",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 27,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which compound has the higher efficacy on skeletal muscle cells?",
+  "opts": [
+   [
+    "a",
+    "Compound 1556"
+   ],
+   [
+    "b",
+    "Compound 2334"
+   ],
+   [
+    "c",
+    "Not enough information to determine"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Emax: 1556 ≈ 650 nM IP3 vs 2334 ≈ 400 → 1556 has higher efficacy.",
+  "cite": "Graph 1 · LC29 S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 28,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "If insulin (the endogenous agonist) has an E_(max) on your skeletal system of approximately 500 nM IP₃, compound 1556 would best be considered a:",
+  "opts": [
+   [
+    "a",
+    "Competitive Antagonist"
+   ],
+   [
+    "b",
+    "Full Agonist"
+   ],
+   [
+    "c",
+    "Non-competitive Antagonist"
+   ],
+   [
+    "d",
+    "Partial Agonist"
+   ],
+   [
+    "e",
+    "Super Agonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "e",
+  "conf": "sure",
+  "why": "1556 Emax (~650) > insulin's 500 → super agonist.",
+  "cite": "LC29 S19",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 29,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "If insulin (the endogenous agonist) has an E_(max) on your skeletal system of approximately 500 nM IP₃, compound 2334 would best be considered a:",
+  "opts": [
+   [
+    "a",
+    "Competitive Antagonist"
+   ],
+   [
+    "b",
+    "Full Agonist"
+   ],
+   [
+    "c",
+    "Non-competitive Antagonist"
+   ],
+   [
+    "d",
+    "Partial Agonist"
+   ],
+   [
+    "e",
+    "Super Agonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "2334 Emax (~400) < insulin's 500 → partial agonist.",
+  "cite": "LC29 S19",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 30,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "You decided not to continue pursuing compound B, because though it bound to the insulin receptor, it didn’t appear to activate the insulin receptor. Based on your studies, compound B would best be considered a:",
+  "opts": [
+   [
+    "a",
+    "Competitive Antagonist"
+   ],
+   [
+    "b",
+    "Full Agonist"
+   ],
+   [
+    "c",
+    "Non-competitive Antagonist"
+   ],
+   [
+    "d",
+    "Partial Agonist"
+   ],
+   [
+    "e",
+    "Super Agonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "B alone does nothing, but it halves the Emax of both agonists (650 → ~325, 400 → ~200) → non-competitive antagonist.",
+  "cite": "Graph 1 · LC29 S21",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 31,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Do there appear to be spare insulin receptors in skeletal muscle in the system you are using?",
+  "opts": [
+   [
+    "a",
+    "Yes"
+   ],
+   [
+    "b",
+    "No"
+   ],
+   [
+    "c",
+    "Impossible to determine"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "EC50 ≈ KD for both compounds (1556: ~30 vs ~30; 2334: ~2 vs ~3) → no spare receptors.",
+  "cite": "LC30 S21–S23",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 32,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "What is the E_(max) of compound 1556?",
+  "opts": [
+   [
+    "a",
+    "1 mg/kg compound 1556"
+   ],
+   [
+    "b",
+    "30 μM compound 1556"
+   ],
+   [
+    "c",
+    "100% receptors bound"
+   ],
+   [
+    "d",
+    "625 nM IP₃"
+   ],
+   [
+    "e",
+    "1200 μM compound 1556"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Emax is in RESPONSE units: top of the 1556 curve ≈ 625–650 nM IP3.",
+  "cite": "Graph 1",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 33,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "In your model organism, what was the ED₅₀ of compound 1556?",
+  "opts": [
+   [
+    "a",
+    "1 mg/kg compound 1556"
+   ],
+   [
+    "b",
+    "30 μM compound 1556"
+   ],
+   [
+    "c",
+    "125 mg/kg compound 1556"
+   ],
+   [
+    "d",
+    "625 nM IP₃"
+   ],
+   [
+    "e",
+    "1200 μM compound 1556"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Therapeutic curve crosses 50% at 1 mg/kg.",
+  "cite": "Graph 3",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 34,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "In your model organism, what was the LD₅₀ of compound 1556?",
+  "opts": [
+   [
+    "a",
+    "1 mg/kg compound 1556"
+   ],
+   [
+    "b",
+    "30 μM compound 1556"
+   ],
+   [
+    "c",
+    "125 mg/kg compound 1556"
+   ],
+   [
+    "d",
+    "625 nM IP₃"
+   ],
+   [
+    "e",
+    "1200 μM compound 1556"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Hypoglycemia curve crosses 50% at ~125 mg/kg.",
+  "cite": "Graph 3",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 35,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Estimate the therapeutic index of compound 1556.",
+  "opts": [
+   [
+    "a",
+    "10"
+   ],
+   [
+    "b",
+    "10 μM"
+   ],
+   [
+    "c",
+    "125"
+   ],
+   [
+    "d",
+    "425 Nm"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g4.png",
+   "assets/cellphys_basel_g5.png",
+   "assets/cellphys_basel_g6.png"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "TI = 125 / 1 = 125 (unitless; the options with units are traps).",
+  "cite": "LC30 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 36,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "During which stage of the cell cycle is DNA replicated?",
+  "opts": [
+   [
+    "a",
+    "G0"
+   ],
+   [
+    "b",
+    "G1"
+   ],
+   [
+    "c",
+    "G2"
+   ],
+   [
+    "d",
+    "M"
+   ],
+   [
+    "e",
+    "S"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "e",
+  "conf": "sure",
+  "why": "DNA replication = S phase.",
+  "cite": "LC31 S5",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 37,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which family of proteins act to integrate cell-cycle checkpoint signals?",
+  "opts": [
+   [
+    "a",
+    "β-Catenins"
+   ],
+   [
+    "b",
+    "Cyclin-dependent kinases (CDK)"
+   ],
+   [
+    "c",
+    "Mitogen-activated protein kinases (MAPK)"
+   ],
+   [
+    "d",
+    "Retinoblastoma proteins (pRb)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "CDKs integrate the checkpoint signals.",
+  "cite": "LC31 S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022"
+  ],
+  "grp": 9
+ },
+ {
+  "n": 38,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Cyclin-dependent kinase (CDK) activity require which signal(s)? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "Binding to a phase dependent cyclin"
+   ],
+   [
+    "b",
+    "Having a kinase add a phosphate"
+   ],
+   [
+    "c",
+    "Having a phosphatase remove a phosphate"
+   ],
+   [
+    "d",
+    "Having a protease cleave the CDK"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "abc",
+  "conf": "sure",
+  "why": "Cyclin bound + kinase adds a phosphate + phosphatase removes one. No protease cleavage.",
+  "cite": "LC31 S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 39,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "A mutation that prevents phosphorylation of β-catenin is likely to lead to:",
+  "opts": [
+   [
+    "a",
+    "Apoptosis"
+   ],
+   [
+    "b",
+    "Quiescence"
+   ],
+   [
+    "c",
+    "Senescence"
+   ],
+   [
+    "d",
+    "Unregulated cell division"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Unphosphorylated β-catenin is never destroyed → always transcribes cyclin D → unregulated division.",
+  "cite": "LC31 S13",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022"
+  ],
+  "grp": 16
+ },
+ {
+  "n": 40,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which of the following proteins is important in synthesis of the leukotrienes?",
+  "opts": [
+   [
+    "a",
+    "5-lipoxygenase (5-LOX)"
+   ],
+   [
+    "b",
+    "Protein Kinase A (PKA)"
+   ],
+   [
+    "c",
+    "Protein Kinase B (PKB/AKT)"
+   ],
+   [
+    "d",
+    "Prostaglandin-G/H-Synthase 1 (PTGS1)"
+   ],
+   [
+    "e",
+    "Prostaglandin-G/H-Synthase 2 (PTGS2)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "5-LOX makes leukotrienes; PTGS1/2 make prostanoids.",
+  "cite": "LC28 S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 1
+ },
+ {
+  "n": 41,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "PGI2 production in the endothelium is dependent on which enzyme? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "5-lipoxygenase (5-LOX)"
+   ],
+   [
+    "b",
+    "Protein Kinase A (PKA)"
+   ],
+   [
+    "c",
+    "Protein Kinase B (PKB/AKT)"
+   ],
+   [
+    "d",
+    "Prostaglandin-G/H-Synthase 1 (PTGS1)"
+   ],
+   [
+    "e",
+    "Prostaglandin-G/H-Synthase 2 (PTGS2)"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "e",
+  "conf": "likely",
+  "why": "Endothelial PGI2 is made by PTGS2 (COX-2) per the lecture framing.",
+  "cite": "LC28 S7, S26",
+  "flag": "Select-all: Basel ties endothelial PGI2 to COX-2. Some textbooks also credit COX-1 in endothelium; slides win.",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 42,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "What class of drugs selectively inhibits PGI2 synthesis in endothelial cells?",
+  "opts": [
+   [
+    "a",
+    "Acetaminophen"
+   ],
+   [
+    "b",
+    "Corticosteroids"
+   ],
+   [
+    "c",
+    "Coxibs"
+   ],
+   [
+    "d",
+    "NSAIDs"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Coxibs block COX-2 only → ↓ endothelial PGI2.",
+  "cite": "LC28 S26",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 2
+ },
+ {
+  "n": 43,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "G1-CDK phosphorylates which protein to move through the G1/S checkpoint?",
+  "opts": [
+   [
+    "a",
+    "E2F"
+   ],
+   [
+    "b",
+    "MAPK"
+   ],
+   [
+    "c",
+    "p53"
+   ],
+   [
+    "d",
+    "pRB"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "G1-CDK phosphorylates pRb → E2F released.",
+  "cite": "LC31 S15",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022",
+   "2023"
+  ],
+  "grp": 3
+ },
+ {
+  "n": 44,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which of the following proteins potentiates apoptosis by causing mitochondrial membrane pores to open?",
+  "opts": [
+   [
+    "a",
+    "Bax"
+   ],
+   [
+    "b",
+    "Bcl-2"
+   ],
+   [
+    "c",
+    "Caspase 9"
+   ],
+   [
+    "d",
+    "Fas"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Bax opens mitochondrial pores → cytochrome C → caspase 9.",
+  "cite": "LC32 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 4
+ },
+ {
+  "n": 45,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Mutated AKT (PKB) that gains constitutive activity would lead to _________ __________ in the cell and would potentiate __________.",
+  "opts": [
+   [
+    "a",
+    "Decreased p53 activation, cell cycling"
+   ],
+   [
+    "b",
+    "Increased Bax, apoptosis"
+   ],
+   [
+    "c",
+    "Increased Bcl-2, cell survival"
+   ],
+   [
+    "d",
+    "Increased MAPK signaling, cell cycling"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Always-on AKT → ↑ Bcl-2 → cell survival (brakes off).",
+  "cite": "LC31 S12; LC32",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 5
+ },
+ {
+  "n": 46,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "β-catenin can promote tumorigenesis if it is mutated in a way that prevents phosphorylation by the Axin-GSK3-APC complex. β-catenin would best be considered a(n):",
+  "opts": [
+   [
+    "a",
+    "Oncogene"
+   ],
+   [
+    "b",
+    "Proto-oncogene"
+   ],
+   [
+    "c",
+    "Tumor suppressor gene"
+   ],
+   [
+    "d",
+    "Viral oncogene"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Wild-type β-catenin is a proto-oncogene; the mutation that blocks its destruction makes it oncogenic (gain of activity).",
+  "cite": "LC32 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2020",
+   "2021",
+   "2022"
+  ],
+  "grp": 8
+ },
+ {
+  "n": 47,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Theoretically, could this mutated β-catenin become a viral oncogene?",
+  "opts": [
+   [
+    "a",
+    "Yes"
+   ],
+   [
+    "b",
+    "No"
+   ],
+   [
+    "c",
+    "Impossible to determine"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "unsure",
+  "why": "A gain-of-function mutant (like this β-catenin) could be carried by a virus as a viral oncogene.",
+  "cite": "LC32 S25–S30",
+  "flag": "Viral oncogenes are NOT tested in 2026 (Basel).",
+  "scope": "out",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 48,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Reactive oxygen species are produced in the mitochondria during (select ALL that apply):",
+  "opts": [
+   [
+    "a",
+    "Hypoglycemia"
+   ],
+   [
+    "b",
+    "Normal metabolism"
+   ],
+   [
+    "c",
+    "Ischemia"
+   ],
+   [
+    "d",
+    "Reperfusion"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "bd",
+  "conf": "likely",
+  "why": "Normal metabolism (Complexes I and III leak superoxide) and reperfusion (reverse electron flow). During ischemia there is no O2 to make ROS.",
+  "cite": "LC33 S9 + transcript",
+  "flag": "Ischemia itself sets up the damage (succinate build-up), but the ROS burst happens at reperfusion.",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 49,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which of the following is a protein antioxidant that can activate hyperoxia signaling pathways?",
+  "opts": [
+   [
+    "a",
+    "Catalase"
+   ],
+   [
+    "b",
+    "Glutathione"
+   ],
+   [
+    "c",
+    "Thioredoxin"
+   ],
+   [
+    "d",
+    "Vitamin C"
+   ],
+   [
+    "e",
+    "Vitamin E"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Thioredoxin = protein antioxidant whose oxidation releases ASK1 (hyperoxia signaling).",
+  "cite": "LC33 S15, S25",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "grp": 14
+ },
+ {
+  "n": 50,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which of the following pharmaceuticals is known to be metabolized to a reactive oxygen species in the liver?",
+  "opts": [
+   [
+    "a",
+    "Acetaminophen"
+   ],
+   [
+    "b",
+    "Dexamethasone"
+   ],
+   [
+    "c",
+    "Firocoxib"
+   ],
+   [
+    "d",
+    "Ibuprofen"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Acetaminophen → cytochrome P450 → NAPQI.",
+  "cite": "LC33 S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 6
+ },
+ {
+  "n": 51,
+  "year": "2022",
+  "exam": "2022 Exam 2",
+  "stem": "Which of the following would could potentially be a treatment to reduce oxidative damage in the liver?",
+  "opts": [
+   [
+    "a",
+    "Ebselen (an experimental drug that mimics GSH)"
+   ],
+   [
+    "b",
+    "PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
+   ],
+   [
+    "c",
+    "Q6 (an experimental drug that downregulates HIF-1α)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Ebselen mimics glutathione → neutralizes oxidants in the liver.",
+  "cite": "LC33 S16, S19",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 7
+ },
+ {
+  "n": 52,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Which of the following drug classes reduces production of both prostaglandins and leukotrienes?",
+  "opts": [
+   [
+    "a",
+    "Aminosalicylates"
+   ],
+   [
+    "b",
+    "Coxibs"
+   ],
+   [
+    "c",
+    "Glucocorticoids"
+   ],
+   [
+    "d",
+    "Non-steroidal anti-inflammatories"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Glucocorticoids ↑ annexin A1 → block PLA2 → both prostaglandins AND leukotrienes ↓.",
+  "cite": "LC28 S15–S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 53,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "You are testing a new drug candidate, Substance A. When cells are treated with substance A, signaling through the PGE₂R (EP₂) is reduced. Further examination shows that substance A increases the EC₅₀ of PGE₂ at the PGE₂R (EP₂) without significantly affecting the E_(Max). Based on this information, you would classify Substance A as:",
+  "opts": [
+   [
+    "a",
+    "An agonist of PGE₂R (EP₂)"
+   ],
+   [
+    "b",
+    "An inverse agonist of PGE₂R (EP₂)"
+   ],
+   [
+    "c",
+    "A competitive antagonist of PGE₂R (EP₂)"
+   ],
+   [
+    "d",
+    "A non-competitive antagonist of PGE₂R (EP₂)"
+   ],
+   [
+    "e",
+    "An irreversible antagonist of PGE₂R (EP₂)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "EC50 ↑ with Emax unchanged = competitive antagonist.",
+  "cite": "LC29 S21",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2021"
+  ],
+  "grp": 15
+ },
+ {
+  "n": 54,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "You are plotting the concentration of a drug in plasma versus time after oral administration. This study would be considered a:",
+  "opts": [
+   [
+    "a",
+    "Pharmacokinetic study"
+   ],
+   [
+    "b",
+    "Pharmacodynamic study"
+   ],
+   [
+    "c",
+    "Not enough information to tell"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Plasma drug concentration over time = what the body does to the drug = pharmacokinetics.",
+  "cite": "LC30 S5–S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2021"
+  ],
+  "grp": 10
+ },
+ {
+  "n": 55,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Which of the following proteins integrates cell-cycle checkpoints to make the go/no-go decision on cell cycle?",
+  "opts": [
+   [
+    "a",
+    "Cyclins"
+   ],
+   [
+    "b",
+    "Cyclin Dependent Kinases"
+   ],
+   [
+    "c",
+    "Growth Factor Receptors"
+   ],
+   [
+    "d",
+    "p53"
+   ],
+   [
+    "e",
+    "Retinoblastoma Protein"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Cyclin-dependent kinases integrate checkpoints.",
+  "cite": "LC31 S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022"
+  ],
+  "grp": 9
+ },
+ {
+  "n": 56,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "In cells sensitive to Wnt, mutation of Axin so that it can no longer bind to APC would predispose to:",
+  "opts": [
+   [
+    "a",
+    "Apoptosis"
+   ],
+   [
+    "b",
+    "A degenerative condition"
+   ],
+   [
+    "c",
+    "A neoplastic condition"
+   ],
+   [
+    "d",
+    "Metastasis"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Axin can't bind APC → no destruction complex → β-catenin always on → neoplasia.",
+  "cite": "LC31 S13",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022"
+  ],
+  "grp": 16
+ },
+ {
+  "n": 57,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Which of the following proteins is important in connecting the DNA Damage Repair pathways to Cell Cycle pathways?",
+  "opts": [
+   [
+    "a",
+    "Cyclin B"
+   ],
+   [
+    "b",
+    "Cyclin D"
+   ],
+   [
+    "c",
+    "p53"
+   ],
+   [
+    "d",
+    "Retinoblastoma Protein"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "p53 links DNA damage (ATM) to the cell cycle (p21 → CDK).",
+  "cite": "LC31 S15",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 58,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Cytochrome C release from the mitochondria is an important step in:",
+  "opts": [
+   [
+    "a",
+    "Cell Cycle Pathway"
+   ],
+   [
+    "b",
+    "External apoptotic pathway"
+   ],
+   [
+    "c",
+    "Growth factor pathway"
+   ],
+   [
+    "d",
+    "Internal apoptotic pathway"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Cytochrome C + Apaf-1 → caspase 9 = internal (intrinsic) pathway.",
+  "cite": "LC32 S10–S11",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 59,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Based on its activity in the Wnt/Frizzled pathway, wild type β-catenin would be a(n):",
+  "opts": [
+   [
+    "a",
+    "Oncogene"
+   ],
+   [
+    "b",
+    "Proto-oncogene"
+   ],
+   [
+    "c",
+    "Tumor suppressor gene"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Normal β-catenin promotes division when it is regulated = proto-oncogene.",
+  "cite": "LC32 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2020",
+   "2021",
+   "2022"
+  ],
+  "grp": 8
+ },
+ {
+  "n": 60,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Could a mutated β-catenin that lacked a phosphorylation site be a viral oncogene?",
+  "opts": [
+   [
+    "a",
+    "Yes"
+   ],
+   [
+    "b",
+    "No"
+   ],
+   [
+    "c",
+    "Not enough information"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "unsure",
+  "why": "A gain-of-function β-catenin could be a viral oncogene.",
+  "cite": "LC32 S25–S30",
+  "flag": "Viral oncogenes are NOT tested in 2026 (Basel).",
+  "scope": "out",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 61,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Which of the following is likely to increase oxidative stress? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "Chronic infection"
+   ],
+   [
+    "b",
+    "Overdose of acetaminophen"
+   ],
+   [
+    "c",
+    "Overdose of vitamin C"
+   ],
+   [
+    "d",
+    "Space travel"
+   ],
+   [
+    "e",
+    "Transient ischemia"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "abde",
+  "conf": "sure",
+  "why": "Chronic infection (respiratory burst), acetaminophen overdose (NAPQI), space travel (ionizing radiation), transient ischemia (reperfusion). Vitamin C is an antioxidant (excess is peed out).",
+  "cite": "LC33 S9–S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2023"
+  ],
+  "grp": 13
+ },
+ {
+  "n": 62,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Which of the following is the most important intracellular antioxidant?",
+  "opts": [
+   [
+    "a",
+    "GSH"
+   ],
+   [
+    "b",
+    "Thioredoxin"
+   ],
+   [
+    "c",
+    "Vitamin C"
+   ],
+   [
+    "d",
+    "Vitamin E"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "GSH (glutathione) = \"easily the most important intracellular antioxidant.\"",
+  "cite": "LC33 S16 + transcript",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 63,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "Which of the following is an important signaling protein for hyperoxia?",
+  "opts": [
+   [
+    "a",
+    "GSH"
+   ],
+   [
+    "b",
+    "Thioredoxin"
+   ],
+   [
+    "c",
+    "Vitamin C"
+   ],
+   [
+    "d",
+    "Vitamin E [A graph with a line Description automatically generated][A graph with a line Description automatically generated] [A graph with a line Description automatically generated][A graph with a line Description automatically generated] [A graph of pain reduced and death Description automatically generated]"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Thioredoxin: oxidized form releases ASK1 → hyperoxia signaling.",
+  "cite": "LC33 S25",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "grp": 14
+ },
+ {
+  "n": 64,
+  "year": "2021",
+  "exam": "2021 Exam 4",
+  "stem": "You are characterizing a new NSAID drug candidate (New NSAID). You have run binding studies, efficacy studies, and dose-response studies on the new drug. Please describe the following (include correct units on all answers):",
+  "opts": [],
+  "parts": [
+   "a. What are the K_(D) of New NSAID at the COX1/PTGS1 and COX2/PTGS2 enzymes?",
+   "b. What are the EC₅₀ of New NSAID in the gastric mucosa and in endothelium?",
+   "c. What is the E_(Max) of New NSAID in the gastric mucosa and in endothelium?",
+   "d. What is the ED₅₀ and LD₅₀ of New NSAID?",
+   "e. What is the therapeutic index of New NSAID?",
+   "f. Is New NSAID a PTGS1 selective inhibitor, a PTGS2 selective inhibitor, or both equally? Explain.",
+   "g. Predict a significant side effect of New NSAID. Explain your prediction."
+  ],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g10.png",
+   "assets/cellphys_basel_g9.png",
+   "assets/cellphys_basel_g7.png",
+   "assets/cellphys_basel_g8.png",
+   "assets/cellphys_basel_g11.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: (a) KD: COX-1 ≈ 100 ng/mL, COX-2 ≈ 1000 ng/mL. (b) EC50: gastric mucosa ≈ 10 ng/mL; endothelium ≈ 1000 ng/mL. (c) Emax: gastric ↓ PGE2 by ~35 ng/mL (45 → 10); endothelium ↓ PGI2 by ~22 ng/mL (30 → 8). (d) ED50 ≈ 0.1 mg/kg; LD50 ≈ 1000 mg/kg. (e) TI ≈ 10,000 (unitless). (f) PTGS1 (COX-1) selective: 10× lower KD at COX-1 and 100× lower EC50 in gastric mucosa (COX-1 tissue). (g) Gastric ulcers (↓ protective PGE2, shunt to LTB4); also possible bleeding (↓ platelet TxA2).",
+  "conf": "likely",
+  "why": "Read KD from the binding graphs (50% bound), EC50 from halfway between the top and bottom plateaus, ED50/LD50 at 50% population.",
+  "cite": "LC29–LC30; LC28 S20–S26",
+  "flag": "Gastric EC50 (10) < COX-1 KD (100) suggests spare enzyme capacity/amplification in gastric mucosa.",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 65,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which enzyme is common to all eicosanoid synthesis pathways?",
+  "opts": [
+   [
+    "a",
+    "5-lipoxygenase (5-LOX)"
+   ],
+   [
+    "b",
+    "Phospholipase A2 (PLA2)"
+   ],
+   [
+    "c",
+    "Prostaglandin-G/H-synthase 1 (PTGS1)"
+   ],
+   [
+    "d",
+    "Prostaglandin-G/H-synthase 2 (PTGS2)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PLA2 is common to all eicosanoid pathways.",
+  "cite": "LC28 S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2020",
+   "2023"
+  ],
+  "grp": 0
+ },
+ {
+  "n": 66,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Selective inhibitors of prostaglandin synthase 2 (PTGS2/COX2) can cause which of the following negative side effects?",
+  "opts": [
+   [
+    "a",
+    "Adverse cardiovascular events"
+   ],
+   [
+    "b",
+    "Gastric/intestinal ulcers"
+   ],
+   [
+    "c",
+    "Immunosuppression"
+   ],
+   [
+    "d",
+    "Peripheral catabolism"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "COX-2 selective → ↓ endothelial PGI2 → clotting → cardiovascular events.",
+  "cite": "LC28 S26",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2020",
+   "2023"
+  ],
+  "grp": 17
+ },
+ {
+  "n": 67,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Prostaglandin F2α (PGF2α) signaling causes what event in the female reproductive system?",
+  "opts": [
+   [
+    "a",
+    "Implantation of the blastocyst"
+   ],
+   [
+    "b",
+    "Luteolysis of the corpus luteum"
+   ],
+   [
+    "c",
+    "Maintenance of the corpus luteum"
+   ],
+   [
+    "d",
+    "Ovulation of the mature oocyte"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PGF2α → luteolysis of the corpus luteum.",
+  "cite": "LC28 S7",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 68,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which stage of the cell cycle represents quiescent (currently non-dividing) cells?",
+  "opts": [
+   [
+    "a",
+    "G0"
+   ],
+   [
+    "b",
+    "G1"
+   ],
+   [
+    "c",
+    "G2"
+   ],
+   [
+    "d",
+    "M"
+   ],
+   [
+    "e",
+    "S"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "G0 = quiescent (can be reactivated).",
+  "cite": "LC31 S5",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 69,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "β-catenin is the effector of which growth factor pathway?",
+  "opts": [
+   [
+    "a",
+    "APC"
+   ],
+   [
+    "b",
+    "EGF"
+   ],
+   [
+    "c",
+    "IGF-1"
+   ],
+   [
+    "d",
+    "Wnt"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "β-catenin is the effector of the Wnt pathway.",
+  "cite": "LC31 S13",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 70,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which of the following proteins is a proto-oncogene?",
+  "opts": [
+   [
+    "a",
+    "APC"
+   ],
+   [
+    "b",
+    "β-catenin"
+   ],
+   [
+    "c",
+    "GSK-3"
+   ],
+   [
+    "d",
+    "Wnt"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "β-catenin = proto-oncogene. APC and GSK-3 are part of the destruction complex (suppressors).",
+  "cite": "LC32 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2020",
+   "2021",
+   "2022"
+  ],
+  "grp": 8
+ },
+ {
+  "n": 71,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which of the following proteins is pro-apoptotic signal in the internal apoptosis pathway?",
+  "opts": [
+   [
+    "a",
+    "Bax"
+   ],
+   [
+    "b",
+    "BCL-2"
+   ],
+   [
+    "c",
+    "FADD"
+   ],
+   [
+    "d",
+    "FASL"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Bax = pro-apoptotic (opens pores). Bcl-2 = anti-apoptotic; FADD/FasL = external pathway.",
+  "cite": "LC32 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 72,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which of the following proteins is a tumor suppressor gene?",
+  "opts": [
+   [
+    "a",
+    "AKT"
+   ],
+   [
+    "b",
+    "Bax"
+   ],
+   [
+    "c",
+    "EGF"
+   ],
+   [
+    "d",
+    "Ras"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Bax = tumor suppressor (loss of apoptosis → cancer). AKT, EGF, Ras = proto-oncogene side.",
+  "cite": "LC32 S17–S20",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 73,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Mutated forms of which of the following proteins could be a viral oncogene?",
+  "opts": [
+   [
+    "a",
+    "APC"
+   ],
+   [
+    "b",
+    "Bax"
+   ],
+   [
+    "c",
+    "GSK-3"
+   ],
+   [
+    "d",
+    "Ras"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "unsure",
+  "why": "Ras gain-of-function (can't hydrolyze GTP) is a classic viral oncogene.",
+  "cite": "LC32 S25–S30",
+  "flag": "Viral oncogenes are NOT tested in 2026 (Basel).",
+  "scope": "out",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 74,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which of the following proteins catalyzes the breakdown of hydrogen peroxide to water and oxygen?",
+  "opts": [
+   [
+    "a",
+    "Catalase"
+   ],
+   [
+    "b",
+    "Glutathione"
+   ],
+   [
+    "c",
+    "Superoxide dismutase"
+   ],
+   [
+    "d",
+    "Thioredoxin"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Catalase: H2O2 → H2O + O2.",
+  "cite": "LC33 S14",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 75,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which of the following might be a potential treatment targeted against hypoxic hepatocellular carcinomas?",
+  "opts": [
+   [
+    "a",
+    "Ebselen (an experimental drug that mimics GSH)"
+   ],
+   [
+    "b",
+    "PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
+   ],
+   [
+    "c",
+    "Q6 (an experimental drug that downregulates HIF-1α)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Hypoxic tumors rely on HIF → downregulating HIF-1α targets them.",
+  "cite": "LC33 S24",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 76,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Which signal pathway would you expect to be upregulated during reperfusion AFTER resolution of a transient ischemic event?",
+  "opts": [
+   [
+    "a",
+    "APC"
+   ],
+   [
+    "b",
+    "ASK1"
+   ],
+   [
+    "c",
+    "EGF"
+   ],
+   [
+    "d",
+    "HIF-1α Use the following graphs to answer questions 13-21:[C:\\Users\\mbasel\\Downloads\\Graph 1.jpg][C:\\Users\\mbasel\\Downloads\\Graph 2.jpg][C:\\Users\\mbasel\\Downloads\\Graph 3.jpg]"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Reperfusion → ROS burst → oxidized thioredoxin → ASK1 pathway.",
+  "cite": "LC33 S9, S25",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2020"
+  ],
+  "grp": 12
+ },
+ {
+  "n": 77,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "The β2-adrenoceptor is a G-protein coupled receptor with a Gs pathway. What second messenger would you expect when the β2-adrenoceptor is activated?",
+  "opts": [
+   [
+    "a",
+    "Decreased [cAMP]"
+   ],
+   [
+    "b",
+    "Increased [cAMP]"
+   ],
+   [
+    "c",
+    "Increased [NO]"
+   ],
+   [
+    "d",
+    "Increased [PIP3]"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Gs → ↑ cAMP.",
+  "cite": "LC27",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2020",
+   "2023"
+  ],
+  "grp": 11
+ },
+ {
+  "n": 78,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Salbutamol is a(n) _____________ of the β2-adrenoceptor.",
+  "opts": [
+   [
+    "a",
+    "Agonist"
+   ],
+   [
+    "b",
+    "Competitive antagonist"
+   ],
+   [
+    "c",
+    "Inverse antagonist"
+   ],
+   [
+    "d",
+    "Non-competitive antagonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "Use the salbutamol graphs (dose response, concentration response on equine trachealis, binding) to answer.",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Salbutamol produces relaxation through the receptor = agonist.",
+  "cite": "Graphs · LC29 S18",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 79,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please estimate the EC50 of salbutamol, include the correct units. What does EC50 tell us?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~1 nM. Concentration giving half-maximal response (30% relaxation) = potency.",
+  "conf": "sure",
+  "why": "Half of the 60% plateau = 30% → 1 nM.",
+  "cite": "Graph 2 · LC29 S13",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 80,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please estimate the EMax of salbutamol, include the correct units. What does EMax tell us?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~60% relaxation. Maximum possible effect = efficacy.",
+  "conf": "sure",
+  "why": "Top plateau, in response units.",
+  "cite": "Graph 2 · LC29 S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 81,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please estimate the KD of salbutamol, include the correct units. What does KD tell us?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~100 nM. Concentration binding 50% of receptors = affinity (lower = higher affinity).",
+  "conf": "sure",
+  "why": "Binding graph crosses 50% at 100 nM.",
+  "cite": "Graph 3 · LC30 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 82,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please estimate the ED50 of salbutamol, include the correct units.",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~0.03 mg/inhalation.",
+  "conf": "sure",
+  "why": "Improved breathing curve crosses 50% at ~0.03.",
+  "cite": "Graph 1",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 83,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please estimate the LD50 of salbutamol, include the correct units. What does LD50 tell us?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~10 mg/inhalation. Dose lethal to 50% of the population.",
+  "conf": "sure",
+  "why": "Death curve crosses 50% at 10.",
+  "cite": "Graph 1",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 84,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please estimate the therapeutic index of salbutamol, include the correct units. What does the therapeutic index tell us?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: ~300 (10 / 0.03 ≈ 333; unitless). Safety margin between effective and lethal doses; bigger = safer.",
+  "conf": "sure",
+  "why": "TI = LD50 / ED50.",
+  "cite": "LC30 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 85,
+  "year": "2020",
+  "exam": "2020 Exam 4",
+  "stem": "Please compare the KD and EC50 of salbutamol. What does this suggest? Explain why.",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g12.jpeg",
+   "assets/cellphys_basel_g13.jpeg",
+   "assets/cellphys_basel_g14.jpeg"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: EC50 (~1 nM) is far below KD (~100 nM) → full response with only a small fraction of receptors bound → spare receptors (receptor reserve); signaling, not binding, is limiting.",
+  "conf": "sure",
+  "why": "EC50 < KD = spare receptors.",
+  "cite": "LC30 S21–S23",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 86,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Which of the following proteins is important in synthesis of the leukotrienes?",
+  "opts": [
+   [
+    "a",
+    "5-lipoxygenase (5-LOX)"
+   ],
+   [
+    "b",
+    "Protein Kinase A (PKA)"
+   ],
+   [
+    "c",
+    "Protein Kinase B (PKB/AKT)"
+   ],
+   [
+    "d",
+    "Prostaglandin-G/H-Synthase 1 (PTGS1)"
+   ],
+   [
+    "e",
+    "Prostaglandin-G/H-Synthase 2 (PTGS2)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "5-LOX → leukotrienes.",
+  "cite": "LC28 S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 1
+ },
+ {
+  "n": 87,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "PGI2 signaling causes what second messenger in platelets?",
+  "opts": [
+   [
+    "a",
+    "Decreased cAMP"
+   ],
+   [
+    "b",
+    "Increased cAMP"
+   ],
+   [
+    "c",
+    "Decreased IP3"
+   ],
+   [
+    "d",
+    "Increased IP3"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PGI2 → IP receptor (Gs) on platelets → ↑ cAMP → platelets rest.",
+  "cite": "LC28 S7–S9",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 88,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "What class of drugs selectively inhibits PGI2 synthesis in endothelial cells?",
+  "opts": [
+   [
+    "a",
+    "Acetaminophen"
+   ],
+   [
+    "b",
+    "Corticosteroids"
+   ],
+   [
+    "c",
+    "Coxibs"
+   ],
+   [
+    "d",
+    "NSAIDs"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Coxibs (COX-2 selective) → ↓ endothelial PGI2.",
+  "cite": "LC28 S26",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 2
+ },
+ {
+  "n": 89,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "G1-CDK phosphorylates which protein to move through the G1/S checkpoint?",
+  "opts": [
+   [
+    "a",
+    "E2F"
+   ],
+   [
+    "b",
+    "MAPK"
+   ],
+   [
+    "c",
+    "p53"
+   ],
+   [
+    "d",
+    "pRB"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "G1-CDK phosphorylates pRb.",
+  "cite": "LC31 S15",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022",
+   "2023"
+  ],
+  "grp": 3
+ },
+ {
+  "n": 90,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Which of the following proteins potentiates apoptosis by causing mitochondrial membrane pores to open?",
+  "opts": [
+   [
+    "a",
+    "Bax"
+   ],
+   [
+    "b",
+    "Bcl-2"
+   ],
+   [
+    "c",
+    "Caspase 9"
+   ],
+   [
+    "d",
+    "Fas"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Bax opens mitochondrial pores.",
+  "cite": "LC32 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 4
+ },
+ {
+  "n": 91,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Mutated AKT (PKB) that gains constitutive activity would lead to _________ __________ in the cell and would potentiate __________.",
+  "opts": [
+   [
+    "a",
+    "Decreased p53 activation, cell cycling"
+   ],
+   [
+    "b",
+    "Increased Bax, apoptosis"
+   ],
+   [
+    "c",
+    "Increased Bcl-2, cell survival"
+   ],
+   [
+    "d",
+    "Increased MAPK signaling, cell cycling"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Constitutive AKT → ↑ Bcl-2 → cell survival.",
+  "cite": "LC31 S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 5
+ },
+ {
+  "n": 92,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Which of the following pharmaceuticals is known to be metabolized to a reactive oxygen species in the liver?",
+  "opts": [
+   [
+    "a",
+    "Acetaminophen"
+   ],
+   [
+    "b",
+    "Dexamethasone"
+   ],
+   [
+    "c",
+    "Firocoxib"
+   ],
+   [
+    "d",
+    "Ibuprofen"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Acetaminophen → NAPQI in the liver.",
+  "cite": "LC33 S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 6
+ },
+ {
+  "n": 93,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Which of the following could potentially be a treatment to reduce oxidative damage in the liver?",
+  "opts": [
+   [
+    "a",
+    "Ebselen (an experimental drug that mimics GSH)"
+   ],
+   [
+    "b",
+    "PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
+   ],
+   [
+    "c",
+    "Q6 (an experimental drug that downregulates HIF-1α)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Ebselen mimics glutathione.",
+  "cite": "LC33 S16",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2019",
+   "2022"
+  ],
+  "grp": 7
+ },
+ {
+  "n": 94,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Which of the following measurements would best be considered part of pharmacokinetics?",
+  "opts": [
+   [
+    "a",
+    "The amount of drug bound to a receptor"
+   ],
+   [
+    "b",
+    "The amount of drug clearance by the kidney"
+   ],
+   [
+    "c",
+    "The magnitude of effect of a drug bound to a receptor [A graph with a line Description automatically generated][A graph with a line Description automatically generated] [A graph with a line drawn on it Description automatically generated]"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Kidney clearance = elimination (ADME) = pharmacokinetics. Binding and effect = pharmacodynamics.",
+  "cite": "LC30 S5–S7",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2021"
+  ],
+  "grp": 10
+ },
+ {
+  "n": 95,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Salbutamol activates β2-adrenergic receptors, a Gs-linked receptor. What intracellular second messenger do you expect?",
+  "opts": [
+   [
+    "a",
+    "Decreased cAMP"
+   ],
+   [
+    "b",
+    "Increased cAMP"
+   ],
+   [
+    "c",
+    "Increased NO"
+   ],
+   [
+    "d",
+    "Increased PIP3"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Gs → ↑ cAMP.",
+  "cite": "LC27",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2020",
+   "2023"
+  ],
+  "grp": 11
+ },
+ {
+  "n": 96,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Estimate the EC50 of salbutamol on the trachealis muscle",
+  "opts": [
+   [
+    "a",
+    "30% relaxation"
+   ],
+   [
+    "b",
+    "50% receptors bound"
+   ],
+   [
+    "c",
+    "60% relaxation"
+   ],
+   [
+    "d",
+    "5 nM"
+   ],
+   [
+    "e",
+    "1000 nM"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g15.png",
+   "assets/cellphys_basel_g16.png",
+   "assets/cellphys_basel_g17.png"
+  ],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Half of the 60% plateau (30%) at 5 nM.",
+  "cite": "Graph 2 · LC29 S13",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 97,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Estimate the Emax of salbutamol on the trachealis muscle",
+  "opts": [
+   [
+    "a",
+    "30% relaxation"
+   ],
+   [
+    "b",
+    "50% receptors bound"
+   ],
+   [
+    "c",
+    "60% relaxation"
+   ],
+   [
+    "d",
+    "5 nM"
+   ],
+   [
+    "e",
+    "1000 nM"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g15.png",
+   "assets/cellphys_basel_g16.png",
+   "assets/cellphys_basel_g17.png"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Plateau = 60% relaxation (response units).",
+  "cite": "Graph 2",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 98,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Estimate the KD of salbutamol",
+  "opts": [
+   [
+    "a",
+    "30% relaxation"
+   ],
+   [
+    "b",
+    "50% receptors bound"
+   ],
+   [
+    "c",
+    "60% relaxation"
+   ],
+   [
+    "d",
+    "5 nM"
+   ],
+   [
+    "e",
+    "1000 nM"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g15.png",
+   "assets/cellphys_basel_g16.png",
+   "assets/cellphys_basel_g17.png"
+  ],
+  "free": false,
+  "ans": "e",
+  "conf": "sure",
+  "why": "50% receptors bound at 1000 nM.",
+  "cite": "Graph 1 · LC30 S10",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 99,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Estimate the therapeutic index of inhaled salbutamol.",
+  "opts": [
+   [
+    "a",
+    "50% of population"
+   ],
+   [
+    "b",
+    "3 mg/inhalation"
+   ],
+   [
+    "c",
+    "300"
+   ],
+   [
+    "d",
+    "500 mg/inhalation"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g15.png",
+   "assets/cellphys_basel_g16.png",
+   "assets/cellphys_basel_g17.png"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "ED50 ≈ 0.01, LD50 ≈ 3 mg/inhalation → TI ≈ 300 (unitless).",
+  "cite": "Graph 3 · LC30 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 100,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "You are studying a compound, Practolol, that you have determined binds to β2-adrenergic receptors but does not cause a signaling event. When you repeat the salbutamol concentration response assay in the presence of Practolol, the EC50 shifts to 50 nM. This suggests that Practolol is a _________ in this system.",
+  "opts": [
+   [
+    "a",
+    "Competitive antagonist"
+   ],
+   [
+    "b",
+    "Non-competitive antagonist"
+   ],
+   [
+    "c",
+    "Partial Agonist"
+   ],
+   [
+    "d",
+    "Super Agonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g15.png",
+   "assets/cellphys_basel_g16.png",
+   "assets/cellphys_basel_g17.png"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Binds without signaling and shifts EC50 right (5 → 50 nM) = competitive antagonist.",
+  "cite": "LC29 S21",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2021"
+  ],
+  "grp": 15
+ },
+ {
+  "n": 101,
+  "year": "2019",
+  "exam": "2019 Exam 4",
+  "stem": "Compare the Concentration Response Study and the Binding Study. What do the results of these two studies suggest?",
+  "opts": [],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g15.png",
+   "assets/cellphys_basel_g16.png",
+   "assets/cellphys_basel_g17.png"
+  ],
+  "free": true,
+  "ans": "MODEL ANSWER: EC50 (~5 nM) is ~200× lower than KD (~1000 nM) → maximal relaxation with few receptors bound → spare receptors (receptor reserve); signaling is limiting.",
+  "conf": "sure",
+  "why": "EC50 < KD = spare receptors.",
+  "cite": "LC30 S21–S23",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 102,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Which enzyme is common to all eicosanoid synthesis pathways?",
+  "opts": [
+   [
+    "a",
+    "5-lipoxygenase (5-LOX)"
+   ],
+   [
+    "b",
+    "Phospholipase A2 (PLA2)"
+   ],
+   [
+    "c",
+    "Prostaglandin-G/H-synthase 1 (PTGS1)"
+   ],
+   [
+    "d",
+    "Prostaglandin-G/H-synthase 2 (PTGS2)"
+   ],
+   [
+    "e",
+    "Thromboxane A2 (TxA2)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PLA2 is common to all eicosanoid pathways. TxA2 isn't even an enzyme.",
+  "cite": "LC28 S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2020",
+   "2023"
+  ],
+  "grp": 0
+ },
+ {
+  "n": 103,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Eicosanoids are derived from:",
+  "opts": [
+   [
+    "a",
+    "Adenosine triphosphate"
+   ],
+   [
+    "b",
+    "Arachidonic acid"
+   ],
+   [
+    "c",
+    "Guanosine triphosphate"
+   ],
+   [
+    "d",
+    "Palmitic acid"
+   ],
+   [
+    "e",
+    "Stearic acid"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Eicosanoids come from arachidonic acid.",
+  "cite": "LC28 S5–S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 104,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Injection of exogenous PGF2α into a pregnant cow near the point of implantation will likely induce:",
+  "opts": [
+   [
+    "a",
+    "Abortion of the embryo"
+   ],
+   [
+    "b",
+    "Production of INF-τ by the embryo"
+   ],
+   [
+    "c",
+    "Stability of the corpus luteum"
+   ],
+   [
+    "d",
+    "Suppression of LH and FSH production by the pituitary"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "likely",
+  "why": "PGF2α → luteolysis → progesterone drops → pregnancy lost (abortion).",
+  "cite": "LC28 S7",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 105,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Gs proteins induce what second messenger?",
+  "opts": [
+   [
+    "a",
+    "cAMP"
+   ],
+   [
+    "b",
+    "cGMP"
+   ],
+   [
+    "c",
+    "IP3"
+   ],
+   [
+    "d",
+    "PIP2 []"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Gs → cAMP.",
+  "cite": "LC27",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2020",
+   "2023"
+  ],
+  "grp": 11
+ },
+ {
+  "n": 106,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "What is the Emax of this norepinephrine concentration response curve?",
+  "opts": [
+   [
+    "a",
+    "8 μM cAMP"
+   ],
+   [
+    "b",
+    "16 μM cAMP"
+   ],
+   [
+    "c",
+    "1 nM norepinephrine"
+   ],
+   [
+    "d",
+    "30 nM norepinephrine"
+   ],
+   [
+    "e",
+    "10000 nM norepinephrine"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g18.png"
+  ],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Top plateau = 16 µM cAMP (response units).",
+  "cite": "Graph",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 107,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "What is the EC50 of this norepinephrine concentration response curve?",
+  "opts": [
+   [
+    "a",
+    "8 μM cAMP"
+   ],
+   [
+    "b",
+    "16 μM cAMP"
+   ],
+   [
+    "c",
+    "1 nM norepinephrine"
+   ],
+   [
+    "d",
+    "30 nM norepinephrine"
+   ],
+   [
+    "e",
+    "1000 nM norepinephrine []"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g18.png"
+  ],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Half of 16 (8 µM) at ~30 nM norepinephrine.",
+  "cite": "Graph",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 108,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "If curve A (solid line) is the norepinephrine response curve without any antagonists present, which of the concentration response curves suggests the presence of a competitive antagonist?",
+  "opts": [
+   [
+    "a",
+    "A (solid line)"
+   ],
+   [
+    "b",
+    "B (long dashes)"
+   ],
+   [
+    "c",
+    "C (short dashes)"
+   ],
+   [
+    "d",
+    "D (dots)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g19.png"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Short dashes: shifted right, same 16 µM ceiling = competitive. Long dashes = lower ceiling (non-competitive).",
+  "cite": "Graph · LC29 S21",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2021"
+  ],
+  "grp": 15
+ },
+ {
+  "n": 109,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Serotonin signaling in the synaptic cleft is primarily attenuated by:",
+  "opts": [
+   [
+    "a",
+    "Serotonin degradation by serotoninase"
+   ],
+   [
+    "b",
+    "Serotonin receptor ubiquitination and degradation"
+   ],
+   [
+    "c",
+    "Serotonin receptor cycling"
+   ],
+   [
+    "d",
+    "Serotonin reuptake by SERT"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "unsure",
+  "why": "Serotonin is cleared from the synapse mainly by reuptake through SERT.",
+  "cite": "Not in 2026 LC25–33 slides",
+  "flag": "Signal-termination question from an older lecture; likely not on 2026 Exam 4.",
+  "scope": "out",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 110,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Which of the following measurements would be considered part of pharmacokinetics?",
+  "opts": [
+   [
+    "a",
+    "Concentration of drug that binds 50% of the receptors"
+   ],
+   [
+    "b",
+    "Concentration of drug that elicits 50% maximal response"
+   ],
+   [
+    "c",
+    "Effective dose of a drug to treat a disease"
+   ],
+   [
+    "d",
+    "Plasma concentration of drug over time []"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Plasma concentration over time = pharmacokinetics.",
+  "cite": "LC30 S5–S6",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2019",
+   "2021"
+  ],
+  "grp": 10
+ },
+ {
+  "n": 111,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Approximate the therapeutic index of the experimental anti-MRSA antibiotic MFM501",
+  "opts": [
+   [
+    "a",
+    "20"
+   ],
+   [
+    "b",
+    "20 mg/kg"
+   ],
+   [
+    "c",
+    "100"
+   ],
+   [
+    "d",
+    "100 mg/kg"
+   ],
+   [
+    "e",
+    "2000 mg/kg"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel_g20.png"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "ED50 ≈ 100 mg/kg, LD50 ≈ 2000 mg/kg → TI ≈ 20 (unitless).",
+  "cite": "Graph · LC30 S17",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 112,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "During which phase of mitosis do the chromosomes first condense?",
+  "opts": [
+   [
+    "a",
+    "Anaphase"
+   ],
+   [
+    "b",
+    "Metaphase"
+   ],
+   [
+    "c",
+    "Prophase"
+   ],
+   [
+    "d",
+    "Telophase"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Chromosomes condense in prophase.",
+  "cite": "LC31 S8",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 113,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "FasL is a signal that activates:",
+  "opts": [
+   [
+    "a",
+    "The Akt/BCL-2 apoptosis inhibiting pathway"
+   ],
+   [
+    "b",
+    "The external apoptosis pathway"
+   ],
+   [
+    "c",
+    "The frizzled growth factor receptor"
+   ],
+   [
+    "d",
+    "The internal apoptosis pathway"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "FasL → Fas → FADD → caspase 8 = external pathway.",
+  "cite": "LC32 S12",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 114,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "What is often the most damaging component of transient ischemia?",
+  "opts": [
+   [
+    "a",
+    "Increased succinate concentration"
+   ],
+   [
+    "b",
+    "Oxidative burst at reperfusion"
+   ],
+   [
+    "c",
+    "Reduced [ATP] due to loss of H+ gradient"
+   ],
+   [
+    "d",
+    "Release of free iron into the cytosol"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "The oxidative burst at reperfusion causes most of the damage.",
+  "cite": "LC33 S9",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": 18
+ },
+ {
+  "n": 115,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "Which of the following might be a potential treatment for transient ischemia?",
+  "opts": [
+   [
+    "a",
+    "Ebselen (an experimental drug that mimics GSH)"
+   ],
+   [
+    "b",
+    "PFK15-584 (an experimental drug that prevents β-catenin induced transcription)"
+   ],
+   [
+    "c",
+    "Q6 (an experimental drug that downregulates HIF-1α)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Ebselen (glutathione mimic) quenches the reperfusion ROS.",
+  "cite": "LC33 S9, S16",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": 18
+ },
+ {
+  "n": 116,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "What signal pathway would you expect to be upregulated during reperfusion?",
+  "opts": [
+   [
+    "a",
+    "APC"
+   ],
+   [
+    "b",
+    "ASK1"
+   ],
+   [
+    "c",
+    "EGF"
+   ],
+   [
+    "d",
+    "HIF-1α"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Reperfusion ROS → oxidized thioredoxin → ASK1.",
+  "cite": "LC33 S25",
+  "flag": "",
+  "scope": "in",
+  "rep": [
+   "2018",
+   "2020"
+  ],
+  "grp": 12
+ },
+ {
+  "n": 117,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "You are studying the thromboxane A2 receptor (TxA2R) in platelets. During this study you identify an extremely potent agonist called BOP. Upon further study, the potency of this agonist in concentration response studies seems to be significantly greater than its affinity in binding studies. You also identify an irreversible antagonist, I-PTA-PON3, that covalently bonds to TxA2R and inactivates it. Use this information to answer the following questions:",
+  "opts": [],
+  "parts": [
+   "a. What effect do you expect BOP to cause in the platelets (i.e. what effect could you measure)? Please list a final effect (what will happen to the platelet) and a second messenger effect (what intracellular signals you could measure) that you could measure.",
+   "b. What quantity describes potency? What quantity describes affinity? Write a mathematical formula that relates these two quantities for BOP in this situation.",
+   "c. Why do you think the potency of BOP is significantly higher than the affinity for TxA2R? Propose a mechanism for the enhanced potency.",
+   "d. How do you expect the BOP concentration response curve to change if you add a low concentration of I-PTA-PON3 to the solution? (Please refer to EC50 and Emax in your answer)"
+  ],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": true,
+  "ans": "MODEL ANSWER: (a) TxA2 receptor = Gq → platelet aggregation (final effect); ↑ IP3, DAG, Ca2+ (second messengers). (b) Potency = EC50; affinity = KD; for BOP, EC50 < KD (EC50 << KD). (c) Spare receptors / signal amplification: full response with only a fraction of receptors bound. (d) A low dose of the irreversible antagonist uses up the receptor reserve: EC50 shifts RIGHT with Emax unchanged (looks competitive); at higher doses Emax falls.",
+  "conf": "likely",
+  "why": "Combines LC28 (TxA2 = Gq, aggregation) with LC30 spare receptors.",
+  "cite": "LC28 S9; LC30 S21–S23",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 118,
+  "year": "2018",
+  "exam": "2018 Exam 4",
+  "stem": "APC is a protein that binds both to β-catenin and the Axin/GSK3 complex and allows Axin/GSK3 to phosphorylate β-catenin. Use this information to answer the following questions:",
+  "opts": [],
+  "parts": [
+   "a. What growth factor pathway is APC associated with?",
+   "b. How does signaling through this pathway affect APC?",
+   "c. What happens to phosphorylated β-catenin? If β-catenin is not phosphorylated, what does it do?",
+   "d. Mutations in APC that prevent APC from interacting with Axin/GSK3 would cause what effect in a cell?",
+   "e. Based on this information, is wild-type APC an oncogene, a proto-oncogene, or a tumor-suppressor gene?",
+   "f. If a mutated APC that could not interact with Axin/GSK3 was encoded by a retrovirus, would this retrovirus be oncogenic? Why or why not?"
+  ],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": true,
+  "ans": "MODEL ANSWER: (a) Wnt. (b) Wnt → Frizzled/LRP → Dishevelled pulls APC off the Axin/GSK3 complex → no phosphorylation of β-catenin. (c) Phosphorylated β-catenin → proteasome; unphosphorylated β-catenin enters the nucleus and transcribes cyclin D → cell cycling. (d) β-catenin never phosphorylated → always on → unregulated division/neoplasia. (e) Tumor suppressor (cancer from LOSS of activity). (f) Probably not: a loss-of-function APC carried by a virus doesn't remove the cell's own working APC, so it wouldn't act as an oncogene.",
+  "conf": "likely",
+  "why": "Part (f) is a viral-oncogene question.",
+  "cite": "LC31 S13; LC32",
+  "flag": "Viral oncogenes (part f) are NOT tested in 2026.",
+  "scope": "out",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 1,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which enzyme releases arachidonic acid from membrane phospholipids, initiating eicosanoid synthesis?",
+  "opts": [
+   [
+    "a",
+    "5-LOX"
+   ],
+   [
+    "b",
+    "COX-1"
+   ],
+   [
+    "c",
+    "COX-2"
+   ],
+   [
+    "d",
+    "Phospholipase A₂"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "PLA₂ cuts arachidonic acid out of the membrane: the first step for every eicosanoid. COX and 5-LOX act after.",
+  "cite": "LC28",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 2,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which platelet-derived eicosanoid mediates platelet aggregation and vasoconstriction?",
+  "opts": [
+   [
+    "a",
+    "LTB₄"
+   ],
+   [
+    "b",
+    "PGE₂"
+   ],
+   [
+    "c",
+    "PGI₂"
+   ],
+   [
+    "d",
+    "TxA₂"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "TxA₂ = platelets (COX-1), Gq → clot + constrict. PGI₂ is its opposite (endothelium, Gs).",
+  "cite": "LC28",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 3,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Why can selective COX-2 inhibitors (Coxibs) increase the risk of thrombotic events?",
+  "opts": [
+   [
+    "a",
+    "They reduce endothelial PGI₂ without reducing TxA₂"
+   ],
+   [
+    "b",
+    "They suppress platelet aggregation"
+   ],
+   [
+    "c",
+    "They reduce leukotriene production"
+   ],
+   [
+    "d",
+    "They inhibit both COX-1 and COX-2 equally"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Endothelial PGI₂ is COX-2; platelet TxA₂ is COX-1. Block only COX-2 → anti-clot signal lost, pro-clot signal stays.",
+  "cite": "LC28",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 4,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "A hypovolemic patient develops acute kidney injury after NSAID administration. What mechanism explains this?",
+  "opts": [
+   [
+    "a",
+    "Loss of PGI₂-mediated increased renin release"
+   ],
+   [
+    "b",
+    "Enhanced TXA₂ synthesis leading to thrombotic events"
+   ],
+   [
+    "c",
+    "Loss of PGE₂-mediated afferent arteriolar dilation"
+   ],
+   [
+    "d",
+    "Increased aldosterone sensitivity and efferent arteriolar constriction"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Low volume → kidney leans on PGE₂ to dilate the afferent arteriole and hold GFR. NSAID removes it → AKI.",
+  "cite": "LC28 (kidney slide)",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 5,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Why are eicosanoids typically autocrine or paracrine rather than endocrine signals?",
+  "opts": [
+   [
+    "a",
+    "They are synthesized in the Golgi apparatus."
+   ],
+   [
+    "b",
+    "They are hydrophobic and lack carrier proteins."
+   ],
+   [
+    "c",
+    "They circulate tightly bound to plasma proteins."
+   ],
+   [
+    "d",
+    "They are secreted in vesicles and stored."
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Lipid, made on demand, no carrier, short-lived → acts locally.",
+  "cite": "LC28",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 6,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Why can the same prostaglandin both protect the stomach and promote inflammation elsewhere?",
+  "opts": [
+   [
+    "a",
+    "Its concentration threshold for receptor binding differs among tissues."
+   ],
+   [
+    "b",
+    "Different tissues express receptor subtypes coupled to distinct second-messenger pathways."
+   ],
+   [
+    "c",
+    "Cytokine expression modifies prostaglandin degradation rate."
+   ],
+   [
+    "d",
+    "COX-1 and COX-2 produce stereoisomers with opposite effects."
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PGE₂ hits EP subtypes: EP2 = Gs, EP3 = Gi. Same ligand, different receptor → different effect.",
+  "cite": "LC28",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 7,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "A β₂-adrenergic agonist initially causes bronchodilation but becomes less effective after chronic use. Which mechanism explains this?",
+  "opts": [
+   [
+    "a",
+    "Receptor internalization and reduced signaling efficiency"
+   ],
+   [
+    "b",
+    "Increased receptor affinity reducing available agonist"
+   ],
+   [
+    "c",
+    "Decreased adenylyl cyclase activity from low cAMP"
+   ],
+   [
+    "d",
+    "Inhibition of phosphodiesterase enzymes"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Desensitization: GRK phosphorylates → arrestin → receptor internalized (downregulation).",
+  "cite": "LC29",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 8,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "What advantage do second messengers like cAMP provide to signaling systems?",
+  "opts": [
+   [
+    "a",
+    "Limit sensitivity to external hormones"
+   ],
+   [
+    "b",
+    "Allow amplification and integration of signals"
+   ],
+   [
+    "c",
+    "Prevent receptor desensitization"
+   ],
+   [
+    "d",
+    "Convert endocrine to paracrine signaling"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "One receptor → many cAMP → many PKA: amplification; several inputs converge: integration.",
+  "cite": "LC29",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 9,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Clenbuterol and albuterol are both β₂-adrenoceptor agonists, but clenbuterol has an EC50 of ~5nM while albuterol has an EC50 of ~0.5nM. Based on this data, clenbuterol is ______ relative to albuterol.",
+  "opts": [
+   [
+    "a",
+    "More potent"
+   ],
+   [
+    "b",
+    "Less potent"
+   ],
+   [
+    "c",
+    "More efficacious"
+   ],
+   [
+    "d",
+    "Less efficacious"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Higher EC50 = more drug needed = LESS potent. EC50 says nothing about efficacy (Emax).",
+  "cite": "LC30",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 10,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Morphine and buprenorphine have different maximal effects on the μ-opioid system, with buprenorphine's maximum effect being approximately 50% of morphine's maximal effect. Compared to morphine, buprenorphine would be considered a:",
+  "opts": [
+   [
+    "a",
+    "Full agonist"
+   ],
+   [
+    "b",
+    "Inverse agonist"
+   ],
+   [
+    "c",
+    "Partial agonist"
+   ],
+   [
+    "d",
+    "Super agonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Lower Emax than the full agonist = partial agonist.",
+  "cite": "LC30",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 11,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Pharmacokinetics is best summarized as:",
+  "opts": [
+   [
+    "a",
+    "Drug–receptor binding and activation"
+   ],
+   [
+    "b",
+    "Absorption, distribution, metabolism, and elimination of the drug"
+   ],
+   [
+    "c",
+    "The concentration–response relationship"
+   ],
+   [
+    "d",
+    "Drug potency and efficacy"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "PK = what the body does to the drug (ADME). PD = what the drug does to the body.",
+  "cite": "LC30",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 12,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "The KD for a ligand represents:",
+  "opts": [
+   [
+    "a",
+    "The concentration producing 50% of the maximal response"
+   ],
+   [
+    "b",
+    "The concentration causing toxic effects in 50% of subjects"
+   ],
+   [
+    "c",
+    "The concentration that doubles signal amplification"
+   ],
+   [
+    "d",
+    "The concentration where half of receptors are bound"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "KD = 50% receptors bound (binding graph). Trap: 50% max response = EC50; 50% toxic = TD50.",
+  "cite": "LC30",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 13,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "During which phase of the cell cycle has DNA already been duplicated, but mitosis not yet occurred?",
+  "opts": [
+   [
+    "a",
+    "G₁"
+   ],
+   [
+    "b",
+    "G₂"
+   ],
+   [
+    "c",
+    "S"
+   ],
+   [
+    "d",
+    "M"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "S copies DNA; G₂ is the gap after S and before M.",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 14,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "In the Wnt/Frizzled pathway, what happens to β-catenin in the absence of Wnt signaling?",
+  "opts": [
+   [
+    "a",
+    "Enters the nucleus as a transcription factor"
+   ],
+   [
+    "b",
+    "Acts as a phosphorylase, inhibiting transcription pathways"
+   ],
+   [
+    "c",
+    "Acts as a kinase, activating transcription pathways"
+   ],
+   [
+    "d",
+    "Is targeted to the proteosome for degradation"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "No Wnt → Axin/GSK3/APC complex phosphorylates β-catenin → ubiquitin → proteasome.",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 15,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which of these proteins is central to signal integration and progression through cell cycle checkpoints?",
+  "opts": [
+   [
+    "a",
+    "Adenomatous polyposis coli protein (APC)"
+   ],
+   [
+    "b",
+    "Cyclins"
+   ],
+   [
+    "c",
+    "Cyclin-dependent kinases (CDK)"
+   ],
+   [
+    "d",
+    "Mitogen-activated protein kinases (MAPK)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Basel's slide title: 'Cyclin Dependent Kinases Integrate Checkpoints.' Cyclins activate CDKs; CDK does the integrating.",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 16,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "E2F activation tends to push the cell toward:",
+  "opts": [
+   [
+    "a",
+    "Cell cycle arrest"
+   ],
+   [
+    "b",
+    "Initiating mitosis"
+   ],
+   [
+    "c",
+    "Quiescence"
+   ],
+   [
+    "d",
+    "Initiating DNA synthesis"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "E2F = transcription factor for S-phase genes → DNA synthesis (G1→S), not mitosis.",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 17,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Mutations in retinoblastoma protein that prevent E2F binding would tend to promote:",
+  "opts": [
+   [
+    "a",
+    "Permanent cell cycle arrest"
+   ],
+   [
+    "b",
+    "Long-term quiescence/terminal differentiation"
+   ],
+   [
+    "c",
+    "Increased cell-cycling and mitosis"
+   ],
+   [
+    "d",
+    "Inability to synthesize DNA"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "pRb is the brake holding E2F. Can't bind E2F → E2F always free → cell keeps cycling.",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 18,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "What tends to happen to cyclins immediately after moving through a checkpoint?",
+  "opts": [
+   [
+    "a",
+    "They tend to be phosphorylated to increase activity"
+   ],
+   [
+    "b",
+    "They tend to be dephosphorylated to decrease activity"
+   ],
+   [
+    "c",
+    "They tend to be proteolytically degraded"
+   ],
+   [
+    "d",
+    "They tend to increase in concentration"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Cyclins are destroyed (ubiquitin → proteasome) after their checkpoint so the cycle moves one way.",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 19,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which description distinguishes apoptosis from necrosis?",
+  "opts": [
+   [
+    "a",
+    "Release of intracellular enzymes"
+   ],
+   [
+    "b",
+    "DNA fragmentation without inflammation"
+   ],
+   [
+    "c",
+    "Rapid lysis and leakage of contents"
+   ],
+   [
+    "d",
+    "Swelling of organelles"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Apoptosis = orderly: DNA fragments, blebs, no inflammation. The others are necrosis.",
+  "cite": "LC32",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 20,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which protein inhibits the internal apoptotic pathway by closing mitochondrial pores?",
+  "opts": [
+   [
+    "a",
+    "Bax"
+   ],
+   [
+    "b",
+    "Caspase 9"
+   ],
+   [
+    "c",
+    "Bcl-2"
+   ],
+   [
+    "d",
+    "Apaf-1"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Bcl-2 closes pores (anti-apoptotic). Bax opens them. Apaf-1 + caspase 9 = apoptosome.",
+  "cite": "LC32",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 21,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "In the extrinsic apoptosis pathway, which event is central to apoptosis initiation?",
+  "opts": [
+   [
+    "a",
+    "Bax inactivation"
+   ],
+   [
+    "b",
+    "Caspase 3 activation"
+   ],
+   [
+    "c",
+    "Cytochrome c release from mitochondria"
+   ],
+   [
+    "d",
+    "Fas receptor trimerization"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "Extrinsic = external: FasL binds Fas → trimerizes → caspase 8. Cytochrome c is intrinsic; caspase 3 is the shared executioner, not the initiator.",
+  "cite": "LC32",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 22,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Mutated β-catenin that cannot be phosphorylated by Axin/GSK3/APC and is therefore constitutively active will most likely:",
+  "opts": [
+   [
+    "a",
+    "Increase apoptosis"
+   ],
+   [
+    "b",
+    "Decrease apoptosis"
+   ],
+   [
+    "c",
+    "Increase cell-cycle"
+   ],
+   [
+    "d",
+    "Decrease cell-cycle"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Never tagged for destruction → always in nucleus → cyclin D ↑ → more cycling (colon cancer).",
+  "cite": "LC31",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 23,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Normal (WT/non-mutated) β-catenin would most correctly be considered a(n):",
+  "opts": [
+   [
+    "a",
+    "Oncogene"
+   ],
+   [
+    "b",
+    "Protooncogene"
+   ],
+   [
+    "c",
+    "Tumor initiator gene"
+   ],
+   [
+    "d",
+    "Tumor suppressor gene"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Normal gas pedal = proto-oncogene. Mutated always-on version = oncogene.",
+  "cite": "LC32",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 24,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "p21 inhibits CDK2 as part of the p53 DNA damage response pathway. Normal (non-mutated) p21 would most correctly be considered a(n):",
+  "opts": [
+   [
+    "a",
+    "Oncogene"
+   ],
+   [
+    "b",
+    "Protooncogene"
+   ],
+   [
+    "c",
+    "Tumor initiator gene"
+   ],
+   [
+    "d",
+    "Tumor suppressor gene"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "d",
+  "conf": "sure",
+  "why": "p21 is a brake on CDK → tumor suppressor. (Confirms the p21 classification.)",
+  "cite": "LC31–LC32",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 25,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which conditions would most likely increase oxidative damage in tissues? (select ALL that apply)",
+  "opts": [
+   [
+    "a",
+    "Selenium deficiency"
+   ],
+   [
+    "b",
+    "Iron overload"
+   ],
+   [
+    "c",
+    "Chronic antioxidant supplementation"
+   ],
+   [
+    "d",
+    "Ischemia followed by rapid reperfusion"
+   ]
+  ],
+  "parts": [],
+  "multi": true,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "abd",
+  "conf": "sure",
+  "why": "Selenium deficiency → glutathione peroxidase fails; iron → Fenton → •OH; reperfusion → ROS burst. Antioxidants lower damage.",
+  "cite": "LC33",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 26,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "The treatment of acetaminophen toxicity in cats with N-acetylcysteine is effective because it:",
+  "opts": [
+   [
+    "a",
+    "Directly oxidizes NAPQI to a harmless metabolite."
+   ],
+   [
+    "b",
+    "Inhibits cytochrome P450 metabolism of acetaminophen."
+   ],
+   [
+    "c",
+    "Replenishes glutathione stores used to detoxify reactive NAPQI."
+   ],
+   [
+    "d",
+    "Chelates iron to prevent hydroxyl radical formation."
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "NAC supplies cysteine → rebuilds glutathione, which conjugates NAPQI.",
+  "cite": "LC33",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 27,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which small-molecule antioxidant would most effectively terminate radical chain reactions in lipid membranes?",
+  "opts": [
+   [
+    "a",
+    "Vitamin C (ascorbate)"
+   ],
+   [
+    "b",
+    "Vitamin E (α-tocopherol)"
+   ],
+   [
+    "c",
+    "Glutathione (GSH)"
+   ],
+   [
+    "d",
+    "Ferritin"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "Vitamin E is lipid-soluble → sits in membranes, stops lipid peroxidation chains. Vitamin C is water-soluble (recycles E).",
+  "cite": "LC33",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 28,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Under hypoxic conditions, HIF-1α levels rise primarily because:",
+  "opts": [
+   [
+    "a",
+    "Prolyl hydroxylase requires oxygen to target HIF-1α for degradation."
+   ],
+   [
+    "b",
+    "ASK1 phosphorylation promotes HIF breakdown."
+   ],
+   [
+    "c",
+    "ROS directly reduce HIF transcription."
+   ],
+   [
+    "d",
+    "Proteasomes are oxygen dependent."
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Normal O₂: prolyl hydroxylase tags HIF → VHL → proteasome. No O₂ → no tag → HIF builds up.",
+  "cite": "LC33",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 29,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Which statement correctly describes the function of the glomus cell in the carotid body?",
+  "opts": [
+   [
+    "a",
+    "Hypoxia closes K⁺ channels, depolarizing the cell"
+   ],
+   [
+    "b",
+    "Hyperoxia opens K⁺ channels, hyperpolarizing the cell."
+   ],
+   [
+    "c",
+    "Normoxia activates HIF-1α transcription of glycolytic genes."
+   ],
+   [
+    "d",
+    "Hypoxia opens K⁺ channels to reduce cell excitability."
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Low O₂ → K⁺ channels close → depolarize → Ca²⁺ in → neurotransmitter → ↑ breathing.",
+  "cite": "LC33",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 30,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Vibrio alginolyticus can express high levels of superoxide dismutase. Strains of V. alginolyticus that express sodB (superoxide dismutase) are likely to:",
+  "opts": [
+   [
+    "a",
+    "Be more virulent (more resistant to phagocytic degradation)"
+   ],
+   [
+    "b",
+    "Be more virulent (less immunoreactive)"
+   ],
+   [
+    "c",
+    "Be less virulent (less resistant to phagocytic degradation)"
+   ],
+   [
+    "d",
+    "Be less virulent (more immunoreactive)"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Phagocytes kill with superoxide (respiratory burst). Bacterial SOD destroys it → survives inside phagocytes → more virulent.",
+  "cite": "LC33",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 31,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Estimate the KD of isoproterenol",
+  "opts": [
+   [
+    "a",
+    "22 mg/kg"
+   ],
+   [
+    "b",
+    "50% of population"
+   ],
+   [
+    "c",
+    "5 nM"
+   ],
+   [
+    "d",
+    "100 uM cAMP"
+   ],
+   [
+    "e",
+    "100 nM"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "Use the graphs (cAMP response, population response, % β1R bound) to answer Q31–Q36.",
+  "img": [
+   "assets/cellphys_basel25_g3.jpg"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "Binding graph (% β1R bound): isoproterenol crosses 50% at ~5 nM. Unit trap: KD is a concentration from the BINDING graph.",
+  "cite": "LC30 graphs",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 32,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Estimate the EC50 of isoproterenol",
+  "opts": [
+   [
+    "a",
+    "0.5 mg/kg"
+   ],
+   [
+    "b",
+    "2 nM"
+   ],
+   [
+    "c",
+    "10"
+   ],
+   [
+    "d",
+    "50 uM cAMP"
+   ],
+   [
+    "e",
+    "50% bound"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel25_g1.jpg"
+  ],
+  "free": false,
+  "ans": "b",
+  "conf": "sure",
+  "why": "cAMP graph: response runs ~55→155 µM, midpoint ~105 µM at ~2 nM. Trap: mg/kg is ED50 (whole-animal).",
+  "cite": "LC30 graphs",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 33,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Does it appear that there are spare β1-adrenoceptors in cardiomyocytes?",
+  "opts": [
+   [
+    "a",
+    "Yes"
+   ],
+   [
+    "b",
+    "No"
+   ],
+   [
+    "c",
+    "Not enough information"
+   ],
+   [
+    "d",
+    "Not possible in this system"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel25_g1.jpg",
+   "assets/cellphys_basel25_g3.jpg"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "EC50 (~2 nM) < KD (~5 nM): full response before half the receptors are bound → spare receptors.",
+  "cite": "LC30 graphs",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 34,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "What type of ligand is propranolol in the β1-adrenoceptor system?",
+  "opts": [
+   [
+    "a",
+    "Super agonist"
+   ],
+   [
+    "b",
+    "Inverse agonist"
+   ],
+   [
+    "c",
+    "Competitive antagonist"
+   ],
+   [
+    "d",
+    "Irreversible antagonist"
+   ],
+   [
+    "e",
+    "Non-competitive antagonist"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel25_g1.jpg",
+   "assets/cellphys_basel25_g3.jpg"
+  ],
+  "free": false,
+  "ans": "c",
+  "conf": "sure",
+  "why": "It binds β1R (binding graph) and shifts the isoproterenol curve RIGHT with the SAME max → competitive antagonist.",
+  "cite": "LC30 graphs",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 35,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Estimate the ED50 of isoproterenol.",
+  "opts": [
+   [
+    "a",
+    "0.5 mg/kg"
+   ],
+   [
+    "b",
+    "0.5 nM"
+   ],
+   [
+    "c",
+    "2 nM"
+   ],
+   [
+    "d",
+    "22 nM"
+   ],
+   [
+    "e",
+    "100 uM cAMP"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel25_g2.jpg"
+  ],
+  "free": false,
+  "ans": "a",
+  "conf": "sure",
+  "why": "Population graph: 50% resolution of bradyarrhythmia at ~0.5 mg/kg. ED50 = dose (mg/kg), not concentration.",
+  "cite": "LC30 graphs",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ },
+ {
+  "n": 36,
+  "year": "2025",
+  "exam": "2025 Exam 4",
+  "stem": "Estimate the therapeutic index of isoproterenol.",
+  "opts": [
+   [
+    "a",
+    "0.5 mg/kg"
+   ],
+   [
+    "b",
+    "5"
+   ],
+   [
+    "c",
+    "11"
+   ],
+   [
+    "d",
+    "50 mg/kg"
+   ],
+   [
+    "e",
+    "100"
+   ]
+  ],
+  "parts": [],
+  "multi": false,
+  "ctx": "",
+  "img": [
+   "assets/cellphys_basel25_g2.jpg"
+  ],
+  "free": false,
+  "ans": "e",
+  "conf": "sure",
+  "why": "TI = LD50 ÷ ED50 = ~50 mg/kg ÷ 0.5 mg/kg = 100. Unitless, so the mg/kg options are traps.",
+  "cite": "LC30 graphs",
+  "flag": "",
+  "scope": "in",
+  "rep": [],
+  "grp": null
+ }
 ]
