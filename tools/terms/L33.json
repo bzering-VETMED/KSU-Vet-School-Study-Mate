@@ -1,6 +1,6 @@
 {
  "traps": [
-  "📄 Built from the SLIDES only (lecture Thu 11/12) — stars and corrections update when the transcript arrives.",
+  "📄 Slides + lecture 11/12 transcript (Dr. Malreddy's LAST new-material lecture). Recording cuts off at cricoarytenoideus lateralis — later muscle slides stay slide-only.",
   "CHOANA = the CAUDAL opening of the nasal cavity (into the nasopharynx) vs bony nasal APERTURE = the ROSTRAL opening (slide 5) vs CONCHAE = bony scrolls inside the cavity (slide 11). Choana ≠ concha.",
   "Dorsal nasal concha = ethmoid crest of the NASAL bone, 1st ENDOturbinate, LONGEST. Ventral nasal concha = conchal crest of the MAXILLA, P1–P3, forms the ALAR fold. Middle (ethmoidal) concha = 2nd ENDOturbinate (slides 14–16).",
   "ENDOturbinates (I–IV, Roman) project into the NASAL CAVITY; ECTOturbinates (1–6, Arabic) project into the FRONTAL SINUS (slide 17).",
@@ -11,15 +11,53 @@
   "Only ONE laryngeal muscle on the slides is innervated by the CRANIAL laryngeal nerve: cricothyroideus (tenses the vocal fold). All the others = CAUDAL laryngeal nerve (slides 39–43).",
   "Cricoarytenoideus DORSALIS = the MAIN ABDUCTOR = OPENS the glottis. Cricoarytenoideus LATERALIS = narrows/CLOSES the glottic cleft (slides 40–41). Dorsal opens, lateral closes.",
   "Thyroarytenoideus splits: VENTRICULARIS (rostral division, constricts glottis, DILATES the ventricle) vs VOCALIS (medial division, inside the vocal fold, RELAXES the vocal fold) (slide 42).",
-  "⚠️ FLAG (slide 31 vs slide 40): cricoid figure labels the 'MEDIAN crest'; the cricoarytenoideus dorsalis origin says 'lateral to the MEDIAL crest'. Same structure, two spellings — confirm which term to write (median vs medial).",
+  "✅ CLOSED (lecture 11/12): cricoid DORSAL crest = 'MEDIAN crest' — 'on the dorsal side there is a crest… runs in the midline, so that is called the median crest.'",
   "⚠️ FLAG (slide 18): 'Dorsal nasal meatus – communicates with nasal cavity' — every meatus is part of the nasal cavity, so this is uninformative as written. Standard anatomy: dorsal meatus leads to the olfactory (ethmoidal) region (outside knowledge — confirm in transcript).",
-  "⚠️ FLAG (slide 25 vs slide 28): slide 25 says the epiglottis tilts backward 'to cover the opening of larynx'; slide 28 says it 'PARTIALLY cover[s] the rostral opening'. Use 'partially' (the more specific statement) until the transcript confirms.",
-  "⚠️ FLAG (slide 20 vs slide 22): slide 20 lists 'Maxillary recess (sinus)' among paranasal sinuses (diverticula between bone laminae), but slide 22 defines it as a diverticulum of the NASAL CAVITY. Use 'maxillary recess' as the name."
+  "✅ Lecture 11/12: epiglottis 'tilts backward to cover that access to the respiratory tract' during swallowing → prevents aspiration.",
+  "✅ CLOSED (lecture 11/12): dogs and cats have NO maxillary SINUS — it's a maxillary RECESS (an outpouch of the nasal cavity next to the maxilla, not an air excavation in the bone). Maxillary SINUS = large animals only.",
+  "Frontal BONE is NOT part of the bony case of the nose (Kahoot — most of the class picked it). Dorsal = NASAL bone; lateral = maxilla + incisive; ventral = hard palate (palatine process of maxilla + horizontal lamina of palatine); caudal = cribriform plate (ethmoid) (lecture 11/12).",
+  "Nasogastric tube → VENTRAL nasal meatus → nasopharynx. Dorsal/middle meatus 'don't take you anywhere' and cause bleeding — if stuck, pull back and aim ventrally (lecture 11/12).",
+  "Size the endotracheal tube by the GLOTTIC CLEFT (rima glottidis), NOT the nostrils (lecture 11/12).",
+  "Identify the cricothyroid MUSCLE vs cricothyroid LIGAMENT — 'pay attention to what is being asked' (lecture 11/12).",
+  "ARYTENOID is the ONLY paired laryngeal cartilage; epiglottis, thyroid, cricoid are single (lecture 11/12).",
+  "Dorsal concha = LONGEST; ventral concha = most EXTENSIVE (lecture 11/12).",
+  "Frontal sinus: 3 compartments (rostral, medial, LATERAL = largest); they do NOT communicate with each other, but EACH opens separately into the nasal cavity (lecture 11/12).",
+  "Cranial laryngeal nerve → ONLY the cricothyroideus. ALL other intrinsic laryngeal muscles → CAUDAL laryngeal (lecture 11/12: 'if you could remember that, that would help quite a bit')."
  ],
  "sections": [
   {
-   "title": "📋 Learning objectives & scope (slides)",
+   "title": "📣 Exam signals & scope (lecture 11/12) + objectives",
    "items": [
+    {
+     "q": "Kahoot: which bone is NOT part of the nose's bony case?",
+     "a": "Frontal bone (sinuses there, but it's caudal). Nasal (dorsal), maxilla + incisive (lateral), palatine process of maxilla + palatine bone (ventral), cribriform plate (caudal)",
+     "star": true,
+     "why": "Lecture 11/12 Kahoot — most of the class missed it"
+    },
+    {
+     "q": "Clinical Q: nasogastric tube — which meatus?",
+     "a": "VENTRAL nasal meatus → nasopharynx",
+     "star": true,
+     "why": "Lecture 11/12 in-class question"
+    },
+    {
+     "q": "Paranasal sinuses / conchae clinically important in the dog?",
+     "a": "Not much — much more important in horses (trephination = drilling holes in the skull). Know the basics now",
+     "star": false,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Laryngeal ligaments you need to know?",
+     "a": "Cricotracheal + cricothyroid (both VENTRAL; incise through them to reach the tracheal lumen). The others (hyoepiglottic, etc.) won't be identified",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Species variations (horse nostrils, cartilages)?",
+     "a": "'We'll worry about those next semester' — not this exam (e.g., horses have no philtrum; dorsal + ventral lateral nasal cartilages don't connect in horses)",
+     "star": false,
+     "why": "Lecture 11/12"
+    },
     {
      "q": "Canvas review Q: a dog's LEFT arytenoid fails to move laterally on inspiration. Which muscle normally does it, and what happens to the rima glottidis?",
      "a": "Left cricoarytenoideus dorsalis — abducts the arytenoid, moves the vocal fold laterally, WIDENS the rima glottidis. Without it the opening doesn't widen fully on inspiration",
@@ -53,7 +91,7 @@
    ]
   },
   {
-   "title": "👃 LO1 · Nose overview & bony boundaries (slides 3, 5)",
+   "title": "👃 LO1 · Nose overview & bony boundaries (slides + lecture 11/12 3, 5)",
    "items": [
     {
      "q": "The nose consists of… (slide 3)",
@@ -100,7 +138,7 @@
    ]
   },
   {
-   "title": "🐽 LO1 · Nares & nasal cartilages (slides 6–8)",
+   "title": "🐽 LO1 · Nares & nasal cartilages (slides + lecture 11/12 6–8)",
    "items": [
     {
      "q": "Nares (nostrils) — 3 features on slide 6…",
@@ -143,11 +181,59 @@
      "a": "Cartilaginous septum, dorsal lateral nasal cartilage, ventral lateral nasal cartilage, accessory cartilage",
      "star": true,
      "why": "Figure for ID (slide 8)"
+    },
+    {
+     "q": "Philtrum?",
+     "a": "Midline groove of the nasal plate; can extend into the lip. Horses have NO philtrum",
+     "star": false,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Lateral nasal cartilages?",
+     "a": "Dorsal + ventral lateral nasal cartilages (bilateral), connected to each other in the dog → give the nostril its comma shape",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Why can a dog sniff and exhale without losing the scent?",
+     "a": "Exhaled air exits through the lateral slits of the nostrils, directed away from the inflow",
+     "star": false,
+     "why": "Lecture 11/12 (newsletter fun fact)"
+    },
+    {
+     "q": "Which laryngeal cartilage is paired?",
+     "a": "ONLY the arytenoid (left + right). Epiglottis, thyroid, cricoid = single",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Largest laryngeal cartilage? Its 'Adam's apple'?",
+     "a": "Thyroid cartilage → laryngeal prominence (ventral). Rostral + caudal horns (cornua) and rostral + caudal thyroid notches",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Cricoid shape?",
+     "a": "Signet ring: wide dorsal LAMINA with a MEDIAN CREST, narrow ventral arch",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Four arytenoid processes?",
+     "a": "Cuneiform (rostral; aryepiglottic fold to the epiglottis), corniculate (caudal), VOCAL (ventromedial; vocal fold attaches), MUSCULAR (lateral; muscles attach)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Epiglottis parts?",
+     "a": "Apex (rostral), base, stalk (caudal; attaches to the thyroid cartilage)",
+     "star": false,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🕳️ LO1 · Nasal cavity & septum (slides 9–10)",
+   "title": "🕳️ LO1 · Nasal cavity & septum (slides + lecture 11/12 9–10)",
    "items": [
     {
      "q": "Extent of the nasal cavity (slide 9)?",
@@ -184,11 +270,17 @@
      "a": "Ethmoid bone, frontal bone, nasal bone, maxilla, incisive bone, palatine bone, hard palate (+ nasopharynx)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Nasal septum portions?",
+     "a": "Rostral = mostly CARTILAGINOUS (+ membranous part); caudal = OSSEOUS (bony, 'crunchy' when you removed it)",
+     "star": true,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🌀 LO1 · Conchae (slides 11–16)",
+   "title": "🌀 LO1 · Conchae (slides + lecture 11/12 11–16)",
    "items": [
     {
      "q": "Conchae — definition (slide 11)?",
@@ -261,11 +353,23 @@
      "a": "Fills the caudal part of the nasal cavity; formed by the SECOND endoturbinate; part of the ethmoidal labyrinth",
      "star": true,
      "why": "Bold heading (slide 16)"
+    },
+    {
+     "q": "Which concha is the longest? Which is the most extensive?",
+     "a": "Dorsal = LONGEST (whole length of the cavity, 1st endoturbinate, from ethmoidal crest of nasal bone). Ventral = most EXTENSIVE (conchal crest of maxilla, ~P1–P3, ends at the alar fold)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Middle (ethmoidal) concha?",
+     "a": "Caudal part of the cavity; 2nd endoturbinate; part of the ethmoidal labyrinth; seen only on a more caudal transverse section",
+     "star": true,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🧩 LO1 · Ethmoidal labyrinth & meatuses (slides 17–18)",
+   "title": "🧩 LO1 · Ethmoidal labyrinth & meatuses (slides + lecture 11/12 17–18)",
    "items": [
     {
      "q": "Ethmoidal labyrinth — definition (slide 17)?",
@@ -338,11 +442,29 @@
      "a": "EQUINE head, transverse section at P4: 1 nasal septum; 2 dorsal concha; 3 ventral concha; 4 common meatus; 5 dorsal meatus; 6 middle meatus; 7 ventral meatus; 8 venous plexus in nasal mucosa",
      "star": true,
      "why": "Numbered figure for ID (slide 18)"
+    },
+    {
+     "q": "Endo vs ectoturbinates?",
+     "a": "ENDO = within the nasal cavity (1–4); ECTO = outside, into the frontal sinus (1–6). Endo 1 = dorsal concha; endo 2 = middle concha",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Concha vs meatus?",
+     "a": "Concha = bony STRUCTURE (scroll lined by nasal mucosa = respiratory epithelium + lamina propria). Meatus = the SPACE between conchae (meatus/meatuses both OK)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Where is each meatus?",
+     "a": "Dorsal: nasal bone ↔ dorsal concha · Middle: dorsal ↔ ventral concha · Ventral: ventral concha ↔ hard palate · Common: where all meet beside the septum",
+     "star": true,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🫧 LO1 · Paranasal sinuses (slides 20–23)",
+   "title": "🫧 LO1 · Paranasal sinuses (slides + lecture 11/12 20–23)",
    "items": [
     {
      "q": "Paranasal sinuses — definition (slide 20)?",
@@ -403,11 +525,35 @@
      "a": "Each must be addressed separately (e.g., trephination/drainage of sinusitis) (outside knowledge — confirm)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "What IS a paranasal sinus?",
+     "a": "Air-filled diverticulum between the external and internal lamina (compact bone) of a skull bone, lined by respiratory mucosa (pseudostratified ciliated columnar + goblet cells)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Paranasal sinuses of the dog?",
+     "a": "Maxillary RECESS (not a sinus), frontal sinus (LARGEST), palatine + sphenoidal (tiny, evolutionary)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Frontal sinus compartments?",
+     "a": "Rostral, medial, LATERAL (largest). Don't communicate with each other; each opens separately into the nasal cavity (can flush them out the nostrils)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Does the maxillary recess grow with age?",
+     "a": "No — unlike true sinuses, which grow as the bone grows",
+     "star": false,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🗣️ LO2 · Larynx overview (slides 24–25)",
+   "title": "🗣️ LO2 · Larynx overview (slides + lecture 11/12 24–25)",
    "items": [
     {
      "q": "Larynx — functions/features (slide 24)…",
@@ -444,11 +590,23 @@
      "a": "In the pharynx — food passes around the larynx through the laryngopharynx (piriform recess) to the esophagus",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Two main jobs of the larynx?",
+     "a": "1) Prevent aspiration (epiglottis tilts back to cover the respiratory tract during swallowing) 2) Vocalization (vocal fold)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Larynx connects…?",
+     "a": "Laryngopharynx → trachea",
+     "star": false,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🦴 LO2 · Laryngeal cartilages (slides 26–32)",
+   "title": "🦴 LO2 · Laryngeal cartilages (slides + lecture 11/12 26–32)",
    "items": [
     {
      "q": "Four laryngeal cartilages (slide 26)…",
@@ -549,7 +707,7 @@
    ]
   },
   {
-   "title": "🌬️ LO2 · Laryngeal cavity (slides 33–34)",
+   "title": "🌬️ LO2 · Laryngeal cavity (slides + lecture 11/12 33–34)",
    "items": [
     {
      "q": "Three transverse segments of the laryngeal cavity, rostral → caudal (slide 33)…",
@@ -598,11 +756,29 @@
      "a": "A epiglottic; B arytenoid; C thyroid; D cricoid; E trachea",
      "star": true,
      "why": "Legend (slide 36)"
+    },
+    {
+     "q": "Three parts of the laryngeal cavity, rostral → caudal?",
+     "a": "Vestibule (tip of epiglottis → vestibular fold) → glottic cleft / rima glottidis → infraglottic cavity",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "What forms the glottis? The glottic cleft?",
+     "a": "Glottis = vocal process + vocal fold (a left and a right). The opening between them = glottic cleft (rima glottidis)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Intubation: what do you depress, what do you look at, what sizes the tube?",
+     "a": "Depress the EPIGLOTTIS with the laryngoscope → see the GLOTTIC CLEFT → its size picks the tube (not nostril size)",
+     "star": true,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "🔗 LO2 · Laryngeal ligaments (slides 35–36)",
+   "title": "🔗 LO2 · Laryngeal ligaments (slides + lecture 11/12 35–36)",
    "items": [
     {
      "q": "Seven laryngeal ligaments listed (slide 35)…",
@@ -651,11 +827,17 @@
      "a": "Vocal ligament (with the vocalis muscle)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Cricotracheal vs cricothyroid ligament?",
+     "a": "Cricotracheal = cricoid ↔ 1st tracheal ring; cricothyroid = cricoid arch ↔ thyroid. Both VENTRAL, both can be incised to reach the airway",
+     "star": true,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "💪 LO2 · Laryngeal muscles (slides 37–43)",
+   "title": "💪 LO2 · Laryngeal muscles (slides + lecture 11/12 37–43)",
    "items": [
     {
      "q": "Extrinsic laryngeal muscles — definition + 4 names (slide 37)…",
@@ -746,11 +928,35 @@
      "a": "Arytenoideus transversus (arytenoid → arytenoid)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Extrinsic laryngeal muscles connect the larynx to…?",
+     "a": "Hyoid (thyrohyoideus), pharynx (thyropharyngeus, cricopharyngeus), sternum (sternothyroideus)",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Cricothyroideus — nickname, O/I, action, nerve?",
+     "a": "'Bow tie muscle'; cricoid arch → thyroid; TENSES the vocal fold; CRANIAL laryngeal n. (branch of vagus) — the ONLY one",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Cricoarytenoideus dorsalis per lecture?",
+     "a": "Dorsal cricoid (by the midline ridge) → MUSCULAR process of arytenoid; MAIN abductor → OPENS the glottis; caudal laryngeal n.",
+     "star": true,
+     "why": "Lecture 11/12"
+    },
+    {
+     "q": "Cricoarytenoideus lateralis?",
+     "a": "Lateral aspect; does the OPPOSITE of the dorsalis (closes) — recording cuts off here",
+     "star": true,
+     "why": "Lecture 11/12"
     }
    ]
   },
   {
-   "title": "⚡ LO2 · Blood supply & innervation (slides 44–45)",
+   "title": "⚡ LO2 · Blood supply & innervation (slides + lecture 11/12 44–45)",
    "items": [
     {
      "q": "Main artery of the larynx (slide 44)?",

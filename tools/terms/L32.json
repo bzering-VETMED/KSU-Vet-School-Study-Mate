@@ -1,6 +1,6 @@
 {
  "traps": [
-  "📄 Built from the SLIDES only (lecture Wed 11/11) — stars and corrections update when the transcript arrives.",
+  "📄 Slides + lecture 11/11 transcript (Dr. Klimek). She said 'kind of showing you where these things are… how you approach them in dissection'.",
   "⚠️ FLAG — palatine branch naming: slide 25 says the maxillary becomes the infraorbital 'after the DESCENDING PALATINE arises'; the overview diagram (slides 8, 10, 21, 22) just says 'palatine'; L28 (Dr. Diehl) gave minor palatine + a common trunk → major palatine + sphenopalatine. The vein figure (slide 56) labels major palatine + sphenopalatine. Same territory, different naming — ask which names the exam uses.",
   "⚠️ FLAG — slide 27 says superficial branches to the lips and nose come 'from the facial, mental and infraorbital NERVES' on a slide about vessels. Probably meant arteries/vessels (facial a., mental branches, infraorbital a.) — confirm in transcript.",
   "⚠️ FLAG — plexus name word order: slide 39 (Fig. 4-35 legend) says 'internal ventral vertebral venous plexus'; slides 47–48 say 'ventral internal vertebral venous plexus'. Same structure — write 'ventral internal vertebral venous plexus' for fill-ins unless told otherwise.",
@@ -14,12 +14,60 @@
   "⚠️ Ventral spinal a. + both vertebral aa. → BASILAR a. (slide 34). Basilar + internal carotid → arterial circle around pituitary + optic chiasm (slide 35).",
   "⚠️ Vertebral VEIN drains to the costocervical vertebral TRUNK (slide 48); more caudal intervertebral veins drain to the AZYGOUS vein.",
   "⚠️ Medial retropharyngeal lymph node = DEEP, the 'terminal node' of the head (slide 51). Lateral retropharyngeal and parotid are different nodes. Buccal node present in only 13/150 dogs (slide 53).",
-  "⚠️ Enucleation danger = angularis oculi VEIN + malar ARTERY (slide 56) — vein vs artery pairing."
+  "⚠️ Enucleation danger = angularis oculi VEIN + malar ARTERY (slide 56) — vein vs artery pairing.",
+  "External carotid → maxillary artery switch point = where the SUPERFICIAL TEMPORAL comes off. Before that it's still 'external carotid' (she corrected herself in lecture).",
+  "Mandibular SALIVARY GLAND sits in the confluence of the maxillary + linguofacial veins (Kahoot warm-up).",
+  "Palpation: mandibular LYMPH NODES = superficial, movable (slip through your fingers); mandibular SALIVARY GLAND = bigger, deeper, FIXED (lecture 11/11).",
+  "Vertebral artery skips the transverse foramen of C7 (runs ventral to it) — enters at C6 (lecture 11/11).",
+  "Dorsal sagittal sinus = main place CSF drains back into the blood (lecture 11/11).",
+  "Veins have more interconnections (superficial ↔ deep) than arteries → collateral drainage if one is blocked (lecture 11/11)."
  ],
  "sections": [
   {
-   "title": "📋 Learning objectives & scope (slides)",
+   "title": "📣 Exam signals & scope (lecture 11/11) + objectives",
    "items": [
+    {
+     "q": "Bolded 'palpable' — what?",
+     "a": "Infraorbital FORAMEN: palpable, a key landmark this semester and next; artery, vein AND nerve exit it (careful with injections)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek) — bold on the slide"
+    },
+    {
+     "q": "Mental foramina + infraorbital foramen — must know?",
+     "a": "YES: 'mental foramen, where it is, what comes out of it, you should know that; infraorbital foramen… definitely know those'",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Branches you will NOT dissect?",
+     "a": "Rostral auricular, transverse facial, palpebral branches, nose/lip/muzzle branches, brain-circle branches (later). Deep facial v. — 'you don't need to find it'",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Kahoot: fossa ventral to the orbit?",
+     "a": "Pterygopalatine fossa (maxillary artery branches live here)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek) Kahoot"
+    },
+    {
+     "q": "Kahoot: two DIRECT tributaries of the external jugular?",
+     "a": "Linguofacial + maxillary veins",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek) Kahoot"
+    },
+    {
+     "q": "Kahoot: always-palpable bony landmark below the eye (emaciated dog photo)?",
+     "a": "Zygomatic arch",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek) Kahoot"
+    },
+    {
+     "q": "Tip for lab?",
+     "a": "Disarticulate the temporomandibular joint — makes the structures medial to the mandible much easier to see",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
     {
      "q": "LO 1 — arterial supply to the head: which 3 pathways (slide 6)?",
      "a": "External carotid, internal carotid, vertebral",
@@ -144,6 +192,24 @@
      "a": "Glossopharyngeal (10), vagus (11), hypoglossal (12); medial retropharyngeal lymph node (13) also visible",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Arteries that supply the head?",
+     "a": "Common carotid → internal + external carotid; vertebral artery; deep cervical (from costocervical, joins the vertebral)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Where do internal and external carotid split?",
+     "a": "Ventral to the wing of the atlas, deep",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Biggest vs smallest carotid branch?",
+     "a": "External carotid = biggest (most head structures); internal carotid = small → arterial circle of the brain",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -215,6 +281,30 @@
      "a": "Branches on the convex (outer) aspect of the pinna and perforates the aural cartilage to supply the inner surface",
      "star": true,
      "why": "Clinical correlation (aural hematoma)"
+    },
+    {
+     "q": "Order of external carotid branches (caudal → rostral) per lecture?",
+     "a": "(Occipital near origin) → LINGUAL → FACIAL → CAUDAL AURICULAR → SUPERFICIAL TEMPORAL → becomes MAXILLARY",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Lingual vs facial path?",
+     "a": "Both start medial to the angle of the mandible. Lingual stays medial → tongue. Facial goes ventral around the mandible → superficial → toward the eye",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Facial artery pulse point?",
+     "a": "Where it wraps the mandible — used in horses/cattle (next semester), not really in dogs",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Caudal auricular — how to find?",
+     "a": "Find it at the ear canal, trace back to the external carotid. (Rostral auricular exists, but you don't look for it)",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -262,6 +352,12 @@
      "a": "Superficial temporal artery and maxillary artery",
      "star": true,
      "why": "Matches L28; slide 15 bullet"
+    },
+    {
+     "q": "Transverse facial artery — why mention it?",
+     "a": "Branch of the superficial temporal; small in dogs, BIG in small ruminants (bigger than their facial)",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -321,6 +417,18 @@
      "a": "Medioventral orbit; emerges from the orbit at the medial canthus",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Maxillary artery route?",
+     "a": "Dips ventral to the temporomandibular joint → through the ALAR canal (can't see it) → reappears in the pterygopalatine fossa ventral to the orbit → maxillary foramen → infraorbital canal → infraorbital foramen",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "First branch you see in the pterygopalatine fossa?",
+     "a": "External ophthalmic artery (+ ethmoidal a. over the periorbita into the skull)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -374,6 +482,12 @@
      "a": "At the mandibular foramen, on the medial side of the mandible (intraoral or extraoral approach)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Inferior alveolar artery?",
+     "a": "Off the maxillary BEFORE the alar canal → mandibular foramen (with the inferior alveolar nerve) → through the mandible → exits the MENTAL foramina (local anesthesia site for lower lips/incisors)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -433,6 +547,18 @@
      "a": "Maxillary foramen → infraorbital canal → infraorbital foramen — this deck (slides 24–25) names only the alar canal and infraorbital foramen",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Malar artery?",
+     "a": "Off the infraorbital/maxillary near the infraorbital foramen → exits at the MEDIAL canthus (same region as the malaris muscle)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Infraorbital foramen in dog vs human?",
+     "a": "Human: directly below the orbit. Dog: a little ROSTRAL to the orbit (skull shape)",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -516,6 +642,24 @@
      "a": "No — 'You will learn more about the blood supply to the brain later'",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Vertebral artery path to the brain?",
+     "a": "Transverse foramina (C6 up; skips C7) → meets the OCCIPITAL artery in the atlantal fossa (ventral wing of atlas) → through the alar notch (dog) → into the vertebral canal → joins the ventral spinal artery",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Ventral spinal artery becomes…?",
+     "a": "The BASILAR artery (after the vertebral arteries join it) → arterial circle around the pituitary/optic chiasm; internal carotid joins the circle there",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Spinal cord arteries?",
+     "a": "1 ventral spinal + 2 dorsal spinal; segmental (intervertebral) branches at every intervertebral foramen",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -611,6 +755,18 @@
      "a": "Ophthalmic plexus, pterygoid plexus, palatine plexus",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Four routes of venous blood out of the head?",
+     "a": "External jugular (biggest), internal jugular (small, variable, in the carotid sheath), vertebral vein, vertebral venous plexus → azygous",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Veins vs arteries naming?",
+     "a": "Usually the same names, but some superficial veins have no artery partner (e.g., dog has 1 saphenous artery but 2 saphenous veins)",
+     "star": false,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -682,6 +838,30 @@
      "a": "Azygous vein",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Why do head veins connect superficial ↔ deep?",
+     "a": "Positional collateral drainage — if one vein is blocked, blood goes another way (angularis oculi → superficial OR → ophthalmic plexus → cavernous sinus)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Dural venous sinuses?",
+     "a": "Large dilated veins fixed inside the dura of the cranial cavity; drain out through skull foramina to spinal plexuses, vertebral v., internal jugular, or maxillary v.",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Main site of CSF return to blood?",
+     "a": "Dorsal sagittal sinus",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Internal vertebral venous plexus?",
+     "a": "Dorsal + ventral plexuses inside the vertebral canal; intervertebral veins connect them to the vertebral vein; caudally → azygous",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
@@ -747,6 +927,36 @@
      "a": "Answer not given on slide — confirm in transcript",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Terminal lymph node of the head?",
+     "a": "MEDIAL RETROPHARYNGEAL — all lymph from that side of the head passes through it",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Buccal lymph node?",
+     "a": "Near the facial vein below the eye; usually can't find on a cadaver; enlarges with oral infection/tooth abscess — know it's there",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Parotid lymph node?",
+     "a": "Small, just ROSTRAL to the parotid salivary gland, next to the dorsal buccal branch of the facial nerve (follow that nerve back to find it)",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Lateral retropharyngeal lymph node?",
+     "a": "Small, deep, caudal; aka atlantal lymph node (near the wing of the atlas); usually can't find it",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
+    },
+    {
+     "q": "Where does head lymph go after the medial retropharyngeal?",
+     "a": "Tracheal trunk → veins in front of the heart",
+     "star": true,
+     "why": "Lecture 11/11 (Dr. Klimek)"
     }
    ]
   },
