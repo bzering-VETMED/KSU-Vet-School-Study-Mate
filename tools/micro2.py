@@ -35,6 +35,7 @@ open(FS,'w').write(f'<!doctype html><html lang="en"><head><meta charset="utf-8">
 import deck
 from micro2_lab9 import MAIN as L9MAIN,PHOTOS as L9PH,ATLAS as L9AT,EXAM as L9EX,OBJ as L9OBJ
 from micro2_lab11 import MAIN as L11MAIN,PHOTOS as L11PH,ATLAS as L11AT,EXAM as L11EX,OBJ as L11OBJ
+from micro2_lab12 import MAIN as L12MAIN,PHOTOS as L12PH,ATLAS as L12AT,EXAM as L12EX,OBJ as L12OBJ
 SRC=os.environ.get('MIC2_SRC','/tmp/mic2')
 def asset(key,w=1300):
     dst=f'assets/mic2_{key.replace("/","_")}.jpg'
@@ -63,7 +64,8 @@ def termcards(secs):
             out.append(f'<section class="card"><div class="q textq">{"★ " if hy else ""}{E(t)}: function / how do you recognize it?</div>{deck.stg("❓ Your answer?",ans,True)}<div class="rev">💗 TAP TO REVEAL</div></section>')
     return out
 LABS=[('lab9','🫁','Lab 9 · Respiratory System',L9MAIN,L9PH,L9AT,L9OBJ,[x for x in FUNCS2 if x[0].startswith('🫁')]),
-('lab11','🧠','Lab 11 · Central Nervous System',L11MAIN,L11PH,L11AT,L11OBJ,[x for x in FUNCS2 if x[0].startswith('🧠 Central')])]
+('lab11','🧠','Lab 11 · Central Nervous System',L11MAIN,L11PH,L11AT,L11OBJ,[x for x in FUNCS2 if x[0].startswith('🧠 Central')]),
+('lab12','🫘','Lab 12 · Urinary System',L12MAIN,L12PH,L12AT,L12OBJ,[x for x in FUNCS2 if x[0].startswith('🫘')])]
 labtiles=[]
 for slug,fav,T,MAIN,PH,AT,OBJ,TS in LABS:
     hubfn=f'systems-lp2-{slug}-images.html'; links=[];alltext=[]
@@ -93,7 +95,7 @@ for slug,fav,T,MAIN,PH,AT,OBJ,TS in LABS:
     print(slug,'main',len(MAIN),'photos',len(PH),'atlas',len(AT),'terms',len(tc),'obj',f'{got}/{len(OBJ)}',[t for t in OBJ if t not in blob])
 # 📝 practice exams: Active Learning quizzes
 exlinks=[]
-for wk,EXL in ((9,L9EX),(11,L11EX)):
+for wk,EXL in ((9,L9EX),(11,L11EX),(12,L12EX)):
     ec=[]
     for num,q,a,tell,fn_,ans in EXL:
         facts=[]
@@ -107,7 +109,7 @@ for wk,EXL in ((9,L9EX),(11,L11EX)):
 tiles=[f'<div class="tile"><h2>🧠 Functions review</h2><a href="{FS}?v={V}">One page · tap to reveal · {n} items</a></div>',
 f'<div class="tile"><h2>📝 Practice exams</h2>{"".join(exlinks)}</div>']+labtiles+[
 '<div class="tile"><h2>🔁 Review labs 1, 2, 3, 4 & 7 (~10 Q)</h2><a href="systems-lab-practical1.html?v='+V+'">Practical 1 image cards + layers</a></div>',
-'<div class="tile"><h2>⏳ Coming next</h2><p class="soon">Lab 12 Urinary · Lab 14 Endocrine (built when their Active Learning + transcripts arrive)</p></div>']
+'<div class="tile"><h2>⏳ Coming next</h2><p class="soon">Lab 14 Endocrine (built when its Active Learning + transcript arrive)</p></div>']
 prac=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🔬 Systems I · Lab Practical 2</title><style>body{{margin:0;background:#fff9fd;color:#493451;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}}.wrap{{max-width:1000px;margin:auto;padding:18px}}.hero{{color:#fff;background:linear-gradient(135deg,#5d347e,#8855b8 55%,#df78ad);padding:24px;border-radius:24px}}.hero h1{{margin:0}}.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}}.tile{{background:#fff;border:1px solid #eadff2;border-radius:18px;padding:18px}}.tile h2{{color:#70428f;margin:0 0 10px;font-size:20px}}.tile a{{display:block;text-decoration:none;margin:7px 0;padding:10px;border-radius:12px;background:#f7eefb;color:#70428f;font-weight:800}}.soon{{margin:0;color:#786c7c;font-size:15px}}.note{{margin-top:14px;background:#fff;border:1px dashed #eadff2;border-radius:16px;padding:12px 14px;font-size:15px}}@media(max-width:700px){{.grid{{grid-template-columns:1fr}}}}</style></head><body><div class="wrap"><a href="systems-lab.html?v={V}" style="display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:#f3eafb;color:#65328c;font-weight:800;text-decoration:none">← Back to Systems Lab</a><div class="hero"><h1>🔬 Veterinary Systems I · Lab Practical 2</h1><p>Microanatomy Exam 2 · Labs 9, 11, 12 & 14 + review of 1, 2, 3, 4 & 7 · 50 images, fill-in-the-blank</p></div><div class="note">~40 questions from Labs 9, 11, 12, 14 · ~10 cumulative review (Dr. Basel, Lab 9). Spell it exactly; there's no word bank. Lab 13 (Urinalysis) is NOT on this exam.</div><div class="grid">{"".join(tiles)}</div></div></body></html>'''
 open(PRAC,'w').write(prac)
 
