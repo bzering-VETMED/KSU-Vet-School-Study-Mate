@@ -44,6 +44,7 @@ page = f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport
 <li>Exam 4 = 100 pt written + 100 pt practical; up to <b>20% review</b> of earlier material.</li>
 <li><b>Lab Exam 4 is a group exam</b> (format explained after Exam 3). Dissection Checkoff 4 + review = Wed 12/2.</li>
 <li>Lecture Exam 4 time not posted yet (Exam 3 was 8:00 AM). Blueprint comes ~1 week before.</li>
+<li><b>Week 13 (Canvas 11/13):</b> Mon 11/16 lecture quiz = rest of the EYE, EAR, head VESSELS, RESPIRATORY head · Dr. Klimek lectures all week (brain, meninges, cranial nerves, spinal cord) · NO Sunday lab review 11/15 · Blueprints posted (Lab Exam 4, Lecture Exam 4, Final) · After break: L37 head radiology (Dr. Cassel) · Final lab review Tue 12/1 5 PM (Dr. Klingler) · Learning Tools assignment open · Practical 4 = pelvic limb vessels + nerves, head, brain, meninges, spinal cord, head radiology.</li>
 <li><b>Week 12 (Canvas 11/6):</b> Mon 11/9 quiz → Dr. Malreddy finishes the EYE + covers the EAR · Wed 11/11 Dr. Klimek head vessels (no skulls in lecture hall) · Thu 11/12 respiratory components of the head = his LAST new-material lecture.</li>
 <li><b>Sun 11/8, 5 PM:</b> optional lab review — pelvic limb nerves, skull foramina, superficial head structures.</li>
 <li><b>Canvas review Qs:</b> infraorbital nerve route (maxillary foramen → infraorbital canal → infraorbital foramen); parotid duct endpoints (parotid gland → buccal vestibule at upper premolar 4).</li></ul></div>
