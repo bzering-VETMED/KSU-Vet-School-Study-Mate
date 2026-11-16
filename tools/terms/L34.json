@@ -1,6 +1,7 @@
 {
  "traps": [
   "📄 Built from the SLIDES only (lecture Mon 11/16) — stars and corrections update when the transcript arrives.",
+  "⚠️ FLAG — DIENCEPHALON: old slide 18 (and the lab-guide figure bracket) call it the 'rostral-most part of the BRAINSTEM'. Dr. Klimek's NEW slide (11/16): older texts did, but MODERN descriptions put the diencephalon in the FOREBRAIN — a diencephalon lesion causes FOREBRAIN signs (altered mental state/behavior). Use the new slide for her exam.",
   "Meninges outside → in: DURA → ARACHNOID → PIA (DAP). Pia is the one stuck to nervous tissue and follows vessels in (slides 39, 42).",
   "Spaces: EPIDURAL = outside dura, fat-filled, spinal cord ONLY (brain has NO epidural space — dura fused to skull periosteum) · SUBDURAL = POTENTIAL space (open only as an artifact) · SUBARACHNOID = real space with CSF + blood vessels + arachnoid trabeculae (slides 40, 43, 47).",
   "FALX CEREBRI = longitudinal cerebral fissure (left vs right hemispheres), holds dorsal sagittal sinus · TENTORIUM CEREBELLI = transverse cerebral fissure (cerebrum vs cerebellum), partly dura + partly bone (slides 44–46).",
@@ -318,8 +319,20 @@
    "title": "🧠 LO2 · Diencephalon",
    "items": [
     {
+     "q": "Is the diencephalon part of the brain stem or the forebrain (new slide 11/16)?",
+     "a": "FOREBRAIN (modern view). Older texts/anatomists called it brain stem because it lines up structurally with it",
+     "star": true,
+     "why": "NEW slide Dr. Klimek added in lecture Mon 11/16"
+    },
+    {
+     "q": "Lesion in the diencephalon produces signs of…?",
+     "a": "FOREBRAIN disease — altered mental state / behavior",
+     "star": true,
+     "why": "NEW slide Dr. Klimek added in lecture Mon 11/16"
+    },
+    {
      "q": "Diencephalon position (slide 18)?",
-     "a": "Rostral-most part of the brainstem; ventral to the fornix, medial to the internal capsule",
+     "a": "Ventral to the fornix, medial to the internal capsule. ⚠️ Slide 18 calls it 'rostral-most brainstem' — her NEW slide says modern view = part of the FOREBRAIN",
      "star": false,
      "why": ""
     },
