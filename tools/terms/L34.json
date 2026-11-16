@@ -1,6 +1,6 @@
 {
  "traps": [
-  "📄 Built from the SLIDES only (lecture Mon 11/16) — stars and corrections update when the transcript arrives.",
+  "📄 Slides + lecture 11/16 transcript (Dr. Klimek) through the floor of the 4th ventricle — 'we'll finish this on Wednesday' (rest of CSF + clinical = slides only until Wed 11/18).",
   "⚠️ FLAG — DIENCEPHALON: old slide 18 (and the lab-guide figure bracket) call it the 'rostral-most part of the BRAINSTEM'. Dr. Klimek's NEW slide (11/16): older texts did, but MODERN descriptions put the diencephalon in the FOREBRAIN — a diencephalon lesion causes FOREBRAIN signs (altered mental state/behavior). Use the new slide for her exam.",
   "Meninges outside → in: DURA → ARACHNOID → PIA (DAP). Pia is the one stuck to nervous tissue and follows vessels in (slides 39, 42).",
   "Spaces: EPIDURAL = outside dura, fat-filled, spinal cord ONLY (brain has NO epidural space — dura fused to skull periosteum) · SUBDURAL = POTENTIAL space (open only as an artifact) · SUBARACHNOID = real space with CSF + blood vessels + arachnoid trabeculae (slides 40, 43, 47).",
@@ -15,12 +15,77 @@
   "Pons: TRANSVERSE fibers = visible ventral bar; LONGITUDINAL fibers lie DORSAL to them, continue the crus cerebri, NOT visible on surface (slide 29).",
   "⚠️ FLAG (terminology): metathalamus is listed as 'medial and lateral geniculate NUCLEI' on slide 18 but 'geniculate BODY' on slide 22 — same structures; confirm which wording the professor wants on the exam.",
   "⚠️ FLAG: slide 23 says mammillary bodies are 'immediately DORSAL to the pituitary.' Standard description places the mammillary bodies CAUDAL to the infundibulum/tuber cinereum (outside knowledge — confirm). Use slide wording for now.",
-  "⚠️ FLAG: slide 66 is titled 'Normal brain CT scan versus hydrocephalus' but the images appear to be magnetic resonance images (MRI) (outside knowledge — confirm). Content (enlarged lateral ventricle, compressed cerebral cortex) is unaffected."
+  "⚠️ FLAG: slide 66 is titled 'Normal brain CT scan versus hydrocephalus' but the images appear to be magnetic resonance images (MRI) (outside knowledge — confirm). Content (enlarged lateral ventricle, compressed cerebral cortex) is unaffected.",
+  "Optic nerve is really CNS (an extension of the diencephalon; CNS glia) — sometimes called the 'prechiasmatic optic tract' (lecture 11/16).",
+  "Caudate nucleus = ROSTRAL floor of the lateral ventricle; hippocampus = CAUDAL in the lateral ventricle (lecture 11/16).",
+  "Projection fibers = in/out of the cerebrum (to brainstem/cord); COMMISSURAL = cross the midline (corpus callosum, fornix, rostral commissure); ASSOCIATION = within one hemisphere. 'A concept I might ask you about' (lecture 11/16).",
+  "Lateral geniculate = VISUAL relay; medial geniculate = AUDITORY relay. Rostral colliculi = visual; caudal colliculi = auditory (lecture 11/16).",
+  "Midbrain ROOF = tectum (corpora quadrigemina = rostral + caudal colliculi); FLOOR = cerebral peduncle (ventral surface = crus cerebri; tegmentum; substantia nigra) (lecture 11/16).",
+  "Metencephalon = cerebellum (dorsal) + PONS (ventral). Cerebellar peduncles named by where they attach to the brainstem; MIDDLE one → transverse fibers of the pons (lecture 11/16).",
+  "Myelencephalon: trapezoid body points toward CN VII; pyramids = columns beside the midline (lecture 11/16).",
+  "Kahoot: pituitary is associated with the DIENCEPHALON (hypothalamus also accepted) (lecture 11/16).",
+  "Arterial circle is formed mainly by branches of the INTERNAL CAROTID (rostral + caudal) + basilar. Cerebrum: 3 arteries (rostral, middle, caudal cerebral); cerebellum: 2 (rostral, caudal cerebellar) (lecture 11/16).",
+  "Dura is FUSED to the skull in the cranial cavity, but around the spinal cord there's an EPIDURAL space with fat (lecture 11/16).",
+  "Cerebellomedullary cistern (at the foramen magnum) = wide subarachnoid space = a CSF collection site (lecture 11/16)."
  ],
  "sections": [
   {
-   "title": "📋 Learning objectives & scope (slides)",
+   "title": "📣 Exam signals & scope (lecture 11/16) + objectives",
    "items": [
+    {
+     "q": "Lecture scope?",
+     "a": "Not everything about the brain — focus on what you're expected to IDENTIFY, which region each structure belongs to, and the gross divisions",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Projection vs commissural vs association fibers — tested?",
+     "a": "'That's more of a concept I might ask you about' (not something you can see)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Substantia nigra — tested how?",
+     "a": "You won't identify it, but 'I might ask you what part of the brain' → MIDBRAIN (tegmentum)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Basal nuclei pathway diagram — tested?",
+     "a": "NO: 'I'm not going to ask you about this slide and the pathways'",
+     "star": false,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Kahoot: which brain region is the pituitary associated with?",
+     "a": "Diencephalon (or hypothalamus)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek) Kahoot"
+    },
+    {
+     "q": "Quiz 9 review: two sources of blood to the brain?",
+     "a": "Vertebral artery + internal carotid artery",
+     "star": true,
+     "why": "Quiz 9 review (11/16)"
+    },
+    {
+     "q": "Quiz 9 review: what innervates the larynx?",
+     "a": "Vagus — via cranial laryngeal + caudal (recurrent) laryngeal branches",
+     "star": true,
+     "why": "Quiz 9 review (11/16)"
+    },
+    {
+     "q": "Quiz 9 review: auricular muscles attach to?",
+     "a": "Scutiform cartilage (auricular = the pinna; annular = base of the canal)",
+     "star": true,
+     "why": "Quiz 9 review (11/16)"
+    },
+    {
+     "q": "Quiz 9 review: optic nerve function?",
+     "a": "Purely SENSORY (no motor/autonomic)",
+     "star": true,
+     "why": "Quiz 9 review (11/16)"
+    },
     {
      "q": "LO1 (slide 2)…",
      "a": "Explain the 3- and 5-vesicle stages of brain development, and the divisions of the adult brain.",
@@ -145,6 +210,30 @@
      "a": "Cerebrum, commissure of the cerebral hemispheres, choroid plexus of the 3rd ventricle, epiphysis (pineal), interthalamic adhesion, olfactory bulb, optic nerve (II), hypophysis, mammillary body, pons, medulla oblongata, cerebellum, choroid plexus of the 4th ventricle",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "3-vesicle stage?",
+     "a": "Prosencephalon (forebrain), mesencephalon (midbrain), rhombencephalon (hindbrain)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "5-vesicle stage?",
+     "a": "Prosencephalon → TELENCEPHALON + DIENCEPHALON · mesencephalon stays undivided · rhombencephalon → METENCEPHALON + MYELENCEPHALON",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Where does the optic cup (future retina) come from?",
+     "a": "Directly from the DIENCEPHALON — the retina/optic nerve are an extension of the brain (CNS)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Two origins of the pituitary?",
+     "a": "Part from the diencephalon; part from the oral cavity (Rathke's pouch) that fuses with it",
+     "star": false,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -312,6 +401,42 @@
      "a": "Corpus callosum, caudate nucleus, fimbria, cerebral white matter, cerebral cortex, septal region, hippocampus (floor of lateral ventricle)",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Four lobes of the cerebrum?",
+     "a": "Frontal, parietal, occipital, temporal — named for the skull bones next to them; not visibly separated",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Caudate nucleus?",
+     "a": "A basal nucleus; grayish, in the ROSTRAL floor of the lateral ventricle",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Hippocampus?",
+     "a": "Cortex inverted into the CAUDAL lateral ventricle; curved in 3D (looks dorsal or ventral depending on the section)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Internal capsule?",
+     "a": "Projection fibers connecting the cerebral hemisphere to the brainstem; seen as the cut surface on the sheep brain with the cerebrum removed",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Rostral commissure?",
+     "a": "Round bundle of commissural fibers, rostral to the interthalamic adhesion, beside where the fornix comes down",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Fornix?",
+     "a": "Commissural structure arching down toward the mammillary body; a thin wall (septum pellucidum) separates it from the corpus callosum",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -413,6 +538,48 @@
      "a": "Diencephalon (hypothalamus)",
      "star": true,
      "why": "In-class question slide"
+    },
+    {
+     "q": "Four parts of the diencephalon?",
+     "a": "Thalamus (center; interthalamic adhesion), EPIthalamus (above: pineal + habenular nucleus + stria habenularis), METAthalamus (next to: geniculate bodies), HYPOthalamus (below: optic chiasm → mammillary bodies, pituitary)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Interthalamic adhesion?",
+     "a": "Round, left-to-right connection of the thalamus seen on the sagittal section; the 3rd ventricle wraps around it",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Pineal gland — other name, size?",
+     "a": "Epiphysis; small in the dog, LARGE in the sheep; caudal end of the epithalamus",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Lateral vs medial geniculate body?",
+     "a": "Lateral = VISUAL relay; medial = AUDITORY relay",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Hypothalamus extent on the ventral brain?",
+     "a": "Optic chiasm → mammillary bodies; the hole = where the pituitary attached",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Why is the pituitary usually missing from removed brains?",
+     "a": "It sits in the sella turcica under a fold of dura — stays in the skull unless you free it",
+     "star": false,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Which ventricle is in the diencephalon?",
+     "a": "THIRD ventricle (around the interthalamic adhesion, down toward the pituitary)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -478,6 +645,30 @@
      "a": "3 and 12",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Lumen of the midbrain — her preferred name?",
+     "a": "MESENCEPHALIC aqueduct (she dislikes 'cerebral aqueduct')",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Roof vs floor of the midbrain?",
+     "a": "Roof = TECTUM (corpora quadrigemina) · floor = CEREBRAL PEDUNCLE (→ internal capsule); ventral surface = crus cerebri; ventral part = tegmentum (substantia nigra)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Corpora quadrigemina?",
+     "a": "4 bodies: 2 rostral colliculi (visual) + 2 caudal colliculi (auditory)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "What is a peduncle?",
+     "a": "A stalk — cerebral peduncles connect cerebrum ↔ brainstem; cerebellar peduncles connect cerebellum ↔ brainstem",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -561,6 +752,42 @@
      "a": "Caudal ½ of the 4th ventricle",
      "star": true,
      "why": "Lumen-per-region (LO5)"
+    },
+    {
+     "q": "Two parts of the metencephalon?",
+     "a": "Cerebellum (dorsal metencephalon) + pons (ventral metencephalon)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Transverse fibers of the pons?",
+     "a": "Visible transverse bar on the ventral surface; longitudinal fibers are deeper (not visible)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Regions of the cerebellum?",
+     "a": "Vermis (middle) + hemispheres",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Cerebellar peduncles — can you separate them?",
+     "a": "No — know why they're named: rostral attaches rostrally, caudal caudally, MIDDLE runs into the transverse fibers of the pons",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Myelencephalon structures to know?",
+     "a": "Trapezoid body (points toward CN VII) and pyramids (columns beside the midline)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Where is the 4th ventricle?",
+     "a": "Partly in the metencephalon (between cerebellum and pons) and partly in the myelencephalon",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -614,6 +841,24 @@
      "a": "Internal ethmoidal, internal ophthalmic, internal carotid, labyrinthine, caudal communicating, ventral spinal, vertebral, basilar",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "What forms the arterial circle?",
+     "a": "Mainly the internal carotid's rostral + caudal branches, joined caudally by the basilar artery (ventral spinal + vertebrals)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Which cerebral artery covers the lateral surface? Which are on the median section?",
+     "a": "Lateral surface = MIDDLE cerebral. Median section (around the corpus callosum) = ROSTRAL + CAUDAL cerebral",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "How many arteries to cerebrum vs cerebellum?",
+     "a": "Cerebrum 3 (rostral, middle, caudal cerebral); cerebellum 2 (rostral, caudal cerebellar)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -721,6 +966,42 @@
      "a": "Arachnoid villi, dorsal sagittal sinus, bone, dura mater, arachnoid, trabeculae, subarachnoid space, pia mater, cerebral vein/venule, cerebral artery/arteriole, perivascular space, cerebrum, falx cerebri",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Dura in the skull vs around the cord?",
+     "a": "Skull: fused to the bone (periosteum). Cord: separate, with an epidural space containing fat",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Why is the subdural space big in cadavers?",
+     "a": "CSF drained out post-mortem, so the arachnoid collapses away from the dura",
+     "star": false,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Pia mater and vessels?",
+     "a": "Pia follows the blood vessels into the brain",
+     "star": false,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Falx cerebri?",
+     "a": "Dural membrane in the longitudinal fissure between the cerebral hemispheres; dorsal sagittal sinus runs along it",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Tentorium cerebelli?",
+     "a": "Partly BONE, partly dura; separates cerebrum (above) from cerebellum (below)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Cerebellomedullary cistern?",
+     "a": "Enlarged subarachnoid space at the foramen magnum = good CSF collection site (careful: needle can hit the cord)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },
@@ -786,6 +1067,24 @@
      "a": "Floor of the 4th ventricle",
      "star": false,
      "why": ""
+    },
+    {
+     "q": "Ventricle flow order?",
+     "a": "Lateral ventricles (cerebral hemispheres) → interventricular foramen → 3rd ventricle (diencephalon) → mesencephalic aqueduct → 4th ventricle → lateral apertures → subarachnoid space",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Lateral aperture — how to recognize it?",
+     "a": "A tuft of choroid plexus sticking out; where CSF leaves the 4th ventricle into the subarachnoid space",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
+    },
+    {
+     "q": "Roof of the 4th ventricle?",
+     "a": "Rostral + caudal medullary velum (very thin; caudal one hard to find)",
+     "star": true,
+     "why": "Lecture 11/16 (Dr. Klimek)"
     }
    ]
   },

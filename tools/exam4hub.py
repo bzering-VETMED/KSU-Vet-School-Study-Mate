@@ -11,7 +11,7 @@ TILES = [  # (emoji, href, title, blurb)
     ("🦷", "gross-anatomy-l29-teeth.html", "L29 Teeth · Tap to Reveal", "Your lecture photos (tooth types, parts of a tooth) + Triadan quadrants & tables, roots, dental formulae, eruption times"),
     ("⚡", "gross-anatomy-lc30-cards.html", "L30 Terms", "Eye · 174 terms · ★ 95 · lectures 11/4 + 11/9 woven in · ★★ LR6 Do4 Rest3"),
     ("⚡", "gross-anatomy-lc32-cards.html", "L32 Terms", "Head Vessels · 154 terms · ★ 78 · lecture 11/11 woven in · arterial branches + venous drainage"),
-    ("⚡", "gross-anatomy-lc34-cards.html", "L34 Terms", "Brain & Meninges · 138 terms · ★ 52 · slides only (lecture Mon 11/16)"),
+    ("⚡", "gross-anatomy-lc34-cards.html", "L34 Terms", "Meninges & Brain · 188 terms · ★ 97 · lecture 11/16 woven in (continues Wed)"),
     ("⚡", "gross-anatomy-lc35-cards.html", "L35 Terms", "Cranial Nerves · 160 terms · ★ 70 · slides only (lecture Wed 11/18)"),
     ("⚡", "gross-anatomy-lc36-cards.html", "L36 Terms", "Spinal Cord & Vertebral Ligaments · 165 terms · ★ 65 · slides only (lecture Thu 11/19)"),
     ("⚡", "gross-anatomy-lc31-cards.html", "L31 Terms", "Ear · 80 terms · ★ 40 · lecture 11/9 woven in"),
