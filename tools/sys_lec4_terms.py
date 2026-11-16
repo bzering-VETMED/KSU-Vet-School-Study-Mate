@@ -558,6 +558,11 @@ dbody=(BAR+f'<div class="sec"><h2>⭐ Nephron osmolarity map (Basel: "know this 
 pg(DFN,'📈 Renal diagrams','Exam 4 · Renal · tap-to-reveal · redrawn by Claude from Basel\'s slides',dbody,E4,'Back to Exam 4')
 links+=f'<a class="tile" href="{DFN}?v={V}"><div class="emoji">📈</div><h2>Diagrams</h2><p>⭐ Nephron osmolarity map (S19) · tap the numbers</p></a>'
 
+import os
+_old=''
+for _fn,_yr,_d in [('systems-lec4-old2025.html','2025','70 Q · 60 renal + 10 immune'),('systems-lec4-old2024.html','2024','57 Q · all renal')]:
+    if os.path.exists(_fn): _old+=f'<a class="tile" href="{_fn}?v={V}"><div class="emoji">📝</div><h2>⭐ Basel Old Exam · {_yr}</h2><p>{_d} · tap to check · Shuffle · Misses only</p></a>'
+links=_old+links
 HCSS=re.search(r'<style>.*?</style>',open(E2).read(),re.S).group(0)
 def hub(fn,title,h1,sub,back,backlbl,tiles):
     open(fn,'w').write(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8855b8"><title>{title}</title>{HCSS}</head><body><div class="wrap"><section class="hero"><h1>{h1}</h1><p>{sub}</p></section><div class="nav"><a href="{back}?v={V}">← {backlbl}</a></div><div class="grid">{tiles}</div><div class="footer">KSU Vet School Study Mate · Fall 2026</div></div>{SW}</body></html>')
