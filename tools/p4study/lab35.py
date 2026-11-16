@@ -1,11 +1,14 @@
 import sys; sys.path.insert(0,'/home/claude/studysheets')
 from build import build_items
-from ring import ring
+from isolate import isolate,find_rects
+P35='/mnt/user-data/attachments/31594bc3-9d6f-5c02-a55e-32953ff4d455/f54bb4ad-Lab_35.pdf'
 I='/home/claude/studysheets/img35/'; SRC='📖 Lab 35 notes, brain photo p'
 def P(pg,labels,cue=None):
-    fn=f'{I}p{pg}_{"_".join(l.strip("*,") for l in labels)}.jpg'; n=ring(pg,labels,fn)
-    assert n, (pg,labels)
-    return fn,(cue or ' + '.join('#'+l.strip('*,') for l in labels)+' (circled in pink)'),SRC+str(pg)
+    fn=f'{I}p{pg}_{"_".join(l.strip("*,") for l in labels)}.png'
+    rs=[r for l in labels for r in find_rects(P35,pg,l)[:1]]
+    assert rs, (pg,labels)
+    isolate(P35,pg,rs,fn)
+    return fn,(cue or ' + '.join('#'+l.strip('*,') for l in labels)),SRC+str(pg)
 T=[
 ('longitudinal cerebral fissure',P(3,['1']),'The midline groove splitting the <b>left and right cerebral hemispheres</b>. The falx cerebri sits in it.'),
 ('gyri',P(3,['2']),'The <b>ridges</b> (elevations) of the cerebrum. You don\'t need to name each one.'),
@@ -37,7 +40,7 @@ T=[
 ('infundibulum',P(5,['28']),'The <b>stalk (and its lumen)</b> connecting the hypothalamus to the hypophysis.'),
 ('mammillary bodies',P(5,['29']),'The round bumps on the <b>ventral hypothalamus, caudal to the infundibulum</b>.'),
 ('pineal body',P(10,['30']),'A small knob on the <b>dorsal, caudal diencephalon</b> (part of the epithalamus), just rostral to the rostral colliculi.'),
-('3rd ventricle',(P(9,['36'])[0],'the space around circled #36 (also labeled "3rd ventricle" on the photo)',SRC+'9'),'The narrow midline space <b>around the interthalamic adhesion</b>, in the diencephalon.'),
+('3rd ventricle',(P(9,['36'])[0],'the space around #36 (also labeled "3rd ventricle" on the photo)',SRC+'9'),'The narrow midline space <b>around the interthalamic adhesion</b>, in the diencephalon.'),
 ('choroid plexus of the 3rd ventricle',P(9,['32']),'The CSF-making tuft in the <b>roof of the 3rd ventricle</b>.'),
 ('interventricular foramen',P(9,['33']),'The opening between each <b>lateral ventricle and the 3rd ventricle</b>.'),
 ('lateral geniculate nucleus',P(10,['34']),'A bump on the caudal thalamus where the <b>optic tract ends</b>. It relays <b>vision</b>.'),

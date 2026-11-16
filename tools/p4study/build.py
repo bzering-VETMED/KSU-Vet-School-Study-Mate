@@ -1,4 +1,3 @@
-# Bethany's Bold Term Study Photos (p4-study-photos/). Run from repo root: APP=1 V=<ts> python3 tools/p4study/labNN.py
 """Bethany's personal study sheets: one HTML per lab, every bold term + one app photo + one study sentence. Not part of the app."""
 import re,sys,html,base64,io,json,os
 sys.path.insert(0,'/home/claude/repo/tools')
