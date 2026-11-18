@@ -147,6 +147,7 @@ def page(L,title,cards,n,todo=None):
     out=(build.APPDIR+f'lab{L}.html') if build.APP else f'/home/claude/studysheets/VAP806_Lab{L}_BoldTerms.html'
     doc=(f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lab {L} Bold Terms</title><style>{CSS2}</style></head><body>{build.BACK if build.APP else ""}'
          f'<h1>Lab {L}: {E(title)}</h1><div class="sub">{len(cards)} bold terms · one label per photo (blurred) · tap a card to reveal</div><div class="nav">{nav}</div>{bar}{"".join(cards)}{build.todo_html(L,todo)}<footer>🎀 Bethany · K-State CVM Class of 2030</footer></body></html>')
+    import fixlist; doc=fixlist.inject(doc)
     open(out,'w').write(build.dedupe(doc)); print(out,os.path.getsize(out)//1024,'KB')
 def build_v2(L,title,sent,override={},todo=None):
     cs=build.cards(f'gross-anatomy-lab{L}-bold.html')+build.cards(f'gross-anatomy-lab{L}-extra.html')
