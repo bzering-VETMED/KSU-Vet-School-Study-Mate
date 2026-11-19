@@ -157,7 +157,7 @@ SECS=[
  ('Creatinine confounder','Muscle wasting (less production) (S32)'),
  ('★ When does creatinine rise?','Only after ~75% loss of GFR → poor early marker; good for screening/monitoring CKD (S33)'),
  ('★ SDMA (symmetric dimethylarginine)','Amino acid metabolism byproduct · freely filtered · rises at ~25% GFR loss → MORE sensitive (S33)'),
- ('IRIS staging','Chronic kidney disease stages 1–4 by creatinine / SDMA (S33)'),
+ ('Staging CKD','By blood CREATININE + SDMA (higher = less function) · NOT BUN · Basel gave no stage cutoffs (S33)'),
  ('Cystatin C','~13 kDa cysteine-protease inhibitor made by almost every cell · filtered · reabsorbed AND destroyed in the PCT → never returns to blood → good GFR marker (dogs) (S34)'),
  ('★ BUN (blood urea nitrogen)','Urea is freely filtered but reabsorbed AND secreted · changes with diet, hydration, metabolism → POOR GFR marker (S35)'),
  ('↑ BUN + normal creatinine','Often PRErenal azotemia (S35)'),
@@ -560,7 +560,7 @@ links+=f'<a class="tile" href="{DFN}?v={V}"><div class="emoji">📈</div><h2>Dia
 
 import os
 _old=''
-if os.path.exists('systems-lec4-practice.html'): _old+=f'<a class="tile" href="systems-lec4-practice.html?v={V}"><div class="emoji">🎯</div><h2>⭐ Renal Practice Exam (new)</h2><p>63 Basel-style Q · all lectures + cases · tap to check · Shuffle · Misses only</p></a>'
+if os.path.exists('systems-lec4-practice.html'): _old+=f'<a class="tile" href="systems-lec4-practice.html?v={V}"><div class="emoji">🎯</div><h2>⭐ Renal Practice Exam (new)</h2><p>73 Basel-style Q · all lectures + cases · tap to check · Shuffle · Misses only</p></a>'
 for _fn,_yr,_d in [('systems-lec4-old2025.html','2025','70 Q · 60 renal + 10 immune'),('systems-lec4-old2024.html','2024','57 Q · all renal')]:
     if os.path.exists(_fn): _old+=f'<a class="tile" href="{_fn}?v={V}"><div class="emoji">📝</div><h2>⭐ Basel Old Exam · {_yr}</h2><p>{_d} · tap to check · Shuffle · Misses only</p></a>'
 links=_old+links
