@@ -1,7 +1,7 @@
 """'🔧 To fix' list for each Bold Term Study Photos page: terms sharing one photo (+ stand-in photos). Made by Claude, Nov 18."""
 import re,html,collections
 SAME={frozenset(x) for x in [('Dura mater','Pachymeninges'),('Middle vascular coat','Uvea'),('Zonule','Zonular fibers')]}
-STANDIN={'Lumbosacral plexus':'whole-region UMN photo, no single label','Obliquus muscles':'whole-region photo, no single label','Dilator pupillae':'lecture slide still shows #1 and #2',
+STANDIN_OLD={'Lumbosacral plexus':'whole-region UMN photo, no single label','Obliquus muscles':'whole-region photo, no single label','Dilator pupillae':'lecture slide still shows #1 and #2',
  'Crown':'teeth cartoon still shows other numbers','Root':'teeth cartoon still shows other numbers','Neck of tooth':'teeth cartoon still shows other numbers',
  'Vestibular surface':'color-coded teeth slide (all colors show)','Mesial contact surface':'color-coded teeth slide (all colors show)','Distal surface':'color-coded teeth slide (all colors show)'}
 CSS='.fix{max-width:760px;margin:0 auto 18px;background:#fff;border:2px dashed #512888;border-radius:14px;padding:14px}.fix h2{font-family:Fraunces,Georgia,serif;color:#512888;margin:0 0 4px}.fix li{margin:6px 0}.fix .ok{color:#3a7d44}.fix .h{color:#4a3d57;font-size:.95em}'
@@ -15,6 +15,7 @@ def section(doc):
         tag=' <span class="ok">✓ same structure, fine</span>' if frozenset(v) in SAME else ''
         rows.append('<li>'+' · '.join(f'<a href="#t{num[x]}">#{num[x]} {html.escape(x)}</a>' for x in v)+f' share one photo{tag}</li>')
     grouped={x for v in g.values() if len(v)>1 for x in v}
+    STANDIN={k:v for k,v in STANDIN_OLD.items() if 'Gross Anatomy notes' not in doc.split(f'<div class="n">{k}</div>')[0].rsplit('<div class="t"',1)[-1]}
     for n,why in STANDIN.items():
         if n in num and n not in grouped: rows.append(f'<li><a href="#t{num[n]}">#{num[n]} {html.escape(n)}</a>: {why}</li>')
     if not rows: return ''

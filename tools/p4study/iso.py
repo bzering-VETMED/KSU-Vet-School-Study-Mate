@@ -30,7 +30,7 @@ def find_words(p,phrase,clip):
         if [x[4].lower() for x in W[i:i+len(kw)]]==kw or [x[4].lower().strip(',.') for x in W[i:i+len(kw)]]==[k.strip(',.') for k in kw]:
             return W[i:i+len(kw)]
     raise ValueError(f'label not found: {phrase}')
-def isolate(pdf,pg,phrase,clip,out,dpi=170,tol=3.5,ring=False):
+def isolate(pdf,pg,phrase,clip,out,dpi=170,tol=3.5,ring=False,draw_text=True,grow=2,seed_pad=14,ink=False):
     src=fz.open(pdf); p=src[pg-1]
     phrases=phrase if isinstance(phrase,list) else [phrase]
     Ls=[]
@@ -41,11 +41,19 @@ def isolate(pdf,pg,phrase,clip,out,dpi=170,tol=3.5,ring=False):
         Ls.append(r)
     draws=[d for d in p.get_drawings() if d['rect'].width<p.rect.width*0.9]
     # seeds: shapes containing the label (circle/box) or lines starting next to it
-    seed=[i for i,d in enumerate(draws) if any((d['rect'].contains(L) and d['rect'].width<80 and d['rect'].height<80) or any(abs(q.x-L.x0)<6 or abs(q.x-L.x1)<6 for q in _pts(d) if L.y0-6<q.y<L.y1+6) or (d['rect'].width<p.rect.width*0.6 and any(q in L+(-14,-10,14,10) for q in _pts(d))) for L in Ls)]
+    seed=[i for i,d in enumerate(draws) if any((d['rect'].contains(L) and d['rect'].width<80 and d['rect'].height<80) or any(abs(q.x-L.x0)<6 or abs(q.x-L.x1)<6 for q in _pts(d) if L.y0-6<q.y<L.y1+6) or (d['rect'].width<p.rect.width*0.6 and any(q in L+(-seed_pad,-10,seed_pad,10) for q in _pts(d))) for L in Ls)]
+    if ink:   # handwriting: letters = strokes centred inside the label box; pointer = a long stroke ending at the label
+        seed=[]
+        for i,d in enumerate(draws):
+            r=d['rect']; c=fz.Point((r.x0+r.x1)/2,(r.y0+r.y1)/2)
+            if any(c in L and r.width<L.width+4 and r.height<L.height+5 for L in Ls): seed.append(i); continue
+            if max(r.width,r.height)>18 and not any(r.contains(L2) for L2 in Ls):
+                pts=_pts(d)
+                if pts and any(q in L+(-seed_pad,-9,seed_pad,9) for q in pts for L in Ls): seed.append(i)
     keep=set(seed); frontier=[(i,0) for i in seed]
     while frontier:
         i,dep=frontier.pop()
-        if dep>=2: continue
+        if dep>=grow: continue
         a=draws[i]
         for j,d in enumerate(draws):
             if j in keep: continue
@@ -81,7 +89,7 @@ def isolate(pdf,pg,phrase,clip,out,dpi=170,tol=3.5,ring=False):
         sh.finish(color=d.get('color'),fill=d.get('fill'),width=d.get('width') or 1,closePath=d.get('closePath',False),
                   fill_opacity=d.get('fill_opacity') or 1,stroke_opacity=d.get('stroke_opacity') or 1,lineCap=max(d.get('lineCap') or (0,)) if isinstance(d.get('lineCap'),tuple) else (d.get('lineCap') or 0),even_odd=d.get('even_odd',False))
     sh.commit()
-    for b in p.get_text('dict')['blocks']:
+    for b in (p.get_text('dict')['blocks'] if draw_text else []):
         for ln in b.get('lines',[]):
             for s in ln['spans']:
                 if any(fz.Rect(s['bbox']).intersects(L) for L in Ls) and s['text'].strip():
@@ -106,4 +114,9 @@ def isolate(pdf,pg,phrase,clip,out,dpi=170,tol=3.5,ring=False):
         R=R+(-3,-2,3,2)
         boxes.append(((R.x0-clip.x0)/clip.width,(R.y0-clip.y0)/clip.height,R.width/clip.width,R.height/clip.height))
     isolate.boxes=boxes
+    kr=fz.Rect()
+    for j in keep: kr|=draws[j]['rect']
+    for L in Ls: kr|=L
+    isolate.keep_rect=kr
+    isolate.n_lines=sum(1 for j in keep if max(draws[j]['rect'].width,draws[j]['rect'].height)>18 and not any(draws[j]['rect'].intersects(L) and draws[j]['rect'].width<L.width+4 for L in Ls))
     return len(keep)

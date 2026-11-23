@@ -149,13 +149,35 @@ def page(L,title,cards,n,todo=None):
          f'<h1>Lab {L}: {E(title)}</h1><div class="sub">{len(cards)} bold terms · one label per photo (blurred) · tap a card to reveal</div><div class="nav">{nav}</div>{bar}{"".join(cards)}{build.todo_html(L,todo)}<footer>🎀 Bethany · K-State CVM Class of 2030</footer></body></html>')
     import fixlist; doc=fixlist.inject(doc)
     open(out,'w').write(build.dedupe(doc)); print(out,os.path.getsize(out)//1024,'KB')
+GA=None
+def ga(t):
+    global GA
+    if GA is None: GA=json.load(open('/home/claude/studysheets/ga_imgs.json'))
+    r=(GA.get(t) or [None])[0]
+    return dict(r,src_kind='notes') if r else None
+WEAK={'guide','umn','raw','skull','override','special'}
 def build_v2(L,title,sent,override={},todo=None):
     cs=build.cards(f'gross-anatomy-lab{L}-bold.html')+build.cards(f'gross-anatomy-lab{L}-extra.html')
     cards=[];names=[];log=[]
+    picks=[]
     for i,(t,_,_) in enumerate(P4BOLD[L],1):
         o=override.get(t)
         r=ov(o,t) if o else pick(L,t,cs)
-        log.append((t,r and r['src_kind'])); cards.append(card(i,t,r,sent.get(t,''))); names.append((i,t))
+        if (not r or r['src_kind'] in WEAK) and ga(t): r=ga(t)
+        picks.append([t,r])
+    import collections
+    by=collections.defaultdict(list)
+    for k,(t,r) in enumerate(picks):
+        if r: by[r['img']].append(k)
+    for ks in by.values():
+        if len(ks)>1:
+            for k in ks:
+                if ga(picks[k][0]) and picks[k][1]['src_kind']!='notes': picks[k][1]=ga(picks[k][0])
+    if todo: todo=[x for x in todo if not ga(x[0])] or None
+    for i,(t,r) in enumerate(picks,1):
+        s=sent.get(t,'')
+        if r and r.get('note'): s+=f' <i>(Photo note: {E(r["note"])}.)</i>'
+        log.append((t,r and r['src_kind'])); cards.append(card(i,t,r,s)); names.append((i,t))
     page(L,title,cards,names,todo)
     import collections; print(' sources:',dict(collections.Counter(k for _,k in log)),' none:',[t for t,k in log if not k],' raw:',[t for t,k in log if k=='raw'])
 def ov(o,t):
