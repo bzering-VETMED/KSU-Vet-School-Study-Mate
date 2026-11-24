@@ -26,8 +26,7 @@ svg text.b{font-weight:800;fill:var(--accent)}
 svg text.nb{fill:var(--muted);font-style:italic}
 svg text.n{font-size:11.5px;fill:var(--muted)}
 svg .dot{fill:var(--art)}
-.quiz svg text.b{filter:blur(5px);cursor:pointer}
-.quiz svg text.b.show{filter:none}
+.quiz svg text.b{cursor:pointer}
 .key{display:flex;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);margin-bottom:8px}
 .box{margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
 .box h2{font-family:var(--display);font-size:1.15rem;margin:0 0 6px;color:var(--accent)}
@@ -124,5 +123,10 @@ const figs=[document.getElementById('fig'),document.getElementById('fig2')],q=do
 q.onclick=()=>{const on=!figs[0].classList.contains('quiz');figs.forEach(f=>{f.classList.toggle('quiz',on);f.querySelectorAll('.show').forEach(e=>e.classList.remove('show'))});q.setAttribute('aria-pressed',on)};
 figs.forEach(f=>f.addEventListener('click',e=>{const t=e.target.closest('text.b');if(t&&f.classList.contains('quiz')){const on=!t.classList.contains('show');f.querySelectorAll('text[data-g="'+t.dataset.g+'"]').forEach(x=>x.classList.toggle('show',on))}}));
 document.getElementById('all').onclick=()=>figs.forEach(f=>f.querySelectorAll('text.b').forEach(e=>e.classList.add('show')));
-figs.forEach(f=>f.classList.add('quiz'));</script>
+figs.forEach(f=>f.classList.add('quiz'));
+function sync(){figs.forEach(f=>{const on=f.classList.contains('quiz');f.querySelectorAll('svg').forEach(sv=>{if(!sv.querySelector('#blr'+sv.id)){const d=document.createElementNS(NS,'defs');d.innerHTML='<filter id="blr'+sv.id+'" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>';sv.prepend(d)}
+ sv.querySelectorAll('text.b').forEach(t=>{if(on&&!t.classList.contains('show'))t.setAttribute('filter','url(#blr'+sv.id+')');else t.removeAttribute('filter')})})})}
+new MutationObserver(sync).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class']});
+sync();
+</script>
 </body></html>
