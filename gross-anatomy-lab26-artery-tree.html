@@ -1,0 +1,128 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Pelvic Limb Artery Tree</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;800&display=swap">
+<style>
+/* Layout: drawn vessel diagram. The main vessel runs straight down; each branch peels off to the right as its own line. */
+:root{--bg:#fbf8fd;--card:#ffffff;--fg:#2b2133;--muted:#6f6079;--line:#c9b6db;--accent:#512888;--rose:#d94f7f;--art:#c8324f;--art2:#e07a8f;--vein:#2f6fa8;
+--display:"Baloo 2",system-ui,sans-serif;--body:"Nunito",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17121c;--card:#211a29;--fg:#efe7f5;--muted:#b3a5c0;--line:#5a4870;--accent:#c9a6ef;--rose:#f08ab0;--art:#ff6f86;--art2:#b8546a;--vein:#8cc1ef;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17121c;--card:#211a29;--fg:#efe7f5;--muted:#b3a5c0;--line:#5a4870;--accent:#c9a6ef;--rose:#f08ab0;--art:#ff6f86;--art2:#b8546a;--vein:#8cc1ef;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.4}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:var(--display);color:var(--accent);font-size:1.7rem;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 12px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.bar button{font:800 .9rem var(--body);padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--accent);cursor:pointer}
+.bar button[aria-pressed="true"]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.fig{overflow-x:auto}
+svg{display:block;width:100%;min-width:620px;max-width:760px;height:auto}
+svg .v{fill:none;stroke:var(--art);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+svg .v{stroke-width:3.5}svg .v.trunk{stroke-width:6}svg .gap{fill:var(--bg)}svg .lac{stroke:var(--muted);stroke-width:2;stroke-dasharray:4 3}
+svg text{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg text.tn,svg text.tn.b{font-weight:800;fill:var(--art);font-size:14.5px}
+.axes{display:flex;justify-content:space-between;gap:8px;font:800 .72rem var(--body);letter-spacing:.06em;color:var(--rose);max-width:760px;margin:4px 0}.hint{font-size:.8rem;color:var(--muted)}.axes span:nth-child(2){color:var(--muted);font-weight:600;letter-spacing:0;text-align:center}
+.ph{font-family:var(--display);color:var(--accent);font-size:1.15rem;margin:22px 0 2px}
+svg text{font-family:var(--body);font-size:14px;fill:var(--fg)}
+svg text.b{font-weight:800;fill:var(--accent)}
+svg text.nb{fill:var(--muted);font-style:italic}
+svg text.n{font-size:11.5px;fill:var(--muted)}
+svg .dot{fill:var(--art)}
+.quiz svg text.b{filter:blur(5px);cursor:pointer}
+.quiz svg text.b.show{filter:none}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);margin-bottom:8px}
+.box{margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.box h2{font-family:var(--display);font-size:1.15rem;margin:0 0 6px;color:var(--accent)}
+.box ul{margin:0;padding-left:20px}.box li{margin:4px 0}.vn{color:var(--vein);font-weight:800}
+footer{margin-top:24px;text-align:center;color:var(--muted);font-size:.8rem}
+body{margin:0}a.back{display:inline-block;margin:0 0 10px;padding:8px 14px;border-radius:999px;background:var(--soft,#f3eafb);color:var(--accent);font-weight:800;text-decoration:none}</style></head><body>
+<div class="wrap"><a class="back" href="gross-anatomy-lab26-images.html?v=1795480591">← Lab 26</a>
+<h1>Pelvic Limb Artery Tree</h1>
+<div class="sub">Lab 26 · drawn like the guide's Fig. 4-55: right limb seen from the medial side, so cranial branches go left and caudal branches go right</div>
+<div class="key"><span><b style="color:var(--accent)">Purple bold</b> = bold term</span><span><i>Grey italic</i> = not on your list, shown to connect the tree</span><span><b style="color:var(--art)">Red name + ↓</b> = same vessel, new name</span></div>
+<div class="bar"><button id="quiz" aria-pressed="true">🙈 Quiz mode: tap a name to reveal</button><button id="all">Show all</button></div>
+<div class="axes"><span>⬅ CRANIAL</span><span>Right pelvic limb · medial view (like Fig. 4-55)</span><span>CAUDAL ➡</span></div>
+<div class="hint">Names start blurred: tap one to reveal it. Swipe sideways on a phone to see the whole diagram.</div><div class="fig" id="fig"><svg id="svgA" viewBox="-130 0 770 1000" role="img" aria-label="External iliac and femoral branches, medial view"></svg></div>
+<h2 class="ph">Pelvis: internal iliac branches</h2>
+<div class="axes"><span>⬅ CRANIAL</span><span></span><span>CAUDAL ➡</span></div>
+<div class="fig" id="fig2"><svg id="svgB" viewBox="-130 0 770 330" role="img" aria-label="Internal iliac branches, medial view"></svg></div>
+<div class="box">
+<h2>Lab 26 veins (bold terms)</h2>
+<ul>
+<li><span class="vn">Medial saphenous vein</span>: cranial branch + caudal branch; medial limb, drains to the femoral vein</li>
+<li><span class="vn">Lateral saphenous vein</span>: cranial branch + caudal branch; crosses the lateral hock (catheter site)</li>
+</ul>
+</div>
+<div class="box">
+<h2>How to memorize the femoral branches</h2>
+<ul>
+<li>🗣️ In order: <b>"Super Lateral Proximal Saphenous Descends, Middle Distal Pops."</b></li>
+<li>⚠️ Trap: the deep femoral is the external iliac's <b>only</b> branch, and it leaves <b>inside the abdomen</b>, before the vascular lacuna.</li>
+<li>Lab 26 guide p. 197: the caudal gluteal (the larger terminal branch of the internal iliac) gives off the iliolumbar and cranial gluteal. The iliolumbar sometimes comes straight off the internal iliac instead.</li>
+</ul>
+</div>
+<footer>🎀 Bethany · K-State CVM Class of 2030 · Lab 26 guide + Lab 26 slides</footer>
+</div>
+<script>
+const NS="http://www.w3.org/2000/svg";
+function mk(svg,tag,a,t){const e=document.createElementNS(NS,tag);for(const k in a)e.setAttribute(k,a[k]);if(t)e.textContent=t;svg.appendChild(e);return e}
+function ln(svg,pts,cls){mk(svg,'path',{d:'M'+pts.map(p=>p.join(' ')).join(' L'),class:'v '+(cls||'')})}
+function gap(svg,x,y){mk(svg,'rect',{x:x-6,y:y-7,width:12,height:14,class:'gap'})}
+// label: lines split by |, anchor 'start'|'end'
+let G=0;function lab(svg,x,y,txt,bold,anchor,note){const parts=txt.split('|');const g=++G;parts.forEach((p,i)=>mk(svg,'text',{x,y:y+i*16,'text-anchor':anchor||'start',class:bold?'b':'nb','data-g':g},p));
+ if(note)mk(svg,'text',{x,y:y+parts.length*16-2,'text-anchor':anchor||'start',class:'n'},note)}
+function trunkName(svg,x,y,t,b){mk(svg,'text',{x,y,'text-anchor':'middle',class:b===0?'tn':'tn b','data-g':'t'+(++G)},t)}
+function dot(svg,x,y){mk(svg,'circle',{cx:x,cy:y,r:4.5,class:'dot'})}
+const A=document.getElementById('svgA'),X=270;
+// trunk
+ln(A,[[X,40],[X,960]],'trunk');
+trunkName(A,X,28,'Aorta',0);
+ln(A,[[X,70],[400,95]]); lab(A,408,99,'Internal iliac artery',0,'start','→ see pelvis diagram below');
+trunkName(A,X,140,'External iliac artery ↓');
+// deep femoral (caudomedial) and its branches
+ln(A,[[X,180],[360,215]]); dot(A,360,215); lab(A,368,212,'Deep femoral artery',1,'start','only branch · inside abdomen');
+ln(A,[[360,215],[300,262],[150,232]]); ln(A,[[300,262],[150,290]]);
+gap(A,X,244);gap(A,X,267);
+ln(A,[[X,232],[X,280]],'trunk');
+lab(A,142,236,'Caudal epigastric|artery',1,'end','via pudendoepigastric trunk');
+lab(A,142,294,'External pudendal|artery',0,'end','via pudendoepigastric trunk');
+
+ln(A,[[360,215],[440,300]]); dot(A,440,300); lab(A,432,318,'Medial circumflex|femoral artery',1,'end');
+ln(A,[[440,300],[520,262]]); lab(A,528,258,'Transverse|branch',1,'start');
+ln(A,[[440,300],[515,345]]); lab(A,523,349,'Deep branch',1,'start');
+// vascular lacuna
+mk(A,'line',{x1:X-26,y1:395,x2:X+26,y2:395,class:'lac'}); lab(A,X-32,399,'vascular lacuna',0,'end');
+trunkName(A,X+70,430,'Femoral artery ↓');
+// femoral branches
+ln(A,[[X,460],[130,440]]); lab(A,122,436,'Superficial circumflex|iliac artery',1,'end','1st branch · toward sartorius/TFL');
+ln(A,[[X,510],[130,500]]); lab(A,122,496,'Lateral circumflex|femoral artery',1,'end','between rectus femoris + vastus medialis');
+ln(A,[[X,555],[420,545]]); lab(A,428,541,'Proximal caudal|femoral artery',1,'start');
+// saphenous: medial surface, runs distally just caudal to the trunk
+ln(A,[[X,600],[310,640],[310,900]]); lab(A,318,608,'Saphenous artery',1,'start','mid-thigh · medial surface');
+ln(A,[[310,900],[275,935]]); lab(A,268,940,'Cranial branch',1,'end','dorsal paw');
+ln(A,[[310,900],[360,935]]); lab(A,368,940,'Caudal branch',1,'start','plantar paw');
+ln(A,[[X,660],[130,690]]); lab(A,122,686,'Descending genicular|artery',1,'end','medial stifle');
+ln(A,[[X,700],[440,705]]); gap(A,310,701); lab(A,448,701,'Middle caudal|femoral artery',1,'start');
+ln(A,[[X,750],[440,765]]); gap(A,310,753); lab(A,448,761,'Distal caudal|femoral artery',1,'start','last before stifle');
+trunkName(A,X-80,800,'Popliteal artery ↓');
+mk(A,'text',{x:X-80,y:814,'text-anchor':'middle',class:'n'},'between gastrocnemius heads');
+// cranial tibial: through to cranial crus
+ln(A,[[X,840],[140,880],[140,972]],'trunk'); lab(A,132,872,'Cranial tibial|artery',1,'end','to the cranial crus');
+mk(A,'text',{x:140,y:990,'text-anchor':'middle',class:'nb'},'↓ dorsal pedal artery');
+// mask trunk below 840 (trunk turns cranially)
+mk(A,'rect',{x:X-5,y:846,width:10,height:120,class:'gap'});
+// put text above lines
+[...A.querySelectorAll('text')].forEach(t=>A.appendChild(t));
+// ---- pelvis panel
+const B=document.getElementById('svgB'),Y=270;
+ln(B,[[Y,20],[Y,120],[330,300]],'trunk'); trunkName(B,Y,14,'Internal iliac artery',0);
+ln(B,[[Y,70],[430,110]]); lab(B,438,114,'Internal pudendal|artery',0,'start','pelvic organs');
+trunkName(B,Y-90,128,'Caudal gluteal artery ↓'); mk(B,'text',{x:Y-90,y:143,'text-anchor':'middle',class:'n'},'larger terminal branch');
+ln(B,[[290,170],[120,150]]); lab(B,112,146,'Iliolumbar artery',1,'end','cranial to wing of ilium');
+ln(B,[[302,205],[120,220]]); lab(B,112,216,'Cranial gluteal|artery',1,'end','across greater ischiatic notch');
+lab(B,340,300,'continues caudally over|the ischiatic spine',0,'start');
+[...B.querySelectorAll('text')].forEach(t=>B.appendChild(t));
+const figs=[document.getElementById('fig'),document.getElementById('fig2')],q=document.getElementById('quiz');
+q.onclick=()=>{const on=!figs[0].classList.contains('quiz');figs.forEach(f=>{f.classList.toggle('quiz',on);f.querySelectorAll('.show').forEach(e=>e.classList.remove('show'))});q.setAttribute('aria-pressed',on)};
+figs.forEach(f=>f.addEventListener('click',e=>{const t=e.target.closest('text.b');if(t&&f.classList.contains('quiz')){const on=!t.classList.contains('show');f.querySelectorAll('text[data-g="'+t.dataset.g+'"]').forEach(x=>x.classList.toggle('show',on))}}));
+document.getElementById('all').onclick=()=>figs.forEach(f=>f.querySelectorAll('text.b').forEach(e=>e.classList.add('show')));
+figs.forEach(f=>f.classList.add('quiz'));</script>
+</body></html>
